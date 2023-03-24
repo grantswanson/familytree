@@ -28,20 +28,20 @@ public class Row {
     private String occupation;
     private String marriageDate;
     private String marriagePlace;
-    private String wife;
-    private String wifeDob;
-    private String wifePob;
-    private String wifeBaptismDate;
-    private String wifeBaptismPlace;
-    private String wifeConfirmationDate;
-    private String wifeConfirmationPlace;
-    private String wifeHsGradDate;
-    private String wifeHsGradPlace;
-    private String wifeDeathDate;
-    private String wifeBurialPlace;
-    private String wifeFather;
-    private String wifeMother;
-    private String wifeOccupation;
+    private String spouse;
+    private String spouseDob;
+    private String spousePob;
+    private String spouseBaptismDate;
+    private String spouseBaptismPlace;
+    private String spouseConfirmationDate;
+    private String spouseConfirmationPlace;
+    private String spouseHsGradDate;
+    private String spouseHsGradPlace;
+    private String spouseDeathDate;
+    private String spouseBurialPlace;
+    private String spouseFather;
+    private String spouseMother;
+    private String spouseOccupation;
     private String unknown1;
     private String unknown2;
     private String child1;
@@ -122,9 +122,9 @@ public class Row {
 //
 //    UPDATE_DATE,NAME,GEN_CODE,DOB,POB,BAPTISM_DATE,BAPTISM_PLACE,CONFIRMATION_DATE,CONFIRMATION_PLACE,
 //    HS_GRAD_DATE,HS_GRAD_PLACE,DEATH_DATE,BURIAL_PLACE,FATHER,MOTHER,OCCUPATION,
-//    MARRAIGE_DATE,MARRAIGE_PLACE,WIFE,WIFE_DOB,WIFE_POB,WIFE_BAPTISM_DATE,WIFE_BAPTISM_PLACE,
-//    WIFE_CONFIRMATION_DATE,WIFE_CONFIRMATION_PLACE,WIFE_HS_GRAD_DATE,WIFE_HS_GRAD_PLACE,
-//    WIFE_DEATH_DATE,WIFE_BURRIAL_PLACE,WIFE_FATHER,WIFE_MOTHER,WIFE_OCCUPATION,UNKNOWN_1,UNKNOWN_2,
+//    MARRAIGE_DATE,MARRAIGE_PLACE,SPOUSE,SPOUSE_DOB,SPOUSE_POB,SPOUSE_BAPTISM_DATE,SPOUSE_BAPTISM_PLACE,
+//    SPOUSE_CONFIRMATION_DATE,SPOUSE_CONFIRMATION_PLACE,SPOUSE_HS_GRAD_DATE,SPOUSE_HS_GRAD_PLACE,
+//    SPOUSE_DEATH_DATE,SPOUSE_BURRIAL_PLACE,SPOUSE_FATHER,SPOUSE_MOTHER,SPOUSE_OCCUPATION,UNKNOWN_1,UNKNOWN_2,
 //    CHILD_1,CHILD_2,CHILD_3,CHILD_4,CHILD_5,CHILD_6,CHILD_7,CHILD_8,CHILD_9,CHILD_10,CHILD_11,CHILD_12,
 //    CHILDREN_NOTES,NOTES_1,NOTES_2,NOTES_3,NOTES_4,NOTES_5,NOTES_6,NOTES_7
 //}

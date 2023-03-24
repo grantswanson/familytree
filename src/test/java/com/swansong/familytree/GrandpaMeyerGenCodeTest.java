@@ -17,7 +17,9 @@ public class GrandpaMeyerGenCodeTest {
         Map<String, String> cases = Map.of(
                 "S", "S",
                 "SA1", "SA",
-                "SBB2", "SBB"
+                "SBB2", "SBB",
+                "SA2A1", "SA2A",
+                "SA2A", "SA2A"
         );
         for (String input : cases.keySet()) {
             GrampaMeyerGenCode code = GrampaMeyerGenCode.buildSelfCode(input);
@@ -31,6 +33,7 @@ public class GrandpaMeyerGenCodeTest {
         // input, expected output
         Map<String, String> cases = Map.of(
                 "S", "",
+                "SF", "S",
                 "SA1", "S",
                 "SBB2", "SB",
                 "SBB2AC2", "SBB2A"

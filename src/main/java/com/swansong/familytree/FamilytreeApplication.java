@@ -47,7 +47,7 @@ public class FamilytreeApplication {
 		Collections.sort(keys);
 		for(String key: keys) {
 			Person person = personMap.get(key);
-			System.out.println(key+" "+ person.getKeyAndGenCode());
+			System.out.println(key+" = "+ person.getKeyAndGenCode());
 		}
 	}
 

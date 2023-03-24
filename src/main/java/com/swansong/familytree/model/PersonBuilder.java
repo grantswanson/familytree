@@ -43,35 +43,38 @@ public class PersonBuilder {
         return Map.of(person.getKey(), person);
     }
     public Map<String, Person> buildSpouse(Row row) {
-        String name = row.getWife();
+        String name = row.getSpouse();
         if(name ==null || name.isBlank())
             return new HashMap<>();
 
         Person person = buildBasicPerson(name);
         // add more here
         // can't know the spouse's gen code
+        person.setGrandpaMeyerCode(new GrampaMeyerGenCode("SpouseOf:"+row.getGenCode()));
 
         return Map.of(person.getKey(), person);
     }
     public Map<String, Person> buildSpouseFather(Row row) {
-        String name = row.getWifeFather();
+        String name = row.getSpouseFather();
         if(name ==null || name.isBlank())
             return new HashMap<>();
 
         Person person = buildBasicPerson(name);
         // add more here
         // can't know the spouse's gen code, nor the parents of the spouse
+        person.setGrandpaMeyerCode(new GrampaMeyerGenCode("FatherInLawOf:"+row.getGenCode()));
 
         return Map.of(person.getKey(), person);
     }
     public Map<String, Person> buildSpouseMother(Row row) {
-        String name = row.getWifeMother();
+        String name = row.getSpouseMother();
         if(name ==null || name.isBlank())
             return new HashMap<>();
 
         Person person = buildBasicPerson(name);
         // add more here
         // can't know the spouse's gen code, nor the parents of the spouse
+        person.setGrandpaMeyerCode(new GrampaMeyerGenCode("MotherInLawOf:"+row.getGenCode()));
 
         return Map.of(person.getKey(), person);
     }

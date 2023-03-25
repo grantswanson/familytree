@@ -11,14 +11,13 @@ public class ReadFile {
     public ArrayList<Row> readFile(String csvFile) {
         ArrayList<Row> result = new ArrayList<>();
 
-        String line = "";
         String cvsSplitBy = ",(?=([^\"]*\"[^\"]*\")*[^\"]*$)";
         int maxColLength = 0;
 
         try (BufferedReader br = new BufferedReader(new FileReader(csvFile))) {
 
             // read the first line to determine the number of columns
-            line = br.readLine();
+            String line = br.readLine();
             int lineNumber = 0;
 
             while (line != null) {
@@ -38,15 +37,16 @@ public class ReadFile {
 
                 line = br.readLine();
             }
+            System.out.println("# rows="+lineNumber+" # columns=" + maxColLength+"\n");
 
         } catch (IOException e) {
             e.printStackTrace();
         }
-        System.out.println("Max col Length=" + maxColLength);
+
         return result;
     }
 
-    class RowBuilder {
+    static class RowBuilder {
         static Row buildRow(String[] values, int i) {
 
             return Row.builder()

@@ -19,6 +19,7 @@ public class ReadFile {
 
             // read the first line to determine the number of columns
             line = br.readLine();
+            int lineNumber = 0;
 
             while (line != null) {
                 // always fill in every column
@@ -29,9 +30,9 @@ public class ReadFile {
                 maxColLength = Math.max(values.length, maxColLength);
                 for (int i = 0; i < values.length; i++) {
                     finalValues[i] = values[i].replaceAll("^\"|\"$", "") // remove extra double quotes
-                        .replace("\"\"","").trim(); // removed doubled up double quotes
+                        .replace("\"\"","\"").trim(); // removed doubled up double quotes
                 }
-                Row row = RowBuilder.buildRow(finalValues);
+                Row row = RowBuilder.buildRow(finalValues,lineNumber++);
                 result.add(row); // add row to result list
                 System.out.println(row);
 
@@ -46,9 +47,10 @@ public class ReadFile {
     }
 
     class RowBuilder {
-        static Row buildRow(String[] values) {
+        static Row buildRow(String[] values, int i) {
 
             return Row.builder()
+                    .number(i)
                     .updateDate(values[0])
                     .name(values[1])
                     .genCode(values[2])

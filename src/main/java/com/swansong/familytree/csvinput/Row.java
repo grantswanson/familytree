@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 public class Row {
+    private Integer number;
     private String updateDate;
     private String name;
     private String genCode;

@@ -1,42 +1,63 @@
 package com.swansong.familytree.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
+
+import java.util.HashMap;
+import java.util.Map;
 
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
 public class Person {
-    private final String defaultSource = "Donovan Burdette Meyer";
-    private GrampaMeyerGenCode grandpaMeyerCode;
+    private final static String defaultSource = "Donovan Burdette Meyer";
+
+    public Person() {
+        id = Id.INDIVIDUAL.nextId();
+    }
+
+
+    private String id;
+    private Integer sourceLineNumber;
+    private String genCode;
 
     private Name name;
 
     private String gender;
-    //private String source;
-    private String birthdate;
-    private String birthplace;
-    private String birthsource=defaultSource;
-    private String baptismdate;
-    private String baptismplace;
-    private String baptismsource=defaultSource;
-    private String deathdate;
-    private String deathplace;
-    private String deathsource=defaultSource;
-    private String burialdate;
-    private String burialplace;
-    private String burialsource=defaultSource;
-    private String note;
 
-    public String  getKey() {
-        return name.getLastCommaFirst();
+    private Map<String, Person> spouses = new HashMap<>();
+
+    public void addSpouse(Person spouse) {
+        spouses.put(spouse.getGenCode(), spouse);
     }
-    public String getKeyAndGenCode() {
-        return getKey()+" "+grandpaMeyerCode;
+
+    public void setGender(boolean isMale) {
+        if (isMale) {
+            gender = "male";
+        } else {
+            gender = "female";
+        }
     }
+
+    public void appendDebug(String s) {
+        debug += s;
+    }
+
+    private String debug = "";
+
+
+    //private String source;
+//    private String birthdate;
+//    private String birthplace;
+//    private String birthsource = defaultSource;
+//    private String baptismdate;
+//    private String baptismplace;
+//    private String baptismsource = defaultSource;
+//    private String deathdate;
+//    private String deathplace;
+//    private String deathsource = defaultSource;
+//    private String burialdate;
+//    private String burialplace;
+//    private String burialsource = defaultSource;
+
+
 //    private String occupationdate;
 //    private String occupationplace;
 //    private String occupationplace_id;

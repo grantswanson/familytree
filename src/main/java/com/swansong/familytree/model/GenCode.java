@@ -4,34 +4,43 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-public class GrampaMeyerGenCode {
-    private String rawGenCode="";
+public class GenCode {
+    private GenCode() {};
 
-    @Override
-    public String toString() {
-        return rawGenCode;
+
+    public static String buildSelfCode(String genCode) {
+        // remove numbers (multiple marriages),
+        return removeLastNumber(genCode);
     }
 
-
-    public static GrampaMeyerGenCode buildSelfCode(String genCode) {
-        return new GrampaMeyerGenCode(removeLastNumber(genCode));
+    public static String buildParentsIndividualCode(String genCode) {
+        // remove the number and char to indicate current generation.
+        // remove the number to remove multiple marriages
+        return removeLastNumber(removeLastChar(removeLastNumber(genCode)));
     }
-
-    public static GrampaMeyerGenCode buildParentsCode(String genCode) {
-        return new GrampaMeyerGenCode(removeLastChar(removeLastNumber(genCode)));
+    public static String buildNewParentsCode(String genCode) {
+        // remove the number and char to indicate current generation.
+        // add a number if there is not already one there
+        return addLastNumber(removeLastChar(removeLastNumber(genCode)));
     }
-
-    public static GrampaMeyerGenCode buildChildsCode(String genCode, int childNumber) {
-        return new GrampaMeyerGenCode(appendLetter(genCode, childNumber));
+    public static String buildSpousesCode(String genCode) {
+        return addLastNumber(genCode);
+    }
+    public static String buildChildsCode(String genCode, int childNumber) {
+        return appendLetter(genCode, childNumber);
     }
 
     private static String removeLastNumber(String s) {
         if (s != null && !s.isEmpty() &&
                 Character.isDigit(s.charAt(s.length() - 1))) {
             return s.substring(0, s.length() - 1);
+        }
+        return s;
+    }
+    private static String addLastNumber(String s) {
+        if (s != null && !s.isEmpty() &&
+                !Character.isDigit(s.charAt(s.length() - 1))) {
+            return s+"1";
         }
         return s;
     }

@@ -1,6 +1,6 @@
 package com.swansong.familytree;
 
-import com.swansong.familytree.model.GrampaMeyerGenCode;
+import com.swansong.familytree.model.GenCode;
 import org.junit.jupiter.api.Test;
 
 import java.util.Collections;
@@ -8,7 +8,7 @@ import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class GrandpaMeyerGenCodeTest {
+public class GenCodeTest {
 
 
     @Test
@@ -22,29 +22,60 @@ public class GrandpaMeyerGenCodeTest {
                 "SA2A", "SA2A"
         );
         for (String input : cases.keySet()) {
-            GrampaMeyerGenCode code = GrampaMeyerGenCode.buildSelfCode(input);
-            String output = code.toString();
+            String output  = GenCode.buildSelfCode(input);
             assertEquals(cases.get(input), output);
         }
     }
 
     @Test
-    void buildParentsCodeTest() {
+    void buildSpousesCodeTest() {
+        // input, expected output
+        Map<String, String> cases = Map.of(
+                "S", "S1",
+                "SA1", "SA1",
+                "SBB2", "SBB2",
+                "SA2A1", "SA2A1",
+                "SA2A", "SA2A1"
+        );
+        for (String input : cases.keySet()) {
+            String output  = GenCode.buildSpousesCode(input);
+            assertEquals(cases.get(input), output);
+        }
+    }
+    @Test
+    void buildParentsIndividualCodeTest() {
         // input, expected output
         Map<String, String> cases = Map.of(
                 "S", "",
                 "SF", "S",
                 "SA1", "S",
                 "SBB2", "SB",
+                "SBB2C2", "SBB",
                 "SBB2AC2", "SBB2A"
         );
         for (String input : cases.keySet()) {
-            GrampaMeyerGenCode code = GrampaMeyerGenCode.buildParentsCode(input);
-            String output = code.toString();
+            String output = GenCode.buildParentsIndividualCode(input);
             assertEquals(cases.get(input), output);
         }
     }
 
+    @Test
+    void buildNewParentsCodeTest() {
+        // input, expected output
+        Map<String, String> cases = Map.of(
+                "S", "",
+                "SF", "S1",
+                "SA1", "S1",
+                "SBB2", "SB1",
+                "SBB3C", "SBB3",
+                "SBB2C2", "SBB2",
+                "SBB2AC2", "SBB2A1"
+        );
+        for (String input : cases.keySet()) {
+            String output = GenCode.buildNewParentsCode(input);
+            assertEquals(cases.get(input), output);
+        }
+    }
     @Test
     void buildChildsCodeTest() {
         // input, expected output
@@ -57,8 +88,7 @@ public class GrandpaMeyerGenCodeTest {
             // Get the single entry in the map
             Map.Entry<String, Integer> input = singletonMap.entrySet().iterator().next();
 
-            GrampaMeyerGenCode code = GrampaMeyerGenCode.buildChildsCode(input.getKey(), input.getValue());
-            String output = code.toString();
+            String output = GenCode.buildChildsCode(input.getKey(), input.getValue());
             assertEquals(cases.get(singletonMap), output);
         }
     }

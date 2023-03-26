@@ -1,7 +1,6 @@
 package com.swansong.familytree.model;
 
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 @Data
 public class Marriage {
@@ -11,11 +10,23 @@ public class Marriage {
     public Marriage() {
         id = Id.MARRIAGE.nextId();
     }
-
     private String id;
     private Integer sourceLineNumber;
+    private Person spouse1;
+    private Person spouse2;
 
-    private Person husband;
-    private Person wife;
-
+    public Person getHusband() {
+        if(spouse2.isMale()) {
+            return spouse2;
+        } else {
+            return spouse1;
+        }
+    }
+    public Person getWife() {
+        if(!spouse2.isMale()) {
+            return spouse2;
+        } else {
+            return spouse1;
+        }
+    }
 }

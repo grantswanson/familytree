@@ -4,13 +4,13 @@ import com.swansong.familytree.biz.MarriageBuilder;
 import com.swansong.familytree.biz.PersonBuilder;
 import com.swansong.familytree.csvinput.ReadFile;
 import com.swansong.familytree.csvinput.Row;
-import com.swansong.familytree.model.GenCode;
 import com.swansong.familytree.model.Marriage;
 import com.swansong.familytree.model.Name;
 import com.swansong.familytree.model.Person;
 
 import java.util.*;
 import java.util.stream.Collectors;
+
 
 
 //@SpringBootApplication
@@ -45,18 +45,18 @@ public class FamilytreeApplication {
             }
 
         }
-        printIndividualMap(individualMap);
-        printMarriages(marriages);
+
 
 
         for (Row row : csvData) {
             Name fathersName = Name.parseLastCommaFirstName(row.getFather());
-            mergeInParent(fathersName, row , individualMap, true);
+            PersonBuilder.mergeInParent(fathersName, row , individualMap, true);
 
             Name mothersName = Name.parseLastCommaFirstName(row.getMother());
-            mergeInParent(mothersName, row , individualMap, false);
+            PersonBuilder.mergeInParent(mothersName, row , individualMap, false);
         }
         printIndividualMap(individualMap);
+        printMarriages(marriages);
 
 //		individualMap.putAll( builder.buildSpouse(row));
 //		individualMap.putAll( builder.buildSpouseFather(row));
@@ -65,28 +65,7 @@ public class FamilytreeApplication {
 
     }
 
-    private static void mergeInParent(Name parentsName, Row row, Map<String, Person> individualMap, boolean isFather ) {
-        if(parentsName.isBlank()) {
-            return;
-        }
-        Person mainPerson = individualMap.get(GenCode.buildParent1Code(row.getGenCode()));
-        Person spouse = individualMap.get(GenCode.buildParent2Code(row.getGenCode()));
 
-        if (mainPerson != null && Name.isMergeAllowed(parentsName, mainPerson.getName())) {
-            mainPerson.getName().mergeInName(parentsName);
-            mainPerson.setGenderToMale(isFather);
-            //individualMap.put(mainPerson.getGenCode(), mainPerson);
-        } else if (spouse != null && Name.isMergeAllowed(parentsName, spouse.getName())) {
-            spouse.getName().mergeInName(parentsName);
-            spouse.setGenderToMale(isFather);
-            //individualMap.put(spouse.getGenCode(), spouse);
-        } else {
-            System.out.println((isFather?"Father":"Mother")+" not found in main list. ln#:" + row.getNumber()+
-                    "\n "+(isFather?"Father":"Mother")+":" + parentsName.getLastCommaFirst() +
-                    "\n Found Parent1:" + (mainPerson == null ? "null" : mainPerson.getName().getLastCommaFirst()) +
-                    "\n Found Parent2:" + (spouse == null ? "null" : spouse.getName().getLastCommaFirst()));
-        }
-    }
 
 
     private static void printMarriages(List<Marriage> marriages) {

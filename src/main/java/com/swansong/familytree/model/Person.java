@@ -8,11 +8,11 @@ import java.util.Map;
 @Data
 public class Person {
     private final static String defaultSource = "Donovan Burdette Meyer";
-
+    private final static String MALE = "M"; // unknown is blank
+    private final static String FEMALE = "F"; // unknown is blank
     public Person() {
         id = Id.INDIVIDUAL.nextId();
     }
-
 
     private String id;
     private Integer sourceLineNumber;
@@ -30,19 +30,25 @@ public class Person {
 
     public void setGenderToMale(boolean isMale) {
         if (isMale) {
-            gender = "M";
+            gender = MALE;
         } else {
-            gender = "F";
+            gender = FEMALE;
         }
     }
+    public boolean isMale() {
+        return MALE.equals(gender);
+    }
+    @SuppressWarnings("unused")
+    public boolean isFemale() {
+        return FEMALE.equals(gender);
+    }
+
 
     public void appendDebug(String s) {
         debug += s;
     }
 
     private String debug = "";
-
-
     //private String source;
 //    private String birthdate;
 //    private String birthplace;

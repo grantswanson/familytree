@@ -24,8 +24,6 @@ public class PersonBuilder {
         }
         return existingPerson;
     }
-
-    // build the main person for this row
     private static Person buildMainPerson(Row row) {
         String name = row.getName();
         if (name == null || name.isBlank())
@@ -52,7 +50,6 @@ public class PersonBuilder {
         }
         return existingSpouse;
     }
-
     private static Person buildSpouse(Row row) {
         String name = row.getSpouse();
         if (name == null || name.isBlank())
@@ -66,30 +63,27 @@ public class PersonBuilder {
 
         return person;
     }
-    public static Person buildFather(Row row) {
-        String name = row.getFather();
-        if (name == null || name.isBlank())
-            return null;
 
-        Person person = buildBasicPerson(name);
-        // add more here
-        person.setSourceLineNumber(row.getNumber());
-        person.setGenCode(GenCode.buildParent1Code(row.getGenCode()));
-        person.setGenderToMale(true);
-        return person;
-    }
 
-    public static Person buildMother(Row row) {
-        String name = row.getMother();
-        if (name == null || name.isBlank())
-            return null;
+    public static void mergeInParent(Name parentsName, Row row, Map<String, Person> individualMap, boolean isFather ) {
+        if(parentsName.isBlank()) {
+            return;
+        }
+        Person mainPerson = individualMap.get(GenCode.buildParent1Code(row.getGenCode()));
+        Person spouse = individualMap.get(GenCode.buildParent2Code(row.getGenCode()));
 
-        Person person = buildBasicPerson(name);
-        // add more here
-        person.setSourceLineNumber(row.getNumber());
-        person.setGenCode(GenCode.buildParent1Code(row.getGenCode()));
-        person.setGenderToMale(false);
-        return person;
+        if (mainPerson != null && Name.isMergeAllowed(parentsName, mainPerson.getName())) {
+            mainPerson.getName().mergeInName(parentsName);
+            mainPerson.setGenderToMale(isFather);
+        } else if (spouse != null && Name.isMergeAllowed(parentsName, spouse.getName())) {
+            spouse.getName().mergeInName(parentsName);
+            spouse.setGenderToMale(isFather);
+        } else {
+            System.out.println((isFather?"Father":"Mother")+" not found in main list. ln#:" + row.getNumber()+
+                    "\n "+(isFather?"Father":"Mother")+":" + parentsName.getLastCommaFirst() +
+                    "\n Found Parent1:" + (mainPerson == null ? "null" : mainPerson.getName().getLastCommaFirst()) +
+                    "\n Found Parent2:" + (spouse == null ? "null" : spouse.getName().getLastCommaFirst()));
+        }
     }
 
 

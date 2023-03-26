@@ -2,7 +2,6 @@ package com.swansong.familytree;
 
 import com.swansong.familytree.csvinput.ReadFile;
 import com.swansong.familytree.csvinput.Row;
-import com.swansong.familytree.model.GenCode;
 import com.swansong.familytree.model.Marriage;
 import com.swansong.familytree.biz.MarriageBuilder;
 import com.swansong.familytree.model.Person;
@@ -10,6 +9,7 @@ import com.swansong.familytree.biz.PersonBuilder;
 
 import java.util.*;
 import java.util.stream.Collectors;
+
 
 //@SpringBootApplication
 public class FamilytreeApplication {
@@ -29,45 +29,24 @@ public class FamilytreeApplication {
         ArrayList<Row> csvData = reader.readFile(csvFile);
 
         Map<String, Person> individualMap = new HashMap<>();
+        List <Marriage> marriages = new LinkedList<>();
 
         // build all the primary people
         for (Row row : csvData) {
-            String selfGenCode =GenCode.buildSelfCode(row.getGenCode());
-            Person existingPerson = individualMap.get(selfGenCode);
+            Person mainPerson = PersonBuilder.buildMainPerson(individualMap, row);
+            Person spouse = PersonBuilder.buildSpouse(individualMap, row);
 
-            if(existingPerson==null) {
-                // make new person
-                existingPerson = PersonBuilder.buildPrimaryPerson(row);
-                individualMap.put(selfGenCode, existingPerson);
-            } else {
-                existingPerson.appendDebug(" Also indiv ln#:"+row.getNumber());
-            }
-
-            Person existingSpouse = individualMap.get(GenCode.buildSpousesCode(row.getGenCode()));
-            if(existingSpouse==null) {
-                // make new person
-                existingSpouse = PersonBuilder.buildSpouse(row);
-                if(existingSpouse != null) {
-                    individualMap.put(existingSpouse.getGenCode(), existingSpouse);
-                }
-            } else {
-                existingSpouse.appendDebug(" Also spouse ln#:"+row.getNumber());
-            }
-            if(existingSpouse!= null) {
-                existingPerson.addSpouse(existingSpouse);
-                existingSpouse.addSpouse(existingPerson);
+            if(spouse!= null) {
+                mainPerson.addSpouse(spouse);
+                spouse.addSpouse(mainPerson);
+                marriages.add(MarriageBuilder.buildMarriage(mainPerson, spouse, row));
             }
 
         }
-        processPersonList(individualMap);
+        printIndividualMap(individualMap);
 
-//        System.out.println("\nAfter marriages...");
-//        List <Marriage> marriages = new LinkedList<>();
-//        // build the marriages
-//        for (Row row : csvData) {
-//            marriages.add(MarriageBuilder.buildMarriage(row, individualMap));
-//        }
-//        processPersonList(individualMap);
+        printMarriages( marriages);
+
 
 //		individualMap.putAll( builder.buildSpouse(row));
 //		individualMap.putAll( builder.buildSpouseFather(row));
@@ -75,8 +54,20 @@ public class FamilytreeApplication {
 //		individualMap.putAll( builder.buildChildren(row));
 
     }
+    private static void printMarriages(List<Marriage> marriages) {
+        System.out.println("\nMarriages...");
+        // build the marriages
+        for (Marriage marriage: marriages) {
+            String str = String.format("#%-2d %-5s %-6s %-30.30s %-6s %-30.30s", marriage.getSourceLineNumber(), marriage.getId(),
+                    marriage.getHusband().getGenCode(), marriage.getHusband().getName().getLastCommaFirst(),
+                    marriage.getWife().getGenCode(),  marriage.getWife().getName().getLastCommaFirst());
+            System.out.println(str);
+        }
+    }
 
-    private static void processPersonList(Map<String, Person> personMap) {
+
+
+    private static void printIndividualMap(Map<String, Person> personMap) {
         Comparator<Map.Entry<String, Person>> valueComparator = Comparator
                 .comparing((Map.Entry<String, Person> e) -> e.getValue().getSourceLineNumber())
                 .thenComparing(e -> e.getValue().getGenCode());
@@ -87,8 +78,8 @@ public class FamilytreeApplication {
 
         for (Map.Entry<String, Person> entry : sortedPersonMap.entrySet()) {
             Person person = entry.getValue();
-            String selfStr = String.format("#%-2d %-6s %-30.30s",  person.getSourceLineNumber(), person.getGenCode(),
-                    person.getName().getLastCommaFirst());
+            String selfStr = String.format("#%-2d %-6s %-30.30s %-5s",  person.getSourceLineNumber(), person.getGenCode(),
+                    person.getName().getLastCommaFirst(), person.getId() );
             System.out.print(selfStr);
 
             if(person.getSpouses().size()>0) {System.out.print("  spouses:");}
@@ -98,7 +89,7 @@ public class FamilytreeApplication {
                         spouse.getName().getFirstNames()+", " );
                 System.out.print(spouseStr);
             }
-            System.out.println("");
+            System.out.println();
         }
         System.out.println("Total Count="+(personMap.size()));
     }

@@ -11,8 +11,22 @@ import java.util.Map;
 
 public class PersonBuilder {
 
+    public static Person buildMainPerson(Map<String, Person> individualMap, Row row) {
+        String selfGenCode =GenCode.buildSelfCode(row.getGenCode());
+        Person existingPerson = individualMap.get(selfGenCode);
+
+        if(existingPerson==null) {
+            // make new person
+            existingPerson = PersonBuilder.buildMainPerson(row);
+            individualMap.put(selfGenCode, existingPerson);
+        } else {
+            existingPerson.appendDebug(" Also indiv ln#:"+ row.getNumber());
+        }
+        return existingPerson;
+    }
+
     // build the main person for this row
-    public static Person buildPrimaryPerson(Row row) {
+    private static Person buildMainPerson(Row row) {
         String name = row.getName();
         if (name == null || name.isBlank())
             return null;
@@ -25,33 +39,21 @@ public class PersonBuilder {
         return person;
     }
 
-    public static Person buildFather(Row row) {
-        String name = row.getFather();
-        if (name == null || name.isBlank())
-            return null;
-
-        Person person = buildBasicPerson(name);
-        // add more here
-        person.setSourceLineNumber(row.getNumber());
-        person.setGenCode(GenCode.buildParentsIndividualCode(row.getGenCode()));
-        person.setGender(true);
-        return person;
+    public static Person buildSpouse(Map<String, Person> individualMap, Row row) {
+        Person existingSpouse = individualMap.get(GenCode.buildSpousesCode(row.getGenCode()));
+        if(existingSpouse==null) {
+            // make new person
+            existingSpouse = PersonBuilder.buildSpouse(row);
+            if(existingSpouse != null) {
+                individualMap.put(existingSpouse.getGenCode(), existingSpouse);
+            }
+        } else {
+            existingSpouse.appendDebug(" Also spouse ln#:"+ row.getNumber());
+        }
+        return existingSpouse;
     }
 
-    public static Person buildMother(Row row) {
-        String name = row.getMother();
-        if (name == null || name.isBlank())
-            return null;
-
-        Person person = buildBasicPerson(name);
-        // add more here
-        person.setSourceLineNumber(row.getNumber());
-        person.setGenCode(GenCode.buildParentsIndividualCode(row.getGenCode()));
-        person.setGender(false);
-        return person;
-    }
-
-    public static Person buildSpouse(Row row) {
+    private static Person buildSpouse(Row row) {
         String name = row.getSpouse();
         if (name == null || name.isBlank())
             return null;
@@ -64,6 +66,33 @@ public class PersonBuilder {
 
         return person;
     }
+    public static Person buildFather(Row row) {
+        String name = row.getFather();
+        if (name == null || name.isBlank())
+            return null;
+
+        Person person = buildBasicPerson(name);
+        // add more here
+        person.setSourceLineNumber(row.getNumber());
+        person.setGenCode(GenCode.buildOriginalParentsCode(row.getGenCode()));
+        person.setGender(true);
+        return person;
+    }
+
+    public static Person buildMother(Row row) {
+        String name = row.getMother();
+        if (name == null || name.isBlank())
+            return null;
+
+        Person person = buildBasicPerson(name);
+        // add more here
+        person.setSourceLineNumber(row.getNumber());
+        person.setGenCode(GenCode.buildOriginalParentsCode(row.getGenCode()));
+        person.setGender(false);
+        return person;
+    }
+
+
 
     public Person buildSpouseFather(Row row) {
         String name = row.getSpouseFather();
@@ -107,7 +136,7 @@ public class PersonBuilder {
                 person.setSourceLineNumber(row.getNumber());
                 person.setGenCode(GenCode.buildChildsCode(row.getGenCode(), i));
 
-                personMap.putIfAbsent(person.getGenCode().toString(), person);
+                personMap.putIfAbsent(person.getGenCode(), person);
             }
         }
         return personMap;

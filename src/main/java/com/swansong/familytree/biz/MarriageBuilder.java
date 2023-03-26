@@ -10,21 +10,35 @@ import java.util.Map;
 
 public class MarriageBuilder {
 
+    public static Marriage buildMarriage(Person mainPerson, Person spouse, Row row) {
+        Marriage marriage = new Marriage();
+        marriage.setHusband(mainPerson);
+        marriage.setWife(spouse);
+        marriage.setSourceLineNumber(row.getNumber());
+
+        // add more here from row
+
+        return marriage;
+    }
+
     public static Marriage buildMarriage(Row row, Map<String, Person> individualMap) {
         // find existing parents
-        Person existingParent = individualMap.get(GenCode.buildParentsIndividualCode(row.getGenCode()));
+        Person originalParent = individualMap.get(GenCode.buildOriginalParentsCode(row.getGenCode()));
+        Person spouseParent = individualMap.get(GenCode.buildSpousesParentsCode(row.getGenCode()));
 
-        Person father = PersonBuilder.buildFather(row);
-        Person mother = PersonBuilder.buildMother(row);
-        //Person spouse = existingParent.getSpouse();
+        //Map<String, Person> origSpouses = originalParent.getSpouses();
+        //Map<String, Person> spousesSpouses = spouseParent.getSpouses();
+
+        //Person father = PersonBuilder.buildFather(row);
+        //Person mother = PersonBuilder.buildMother(row);
 
 //        boolean isMale=true;
 //        Map.Entry<PersonMerger.MergeResults, Person> results =
-//                 PersonMerger.merge(existingParent, father, row, individualMap,isMale );
+//                 PersonMerger.merge(originalParent, father, row, individualMap,isMale );
 //
 //        isMale=false;
 //        Map.Entry<PersonMerger.MergeResults, Person> results =
-//                mother = PersonMerger.merge(existingParent, mother, row, individualMap,isMale );
+//                mother = PersonMerger.merge(originalParent, mother, row, individualMap,isMale );
 
         Marriage marriage = new Marriage();
 

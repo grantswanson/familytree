@@ -109,7 +109,7 @@ public class PersonMerger {
     }
 
     private static void setNewPersonGenCode(Person p, Row row, boolean isMale) {
-        String genCode = GenCode.buildNewParentsCode(row.getGenCode());
+        String genCode = GenCode.buildSpousesParentsCode(row.getGenCode());
 
         if (isMale) {
             p.appendDebug("husbandOf: " + Name.parseLastCommaFirstName(row.getMother()).getLastCommaFirst() + ":" + genCode);

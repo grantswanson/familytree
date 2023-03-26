@@ -1,11 +1,7 @@
 package com.swansong.familytree.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
 public class GenCode {
-    private GenCode() {};
+    private GenCode() {}
 
 
     public static String buildSelfCode(String genCode) {
@@ -13,14 +9,16 @@ public class GenCode {
         return removeLastNumber(genCode);
     }
 
-    public static String buildParentsIndividualCode(String genCode) {
+    public static String buildOriginalParentsCode(String genCode) {
         // remove the number and char to indicate current generation.
         // remove the number to remove multiple marriages
+        // e.g. SA2A1 becomes SA
         return removeLastNumber(removeLastChar(removeLastNumber(genCode)));
     }
-    public static String buildNewParentsCode(String genCode) {
+    public static String buildSpousesParentsCode(String genCode) {
         // remove the number and char to indicate current generation.
         // add a number if there is not already one there
+        // e.g. SA2A1 becomes SA2
         return addLastNumber(removeLastChar(removeLastNumber(genCode)));
     }
     public static String buildSpousesCode(String genCode) {

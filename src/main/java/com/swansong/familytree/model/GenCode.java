@@ -9,13 +9,13 @@ public class GenCode {
         return removeLastNumber(genCode);
     }
 
-    public static String buildOriginalParentsCode(String genCode) {
+    public static String buildParent1Code(String genCode) {
         // remove the number and char to indicate current generation.
         // remove the number to remove multiple marriages
         // e.g. SA2A1 becomes SA
         return removeLastNumber(removeLastChar(removeLastNumber(genCode)));
     }
-    public static String buildSpousesParentsCode(String genCode) {
+    public static String buildParent2Code(String genCode) {
         // remove the number and char to indicate current generation.
         // add a number if there is not already one there
         // e.g. SA2A1 becomes SA2

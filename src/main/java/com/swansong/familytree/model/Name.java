@@ -22,7 +22,6 @@ public class Name {
 //    private String title;
 
 
-
     public static Name parseLastCommaFirstName(String str) {
         String[] names = str.split(",");
         if (names.length == 0) {
@@ -93,6 +92,7 @@ public class Name {
         if (suffix != null && !suffix.isEmpty()) key += ", " + suffix;
         return key;
     }
+
     public static boolean isMergeAllowed(Name n1, Name n2) {
         // nickname, and married name don't matter
         boolean allowed = (n1.firstNames.equalsIgnoreCase(n2.firstNames) &&
@@ -102,31 +102,42 @@ public class Name {
                 ((n1.firstNames.isBlank() || n2.firstNames.isBlank()) &&
                         n1.surName.equalsIgnoreCase(n2.surName));
         // don't allow if suffix is not the same
-        if(allowed && !n1.suffix.isBlank() && !n2.suffix.isBlank() && !n1.suffix.equalsIgnoreCase(n2.suffix)) {
-            System.out.println("Warning: The two names match in everything but the suffix. Name1:"+n1+" Name2:"+n2);
+        if (allowed && !n1.suffix.isBlank() && !n2.suffix.isBlank() && !n1.suffix.equalsIgnoreCase(n2.suffix)) {
+            System.out.println("Warning: The two names match in everything but the suffix. Name1:" + n1 + " Name2:" + n2);
             allowed = false;
         }
         return allowed;
 
     }
+
+    public void mergeInName(Name n1) {
+        mergeInNickName(n1);
+        mergeInMarriedName(n1);
+    }
+
     public void mergeInNickName(Name n1) {
         // merge nickname, and married name
         if (n1.nickName != null && !n1.nickName.isBlank()) {
-            if (nickName != null && !nickName.isBlank()) {
-                throw new RuntimeException("Both names have non-blank nicknames. this:" + this + " n1:" + n1);
+            if (nickName != null && !nickName.isBlank() && !nickName.equalsIgnoreCase(n1.nickName)) {
+                throw new RuntimeException("Both names have non-blank and non-equal nicknames. this:" + this + " n1:" + n1);
             }
             // else
             nickName = n1.nickName;
         } // else n1=blank, so no merge
     }
+
     public void mergeInMarriedName(Name n1) {
         // should do lambdas instead
-        if(n1.marriedName != null && !n1.marriedName.isBlank()) {
+        if (n1.marriedName != null && !n1.marriedName.isBlank()) {
             if (marriedName != null && !marriedName.isBlank()) {
                 throw new RuntimeException("Both names have non-blank marriedNames. this:" + this + " n1:" + n1);
             }
             // else
             marriedName = n1.marriedName;
         } // else n1=blank, so no merge
+    }
+
+    public boolean isBlank() {
+        return surName.isBlank() && firstNames.isBlank();
     }
 }

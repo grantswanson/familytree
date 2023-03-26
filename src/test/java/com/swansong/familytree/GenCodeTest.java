@@ -54,7 +54,7 @@ public class GenCodeTest {
                 "SBB2AC2", "SBB2A"
         );
         for (String input : cases.keySet()) {
-            String output = GenCode.buildOriginalParentsCode(input);
+            String output = GenCode.buildParent1Code(input);
             assertEquals(cases.get(input), output);
         }
     }
@@ -72,7 +72,7 @@ public class GenCodeTest {
                 "SBB2AC2", "SBB2A1"
         );
         for (String input : cases.keySet()) {
-            String output = GenCode.buildSpousesParentsCode(input);
+            String output = GenCode.buildParent2Code(input);
             assertEquals(cases.get(input), output);
         }
     }

@@ -1,11 +1,13 @@
 package com.swansong.familytree;
 
+import com.swansong.familytree.biz.MarriageBuilder;
+import com.swansong.familytree.biz.PersonBuilder;
 import com.swansong.familytree.csvinput.ReadFile;
 import com.swansong.familytree.csvinput.Row;
+import com.swansong.familytree.model.GenCode;
 import com.swansong.familytree.model.Marriage;
-import com.swansong.familytree.biz.MarriageBuilder;
+import com.swansong.familytree.model.Name;
 import com.swansong.familytree.model.Person;
-import com.swansong.familytree.biz.PersonBuilder;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -29,14 +31,14 @@ public class FamilytreeApplication {
         ArrayList<Row> csvData = reader.readFile(csvFile);
 
         Map<String, Person> individualMap = new HashMap<>();
-        List <Marriage> marriages = new LinkedList<>();
+        List<Marriage> marriages = new LinkedList<>();
 
         // build all the primary people
         for (Row row : csvData) {
             Person mainPerson = PersonBuilder.buildMainPerson(individualMap, row);
             Person spouse = PersonBuilder.buildSpouse(individualMap, row);
 
-            if(spouse!= null) {
+            if (spouse != null) {
                 mainPerson.addSpouse(spouse);
                 spouse.addSpouse(mainPerson);
                 marriages.add(MarriageBuilder.buildMarriage(mainPerson, spouse, row));
@@ -44,9 +46,17 @@ public class FamilytreeApplication {
 
         }
         printIndividualMap(individualMap);
+        printMarriages(marriages);
 
-        printMarriages( marriages);
 
+        for (Row row : csvData) {
+            Name fathersName = Name.parseLastCommaFirstName(row.getFather());
+            mergeInParent(fathersName, row , individualMap, true);
+
+            Name mothersName = Name.parseLastCommaFirstName(row.getMother());
+            mergeInParent(mothersName, row , individualMap, false);
+        }
+        printIndividualMap(individualMap);
 
 //		individualMap.putAll( builder.buildSpouse(row));
 //		individualMap.putAll( builder.buildSpouseFather(row));
@@ -54,17 +64,41 @@ public class FamilytreeApplication {
 //		individualMap.putAll( builder.buildChildren(row));
 
     }
-    private static void printMarriages(List<Marriage> marriages) {
-        System.out.println("\nMarriages...");
-        // build the marriages
-        for (Marriage marriage: marriages) {
-            String str = String.format("#%-2d %-5s %-6s %-30.30s %-6s %-30.30s", marriage.getSourceLineNumber(), marriage.getId(),
-                    marriage.getHusband().getGenCode(), marriage.getHusband().getName().getLastCommaFirst(),
-                    marriage.getWife().getGenCode(),  marriage.getWife().getName().getLastCommaFirst());
-            System.out.println(str);
+
+    private static void mergeInParent(Name parentsName, Row row, Map<String, Person> individualMap, boolean isFather ) {
+        if(parentsName.isBlank()) {
+            return;
+        }
+        Person mainPerson = individualMap.get(GenCode.buildParent1Code(row.getGenCode()));
+        Person spouse = individualMap.get(GenCode.buildParent2Code(row.getGenCode()));
+
+        if (mainPerson != null && Name.isMergeAllowed(parentsName, mainPerson.getName())) {
+            mainPerson.getName().mergeInName(parentsName);
+            mainPerson.setGenderToMale(isFather);
+            //individualMap.put(mainPerson.getGenCode(), mainPerson);
+        } else if (spouse != null && Name.isMergeAllowed(parentsName, spouse.getName())) {
+            spouse.getName().mergeInName(parentsName);
+            spouse.setGenderToMale(isFather);
+            //individualMap.put(spouse.getGenCode(), spouse);
+        } else {
+            System.out.println((isFather?"Father":"Mother")+" not found in main list. ln#:" + row.getNumber()+
+                    "\n "+(isFather?"Father":"Mother")+":" + parentsName.getLastCommaFirst() +
+                    "\n Found Parent1:" + (mainPerson == null ? "null" : mainPerson.getName().getLastCommaFirst()) +
+                    "\n Found Parent2:" + (spouse == null ? "null" : spouse.getName().getLastCommaFirst()));
         }
     }
 
+
+    private static void printMarriages(List<Marriage> marriages) {
+        System.out.println("\nMarriages...");
+        // build the marriages
+        for (Marriage marriage : marriages) {
+            String str = String.format("#%-2d %-5s %-6s %-1s %-30.30s %-6s %-1s %-30.30s", marriage.getSourceLineNumber(), marriage.getId(),
+                    marriage.getHusband().getGenCode(), marriage.getHusband().getGender(), marriage.getHusband().getName().getLastCommaFirst(),
+                    marriage.getWife().getGenCode(),marriage.getWife().getGender(), marriage.getWife().getName().getLastCommaFirst());
+            System.out.println(str);
+        }
+    }
 
 
     private static void printIndividualMap(Map<String, Person> personMap) {
@@ -78,20 +112,23 @@ public class FamilytreeApplication {
 
         for (Map.Entry<String, Person> entry : sortedPersonMap.entrySet()) {
             Person person = entry.getValue();
-            String selfStr = String.format("#%-2d %-6s %-30.30s %-5s",  person.getSourceLineNumber(), person.getGenCode(),
-                    person.getName().getLastCommaFirst(), person.getId() );
+            String selfStr = String.format("#%-2d %-6s %1s %-30.30s %-5s", person.getSourceLineNumber(),
+                    person.getGenCode(), person.getGender(),
+                    person.getName().getLastCommaFirst(), person.getId());
             System.out.print(selfStr);
 
-            if(person.getSpouses().size()>0) {System.out.print("  spouses:");}
+            if (person.getSpouses().size() > 0) {
+                System.out.print("  spouses:");
+            }
             for (String spouseGenCode : person.getSpouses().keySet()) {
                 Person spouse = person.getSpouses().get(spouseGenCode);
                 String spouseStr = String.format("#%d %-4s %s", spouse.getSourceLineNumber(), spouseGenCode,
-                        spouse.getName().getFirstNames()+", " );
+                        spouse.getName().getFirstNames() + ", ");
                 System.out.print(spouseStr);
             }
             System.out.println();
         }
-        System.out.println("Total Count="+(personMap.size()));
+        System.out.println("Total Count=" + (personMap.size()));
     }
 
 }

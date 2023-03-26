@@ -20,7 +20,7 @@ public class Person {
 
     private Name name;
 
-    private String gender;
+    private String gender="";
 
     private Map<String, Person> spouses = new HashMap<>();
 
@@ -28,11 +28,11 @@ public class Person {
         spouses.put(spouse.getGenCode(), spouse);
     }
 
-    public void setGender(boolean isMale) {
+    public void setGenderToMale(boolean isMale) {
         if (isMale) {
-            gender = "male";
+            gender = "M";
         } else {
-            gender = "female";
+            gender = "F";
         }
     }
 

@@ -49,7 +49,7 @@ public class PersonMerger {
                 existingPerson.getName().mergeInNickName(newPerson.getName());
                 existingPerson.getName().mergeInNickName(newPerson.getName());
                 existingPerson.getName().mergeInMarriedName(newPerson.getName());
-                existingPerson.setGender(isMale);
+                existingPerson.setGenderToMale(isMale);
                 return new AbstractMap.SimpleEntry<>(MergeResults.USE_EXISTING, existingPerson);
 
             } else if (isGenCodeMatch(existingPerson, newPerson)) { // gen match, name not match
@@ -76,7 +76,7 @@ public class PersonMerger {
                         "\n new:" + newPerson.getName().getLastCommaFirst());
                 existingPerson.getName().mergeInNickName(newPerson.getName());
                 existingPerson.getName().mergeInMarriedName(newPerson.getName());
-                existingPerson.setGender(isMale);
+                existingPerson.setGenderToMale(isMale);
                 return new AbstractMap.SimpleEntry<>(MergeResults.USE_EXISTING, existingPerson);
             } else {
                 System.out.println("Gen NOT match, name NOT match. " +
@@ -109,7 +109,7 @@ public class PersonMerger {
     }
 
     private static void setNewPersonGenCode(Person p, Row row, boolean isMale) {
-        String genCode = GenCode.buildSpousesParentsCode(row.getGenCode());
+        String genCode = GenCode.buildParent2Code(row.getGenCode());
 
         if (isMale) {
             p.appendDebug("husbandOf: " + Name.parseLastCommaFirstName(row.getMother()).getLastCommaFirst() + ":" + genCode);

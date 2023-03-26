@@ -74,8 +74,8 @@ public class PersonBuilder {
         Person person = buildBasicPerson(name);
         // add more here
         person.setSourceLineNumber(row.getNumber());
-        person.setGenCode(GenCode.buildOriginalParentsCode(row.getGenCode()));
-        person.setGender(true);
+        person.setGenCode(GenCode.buildParent1Code(row.getGenCode()));
+        person.setGenderToMale(true);
         return person;
     }
 
@@ -87,8 +87,8 @@ public class PersonBuilder {
         Person person = buildBasicPerson(name);
         // add more here
         person.setSourceLineNumber(row.getNumber());
-        person.setGenCode(GenCode.buildOriginalParentsCode(row.getGenCode()));
-        person.setGender(false);
+        person.setGenCode(GenCode.buildParent1Code(row.getGenCode()));
+        person.setGenderToMale(false);
         return person;
     }
 
@@ -121,7 +121,9 @@ public class PersonBuilder {
 
         return person;
     }
-
+    public Map<String, Person> buildChildren(Map<String, Person> individualMap,Row row) {
+        return null;
+    }
     public Map<String, Person> buildChildren(Row row) {
         Map<String, Person> personMap = new HashMap<>();
 

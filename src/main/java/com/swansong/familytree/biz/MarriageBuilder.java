@@ -23,8 +23,8 @@ public class MarriageBuilder {
 
     public static Marriage buildMarriage(Row row, Map<String, Person> individualMap) {
         // find existing parents
-        Person originalParent = individualMap.get(GenCode.buildOriginalParentsCode(row.getGenCode()));
-        Person spouseParent = individualMap.get(GenCode.buildSpousesParentsCode(row.getGenCode()));
+        Person originalParent = individualMap.get(GenCode.buildParent1Code(row.getGenCode()));
+        Person spouseParent = individualMap.get(GenCode.buildParent2Code(row.getGenCode()));
 
         //Map<String, Person> origSpouses = originalParent.getSpouses();
         //Map<String, Person> spousesSpouses = spouseParent.getSpouses();

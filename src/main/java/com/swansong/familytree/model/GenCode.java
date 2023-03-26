@@ -3,7 +3,6 @@ package com.swansong.familytree.model;
 public class GenCode {
     private GenCode() {}
 
-
     public static String buildSelfCode(String genCode) {
         // remove numbers (multiple marriages),
         return removeLastNumber(genCode);
@@ -26,6 +25,21 @@ public class GenCode {
     }
     public static String buildChildsCode(String genCode, int childNumber) {
         return appendLetter(genCode, childNumber);
+    }
+
+    public static int getChildNumber(String genCode) {
+        return getLastLetterValue(removeLastNumber(genCode));
+    }
+    private static int getLastLetterValue(String input) {
+        if (input == null || input.isEmpty()) {
+            return -1;
+        }
+        char lastChar = input.charAt(input.length() - 1);
+        if (Character.isLetter(lastChar)) {
+            return Character.toUpperCase(lastChar) - 'A' + 1;
+        } else {
+            return -1;
+        }
     }
 
     private static String removeLastNumber(String s) {

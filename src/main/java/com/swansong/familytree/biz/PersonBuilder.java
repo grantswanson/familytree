@@ -69,23 +69,30 @@ public class PersonBuilder {
         if(parentsName.isBlank()) {
             return;
         }
-        Person mainPerson = individualMap.get(GenCode.buildParent1Code(row.getGenCode()));
-        Person spouse = individualMap.get(GenCode.buildParent2Code(row.getGenCode()));
+        Person parent1 = individualMap.get(GenCode.buildParent1Code(row.getGenCode()));
+        Person parent2 = individualMap.get(GenCode.buildParent2Code(row.getGenCode()));
 
-        if (mainPerson != null && Name.isMergeAllowed(parentsName, mainPerson.getName())) {
-            mainPerson.getName().mergeInName(parentsName);
-            mainPerson.setGenderToMale(isFather);
-        } else if (spouse != null && Name.isMergeAllowed(parentsName, spouse.getName())) {
-            spouse.getName().mergeInName(parentsName);
-            spouse.setGenderToMale(isFather);
+        if (parent1 != null && Name.isMergeAllowed(parentsName, parent1.getName())) {
+            parent1.getName().mergeInName(parentsName);
+            parent1.setGenderToMale(isFather);
+            addChild(parent1, row, individualMap);
+        } else if (parent2 != null && Name.isMergeAllowed(parentsName, parent2.getName())) {
+            parent2.getName().mergeInName(parentsName);
+            parent2.setGenderToMale(isFather);
+            addChild(parent2, row, individualMap);
         } else {
             System.out.println((isFather?"Father":"Mother")+" not found in main list. ln#:" + row.getNumber()+
                     "\n "+(isFather?"Father":"Mother")+":" + parentsName.getLastCommaFirst() +
-                    "\n Found Parent1:" + (mainPerson == null ? "null" : mainPerson.getName().getLastCommaFirst()) +
-                    "\n Found Parent2:" + (spouse == null ? "null" : spouse.getName().getLastCommaFirst()));
+                    "\n Found Parent1:" + (parent1 == null ? "null" : parent1.getName().getLastCommaFirst()) +
+                    "\n Found Parent2:" + (parent2 == null ? "null" : parent2.getName().getLastCommaFirst()));
         }
     }
 
+    private static void addChild(Person parent, Row row,Map<String, Person> individualMap ) {
+        int num =  GenCode.getChildNumber(row.getGenCode());
+        Person child = individualMap.get(row.getGenCode());
+        parent.addChild(child, num);
+    }
 
 
     public Person buildSpouseFather(Row row) {

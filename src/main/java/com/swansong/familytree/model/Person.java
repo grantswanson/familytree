@@ -49,6 +49,11 @@ public class Person {
     }
 
     private String debug = "";
+
+    private Person[] children = new Person[12];
+    public void addChild(Person child, int i) {
+        children[i] = child;
+    }
     //private String source;
 //    private String birthdate;
 //    private String birthplace;

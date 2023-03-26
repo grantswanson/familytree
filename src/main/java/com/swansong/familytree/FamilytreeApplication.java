@@ -58,7 +58,6 @@ public class FamilytreeApplication {
         printIndividualMap(individualMap);
         printMarriages(marriages);
 
-//		individualMap.putAll( builder.buildSpouse(row));
 //		individualMap.putAll( builder.buildSpouseFather(row));
 //		individualMap.putAll( builder.buildSpouseMother(row));
 //		individualMap.putAll( builder.buildChildren(row));
@@ -101,9 +100,18 @@ public class FamilytreeApplication {
             }
             for (String spouseGenCode : person.getSpouses().keySet()) {
                 Person spouse = person.getSpouses().get(spouseGenCode);
-                String spouseStr = String.format("#%d %-4s %s", spouse.getSourceLineNumber(), spouseGenCode,
+                String spouseStr = String.format("#%d %-4s %-15.15s", spouse.getSourceLineNumber(), spouseGenCode,
                         spouse.getName().getFirstNames() + ", ");
                 System.out.print(spouseStr);
+            }
+
+
+            System.out.print("  Kids:");
+            for (Person child : person.getChildren()) {
+                if(child==null) { continue;}
+                String str = String.format("#%d %-4s %.10s", child.getSourceLineNumber(), child.getGenCode(),
+                        child.getName().getFirstNames() + ", ");
+                System.out.print(str);
             }
             System.out.println();
         }

@@ -5,17 +5,19 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.function.BiConsumer;
+import java.util.function.Function;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 //@Builder
 public class Name {
 
-    private String surName = "";
     private String firstNames = "";
     private String nickName = "";
+    private String surName = "";
     private String suffix = "";
-
     private String marriedName = "";
 
 //    private String prefix;
@@ -102,7 +104,7 @@ public class Name {
                 ((n1.firstNames.isBlank() || n2.firstNames.isBlank()) &&
                         n1.surName.equalsIgnoreCase(n2.surName));
         // don't allow if suffix is not the same
-        if (allowed && !n1.suffix.isBlank() && !n2.suffix.isBlank() && !n1.suffix.equalsIgnoreCase(n2.suffix)) {
+        if (allowed && !n1.suffix.equalsIgnoreCase(n2.suffix)) {
             System.out.println("Warning: The two names match in everything but the suffix. Name1:" + n1 + " Name2:" + n2);
             allowed = false;
         }
@@ -111,12 +113,38 @@ public class Name {
     }
 
     public void mergeInName(Name n1) {
+        // could have made these lamba functions, but I did not like it as much
+        // mergeInField(n1, name -> name.nickName, (name, value) -> name.nickName = value);
+        // mergeInField(n1, name -> name.marriedName, (name, value) -> name.marriedName = value);
+        mergeInFirstNames(n1);
+        mergeInSurName(n1);
         mergeInNickName(n1);
         mergeInMarriedName(n1);
+        mergeInSuffix(n1);
+
     }
 
-    public void mergeInNickName(Name n1) {
-        // merge nickname, and married name
+    private void mergeInFirstNames(Name n1) {
+        if (n1.firstNames != null && !n1.firstNames.isBlank()) {
+            if (firstNames != null && !firstNames.isBlank() && !firstNames.equalsIgnoreCase(n1.firstNames)) {
+                throw new RuntimeException("Both names have non-blank and non-equal firstNames. this:" + this + " n1:" + n1);
+            }
+            // else
+            firstNames = n1.firstNames;
+        } // else n1=blank, so no merge
+    }
+
+    private void mergeInSurName(Name n1) {
+        if (n1.surName != null && !n1.surName.isBlank()) {
+            if (surName != null && !surName.isBlank() && !surName.equalsIgnoreCase(n1.surName)) {
+                throw new RuntimeException("Both names have non-blank and non-equal surNames. this:" + this + " n1:" + n1);
+            }
+            // else
+            surName = n1.surName;
+        } // else n1=blank, so no merge
+    }
+
+    private void mergeInNickName(Name n1) {
         if (n1.nickName != null && !n1.nickName.isBlank()) {
             if (nickName != null && !nickName.isBlank() && !nickName.equalsIgnoreCase(n1.nickName)) {
                 throw new RuntimeException("Both names have non-blank and non-equal nicknames. this:" + this + " n1:" + n1);
@@ -126,17 +154,37 @@ public class Name {
         } // else n1=blank, so no merge
     }
 
-    public void mergeInMarriedName(Name n1) {
+    private void mergeInMarriedName(Name n1) {
         // should do lambdas instead
         if (n1.marriedName != null && !n1.marriedName.isBlank()) {
-            if (marriedName != null && !marriedName.isBlank()) {
-                throw new RuntimeException("Both names have non-blank marriedNames. this:" + this + " n1:" + n1);
+            if (marriedName != null && !marriedName.isBlank() && !marriedName.equalsIgnoreCase(n1.marriedName)) {
+                throw new RuntimeException("Both names have non-blank, non-equal marriedNames. this:" + this + " n1:" + n1);
             }
             // else
             marriedName = n1.marriedName;
         } // else n1=blank, so no merge
     }
-
+    private void mergeInSuffix(Name n1) {
+        // should do lambdas instead
+        if (n1.suffix != null && !n1.suffix.isBlank()) {
+            if (suffix != null && !suffix.isBlank() && !suffix.equalsIgnoreCase(n1.suffix)) {
+                throw new RuntimeException("Both names have non-blank, non-equal suffixes. this:" + this + " n1:" + n1);
+            }
+            // else
+            suffix = n1.suffix;
+        } // else n1=blank, so no merge
+    }
+//    private void mergeInField(Name n1, Function<Name, String> getter, BiConsumer<Name, String> setter) {
+//        String value1 = getter.apply(this);
+//        String value2 = getter.apply(n1);
+//        if (value2 != null && !value2.isBlank()) {
+//            if (value1 != null && !value1.isBlank() && !value1.equalsIgnoreCase(value2)) {
+//                throw new RuntimeException("Both names have non-blank and non-equal values. this:" + this + " n1:" + n1);
+//            }
+//            // else
+//            setter.accept(this, value2);
+//        } // else n1=blank, so no merge
+//    }
     public boolean isBlank() {
         return surName.isBlank() && firstNames.isBlank();
     }

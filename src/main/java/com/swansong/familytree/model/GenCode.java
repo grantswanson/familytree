@@ -1,11 +1,16 @@
 package com.swansong.familytree.model;
 
 public class GenCode {
-    private GenCode() {}
+    private GenCode() {
+    }
 
     public static String buildSelfCode(String genCode) {
         // remove numbers (multiple marriages),
         return removeLastNumber(genCode);
+    }
+
+    public static String buildSpousesCode(String genCode) {
+        return addLastNumber(genCode);
     }
 
     public static String buildParent1Code(String genCode) {
@@ -14,19 +19,17 @@ public class GenCode {
         // e.g. SA2A1 becomes SA
         return removeLastNumber(removeLastChar(removeLastNumber(genCode)));
     }
+
     public static String buildParent2Code(String genCode) {
         // remove the number and char to indicate current generation.
         // add a number if there is not already one there
         // e.g. SA2A1 becomes SA2
         return addLastNumber(removeLastChar(removeLastNumber(genCode)));
     }
-    public static String buildSpousesCode(String genCode) {
-        return addLastNumber(genCode);
-    }
+
     public static String buildChildsCode(String genCode, int childNumber) {
         return appendLetter(genCode, childNumber);
     }
-
     public static int getChildNumber(String genCode) {
         return getLastLetterValue(removeLastNumber(genCode));
     }
@@ -56,7 +59,6 @@ public class GenCode {
         }
         return s;
     }
-
     private static String removeLastChar(String s) {
         if (s != null && !s.isEmpty()) {
             return s.substring(0, s.length() - 1);

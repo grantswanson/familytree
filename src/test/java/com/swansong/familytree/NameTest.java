@@ -140,4 +140,11 @@ public class NameTest {
         boolean output = n1.isBlank();
         assertEquals(expected, output);
     }
+
+    @ParameterizedTest
+    @CsvSource({"'', ','", "'Smith, John', 'Smith, John'", "'Jane', ',Jane'", "'Doe, John', 'Doe, John'", ", ','"})
+    void addCommaIfMissingTest(String name, String expected) {
+        assertEquals(expected, Name.addCommaIfMissing(name));
+    }
+
 }

@@ -82,6 +82,16 @@ public class Name {
         return s;
     }
 
+    public static String addCommaIfMissing(String name) {
+        if (name == null) {
+            return ",";
+        } else if (name.contains(",")) {
+            return name;
+        } else {
+            return "," + name;
+        }
+    }
+
     public String getLastCommaFirst() {
         String key = surName + ", " + firstNames;
         if (nickName != null && !nickName.isEmpty()) key += " \"" + nickName + "\"";

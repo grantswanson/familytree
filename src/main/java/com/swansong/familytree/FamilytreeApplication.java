@@ -2,6 +2,7 @@ package com.swansong.familytree;
 
 import com.swansong.familytree.biz.MarriageBuilder;
 import com.swansong.familytree.biz.PersonBuilder;
+import com.swansong.familytree.biz.Verifier;
 import com.swansong.familytree.csvinput.ReadFile;
 import com.swansong.familytree.csvinput.Row;
 import com.swansong.familytree.model.Marriage;
@@ -46,11 +47,15 @@ public class FamilytreeApplication {
         }
 
 
+        for (Row row : csvData) {
+            PersonBuilder.mergeInParentsAndChildren(row, individualMap);
+        }
 
         for (Row row : csvData) {
-            PersonBuilder.mergeInParents(row , individualMap);
+            Verifier.mergeInChildren(row, individualMap);
         }
-        printMarriages(marriages);
+
+        //printMarriages(marriages);
 
         printIndividualMap(individualMap);
 

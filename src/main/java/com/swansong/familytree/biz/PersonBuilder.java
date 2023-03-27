@@ -5,22 +5,26 @@ import com.swansong.familytree.model.GenCode;
 import com.swansong.familytree.model.Name;
 import com.swansong.familytree.model.Person;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 
 public class PersonBuilder {
 
+    public static final int MAX_CHILDREN = 12;
+
     public static Person buildMainPerson(Map<String, Person> individualMap, Row row) {
-        String selfGenCode =GenCode.buildSelfCode(row.getGenCode());
+        String selfGenCode = GenCode.buildSelfCode(row.getGenCode());
         Person existingPerson = individualMap.get(selfGenCode);
 
-        if(existingPerson==null) {
+        if (existingPerson == null) {
             // make new person
             existingPerson = PersonBuilder.buildMainPerson(row);
             individualMap.put(selfGenCode, existingPerson);
         } else {
-            existingPerson.appendDebug(" Also indiv ln#:"+ row.getNumber());
+            existingPerson.appendDebug(" Also indiv ln#:" + row.getNumber());
         }
         return existingPerson;
     }
@@ -65,15 +69,16 @@ public class PersonBuilder {
     }
 
 
-    public static void mergeInParents(Row row, Map<String, Person> individualMap) {
+    public static void mergeInParentsAndChildren(Row row, Map<String, Person> individualMap) {
         Name fathersName = Name.parseLastCommaFirstName(row.getFather());
-        PersonBuilder.mergeInParent(fathersName, row , individualMap, true);
+        PersonBuilder.mergeInParentsAndChildren(fathersName, row, individualMap, true);
 
         Name mothersName = Name.parseLastCommaFirstName(row.getMother());
-        PersonBuilder.mergeInParent(mothersName, row , individualMap, false);
+        PersonBuilder.mergeInParentsAndChildren(mothersName, row, individualMap, false);
     }
-    private static void mergeInParent(Name parentsName, Row row, Map<String, Person> individualMap, boolean isFather ) {
-        if(parentsName.isBlank()) {
+
+    private static void mergeInParentsAndChildren(Name parentsName, Row row, Map<String, Person> individualMap, boolean isFather) {
+        if (parentsName.isBlank()) {
             return;
         }
         Person parent1 = individualMap.get(GenCode.buildParent1Code(row.getGenCode()));
@@ -140,8 +145,7 @@ public class PersonBuilder {
         Map<String, Person> personMap = new HashMap<>();
 
         String surName = Name.parseLastCommaFirstName(row.getName()).getSurName();
-        final int maxChildren = 12;
-        for (int i = 1; i <= maxChildren; i++) {
+        for (int i = 1; i <= MAX_CHILDREN; i++) {
             String name = row.getChild(i);
             if (name != null && !name.isBlank()) {
                 name = surName + ", " + name;
@@ -154,6 +158,18 @@ public class PersonBuilder {
             }
         }
         return personMap;
+    }
+
+    public static List<Name> extractChildrensNames(Row row) {
+        List<Name> names = new ArrayList<>();
+
+        for (int i = 1; i <= MAX_CHILDREN; i++) {
+            String name = row.getChild(i);
+            if (name != null && !name.isBlank()) {
+                names.add(Name.parseLastCommaFirstName(Name.addCommaIfMissing(name)));
+            }
+        }
+        return names;
     }
 
     private static Person buildBasicPerson(String name) {

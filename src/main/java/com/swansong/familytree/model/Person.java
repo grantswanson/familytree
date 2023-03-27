@@ -81,15 +81,22 @@ public class Person {
 
     @ToString.Exclude
     private Person[] children = new Person[12];
+
     public void addChild(Person child, int i) {
         children[i] = child;
+    }
+
+    public Person getChild(int i) {
+        return children[i];
     }
 
     @ToString.Include
     public String childrenToString() {
         StringBuilder strBuilder = new StringBuilder();
         for (Person child : children) {
-            if(child==null) { continue;}
+            if (child == null) {
+                continue;
+            }
             strBuilder.append(String.format("#%d %s %s", child.getSourceLineNumber(), child.getGenCode(),
                     child.getName().getFirstNames() + ", "));
 

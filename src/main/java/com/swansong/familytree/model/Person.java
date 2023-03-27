@@ -1,6 +1,7 @@
 package com.swansong.familytree.model;
 
 import lombok.Data;
+import lombok.ToString;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -22,12 +23,40 @@ public class Person {
 
     private String gender="";
 
+    @ToString.Exclude
+
     private Map<String, Person> spouses = new HashMap<>();
 
     public void addSpouse(Person spouse) {
         spouses.put(spouse.getGenCode(), spouse);
     }
-
+    @ToString.Include
+    public String spousesToString() {
+        StringBuilder strBuilder = new StringBuilder();
+        for (Map.Entry<String, Person> entry : spouses.entrySet()) {
+            Person spouse= entry.getValue();
+            strBuilder.append(String.format("#%d %-4s %-10s", spouse.getSourceLineNumber(), spouse.getGenCode(),
+                    spouse.getName().getFirstNames() + ", "));
+        }
+        String str = strBuilder.toString();
+        if(!str.isEmpty()) {
+            str =" spouses:" + str;
+        }
+        return str;
+    }
+    public void setSpousesGender(boolean isMale) {
+        for (Map.Entry<String, Person> entry : spouses.entrySet()) {
+            Person spouse= entry.getValue();
+            spouse.setGenderToMale(isMale);
+            spouse.setSpousesGenderNonRecursive(!isMale);
+        }
+    }
+    private void setSpousesGenderNonRecursive(boolean isMale) {
+        for (Map.Entry<String, Person> entry : spouses.entrySet()) {
+            Person spouse= entry.getValue();
+            spouse.setGenderToMale(isMale);
+        }
+    }
     public void setGenderToMale(boolean isMale) {
         if (isMale) {
             gender = MALE;
@@ -50,10 +79,28 @@ public class Person {
 
     private String debug = "";
 
+    @ToString.Exclude
     private Person[] children = new Person[12];
     public void addChild(Person child, int i) {
         children[i] = child;
     }
+
+    @ToString.Include
+    public String childrenToString() {
+        StringBuilder strBuilder = new StringBuilder();
+        for (Person child : children) {
+            if(child==null) { continue;}
+            strBuilder.append(String.format("#%d %s %s", child.getSourceLineNumber(), child.getGenCode(),
+                    child.getName().getFirstNames() + ", "));
+
+        }
+        if (strBuilder.length() != 0) {
+            strBuilder.insert(0, "  Kids:");
+        }
+        return strBuilder.toString();
+    }
+
+
     //private String source;
 //    private String birthdate;
 //    private String birthplace;

@@ -43,7 +43,7 @@ public class GenCodeTest {
         }
     }
     @Test
-    void buildParentsIndividualCodeTest() {
+    void buildParent1CodeTest() {
         // input, expected output
         Map<String, String> cases = Map.of(
                 "S", "",
@@ -60,16 +60,17 @@ public class GenCodeTest {
     }
 
     @Test
-    void buildNewParentsCodeTest() {
+    void buildParent2CodeTest() {
         // input, expected output
         Map<String, String> cases = Map.of(
                 "S", "",
                 "SF", "S1",
-                "SA1", "S1",
-                "SBB2", "SB1",
+                "SA1", "SA1parent",
+                "SBB2", "SBB2parent",
+                "SBBC", "SBB1",
                 "SBB3C", "SBB3",
-                "SBB2C2", "SBB2",
-                "SBB2AC2", "SBB2A1"
+                "SBB2C2", "SBB2C2parent",
+                "SBB2AC2", "SBB2AC2parent"
         );
         for (String input : cases.keySet()) {
             String output = GenCode.buildParent2Code(input);

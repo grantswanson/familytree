@@ -65,7 +65,14 @@ public class PersonBuilder {
     }
 
 
-    public static void mergeInParent(Name parentsName, Row row, Map<String, Person> individualMap, boolean isFather ) {
+    public static void mergeInParents(Row row, Map<String, Person> individualMap) {
+        Name fathersName = Name.parseLastCommaFirstName(row.getFather());
+        PersonBuilder.mergeInParent(fathersName, row , individualMap, true);
+
+        Name mothersName = Name.parseLastCommaFirstName(row.getMother());
+        PersonBuilder.mergeInParent(mothersName, row , individualMap, false);
+    }
+    private static void mergeInParent(Name parentsName, Row row, Map<String, Person> individualMap, boolean isFather ) {
         if(parentsName.isBlank()) {
             return;
         }
@@ -75,10 +82,12 @@ public class PersonBuilder {
         if (parent1 != null && Name.isMergeAllowed(parentsName, parent1.getName())) {
             parent1.getName().mergeInName(parentsName);
             parent1.setGenderToMale(isFather);
+            parent1.setSpousesGender(!isFather);
             addChild(parent1, row, individualMap);
         } else if (parent2 != null && Name.isMergeAllowed(parentsName, parent2.getName())) {
             parent2.getName().mergeInName(parentsName);
             parent2.setGenderToMale(isFather);
+            parent2.setSpousesGender(!isFather);
             addChild(parent2, row, individualMap);
         } else {
             System.out.println((isFather?"Father":"Mother")+" not found in main list. ln#:" + row.getNumber()+
@@ -90,9 +99,11 @@ public class PersonBuilder {
 
     private static void addChild(Person parent, Row row,Map<String, Person> individualMap ) {
         int num =  GenCode.getChildNumber(row.getGenCode());
-        Person child = individualMap.get(row.getGenCode());
+        Person child = individualMap.get(GenCode.buildSelfCode(row.getGenCode()));
         parent.addChild(child, num);
     }
+
+
 
 
     public Person buildSpouseFather(Row row) {

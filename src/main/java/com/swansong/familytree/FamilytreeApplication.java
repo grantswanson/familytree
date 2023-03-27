@@ -5,7 +5,6 @@ import com.swansong.familytree.biz.PersonBuilder;
 import com.swansong.familytree.csvinput.ReadFile;
 import com.swansong.familytree.csvinput.Row;
 import com.swansong.familytree.model.Marriage;
-import com.swansong.familytree.model.Name;
 import com.swansong.familytree.model.Person;
 
 import java.util.*;
@@ -49,14 +48,11 @@ public class FamilytreeApplication {
 
 
         for (Row row : csvData) {
-            Name fathersName = Name.parseLastCommaFirstName(row.getFather());
-            PersonBuilder.mergeInParent(fathersName, row , individualMap, true);
-
-            Name mothersName = Name.parseLastCommaFirstName(row.getMother());
-            PersonBuilder.mergeInParent(mothersName, row , individualMap, false);
+            PersonBuilder.mergeInParents(row , individualMap);
         }
-        printIndividualMap(individualMap);
         printMarriages(marriages);
+
+        printIndividualMap(individualMap);
 
 //		individualMap.putAll( builder.buildSpouseFather(row));
 //		individualMap.putAll( builder.buildSpouseMother(row));
@@ -90,30 +86,17 @@ public class FamilytreeApplication {
 
         for (Map.Entry<String, Person> entry : sortedPersonMap.entrySet()) {
             Person person = entry.getValue();
-            String selfStr = String.format("#%-2d %-6s %1s %-30.30s %-5s", person.getSourceLineNumber(),
+            String selfStr = String.format("#%-2d %-6s %1s %-30.30s ", //%-5s
+                    person.getSourceLineNumber(),
                     person.getGenCode(), person.getGender(),
-                    person.getName().getLastCommaFirst(), person.getId());
+                    person.getName().getLastCommaFirst()); //, person.getId());
             System.out.print(selfStr);
 
-            if (person.getSpouses().size() > 0) {
-                System.out.print("  spouses:");
-            }
-            for (String spouseGenCode : person.getSpouses().keySet()) {
-                Person spouse = person.getSpouses().get(spouseGenCode);
-                String spouseStr = String.format("#%d %-4s %-15.15s", spouse.getSourceLineNumber(), spouseGenCode,
-                        spouse.getName().getFirstNames() + ", ");
-                System.out.print(spouseStr);
-            }
+            System.out.print(person.spousesToString());
+            System.out.print(person.childrenToString());
 
-
-            System.out.print("  Kids:");
-            for (Person child : person.getChildren()) {
-                if(child==null) { continue;}
-                String str = String.format("#%d %-4s %.10s", child.getSourceLineNumber(), child.getGenCode(),
-                        child.getName().getFirstNames() + ", ");
-                System.out.print(str);
-            }
             System.out.println();
+
         }
         System.out.println("Total Count=" + (personMap.size()));
     }

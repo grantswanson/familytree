@@ -7,7 +7,6 @@ import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.MethodSource;
 
-import java.util.Collections;
 import java.util.Map;
 import java.util.stream.Stream;
 
@@ -94,22 +93,6 @@ public class GenCodeTest {
 
     }
 
-    @Test
-    void buildChildsCodeTest2() {
-        // input, expected output
-        Map<Map<String, Integer>, String> cases = Map.of(
-                Collections.singletonMap("S", 1), "SA",
-                Collections.singletonMap("SABC", 2), "SABCB",
-                Collections.singletonMap("SA1B2C1", 3), "SA1B2C1C"
-        );
-        for (Map<String, Integer> singletonMap : cases.keySet()) {
-            // Get the single entry in the map
-            Map.Entry<String, Integer> input = singletonMap.entrySet().iterator().next();
-
-            String output = GenCode.buildChildsCode(input.getKey(), input.getValue());
-            assertEquals(cases.get(singletonMap), output);
-        }
-    }
 
     @ParameterizedTest
     @CsvSource({"SA, 1", "SB,2", "SA1, 1", "SA2, 1", "SAAAC1, 3", ",-1", "333, -1"})

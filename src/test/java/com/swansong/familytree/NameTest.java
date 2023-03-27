@@ -148,7 +148,7 @@ public class NameTest {
     }
 
     @ParameterizedTest
-    @CsvSource({"'Smith, John * ', 'Smith, John  '", "'Jane*', 'Jane*'", "'Doe, Jill * [Roe]', ''Doe, Jill  [Roe]'"})
+    @CsvSource({"'Smith, John * ', 'Smith, John  '", "'Jane*', 'Jane'", "'Doe, Jill * [Roe]', 'Doe, Jill  [Roe]'"})
     void removeAsteriskTest(String name, String expected) {
         assertEquals(expected, Name.removeAsterisk(name));
     }

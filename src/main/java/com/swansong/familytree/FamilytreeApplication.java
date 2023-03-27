@@ -1,8 +1,8 @@
 package com.swansong.familytree;
 
 import com.swansong.familytree.biz.MarriageBuilder;
-import com.swansong.familytree.biz.PersonBuilder;
-import com.swansong.familytree.biz.Verifier;
+import com.swansong.familytree.biz.ParentAndChildBuilder;
+import com.swansong.familytree.biz.PersonAndSpouseBuilder;
 import com.swansong.familytree.csvinput.ReadFile;
 import com.swansong.familytree.csvinput.Row;
 import com.swansong.familytree.model.Marriage;
@@ -35,8 +35,8 @@ public class FamilytreeApplication {
 
         // build all the primary people
         for (Row row : csvData) {
-            Person mainPerson = PersonBuilder.buildMainPerson(individualMap, row);
-            Person spouse = PersonBuilder.buildSpouse(individualMap, row);
+            Person mainPerson = PersonAndSpouseBuilder.buildMainPerson(individualMap, row);
+            Person spouse = PersonAndSpouseBuilder.buildSpouse(individualMap, row);
 
             if (spouse != null) {
                 mainPerson.addSpouse(spouse);
@@ -48,14 +48,14 @@ public class FamilytreeApplication {
 
 
         for (Row row : csvData) {
-            PersonBuilder.mergeInParentsAndChildren(row, individualMap);
+            ParentAndChildBuilder.mergeInParentsAndChildren(row, individualMap);
         }
 
         for (Row row : csvData) {
-            Verifier.mergeInChildren(row, individualMap);
+            ParentAndChildBuilder.mergeInChildren(row, individualMap);
         }
 
-        //printMarriages(marriages);
+        printMarriages(marriages);
 
         printIndividualMap(individualMap);
 

@@ -1,5 +1,6 @@
 package com.swansong.familytree.csvinput;
 
+import com.swansong.familytree.model.Person;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -67,6 +68,7 @@ public class Row {
     private String notes7;
 
     public String getChild(int x) {
+        Person.verifyChildNumber(x);
 
         switch (x) {
             case 1 -> {
@@ -106,6 +108,7 @@ public class Row {
                 return child12;
             }
         }
+        // will never happen because X verified above
         throw new RuntimeException("Unexpected Child #. Expected 1-12. Got:"+x);
     }
 }

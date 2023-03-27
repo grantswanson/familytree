@@ -23,6 +23,7 @@ public class StringUtilities {
         // trim the extra space at the end and return the capitalized string
         return sb.toString().trim();
     }
+
     public static boolean isAllCaps(String input) {
         for (int i = 0; i < input.length(); i++) {
             char c = input.charAt(i);

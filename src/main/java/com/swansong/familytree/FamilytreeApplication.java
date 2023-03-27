@@ -12,7 +12,6 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 
-
 //@SpringBootApplication
 public class FamilytreeApplication {
 
@@ -66,15 +65,13 @@ public class FamilytreeApplication {
     }
 
 
-
-
     private static void printMarriages(List<Marriage> marriages) {
         System.out.println("\nMarriages...");
         // build the marriages
         for (Marriage marriage : marriages) {
             String str = String.format("#%-2d %-5s %-6s %-1s %-30.30s %-6s %-1s %-30.30s", marriage.getSourceLineNumber(), marriage.getId(),
                     marriage.getHusband().getGenCode(), marriage.getHusband().getGender(), marriage.getHusband().getName().getLastCommaFirst(),
-                    marriage.getWife().getGenCode(),marriage.getWife().getGender(), marriage.getWife().getName().getLastCommaFirst());
+                    marriage.getWife().getGenCode(), marriage.getWife().getGender(), marriage.getWife().getName().getLastCommaFirst());
             System.out.println(str);
         }
     }

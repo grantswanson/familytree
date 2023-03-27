@@ -12,6 +12,7 @@ public class Person {
     private final static String defaultSource = "Donovan Burdette Meyer";
     private final static String MALE = "M"; // unknown is blank
     private final static String FEMALE = "F"; // unknown is blank
+
     public Person() {
         id = Id.INDIVIDUAL.nextId();
     }
@@ -22,7 +23,7 @@ public class Person {
 
     private Name name;
 
-    private String gender="";
+    private String gender = "";
 
     @ToString.Exclude
 
@@ -31,33 +32,37 @@ public class Person {
     public void addSpouse(Person spouse) {
         spouses.put(spouse.getGenCode(), spouse);
     }
+
     @ToString.Include
     public String spousesToString() {
         StringBuilder strBuilder = new StringBuilder();
         for (Map.Entry<String, Person> entry : spouses.entrySet()) {
-            Person spouse= entry.getValue();
+            Person spouse = entry.getValue();
             strBuilder.append(String.format("#%d %-4s %-10s", spouse.getSourceLineNumber(), spouse.getGenCode(),
                     spouse.getName().getFirstNames() + ", "));
         }
         String str = strBuilder.toString();
-        if(!str.isEmpty()) {
-            str =" spouses:" + str;
+        if (!str.isEmpty()) {
+            str = " spouses:" + str;
         }
         return str;
     }
+
     public void setSpousesGender(boolean isMale) {
         for (Map.Entry<String, Person> entry : spouses.entrySet()) {
-            Person spouse= entry.getValue();
+            Person spouse = entry.getValue();
             spouse.setGenderToMale(isMale);
             spouse.setSpousesGenderNonRecursive(!isMale);
         }
     }
+
     private void setSpousesGenderNonRecursive(boolean isMale) {
         for (Map.Entry<String, Person> entry : spouses.entrySet()) {
-            Person spouse= entry.getValue();
+            Person spouse = entry.getValue();
             spouse.setGenderToMale(isMale);
         }
     }
+
     public void setGenderToMale(boolean isMale) {
         if (isMale) {
             gender = MALE;
@@ -65,9 +70,11 @@ public class Person {
             gender = FEMALE;
         }
     }
+
     public boolean isMale() {
         return MALE.equals(gender);
     }
+
     @SuppressWarnings("unused")
     public boolean isFemale() {
         return FEMALE.equals(gender);

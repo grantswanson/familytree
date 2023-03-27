@@ -62,13 +62,15 @@ public class GenCode {
         }
         return s;
     }
+
     private static String addLastNumber(String s) {
         if (s != null && !s.isEmpty() &&
                 !Character.isDigit(s.charAt(s.length() - 1))) {
-            return s+"1";
+            return s + "1";
         }
         return s;
     }
+
     private static String removeLastChar(String s) {
         if (s != null && !s.isEmpty()) {
             return s.substring(0, s.length() - 1);

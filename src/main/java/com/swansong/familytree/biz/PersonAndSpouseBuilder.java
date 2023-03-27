@@ -23,6 +23,7 @@ public class PersonAndSpouseBuilder {
         }
         return existingPerson;
     }
+
     private static Person buildMainPerson(Row row) {
         String name = row.getName();
         if (name == null || name.isBlank())
@@ -38,17 +39,18 @@ public class PersonAndSpouseBuilder {
 
     public static Person buildSpouse(Map<String, Person> individualMap, Row row) {
         Person existingSpouse = individualMap.get(GenCode.buildSpousesCode(row.getGenCode()));
-        if(existingSpouse==null) {
+        if (existingSpouse == null) {
             // make new person
             existingSpouse = PersonAndSpouseBuilder.buildSpouse(row);
-            if(existingSpouse != null) {
+            if (existingSpouse != null) {
                 individualMap.put(existingSpouse.getGenCode(), existingSpouse);
             }
         } else {
-            existingSpouse.appendDebug(" Also spouse ln#:"+ row.getNumber());
+            existingSpouse.appendDebug(" Also spouse ln#:" + row.getNumber());
         }
         return existingSpouse;
     }
+
     private static Person buildSpouse(Row row) {
         String name = row.getSpouse();
         if (name == null || name.isBlank())
@@ -71,7 +73,6 @@ public class PersonAndSpouseBuilder {
         person.setName(Name.parseLastCommaFirstName(name));
         return person;
     }
-
 
 
 }

@@ -176,6 +176,7 @@ public class Name {
             marriedName = n1.marriedName;
         } // else n1=blank, so no merge
     }
+
     private void mergeInSuffix(Name n1) {
         // should do lambdas instead
         if (n1.suffix != null && !n1.suffix.isBlank()) {
@@ -186,7 +187,8 @@ public class Name {
             suffix = n1.suffix;
         } // else n1=blank, so no merge
     }
-//    private void mergeInField(Name n1, Function<Name, String> getter, BiConsumer<Name, String> setter) {
+
+    //    private void mergeInField(Name n1, Function<Name, String> getter, BiConsumer<Name, String> setter) {
 //        String value1 = getter.apply(this);
 //        String value2 = getter.apply(n1);
 //        if (value2 != null && !value2.isBlank()) {

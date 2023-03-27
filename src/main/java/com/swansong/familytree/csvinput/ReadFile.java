@@ -29,15 +29,15 @@ public class ReadFile {
                 maxColLength = Math.max(values.length, maxColLength);
                 for (int i = 0; i < values.length; i++) {
                     finalValues[i] = values[i].replaceAll("^\"|\"$", "") // remove extra double quotes
-                        .replace("\"\"","\"").trim(); // removed doubled up double quotes
+                            .replace("\"\"", "\"").trim(); // removed doubled up double quotes
                 }
-                Row row = RowBuilder.buildRow(finalValues,lineNumber++);
+                Row row = RowBuilder.buildRow(finalValues, lineNumber++);
                 result.add(row); // add row to result list
                 System.out.println(row);
 
                 line = br.readLine();
             }
-            System.out.println("# rows="+lineNumber+" # columns=" + maxColLength+"\n");
+            System.out.println("# rows=" + lineNumber + " # columns=" + maxColLength + "\n");
 
         } catch (IOException e) {
             e.printStackTrace();

@@ -109,7 +109,7 @@ public class Row {
             }
         }
         // will never happen because X verified above
-        throw new RuntimeException("Unexpected Child #. Expected 1-12. Got:"+x);
+        throw new RuntimeException("Unexpected Child #. Expected 1-12. Got:" + x);
     }
 }
 

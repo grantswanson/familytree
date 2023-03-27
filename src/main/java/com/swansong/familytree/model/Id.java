@@ -1,15 +1,8 @@
 package com.swansong.familytree.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-import javax.xml.crypto.dsig.spec.XSLTTransformParameterSpec;
-
-
 public class Id {
 
-    private String code;
+    private final String code;
     private int currentNum = 0;
     private Id (String code) {
         this.code = code;

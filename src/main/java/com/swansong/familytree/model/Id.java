@@ -9,9 +9,9 @@ public class Id {
         this.code = code;
     }
 
-    public static Id INDIVIDUAL = new Id("I");
-    public static Id MARRIAGE = new Id("M");
-    public static Id FAMILY = new Id("F");
+    public static final Id INDIVIDUAL = new Id("I");
+    public static final Id MARRIAGE = new Id("M");
+    public static final Id FAMILY = new Id("F");
 
     public String nextId() {
         return "[" + code + currentNum++ + "]";

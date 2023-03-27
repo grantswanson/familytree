@@ -60,7 +60,6 @@ public class FamilytreeApplication {
 
 //		individualMap.putAll( builder.buildSpouseFather(row));
 //		individualMap.putAll( builder.buildSpouseMother(row));
-//		individualMap.putAll( builder.buildChildren(row));
 
     }
 

@@ -55,7 +55,7 @@ public class ParentAndChildBuilder {
 
         List<Name> names = extractChildrensNames(row);
         Person self = individualMap.get(row.getGenCode());
-        int i = 1;    // i Base 1. Not base 0
+        int i = 1;    // "i" is Base 1. Not base 0
         for (Name name : names) {
             mergeInChildren(i, name, self.getChild(i++), row);
         }

@@ -4,6 +4,7 @@ import com.swansong.familytree.model.Name;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.Map;
@@ -39,12 +40,18 @@ public class NameTest {
         }
     }
 
-    @ParameterizedTest(name = "{index} isMergeAllowed: Name1:{0}, Name2:{1}, Expected:{2}")
+    @Test
+    void parseLastCommaFirstNameExceptionTest() {
+        assertThrows(IllegalArgumentException.class, () -> Name.parseLastCommaFirstName(null));
+        assertThrows(IllegalArgumentException.class, () -> Name.parseLastCommaFirstName("smith, joe, jr, sr"));
+    }
+
+    @ParameterizedTest
     @MethodSource("isMergeAllowedData")
-    void isMergeAllowedTest(String n1, String n2, boolean expected) {
-        Name name1 = Name.parseLastCommaFirstName(n1);
-        Name name2 = Name.parseLastCommaFirstName(n2);
-        boolean output = Name.isMergeAllowed(name1, name2);
+    void isMergeAllowedTest(String name1, String name2, boolean expected) {
+        Name n1 = Name.parseLastCommaFirstName(name1);
+        Name n2 = Name.parseLastCommaFirstName(name2);
+        boolean output = Name.isMergeAllowed(n1, n2);
         assertEquals(expected, output);
     }
 
@@ -115,9 +122,22 @@ public class NameTest {
                 Arguments.of("Mag, Sven [Marriedname]", "Mag, Sven [M]"),
                 Arguments.of("Magnusson, Sven \"ST\" [Marriedname], Jr.  ", "Magnusson, Sven \"Steve\" [Marriedname], Jr."),
                 Arguments.of("Magnusson, Sven \"STEVE\" [Marr], Jr.  ", "Magnusson, Sven \"Steve\" [Marriedname], Jr."),
-                Arguments.of("Magnu, S ","MAGNUSSON, Sven ", "Magnu, S ", "Magnu, S "),
+                Arguments.of("Magnu, S ", "MAGNUSSON, Sven ", "Magnu, S ", "Magnu, S "),
                 Arguments.of("MAGNUSSON, Sven ", "Magnu, S ", "Magnusson, Sven")
         );
     }
 
+
+    @ParameterizedTest
+    @CsvSource({"'Jones, Bill', false", "'', true", "'  ', true",
+            "',\" jimmy\"', false",
+            "'\" jimmy\"', false",
+            "',[smith]', false",
+            "',, jr.', false"
+    })
+    void isBlankTest(String name, boolean expected) {
+        Name n1 = Name.parseLastCommaFirstName(name);
+        boolean output = n1.isBlank();
+        assertEquals(expected, output);
+    }
 }

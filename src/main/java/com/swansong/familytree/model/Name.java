@@ -1,17 +1,11 @@
 package com.swansong.familytree.model;
 
 import com.swansong.familytree.StringUtilities;
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.function.BiConsumer;
-import java.util.function.Function;
-
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
-//@Builder
 public class Name {
 
     private String firstNames = "";
@@ -25,11 +19,12 @@ public class Name {
 
 
     public static Name parseLastCommaFirstName(String str) {
+        if (str == null) {
+            throw new IllegalArgumentException("Unexpected lastName, firstName format: It is null" + str);
+        }
         String[] names = str.split(",");
-        if (names.length == 0) {
-            throw new RuntimeException("Unexpected lastName, firstName format: It is blank" + str);
-        } else if (names.length > 3) {
-            throw new RuntimeException("Unexpected lastName, firstName format: It contains an extra comma: '" + str + "'");
+        if (names.length > 3) {
+            throw new IllegalArgumentException("Unexpected lastName, firstName format: It contains an extra comma: '" + str + "'");
         }
         Name name = new Name();
         name.setSurName(toNameCase(names[0].trim()));
@@ -186,6 +181,10 @@ public class Name {
 //        } // else n1=blank, so no merge
 //    }
     public boolean isBlank() {
-        return surName.isBlank() && firstNames.isBlank();
+        return surName.isBlank() &&
+                firstNames.isBlank() &&
+                nickName.isBlank() &&
+                marriedName.isBlank() &&
+                suffix.isBlank();
     }
 }

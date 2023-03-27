@@ -92,6 +92,13 @@ public class Name {
         }
     }
 
+    public static String removeAsterisk(String name) {
+        if (name == null) {
+            return null;
+        }
+        return name.replace("*", "");
+    }
+
     public String getLastCommaFirst() {
         String key = surName + ", " + firstNames;
         if (nickName != null && !nickName.isEmpty()) key += " \"" + nickName + "\"";

@@ -8,6 +8,7 @@ import java.util.Map;
 
 @Data
 public class Person {
+    public static final int MAX_CHILDREN = 12;
     private final static String defaultSource = "Donovan Burdette Meyer";
     private final static String MALE = "M"; // unknown is blank
     private final static String FEMALE = "F"; // unknown is blank
@@ -82,12 +83,29 @@ public class Person {
     @ToString.Exclude
     private Person[] children = new Person[12];
 
+    /**
+     * @param i Base 1. Not base 0
+     */
     public void addChild(Person child, int i) {
-        children[i] = child;
+        verifyChildNumber(i);
+        children[i - 1] = child;
     }
 
+    /**
+     * @param i Base 1. Not base 0
+     */
     public Person getChild(int i) {
-        return children[i];
+        verifyChildNumber(i);
+        return children[i - 1];
+    }
+
+    /**
+     * @param i Base 1. Not base 0
+     */
+    public static void verifyChildNumber(int i) {
+        if (i <= 0 || i > MAX_CHILDREN) {
+            throw new IllegalArgumentException("Invalid child#:" + i + " It must be >0 and <=" + MAX_CHILDREN);
+        }
     }
 
     @ToString.Include

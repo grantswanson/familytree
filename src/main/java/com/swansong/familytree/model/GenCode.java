@@ -30,9 +30,19 @@ public class GenCode {
     public static String buildChildsCode(String genCode, int childNumber) {
         return appendLetter(genCode, childNumber);
     }
+
+    /**
+     * @return Base 1. Not base 0
+     */
     public static int getChildNumber(String genCode) {
-        return getLastLetterValue(removeLastNumber(genCode));
+        int i = getLastLetterValue(removeLastNumber(genCode));
+        Person.verifyChildNumber(i);
+        return i;
     }
+
+    /**
+     * @return Base 1. Not base 0
+     */
     private static int getLastLetterValue(String input) {
         if (input == null || input.isEmpty()) {
             return -1;

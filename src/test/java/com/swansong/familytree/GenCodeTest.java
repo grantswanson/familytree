@@ -95,9 +95,17 @@ public class GenCodeTest {
 
 
     @ParameterizedTest
-    @CsvSource({"SA, 1", "SB,2", "SA1, 1", "SA2, 1", "SAAAC1, 3", ",-1", "333, -1"})
+    @CsvSource({"SA, 1", "SB,2", "SA1, 1", "SA2, 1", "SAAAC1, 3"})
     void getChildNumberTest(String genCode, int expected) {
+
         assertEquals(expected, GenCode.getChildNumber(genCode));
+    }
+
+    @ParameterizedTest
+    @CsvSource({"'',-1", "333, -1"})
+    void getChildNumberExceptionTest(String genCode) {
+
+        assertThrows(IllegalArgumentException.class, () -> GenCode.getChildNumber(genCode));
     }
 
     @Test

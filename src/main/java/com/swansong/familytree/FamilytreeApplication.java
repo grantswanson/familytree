@@ -98,12 +98,20 @@ public class FamilytreeApplication {
                     person.getSourceLineNumber(),
                     person.getGenCode(),
                     person.getName().getLastCommaFirst());
-//            selfStr += String.format("%1s %-11s %-15.15s %-11s %-15.15s",
+//            selfStr += String.format("%1s %-11s %-15.15s %-11s %-15.15s %s %s %s %s %s %s ",
 //                    person.getGender(),
 //                    person.getDob(),
 //                    person.getPob(),
 //                    person.getBaptismDate(),
-//                    person.getBaptismPlace()); //, person.getId());
+//                    person.getBaptismPlace(),
+//                    person.getConfirmationDate(),
+//                    person.getConfirmationPlace(),
+//                    person.getDeathDate(),
+//                    person.getDeathPlace(),
+//                    person.getBurialDate(),
+//                    person.getBurialPlace()
+//                    );
+//            System.out.println(person);
             System.out.print(selfStr);
 
             System.out.print(person.spousesToString());

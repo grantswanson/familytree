@@ -12,11 +12,15 @@ import java.util.Map;
 public class ParentAndChildBuilder {
 
     public static void mergeInParentsAndChildren(Row row, Map<String, Person> individualMap) {
-        Name fathersName = Name.parseLastCommaFirstName(row.getFather());
-        mergeInParentsAndChildren(fathersName, row, individualMap, true);
+        if (row.getFather() != null && !row.getFather().isBlank()) {
+            Name fathersName = Name.parseLastCommaFirstName(row.getFather());
+            mergeInParentsAndChildren(fathersName, row, individualMap, true);
+        }
 
-        Name mothersName = Name.parseLastCommaFirstName(row.getMother());
-        mergeInParentsAndChildren(mothersName, row, individualMap, false);
+        if (row.getMother() != null && !row.getMother().isBlank()) {
+            Name mothersName = Name.parseLastCommaFirstName(row.getMother());
+            mergeInParentsAndChildren(mothersName, row, individualMap, false);
+        }
     }
 
     private static void mergeInParentsAndChildren(Name parentsName, Row row, Map<String, Person> individualMap, boolean isFather) {
@@ -37,6 +41,7 @@ public class ParentAndChildBuilder {
             parent2.setSpousesGender(!isFather);
             addChild(parent2, row, individualMap);
         } else {
+            //if(Name.areNamesPossiblyMisspelled()
             System.out.println((isFather ? "Father" : "Mother") + " not found in main list. ln#:" + row.getNumber() +
                     "\n " + (isFather ? "Father" : "Mother") + ":" + parentsName.getLastCommaFirst() +
                     "\n Found Parent1:" + (parent1 == null ? "null" : parent1.getName().getLastCommaFirst()) +
@@ -52,7 +57,6 @@ public class ParentAndChildBuilder {
 
 
     public static void mergeInChildren(Row row, Map<String, Person> individualMap) {
-
         List<Name> names = extractChildrensNames(row);
         Person self = individualMap.get(row.getGenCode());
         int i = 1;    // "i" is Base 1. Not base 0
@@ -82,11 +86,9 @@ public class ParentAndChildBuilder {
         List<Name> names = new ArrayList<>();
 
         for (int i = 1; i <= Person.MAX_CHILDREN; i++) {
-            String name = row.getChild(i);
-            if (name != null && !name.isBlank()) {
-                names.add(Name.parseLastCommaFirstName(
-                        Name.addCommaIfMissing(
-                                Name.removeAsterisk(name))));
+            Name name = Name.extractChildrensName(row.getChild(i));
+            if (name != null) {
+                names.add(name);
             }
         }
         return names;

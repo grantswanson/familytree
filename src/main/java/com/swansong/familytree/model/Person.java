@@ -20,12 +20,19 @@ public class Person {
     private String id;
     private Integer sourceLineNumber;
     private String genCode;
+    private Name name;
+    private String gender = "";
+
     private String dob = ""; //format is yyyy MMM d(for MOST dates, some are just yyyy)
     private String pob = "";
     private String baptismDate = ""; //format yyyy or yyyy MMM d
     private String baptismPlace = "";
-    private Name name;
-    private String gender = "";
+    private String confirmationDate = "";
+    private String confirmationPlace = "";
+    private String deathDate = "";
+    private String deathPlace = "";
+    private String burialDate = "";
+    private String burialPlace = "";
 
     @ToString.Exclude
 
@@ -139,24 +146,17 @@ public class Person {
 
 
     //private String source;
-//    private String birthdate;
-//    private String birthplace;
-//    private String birthsource = defaultSource;
-//    private String baptismdate;
-//    private String baptismplace;
-//    private String baptismsource = defaultSource;
-//    private String deathdate;
-//    private String deathplace;
-//    private String deathsource = defaultSource;
-//    private String burialdate;
-//    private String burialplace;
-//    private String burialsource = defaultSource;
+    private String birthSource = defaultSource;
+    private String baptismSource = defaultSource;
+    private String deathSource = defaultSource;
+    private String burialSource = defaultSource;
+    private String occupationSource = defaultSource;
 
 
 //    private String occupationdate;
 //    private String occupationplace;
 //    private String occupationplace_id;
-//    private String occupationsource;
+//
 //    private String occupationdescr;
 //    private String residencedate;
 //    private String residenceplace;

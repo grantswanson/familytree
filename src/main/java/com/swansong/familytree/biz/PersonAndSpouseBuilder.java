@@ -31,13 +31,17 @@ public class PersonAndSpouseBuilder {
             return null;
 
         Person person = buildBasicPerson(name);
-        // add more here
         person.setSourceLineNumber(row.getNumber());
         person.setGenCode(GenCode.buildSelfCode(row.getGenCode()));
-        person.setDob(row.getDob().trim());
+
+        person.setDob(row.getDob());
         person.setPob(row.getPob());
         person.setBaptismDate(row.getBaptismDate());
         person.setBaptismPlace(row.getBaptismPlace());
+        person.setConfirmationDate(row.getConfirmationDate());
+        person.setConfirmationPlace(row.getConfirmationPlace());
+        person.setDeathDate(row.getDeathDate());
+        person.setBurialPlace(row.getBurialPlace());
         return person;
     }
 
@@ -61,10 +65,17 @@ public class PersonAndSpouseBuilder {
             return null;
 
         Person person = buildBasicPerson(name);
-        // add more here
         person.setSourceLineNumber(row.getNumber());
-        // can't know the spouse's gen code
         person.setGenCode(GenCode.buildSpousesCode(row.getGenCode()));
+
+        person.setDob(row.getSpouseDob());
+        person.setPob(row.getSpousePob());
+        person.setBaptismDate(row.getSpouseBaptismDate());
+        person.setBaptismPlace(row.getSpouseBaptismPlace());
+        person.setConfirmationDate(row.getSpouseConfirmationDate());
+        person.setConfirmationPlace(row.getSpouseConfirmationPlace());
+        person.setDeathDate(row.getSpouseDeathDate());
+        person.setBurialPlace(row.getSpouseBurialPlace());
 
         return person;
     }

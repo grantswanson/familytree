@@ -3,6 +3,7 @@ package com.swansong.familytree.model;
 import com.swansong.familytree.StringUtilities;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.apache.commons.lang3.StringUtils;
 
 @Data
 @NoArgsConstructor
@@ -20,10 +21,13 @@ public class Name {
 
     public static Name parseLastCommaFirstName(String str) {
         if (str == null) {
-            throw new IllegalArgumentException("Unexpected lastName, firstName format: It is null" + str);
+            throw new IllegalArgumentException("Unexpected lastName, firstName format: It is null");
         }
         String[] names = str.split(",");
-        if (names.length > 3) {
+        if (names.length == 0) {
+            // the str="," so it is basically blank, so we shouldn't really be parsing that name.
+            throw new IllegalArgumentException("Unexpected lastName, firstName format: It is names.length:" + names.length + " str:'" + str + "'");
+        } else if (names.length > 3) {
             throw new IllegalArgumentException("Unexpected lastName, firstName format: It contains an extra comma: '" + str + "'");
         }
         Name name = new Name();
@@ -94,9 +98,9 @@ public class Name {
 
     public static String removeAsterisk(String name) {
         if (name == null) {
-            return null;
+            return "";
         }
-        return name.replace("*", "");
+        return name.replace("*", "").trim();
     }
 
     public String getLastCommaFirst() {
@@ -205,5 +209,21 @@ public class Name {
                 nickName.isBlank() &&
                 marriedName.isBlank() &&
                 suffix.isBlank();
+    }
+
+    public static Name extractChildrensName(String name) {
+        name = Name.removeAsterisk(name); // null safe, returns "" if null passed in
+        if (!name.isBlank()) {
+            return Name.parseLastCommaFirstName(
+                    Name.addCommaIfMissing(name.trim()));
+        }
+        return null;
+    }
+
+    public static boolean areNamesPossiblyMisspelled(String name1, String name2) {
+        // calculate the Levenshtein distance between the two names
+        int distance = StringUtils.getLevenshteinDistance(name1, name2);
+        // if the distance is less than or equal to a certain threshold, return true
+        return distance <= 2;
     }
 }

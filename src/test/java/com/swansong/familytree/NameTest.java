@@ -10,8 +10,7 @@ import org.junit.jupiter.params.provider.MethodSource;
 import java.util.Map;
 import java.util.stream.Stream;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class NameTest {
 
@@ -89,6 +88,7 @@ public class NameTest {
         name1.mergeInName(name2);
         assertEquals(expected, name1);
     }
+
     static Stream<Arguments> mergeNamesData() {
         return Stream.of(     // name1, name2, expected output
                 Arguments.of("MAGNUSSON,  ", "Magnusson, Sven  ", "Magnusson, Sven"),
@@ -110,6 +110,7 @@ public class NameTest {
         assertThrows(RuntimeException.class, () -> name1.mergeInName(name2));
 
     }
+
     static Stream<Arguments> mergeNames_ExceptionData() {
         return Stream.of(     // name1, name2
                 Arguments.of("MAGNUSSON,  ", "M, Sven  "),
@@ -148,9 +149,29 @@ public class NameTest {
     }
 
     @ParameterizedTest
-    @CsvSource({"'Smith, John * ', 'Smith, John  '", "'Jane*', 'Jane'", "'Doe, Jill * [Roe]', 'Doe, Jill  [Roe]'"})
+    @CsvSource({"'Smith, John * ', 'Smith, John'", "'Jane*', 'Jane'", "'Doe, Jill * [Roe]', 'Doe, Jill  [Roe]'", "'  *  ',''"})
     void removeAsteriskTest(String name, String expected) {
         assertEquals(expected, Name.removeAsterisk(name));
     }
+
+    @ParameterizedTest
+    @CsvSource({"' Smith,  John * ', 'Smith, John'", "' Jane*', ', Jane'", "' Doe ,  Jill * [Roe] ', 'Doe, Jill [Roe]'",
+            "Carol, ', Carol'"})
+    void extractChildrensNameTest(String name, String expected) {
+        //noinspection DataFlowIssue
+        assertEquals(expected, Name.extractChildrensName(name).getLastCommaFirst());
+    }
+
+    @Test
+    void extractChildrensNameNullTest() {
+        assertNull(Name.extractChildrensName("  *  "));
+    }
+
+//    @Test
+//    void test() {
+//        String s= ",";
+//        String [] names = s.split(",");
+//        assertEquals(0,names.length);
+//    }
 
 }

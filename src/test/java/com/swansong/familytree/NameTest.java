@@ -24,8 +24,8 @@ public class NameTest {
                 Map.entry("SWANSON ,   ", "Swanson, "),
                 Map.entry("  ,  Cynthia", ", Cynthia"),
                 Map.entry("SWANSON, Carl Loyal William \"Loyal\"", "Swanson, Carl Loyal William \"Loyal\""),
-                Map.entry(" Swanson  ,  Bill,  Jr.  ", "Swanson, Bill, Jr."),
-                Map.entry(" Swanson  ,  William \"Billy\" ,  Jr.   ", "Swanson, William \"Billy\", Jr."),
+                Map.entry(" Swanson  ,  Bill,  Jr.  ", "Swanson, Bill, Jr"),
+                Map.entry(" Swanson  ,  William \"Billy\" ,  Jr.   ", "Swanson, William \"Billy\", Jr"),
                 Map.entry("                 , Sandra", ", Sandra"),
                 Map.entry(",Jana Lynn [Neuzil] * ", ", Jana Lynn * [Neuzil]"),
                 Map.entry("McGEE, ANDREW SHANE", "McGEE, Andrew Shane"), // fix later
@@ -62,7 +62,7 @@ public class NameTest {
                 Arguments.of(" SWANSON  ,  GRANT  ", "Swanson, Grant,Jr.", false),
                 Arguments.of("SWANSON, Carl Loyal William \"Loyal\"", "Swanson, Carl Loyal William \"Loyal\"", true),
                 Arguments.of("SWANSON, Carl Loyal William \"Loyal\"", "Swanson, Carl Loyal William", true),
-                Arguments.of(" Swanson  ,  Bill,  Jr.  ", "Swanson, Bill, Jr.", true),
+                Arguments.of(" Swanson  ,  Bill,  Jr.  ", "Swanson, Bill, Jr", true),
                 Arguments.of(" Swanson  ,  Bill  ", "Swanson, Bill, Jr.", false),
                 Arguments.of(" Swanson  ,  William \"Billy\" ,  Jr.   ", "Swanson, William \"Billy\", Jr.", true),
                 Arguments.of(" Swanson  ,  William \"Billy\" ,  Jr.   ", "Swanson, W \"Billy\", Jr.", false),
@@ -165,6 +165,18 @@ public class NameTest {
     @Test
     void extractChildrensNameNullTest() {
         assertNull(Name.extractChildrensName("  *  "));
+    }
+
+    @ParameterizedTest
+    @CsvSource({"'Smith,  Johan', 'Smith, John', true",
+            "' jane', ', Janey', true",
+            "'Bill', 'Billy', true",
+            "'William', 'Will', false",
+            "'William', 'Bill', false",
+            "Jeffery, Jeffrey, true"})
+    void areNamesPossiblyMisspelledTest(String name1, String name2, String expected) {
+        boolean similar = Name.areNamesPossiblyMisspelled(name1, name2, true);
+        assertEquals(expected, Boolean.toString(similar));
     }
 
 //    @Test

@@ -39,7 +39,7 @@ public class Name {
             name.setMarriedName(toNameCase(extractMarriedName(n).trim()));
         }
         if (names.length == 3) {
-            name.setSuffix(toNameCase(names[2]).trim());
+            name.setSuffix(toNameCase(names[2]).replace(".", "").trim());
 
         }
         return name;
@@ -220,9 +220,30 @@ public class Name {
         return null;
     }
 
+    public static boolean areNamesPossiblyMisspelled(Name name1, Name name2) {
+        // nickname, and married name don't matter
+        boolean allowBlank = true; // if one of the two names is blank, then return true
+        boolean similar = (areNamesPossiblyMisspelled(name1.firstNames, name2.firstNames, allowBlank) &&
+                areNamesPossiblyMisspelled(name1.surName, name2.surName, allowBlank));
+
+        return similar;
+    }
+
+    @SuppressWarnings("unused")
     public static boolean areNamesPossiblyMisspelled(String name1, String name2) {
+        return areNamesPossiblyMisspelled(name1, name2, false);
+    }
+
+    /**
+     * @param allowBlank if one of the two names is blank, then return true
+     */
+    public static boolean areNamesPossiblyMisspelled(String name1, String name2, boolean allowBlank) {
+        if (allowBlank && (name1.isBlank() || name2.isBlank())) {
+            return true;
+        }
+
         // calculate the Levenshtein distance between the two names
-        int distance = StringUtils.getLevenshteinDistance(name1, name2);
+        int distance = StringUtils.getLevenshteinDistance(name1.toLowerCase(), name2.toLowerCase());
         // if the distance is less than or equal to a certain threshold, return true
         return distance <= 2;
     }

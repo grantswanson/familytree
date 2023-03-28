@@ -41,11 +41,22 @@ public class ParentAndChildBuilder {
             parent2.setSpousesGender(!isFather);
             addChild(parent2, row, individualMap);
         } else {
-            //if(Name.areNamesPossiblyMisspelled()
-            System.out.println((isFather ? "Father" : "Mother") + " not found in main list. ln#:" + row.getNumber() +
-                    "\n " + (isFather ? "Father" : "Mother") + ":" + parentsName.getLastCommaFirst() +
-                    "\n Found Parent1:" + (parent1 == null ? "null" : parent1.getName().getLastCommaFirst()) +
-                    "\n Found Parent2:" + (parent2 == null ? "null" : parent2.getName().getLastCommaFirst()));
+            String fatherMotherStr = (isFather ? "Father" : "Mother");
+            if (parent1 != null && Name.areNamesPossiblyMisspelled(parentsName, parent1.getName())) {
+                System.out.println(fatherMotherStr + " POSSIBLE MISSPELLING. ln#:" + row.getNumber() +
+                        "\n " + fatherMotherStr + " :" + parentsName.getLastCommaFirst() + " is SIMILAR to" +
+                        "\n parent1:" + parent1.getName().getLastCommaFirst());
+
+            } else if (parent2 != null && Name.areNamesPossiblyMisspelled(parentsName, parent2.getName())) {
+                System.out.println(fatherMotherStr + " POSSIBLE MISSPELLING. ln#:" + row.getNumber() + " is SIMILAR to" +
+                        "\n " + fatherMotherStr + " :" + parentsName.getLastCommaFirst() +
+                        "\n parent2:" + parent2.getName().getLastCommaFirst());
+            } else {
+                System.out.println(fatherMotherStr + " not found in main list. ln#:" + row.getNumber() +
+                        "\n " + fatherMotherStr + " :" + parentsName.getLastCommaFirst() +
+                        "\n Parent1:" + (parent1 == null ? "null" : parent1.getName().getLastCommaFirst()) +
+                        "\n Parent2:" + (parent2 == null ? "null" : parent2.getName().getLastCommaFirst()));
+            }
         }
     }
 

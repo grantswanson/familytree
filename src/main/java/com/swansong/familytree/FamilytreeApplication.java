@@ -38,10 +38,21 @@ public class FamilytreeApplication {
             Person spouse = PersonAndSpouseBuilder.buildSpouse(individualMap, row);
 
 
+
             if (spouse != null) {
                 mainPerson.addSpouse(spouse);
                 spouse.addSpouse(mainPerson);
                 marriages.add(MarriageBuilder.buildMarriage(mainPerson, spouse, row));
+                Person spousesFather = ParentAndChildBuilder.buildSpousesFather(individualMap, row);
+                if(spousesFather!= null) {
+                    spouse.setFather(spousesFather);
+                    spousesFather.setChildren(new Person[] {spouse});
+                }
+                Person spousesMother = ParentAndChildBuilder.buildSpousesMother(individualMap, row);
+                if(spousesMother!= null) {
+                    spouse.setMother(spousesMother);
+                    spousesMother.setChildren(new Person[] {spouse});
+                }
             }
 
         }
@@ -115,7 +126,7 @@ public class FamilytreeApplication {
             System.out.print(selfStr);
 
             System.out.print(person.spousesToString());
-            System.out.print(person.childrenToString());
+//          System.out.print(person.childrenToString());
 
 
             System.out.println();

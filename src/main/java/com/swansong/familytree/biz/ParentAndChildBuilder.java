@@ -104,31 +104,62 @@ public class ParentAndChildBuilder {
         }
         return names;
     }
+    public static Person buildSpousesFather(Map<String, Person> individualMap, Row row) {
+        Person existingSpousesFather = individualMap.get(GenCode.buildSpousesFatherCode(row.getGenCode()));
+        if("SA1f".equals(GenCode.buildSpousesFatherCode(row.getGenCode()))) {
+            System.out.println(existingSpousesFather);
+        }
+        if (existingSpousesFather == null) {
+            // make new person
+            existingSpousesFather = buildSpousesFather(row);
+            if (existingSpousesFather != null) {
+                individualMap.put(existingSpousesFather.getGenCode(), existingSpousesFather);
+            }
+        } else {
+            existingSpousesFather.appendDebug(" Also SpousesFather ln#:" + row.getNumber());
+        }
+        return existingSpousesFather;
+    }
 
-    public Person buildSpouseFather(Row row) {
+    public static Person buildSpousesMother(Map<String, Person> individualMap, Row row) {
+        Person existingSpousesMother = individualMap.get(GenCode.buildSpousesMotherCode(row.getGenCode()));
+        if (existingSpousesMother == null) {
+            // make new person
+            existingSpousesMother = buildSpousesMother(row);
+            if (existingSpousesMother != null) {
+                individualMap.put(existingSpousesMother.getGenCode(), existingSpousesMother);
+            }
+        } else {
+            existingSpousesMother.appendDebug(" Also SpousesMother ln#:" + row.getNumber());
+        }
+        return existingSpousesMother;
+    }
+
+
+    public static Person buildSpousesFather(Row row) {
         String name = row.getSpouseFather();
         if (name == null || name.isBlank())
             return null;
 
-        Person person = new Person();// buildBasicPerson(name);
+        Person person = PersonAndSpouseBuilder.buildBasicPerson(name);
         // add more here
         person.setSourceLineNumber(row.getNumber());
-        // can't know the spouse's gen code, nor the parents of the spouse
-        person.setGenCode("FatherInLawOf:" + row.getGenCode());
+       
+        person.setGenCode(GenCode.buildSpousesFatherCode(row.getGenCode()));
 
         return person;
     }
 
-    public Person buildSpouseMother(Row row) {
+    public static Person buildSpousesMother(Row row) {
         String name = row.getSpouseMother();
         if (name == null || name.isBlank())
             return null;
 
-        Person person = new Person();// buildBasicPerson(name);
+        Person person = PersonAndSpouseBuilder.buildBasicPerson(name);
         // add more here
         person.setSourceLineNumber(row.getNumber());
-        // can't know the spouse's gen code, nor the parents of the spouse
-        person.setGenCode("MotherInLawOf:" + row.getGenCode());
+       
+        person.setGenCode(GenCode.buildSpousesMotherCode(row.getGenCode()));
 
         return person;
     }

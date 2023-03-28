@@ -22,7 +22,8 @@ public class Person {
     private String genCode;
     private Name name;
     private String gender = "";
-
+    private Person father;
+    private Person mother;
     private String dob = ""; //format is yyyy MMM d(for MOST dates, some are just yyyy)
     private String pob = "";
     private String baptismDate = ""; //format yyyy or yyyy MMM d
@@ -151,6 +152,7 @@ public class Person {
     private String deathSource = defaultSource;
     private String burialSource = defaultSource;
     private String occupationSource = defaultSource;
+
 
 
 //    private String occupationdate;

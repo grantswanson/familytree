@@ -1,12 +1,22 @@
 package com.swansong.familytree.model;
 
 public class GenCode {
+    public static final String SPOUSES_MOTHER_CODE = "m";
+    public static final String SPOUSES_FATHER_CODE = "f";
+
     private GenCode() {
     }
 
     public static String buildSelfCode(String genCode) {
         // remove numbers (multiple marriages),
         return removeLastNumber(genCode);
+    }
+
+    public static String buildSpousesFatherCode(String genCode) {
+        return buildSpousesCode(genCode) + SPOUSES_FATHER_CODE;
+    }
+    public static String buildSpousesMotherCode(String genCode) {
+        return buildSpousesCode(genCode) + SPOUSES_MOTHER_CODE;
     }
 
     public static String buildSpousesCode(String genCode) {

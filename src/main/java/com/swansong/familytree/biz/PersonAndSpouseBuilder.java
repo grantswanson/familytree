@@ -80,7 +80,7 @@ public class PersonAndSpouseBuilder {
         return person;
     }
 
-    private static Person buildBasicPerson(String name) {
+    public static Person buildBasicPerson(String name) {
         if (name == null || name.isBlank())
             System.out.println("Warning: Expected name to be not null and not blank! It is '" + name + "'");
 

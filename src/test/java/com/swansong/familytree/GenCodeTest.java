@@ -122,4 +122,22 @@ public class GenCodeTest {
         assertThrows(IllegalArgumentException.class, () -> GenCode.buildChildsCode("SA", 0));
         assertThrows(IllegalArgumentException.class, () -> GenCode.buildChildsCode("SA", -3));
     }
+
+    @ParameterizedTest
+    @CsvSource({"S, S1f", "SABC, SABC1f", "SA1B2C1, SA1B2C1f", "SA2, SA2f"})
+    void buildSpousesFatherCodeTest(String genCode, String expected) {
+        String output = GenCode.buildSpousesFatherCode(genCode);
+        assertEquals(expected, output);
+
+    }
+
+    @ParameterizedTest
+    @CsvSource({"S, S1m", "SABC, SABC1m", "SA1B2C1, SA1B2C1m", "SA2, SA2m"})
+    void buildSpousesMotherCodeTest(String genCode, String expected) {
+        String output = GenCode.buildSpousesMotherCode(genCode);
+        assertEquals(expected, output);
+
+    }
+
+
 }

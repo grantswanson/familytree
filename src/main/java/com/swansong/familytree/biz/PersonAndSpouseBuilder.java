@@ -10,6 +10,7 @@ import java.util.Map;
 
 public class PersonAndSpouseBuilder {
 
+
     public static Person buildMainPerson(Map<String, Person> individualMap, Row row) {
         String selfGenCode = GenCode.buildSelfCode(row.getGenCode());
         Person existingPerson = individualMap.get(selfGenCode);
@@ -33,7 +34,10 @@ public class PersonAndSpouseBuilder {
         // add more here
         person.setSourceLineNumber(row.getNumber());
         person.setGenCode(GenCode.buildSelfCode(row.getGenCode()));
-
+        person.setDob(row.getDob().trim());
+        person.setPob(row.getPob());
+        person.setBaptismDate(row.getBaptismDate());
+        person.setBaptismPlace(row.getBaptismPlace());
         return person;
     }
 

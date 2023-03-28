@@ -37,6 +37,7 @@ public class FamilytreeApplication {
             Person mainPerson = PersonAndSpouseBuilder.buildMainPerson(individualMap, row);
             Person spouse = PersonAndSpouseBuilder.buildSpouse(individualMap, row);
 
+
             if (spouse != null) {
                 mainPerson.addSpouse(spouse);
                 spouse.addSpouse(mainPerson);
@@ -58,6 +59,7 @@ public class FamilytreeApplication {
 
         printIndividualMap(individualMap);
 
+
 //		individualMap.putAll( builder.buildSpouseFather(row));
 //		individualMap.putAll( builder.buildSpouseMother(row));
 
@@ -68,9 +70,14 @@ public class FamilytreeApplication {
         System.out.println("\nMarriages...");
         // build the marriages
         for (Marriage marriage : marriages) {
-            String str = String.format("#%-2d %-5s %-6s %-1s %-30.30s %-6s %-1s %-30.30s", marriage.getSourceLineNumber(), marriage.getId(),
-                    marriage.getHusband().getGenCode(), marriage.getHusband().getGender(), marriage.getHusband().getName().getLastCommaFirst(),
-                    marriage.getWife().getGenCode(), marriage.getWife().getGender(), marriage.getWife().getName().getLastCommaFirst());
+            String str = String.format("#%-2d %-5s %-6s %-1s %-30.30s %-6s %-1s %-30.30s",
+                    marriage.getSourceLineNumber(), marriage.getId(),
+                    marriage.getHusband().getGenCode(),
+                    marriage.getHusband().getGender(),
+                    marriage.getHusband().getName().getLastCommaFirst(),
+                    marriage.getWife().getGenCode(),
+                    marriage.getWife().getGender(),
+                    marriage.getWife().getName().getLastCommaFirst());
             System.out.println(str);
         }
     }
@@ -87,18 +94,26 @@ public class FamilytreeApplication {
 
         for (Map.Entry<String, Person> entry : sortedPersonMap.entrySet()) {
             Person person = entry.getValue();
-            String selfStr = String.format("#%-2d %-6s %1s %-30.30s ", //%-5s
+            String selfStr = String.format("#%-2d %-7s %-30.30s",
                     person.getSourceLineNumber(),
-                    person.getGenCode(), person.getGender(),
-                    person.getName().getLastCommaFirst()); //, person.getId());
+                    person.getGenCode(),
+                    person.getName().getLastCommaFirst());
+//            selfStr += String.format("%1s %-11s %-15.15s %-11s %-15.15s",
+//                    person.getGender(),
+//                    person.getDob(),
+//                    person.getPob(),
+//                    person.getBaptismDate(),
+//                    person.getBaptismPlace()); //, person.getId());
             System.out.print(selfStr);
 
             System.out.print(person.spousesToString());
             System.out.print(person.childrenToString());
 
+
             System.out.println();
 
         }
+
         System.out.println("Total Count=" + (personMap.size()));
     }
 

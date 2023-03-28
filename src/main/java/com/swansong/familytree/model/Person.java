@@ -20,20 +20,25 @@ public class Person {
     private String id;
     private Integer sourceLineNumber;
     private String genCode;
-
+    private String dob = ""; //format is yyyy MMM d(for MOST dates, some are just yyyy)
+    private String pob = "";
+    private String baptismDate = ""; //format yyyy or yyyy MMM d
+    private String baptismPlace = "";
     private Name name;
-
     private String gender = "";
 
     @ToString.Exclude
 
     private Map<String, Person> spouses = new HashMap<>();
 
+
     public void addSpouse(Person spouse) {
         spouses.put(spouse.getGenCode(), spouse);
     }
 
     @ToString.Include
+
+
     public String spousesToString() {
         StringBuilder strBuilder = new StringBuilder();
         for (Map.Entry<String, Person> entry : spouses.entrySet()) {

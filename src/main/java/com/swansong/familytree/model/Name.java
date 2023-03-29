@@ -247,4 +247,7 @@ public class Name {
         // if the distance is less than or equal to a certain threshold, return true
         return distance <= 2;
     }
+    public static boolean isOnlySurname(String name) {
+        return name.endsWith(",");
+    }
 }

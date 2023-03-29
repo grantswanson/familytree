@@ -10,9 +10,10 @@ import org.junit.jupiter.params.provider.MethodSource;
 import java.util.Map;
 import java.util.stream.Stream;
 
+
 import static org.junit.jupiter.api.Assertions.*;
 
-public class NameTest {
+public class  NameTest {
 
     @Test
     void parseLastCommaFirstNameTest() {
@@ -177,6 +178,12 @@ public class NameTest {
     void areNamesPossiblyMisspelledTest(String name1, String name2, String expected) {
         boolean similar = Name.areNamesPossiblyMisspelled(name1, name2, true);
         assertEquals(expected, Boolean.toString(similar));
+    }
+    @ParameterizedTest
+    @CsvSource({"',Smith', false","'Smith, Jones', false", "'Ware,', true "})
+    void isOnlySurnameTest(String name, String expected) {
+        boolean b = Name.isOnlySurname(name);
+        assertEquals(expected, Boolean.toString(b));
     }
 
 //    @Test

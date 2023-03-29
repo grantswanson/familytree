@@ -16,6 +16,9 @@ public class Marriage {
     private Person spouse1;
     private Person spouse2;
 
+
+
+
     public Person getHusband() {
         if (spouse2.isMale()) {
             return spouse2;

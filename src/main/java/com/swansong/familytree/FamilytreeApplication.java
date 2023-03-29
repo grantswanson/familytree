@@ -109,6 +109,7 @@ public class FamilytreeApplication {
                     person.getSourceLineNumber(),
                     person.getGenCode(),
                     person.getName().getLastCommaFirst());
+
 //            selfStr += String.format("%1s %-11s %-15.15s %-11s %-15.15s %s %s %s %s %s %s ",
 //                    person.getGender(),
 //                    person.getDob(),

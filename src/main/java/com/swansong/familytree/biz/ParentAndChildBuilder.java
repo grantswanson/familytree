@@ -136,9 +136,12 @@ public class ParentAndChildBuilder {
     }
 
 
+
+
+
     public static Person buildSpousesFather(Row row) {
         String name = row.getSpouseFather();
-        if (name == null || name.isBlank())
+        if (name == null || name.isBlank() || Name.isOnlySurname(name))
             return null;
 
         Person person = PersonAndSpouseBuilder.buildBasicPerson(name);
@@ -152,7 +155,7 @@ public class ParentAndChildBuilder {
 
     public static Person buildSpousesMother(Row row) {
         String name = row.getSpouseMother();
-        if (name == null || name.isBlank())
+        if (name == null || name.isBlank() || Name.isOnlySurname(name))
             return null;
 
         Person person = PersonAndSpouseBuilder.buildBasicPerson(name);

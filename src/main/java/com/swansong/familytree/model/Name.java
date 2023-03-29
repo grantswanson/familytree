@@ -9,7 +9,7 @@ import org.apache.commons.text.similarity.LevenshteinDistance;
 @NoArgsConstructor
 public class Name {
 
-    private static final int MAX_LEVENSHTEIN_DISTANCE_FOR_SIMILARITY = 2;
+    private static final int MAX_DIFF_FOR_SIMILARITY = 2;
     private String firstNames = "";
     private String nickName = "";
     private String surName = "";
@@ -245,10 +245,10 @@ public class Name {
         }
         // calculate the Levenshtein distance between the two names
         LevenshteinDistance levenshteinDistance =
-                new LevenshteinDistance(MAX_LEVENSHTEIN_DISTANCE_FOR_SIMILARITY + 1);
+                new LevenshteinDistance();
         int distance = levenshteinDistance.apply(name1.toLowerCase(), name2.toLowerCase());
         // if the distance is less than or equal to a certain threshold, return true
-        return distance <= MAX_LEVENSHTEIN_DISTANCE_FOR_SIMILARITY;
+        return distance <= MAX_DIFF_FOR_SIMILARITY;
     }
     public static boolean isOnlySurname(String name) {
         return name.trim().endsWith(",");

@@ -223,6 +223,7 @@ public class Name {
     public static boolean areNamesPossiblyMisspelled(Name name1, Name name2) {
         // nickname, and married name don't matter
         boolean allowBlank = true; // if one of the two names is blank, then return true
+        //noinspection UnnecessaryLocalVariable
         boolean similar = (areNamesPossiblyMisspelled(name1.firstNames, name2.firstNames, allowBlank) &&
                 areNamesPossiblyMisspelled(name1.surName, name2.surName, allowBlank));
 
@@ -248,6 +249,6 @@ public class Name {
         return distance <= 2;
     }
     public static boolean isOnlySurname(String name) {
-        return name.endsWith(",");
+        return name.trim().endsWith(",");
     }
 }

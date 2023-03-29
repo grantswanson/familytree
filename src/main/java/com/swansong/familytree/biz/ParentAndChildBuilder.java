@@ -106,9 +106,7 @@ public class ParentAndChildBuilder {
     }
     public static Person buildSpousesFather(Map<String, Person> individualMap, Row row) {
         Person existingSpousesFather = individualMap.get(GenCode.buildSpousesFatherCode(row.getGenCode()));
-        if("SA1f".equals(GenCode.buildSpousesFatherCode(row.getGenCode()))) {
-            System.out.println(existingSpousesFather);
-        }
+
         if (existingSpousesFather == null) {
             // make new person
             existingSpousesFather = buildSpousesFather(row);

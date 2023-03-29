@@ -3,12 +3,13 @@ package com.swansong.familytree.model;
 import com.swansong.familytree.StringUtilities;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.text.similarity.LevenshteinDistance;
 
 @Data
 @NoArgsConstructor
 public class Name {
 
+    private static final int MAX_LEVENSHTEIN_DISTANCE_FOR_SIMILARITY = 2;
     private String firstNames = "";
     private String nickName = "";
     private String surName = "";
@@ -242,11 +243,12 @@ public class Name {
         if (allowBlank && (name1.isBlank() || name2.isBlank())) {
             return true;
         }
-
         // calculate the Levenshtein distance between the two names
-        int distance = StringUtils.getLevenshteinDistance(name1.toLowerCase(), name2.toLowerCase());
+        LevenshteinDistance levenshteinDistance =
+                new LevenshteinDistance(MAX_LEVENSHTEIN_DISTANCE_FOR_SIMILARITY + 1);
+        int distance = levenshteinDistance.apply(name1.toLowerCase(), name2.toLowerCase());
         // if the distance is less than or equal to a certain threshold, return true
-        return distance <= 2;
+        return distance <= MAX_LEVENSHTEIN_DISTANCE_FOR_SIMILARITY;
     }
     public static boolean isOnlySurname(String name) {
         return name.trim().endsWith(",");

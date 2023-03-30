@@ -38,20 +38,13 @@ public class FamilytreeApplication {
             Person spouse = PersonAndSpouseBuilder.buildSpouse(individualMap, row);
 
 
-
             if (spouse != null) {
                 mainPerson.addSpouse(spouse);
                 spouse.addSpouse(mainPerson);
                 marriages.add(MarriageBuilder.buildMarriage(mainPerson, spouse, row));
-                Person spousesFather = ParentAndChildBuilder.buildSpousesFather(individualMap, row);
-                if(spousesFather!= null) {
-                    spouse.setFather(spousesFather);
-                    spousesFather.setChildren(new Person[] {spouse});
-                }
-                Person spousesMother = ParentAndChildBuilder.buildSpousesMother(individualMap, row);
-                if(spousesMother!= null) {
-                    spouse.setMother(spousesMother);
-                    spousesMother.setChildren(new Person[] {spouse});
+                Marriage spousesParentsMarriage = ParentAndChildBuilder.addSpousesParents(individualMap, row, spouse);
+                if (spousesParentsMarriage != null) {
+                    marriages.add(spousesParentsMarriage);
                 }
             }
 
@@ -105,13 +98,15 @@ public class FamilytreeApplication {
 
         for (Map.Entry<String, Person> entry : sortedPersonMap.entrySet()) {
             Person person = entry.getValue();
-            String selfStr = String.format("#%-2d %-7s %-30.30s",
+            String selfStr = String.format("#%-2d %-7s %1s %-30.30s",
                     person.getSourceLineNumber(),
                     person.getGenCode(),
-                    person.getName().getLastCommaFirst());
+                    person.getGender(),
+                    person.getName().getLastCommaFirst()
+            );
 
-//            selfStr += String.format("%1s %-11s %-15.15s %-11s %-15.15s %s %s %s %s %s %s ",
-//                    person.getGender(),
+//            selfStr += String.format("%-11s %-15.15s %-11s %-15.15s %s %s %s %s %s %s ",
+//
 //                    person.getDob(),
 //                    person.getPob(),
 //                    person.getBaptismDate(),
@@ -126,8 +121,9 @@ public class FamilytreeApplication {
 //            System.out.println(person);
             System.out.print(selfStr);
 
+            System.out.print(person.parentsToString());
             System.out.print(person.spousesToString());
-//          System.out.print(person.childrenToString());
+            System.out.print(person.childrenToString());
 
 
             System.out.println();

@@ -153,6 +153,16 @@ public class Person {
     private String burialSource = defaultSource;
     private String occupationSource = defaultSource;
 
+    public String parentsToString() {
+        String str = "";
+        if (father != null) {
+            str = " Dad:" + father.getGenCode() + " " + father.getName().getLastCommaFirst();
+        }
+        if (mother != null) {
+            str += " Mom:" + mother.getGenCode() + " " + mother.getName().getLastCommaFirst();
+        }
+        return str;
+    }
 
 
 //    private String occupationdate;

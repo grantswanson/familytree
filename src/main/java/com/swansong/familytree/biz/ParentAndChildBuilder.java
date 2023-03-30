@@ -2,6 +2,7 @@ package com.swansong.familytree.biz;
 
 import com.swansong.familytree.csvinput.Row;
 import com.swansong.familytree.model.GenCode;
+import com.swansong.familytree.model.Marriage;
 import com.swansong.familytree.model.Name;
 import com.swansong.familytree.model.Person;
 
@@ -64,6 +65,11 @@ public class ParentAndChildBuilder {
         int num = GenCode.getChildNumber(row.getGenCode()); //num is base 1, not base 0;
         Person child = individualMap.get(GenCode.buildSelfCode(row.getGenCode()));
         parent.addChild(child, num);
+        if (parent.isMale()) {
+            child.setFather(parent);
+        } else {
+            child.setMother(parent);
+        }
     }
 
 
@@ -104,6 +110,27 @@ public class ParentAndChildBuilder {
         }
         return names;
     }
+
+
+    public static Marriage addSpousesParents(Map<String, Person> individualMap, Row row, Person spouse) {
+        Person spousesFather = buildSpousesFather(individualMap, row);
+        if (spousesFather != null) {
+            spouse.setFather(spousesFather);
+            spousesFather.setChildren(new Person[]{spouse});
+        }
+        Person spousesMother = buildSpousesMother(individualMap, row);
+        if (spousesMother != null) {
+            spouse.setMother(spousesMother);
+            spousesMother.setChildren(new Person[]{spouse});
+        }
+        if (spousesMother != null && spousesFather != null) {
+            spousesMother.addSpouse(spousesFather);
+            spousesFather.addSpouse(spousesMother);
+            return MarriageBuilder.buildMarriage(spousesFather, spousesMother, row);
+        }
+        return null;
+    }
+
     public static Person buildSpousesFather(Map<String, Person> individualMap, Row row) {
         Person existingSpousesFather = individualMap.get(GenCode.buildSpousesFatherCode(row.getGenCode()));
 
@@ -133,10 +160,6 @@ public class ParentAndChildBuilder {
         return existingSpousesMother;
     }
 
-
-
-
-
     public static Person buildSpousesFather(Row row) {
         String name = row.getSpouseFather();
         if (name == null || name.isBlank() || Name.isOnlySurname(name))
@@ -145,7 +168,7 @@ public class ParentAndChildBuilder {
         Person person = PersonAndSpouseBuilder.buildBasicPerson(name);
         // add more here
         person.setSourceLineNumber(row.getNumber());
-       
+        person.setGenderToMale(true);
         person.setGenCode(GenCode.buildSpousesFatherCode(row.getGenCode()));
 
         return person;
@@ -159,10 +182,11 @@ public class ParentAndChildBuilder {
         Person person = PersonAndSpouseBuilder.buildBasicPerson(name);
         // add more here
         person.setSourceLineNumber(row.getNumber());
-       
+        person.setGenderToMale(false);
         person.setGenCode(GenCode.buildSpousesMotherCode(row.getGenCode()));
 
         return person;
     }
+
 
 }

@@ -1,4 +1,4 @@
-package com.swansong.familytree.csvinput;
+package com.swansong.familytree.csv;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -33,11 +33,11 @@ public class ReadFile {
                 }
                 Row row = RowBuilder.buildRow(finalValues, lineNumber++);
                 result.add(row); // add row to result list
-                System.out.println(row);
+                //System.out.println(row);
 
                 line = br.readLine();
             }
-            System.out.println("# rows=" + lineNumber + " # columns=" + maxColLength + "\n");
+            System.out.println("File:" + csvFile + " #rows=" + lineNumber + " #columns=" + maxColLength + "\n");
 
         } catch (IOException e) {
             e.printStackTrace();

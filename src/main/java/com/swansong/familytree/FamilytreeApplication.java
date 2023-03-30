@@ -3,13 +3,17 @@ package com.swansong.familytree;
 import com.swansong.familytree.biz.MarriageBuilder;
 import com.swansong.familytree.biz.ParentAndChildBuilder;
 import com.swansong.familytree.biz.PersonAndSpouseBuilder;
-import com.swansong.familytree.csvinput.ReadFile;
-import com.swansong.familytree.csvinput.Row;
+import com.swansong.familytree.csv.Files;
+import com.swansong.familytree.csv.ReadFile;
+import com.swansong.familytree.csv.Row;
 import com.swansong.familytree.model.Marriage;
 import com.swansong.familytree.model.Person;
 
+import java.io.File;
 import java.util.*;
 import java.util.stream.Collectors;
+
+import static java.lang.System.exit;
 
 
 //@SpringBootApplication
@@ -19,54 +23,64 @@ public class FamilytreeApplication {
 
 //		SpringApplication.run(FamilytreeApplication.class, args);
 
-        // check that a filename was passed in as an argument
-        if (args.length == 0) {
-            System.out.println("Please provide a filename as an argument.");
-            return;
-        }
 
-        String csvFile = args[0];
-        ReadFile reader = new ReadFile();
-        ArrayList<Row> csvData = reader.readFile(csvFile);
+        List<String> filesToProcess = getFilesToProcess(args);
 
         Map<String, Person> individualMap = new HashMap<>();
         List<Marriage> marriages = new LinkedList<>();
 
-        // build all the primary people
-        for (Row row : csvData) {
-            Person mainPerson = PersonAndSpouseBuilder.buildMainPerson(individualMap, row);
-            Person spouse = PersonAndSpouseBuilder.buildSpouse(individualMap, row);
+        for (String fileName : filesToProcess) {
+            ArrayList<Row> csvData = new ReadFile().readFile(fileName);
+
+            // build all the primary people
+            for (Row row : csvData) {
+                Person mainPerson = PersonAndSpouseBuilder.buildMainPerson(individualMap, row);
+                Person spouse = PersonAndSpouseBuilder.buildSpouse(individualMap, row);
 
 
-            if (spouse != null) {
-                mainPerson.addSpouse(spouse);
-                spouse.addSpouse(mainPerson);
-                marriages.add(MarriageBuilder.buildMarriage(mainPerson, spouse, row));
-                Marriage spousesParentsMarriage = ParentAndChildBuilder.addSpousesParents(individualMap, row, spouse);
-                if (spousesParentsMarriage != null) {
-                    marriages.add(spousesParentsMarriage);
+                if (spouse != null) {
+                    mainPerson.addSpouse(spouse);
+                    spouse.addSpouse(mainPerson);
+                    marriages.add(MarriageBuilder.buildMarriage(mainPerson, spouse, row));
+                    Marriage spousesParentsMarriage = ParentAndChildBuilder.addSpousesParents(individualMap, row, spouse);
+                    if (spousesParentsMarriage != null) {
+                        marriages.add(spousesParentsMarriage);
+                    }
                 }
+
             }
 
+            for (Row row : csvData) {
+                ParentAndChildBuilder.mergeInParentsAndChildren(row, individualMap);
+            }
+            for (Row row : csvData) {
+                ParentAndChildBuilder.mergeInChildren(row, individualMap);
+            }
         }
-
-
-        for (Row row : csvData) {
-            ParentAndChildBuilder.mergeInParentsAndChildren(row, individualMap);
-        }
-
-        for (Row row : csvData) {
-            ParentAndChildBuilder.mergeInChildren(row, individualMap);
-        }
-
         printMarriages(marriages);
-
         printIndividualMap(individualMap);
 
+        exit(0);
+    }
 
-//		individualMap.putAll( builder.buildSpouseFather(row));
-//		individualMap.putAll( builder.buildSpouseMother(row));
+    private static List<String> getFilesToProcess(String[] args) {
+        List<String> filesToProcess;
 
+        String arg0 = "src/main/resources/working";
+        if (args.length == 0) {
+            System.out.println("Processing default path of:" + arg0);
+        } else {
+            arg0 = args[0];
+        }
+        File file = new File(arg0);
+        if (file.isFile()) {
+            filesToProcess = List.of(new String[]{arg0});
+            System.out.println("Processing file:" + arg0);
+        } else { // it is a directory
+            filesToProcess = Files.findLatestFiles(arg0);
+            System.out.println("Processing directory:" + arg0);
+        }
+        return filesToProcess;
     }
 
 

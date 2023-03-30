@@ -1,6 +1,6 @@
 package com.swansong.familytree.biz;
 
-import com.swansong.familytree.csvinput.Row;
+import com.swansong.familytree.csv.Row;
 import com.swansong.familytree.model.GenCode;
 import com.swansong.familytree.model.Marriage;
 import com.swansong.familytree.model.Name;
@@ -45,18 +45,18 @@ public class ParentAndChildBuilder {
             String fatherMotherStr = (isFather ? "Father" : "Mother");
             if (parent1 != null && Name.areNamesPossiblyMisspelled(parentsName, parent1.getName())) {
                 System.out.println(fatherMotherStr + " POSSIBLE MISSPELLING. ln#:" + row.getNumber() +
-                        "\n " + fatherMotherStr + " :" + parentsName.getLastCommaFirst() + " is SIMILAR to" +
-                        "\n parent1:" + parent1.getName().getLastCommaFirst());
+                        "\n " + fatherMotherStr + " :'" + parentsName.getLastCommaFirst() + "' is SIMILAR to" +
+                        "\n parent1:'" + parent1.getName().getLastCommaFirst() + "'");
 
             } else if (parent2 != null && Name.areNamesPossiblyMisspelled(parentsName, parent2.getName())) {
-                System.out.println(fatherMotherStr + " POSSIBLE MISSPELLING. ln#:" + row.getNumber() + " is SIMILAR to" +
-                        "\n " + fatherMotherStr + " :" + parentsName.getLastCommaFirst() +
-                        "\n parent2:" + parent2.getName().getLastCommaFirst());
+                System.out.println(fatherMotherStr + " POSSIBLE MISSPELLING. ln#:'" + row.getNumber() +
+                        "\n " + fatherMotherStr + " :'" + parentsName.getLastCommaFirst() + "' is SIMILAR to" +
+                        "\n parent2:" + parent2.getName().getLastCommaFirst() + "'");
             } else {
                 System.out.println(fatherMotherStr + " not found in main list. ln#:" + row.getNumber() +
-                        "\n " + fatherMotherStr + " :" + parentsName.getLastCommaFirst() +
-                        "\n Parent1:" + (parent1 == null ? "null" : parent1.getName().getLastCommaFirst()) +
-                        "\n Parent2:" + (parent2 == null ? "null" : parent2.getName().getLastCommaFirst()));
+                        "\n " + fatherMotherStr + " :'" + parentsName.getLastCommaFirst() + "'" +
+                        "\n Parent1:'" + (parent1 == null ? "null" : parent1.getName().getLastCommaFirst()) + "'" +
+                        "\n Parent2:'" + (parent2 == null ? "null" : parent2.getName().getLastCommaFirst()) + "'");
             }
         }
     }
@@ -93,9 +93,16 @@ public class ParentAndChildBuilder {
         if (child != null && Name.isMergeAllowed(childsName, child.getName())) {
             child.getName().mergeInName(childsName);
         } else {
-            System.out.println("Child list not match. ln#:" + row.getNumber() + " child#:" + i +
-                    "\n childsname (from row of self):'" + childsName.getLastCommaFirst() + "'" +
-                    "\n Child:" + (child == null ? "null" : "'" + child.getName().getLastCommaFirst() + "'"));
+            if (child != null && Name.areNamesPossiblyMisspelled(childsName, child.getName())) {
+                System.out.println("Child POSSIBLE MISSPELLING. ln#:" + row.getNumber() +
+                        "\n Child's name from row text:'" + childsName.getLastCommaFirst() + "' is SIMILAR to" +
+                        "\n Child's name from gencode :'" + child.getName().getLastCommaFirst());
+
+            } else {
+                System.out.println("Child list not match. ln#:" + row.getNumber() + " child#:" + i +
+                        "\n Child's name from row text:'" + childsName.getLastCommaFirst() + "'" +
+                        "\n Child's name from gencode :" + (child == null ? "null" : "'" + child.getName().getLastCommaFirst() + "'"));
+            }
         }
     }
 

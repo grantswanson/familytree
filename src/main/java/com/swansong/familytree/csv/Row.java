@@ -1,4 +1,4 @@
-package com.swansong.familytree.csvinput;
+package com.swansong.familytree.csv;
 
 import com.swansong.familytree.model.Person;
 import lombok.AllArgsConstructor;

@@ -1,12 +1,12 @@
 package com.swansong.familytree;
 
-import com.swansong.familytree.biz.MarriageBuilder;
-import com.swansong.familytree.biz.ParentAndChildBuilder;
-import com.swansong.familytree.biz.PersonAndSpouseBuilder;
+import com.swansong.familytree.biz.*;
 import com.swansong.familytree.csv.Files;
 import com.swansong.familytree.csv.ReadFile;
 import com.swansong.familytree.csv.Row;
+import com.swansong.familytree.model.Child;
 import com.swansong.familytree.model.Marriage;
+import com.swansong.familytree.model.Name;
 import com.swansong.familytree.model.Person;
 
 import java.io.File;
@@ -30,37 +30,61 @@ public class FamilytreeApplication {
         List<Marriage> marriages = new LinkedList<>();
 
         for (String fileName : filesToProcess) {
+            System.out.println("\nProcessing file:" + fileName);
+
             ArrayList<Row> csvData = new ReadFile().readFile(fileName);
 
             // build all the primary people
             for (Row row : csvData) {
-                Person mainPerson = PersonAndSpouseBuilder.buildMainPerson(individualMap, row);
-                Person spouse = PersonAndSpouseBuilder.buildSpouse(individualMap, row);
-
-
-                if (spouse != null) {
-                    mainPerson.addSpouse(spouse);
-                    spouse.addSpouse(mainPerson);
-                    marriages.add(MarriageBuilder.buildMarriage(mainPerson, spouse, row));
-                    Marriage spousesParentsMarriage = ParentAndChildBuilder.addSpousesParents(individualMap, row, spouse);
-                    if (spousesParentsMarriage != null) {
-                        marriages.add(spousesParentsMarriage);
-                    }
-                }
-
+                processRow(individualMap, marriages, row);
             }
 
             for (Row row : csvData) {
-                ParentAndChildBuilder.mergeInParentsAndChildren(row, individualMap);
+                ParentBuilder.mergeInParentsAndChildren(row, individualMap);
             }
             for (Row row : csvData) {
-                ParentAndChildBuilder.mergeInChildren(row, individualMap);
+                ChildBuilder.mergeInChildren(row, individualMap);
             }
         }
         printMarriages(marriages);
         printIndividualMap(individualMap);
+    }
 
-        exit(0);
+    private static void processRow(Map<String, Person> individualMap, List<Marriage> marriages, Row row) {
+        Person mainPerson = PersonBuilder.buildMainPerson(individualMap, row);
+        Person spouse = SpouseBuilder.buildSpouse(individualMap, row);
+        List<Name> chidrensNames = Child.buildChildrensNames(row);
+
+        if (spouse != null || chidrensNames.size() > 0) {
+            Marriage marriage = MarriageBuilder.buildMarriage(mainPerson, spouse, chidrensNames, row);
+            marriages.add(marriage);
+        }
+
+        Marriage spousesParentsMarriage = SpousesParentsBuilder.buildSpousesParentsMarriage(individualMap, row, spouse);
+        if (spousesParentsMarriage != null) {
+            marriages.add(spousesParentsMarriage);
+        }
+
+        if (row.getFather() != null && !row.getFather().isBlank()) {
+            mainPerson.setFathersName(Name.parseLastCommaFirstName(row.getFather()));
+        }
+
+        if (row.getMother() != null && !row.getMother().isBlank()) {
+            mainPerson.setMothersName(Name.parseLastCommaFirstName(row.getMother()));
+        }
+    }
+
+    public static void waitForUser() {
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            System.out.println("Press Enter to continue or Q to quit.");
+            String input = scanner.nextLine();
+            if (input.equalsIgnoreCase("Q")) {
+                exit(0);
+            } else {
+                break;
+            }
+        }
     }
 
     private static List<String> getFilesToProcess(String[] args) {
@@ -75,10 +99,13 @@ public class FamilytreeApplication {
         File file = new File(arg0);
         if (file.isFile()) {
             filesToProcess = List.of(new String[]{arg0});
-            System.out.println("Processing file:" + arg0);
-        } else { // it is a directory
+            System.out.println("Processing one file:" + arg0);
+        } else if (file.isDirectory()) { // it is a directory
             filesToProcess = Files.findLatestFiles(arg0);
             System.out.println("Processing directory:" + arg0);
+            waitForUser();
+        } else {
+            throw new RuntimeException("File not found:" + arg0);
         }
         return filesToProcess;
     }
@@ -88,14 +115,20 @@ public class FamilytreeApplication {
         System.out.println("\nMarriages...");
         // build the marriages
         for (Marriage marriage : marriages) {
-            String str = String.format("#%-2d %-5s %-6s %-1s %-30.30s %-6s %-1s %-30.30s",
-                    marriage.getSourceLineNumber(), marriage.getId(),
-                    marriage.getHusband().getGenCode(),
-                    marriage.getHusband().getGender(),
-                    marriage.getHusband().getName().getLastCommaFirst(),
-                    marriage.getWife().getGenCode(),
-                    marriage.getWife().getGender(),
-                    marriage.getWife().getName().getLastCommaFirst());
+            String str = String.format("#%-2d %-5s ",
+                    marriage.getSourceLineNumber(), marriage.getId());
+            Person person = marriage.getHusband();
+            if (person != null) {
+                str += " " + person.toShortString();
+            }
+
+            person = marriage.getWife();
+            if (person != null) {
+                str += " " + person.toShortString();
+            }
+
+            str += marriage.childrenToString();
+            str += marriage.childrensNamesToString();
             System.out.println(str);
         }
     }
@@ -134,14 +167,10 @@ public class FamilytreeApplication {
 //                    );
 //            System.out.println(person);
             System.out.print(selfStr);
-
-            System.out.print(person.parentsToString());
             System.out.print(person.spousesToString());
-            System.out.print(person.childrenToString());
-
+            System.out.print(person.parentsToString());
 
             System.out.println();
-
         }
 
         System.out.println("Total Count=" + (personMap.size()));

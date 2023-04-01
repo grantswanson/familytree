@@ -18,16 +18,17 @@ public class  NameTest {
     void parseLastCommaFirstNameTest() {
         // input, expected output
         Map<String, String> cases = Map.ofEntries(
-                Map.entry("MAGNUSSON,", "Magnusson, "),
-                Map.entry(" SWANSON  ,  GRANT  ", "Swanson, Grant"),
+                Map.entry("MAGNUSSON, *", "Magnusson, "),
+                Map.entry(" SWANSON  ,  GRANT * ", "Swanson, Grant"),
                 Map.entry(" McGee ,  Bill ", "McGee, Bill"),
-                Map.entry("SWANSON ,   ", "Swanson, "),
+                Map.entry("SWANSON *,   ", "Swanson, "),
                 Map.entry("  ,  Cynthia", ", Cynthia"),
                 Map.entry("SWANSON, Carl Loyal William \"Loyal\"", "Swanson, Carl Loyal William \"Loyal\""),
-                Map.entry(" Swanson  ,  Bill,  Jr.  ", "Swanson, Bill, Jr"),
-                Map.entry(" Swanson  ,  William \"Billy\" ,  Jr.   ", "Swanson, William \"Billy\", Jr"),
+                Map.entry(" Swanson  ,  Bill,  Jr. * ", "Swanson, Bill, Jr"),
+                Map.entry(" Swanson  ,  William \"Billy *\" ,  Jr.   ", "Swanson, William \"Billy\", Jr"),
                 Map.entry("                 , Sandra", ", Sandra"),
-                Map.entry(",Jana Lynn [Neuzil] * ", ", Jana Lynn * [Neuzil]"),
+                Map.entry(",Jana Lynn [Neuzil*] * ", ", Jana Lynn [Neuzil]"),
+                Map.entry("Burns, Sandra Kay (Peters)(Lane)", "Burns, Sandra Kay [Peters] [Lane]"),
                 Map.entry("McGEE, ANDREW SHANE", "McGEE, Andrew Shane"), // fix later
                 Map.entry("SWANSON, SVEN WILHELM \"William\"", "Swanson, Sven Wilhelm \"William\"")
         );
@@ -72,7 +73,7 @@ public class  NameTest {
                 Arguments.of(" Swanson  ,  William \"Billy\" ,  Jr.   ", "Swanson,  Billy, Jr.", false),
                 Arguments.of(",Jana Lynn [Neuzil] * ", ", Jana Lynn * [Neuzil]", true),
                 Arguments.of(",Jana Lynn * ", ", Jana Lynn * [Neuzil]", true),
-                Arguments.of(",Jana Lynn [Neuzil] * ", ", Jana Lynn * ", true),
+                Arguments.of(",Jana Lynn [Neuzil] * ", ", Jana Lynn [Brian]* ", true),
                 Arguments.of("                 , Sandra", ", Sandra", true),
                 Arguments.of("MCGEE, ANDrEW SHAne", "McGEe, AnDrew ShAne", true),
                 Arguments.of("SWANSON, SVEN WILHELM \"William\"", "Swanson, Sven Wilhelm \"William\"", true)
@@ -98,6 +99,8 @@ public class  NameTest {
                 Arguments.of(", Sven ", "Magnusson,  ", "Magnusson, Sven"),
                 Arguments.of("", "Magnusson, Sven \"STEVE\" [Marriedname], Jr.  ", "Magnusson, Sven \"Steve\" [Marriedname], Jr."),
                 Arguments.of("Magnusson, Sven \"STEVE\" [Marriedname], Jr.  ", "", "Magnusson, Sven \"Steve\" [Marriedname], Jr."),
+                Arguments.of("Mag, Sven [Marriedname]", "Mag, Sven [M]", "Mag, Sven [Marriedname] [M] "),
+                Arguments.of("Magnusson, Sven \"STEVE\" [Marr], Jr.  ", "Magnusson, Sven \"Steve\" [Marriedname], Jr.", "Magnusson, Sven \"STEVE\" [Marr] [Marriedname], Jr"),
                 Arguments.of("Magnus, Sven \"STEVE\" [Marriedname], Jr.  ", "", "Magnus, Sven \"Steve\" [Marriedname], Jr.")
         );
     }
@@ -120,9 +123,7 @@ public class  NameTest {
                 Arguments.of("Mag, Sven, jr  ", "Mag, Sven, sr  "),
                 Arguments.of("Mag, Sven, sr ", "Mag, Sven, jr   "),
                 Arguments.of("Mag, Sven \"ST\"", "Mag, Sven \"Steve\""),
-                Arguments.of("Mag, Sven [Marriedname]", "Mag, Sven [M]"),
                 Arguments.of("Magnusson, Sven \"ST\" [Marriedname], Jr.  ", "Magnusson, Sven \"Steve\" [Marriedname], Jr."),
-                Arguments.of("Magnusson, Sven \"STEVE\" [Marr], Jr.  ", "Magnusson, Sven \"Steve\" [Marriedname], Jr."),
                 Arguments.of("Magnu, S ", "MAGNUSSON, Sven ", "Magnu, S ", "Magnu, S "),
                 Arguments.of("MAGNUSSON, Sven ", "Magnu, S ", "Magnusson, Sven")
         );

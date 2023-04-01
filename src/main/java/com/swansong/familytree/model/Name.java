@@ -5,6 +5,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.apache.commons.text.similarity.LevenshteinDistance;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
 @Data
 @NoArgsConstructor
 public class Name {
@@ -14,7 +18,7 @@ public class Name {
     private String nickName = "";
     private String surName = "";
     private String suffix = "";
-    private String marriedName = "";
+    private List<String> marriedNames = new ArrayList<>();
 
 //    private String prefix;
 //    private String title;
@@ -32,15 +36,15 @@ public class Name {
             throw new IllegalArgumentException("Unexpected lastName, firstName format: It contains an extra comma: '" + str + "'");
         }
         Name name = new Name();
-        name.setSurName(toNameCase(names[0].trim()));
+        name.setSurName(toNameCase(removeAsterisk(names[0]).trim()));
         if (names.length >= 2) {
             String n = names[1];
-            name.setFirstNames(toNameCase(extractFirstNames(n).trim()));
-            name.setNickName(toNameCase(extractNickName(n).trim()));
-            name.setMarriedName(toNameCase(extractMarriedName(n).trim()));
+            name.setFirstNames(toNameCase(extractFirstNames(removeAsterisk(n)).trim()));
+            name.setNickName(toNameCase(extractNickName(removeAsterisk(n)).trim()));
+            name.setMarriedNames(extractMarriedNames(n));
         }
         if (names.length == 3) {
-            name.setSuffix(toNameCase(names[2]).replace(".", "").trim());
+            name.setSuffix(toNameCase(removeAsterisk(names[2])).replace(".", "").trim());
 
         }
         return name;
@@ -50,8 +54,33 @@ public class Name {
         return extractTextBetween(s, "\"", "\"");
     }
 
-    private static String extractMarriedName(String s) {
-        return extractTextBetween(s, "[", "]");
+    private static List<String> extractMarriedNames(String s) {
+        List<String> retVal = extractMarriedNames(s, "[", "]");
+        retVal.addAll(extractMarriedNames(s, "(", ")"));
+
+        return retVal;
+    }
+
+    private static List<String> extractMarriedNames(String s, String begin, String end) {
+        List<String> retVal = new ArrayList<>();
+        String name;
+        do {
+            name = removeAsterisk(extractTextBetween(s, begin, end));
+            s = removeTextBetween(s, begin, end);
+            if (!name.isBlank()) {
+                retVal.add(toNameCase(name).trim());
+            }
+        } while (!name.isBlank());
+        return retVal;
+    }
+
+    private static String removeALLTextBetween(String s, String begin, String end) {
+        String n = extractTextBetween(s, begin, end);
+        while (!n.isBlank()) {
+            s = removeTextBetween(s, begin, end);
+            n = extractTextBetween(s, begin, end);
+        }
+        return s;
     }
 
     private static String extractTextBetween(String s, String begin, String end) {
@@ -73,9 +102,10 @@ public class Name {
     }
 
     private static String extractFirstNames(String s) {
-        return removeTextBetween(                           // remove marriedName
-                removeTextBetween(s, "\"", "\""), // remove nickname
-                "[", "]");                              // remove marriedName
+        s = removeTextBetween(s, "\"", "\""); // remove nickname
+        s = removeALLTextBetween(s, "[", "]"); // remove marriedNames
+        s = removeALLTextBetween(s, "(", ")"); // remove marriedNames
+        return s;
     }
 
     private static String toNameCase(String s) {
@@ -107,7 +137,9 @@ public class Name {
     public String getLastCommaFirst() {
         String key = surName + ", " + firstNames;
         if (nickName != null && !nickName.isEmpty()) key += " \"" + nickName + "\"";
-        if (marriedName != null && !marriedName.isEmpty()) key += " [" + marriedName + "]";
+        key += marriedNames.stream()
+                .map(s -> " [" + s + "]")
+                .collect(Collectors.joining());
         if (suffix != null && !suffix.isEmpty()) key += ", " + suffix;
         return key;
     }
@@ -172,14 +204,7 @@ public class Name {
     }
 
     private void mergeInMarriedName(Name n1) {
-        // should do lambdas instead
-        if (n1.marriedName != null && !n1.marriedName.isBlank()) {
-            if (marriedName != null && !marriedName.isBlank() && !marriedName.equalsIgnoreCase(n1.marriedName)) {
-                throw new RuntimeException("Both names have non-blank, non-equal marriedNames. this:" + this + " n1:" + n1);
-            }
-            // else
-            marriedName = n1.marriedName;
-        } // else n1=blank, so no merge
+        marriedNames.addAll(n1.marriedNames);
     }
 
     private void mergeInSuffix(Name n1) {
@@ -208,7 +233,7 @@ public class Name {
         return surName.isBlank() &&
                 firstNames.isBlank() &&
                 nickName.isBlank() &&
-                marriedName.isBlank() &&
+                marriedNames.size() == 0 &&
                 suffix.isBlank();
     }
 

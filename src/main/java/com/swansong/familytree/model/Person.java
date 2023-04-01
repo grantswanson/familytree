@@ -3,12 +3,13 @@ package com.swansong.familytree.model;
 import lombok.Data;
 import lombok.ToString;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @Data
 public class Person {
-    public static final int MAX_CHILDREN = 12;
     private final static String defaultSource = "Donovan Burdette Meyer";
     private final static String MALE = "M"; // unknown is blank
     private final static String FEMALE = "F"; // unknown is blank
@@ -22,7 +23,10 @@ public class Person {
     private String genCode;
     private Name name;
     private String gender = "";
+
+    private Name fathersName;
     private Person father;
+    private Name mothersName;
     private Person mother;
     private String dob = ""; //format is yyyy MMM d(for MOST dates, some are just yyyy)
     private String pob = "";
@@ -41,17 +45,18 @@ public class Person {
 
 
     public void addSpouse(Person spouse) {
+        if (spouse == null) {
+            return;
+        }
         spouses.put(spouse.getGenCode(), spouse);
     }
 
     @ToString.Include
-
-
     public String spousesToString() {
         StringBuilder strBuilder = new StringBuilder();
         for (Map.Entry<String, Person> entry : spouses.entrySet()) {
             Person spouse = entry.getValue();
-            strBuilder.append(String.format("#%d %-4s %-10s", spouse.getSourceLineNumber(), spouse.getGenCode(),
+            strBuilder.append(String.format("#%d %-4s %-14.14s", spouse.getSourceLineNumber(), spouse.getGenCode(),
                     spouse.getName().getFirstNames() + ", "));
         }
         String str = strBuilder.toString();
@@ -100,49 +105,16 @@ public class Person {
 
     private String debug = "";
 
+
     @ToString.Exclude
-    private Person[] children = new Person[12];
+    List<Marriage> marriages = new ArrayList<>();
 
-    /**
-     * @param i Base 1. Not base 0
-     */
-    public void addChild(Person child, int i) {
-        verifyChildNumber(i);
-        children[i - 1] = child;
+    public Marriage getMarriage(int i) {
+        return marriages.get(i);
     }
 
-    /**
-     * @param i Base 1. Not base 0
-     */
-    public Person getChild(int i) {
-        verifyChildNumber(i);
-        return children[i - 1];
-    }
-
-    /**
-     * @param i Base 1. Not base 0
-     */
-    public static void verifyChildNumber(int i) {
-        if (i <= 0 || i > MAX_CHILDREN) {
-            throw new IllegalArgumentException("Invalid child#:" + i + " It must be >0 and <=" + MAX_CHILDREN);
-        }
-    }
-
-    @ToString.Include
-    public String childrenToString() {
-        StringBuilder strBuilder = new StringBuilder();
-        for (Person child : children) {
-            if (child == null) {
-                continue;
-            }
-            strBuilder.append(String.format("#%d %s %s", child.getSourceLineNumber(), child.getGenCode(),
-                    child.getName().getFirstNames() + ", "));
-
-        }
-        if (strBuilder.length() != 0) {
-            strBuilder.insert(0, "  Kids:");
-        }
-        return strBuilder.toString();
+    public void addMarriage(Marriage marriage) {
+        marriages.add(marriage);
     }
 
 
@@ -161,9 +133,21 @@ public class Person {
         if (mother != null) {
             str += " Mom:" + mother.getGenCode() + " " + mother.getName().getLastCommaFirst();
         }
+        if (fathersName != null) {
+            str = " Dad:" + fathersName.getLastCommaFirst();
+        }
+        if (mothersName != null) {
+            str += " Mom:" + mothersName.getLastCommaFirst();
+        }
         return str;
     }
 
+
+    public String toShortString() {
+        return String.format("#%d %-5s %-1s %-30.30s",
+                sourceLineNumber, genCode, gender,
+                name.getLastCommaFirst());
+    }
 
 //    private String occupationdate;
 //    private String occupationplace;

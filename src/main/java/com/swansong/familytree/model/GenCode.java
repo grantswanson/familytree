@@ -46,7 +46,7 @@ public class GenCode {
      */
     public static int getChildNumber(String genCode) {
         int i = getLastLetterValue(removeLastNumber(genCode));
-        Person.verifyChildNumber(i);
+        Child.verifyChildNumber(i);
         return i;
     }
 

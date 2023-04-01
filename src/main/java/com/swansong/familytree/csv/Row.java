@@ -1,10 +1,13 @@
 package com.swansong.familytree.csv;
 
-import com.swansong.familytree.model.Person;
+import com.swansong.familytree.model.Child;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Data
 @NoArgsConstructor
@@ -67,8 +70,21 @@ public class Row {
     private String notes6;
     private String notes7;
 
+    public List<String> getChildren() {
+        List<String> names = new ArrayList<>();
+
+        for (int i = 1; i <= Child.MAX_CHILDREN; i++) {
+            String name = getChild(i);
+            if (name != null && !name.isBlank()) {
+                names.add(name);
+            }
+        }
+        return names;
+    }
+
+
     public String getChild(int x) {
-        Person.verifyChildNumber(x);
+        Child.verifyChildNumber(x);
 
         switch (x) {
             case 1 -> {

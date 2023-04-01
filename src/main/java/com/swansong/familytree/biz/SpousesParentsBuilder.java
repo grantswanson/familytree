@@ -6,8 +6,6 @@ import com.swansong.familytree.model.Marriage;
 import com.swansong.familytree.model.Name;
 import com.swansong.familytree.model.Person;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Map;
 
 public class SpousesParentsBuilder {
@@ -22,9 +20,7 @@ public class SpousesParentsBuilder {
         }
 
         if (spousesMother != null || spousesFather != null) {
-
-            List<Name> childrensNames = spouse != null ? List.of(spouse.getName()) : new ArrayList<>();
-            Marriage marriage = MarriageBuilder.buildMarriage(spousesFather, spousesMother, childrensNames, row);
+            Marriage marriage = MarriageBuilder.buildMarriage(spousesFather, spousesMother, row);
             marriage.setChildren(new Person[]{spouse});
 
             return marriage;

@@ -4,9 +4,6 @@ import com.swansong.familytree.csv.Row;
 import lombok.Data;
 import lombok.ToString;
 
-import java.util.ArrayList;
-import java.util.List;
-
 @Data
 public class Marriage {
 
@@ -17,31 +14,30 @@ public class Marriage {
     }
 
     private String id;
-    private Integer sourceLineNumber;
     private Person spouse1;
     private Person spouse2;
 
     @ToString.Exclude
     private Row sourceRow;
 
-    @ToString.Exclude
-    // just the names from the row
-    private List<Name> chidrensNames = new ArrayList<>();
+//    @ToString.Exclude
+//    // just the names from the row
+//    private List<Name> chidrensNames = new ArrayList<>();
 
-    public String childrensNamesToString() {
-        StringBuilder strBuilder = new StringBuilder();
-        for (Name child : chidrensNames) {
-            if (child == null) {
-                continue;
-            }
-            strBuilder.append(String.format("%s", child.getFirstNames() + ", "));
-
-        }
-        if (strBuilder.length() != 0) {
-            strBuilder.insert(0, "  KidsNames:");
-        }
-        return strBuilder.toString();
-    }
+//    public String childrensNamesToString() {
+//        StringBuilder strBuilder = new StringBuilder();
+//        for (Name child : chidrensNames) {
+//            if (child == null) {
+//                continue;
+//            }
+//            strBuilder.append(String.format("%s", child.getFirstNames() + ", "));
+//
+//        }
+//        if (strBuilder.length() != 0) {
+//            strBuilder.insert(0, "  KidsNames:");
+//        }
+//        return strBuilder.toString();
+//    }
 
     @ToString.Exclude
     private Person[] children = new Person[Child.MAX_CHILDREN];

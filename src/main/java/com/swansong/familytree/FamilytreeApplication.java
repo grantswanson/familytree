@@ -39,24 +39,24 @@ public class FamilytreeApplication {
                 processRow(individualMap, marriages, row);
             }
 
-            for (Row row : csvData) {
-                ParentBuilder.mergeInParentsAndChildren(row, individualMap);
-            }
-            for (Row row : csvData) {
-                ChildBuilder.mergeInChildren(row, individualMap);
-            }
+            ChildBuilder.buildChildren(marriages, individualMap);
+//            for (Row row : csvData) {
+//                ParentBuilder.mergeInParentsAndChildren(row, individualMap);
+//            }
+//            for (Row row : csvData) {
+//                ChildBuilder.mergeInChildren(row, individualMap);
+//            }
         }
-        printMarriages(marriages);
-        printIndividualMap(individualMap);
+        //printMarriages(marriages);
+        //printIndividualMap(individualMap);
     }
 
     private static void processRow(Map<String, Person> individualMap, List<Marriage> marriages, Row row) {
         Person mainPerson = PersonBuilder.buildMainPerson(individualMap, row);
         Person spouse = SpouseBuilder.buildSpouse(individualMap, row);
-        List<Name> chidrensNames = Child.buildChildrensNames(row);
 
-        if (spouse != null || chidrensNames.size() > 0) {
-            Marriage marriage = MarriageBuilder.buildMarriage(mainPerson, spouse, chidrensNames, row);
+        if (spouse != null || Child.buildChildrensNames(row).size() > 0) { // add a marriage if there are children
+            Marriage marriage = MarriageBuilder.buildMarriage(mainPerson, spouse, row);
             marriages.add(marriage);
         }
 
@@ -116,7 +116,7 @@ public class FamilytreeApplication {
         // build the marriages
         for (Marriage marriage : marriages) {
             String str = String.format("#%-2d %-5s ",
-                    marriage.getSourceLineNumber(), marriage.getId());
+                    marriage.getSourceRow().getNumber(), marriage.getId());
             Person person = marriage.getHusband();
             if (person != null) {
                 str += " " + person.toShortString();
@@ -128,7 +128,6 @@ public class FamilytreeApplication {
             }
 
             str += marriage.childrenToString();
-            str += marriage.childrensNamesToString();
             System.out.println(str);
         }
     }
@@ -171,6 +170,7 @@ public class FamilytreeApplication {
             System.out.print(person.parentsToString());
 
             System.out.println();
+
         }
 
         System.out.println("Total Count=" + (personMap.size()));

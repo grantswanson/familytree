@@ -30,6 +30,7 @@ public class  NameTest {
                 Map.entry(",Jana Lynn [Neuzil*] * ", ", Jana Lynn [Neuzil]"),
                 Map.entry("Burns, Sandra Kay (Peters)(Lane)", "Burns, Sandra Kay [Peters] [Lane]"),
                 Map.entry("McGEE, ANDREW SHANE", "McGEE, Andrew Shane"), // fix later
+                Map.entry(" SWANSON  ,  GRANT * alt: Grantt", "Swanson, Grant alt: Grantt"),
                 Map.entry("SWANSON, SVEN WILHELM \"William\"", "Swanson, Sven Wilhelm \"William\"")
         );
 
@@ -92,6 +93,10 @@ public class  NameTest {
 
     static Stream<Arguments> mergeNamesData() {
         return Stream.of(     // name1, name2, expected output
+//                Arguments.of("Smith, John alt: Jon ", "Smith, John alt: Jonny" , "Smith, John alt: Jon Jonny"),
+                Arguments.of("Smith, John  ", "Smith, John alt: Jonny", "Smith, John alt:     Jonny"),
+                Arguments.of("Smith, John alt: Jon ", "Smith, John ", "Smith, John alt: Jon"),
+
                 Arguments.of("MAGNUSSON,  ", "Magnusson, Sven  ", "Magnusson, Sven"),
                 Arguments.of("MAGNUSSON, Sven ", "Magnusson,  ", "Magnusson, Sven"),
                 Arguments.of("MAGNUSSON, Sven ", "", "Magnusson, Sven"),
@@ -101,6 +106,7 @@ public class  NameTest {
                 Arguments.of("Magnusson, Sven \"STEVE\" [Marriedname], Jr.  ", "", "Magnusson, Sven \"Steve\" [Marriedname], Jr."),
                 Arguments.of("Mag, Sven [Marriedname]", "Mag, Sven [M]", "Mag, Sven [Marriedname] [M] "),
                 Arguments.of("Magnusson, Sven \"STEVE\" [Marr], Jr.  ", "Magnusson, Sven \"Steve\" [Marriedname], Jr.", "Magnusson, Sven \"STEVE\" [Marr] [Marriedname], Jr"),
+                Arguments.of("Meyer, Minnie E. [Fastenow]", ", Minnie E. [Fastenow]", "Meyer, Minnie E. [Fastenow]"),
                 Arguments.of("Magnus, Sven \"STEVE\" [Marriedname], Jr.  ", "", "Magnus, Sven \"Steve\" [Marriedname], Jr.")
         );
     }
@@ -146,13 +152,13 @@ public class  NameTest {
     @ParameterizedTest
     @CsvSource({"'', ','", "'Smith, John', 'Smith, John'", "'Jane', ',Jane'", "'Doe, John', 'Doe, John'", ", ','"})
     void addCommaIfMissingTest(String name, String expected) {
-        assertEquals(expected, Name.addCommaIfMissing(name));
+        assertEquals(expected, StringUtilities.addCommaIfMissing(name));
     }
 
     @ParameterizedTest
     @CsvSource({"'Smith, John * ', 'Smith, John'", "'Jane*', 'Jane'", "'Doe, Jill * [Roe]', 'Doe, Jill  [Roe]'", "'  *  ',''"})
     void removeAsteriskTest(String name, String expected) {
-        assertEquals(expected, Name.removeAsterisk(name));
+        assertEquals(expected, StringUtilities.removeAsterisk(name));
     }
 
     @ParameterizedTest
@@ -175,15 +181,49 @@ public class  NameTest {
             "'William', 'Will', false",
             "'William', 'Bill', false",
             "Jeffery, Jeffrey, true"})
-    void areNamesPossiblyMisspelledTest(String name1, String name2, String expected) {
+    void areNamesPossiblyMisspelled_StringTest(String name1, String name2, String expected) {
         boolean similar = Name.areNamesPossiblyMisspelled(name1, name2, true);
         assertEquals(expected, Boolean.toString(similar));
     }
+
+
+    @ParameterizedTest
+    @CsvSource({
+            "'Smith,  Johan', 'Smith, John', true",
+            "', jane', ', Janey', true",
+            "' Bill', ', Janey', false",  // no leading comma
+            "' jane', ', Janey', false",  // no leading comma
+            "' jane', ', jane', false",
+            "'Bill', 'Billy', true",
+            "'William', 'Will', false",
+            "'William', 'Bill', false",
+            "Jeffery, Jeffrey, true"})
+    void areNamesPossiblyMisspelled_NameTest(String name1, String name2, String expected) {
+        boolean similar = Name.areNamesPossiblyMisspelled(Name.parseLastCommaFirstName(name1),
+                Name.parseLastCommaFirstName(name2));
+        assertEquals(expected, Boolean.toString(similar));
+    }
+
     @ParameterizedTest
     @CsvSource({"',Smith', false", "'Smith, Jones', false", "'Ware, ', true "})
     void isOnlySurnameTest(String name, String expected) {
         boolean b = Name.isOnlySurname(name);
         assertEquals(expected, Boolean.toString(b));
+    }
+
+    @ParameterizedTest
+    @CsvSource({"'Smith, Lynn', 'Smith, linn', 'Smith, Lynn alt: Linn'",
+            "'Meyer, Minnie E. * \"Minny\" [Fastenow], Jr alt: Min', ', Minne E. [Fastenow]', 'Meyer, Minnie E. \"Minny\" [Fastenow], Jr alt: Min Minne'",
+            "'Tigges, Marie Emma Lina [Kracht] alt: Lena', 'Tigges, Marie Emma Lena [Kracht]','Tigges, Marie Emma Lina [Kracht] alt: Lena'",
+            "'Tigges, Marie Emma Lina [Kracht] alt: Lena', 'Tigges, Marie Emma Leni [Kracht]','Tigges, Marie Emma Lina [Kracht] alt: Lena Leni'"
+
+    })
+    void mergeInMisspelledNameTest(String name1, String name2, String expected) {
+        Name n1 = Name.parseLastCommaFirstName(name1);
+        Name n2 = Name.parseLastCommaFirstName(name2);
+        n1.mergeInMisspelledName(n2, 0, "Unit Test: mergeInMisspelledNameTest");
+        String calculated = n1.getLastCommaFirst();
+        assertEquals(expected, calculated);
     }
 
 //    @Test

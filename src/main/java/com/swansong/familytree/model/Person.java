@@ -51,6 +51,7 @@ public class Person {
         spouses.put(spouse.getGenCode(), spouse);
     }
 
+
     @ToString.Include
     public String spousesToString() {
         StringBuilder strBuilder = new StringBuilder();

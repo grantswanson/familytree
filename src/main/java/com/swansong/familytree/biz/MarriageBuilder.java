@@ -2,20 +2,17 @@ package com.swansong.familytree.biz;
 
 import com.swansong.familytree.csv.Row;
 import com.swansong.familytree.model.Marriage;
-import com.swansong.familytree.model.Name;
 import com.swansong.familytree.model.Person;
-
-import java.util.List;
 
 
 public class MarriageBuilder {
 
-    public static Marriage buildMarriage(Person mainPerson, Person spouse, List<Name> childrensNames, Row row) {
+    public static Marriage buildMarriage(Person mainPerson, Person spouse, Row row) {
 
         Marriage marriage = new Marriage();
         marriage.setSpouse1(mainPerson);
         marriage.setSpouse2(spouse);
-        marriage.setSourceLineNumber(row.getNumber());
+        marriage.setSourceRow(row);
         if (mainPerson != null) {
             mainPerson.addMarriage(marriage);
             mainPerson.addSpouse(spouse);
@@ -28,7 +25,7 @@ public class MarriageBuilder {
 
         // add more here from row
 
-        marriage.setChidrensNames(childrensNames);
+        // don't add the children yet. However, the names are in the row
         return marriage;
     }
 

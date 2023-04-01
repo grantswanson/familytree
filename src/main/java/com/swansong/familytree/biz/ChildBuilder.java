@@ -1,16 +1,48 @@
 package com.swansong.familytree.biz;
 
 import com.swansong.familytree.csv.Row;
-import com.swansong.familytree.model.Child;
-import com.swansong.familytree.model.GenCode;
-import com.swansong.familytree.model.Name;
-import com.swansong.familytree.model.Person;
+import com.swansong.familytree.model.*;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
 public class ChildBuilder {
+    public static void buildChildren(List<Marriage> marriages, Map<String, Person> individualMap) {
+        // for each marriage
+        for (Marriage marriage : marriages) {
+            Row row = marriage.getSourceRow();
+            List<String> chidrensNames = row.getChildren();
+            for (int i = 0; i < chidrensNames.size(); i++) {
+                Name name = Name.extractChildrensName(chidrensNames.get(i));
+                String expectedCode = GenCode.buildChildsCode(row.getGenCode(), i + 1);
+                Person expectedPerson = individualMap.get(expectedCode);
+                if (name == null) {
+                    if (expectedPerson == null) {
+                        continue;
+                    }
+                    //else
+                    throw new RuntimeException(row.getNumber() + " Child #" + i + " " + chidrensNames.get(i) + " is null genCode:" +
+                            expectedCode + " not sure why. person" + expectedPerson);
+                }
+                if (expectedPerson == null) {
+                    System.out.println(row.getNumber() + " Child #" + i + " " + name.getLastCommaFirst() + " NOT FOUND under genCode:" +
+                            expectedCode + " so we should build that person.");
+                } else {
+                    boolean success = PersonMerger.merge(expectedPerson, name, row.getNumber(), " Child #" + i);
+                    if (!success) {
+                        System.out.println(" Create new person? Or fix data?");
+                    }
+                }
+            }
+
+        }
+        // get the kids names
+        // for each kid
+        // build the gencode of the kid and look up person
+        // merge the name and person
+    }
+
     static void addChild(Person parent, Row row, Map<String, Person> individualMap) {
         int num = GenCode.getChildNumber(row.getGenCode()); //num is base 1, not base 0;
         Person child = individualMap.get(GenCode.buildSelfCode(row.getGenCode()));

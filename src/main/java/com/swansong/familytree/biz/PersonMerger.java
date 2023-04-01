@@ -31,19 +31,19 @@ public class PersonMerger {
             //System.out.println("   Name of new person: " + person.getName().getLastCommaFirst());
             return true;
         } else if (Name.areNamesPossiblyMisspelled(altName, person.getName())) {
-            String s = "Merged similar names ln#:" + rowNum + " Source:" + altNameSource +
-                    "\n name from row text: '" + altName.getLastCommaFirst() + "' is SIMILAR to" +
-                    "\n name from genCode : '" + person.getName().getLastCommaFirst() + "' " + person.getGenCode();
+//            String s = "Merged similar names ln#:" + rowNum + " Source:" + altNameSource +
+//                    "\n name from row text: '" + altName.getLastCommaFirst() + "' is SIMILAR to" +
+//                    "\n name from genCode : '" + person.getName().getLastCommaFirst() + "' " + person.getGenCode();
             person.getName().mergeInMisspelledName(altName, rowNum, altNameSource);
-            s += "\n  final merged name: '" + person.getName().getLastCommaFirst() + "' " + person.getGenCode();
-            System.out.println(s);
+//            s += "\n  final merged name: '" + person.getName().getLastCommaFirst() + "' " + person.getGenCode();
+//            System.out.println(s);
             return true;
         } else {
             String s = "Merge failed ln#:" + rowNum + " Source:" + altNameSource +
                     "\n name from row text:'" + altName.getLastCommaFirst() + "'" +
                     "\n name from genCode :'" + person.getName().getLastCommaFirst() + "' " + person.getGenCode();
             failedMerges.add(s);
-            //System.out.println(s);
+            System.out.println(s);
             return false;
         }
     }

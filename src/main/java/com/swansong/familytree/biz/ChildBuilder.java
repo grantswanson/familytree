@@ -26,12 +26,12 @@ public class ChildBuilder {
                             expectedCode + " not sure why. person" + expectedPerson);
                 }
                 if (expectedPerson == null) {
-                    System.out.println(row.getNumber() + " Child #" + i + " " + name.getLastCommaFirst() + " NOT FOUND under genCode:" +
-                            expectedCode + " so we should build that person.");
+//                    System.out.println(row.getNumber() + " Child #" + i + " " + name.getLastCommaFirst() + " NOT FOUND under genCode:" +
+//                            expectedCode + " so we should build that person.");
                 } else {
                     boolean success = PersonMerger.merge(expectedPerson, name, row.getNumber(), " Child #" + i);
                     if (!success) {
-                        System.out.println(" Create new person? Or fix data?");
+                        //System.out.println(" Create new person? Or fix data?");
                     }
                 }
             }

@@ -9,6 +9,7 @@ import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import static com.swansong.familytree.StringUtilities.*;
 
@@ -17,6 +18,8 @@ import static com.swansong.familytree.StringUtilities.*;
 public class Name {
 
     private static final int MAX_DIFF_FOR_SIMILARITY = 2;
+    private static final Set<String> COMMON_SUFFIXES = new HashSet<>(Set.of(
+            "Sr", "Jr", "Iii"));
     private String firstNames = "";
     private String nickName = "";
     private String surName = "";
@@ -35,7 +38,9 @@ public class Name {
         }
         // remove the alt names first
         Set<String> altNames = extractAltNames(str);
-        str = extractBeforeAlt(str);
+        str = extractStringBeforeAlt(str);
+
+        str = str.replace(".", "");
 
         String[] names = str.split(",");
         if (names.length == 0) {
@@ -43,6 +48,15 @@ public class Name {
             throw new IllegalArgumentException("Unexpected lastName, firstName format: It is names.length:" + names.length + " str:'" + str + "'");
         } else if (names.length > 3) {
             throw new IllegalArgumentException("Unexpected lastName, firstName format: It contains an extra comma: '" + str + "'");
+        }
+        // if just first name and last name, and last name is a common suffix (Jr, Sr, III)
+        // then the last name is really as suffix
+        if (names.length == 2 &&
+                COMMON_SUFFIXES.contains(toNameCase(removeAsterisk(names[1]).trim()))) {
+            // add an element to the front of the array to be a blank surname
+            // use the new array instead
+            names = Stream.concat(Stream.of(""), Stream.of(names))
+                    .toArray(String[]::new);
         }
         Name name = new Name();
         name.altNames = altNames;
@@ -54,11 +68,12 @@ public class Name {
             name.setMarriedNames(extractMarriedNames(n));
         }
         if (names.length == 3) {
-            name.setSuffix(toNameCase(removeAsterisk(names[2])).replace(".", "").trim());
+            name.setSuffix(toNameCase(removeAsterisk(names[2])).trim());
 
         }
         return name;
     }
+
 
     public String getLastCommaFirst() {
         StringBuilder str = new StringBuilder(surName + ", " + firstNames);
@@ -74,6 +89,24 @@ public class Name {
             }
         }
         return str.toString();
+    }
+
+    public boolean startsWith(Name n2) {
+        if (!surName.equalsIgnoreCase(n2.surName) && //surnames don't match
+                !surName.isBlank() && !n2.surName.isBlank()) { // and neither is blank
+            return false;
+        } // else surnames match, or one of them is blank (therefore allow match)
+        if (!suffix.equalsIgnoreCase(n2.suffix)) {
+            System.out.println("Warning: The two names match the first and last names, but NOT the suffix. Name1:"
+                    + this + " Name2:" + n2);
+            return false;
+        }
+        if (firstNames.startsWith(n2.firstNames) ||
+                n2.firstNames.startsWith(firstNames)) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     private static String extractNickName(String s) {
@@ -135,6 +168,27 @@ public class Name {
 
     }
 
+    public void mergeInName(Name n1) {
+        mergeInFirstNames(n1);
+        mergeInSurName(n1);
+        mergeInNickName(n1);
+        mergeInMarriedName(n1);
+        mergeInSuffix(n1);
+        mergeInAltNames(n1);
+
+    }
+
+    public void mergeStartsWith(Name altName, int rowNum, String altNameSource) {
+        mergeInFirstNameMiddleInitial(altName);
+
+        mergeInSurName(altName);
+        mergeInNickName(altName);
+        mergeInMarriedName(altName);
+        mergeInSuffix(altName);
+        mergeInAltNames(altName);
+
+    }
+
     public void mergeInMisspelledName(Name altName, int rowNum, String altNameSource) {
         mergeInNickName(altName);
         mergeInMarriedName(altName);
@@ -162,14 +216,13 @@ public class Name {
         return names2;
     }
 
-    public void mergeInName(Name n1) {
-        mergeInFirstNames(n1);
-        mergeInSurName(n1);
-        mergeInNickName(n1);
-        mergeInMarriedName(n1);
-        mergeInSuffix(n1);
-        mergeInAltNames(n1);
+    private void mergeInFirstNameMiddleInitial(Name n1) {
+        // only call this if first names match and one has a middle initial
+        // set the first names to the longest firstnames
 
+        if (firstNames.length() < n1.firstNames.length()) {
+            firstNames = n1.firstNames;
+        }// else leave firstnames as is
     }
 
     private void mergeInFirstNames(Name n1) {
@@ -223,6 +276,9 @@ public class Name {
 
 
     public static boolean areNamesPossiblyMisspelled(Name name1, Name name2) {
+        if (name1.suffix != null && !name1.suffix.isBlank() && !name1.suffix.equalsIgnoreCase(name2.suffix)) {
+            return false;
+        }
         // nickname, and married name don't matter
         boolean allowBlank = true; // if one of the two names is blank, then return true
         //noinspection UnnecessaryLocalVariable
@@ -234,6 +290,7 @@ public class Name {
                 name2.firstNames.isBlank() && name1.surName.isBlank()) {
             similar = false;
         }
+
 
         return similar;
     }

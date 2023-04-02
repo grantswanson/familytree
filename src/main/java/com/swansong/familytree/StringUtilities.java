@@ -88,7 +88,7 @@ public class StringUtilities {
         return result;
     }
 
-    public static String extractBeforeAlt(String input) {
+    public static String extractStringBeforeAlt(String input) {
         int index = input.indexOf("alt:");
         if (index == -1) {
             return input;

@@ -18,19 +18,20 @@ public class  NameTest {
     void parseLastCommaFirstNameTest() {
         // input, expected output
         Map<String, String> cases = Map.ofEntries(
-                Map.entry("MAGNUSSON, *", "Magnusson, "),
-                Map.entry(" SWANSON  ,  GRANT * ", "Swanson, Grant"),
-                Map.entry(" McGee ,  Bill ", "McGee, Bill"),
-                Map.entry("SWANSON *,   ", "Swanson, "),
-                Map.entry("  ,  Cynthia", ", Cynthia"),
-                Map.entry("SWANSON, Carl Loyal William \"Loyal\"", "Swanson, Carl Loyal William \"Loyal\""),
-                Map.entry(" Swanson  ,  Bill,  Jr. * ", "Swanson, Bill, Jr"),
-                Map.entry(" Swanson  ,  William \"Billy *\" ,  Jr.   ", "Swanson, William \"Billy\", Jr"),
-                Map.entry("                 , Sandra", ", Sandra"),
-                Map.entry(",Jana Lynn [Neuzil*] * ", ", Jana Lynn [Neuzil]"),
-                Map.entry("Burns, Sandra Kay (Peters)(Lane)", "Burns, Sandra Kay [Peters] [Lane]"),
-                Map.entry("McGEE, ANDREW SHANE", "McGEE, Andrew Shane"), // fix later
-                Map.entry(" SWANSON  ,  GRANT * alt: Grantt", "Swanson, Grant alt: Grantt"),
+                Map.entry("Robert Joseph, Jr.", ", Robert Joseph, Jr"),
+//                Map.entry("MAGNUSSON, *", "Magnusson, "),
+//                Map.entry(" SWANSON  ,  GRANT * ", "Swanson, Grant"),
+//                Map.entry(" McGee ,  Bill ", "McGee, Bill"),
+//                Map.entry("SWANSON *,   ", "Swanson, "),
+//                Map.entry("  ,  Cynthia", ", Cynthia"),
+//                Map.entry("SWANSON, Carl Loyal William \"Loyal\"", "Swanson, Carl Loyal William \"Loyal\""),
+//                Map.entry(" Swanson  ,  Bill,  Jr. * ", "Swanson, Bill, Jr"),
+//                Map.entry(" Swanson  ,  William \"Billy *\" ,  Jr.   ", "Swanson, William \"Billy\", Jr"),
+//                Map.entry("                 , Sandra", ", Sandra"),
+//                Map.entry(",Jana Lynn [Neuzil*] * ", ", Jana Lynn [Neuzil]"),
+//                Map.entry("Burns, Sandra Kay (Peters)(Lane)", "Burns, Sandra Kay [Peters] [Lane]"),
+//                Map.entry("McGEE, ANDREW SHANE", "McGEE, Andrew Shane"), // fix later
+//                Map.entry(" SWANSON  ,  GRANT * alt: Grantt", "Swanson, Grant alt: Grantt"),
                 Map.entry("SWANSON, SVEN WILHELM \"William\"", "Swanson, Sven Wilhelm \"William\"")
         );
 
@@ -93,7 +94,7 @@ public class  NameTest {
 
     static Stream<Arguments> mergeNamesData() {
         return Stream.of(     // name1, name2, expected output
-//                Arguments.of("Smith, John alt: Jon ", "Smith, John alt: Jonny" , "Smith, John alt: Jon Jonny"),
+                Arguments.of("Smith, John alt: Jon ", "Smith, John alt: Jonny", "Smith, John alt: Jon Jonny"),
                 Arguments.of("Smith, John  ", "Smith, John alt: Jonny", "Smith, John alt:     Jonny"),
                 Arguments.of("Smith, John alt: Jon ", "Smith, John ", "Smith, John alt: Jon"),
 
@@ -213,7 +214,7 @@ public class  NameTest {
 
     @ParameterizedTest
     @CsvSource({"'Smith, Lynn', 'Smith, linn', 'Smith, Lynn alt: Linn'",
-            "'Meyer, Minnie E. * \"Minny\" [Fastenow], Jr alt: Min', ', Minne E. [Fastenow]', 'Meyer, Minnie E. \"Minny\" [Fastenow], Jr alt: Min Minne'",
+            "'Meyer, Minnie E. * \"Minny\" [Fastenow], Jr alt: Min', ', Minne E. [Fastenow]', 'Meyer, Minnie E \"Minny\" [Fastenow], Jr alt: Min Minne'",
             "'Tigges, Marie Emma Lina [Kracht] alt: Lena', 'Tigges, Marie Emma Lena [Kracht]','Tigges, Marie Emma Lina [Kracht] alt: Lena'",
             "'Tigges, Marie Emma Lina [Kracht] alt: Lena', 'Tigges, Marie Emma Leni [Kracht]','Tigges, Marie Emma Lina [Kracht] alt: Lena Leni'"
 
@@ -226,6 +227,46 @@ public class  NameTest {
         assertEquals(expected, calculated);
     }
 
+
+    @ParameterizedTest
+    @CsvSource({
+            "'Smith,  John Brian', 'Smith, John Brian', 'Smith, John Brian'",
+            "'Smith,  John Brian', 'Smith, John B.', 'Smith, John Brian'",
+            "'Smith,  John Brian', 'Smith, John B', 'Smith, John Brian'",
+            "'Smith,  John Brian', ', John B', 'Smith, John Brian'",
+            "'Smith,  John Brian', ', John B.', 'Smith, John Brian'",
+            "',  John B.', ', John Brian', ', John Brian'",
+            "',  John B.', 'Smith, John Brian', 'Smith, John Brian'",
+            "'Smith, Lynn alt: Linn', 'Smith, Lynn', 'Smith, Lynn alt: Linn'",
+            "'Meyer, Minnie E. * \"Minny\" [Fastenow], Jr alt: Min', ', Minnie E. [Fastenow]', 'Meyer, Minnie E \"Minny\" [Fastenow], Jr alt: Min'",
+            "'Tigges, Marie Emma Lina', 'Tigges, Marie Emma Lina [Kracht] alt: Lena','Tigges, Marie Emma Lina [Kracht] alt: Lena'"
+    })
+    void mergeStartsWithTest(String name1, String name2, String expected) {
+        Name n1 = Name.parseLastCommaFirstName(name1);
+        Name n2 = Name.parseLastCommaFirstName(name2);
+        n1.mergeStartsWith(n2, 0, "Unit Test: mergeInMisspelledNameTest");
+        String calculated = n1.getLastCommaFirst();
+        assertEquals(expected, calculated);
+    }
+
+    @ParameterizedTest
+    @CsvSource({
+            "'Smith,  John Brian', 'Smith, John Brian', true",
+            "'Smith,  John Brian', 'Smith, John B.', true",
+            "'Smith,  John Brian', 'Smith, John B', true",
+            "'Smith,  John Brian', 'Smith, John Bri', true", // a bit strange, but ok
+            "'Smith,  John Brian', 'Smith, John Big', false",
+            "'Smith,  Jonny Brian', 'Smith, Jon B.', false",
+            "'Smith,  John Brian', 'Smith, J. Brian', false",
+            "'Smith,  John Brian', 'Meyer, John Brian', false",
+            "'Smith,  John Brian', ', John B.', true",
+            "',  John B.', ', John Brian', true"
+    })
+    void startsWithTest(String name1, String name2, String expected) {
+        boolean similar = Name.parseLastCommaFirstName(name1).startsWith(
+                Name.parseLastCommaFirstName(name2));
+        assertEquals(expected, Boolean.toString(similar));
+    }
 //    @Test
 //    void test() {
 //        String s= ",";

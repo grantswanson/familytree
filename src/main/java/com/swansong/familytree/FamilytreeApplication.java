@@ -47,8 +47,8 @@ public class FamilytreeApplication {
 //                ChildBuilder.mergeInChildren(row, individualMap);
 //            }
         }
-        //printMarriages(marriages);
-        //printIndividualMap(individualMap);
+        printMarriages(marriages);
+//        printIndividualMap(individualMap);
     }
 
     private static void processRow(Map<String, Person> individualMap, List<Marriage> marriages, Row row) {

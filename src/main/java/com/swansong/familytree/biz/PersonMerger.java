@@ -45,7 +45,8 @@ public class PersonMerger {
                     "\n name from row text:'" + altName.getLastCommaFirst() + "'" +
                     "\n name from genCode :'" + person.getName().getLastCommaFirst() + "' " + person.getGenCode();
             System.out.println(s);
-            return false;
+            throw new RuntimeException(s);
+            //return false;
         }
     }
 

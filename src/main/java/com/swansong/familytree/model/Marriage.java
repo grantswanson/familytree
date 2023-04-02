@@ -17,6 +17,7 @@ public class Marriage {
     private Person spouse1;
     private Person spouse2;
 
+    private boolean isSpousesParents;
     @ToString.Exclude
     private Row sourceRow;
 
@@ -75,6 +76,7 @@ public class Marriage {
     /**
      * @param i Base 1. Not base 0
      */
+    @SuppressWarnings("unused")
     public Person getChild(int i) {
         Child.verifyChildNumber(i);
         return children[i - 1];
@@ -107,4 +109,22 @@ public class Marriage {
             return spouse1;
         }
     }
+
+//    public boolean isSpousesParents() {
+//        // if there is only one child then expect it to be the spouse because at this point in the code,
+//        // the children are not filled in
+//        boolean onlyOneChild = children[0] != null &&
+//                IntStream.range(1, children.length).allMatch(i -> children[i] == null);
+//
+//        boolean spousesParentsNamesMatch = Name.parseLastCommaFirstName(sourceRow.getSpouseFather()).getLastCommaFirst().equalsIgnoreCase(
+//                getHusband().getName().getLastCommaFirst()) ||
+//                Name.parseLastCommaFirstName(sourceRow.getSpouseMother()).getLastCommaFirst().equalsIgnoreCase(
+//                        getWife().getName().getLastCommaFirst());
+//        if(onlyOneChild != spousesParentsNamesMatch) {
+//            throw new RuntimeException("OnlyOncChild:"+onlyOneChild +
+//                    " fails to match spousesParentsNamesMatch:"+spousesParentsNamesMatch+
+//                    " marriage:"+this);
+//        }
+//        else { return spousesParentsNamesMatch;}
+//    }
 }

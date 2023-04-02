@@ -12,6 +12,10 @@ public class ChildBuilder {
         // for each marriage
         for (Marriage marriage : marriages) {
             Row row = marriage.getSourceRow();
+            if (marriage.isSpousesParents()) {
+                // don't add children (they are already there) just one person (the spouse)
+                continue;
+            }
             List<String> chidrensNames = row.getChildren();
             for (int i = 0; i < chidrensNames.size(); i++) {
                 Name name = Name.extractChildrensName(chidrensNames.get(i));
@@ -26,12 +30,14 @@ public class ChildBuilder {
                             expectedCode + " not sure why. person" + expectedPerson);
                 }
                 if (expectedPerson == null) {
-//                    System.out.println(row.getNumber() + " Child #" + i + " " + name.getLastCommaFirst() + " NOT FOUND under genCode:" +
-//                            expectedCode + " so we should build that person.");
+                    System.out.println(row.getNumber() + " Child #" + i + " " + name.getLastCommaFirst() + " NOT FOUND under genCode:" +
+                            expectedCode + " so we should build that person.");
                 } else {
                     boolean success = PersonMerger.merge(expectedPerson, name, row.getNumber(), " Child #" + i);
                     if (!success) {
-                        //System.out.println(" Create new person? Or fix data?");
+                        System.out.println(" Merge failed!!! Fix data.");
+                    } else {
+                        marriage.addChild(expectedPerson, i + 1);
                     }
                 }
             }

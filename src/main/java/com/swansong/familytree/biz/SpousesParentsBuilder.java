@@ -21,7 +21,8 @@ public class SpousesParentsBuilder {
 
         if (spousesMother != null || spousesFather != null) {
             Marriage marriage = MarriageBuilder.buildMarriage(spousesFather, spousesMother, row);
-            marriage.setChildren(new Person[]{spouse});
+            marriage.addChild(spouse, 1);
+            marriage.setSpousesParents(true);
 
             return marriage;
         }

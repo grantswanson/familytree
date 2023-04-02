@@ -97,8 +97,12 @@ public class Name {
             return false;
         } // else surnames match, or one of them is blank (therefore allow match)
         if (!suffix.equalsIgnoreCase(n2.suffix)) {
-            System.out.println("Warning: The two names match the first and last names, but NOT the suffix. Name1:"
-                    + this + " Name2:" + n2);
+            if (!suffix.equalsIgnoreCase("Jr") && !n2.suffix.equalsIgnoreCase("Sr") ||
+                    !n2.suffix.equalsIgnoreCase("Jr") && !suffix.equalsIgnoreCase("Sr")) {
+                System.out.println("Warning: The two names match the first and last names, but NOT the suffix. Name1:"
+                        + this + " Name2:" + n2);
+            }
+
             return false;
         }
         if (firstNames.startsWith(n2.firstNames) ||
@@ -161,7 +165,11 @@ public class Name {
                         n1.surName.equalsIgnoreCase(n2.surName));
         // don't allow if suffix is not the same
         if (allowed && !n1.suffix.equalsIgnoreCase(n2.suffix)) {
-            System.out.println("Warning: The two names match in everything but the suffix. Name1:" + n1 + " Name2:" + n2);
+            // if not JR/SR, then print warning
+            if (!n1.suffix.equalsIgnoreCase("Jr") && !n2.suffix.equalsIgnoreCase("Sr") ||
+                    !n2.suffix.equalsIgnoreCase("Jr") && !n1.suffix.equalsIgnoreCase("Sr")) {
+                System.out.println("Warning: The two names match in everything but the suffix. Name1:" + n1 + " Name2:" + n2);
+            }
             allowed = false;
         }
         return allowed;

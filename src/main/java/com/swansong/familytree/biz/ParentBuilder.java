@@ -32,12 +32,12 @@ public class ParentBuilder {
             parent1.getName().mergeInName(parentsName);
             parent1.setGenderToMale(isFather);
             parent1.setSpousesGender(!isFather);
-            ChildBuilder.addChild(parent1, row, individualMap);
+            OldChildBuilder.addChild(parent1, row, individualMap);
         } else if (parent2 != null && Name.isMergeAllowed(parentsName, parent2.getName())) {
             parent2.getName().mergeInName(parentsName);
             parent2.setGenderToMale(isFather);
             parent2.setSpousesGender(!isFather);
-            ChildBuilder.addChild(parent2, row, individualMap);
+            OldChildBuilder.addChild(parent2, row, individualMap);
         } else {
             String fatherMotherStr = (isFather ? "Father" : "Mother");
             if (parent1 != null && Name.areNamesPossiblyMisspelled(parentsName, parent1.getName())) {
@@ -69,12 +69,12 @@ public class ParentBuilder {
             parent1.getName().mergeInName(parentsName);
             parent1.setGenderToMale(isFather);
             parent1.setSpousesGender(!isFather);
-            ChildBuilder.addChild(parent1, row, individualMap);
+            OldChildBuilder.addChild(parent1, row, individualMap);
         } else if (parent2 != null && Name.isMergeAllowed(parentsName, parent2.getName())) {
             parent2.getName().mergeInName(parentsName);
             parent2.setGenderToMale(isFather);
             parent2.setSpousesGender(!isFather);
-            ChildBuilder.addChild(parent2, row, individualMap);
+            OldChildBuilder.addChild(parent2, row, individualMap);
         } else {
             String fatherMotherStr = (isFather ? "Father" : "Mother");
             if (parent1 != null && Name.areNamesPossiblyMisspelled(parentsName, parent1.getName())) {

@@ -38,7 +38,16 @@ public class GenCode {
     }
 
     public static String buildChildsCode(String genCode, int childNumber) {
+        Child.verifyChildNumber(childNumber);
         return appendLetter(genCode, childNumber);
+    }
+
+    /**
+     * @return GenCode where final letter is in lowercase.
+     */
+    public static String buildNotRelatedChildsCode(String genCode, int childNumber) {
+        String str = buildChildsCode(genCode, childNumber);
+        return str.substring(0, str.length() - 1) + Character.toLowerCase(str.charAt(str.length() - 1));
     }
 
     /**
@@ -104,4 +113,6 @@ public class GenCode {
         char letter = (char) ('A' + num - 1);
         return input + letter;
     }
+
+
 }

@@ -5,27 +5,29 @@ import com.swansong.familytree.model.GenCode;
 import com.swansong.familytree.model.Name;
 import com.swansong.familytree.model.Person;
 
-import java.util.Map;
-
 
 public class PersonBuilder {
+    public static Person lookupMainPerson(Row row) {
+        return PersonMap.getPersonByGenCodeOrRawName(
+                GenCode.buildSelfCode(row.getGenCode()),
+                row.getName());
+    }
 
-
-    public static Person buildMainPerson(Map<String, Person> individualMap, Row row) {
-        String selfGenCode = GenCode.buildSelfCode(row.getGenCode());
-        Person existingPerson = individualMap.get(selfGenCode);
+    public static Person buildMainPerson(Row row) {
+        Person existingPerson = lookupMainPerson(row);
 
         if (existingPerson == null) {
             // make new person
-            existingPerson = PersonBuilder.buildMainPerson(row);
-            individualMap.put(selfGenCode, existingPerson);
+            existingPerson = PersonBuilder.buildMainPersonDetails(row);
+            PersonMap.savePerson(existingPerson);
+
         } else {
             existingPerson.appendDebug(" Also indiv ln#:" + row.getNumber());
         }
         return existingPerson;
     }
 
-    private static Person buildMainPerson(Row row) {
+    private static Person buildMainPersonDetails(Row row) {
         String name = row.getName();
         if (name == null || name.isBlank())
             return null;
@@ -50,7 +52,7 @@ public class PersonBuilder {
             System.out.println("Warning: Expected name to be not null and not blank! It is '" + name + "'");
 
         Person person = new Person();
-        person.setName(Name.parseLastCommaFirstName(name));
+        person.setName(Name.parseFullName(name));
         return person;
     }
 

@@ -36,23 +36,23 @@ public class  NameTest {
         );
 
         for (String input : cases.keySet()) {
-            Name name = Name.parseLastCommaFirstName(input);
-            String output = name.getLastCommaFirst();
+            Name name = Name.parseFullName(input);
+            String output = name.toFullName();
             assertEquals(cases.get(input), output);
         }
     }
 
     @Test
     void parseLastCommaFirstNameExceptionTest() {
-        assertThrows(IllegalArgumentException.class, () -> Name.parseLastCommaFirstName(null));
-        assertThrows(IllegalArgumentException.class, () -> Name.parseLastCommaFirstName("smith, joe, jr, sr"));
+        assertThrows(IllegalArgumentException.class, () -> Name.parseFullName(null));
+        assertThrows(IllegalArgumentException.class, () -> Name.parseFullName("smith, joe, jr, sr"));
     }
 
     @ParameterizedTest
     @MethodSource("isMergeAllowedData")
     void isMergeAllowedTest(String name1, String name2, boolean expected) {
-        Name n1 = Name.parseLastCommaFirstName(name1);
-        Name n2 = Name.parseLastCommaFirstName(name2);
+        Name n1 = Name.parseFullName(name1);
+        Name n2 = Name.parseFullName(name2);
         boolean output = Name.isMergeAllowed(n1, n2);
         assertEquals(expected, output);
     }
@@ -85,9 +85,9 @@ public class  NameTest {
     @ParameterizedTest(name = "{index} mergeNames: Name1:{0}, Name2:{1}, Expected:{2}")
     @MethodSource("mergeNamesData")
     void mergeNamesTest(String name1Str, String name2Str, String expectedStr) {
-        Name name1 = Name.parseLastCommaFirstName(name1Str);
-        Name name2 = Name.parseLastCommaFirstName(name2Str);
-        Name expected = Name.parseLastCommaFirstName(expectedStr);
+        Name name1 = Name.parseFullName(name1Str);
+        Name name2 = Name.parseFullName(name2Str);
+        Name expected = Name.parseFullName(expectedStr);
         name1.mergeInName(name2);
         assertEquals(expected, name1);
     }
@@ -115,8 +115,8 @@ public class  NameTest {
     @ParameterizedTest(name = "{index} mergeNames expecting Exception: Name1:{0}, Name2:{1}")
     @MethodSource("mergeNames_ExceptionData")
     void mergeNames_ExceptionTest(String name1Str, String name2Str) {
-        Name name1 = Name.parseLastCommaFirstName(name1Str);
-        Name name2 = Name.parseLastCommaFirstName(name2Str);
+        Name name1 = Name.parseFullName(name1Str);
+        Name name2 = Name.parseFullName(name2Str);
         assertThrows(RuntimeException.class, () -> name1.mergeInName(name2));
 
     }
@@ -145,7 +145,7 @@ public class  NameTest {
             "',, jr.', false"
     })
     void isBlankTest(String name, boolean expected) {
-        Name n1 = Name.parseLastCommaFirstName(name);
+        Name n1 = Name.parseFullName(name);
         boolean output = n1.isBlank();
         assertEquals(expected, output);
     }
@@ -167,7 +167,7 @@ public class  NameTest {
             "Carol, ', Carol'"})
     void extractChildrensNameTest(String name, String expected) {
         //noinspection DataFlowIssue
-        assertEquals(expected, Name.extractChildrensName(name).getLastCommaFirst());
+        assertEquals(expected, Name.extractChildrensName(name).toFullName());
     }
 
     @Test
@@ -200,8 +200,8 @@ public class  NameTest {
             "'William', 'Bill', false",
             "Jeffery, Jeffrey, true"})
     void areNamesPossiblyMisspelled_NameTest(String name1, String name2, String expected) {
-        boolean similar = Name.areNamesPossiblyMisspelled(Name.parseLastCommaFirstName(name1),
-                Name.parseLastCommaFirstName(name2));
+        boolean similar = Name.areNamesPossiblyMisspelled(Name.parseFullName(name1),
+                Name.parseFullName(name2));
         assertEquals(expected, Boolean.toString(similar));
     }
 
@@ -220,10 +220,10 @@ public class  NameTest {
 
     })
     void mergeInMisspelledNameTest(String name1, String name2, String expected) {
-        Name n1 = Name.parseLastCommaFirstName(name1);
-        Name n2 = Name.parseLastCommaFirstName(name2);
+        Name n1 = Name.parseFullName(name1);
+        Name n2 = Name.parseFullName(name2);
         n1.mergeInMisspelledName(n2, 0, "Unit Test: mergeInMisspelledNameTest");
-        String calculated = n1.getLastCommaFirst();
+        String calculated = n1.toFullName();
         assertEquals(expected, calculated);
     }
 
@@ -242,10 +242,10 @@ public class  NameTest {
             "'Tigges, Marie Emma Lina', 'Tigges, Marie Emma Lina [Kracht] alt: Lena','Tigges, Marie Emma Lina [Kracht] alt: Lena'"
     })
     void mergeStartsWithTest(String name1, String name2, String expected) {
-        Name n1 = Name.parseLastCommaFirstName(name1);
-        Name n2 = Name.parseLastCommaFirstName(name2);
+        Name n1 = Name.parseFullName(name1);
+        Name n2 = Name.parseFullName(name2);
         n1.mergeStartsWith(n2, 0, "Unit Test: mergeInMisspelledNameTest");
-        String calculated = n1.getLastCommaFirst();
+        String calculated = n1.toFullName();
         assertEquals(expected, calculated);
     }
 
@@ -263,8 +263,8 @@ public class  NameTest {
             "',  John B.', ', John Brian', true"
     })
     void startsWithTest(String name1, String name2, String expected) {
-        boolean similar = Name.parseLastCommaFirstName(name1).startsWith(
-                Name.parseLastCommaFirstName(name2));
+        boolean similar = Name.parseFullName(name1).startsWith(
+                Name.parseFullName(name2));
         assertEquals(expected, Boolean.toString(similar));
     }
 //    @Test

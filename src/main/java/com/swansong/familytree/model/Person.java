@@ -129,16 +129,16 @@ public class Person {
     public String parentsToString() {
         String str = "";
         if (father != null) {
-            str = " Dad:" + father.getGenCode() + " " + father.getName().getLastCommaFirst();
+            str = " Dad:" + father.getGenCode() + " " + father.getName().toFullName();
         }
         if (mother != null) {
-            str += " Mom:" + mother.getGenCode() + " " + mother.getName().getLastCommaFirst();
+            str += " Mom:" + mother.getGenCode() + " " + mother.getName().toFullName();
         }
         if (fathersName != null) {
-            str = " Dad:" + fathersName.getLastCommaFirst();
+            str = " Dad:" + fathersName.toFullName();
         }
         if (mothersName != null) {
-            str += " Mom:" + mothersName.getLastCommaFirst();
+            str += " Mom:" + mothersName.toFullName();
         }
         return str;
     }
@@ -147,7 +147,7 @@ public class Person {
     public String toShortString() {
         return String.format("#%d %-5s %-1s %-30.30s",
                 sourceLineNumber, genCode, gender,
-                name.getLastCommaFirst());
+                name.toFullName());
     }
 
 //    private String occupationdate;

@@ -21,10 +21,10 @@ public class Name {
     private static final Set<String> COMMON_SUFFIXES = new HashSet<>(Set.of(
             "Sr", "Jr", "Iii"));
     private String firstNames = "";
-    private String nickName = "";
     private String surName = "";
     private String suffix = "";
 
+    private String nickName = "";
     private Set<String> altNames = new LinkedHashSet<>();
     private Set<String> marriedNames = new LinkedHashSet<>();
 
@@ -32,7 +32,7 @@ public class Name {
 //    private String title;
 
 
-    public static Name parseLastCommaFirstName(String str) {
+    public static Name parseFullName(String str) {
         if (str == null) {
             throw new IllegalArgumentException("Unexpected lastName, firstName format: It is null");
         }
@@ -75,7 +75,7 @@ public class Name {
     }
 
 
-    public String getLastCommaFirst() {
+    public String toFullName() {
         StringBuilder str = new StringBuilder(surName + ", " + firstNames);
         if (nickName != null && !nickName.isEmpty()) str.append(" \"").append(nickName).append("\"");
         str.append(marriedNames.stream()
@@ -96,22 +96,23 @@ public class Name {
                 !surName.isBlank() && !n2.surName.isBlank()) { // and neither is blank
             return false;
         } // else surnames match, or one of them is blank (therefore allow match)
-        if (!suffix.equalsIgnoreCase(n2.suffix)) {
+
+        if (!firstNames.startsWith(n2.firstNames) && // firstNames don't start with each other
+                !n2.firstNames.startsWith(firstNames)) {
+            return false;
+
+        } else if (!suffix.equalsIgnoreCase(n2.suffix)) {
             if (!suffix.equalsIgnoreCase("Jr") && !n2.suffix.equalsIgnoreCase("Sr") ||
                     !n2.suffix.equalsIgnoreCase("Jr") && !suffix.equalsIgnoreCase("Sr")) {
                 System.out.println("Warning: The two names match the first and last names, but NOT the suffix. Name1:"
                         + this + " Name2:" + n2);
             }
-
             return false;
-        }
-        if (firstNames.startsWith(n2.firstNames) ||
-                n2.firstNames.startsWith(firstNames)) {
-            return true;
         } else {
-            return false;
+            return true;
         }
     }
+
 
     private static String extractNickName(String s) {
         return extractTextBetween(s, "\"", "\"");
@@ -148,7 +149,7 @@ public class Name {
     public static Name extractChildrensName(String name) {
         name = removeAsterisk(name); // null safe, returns "" if null passed in
         if (!name.isBlank()) {
-            return Name.parseLastCommaFirstName(
+            return Name.parseFullName(
                     addCommaIfMissing(name.trim()));
         }
         return null;
@@ -212,7 +213,7 @@ public class Name {
             altName.firstNames = firstNames;
         }
 
-        Set<String> differentNames = differentNames(getLastCommaFirst(), altName.getLastCommaFirst());
+        Set<String> differentNames = differentNames(toFullName(), altName.toFullName());
         altNames.addAll(differentNames);
 
     }
@@ -336,4 +337,11 @@ public class Name {
     }
 
 
+    public String toNameKey() {
+        // only firstname, surname and suffix
+        // no nicknames, married names or alt names
+        StringBuilder str = new StringBuilder(surName + ", " + firstNames);
+        if (suffix != null && !suffix.isEmpty()) str.append(", ").append(suffix);
+        return str.toString();
+    }
 }

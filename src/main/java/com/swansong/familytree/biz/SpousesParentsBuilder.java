@@ -6,15 +6,16 @@ import com.swansong.familytree.model.Marriage;
 import com.swansong.familytree.model.Name;
 import com.swansong.familytree.model.Person;
 
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
 
 public class SpousesParentsBuilder {
-    public static Marriage buildSpousesParentsMarriage(Map<String, Person> individualMap, Row row, Person spouse) {
-        Person spousesFather = buildSpousesFather(individualMap, row);
+    public static Marriage buildSpousesParentsMarriage(Row row, Person spouse) {
+        Person spousesFather = buildSpousesFather(row);
         if (spouse != null && spousesFather != null) {
             spouse.setFather(spousesFather);
         }
-        Person spousesMother = buildSpousesMother(individualMap, row);
+        Person spousesMother = buildSpousesMother(row);
         if (spouse != null && spousesMother != null) {
             spouse.setMother(spousesMother);
         }
@@ -29,14 +30,17 @@ public class SpousesParentsBuilder {
         return null;
     }
 
-    public static Person buildSpousesFather(Map<String, Person> individualMap, Row row) {
-        Person existingSpousesFather = individualMap.get(GenCode.buildSpousesFatherCode(row.getGenCode()));
+    private static Person buildSpousesFather(Row row) {
+        Person existingSpousesFather = PersonMap.getPersonByGenCodeOrRawName(
+                GenCode.buildSpousesFatherCode(row.getGenCode()),
+                row.getSpouseFather());
+
 
         if (existingSpousesFather == null) {
             // make new person
-            existingSpousesFather = buildSpousesFather(row);
+            existingSpousesFather = buildSpousesParent(row, row.getSpouseFather(), true);
             if (existingSpousesFather != null) {
-                individualMap.put(existingSpousesFather.getGenCode(), existingSpousesFather);
+                PersonMap.savePerson(existingSpousesFather);
             }
         } else {
             existingSpousesFather.appendDebug(" Also SpousesFather ln#:" + row.getNumber());
@@ -44,13 +48,15 @@ public class SpousesParentsBuilder {
         return existingSpousesFather;
     }
 
-    public static Person buildSpousesMother(Map<String, Person> individualMap, Row row) {
-        Person existingSpousesMother = individualMap.get(GenCode.buildSpousesMotherCode(row.getGenCode()));
+    private static Person buildSpousesMother(Row row) {
+        Person existingSpousesMother = PersonMap.getPersonByGenCodeOrRawName(
+                GenCode.buildSpousesMotherCode(row.getGenCode()),
+                row.getSpouseMother());
         if (existingSpousesMother == null) {
             // make new person
-            existingSpousesMother = buildSpousesMother(row);
+            existingSpousesMother = buildSpousesParent(row, row.getSpouseMother(), false);
             if (existingSpousesMother != null) {
-                individualMap.put(existingSpousesMother.getGenCode(), existingSpousesMother);
+                PersonMap.savePerson(existingSpousesMother);
             }
         } else {
             existingSpousesMother.appendDebug(" Also SpousesMother ln#:" + row.getNumber());
@@ -58,31 +64,32 @@ public class SpousesParentsBuilder {
         return existingSpousesMother;
     }
 
-    public static Person buildSpousesFather(Row row) {
-        String name = row.getSpouseFather();
+    private static Person buildSpousesParent(Row row, String name, boolean isMale) {
         if (name == null || name.isBlank() || Name.isOnlySurname(name))
             return null;
 
         Person person = PersonBuilder.buildBasicPerson(name);
         // add more here
         person.setSourceLineNumber(row.getNumber());
-        person.setGenderToMale(true);
-        person.setGenCode(GenCode.buildSpousesFatherCode(row.getGenCode()));
+        person.setGenderToMale(isMale);
+        if (isMale) {
+            person.setGenCode(GenCode.buildSpousesFatherCode(row.getGenCode()));
+        } else {
+            person.setGenCode(GenCode.buildSpousesMotherCode(row.getGenCode()));
+        }
 
         return person;
     }
 
-    public static Person buildSpousesMother(Row row) {
-        String name = row.getSpouseMother();
-        if (name == null || name.isBlank() || Name.isOnlySurname(name))
-            return null;
+    public static void buildSpousesParentsMarriage(List<Marriage> marriages, ArrayList<Row> csvData) {
+        for (Row row : csvData) {
 
-        Person person = PersonBuilder.buildBasicPerson(name);
-        // add more here
-        person.setSourceLineNumber(row.getNumber());
-        person.setGenderToMale(false);
-        person.setGenCode(GenCode.buildSpousesMotherCode(row.getGenCode()));
+            Person spouse = SpouseBuilder.lookupSpouse(row);
 
-        return person;
+            Marriage spousesParentsMarriage = buildSpousesParentsMarriage(row, spouse);
+            if (spousesParentsMarriage != null) {
+                marriages.add(spousesParentsMarriage);
+            }
+        }
     }
 }

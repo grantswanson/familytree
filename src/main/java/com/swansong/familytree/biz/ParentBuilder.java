@@ -2,97 +2,99 @@ package com.swansong.familytree.biz;
 
 import com.swansong.familytree.csv.Row;
 import com.swansong.familytree.model.GenCode;
+import com.swansong.familytree.model.Marriage;
 import com.swansong.familytree.model.Name;
 import com.swansong.familytree.model.Person;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 public class ParentBuilder {
 
-    public static void mergeInParentsAndChildren(Row row, Map<String, Person> individualMap) {
-        if (row.getFather() != null && !row.getFather().isBlank()) {
-            Name fathersName = Name.parseLastCommaFirstName(row.getFather());
-            mergeInParentsAndChildren(fathersName, row, individualMap, true);
-        }
+    public static void buildParents(ArrayList<Row> csvData, List<Marriage> marriages, Map<String, Person> individualMap) {
+        for (Row row : csvData) {
+            boolean createMarriage = false;
 
-        if (row.getMother() != null && !row.getMother().isBlank()) {
-            Name mothersName = Name.parseLastCommaFirstName(row.getMother());
-            mergeInParentsAndChildren(mothersName, row, individualMap, false);
+            Person father = null, mother = null;
+            if (row.getFather() != null && !row.getFather().isBlank() && !Name.isOnlySurname(row.getFather())) {
+                Name fathersName = Name.parseFullName(row.getFather());
+                father = buildParent(fathersName, row, true);
+                if (father == null) {
+                    //System.out.println("ln#:" + row.getNumber() +" father not found! name:"+row.getFather());
+                    father = PersonBuilder.buildBasicPerson(row.getFather());
+                    father.setGenderToMale(true);
+                    father.setGenCode(GenCode.buildUnrelatedFatherCode(row.getGenCode()));
+                    father.setSourceLineNumber(row.getNumber());
+                    createMarriage = true;
+                    System.out.println("ln#:" + row.getNumber() + " created father:" + father.toShortString());
+
+                    PersonMap.savePerson(father);
+
+                }
+            }
+
+            if (row.getMother() != null && !row.getMother().isBlank()) { // for mother allow only surname && !Name.isOnlySurname(row.getMother())) {
+                Name mothersName = Name.parseFullName(row.getMother());
+                mother = buildParent(mothersName, row, false);
+                if (mother == null) {
+                    //System.out.println("ln#:" + row.getNumber() +" mother not found! name:"+row.getMother());
+                    mother = PersonBuilder.buildBasicPerson(row.getMother());
+                    mother.setGenderToMale(false);
+                    mother.setGenCode(GenCode.buildUnrelatedMothersCode(row.getGenCode()));
+                    mother.setSourceLineNumber(row.getNumber());
+                    createMarriage = true;
+                    System.out.println("ln#:" + row.getNumber() + " created mother:" + mother.toShortString());
+
+                    PersonMap.savePerson(mother);
+
+                }
+            }
+
+            Marriage marriage = null; // find marriage
+            //if (marriage == null ) { // add a marriage if it does not exist already
+
+            if (createMarriage) {
+                marriage = MarriageBuilder.buildMarriage(father, mother, row);
+                marriages.add(marriage);
+            }
+
         }
     }
 
-    private static void mergeInParentsAndChildren(Name parentsName, Row row, Map<String, Person> individualMap, boolean isFather) {
-        if (parentsName.isBlank()) {
-            return;
+
+    private static Person buildParent(Name parentsName, Row row, boolean isFather) {
+        String fatherMotherStr = (isFather ? "Father" : "Mother");
+        Person expectedParent = PersonMap.getPersonByGenCode(GenCode.buildParent1Code(row.getGenCode()));
+
+        boolean success = false;
+        if (expectedParent != null) {
+            success = PersonMerger.merge(expectedParent, parentsName, row.getNumber(), fatherMotherStr + " merge parent1", false);
         }
-        Person parent1 = individualMap.get(GenCode.buildParent1Code(row.getGenCode()));
-        Person parent2 = individualMap.get(GenCode.buildParent2Code(row.getGenCode()));
 
-        if (parent1 != null && Name.isMergeAllowed(parentsName, parent1.getName())) {
-            parent1.getName().mergeInName(parentsName);
-            parent1.setGenderToMale(isFather);
-            parent1.setSpousesGender(!isFather);
-            OldChildBuilder.addChild(parent1, row, individualMap);
-        } else if (parent2 != null && Name.isMergeAllowed(parentsName, parent2.getName())) {
-            parent2.getName().mergeInName(parentsName);
-            parent2.setGenderToMale(isFather);
-            parent2.setSpousesGender(!isFather);
-            OldChildBuilder.addChild(parent2, row, individualMap);
-        } else {
-            String fatherMotherStr = (isFather ? "Father" : "Mother");
-            if (parent1 != null && Name.areNamesPossiblyMisspelled(parentsName, parent1.getName())) {
-                System.out.println(fatherMotherStr + " POSSIBLE MISSPELLING. ln#:" + row.getNumber() +
-                        "\n " + fatherMotherStr + " :'" + parentsName.getLastCommaFirst() + "' is SIMILAR to" +
-                        "\n parent1:'" + parent1.getName().getLastCommaFirst() + "' " + parent1.getGenCode());
-
-            } else if (parent2 != null && Name.areNamesPossiblyMisspelled(parentsName, parent2.getName())) {
-                System.out.println(fatherMotherStr + " POSSIBLE MISSPELLING. ln#:'" + row.getNumber() +
-                        "\n " + fatherMotherStr + " :'" + parentsName.getLastCommaFirst() + "' is SIMILAR to" +
-                        "\n parent2:'" + parent2.getName().getLastCommaFirst() + "' " + parent2.getGenCode());
-            } else {
-                System.out.println(fatherMotherStr + " not found in main list. ln#:" + row.getNumber() +
-                        "\n " + fatherMotherStr + " :'" + parentsName.getLastCommaFirst() + "'" +
-                        "\n Parent1:'" + (parent1 == null ? "null" : parent1.getName().getLastCommaFirst() + "' " + parent1.getGenCode()) +
-                        "\n Parent2:'" + (parent2 == null ? "null" : parent2.getName().getLastCommaFirst() + "' " + parent2.getGenCode()));
+        if (!success) {
+            expectedParent = PersonMap.getPersonByGenCode(GenCode.buildParent2Code(row.getGenCode()));
+            if (expectedParent != null) {
+                success = PersonMerger.merge(expectedParent, parentsName, row.getNumber(), fatherMotherStr + "  merge parent2", false);
             }
         }
-    }
-
-    private static void mergePeople(Name parentsName, Row row, Map<String, Person> individualMap, boolean isFather) {
-        if (parentsName.isBlank()) {
-            return;
-        }
-        Person parent1 = individualMap.get(GenCode.buildParent1Code(row.getGenCode()));
-        Person parent2 = individualMap.get(GenCode.buildParent2Code(row.getGenCode()));
-
-        if (parent1 != null && Name.isMergeAllowed(parentsName, parent1.getName())) {
-            parent1.getName().mergeInName(parentsName);
-            parent1.setGenderToMale(isFather);
-            parent1.setSpousesGender(!isFather);
-            OldChildBuilder.addChild(parent1, row, individualMap);
-        } else if (parent2 != null && Name.isMergeAllowed(parentsName, parent2.getName())) {
-            parent2.getName().mergeInName(parentsName);
-            parent2.setGenderToMale(isFather);
-            parent2.setSpousesGender(!isFather);
-            OldChildBuilder.addChild(parent2, row, individualMap);
-        } else {
-            String fatherMotherStr = (isFather ? "Father" : "Mother");
-            if (parent1 != null && Name.areNamesPossiblyMisspelled(parentsName, parent1.getName())) {
-                System.out.println(fatherMotherStr + " POSSIBLE MISSPELLING. ln#:" + row.getNumber() +
-                        "\n " + fatherMotherStr + " :'" + parentsName.getLastCommaFirst() + "' is SIMILAR to" +
-                        "\n parent1:'" + parent1.getName().getLastCommaFirst() + "' " + parent1.getGenCode());
-
-            } else if (parent2 != null && Name.areNamesPossiblyMisspelled(parentsName, parent2.getName())) {
-                System.out.println(fatherMotherStr + " POSSIBLE MISSPELLING. ln#:'" + row.getNumber() +
-                        "\n " + fatherMotherStr + " :'" + parentsName.getLastCommaFirst() + "' is SIMILAR to" +
-                        "\n parent2:'" + parent2.getName().getLastCommaFirst() + "' " + parent2.getGenCode());
-            } else {
-                System.out.println(fatherMotherStr + " not found in main list. ln#:" + row.getNumber() +
-                        "\n " + fatherMotherStr + " :'" + parentsName.getLastCommaFirst() + "'" +
-                        "\n Parent1:'" + (parent1 == null ? "null" : parent1.getName().getLastCommaFirst() + "' " + parent1.getGenCode()) +
-                        "\n Parent2:'" + (parent2 == null ? "null" : parent2.getName().getLastCommaFirst() + "' " + parent2.getGenCode()));
+        if (!success) {
+            expectedParent = PersonMap.getPersonByNameKey(parentsName.toNameKey());
+            if (expectedParent != null) {
+                success = PersonMerger.merge(expectedParent, parentsName, row.getNumber(), fatherMotherStr + "  merge parent2", false);
             }
         }
+
+        if (success) {
+            expectedParent.setGenderToMale(isFather);
+            expectedParent.setSpousesGender(!isFather);
+            return expectedParent;
+        }
+        return null;
     }
+
+
+
+
 
 }

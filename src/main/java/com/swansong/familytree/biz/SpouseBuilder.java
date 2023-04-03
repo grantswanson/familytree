@@ -4,16 +4,20 @@ import com.swansong.familytree.csv.Row;
 import com.swansong.familytree.model.GenCode;
 import com.swansong.familytree.model.Person;
 
-import java.util.Map;
-
 public class SpouseBuilder {
-    public static Person buildSpouse(Map<String, Person> individualMap, Row row) {
-        Person existingSpouse = individualMap.get(GenCode.buildSpousesCode(row.getGenCode()));
+    public static Person lookupSpouse(Row row) {
+        return PersonMap.getPersonByGenCodeOrRawName(
+                GenCode.buildSpousesCode(row.getGenCode()),
+                row.getSpouse());
+    }
+
+    public static Person buildSpouse(Row row) {
+        Person existingSpouse = lookupSpouse(row);
         if (existingSpouse == null) {
             // make new person
-            existingSpouse = buildSpouse(row);
+            existingSpouse = buildSpouseDetails(row);
             if (existingSpouse != null) {
-                individualMap.put(existingSpouse.getGenCode(), existingSpouse);
+                PersonMap.savePerson(existingSpouse);
             }
         } else {
             existingSpouse.appendDebug(" Also spouse ln#:" + row.getNumber());
@@ -21,7 +25,7 @@ public class SpouseBuilder {
         return existingSpouse;
     }
 
-    private static Person buildSpouse(Row row) {
+    private static Person buildSpouseDetails(Row row) {
         String name = row.getSpouse();
         if (name == null || name.isBlank())
             return null;

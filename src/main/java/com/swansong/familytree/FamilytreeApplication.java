@@ -6,12 +6,10 @@ import com.swansong.familytree.csv.ReadFile;
 import com.swansong.familytree.csv.Row;
 import com.swansong.familytree.model.Child;
 import com.swansong.familytree.model.Marriage;
-import com.swansong.familytree.model.Name;
 import com.swansong.familytree.model.Person;
 
 import java.io.File;
 import java.util.*;
-import java.util.stream.Collectors;
 
 import static java.lang.System.exit;
 
@@ -36,42 +34,27 @@ public class FamilytreeApplication {
 
             // build all the primary people
             for (Row row : csvData) {
-                processRow(individualMap, marriages, row);
+                processRow(marriages, row);
             }
+            SpousesParentsBuilder.buildSpousesParentsMarriage(marriages, csvData);
+            ParentBuilder.buildParents(csvData, marriages, individualMap);
 
-            ChildBuilder.buildChildren(marriages, individualMap);
-//            for (Row row : csvData) {
-//                ParentBuilder.mergeInParentsAndChildren(row, individualMap);
-//            }
-//            for (Row row : csvData) {
-//                ChildBuilder.mergeInChildren(row, individualMap);
-//            }
+            //ChildBuilder.buildChildren(marriages, individualMap);
+
         }
         printMarriages(marriages);
-//        printIndividualMap(individualMap);
+        //PersonMap.printIndividualMap();
     }
 
-    private static void processRow(Map<String, Person> individualMap, List<Marriage> marriages, Row row) {
-        Person mainPerson = PersonBuilder.buildMainPerson(individualMap, row);
-        Person spouse = SpouseBuilder.buildSpouse(individualMap, row);
+    private static void processRow(List<Marriage> marriages, Row row) {
+        Person mainPerson = PersonBuilder.buildMainPerson(row);
+        Person spouse = SpouseBuilder.buildSpouse(row);
 
         if (spouse != null || Child.buildChildrensNames(row).size() > 0) { // add a marriage if there are children
             Marriage marriage = MarriageBuilder.buildMarriage(mainPerson, spouse, row);
             marriages.add(marriage);
         }
 
-        Marriage spousesParentsMarriage = SpousesParentsBuilder.buildSpousesParentsMarriage(individualMap, row, spouse);
-        if (spousesParentsMarriage != null) {
-            marriages.add(spousesParentsMarriage);
-        }
-
-        if (row.getFather() != null && !row.getFather().isBlank()) {
-            mainPerson.setFathersName(Name.parseLastCommaFirstName(row.getFather()));
-        }
-
-        if (row.getMother() != null && !row.getMother().isBlank()) {
-            mainPerson.setMothersName(Name.parseLastCommaFirstName(row.getMother()));
-        }
     }
 
     public static void waitForUser() {
@@ -132,48 +115,5 @@ public class FamilytreeApplication {
         }
     }
 
-
-    private static void printIndividualMap(Map<String, Person> personMap) {
-        Comparator<Map.Entry<String, Person>> valueComparator = Comparator
-                .comparing((Map.Entry<String, Person> e) -> e.getValue().getSourceLineNumber())
-                .thenComparing(e -> e.getValue().getGenCode());
-        Map<String, Person> sortedPersonMap = personMap.entrySet()
-                .stream()
-                .sorted(valueComparator)
-                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e1, LinkedHashMap::new));
-
-        for (Map.Entry<String, Person> entry : sortedPersonMap.entrySet()) {
-            Person person = entry.getValue();
-            String selfStr = String.format("#%-2d %-7s %1s %-30.30s",
-                    person.getSourceLineNumber(),
-                    person.getGenCode(),
-                    person.getGender(),
-                    person.getName().getLastCommaFirst()
-            );
-
-//            selfStr += String.format("%-11s %-15.15s %-11s %-15.15s %s %s %s %s %s %s ",
-//
-//                    person.getDob(),
-//                    person.getPob(),
-//                    person.getBaptismDate(),
-//                    person.getBaptismPlace(),
-//                    person.getConfirmationDate(),
-//                    person.getConfirmationPlace(),
-//                    person.getDeathDate(),
-//                    person.getDeathPlace(),
-//                    person.getBurialDate(),
-//                    person.getBurialPlace()
-//                    );
-//            System.out.println(person);
-            System.out.print(selfStr);
-            System.out.print(person.spousesToString());
-            System.out.print(person.parentsToString());
-
-            System.out.println();
-
-        }
-
-        System.out.println("Total Count=" + (personMap.size()));
-    }
 
 }

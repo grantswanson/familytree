@@ -13,7 +13,7 @@ import java.util.Map;
 public class OldChildBuilder {
     static void addChild(Person parent, Row row, Map<String, Person> individualMap) {
         int num = GenCode.getChildNumber(row.getGenCode()); //num is base 1, not base 0;
-        Person child = individualMap.get(GenCode.buildSelfCode(row.getGenCode()));
+        Person child = PersonMap.getPersonByGenCode(GenCode.buildSelfCode(row.getGenCode()));
         //parent.addChild(child, num);
         if (parent.isMale()) {
             child.setFather(parent);
@@ -24,7 +24,7 @@ public class OldChildBuilder {
 
     public static void mergeInChildren(Row row, Map<String, Person> individualMap) {
         List<Name> names = extractChildrensNames(row);
-        Person self = individualMap.get(row.getGenCode());
+        Person self = PersonMap.getPersonByGenCode(row.getGenCode());
         if (self == null) {
             throw new RuntimeException("mergeInChildren self is null for ln#" + row.getNumber() +
                     " genCode:" + row.getGenCode() + " children:" + names);
@@ -49,13 +49,13 @@ public class OldChildBuilder {
         } else {
             if (child != null && Name.areNamesPossiblyMisspelled(childsName, child.getName())) {
                 System.out.println("Child POSSIBLE MISSPELLING. ln#:" + row.getNumber() +
-                        "\n Child's name from row text:'" + childsName.getLastCommaFirst() + "' is SIMILAR to" +
-                        "\n Child's name from gencode :'" + child.getName().getLastCommaFirst() + "' " + child.getGenCode());
+                        "\n Child's name from row text:'" + childsName.toFullName() + "' is SIMILAR to" +
+                        "\n Child's name from gencode :'" + child.getName().toFullName() + "' " + child.getGenCode());
 
             } else {
                 System.out.println("Child list not match. ln#:" + row.getNumber() + " child#:" + i +
-                        "\n Child's name from row text:'" + childsName.getLastCommaFirst() + "'" +
-                        "\n Child's name from gencode :" + (child == null ? "null" : "'" + child.getName().getLastCommaFirst() + "' " + child.getGenCode()));
+                        "\n Child's name from row text:'" + childsName.toFullName() + "'" +
+                        "\n Child's name from gencode :" + (child == null ? "null" : "'" + child.getName().toFullName() + "' " + child.getGenCode()));
             }
         }
     }

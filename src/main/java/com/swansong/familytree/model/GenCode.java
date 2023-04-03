@@ -1,8 +1,11 @@
 package com.swansong.familytree.model;
 
 public class GenCode {
-    public static final String SPOUSES_MOTHER_CODE = "m";
-    public static final String SPOUSES_FATHER_CODE = "f";
+    private static final String SPOUSES_MOTHER_CODE = "sm";
+    private static final String SPOUSES_FATHER_CODE = "sf";
+
+    private static final String UNRELATED_FATHER_CODE = "uf";
+    private static final String UNRELATED_MOTHER_CODE = "um";
 
     private GenCode() {
     }
@@ -26,15 +29,42 @@ public class GenCode {
     public static String buildParent1Code(String genCode) {
         // remove the number and char to indicate current generation.
         // remove the number to remove multiple marriages
-        // e.g. SA2A1 becomes SA
+        // e.g. SA2A1 becomes SA, SAA1 becomes SA
         return removeLastNumber(removeLastChar(removeLastNumber(genCode)));
     }
 
     public static String buildParent2Code(String genCode) {
         // remove the number and char to indicate current generation.
         // add a number if there is not already one there
-        // e.g. SA2A1 becomes SA2
+        // e.g. SA2A1 becomes SA2, SAA1 becomes SA1
         return addLastNumber(removeLastChar(removeLastNumber(genCode)));
+    }
+
+    public static String buildUnrelatedMothersCode(String genCode) {
+        // e.g. We are starting from and unrelated child's code e.g. SA2a
+        // add "uf" or "um" to indicate the husband or wife of SA2. E.g. SA2aum or SA2aum
+        // e.g. SA2a becomes SA2aum, SA1a becomes SA1aum, SA2A1a becomes SA2A1aum
+        // but there can also be related parents e.g. MAA becomes MAAum (which is really the same as MA1)
+//        if(!Character.isLowerCase(genCode.charAt(genCode.length()-1))) {
+//            String retVal = buildParent2Code(genCode); // e.g. MAA becomes MA1 (or should it be MA??
+//            System.out.println("Unexpected genCode:" + genCode + " Returning:" + retVal + " We were supposed to be starting from and unrelated child's code (ending in lowercase)");
+//            return retVal;
+//        }
+        return genCode + UNRELATED_MOTHER_CODE;
+    }
+
+    public static String buildUnrelatedFatherCode(String genCode) {
+        // e.g. We are starting from and unrelated child's code e.g. SA2a
+        // add "uf" or "um" to indicate the husband or wife of SA2. E.g. SA2auf or SA2aum
+        // e.g. SA2a becomes SA2auf, SA1a becomes SA1auf, SA2A1a becomes SA2A1auf
+        // but there can also be related parents e.g. MAA becomes MAAuf (which is really the same as MA1 or maybe MA?)
+
+//        if(!Character.isLowerCase(genCode.charAt(genCode.length()-1))) {
+//            String retVal =  buildParent2Code(genCode); // e.g. MAA becomes MA1 (or should it be MA??
+//            System.out.println("Unexpected genCode:"+genCode+ " Returning:"+retVal+" We were supposed to be starting from and unrelated child's code (ending in lowercase)");
+//            return retVal;
+//        }
+        return genCode + UNRELATED_FATHER_CODE;
     }
 
     public static String buildChildsCode(String genCode, int childNumber) {
@@ -45,7 +75,7 @@ public class GenCode {
     /**
      * @return GenCode where final letter is in lowercase.
      */
-    public static String buildNotRelatedChildsCode(String genCode, int childNumber) {
+    public static String buildUnRelatedChildsCode(String genCode, int childNumber) {
         String str = buildChildsCode(genCode, childNumber);
         return str.substring(0, str.length() - 1) + Character.toLowerCase(str.charAt(str.length() - 1));
     }

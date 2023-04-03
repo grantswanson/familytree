@@ -22,7 +22,9 @@ public class ChildBuilder {
             for (int i = 0; i < chidrensNames.size(); i++) {
                 Name name = Name.extractChildrensName(chidrensNames.get(i));
                 String expectedCode = GenCode.buildChildsCode(row.getGenCode(), i + 1);
-                Person expectedPerson = individualMap.get(expectedCode);
+                Person expectedPerson = PersonMap.getPersonByGenCodeOrNameKey(
+                        expectedCode,
+                        name.toNameKey());
 
                 if (name == null && expectedPerson == null) {
                     continue;
@@ -30,24 +32,26 @@ public class ChildBuilder {
                     throw new RuntimeException("ln#" + row.getNumber() + " Child #" + i + " " + chidrensNames.get(i) + " is null. genCode:" +
                             expectedCode + " not sure why. person" + expectedPerson);
                 } else if (expectedPerson == null) {
-                    expectedCode = GenCode.buildNotRelatedChildsCode(row.getGenCode(), i + 1);
-                    expectedPerson = individualMap.get(expectedCode);
+                    String altMarriageExpectedCode = GenCode.buildUnRelatedChildsCode(row.getGenCode(), i + 1);
+                    expectedPerson = PersonMap.getPersonByGenCode(altMarriageExpectedCode);
 
-//                    if (expectedPerson != null) {
-//                        System.out.println("ln#"+row.getNumber() + " Child #" + i + " " + name.getLastCommaFirst() + " SUCCESS! FOUND under genCode:" +
-//                                expectedCode + " so we should merge that person.");
-//                    }
+                    if (expectedPerson != null) {
+                        //System.out.println
+                        throw new RuntimeException
+                                ("ln#" + row.getNumber() + " Child #" + i + " " + name.toFullName() + " SUCCESS! FOUND under a different marriage. genCode:" +
+                                        altMarriageExpectedCode + " so we should Create that marriage and merge that person.");
+                    }
                 }
 
                 if (expectedPerson != null) {
-                    boolean success = PersonMerger.merge(expectedPerson, name, row.getNumber(), " Child #" + i);
+                    boolean success = PersonMerger.merge(expectedPerson, name, row.getNumber(), " Child #" + i, true);
                     if (success) {
                         marriage.addChild(expectedPerson, i + 1);
                     } else {
                         System.out.println(" Merge failed!!! Fix data.");
                     }
                 } else {
-                    System.out.println("ln#" + row.getNumber() + " Child #" + i + " " + name.getLastCommaFirst() + " NOT FOUND under genCode:" +
+                    System.out.println("ln#" + row.getNumber() + " Child #" + i + " " + name.toFullName() + " NOT FOUND under genCode:" +
                             expectedCode + " so we should build that person.");
                 }
             }

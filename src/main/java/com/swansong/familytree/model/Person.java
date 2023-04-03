@@ -24,9 +24,7 @@ public class Person {
     private Name name;
     private String gender = "";
 
-    private Name fathersName;
     private Person father;
-    private Name mothersName;
     private Person mother;
     private String dob = ""; //format is yyyy MMM d(for MOST dates, some are just yyyy)
     private String pob = "";
@@ -110,6 +108,8 @@ public class Person {
     @ToString.Exclude
     List<Marriage> marriages = new ArrayList<>();
 
+
+    @SuppressWarnings("unused")
     public Marriage getMarriage(int i) {
         return marriages.get(i);
     }
@@ -134,12 +134,7 @@ public class Person {
         if (mother != null) {
             str += " Mom:" + mother.getGenCode() + " " + mother.getName().toFullName();
         }
-        if (fathersName != null) {
-            str = " Dad:" + fathersName.toFullName();
-        }
-        if (mothersName != null) {
-            str += " Mom:" + mothersName.toFullName();
-        }
+
         return str;
     }
 
@@ -162,6 +157,7 @@ public class Person {
 //    private String attributetype;
 //    private String attributevalue;
 //    private String attributesource;
+
 
 }
 

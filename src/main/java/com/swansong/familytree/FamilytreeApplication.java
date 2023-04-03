@@ -39,7 +39,7 @@ public class FamilytreeApplication {
             SpousesParentsBuilder.buildSpousesParentsMarriage(marriages, csvData);
             ParentBuilder.buildParents(csvData, marriages, individualMap);
 
-            //ChildBuilder.buildChildren(marriages, individualMap);
+            ChildBuilder.buildChildren(marriages, individualMap);
 
         }
         printMarriages(marriages);

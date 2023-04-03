@@ -22,9 +22,10 @@ public class ChildBuilder {
             for (int i = 0; i < chidrensNames.size(); i++) {
                 Name name = Name.extractChildrensName(chidrensNames.get(i));
                 String expectedCode = GenCode.buildChildsCode(row.getGenCode(), i + 1);
-                Person expectedPerson = PersonMap.getPersonByGenCodeOrNameKey(
+                Person expectedPerson = PersonMap.getPersonByGenCodeOrRawName(
                         expectedCode,
-                        name.toNameKey());
+                        chidrensNames.get(i));
+                //name.toNameKey());
 
                 if (name == null && expectedPerson == null) {
                     continue;

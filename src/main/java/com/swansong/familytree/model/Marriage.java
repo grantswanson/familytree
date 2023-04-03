@@ -21,25 +21,6 @@ public class Marriage {
     @ToString.Exclude
     private Row sourceRow;
 
-//    @ToString.Exclude
-//    // just the names from the row
-//    private List<Name> chidrensNames = new ArrayList<>();
-
-//    public String childrensNamesToString() {
-//        StringBuilder strBuilder = new StringBuilder();
-//        for (Name child : chidrensNames) {
-//            if (child == null) {
-//                continue;
-//            }
-//            strBuilder.append(String.format("%s", child.getFirstNames() + ", "));
-//
-//        }
-//        if (strBuilder.length() != 0) {
-//            strBuilder.insert(0, "  KidsNames:");
-//        }
-//        return strBuilder.toString();
-//    }
-
     @ToString.Exclude
     private Person[] children = new Person[Child.MAX_CHILDREN];
 
@@ -110,21 +91,5 @@ public class Marriage {
         }
     }
 
-//    public boolean isSpousesParents() {
-//        // if there is only one child then expect it to be the spouse because at this point in the code,
-//        // the children are not filled in
-//        boolean onlyOneChild = children[0] != null &&
-//                IntStream.range(1, children.length).allMatch(i -> children[i] == null);
-//
-//        boolean spousesParentsNamesMatch = Name.parseLastCommaFirstName(sourceRow.getSpouseFather()).getLastCommaFirst().equalsIgnoreCase(
-//                getHusband().getName().getLastCommaFirst()) ||
-//                Name.parseLastCommaFirstName(sourceRow.getSpouseMother()).getLastCommaFirst().equalsIgnoreCase(
-//                        getWife().getName().getLastCommaFirst());
-//        if(onlyOneChild != spousesParentsNamesMatch) {
-//            throw new RuntimeException("OnlyOncChild:"+onlyOneChild +
-//                    " fails to match spousesParentsNamesMatch:"+spousesParentsNamesMatch+
-//                    " marriage:"+this);
-//        }
-//        else { return spousesParentsNamesMatch;}
-//    }
+
 }

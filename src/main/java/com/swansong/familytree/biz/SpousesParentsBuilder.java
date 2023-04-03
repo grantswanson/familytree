@@ -70,7 +70,7 @@ public class SpousesParentsBuilder {
 
         Person person = PersonBuilder.buildBasicPerson(name);
         // add more here
-        person.setSourceLineNumber(row.getNumber());
+        person.setSourceRow(row);
         person.setGenderToMale(isMale);
         if (isMale) {
             person.setGenCode(GenCode.buildSpousesFatherCode(row.getGenCode()));

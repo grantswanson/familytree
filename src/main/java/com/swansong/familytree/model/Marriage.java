@@ -31,7 +31,7 @@ public class Marriage {
             if (child == null) {
                 continue;
             }
-            strBuilder.append(String.format("#%d %s %s", child.getSourceLineNumber(), child.getGenCode(),
+            strBuilder.append(String.format("#%d %s %s", child.getSourceRow().getNumber(), child.getGenCode(),
                     child.getName().getFirstNames() + ", "));
 
         }

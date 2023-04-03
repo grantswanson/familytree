@@ -114,7 +114,6 @@ public class GenCodeTest {
         assertThrows(RuntimeException.class, () -> GenCode.buildParent1Code(""));
     }
 
-    @SuppressWarnings("ResultOfMethodCallIgnored")
     @Test
     void buildChildsCodeExceptionTest() {
         assertThrows(IllegalArgumentException.class, () -> GenCode.buildChildsCode("SA", 27));
@@ -124,7 +123,7 @@ public class GenCodeTest {
     }
 
     @ParameterizedTest
-    @CsvSource({"S, S1f", "SABC, SABC1f", "SA1B2C1, SA1B2C1f", "SA2, SA2f"})
+    @CsvSource({"S, S1sf", "SABC, SABC1sf", "SA1B2C1, SA1B2C1sf", "SA2, SA2sf"})
     void buildSpousesFatherCodeTest(String genCode, String expected) {
         String output = GenCode.buildSpousesFatherCode(genCode);
         assertEquals(expected, output);
@@ -132,7 +131,7 @@ public class GenCodeTest {
     }
 
     @ParameterizedTest
-    @CsvSource({"S, S1m", "SABC, SABC1m", "SA1B2C1, SA1B2C1m", "SA2, SA2m"})
+    @CsvSource({"S, S1sm", "SABC, SABC1sm", "SA1B2C1, SA1B2C1sm", "SA2, SA2sm"})
     void buildSpousesMotherCodeTest(String genCode, String expected) {
         String output = GenCode.buildSpousesMotherCode(genCode);
         assertEquals(expected, output);

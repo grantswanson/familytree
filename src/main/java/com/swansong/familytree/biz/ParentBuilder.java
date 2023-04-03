@@ -8,11 +8,10 @@ import com.swansong.familytree.model.Person;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 public class ParentBuilder {
 
-    public static void buildParents(ArrayList<Row> csvData, List<Marriage> marriages, Map<String, Person> individualMap) {
+    public static void buildParents(ArrayList<Row> csvData, List<Marriage> marriages) {
         for (Row row : csvData) {
             boolean createMarriage = false;
 
@@ -25,7 +24,7 @@ public class ParentBuilder {
                     father = PersonBuilder.buildBasicPerson(row.getFather());
                     father.setGenderToMale(true);
                     father.setGenCode(GenCode.buildUnrelatedFatherCode(row.getGenCode()));
-                    father.setSourceLineNumber(row.getNumber());
+                    father.setSourceRow(row);
                     createMarriage = true;
                     System.out.println("ln#:" + row.getNumber() + " created father:" + father.toShortString());
 
@@ -42,7 +41,7 @@ public class ParentBuilder {
                     mother = PersonBuilder.buildBasicPerson(row.getMother());
                     mother.setGenderToMale(false);
                     mother.setGenCode(GenCode.buildUnrelatedMothersCode(row.getGenCode()));
-                    mother.setSourceLineNumber(row.getNumber());
+                    mother.setSourceRow(row);
                     createMarriage = true;
                     System.out.println("ln#:" + row.getNumber() + " created mother:" + mother.toShortString());
 
@@ -51,7 +50,7 @@ public class ParentBuilder {
                 }
             }
 
-            Marriage marriage = null; // find marriage
+            Marriage marriage; // find marriage
             //if (marriage == null ) { // add a marriage if it does not exist already
 
             if (createMarriage) {

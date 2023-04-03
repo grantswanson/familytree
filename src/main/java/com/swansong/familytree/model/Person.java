@@ -1,5 +1,6 @@
 package com.swansong.familytree.model;
 
+import com.swansong.familytree.csv.Row;
 import lombok.Data;
 import lombok.ToString;
 
@@ -19,7 +20,7 @@ public class Person {
     }
 
     private String id;
-    private Integer sourceLineNumber;
+    private Row sourceRow;
     private String genCode;
     private Name name;
     private String gender = "";
@@ -38,9 +39,7 @@ public class Person {
     private String burialPlace = "";
 
     @ToString.Exclude
-
     private Map<String, Person> spouses = new HashMap<>();
-
 
     public void addSpouse(Person spouse) {
         if (spouse == null) {
@@ -49,13 +48,12 @@ public class Person {
         spouses.put(spouse.getGenCode(), spouse);
     }
 
-
     @ToString.Include
     public String spousesToString() {
         StringBuilder strBuilder = new StringBuilder();
         for (Map.Entry<String, Person> entry : spouses.entrySet()) {
             Person spouse = entry.getValue();
-            strBuilder.append(String.format("#%d %-4s %-14.14s", spouse.getSourceLineNumber(), spouse.getGenCode(),
+            strBuilder.append(String.format("#%d %-4s %-14.14s", spouse.getSourceRow().getNumber(), spouse.getGenCode(),
                     spouse.getName().getFirstNames() + ", "));
         }
         String str = strBuilder.toString();
@@ -108,7 +106,6 @@ public class Person {
     @ToString.Exclude
     List<Marriage> marriages = new ArrayList<>();
 
-
     @SuppressWarnings("unused")
     public Marriage getMarriage(int i) {
         return marriages.get(i);
@@ -141,7 +138,7 @@ public class Person {
 
     public String toShortString() {
         return String.format("#%d %-5s %-1s %-30.30s",
-                sourceLineNumber, genCode, gender,
+                sourceRow.getNumber(), genCode, gender,
                 name.toFullName());
     }
 

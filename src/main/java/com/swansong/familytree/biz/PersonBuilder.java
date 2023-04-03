@@ -33,7 +33,7 @@ public class PersonBuilder {
             return null;
 
         Person person = buildBasicPerson(name);
-        person.setSourceLineNumber(row.getNumber());
+        person.setSourceRow(row);
         person.setGenCode(GenCode.buildSelfCode(row.getGenCode()));
 
         person.setDob(row.getDob());

@@ -60,7 +60,7 @@ public class PersonMap {
 
     public static void printIndividualMap() {
         Comparator<Map.Entry<String, Person>> valueComparator = Comparator
-                .comparing((Map.Entry<String, Person> e) -> e.getValue().getSourceLineNumber())
+                .comparing((Map.Entry<String, Person> e) -> e.getValue().getSourceRow().getNumber())
                 .thenComparing(e -> e.getValue().getGenCode());
         Map<String, Person> sortedPersonMap = individualMapByGenCode.entrySet()
                 .stream()
@@ -70,7 +70,7 @@ public class PersonMap {
         for (Map.Entry<String, Person> entry : sortedPersonMap.entrySet()) {
             Person person = entry.getValue();
             String selfStr = String.format("#%-2d %-7s %1s %-30.30s",
-                    person.getSourceLineNumber(),
+                    person.getSourceRow().getNumber(),
                     person.getGenCode(),
                     person.getGender(),
                     person.getName().toFullName()

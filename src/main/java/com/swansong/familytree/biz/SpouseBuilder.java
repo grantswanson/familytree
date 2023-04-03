@@ -31,7 +31,7 @@ public class SpouseBuilder {
             return null;
 
         Person person = PersonBuilder.buildBasicPerson(name);
-        person.setSourceLineNumber(row.getNumber());
+        person.setSourceRow(row);
         person.setGenCode(GenCode.buildSpousesCode(row.getGenCode()));
 
         person.setDob(row.getSpouseDob());

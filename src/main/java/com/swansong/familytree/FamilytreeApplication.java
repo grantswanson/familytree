@@ -37,7 +37,7 @@ public class FamilytreeApplication {
                 processRow(marriages, row);
             }
             SpousesParentsBuilder.buildSpousesParentsMarriage(marriages, csvData);
-            ParentBuilder.buildParents(csvData, marriages, individualMap);
+            ParentBuilder.buildParents(csvData, marriages);
 
             ChildBuilder.buildChildren(marriages, individualMap);
 

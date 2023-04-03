@@ -145,4 +145,8 @@ public class GenCode {
     }
 
 
+    public static boolean isUnrelated(String genCode) {
+        return !Character.isLowerCase(genCode.charAt(genCode.length() - 1));
+
+    }
 }

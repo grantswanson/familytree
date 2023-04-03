@@ -44,6 +44,8 @@ public class PersonBuilder {
         person.setConfirmationPlace(row.getConfirmationPlace());
         person.setDeathDate(row.getDeathDate());
         person.setBurialPlace(row.getBurialPlace());
+
+        person.setChildrenNotes(row.getChildrenNotes());
         return person;
     }
 

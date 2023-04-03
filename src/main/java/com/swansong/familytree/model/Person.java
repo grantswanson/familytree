@@ -41,6 +41,21 @@ public class Person {
     @ToString.Exclude
     private Map<String, Person> spouses = new HashMap<>();
 
+    @ToString.Exclude
+    List<Marriage> marriages = new ArrayList<>();
+    private String debug = "";
+
+    private String childrenNotes = "";
+
+    public boolean hasMiscNotes() {
+        return !childrenNotes.equals("") || name.isHasSpecialNote() || GenCode.isUnrelated(genCode);
+    }
+
+    public String getMiscNotes() {
+        return childrenNotes.equals("") + (name.isHasSpecialNote() ? "hasSpecialNote" : "") +
+                (GenCode.isUnrelated(genCode) ? "isUnrelated:" + genCode : "");
+    }
+
     public void addSpouse(Person spouse) {
         if (spouse == null) {
             return;
@@ -100,11 +115,7 @@ public class Person {
         debug += s;
     }
 
-    private String debug = "";
 
-
-    @ToString.Exclude
-    List<Marriage> marriages = new ArrayList<>();
 
     @SuppressWarnings("unused")
     public Marriage getMarriage(int i) {
@@ -137,8 +148,8 @@ public class Person {
 
 
     public String toShortString() {
-        return String.format("#%d %-5s %-1s %-30.30s",
-                sourceRow.getNumber(), genCode, gender,
+        return String.format("#%d %-5s%s %-1s %-30.30s",
+                sourceRow.getNumber(), genCode, (hasMiscNotes() ? "*" : ""), gender,
                 name.toFullName());
     }
 

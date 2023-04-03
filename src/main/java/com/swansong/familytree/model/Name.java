@@ -296,7 +296,7 @@ public class Name {
         boolean similar = (areNamesPossiblyMisspelled(name1.firstNames, name2.firstNames, allowBlank) &&
                 areNamesPossiblyMisspelled(name1.surName, name2.surName, allowBlank));
         // if name1 has only a firstname and no surName and name2 is the reverse (only surname and not first),
-        // then it would always return true and it probably shouldn't. So return false.
+        // then it would always return true, and it probably shouldn't. So return false.
         if (name1.firstNames.isBlank() && name2.surName.isBlank() ||
                 name2.firstNames.isBlank() && name1.surName.isBlank()) {
             similar = false;

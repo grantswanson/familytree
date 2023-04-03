@@ -27,7 +27,7 @@ public class PersonMerger {
             String s = "Merged names that start with the other. (also handles initials)  ln#:" + rowNum + " Source:" + altNameSource +
                     "\n name from row text: '" + altName.toFullName() + "' is SIMILAR to" +
                     "\n name from genCode : '" + person.getName().toFullName() + "' " + person.getGenCode();
-            person.getName().mergeStartsWith(altName, rowNum, altNameSource);
+            person.getName().mergeStartsWith(altName);
             s += "\n  final merged name: '" + person.getName().toFullName() + "' " + person.getGenCode();
 //            System.out.println(s);
             return true;
@@ -35,7 +35,7 @@ public class PersonMerger {
             String s = "Merged similar names ln#:" + rowNum + " Source:" + altNameSource +
                     "\n name from row text: '" + altName.toFullName() + "' is SIMILAR to" +
                     "\n name from genCode : '" + person.getName().toFullName() + "' " + person.getGenCode();
-            person.getName().mergeInMisspelledName(altName, rowNum, altNameSource);
+            person.getName().mergeInMisspelledName(altName);
             s += "\n  final merged name: '" + person.getName().toFullName() + "' " + person.getGenCode();
 //            System.out.println(s);
             return true;

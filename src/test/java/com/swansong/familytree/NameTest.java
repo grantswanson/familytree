@@ -166,7 +166,7 @@ public class  NameTest {
     @CsvSource({"' Smith,  John * ', 'Smith, John'", "' Jane*', ', Jane'", "' Doe ,  Jill * [Roe] ', 'Doe, Jill [Roe]'",
             "Carol, ', Carol'"})
     void extractChildrensNameTest(String name, String expected) {
-        //noinspection DataFlowIssue
+        //noinspection
         assertEquals(expected, Name.extractChildrensName(name).toFullName());
     }
 
@@ -222,7 +222,7 @@ public class  NameTest {
     void mergeInMisspelledNameTest(String name1, String name2, String expected) {
         Name n1 = Name.parseFullName(name1);
         Name n2 = Name.parseFullName(name2);
-        n1.mergeInMisspelledName(n2, 0, "Unit Test: mergeInMisspelledNameTest");
+        n1.mergeInMisspelledName(n2);
         String calculated = n1.toFullName();
         assertEquals(expected, calculated);
     }
@@ -244,7 +244,7 @@ public class  NameTest {
     void mergeStartsWithTest(String name1, String name2, String expected) {
         Name n1 = Name.parseFullName(name1);
         Name n2 = Name.parseFullName(name2);
-        n1.mergeStartsWith(n2, 0, "Unit Test: mergeInMisspelledNameTest");
+        n1.mergeStartsWith(n2);
         String calculated = n1.toFullName();
         assertEquals(expected, calculated);
     }

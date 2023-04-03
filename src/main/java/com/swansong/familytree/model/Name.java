@@ -28,21 +28,24 @@ public class Name {
     private Set<String> altNames = new LinkedHashSet<>();
     private Set<String> marriedNames = new LinkedHashSet<>();
 
-//    private String prefix;
-//    private String title;
+    private boolean hasSpecialNote;
 
 
     public static Name parseFullName(String str) {
         if (str == null) {
             throw new IllegalArgumentException("Unexpected lastName, firstName format: It is null");
         }
+        Name name = new Name();
         // remove the alt names first
-        Set<String> altNames = extractAltNames(str);
+        name.altNames = extractAltNames(str);
         str = extractStringBeforeAlt(str);
+
+        name.hasSpecialNote = str.contains("*");
+        str = str.replace("*", "");
 
         str = str.replace(".", "");
 
-        String[] names = str.split(",");
+        String[] names = str.trim().split(",");
         if (names.length == 0) {
             // the str="," so it is basically blank, so we shouldn't really be parsing that name.
             throw new IllegalArgumentException("Unexpected lastName, firstName format: It is names.length:" + names.length + " str:'" + str + "'");
@@ -52,23 +55,22 @@ public class Name {
         // if just first name and last name, and last name is a common suffix (Jr, Sr, III)
         // then the last name is really as suffix
         if (names.length == 2 &&
-                COMMON_SUFFIXES.contains(toNameCase(removeAsterisk(names[1]).trim()))) {
+                COMMON_SUFFIXES.contains(toNameCase(names[1]).trim())) {
             // add an element to the front of the array to be a blank surname
             // use the new array instead
             names = Stream.concat(Stream.of(""), Stream.of(names))
                     .toArray(String[]::new);
         }
-        Name name = new Name();
-        name.altNames = altNames;
-        name.setSurName(toNameCase(removeAsterisk(names[0]).trim()));
+
+        name.setSurName(toNameCase(names[0]).trim());
         if (names.length >= 2) {
             String n = names[1];
-            name.setFirstNames(toNameCase(extractFirstNames(removeAsterisk(n)).trim()));
-            name.setNickName(toNameCase(extractNickName(removeAsterisk(n)).trim()));
+            name.setFirstNames(toNameCase(extractFirstNames(n).trim()));
+            name.setNickName(toNameCase(extractNickName(n).trim()));
             name.setMarriedNames(extractMarriedNames(n));
         }
         if (names.length == 3) {
-            name.setSuffix(toNameCase(removeAsterisk(names[2])).trim());
+            name.setSuffix(toNameCase(names[2]).trim());
 
         }
         return name;
@@ -129,7 +131,7 @@ public class Name {
         Set<String> retVal = new LinkedHashSet<>();
         String name;
         do {
-            name = removeAsterisk(extractTextBetween(s, begin, end));
+            name = extractTextBetween(s, begin, end);
             s = removeTextBetween(s, begin, end);
             if (!name.isBlank()) {
                 retVal.add(toNameCase(name).trim());
@@ -147,10 +149,10 @@ public class Name {
     }
 
     public static Name extractChildrensName(String name) {
-        name = removeAsterisk(name); // null safe, returns "" if null passed in
-        if (!name.isBlank()) {
+        if (name != null && !name.replace("*", "").isBlank()) {
             return Name.parseFullName(
                     addCommaIfMissing(name.trim()));
+
         }
         return null;
     }
@@ -187,7 +189,7 @@ public class Name {
 
     }
 
-    public void mergeStartsWith(Name altName, int rowNum, String altNameSource) {
+    public void mergeStartsWith(Name altName) {
         mergeInFirstNameMiddleInitial(altName);
 
         mergeInSurName(altName);
@@ -198,7 +200,7 @@ public class Name {
 
     }
 
-    public void mergeInMisspelledName(Name altName, int rowNum, String altNameSource) {
+    public void mergeInMisspelledName(Name altName) {
         mergeInNickName(altName);
         mergeInMarriedName(altName);
         mergeInSuffix(altName);
@@ -290,7 +292,7 @@ public class Name {
         }
         // nickname, and married name don't matter
         boolean allowBlank = true; // if one of the two names is blank, then return true
-        //noinspection UnnecessaryLocalVariable
+        //noinspection
         boolean similar = (areNamesPossiblyMisspelled(name1.firstNames, name2.firstNames, allowBlank) &&
                 areNamesPossiblyMisspelled(name1.surName, name2.surName, allowBlank));
         // if name1 has only a firstname and no surName and name2 is the reverse (only surname and not first),

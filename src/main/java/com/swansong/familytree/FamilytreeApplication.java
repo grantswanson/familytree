@@ -9,7 +9,10 @@ import com.swansong.familytree.model.Marriage;
 import com.swansong.familytree.model.Person;
 
 import java.io.File;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Scanner;
 
 import static java.lang.System.exit;
 
@@ -24,7 +27,6 @@ public class FamilytreeApplication {
 
         List<String> filesToProcess = getFilesToProcess(args);
 
-        Map<String, Person> individualMap = new HashMap<>();
         List<Marriage> marriages = new LinkedList<>();
 
         for (String fileName : filesToProcess) {
@@ -39,7 +41,7 @@ public class FamilytreeApplication {
             SpousesParentsBuilder.buildSpousesParentsMarriage(marriages, csvData);
             ParentBuilder.buildParents(csvData, marriages);
 
-            ChildBuilder.buildChildren(marriages, individualMap);
+            ChildBuilder.buildChildren(marriages);
 
         }
         printMarriages(marriages);

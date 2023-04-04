@@ -51,6 +51,7 @@ public class PersonMap {
         return individualMapByName.get(nameKey.toString());
     }
 
+    @SuppressWarnings("unused")
     public static Person getPersonByGenCodeOrNameKey(String genCode, NameKey nameKey) {
         Person person = individualMapByGenCode.get(genCode);
         if (person == null) {
@@ -101,7 +102,8 @@ public class PersonMap {
 //                    );
 //            System.out.println(person);
             System.out.print(selfStr);
-            System.out.print(person.spousesToString());
+            //noinspection RedundantStringFormatCall
+            System.out.print(String.format("%-35s", person.spousesToString()));
             System.out.print(person.parentsToString());
 
             System.out.println();

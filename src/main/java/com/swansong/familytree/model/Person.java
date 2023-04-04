@@ -71,7 +71,7 @@ public class Person {
         StringBuilder strBuilder = new StringBuilder();
         for (Map.Entry<String, Person> entry : spouses.entrySet()) {
             Person spouse = entry.getValue();
-            strBuilder.append(String.format("#%d %-4s %-14.14s", spouse.getSourceRow().getNumber(), spouse.getGenCode(),
+            strBuilder.append(String.format("#%d %-4s %-14s ", spouse.getSourceRow().getNumber(), spouse.getGenCode(),
                     spouse.getName().getFirstNames() + ", "));
         }
         String str = strBuilder.toString();

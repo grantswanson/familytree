@@ -71,7 +71,11 @@ public class ChildBuilder {
         if (expectedPerson != null) {
             boolean success = PersonMerger.merge(expectedPerson, childsName, row.getNumber(), " Child #" + i, true);
             if (success) {
+                expectedPerson.setFather(marriage.getHusband());
+                expectedPerson.setMother(marriage.getWife());
+
                 marriage.addChild(expectedPerson, i + 1);
+
             } else {
                 //System.out.println
                 throw new RuntimeException(" Merge failed!!! Fix data.");

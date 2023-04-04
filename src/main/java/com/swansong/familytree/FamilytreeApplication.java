@@ -43,7 +43,7 @@ public class FamilytreeApplication {
 
         }
         printMarriages(marriages);
-        //PersonMap.printIndividualMap();
+        PersonMap.printIndividualMap();
     }
 
     private static void processRow(List<Marriage> marriages, Row row) {

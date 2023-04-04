@@ -138,5 +138,45 @@ public class GenCodeTest {
 
     }
 
+    @ParameterizedTest
+    @CsvSource({
+            "ABC,false",
+            "ABc,true",
+            "a,true",
+            "A,false"
+    })
+    void isUnrelatedTest(String genCode, boolean expected) {
+        assertEquals(expected, GenCode.isUnrelated(genCode));
+    }
+
+    @ParameterizedTest
+    @CsvSource({
+            "ABC, 1, ABCa",
+            "XYZ, 2, XYZb"
+    })
+    public void buildUnRelatedChildsCodeTest(String genCode, int childNumber, String expected) {
+        String result = GenCode.buildUnRelatedChildsCode(genCode, childNumber);
+        assertEquals(expected, result);
+    }
+
+    @ParameterizedTest
+    @CsvSource({
+            "ABC,  ABCum",
+            "XYZ,  XYZum"
+    })
+    public void buildUnrelatedMothersCodeTest(String genCode, String expected) {
+        String result = GenCode.buildUnrelatedMothersCode(genCode);
+        assertEquals(expected, result);
+    }
+
+    @ParameterizedTest
+    @CsvSource({
+            "ABC,  ABCuf",
+            "XYZ,  XYZuf"
+    })
+    public void buildUnrelatedFathersCodeTest(String genCode, String expected) {
+        String result = GenCode.buildUnrelatedFathersCode(genCode);
+        assertEquals(expected, result);
+    }
 
 }

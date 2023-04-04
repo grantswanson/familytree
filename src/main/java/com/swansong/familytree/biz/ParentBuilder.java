@@ -23,7 +23,7 @@ public class ParentBuilder {
                     //System.out.println("ln#:" + row.getNumber() +" father not found! name:"+row.getFather());
                     father = PersonBuilder.buildBasicPerson(row.getFather());
                     father.setGenderToMale(true);
-                    father.setGenCode(GenCode.buildUnrelatedFatherCode(row.getGenCode()));
+                    father.setGenCode(GenCode.buildUnrelatedFathersCode(row.getGenCode()));
                     father.setSourceRow(row);
                     createMarriage = true;
                     System.out.println("ln#:" + row.getNumber() + " created father:" + father.toShortString());

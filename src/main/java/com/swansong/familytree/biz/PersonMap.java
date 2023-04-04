@@ -1,6 +1,7 @@
 package com.swansong.familytree.biz;
 
 import com.swansong.familytree.model.Name;
+import com.swansong.familytree.model.NameKey;
 import com.swansong.familytree.model.Person;
 
 import java.util.Comparator;
@@ -20,13 +21,22 @@ public class PersonMap {
             throw new RuntimeException("Error: Tried to add someone who is already there by genCode! cur:" +
                     currentPerson.toShortString() + " trying to add:" + newPerson.toShortString());
         }
-        currentPerson = individualMapByName.get(newPerson.getName().toNameKey());
+        currentPerson = individualMapByName.get(newPerson.getName().toNameKey().toString());
         if (currentPerson != null) {
             throw new RuntimeException("Error: Tried to add someone who is already there by name! cur:" +
                     currentPerson.toShortString() + " trying to add:" + newPerson.toShortString());
         }
+//        try {
+//            if (newPerson.getName().toNameKey().toString().equals("Larson, Florence Marie")) {
+//                System.out.println("newPerson:"+newPerson+" currentPerson:"+currentPerson);
+//                throw new RuntimeException();
+//            }
+//        }catch (Exception e) {
+//            e.printStackTrace();
+//            System.out.println("newPerson:"+newPerson+" currentPerson"+currentPerson);
+//        }
         individualMapByGenCode.put(newPerson.getGenCode(), newPerson);
-        individualMapByName.put(newPerson.getName().toNameKey(), newPerson);
+        individualMapByName.put(newPerson.getName().toNameKey().toString(), newPerson);
     }
 
     //    private static void savePersonByName(Person newPerson) {
@@ -37,14 +47,14 @@ public class PersonMap {
         return individualMapByGenCode.get(genCode);
     }
 
-    public static Person getPersonByNameKey(String nameKey) {
-        return individualMapByName.get(nameKey);
+    public static Person getPersonByNameKey(NameKey nameKey) {
+        return individualMapByName.get(nameKey.toString());
     }
 
-    public static Person getPersonByGenCodeOrNameKey(String genCode, String nameKey) {
+    public static Person getPersonByGenCodeOrNameKey(String genCode, NameKey nameKey) {
         Person person = individualMapByGenCode.get(genCode);
         if (person == null) {
-            person = individualMapByName.get(nameKey);
+            person = individualMapByName.get(nameKey.toString());
         }
         return person;
     }
@@ -52,8 +62,8 @@ public class PersonMap {
     public static Person getPersonByGenCodeOrRawName(String genCode, String rawName) {
         Person person = individualMapByGenCode.get(genCode);
         if (person == null && rawName != null && !rawName.isBlank()) {
-            String nameKey = Name.parseFullName(rawName).toNameKey();
-            person = individualMapByName.get(nameKey);
+            NameKey nameKey = Name.parseFullName(rawName).toNameKey();
+            person = individualMapByName.get(nameKey.toString());
         }
         return person;
     }

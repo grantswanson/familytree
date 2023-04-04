@@ -20,7 +20,6 @@ public class Person {
     }
 
     private String id;
-    private Row sourceRow;
     private String genCode;
     private Name name;
     private String gender = "";
@@ -47,12 +46,16 @@ public class Person {
 
     private String childrenNotes = "";
 
+    private Row sourceRow;
+
     public boolean hasMiscNotes() {
-        return !childrenNotes.equals("") || name.isHasSpecialNote() || GenCode.isUnrelated(genCode);
+        return (childrenNotes != null && !childrenNotes.equals("")) ||
+                name.isHasSpecialNote() || GenCode.isUnrelated(genCode);
     }
 
     public String getMiscNotes() {
-        return childrenNotes.equals("") + (name.isHasSpecialNote() ? "hasSpecialNote" : "") +
+        return (childrenNotes == null ? "" : childrenNotes) +
+                (name.isHasSpecialNote() ? "hasSpecialNote" : "") +
                 (GenCode.isUnrelated(genCode) ? "isUnrelated:" + genCode : "");
     }
 

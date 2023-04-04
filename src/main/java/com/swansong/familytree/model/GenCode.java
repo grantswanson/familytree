@@ -53,7 +53,7 @@ public class GenCode {
         return genCode + UNRELATED_MOTHER_CODE;
     }
 
-    public static String buildUnrelatedFatherCode(String genCode) {
+    public static String buildUnrelatedFathersCode(String genCode) {
         // e.g. We are starting from and unrelated child's code e.g. SA2a
         // add "uf" or "um" to indicate the husband or wife of SA2. E.g. SA2auf or SA2aum
         // e.g. SA2a becomes SA2auf, SA1a becomes SA1auf, SA2A1a becomes SA2A1auf
@@ -146,7 +146,7 @@ public class GenCode {
 
 
     public static boolean isUnrelated(String genCode) {
-        return !Character.isLowerCase(genCode.charAt(genCode.length() - 1));
+        return Character.isLowerCase(genCode.charAt(genCode.length() - 1));
 
     }
 }

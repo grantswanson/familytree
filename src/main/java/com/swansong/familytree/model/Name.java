@@ -339,11 +339,11 @@ public class Name {
     }
 
 
-    public String toNameKey() {
+    public NameKey toNameKey() {
         // only firstname, surname and suffix
         // no nicknames, married names or alt names
         StringBuilder str = new StringBuilder(surName + ", " + firstNames);
         if (suffix != null && !suffix.isEmpty()) str.append(", ").append(suffix);
-        return str.toString();
+        return new NameKey(str.toString());
     }
 }

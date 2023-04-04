@@ -22,10 +22,7 @@ public class ChildBuilder {
             for (int i = 0; i < chidrensNames.size(); i++) {
                 Name name = Name.extractChildrensName(chidrensNames.get(i));
                 String expectedCode = GenCode.buildChildsCode(row.getGenCode(), i + 1);
-                Person expectedPerson = PersonMap.getPersonByGenCodeOrRawName(
-                        expectedCode,
-                        chidrensNames.get(i));
-                //name.toNameKey());
+                Person expectedPerson = PersonMap.getPersonByGenCode(expectedCode);
 
                 if (name == null && expectedPerson == null) {
                     continue;
@@ -37,10 +34,29 @@ public class ChildBuilder {
                     expectedPerson = PersonMap.getPersonByGenCode(altMarriageExpectedCode);
 
                     if (expectedPerson != null) {
-                        //System.out.println
-                        throw new RuntimeException
-                                ("ln#" + row.getNumber() + " Child #" + i + " " + name.toFullName() + " SUCCESS! FOUND under a different marriage. genCode:" +
-                                        altMarriageExpectedCode + " so we should Create that marriage and merge that person.");
+                        if (expectedPerson.hasMiscNotes()) {
+                            System.out.println("ln#" + row.getNumber() + " Child #" + i + " " + name.toFullName() +
+                                    " FOUND under a different marriage." +
+                                    " origGenCode:" + expectedCode +
+                                    " altGenCode:" + altMarriageExpectedCode +
+                                    " Found miscNotes:" + expectedPerson.getMiscNotes());
+                        } else {
+                            //System.out.println
+                            throw new RuntimeException
+                                    ("ln#" + row.getNumber() + " Child #" + i + " " + name.toFullName() + " SUCCESS! FOUND under a different marriage. genCode:" +
+                                            altMarriageExpectedCode + " so we should Create that marriage and merge that person.");
+                        }
+                    }
+                }
+
+                if (expectedPerson == null) { // find by name
+                    expectedPerson = PersonMap.getPersonByNameKey(name.toNameKey());
+                    if (expectedPerson != null) {
+                        System.out.println("ln#" + row.getNumber() + " Child #" + i + " " + name.toFullName() +
+                                " found BY NAME:" + expectedPerson);
+                    } else {
+                        System.out.println("ln#" + row.getNumber() + " Child #" + i + " " + name.toNameKey() +
+                                " NOT found BY NAME.");
                     }
                 }
 
@@ -52,8 +68,13 @@ public class ChildBuilder {
                         System.out.println(" Merge failed!!! Fix data.");
                     }
                 } else {
-                    System.out.println("ln#" + row.getNumber() + " Child #" + i + " " + name.toFullName() + " NOT FOUND under genCode:" +
-                            expectedCode + " so we should build that person.");
+                    if (name.isHasSpecialNote()) {
+                        System.out.println("ln#" + row.getNumber() + " Child #" + i + " " + name.toFullName() + " NOT found under genCode:" +
+                                expectedCode + ". But note found. childrensNotes:" + row.getChildrenNotes());
+                    } else {
+                        System.out.println("ln#" + row.getNumber() + " Child #" + i + " " + name.toFullName() + " NOT found under genCode:" +
+                                expectedCode + " so we should build that person.");
+                    }
                 }
             }
 

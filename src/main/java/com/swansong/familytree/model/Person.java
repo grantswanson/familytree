@@ -50,13 +50,13 @@ public class Person {
 
     public boolean hasMiscNotes() {
         return (childrenNotes != null && !childrenNotes.equals("")) ||
-                name.isHasSpecialNote() || GenCode.isUnrelated(genCode);
+                name.isAsteriskPresent() || GenCode.isUnrelated(genCode);
     }
 
     public String getMiscNotes() {
         return (childrenNotes == null ? "" : childrenNotes) +
-                (name.isHasSpecialNote() ? "hasSpecialNote" : "") +
-                (GenCode.isUnrelated(genCode) ? "isUnrelated:" + genCode : "");
+                (name.isAsteriskPresent() ? " hasAsterisk" : "") +
+                (GenCode.isUnrelated(genCode) ? " isUnrelated:" + genCode : "");
     }
 
     public void addSpouse(Person spouse) {

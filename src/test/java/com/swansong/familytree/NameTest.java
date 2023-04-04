@@ -1,5 +1,6 @@
 package com.swansong.familytree;
 
+import com.swansong.familytree.biz.ChildBuilder;
 import com.swansong.familytree.model.Name;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -167,12 +168,12 @@ public class  NameTest {
             "Carol, ', Carol'"})
     void extractChildrensNameTest(String name, String expected) {
         //noinspection
-        assertEquals(expected, Name.extractChildrensName(name).toFullName());
+        assertEquals(expected, ChildBuilder.extractChildrensName(name).toFullName());
     }
 
     @Test
     void extractChildrensNameNullTest() {
-        assertNull(Name.extractChildrensName("  *  "));
+        assertNull(ChildBuilder.extractChildrensName("  *  "));
     }
 
     @ParameterizedTest

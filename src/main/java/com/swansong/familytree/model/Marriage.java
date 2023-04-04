@@ -1,8 +1,12 @@
 package com.swansong.familytree.model;
 
+import com.swansong.familytree.biz.ChildBuilder;
 import com.swansong.familytree.csv.Row;
 import lombok.Data;
 import lombok.ToString;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Data
 public class Marriage {
@@ -16,13 +20,15 @@ public class Marriage {
     private String id;
     private Person spouse1;
     private Person spouse2;
-
     private boolean isSpousesParents;
+
+
+    @ToString.Exclude
+    private Person[] children = new Person[ChildBuilder.MAX_CHILDREN];
+    private List<Person> childrenFromUnRelatedMarriage = new ArrayList<>();
+
     @ToString.Exclude
     private Row sourceRow;
-
-    @ToString.Exclude
-    private Person[] children = new Person[Child.MAX_CHILDREN];
 
     @ToString.Include
     public String childrenToString() {
@@ -45,7 +51,7 @@ public class Marriage {
      * @param childNum Base 1. Not base 0
      */
     public void addChild(Person child, int childNum) {
-        Child.verifyChildNumber(childNum);
+        ChildBuilder.verifyChildNumber(childNum);
         if (children[childNum - 1] != null) {
             System.out.println(
                     "overwriting existing child:" + children[childNum - 1].getGenCode() + " " + children[childNum - 1].getName().toFullName() +
@@ -59,7 +65,7 @@ public class Marriage {
      */
     @SuppressWarnings("unused")
     public Person getChild(int i) {
-        Child.verifyChildNumber(i);
+        ChildBuilder.verifyChildNumber(i);
         return children[i - 1];
     }
 
@@ -91,5 +97,17 @@ public class Marriage {
         }
     }
 
+    public String getChildrensSurName() {
+        if (spouse2 != null && spouse2.isMale()) {
+            return spouse2.getName().getSurName();
+        } else if (spouse1 != null && spouse1.isMale()) {
+            return spouse1.getName().getSurName();
+        } else { // only return if we know it
+            return null;
+        }
+    }
 
+    public void addChildFromUnRelatedMarriage(Person unRelatedChild) {
+        childrenFromUnRelatedMarriage.add(unRelatedChild);
+    }
 }

@@ -4,7 +4,6 @@ import com.swansong.familytree.biz.*;
 import com.swansong.familytree.csv.Files;
 import com.swansong.familytree.csv.ReadFile;
 import com.swansong.familytree.csv.Row;
-import com.swansong.familytree.model.Child;
 import com.swansong.familytree.model.Marriage;
 import com.swansong.familytree.model.Person;
 
@@ -52,7 +51,7 @@ public class FamilytreeApplication {
         Person mainPerson = PersonBuilder.buildMainPerson(row);
         Person spouse = SpouseBuilder.buildSpouse(row);
 
-        if (spouse != null || Child.buildChildrensNames(row).size() > 0) { // add a marriage if there are children
+        if (spouse != null || ChildBuilder.extractChildrensNames(row).size() > 0) { // add a marriage if there are children
             Marriage marriage = MarriageBuilder.buildMarriage(mainPerson, spouse, row);
             marriages.add(marriage);
         }
@@ -61,15 +60,13 @@ public class FamilytreeApplication {
 
     public static void waitForUser() {
         Scanner scanner = new Scanner(System.in);
-        while (true) {
-            System.out.println("Press Enter to continue or Q to quit.");
-            String input = scanner.nextLine();
-            if (input.equalsIgnoreCase("Q")) {
-                exit(0);
-            } else {
-                break;
-            }
+
+        System.out.println("Press Enter to continue or Q to quit.");
+        String input = scanner.nextLine();
+        if (input.equalsIgnoreCase("Q")) {
+            exit(0);
         }
+
     }
 
     private static List<String> getFilesToProcess(String[] args) {

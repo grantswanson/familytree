@@ -1,6 +1,6 @@
 package com.swansong.familytree.csv;
 
-import com.swansong.familytree.model.Child;
+import com.swansong.familytree.biz.ChildBuilder;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -73,7 +73,7 @@ public class Row {
     public List<String> getChildren() {
         List<String> names = new ArrayList<>();
 
-        for (int i = 1; i <= Child.MAX_CHILDREN; i++) {
+        for (int i = 1; i <= ChildBuilder.MAX_CHILDREN; i++) {
             String name = getChild(i);
             if (name != null && !name.isBlank()) {
                 names.add(name);
@@ -84,7 +84,7 @@ public class Row {
 
 
     public String getChild(int x) {
-        Child.verifyChildNumber(x);
+        ChildBuilder.verifyChildNumber(x);
 
         switch (x) {
             case 1 -> {
@@ -126,5 +126,9 @@ public class Row {
         }
         // will never happen because X verified above
         throw new RuntimeException("Unexpected Child #. Expected 1-12. Got:" + x);
+    }
+
+    public boolean hasChildrenNotes() {
+        return childrenNotes != null && !childrenNotes.isBlank();
     }
 }

@@ -1,5 +1,7 @@
 package com.swansong.familytree.model;
 
+import com.swansong.familytree.biz.ChildBuilder;
+
 public class GenCode {
     private static final String SPOUSES_MOTHER_CODE = "sm";
     private static final String SPOUSES_FATHER_CODE = "sf";
@@ -68,7 +70,7 @@ public class GenCode {
     }
 
     public static String buildChildsCode(String genCode, int childNumber) {
-        Child.verifyChildNumber(childNumber);
+        ChildBuilder.verifyChildNumber(childNumber);
         return appendLetter(genCode, childNumber);
     }
 
@@ -85,7 +87,7 @@ public class GenCode {
      */
     public static int getChildNumber(String genCode) {
         int i = getLastLetterValue(removeLastNumber(genCode));
-        Child.verifyChildNumber(i);
+        ChildBuilder.verifyChildNumber(i);
         return i;
     }
 

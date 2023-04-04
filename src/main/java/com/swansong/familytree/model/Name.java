@@ -28,7 +28,7 @@ public class Name {
     private Set<String> altNames = new LinkedHashSet<>();
     private Set<String> marriedNames = new LinkedHashSet<>();
 
-    private boolean hasSpecialNote;
+    private boolean asteriskPresent;
 
 
     public static Name parseFullName(String str) {
@@ -40,7 +40,7 @@ public class Name {
         name.altNames = extractAltNames(str);
         str = extractStringBeforeAlt(str);
 
-        name.hasSpecialNote = str.contains("*");
+        name.asteriskPresent = str.contains("*");
         str = str.replace("*", "");
 
         str = str.replace(".", "");
@@ -146,15 +146,6 @@ public class Name {
         s = removeALLTextBetween(s, "[", "]"); // remove marriedNames
         s = removeALLTextBetween(s, "(", ")"); // remove marriedNames
         return s;
-    }
-
-    public static Name extractChildrensName(String name) {
-        if (name != null && !name.replace("*", "").isBlank()) {
-            return Name.parseFullName(
-                    addCommaIfMissing(name.trim()));
-
-        }
-        return null;
     }
 
 

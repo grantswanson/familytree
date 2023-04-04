@@ -6,9 +6,14 @@ import com.swansong.familytree.model.Marriage;
 import com.swansong.familytree.model.Name;
 import com.swansong.familytree.model.Person;
 
+import java.util.ArrayList;
 import java.util.List;
 
+import static com.swansong.familytree.StringUtilities.addCommaIfMissing;
+
 public class ChildBuilder {
+    public static final int MAX_CHILDREN = 12;
+
     public static void buildChildren(List<Marriage> marriages) {
         // for each marriage
         for (Marriage marriage : marriages) {
@@ -17,76 +22,111 @@ public class ChildBuilder {
                 // don't add children (they are already there) just one person (the spouse)
                 continue;
             }
-            List<String> chidrensNames = row.getChildren();
+            List<Name> chidrensNames = extractChildrensNames(row);
             for (int i = 0; i < chidrensNames.size(); i++) {
-                buildChild(marriage, row, chidrensNames, i);
+                Name childsName = chidrensNames.get(i);
+                if (childsName != null) {
+                    buildChild(marriage, row, childsName, i);
+                }
             }
-
         }
-        // get the kids names
-        // for each kid
-        // build the gencode of the kid and look up person
-        // merge the name and person
     }
 
-    private static void buildChild(Marriage marriage, Row row, List<String> chidrensNames, int i) {
-        Name name = Name.extractChildrensName(chidrensNames.get(i));
+
+    private static void buildChild(Marriage marriage, Row row, Name childsName, int i) {
+        // build the genCode of the kid and look up person
+        // merge the name and person
         String expectedCode = GenCode.buildChildsCode(row.getGenCode(), i + 1);
         Person expectedPerson = PersonMap.getPersonByGenCode(expectedCode);
 
-        if (name == null && expectedPerson == null) {
-            return;
-        } else if (name == null) {
-            throw new RuntimeException("ln#" + row.getNumber() + " Child #" + i + " " + chidrensNames.get(i) + " is null. genCode:" +
-                    expectedCode + " not sure why. person" + expectedPerson);
-        } else if (expectedPerson == null) {
+        if (expectedPerson == null) {
             String altMarriageExpectedCode = GenCode.buildUnRelatedChildsCode(row.getGenCode(), i + 1);
             expectedPerson = PersonMap.getPersonByGenCode(altMarriageExpectedCode);
 
             if (expectedPerson != null) {
-                if (expectedPerson.hasMiscNotes()) {
-                    System.out.println("ln#" + row.getNumber() + " Child #" + i + " " + name.toFullName() +
-                            " FOUND under a different marriage." +
-                            " origGenCode:" + expectedCode +
-                            " altGenCode:" + altMarriageExpectedCode +
-                            " Found miscNotes:" + expectedPerson.getMiscNotes());
-                } else {
+                marriage.addChildFromUnRelatedMarriage(expectedPerson);
+
+                System.out.println("ln#" + row.getNumber() + " Child #" + i + " " + childsName.toFullName() +
+                        " FOUND under a different marriage." +
+                        "\n origGenCode:" + expectedCode +
+                        "\n altGenCode :" + altMarriageExpectedCode +
+                        (expectedPerson.hasMiscNotes() ? " miscNotes:" + expectedPerson.getMiscNotes() : ""));
+                if (!expectedPerson.hasMiscNotes()) {
                     //System.out.println
                     throw new RuntimeException
-                            ("ln#" + row.getNumber() + " Child #" + i + " " + name.toFullName() + " SUCCESS! FOUND under a different marriage. genCode:" +
-                                    altMarriageExpectedCode + " so we should Create that marriage and merge that person.");
+                            ("expected miscNotes!");
                 }
             }
         }
 
         if (expectedPerson == null) { // find by name
-            expectedPerson = PersonMap.getPersonByNameKey(name.toNameKey());
+            setChildsSurName(marriage, childsName);
+            expectedPerson = PersonMap.getPersonByNameKey(childsName.toNameKey());
             if (expectedPerson != null) {
-                System.out.println("ln#" + row.getNumber() + " Child #" + i + " " + name.toFullName() +
+                System.out.println("ln#" + row.getNumber() + " Child #" + i + " " + childsName.toFullName() +
                         " found BY NAME:" + expectedPerson);
-            } else {
-                System.out.println("ln#" + row.getNumber() + " Child #" + i + " " + name.toNameKey() +
-                        " NOT found BY NAME.");
             }
         }
 
         if (expectedPerson != null) {
-            boolean success = PersonMerger.merge(expectedPerson, name, row.getNumber(), " Child #" + i, true);
+            boolean success = PersonMerger.merge(expectedPerson, childsName, row.getNumber(), " Child #" + i, true);
             if (success) {
                 marriage.addChild(expectedPerson, i + 1);
             } else {
-                System.out.println(" Merge failed!!! Fix data.");
+                //System.out.println
+                throw new RuntimeException(" Merge failed!!! Fix data.");
             }
         } else {
-            if (name.isHasSpecialNote()) {
-                System.out.println("ln#" + row.getNumber() + " Child #" + i + " " + name.toFullName() + " NOT found under genCode:" +
-                        expectedCode + ". But note found. childrensNotes:" + row.getChildrenNotes());
-            } else {
-                System.out.println("ln#" + row.getNumber() + " Child #" + i + " " + name.toFullName() + " NOT found under genCode:" +
-                        expectedCode + " so we should build that person.");
+            System.out.println("ln#" + row.getNumber() + " Child #" + i + " " + childsName.toNameKey() +
+                    " NOT found by GenCode, AltGenCode, or Name. " +
+                    (childsName.isAsteriskPresent() ? "\n childsName has asterisk." : "") +
+                    (row.hasChildrenNotes() ? "\n " + row.getChildrenNotes() : "")
+            );
+            if (!childsName.isAsteriskPresent() && !row.hasChildrenNotes()) {
+                System.out.println
+                        //throw new RuntimeException
+                                ("expected notes or asterisk!!!!!\n\n");
             }
         }
     }
 
+    private static void setChildsSurName(Marriage marriage, Name childsName) {
+        String surName = marriage.getChildrensSurName();
+        //System.out.println("surName:"+surName);
+        if (surName != null && childsName.getSurName().isBlank()) {
+            childsName.setSurName(surName);
+        }
+    }
 
+    /**
+     * @param i Base 1. Not base 0
+     */
+    public static void verifyChildNumber(int i) {
+        if (i <= 0 || i > MAX_CHILDREN) {
+            throw new IllegalArgumentException("Invalid child#:" + i + " It must be >0 and <=" + MAX_CHILDREN);
+        }
+    }
+
+    public static List<Name> extractChildrensNames(Row row) {
+        List<Name> childrensNames = new ArrayList<>();
+        List<String> names = row.getChildren();
+
+        for (String nameStr : names) {
+            Name name = extractChildrensName(nameStr);
+            if (name != null) {
+                childrensNames.add(name);
+            }
+        }
+
+        return childrensNames;
+    }
+
+    public static Name extractChildrensName(String name) {
+        if (name != null && !name.replace("*", "").isBlank()) {
+            return Name.parseFullName(
+                    addCommaIfMissing(name.trim()));
+
+        }
+        return null;
+    }
 }

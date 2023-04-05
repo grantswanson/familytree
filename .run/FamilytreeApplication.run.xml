@@ -2,7 +2,7 @@
   <configuration default="false" name="FamilytreeApplication" type="Application" factoryName="Application">
     <option name="MAIN_CLASS_NAME" value="com.swansong.familytree.FamilytreeApplication" />
     <module name="familytree" />
-    <option name="PROGRAM_PARAMETERS" value="src/main/resources/working/SwansonFloyd.v0.csv"/>
+    <option name="PROGRAM_PARAMETERS" value="src/main/resources/working/FloydSwanson.v0.csv"/>
     <extension name="coverage">
       <pattern>
         <option name="PATTERN" value="com.swansong.familytree.*" />

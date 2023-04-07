@@ -23,10 +23,11 @@ public class GedcomWriter {
         } else {
             arg0 = args[0];
         }
-        GedcomWriter writer = new GedcomWriter(Paths.get(arg0));
 
         List<Individual> individuals = List.of(testIndividual1, testIndividual2, testIndividual3);
         List<Family> families = List.of(Family.testFamily);
+
+        GedcomWriter writer = new GedcomWriter(Paths.get(arg0));
         writer.writeGedcomFile(individuals, families);
 
     }

@@ -12,7 +12,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-class Family {
+public class Family {
     private int id;
     private Integer husbandId;
     private Integer wifeId;

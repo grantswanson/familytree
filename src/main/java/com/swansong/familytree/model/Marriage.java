@@ -54,8 +54,10 @@ public class Marriage {
         ChildBuilder.verifyChildNumber(childNum);
         if (children[childNum - 1] != null) {
             System.out.println(
-                    "overwriting existing child:" + children[childNum - 1].getGenCode() + " " + children[childNum - 1].getName().toFullName() +
-                            "\n            with new child:" + child.getGenCode() + " " + child.getName().toFullName());
+                    "overwriting existing child #:" + childNum + " " + children[childNum - 1].getGenCode() + " " + children[childNum - 1].getName().toFullName() +
+                            "\n               with new child:" + child.getGenCode() + " " + child.getName().toFullName() +
+                            "\n existing:" + children[childNum - 1] +
+                            "\n    new:" + child);
         }
         children[childNum - 1] = child;
     }

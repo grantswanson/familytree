@@ -4,7 +4,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.apache.commons.text.similarity.LevenshteinDistance;
 
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
@@ -206,16 +205,9 @@ public class Name {
             altName.firstNames = firstNames;
         }
 
-        Set<String> differentNames = differentNames(toFullName(), altName.toFullName());
+        Set<String> differentNames = differences(toFullName(), altName.toFullName());
         altNames.addAll(differentNames);
 
-    }
-
-    private static Set<String> differentNames(String fullName, String altFullName) {
-        Set<String> names1 = new HashSet<>(Arrays.asList(toNameCase(fullName).split("\\s+")));
-        Set<String> names2 = new HashSet<>(Arrays.asList(toNameCase(altFullName).split("\\s+")));
-        names2.removeAll(names1);
-        return names2;
     }
 
     private void mergeInFirstNameMiddleInitial(Name n1) {

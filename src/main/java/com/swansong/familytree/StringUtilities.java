@@ -1,5 +1,7 @@
 package com.swansong.familytree;
 
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
@@ -121,5 +123,12 @@ public class StringUtilities {
             return "";
         }
         return name.replace("*", "").trim();
+    }
+
+    public static Set<String> differences(String s1, String s2) {
+        Set<String> str1 = new HashSet<>(Arrays.asList(toNameCase(s1).split("\\s+")));
+        Set<String> str2 = new HashSet<>(Arrays.asList(toNameCase(s2).split("\\s+")));
+        str2.removeAll(str1);
+        return str2;
     }
 }

@@ -9,42 +9,61 @@ import com.swansong.familytree.csv.ReadFile;
 import com.swansong.familytree.csv.Row;
 import com.swansong.familytree.data.MarriageMap;
 import com.swansong.familytree.data.PersonMap;
+import com.swansong.familytree.gedcom.Family;
+import com.swansong.familytree.gedcom.GedcomWriter;
+import com.swansong.familytree.gedcom.Individual;
 
 import java.io.File;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+import static com.swansong.familytree.gedcom.Individual.*;
 import static java.lang.System.exit;
 
 
 //@SpringBootApplication
-public class FamilytreeApplication {
+public class FamilyTreeETLApplication {
     public static void main(String[] args) {
-
 //		SpringApplication.run(FamilytreeApplication.class, args);
-
 
         List<String> filesToProcess = getFilesToProcess(args);
 
-
-
-        for (String fileName : filesToProcess) {
-            System.out.println("\nProcessing file:" + fileName);
-
-            ArrayList<Row> csvData = new ReadFile().readFile(fileName);
-
-            PersonBuilder.buildMainPersonAndSpouse(csvData);
-            SpousesParentsBuilder.buildSpousesParentsMarriage(csvData);
-            ParentBuilder.buildParents(csvData);
-            ChildBuilder.buildChildren();
+        for (String inputFile : filesToProcess) {
+            processInputFile(inputFile);
+            translateData();
+            String outputFile = inputFile.replace(".csv", ".ged");
+            writeOutputFile(outputFile);
 
         }
         MarriageMap.printMarriages();
         PersonMap.printIndividualMap();
     }
 
-    public static void waitForUser() {
+
+    private static void processInputFile(String fileName) {
+        System.out.println("\nProcessing file:" + fileName);
+        ArrayList<Row> csvData = new ReadFile().readFile(fileName);
+
+        PersonBuilder.buildMainPersonAndSpouse(csvData);
+        SpousesParentsBuilder.buildSpousesParentsMarriage(csvData);
+        ParentBuilder.buildParents(csvData);
+        ChildBuilder.buildChildren();
+    }
+
+    private static void translateData() {
+    }
+
+    private static void writeOutputFile(String outputFile) {
+        List<Individual> individuals = List.of(testIndividual1, testIndividual2, testIndividual3);
+        List<Family> families = List.of(Family.testFamily);
+
+        GedcomWriter writer = new GedcomWriter(Paths.get(outputFile));
+        writer.writeGedcomFile(individuals, families);
+    }
+
+    private static void waitForUser() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Press Enter to continue or Q to quit.");

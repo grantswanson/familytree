@@ -40,13 +40,14 @@ public class ChildBuilder {
         // merge the name and person
         String expectedCode = GenCode.buildChildsCode(row.getGenCode(), i + 1);
         Person expectedPerson = PersonMap.getPersonByGenCode(expectedCode);
+        boolean foundUnrelatedChild = false;
 
         if (expectedPerson == null) {
             String altMarriageExpectedCode = GenCode.buildUnRelatedChildsCode(row.getGenCode(), i + 1);
             expectedPerson = PersonMap.getPersonByGenCode(altMarriageExpectedCode);
 
             if (expectedPerson != null) {
-                marriage.addChildFromUnRelatedMarriage(expectedPerson);
+                foundUnrelatedChild = true;
 
                 System.out.println("ln#" + row.getNumber() + " Child #" + i + " " + childsName.toFullName() +
                         " FOUND under a different marriage." +
@@ -73,10 +74,13 @@ public class ChildBuilder {
         if (expectedPerson != null) {
             boolean success = PersonMerger.merge(expectedPerson, childsName, row.getNumber(), " Child #" + i, true);
             if (success) {
-                expectedPerson.setFather(marriage.getHusband());
-                expectedPerson.setMother(marriage.getWife());
-
-                marriage.addChild(expectedPerson, i + 1);
+                if (foundUnrelatedChild) {
+                    marriage.addChildFromUnRelatedMarriage(expectedPerson);
+                } else {
+                    expectedPerson.setFather(marriage.getHusband());
+                    expectedPerson.setMother(marriage.getWife());
+                    marriage.addChild(expectedPerson, i + 1);
+                }
 
             } else {
                 //System.out.println

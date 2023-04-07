@@ -51,12 +51,18 @@ public class ParentBuilder {
                 }
             }
 
-            Marriage marriage; // find marriage
-            //if (marriage == null ) { // add a marriage if it does not exist already
-
             if (createMarriage) {
-                marriage = MarriageBuilder.buildMarriage(father, mother, row);
+                Marriage marriage = MarriageBuilder.buildMarriage(father, mother, row);
                 MarriageMap.addMarriage(marriage);
+
+                // if unrelated child, then add child to marriage (they won't get added to the marriage later)
+                if (GenCode.isUnrelated(row.getGenCode())) {
+                    Person mainPerson = PersonMap.getPersonByGenCode(row.getGenCode());
+                    marriage.addChild(mainPerson);
+                    mainPerson.setFather(father);
+                    mainPerson.setMother(mother);
+                }
+
             }
 
         }
@@ -92,9 +98,6 @@ public class ParentBuilder {
         }
         return null;
     }
-
-
-
 
 
 }

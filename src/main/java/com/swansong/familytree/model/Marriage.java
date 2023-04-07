@@ -88,6 +88,14 @@ public class Marriage {
         children[childNum - 1] = child;
     }
 
+    public void addChild(Person child) {
+        int childIdx = 0;
+        while (children[childIdx] != null) {
+            childIdx++;
+        }
+        addChild(child, childIdx + 1);
+    }
+
     /**
      * @param i Base 1. Not base 0
      */

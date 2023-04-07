@@ -1,17 +1,18 @@
 package com.swansong.familytree.biz;
 
 import com.swansong.familytree.csv.Row;
+import com.swansong.familytree.data.MarriageMap;
+import com.swansong.familytree.data.PersonMap;
 import com.swansong.familytree.model.GenCode;
 import com.swansong.familytree.model.Marriage;
 import com.swansong.familytree.model.Name;
 import com.swansong.familytree.model.Person;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class ParentBuilder {
 
-    public static void buildParents(ArrayList<Row> csvData, List<Marriage> marriages) {
+    public static void buildParents(ArrayList<Row> csvData) {
         for (Row row : csvData) {
             boolean createMarriage = false;
 
@@ -55,7 +56,7 @@ public class ParentBuilder {
 
             if (createMarriage) {
                 marriage = MarriageBuilder.buildMarriage(father, mother, row);
-                marriages.add(marriage);
+                MarriageMap.addMarriage(marriage);
             }
 
         }

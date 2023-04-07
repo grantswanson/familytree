@@ -1,15 +1,17 @@
 package com.swansong.familytree;
 
-import com.swansong.familytree.biz.*;
+import com.swansong.familytree.biz.ChildBuilder;
+import com.swansong.familytree.biz.ParentBuilder;
+import com.swansong.familytree.biz.PersonBuilder;
+import com.swansong.familytree.biz.SpousesParentsBuilder;
 import com.swansong.familytree.csv.Files;
 import com.swansong.familytree.csv.ReadFile;
 import com.swansong.familytree.csv.Row;
-import com.swansong.familytree.model.Marriage;
-import com.swansong.familytree.model.Person;
+import com.swansong.familytree.data.MarriageMap;
+import com.swansong.familytree.data.PersonMap;
 
 import java.io.File;
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -18,7 +20,6 @@ import static java.lang.System.exit;
 
 //@SpringBootApplication
 public class FamilytreeApplication {
-
     public static void main(String[] args) {
 
 //		SpringApplication.run(FamilytreeApplication.class, args);
@@ -26,36 +27,21 @@ public class FamilytreeApplication {
 
         List<String> filesToProcess = getFilesToProcess(args);
 
-        List<Marriage> marriages = new LinkedList<>();
+
 
         for (String fileName : filesToProcess) {
             System.out.println("\nProcessing file:" + fileName);
 
             ArrayList<Row> csvData = new ReadFile().readFile(fileName);
 
-            // build all the primary people
-            for (Row row : csvData) {
-                processRow(marriages, row);
-            }
-            SpousesParentsBuilder.buildSpousesParentsMarriage(marriages, csvData);
-            ParentBuilder.buildParents(csvData, marriages);
-
-            ChildBuilder.buildChildren(marriages);
+            PersonBuilder.buildMainPersonAndSpouse(csvData);
+            SpousesParentsBuilder.buildSpousesParentsMarriage(csvData);
+            ParentBuilder.buildParents(csvData);
+            ChildBuilder.buildChildren();
 
         }
-        printMarriages(marriages);
+        MarriageMap.printMarriages();
         PersonMap.printIndividualMap();
-    }
-
-    private static void processRow(List<Marriage> marriages, Row row) {
-        Person mainPerson = PersonBuilder.buildMainPerson(row);
-        Person spouse = SpouseBuilder.buildSpouse(row);
-
-        if (spouse != null || ChildBuilder.extractChildrensNames(row).size() > 0) { // add a marriage if there are children
-            Marriage marriage = MarriageBuilder.buildMarriage(mainPerson, spouse, row);
-            marriages.add(marriage);
-        }
-
     }
 
     public static void waitForUser() {
@@ -90,28 +76,6 @@ public class FamilytreeApplication {
             throw new RuntimeException("File not found:" + arg0);
         }
         return filesToProcess;
-    }
-
-
-    private static void printMarriages(List<Marriage> marriages) {
-        System.out.println("\nMarriages...");
-        // build the marriages
-        for (Marriage marriage : marriages) {
-            String str = String.format("#%-2d %-5s ",
-                    marriage.getSourceRow().getNumber(), marriage.getId());
-            Person person = marriage.getHusband();
-            if (person != null) {
-                str += " " + person.toShortString();
-            }
-
-            person = marriage.getWife();
-            if (person != null) {
-                str += " " + person.toShortString();
-            }
-
-            str += marriage.childrenToString();
-            System.out.println(str);
-        }
     }
 
 

@@ -1,9 +1,14 @@
 package com.swansong.familytree.biz;
 
 import com.swansong.familytree.csv.Row;
+import com.swansong.familytree.data.MarriageMap;
+import com.swansong.familytree.data.PersonMap;
 import com.swansong.familytree.model.GenCode;
+import com.swansong.familytree.model.Marriage;
 import com.swansong.familytree.model.Name;
 import com.swansong.familytree.model.Person;
+
+import java.util.ArrayList;
 
 
 public class PersonBuilder {
@@ -59,5 +64,18 @@ public class PersonBuilder {
     }
 
 
+    public static void buildMainPersonAndSpouse(ArrayList<Row> csvData) {
+        // build all the primary people
+        for (Row row : csvData) {
+            Person mainPerson = buildMainPerson(row);
+            Person spouse = SpouseBuilder.buildSpouse(row);
+
+            if (spouse != null || ChildBuilder.extractChildrensNames(row).size() > 0) { // add a marriage if there are children
+                Marriage marriage = MarriageBuilder.buildMarriage(mainPerson, spouse, row);
+                MarriageMap.addMarriage(marriage);
+            }
+
+        }
+    }
 }
 

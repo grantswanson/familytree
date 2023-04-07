@@ -1,6 +1,7 @@
 package com.swansong.familytree.model;
 
 import com.swansong.familytree.csv.Row;
+import com.swansong.familytree.data.MarriageMap;
 import lombok.Data;
 import lombok.ToString;
 
@@ -126,7 +127,7 @@ public class Person {
     }
 
     public void addMarriage(Marriage marriage) {
-        marriages.add(marriage);
+        MarriageMap.addMarriage(marriage);
     }
 
 

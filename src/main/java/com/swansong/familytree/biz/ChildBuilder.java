@@ -1,6 +1,8 @@
 package com.swansong.familytree.biz;
 
 import com.swansong.familytree.csv.Row;
+import com.swansong.familytree.data.MarriageMap;
+import com.swansong.familytree.data.PersonMap;
 import com.swansong.familytree.model.GenCode;
 import com.swansong.familytree.model.Marriage;
 import com.swansong.familytree.model.Name;
@@ -14,9 +16,9 @@ import static com.swansong.familytree.StringUtilities.addCommaIfMissing;
 public class ChildBuilder {
     public static final int MAX_CHILDREN = 12;
 
-    public static void buildChildren(List<Marriage> marriages) {
+    public static void buildChildren() {
         // for each marriage
-        for (Marriage marriage : marriages) {
+        for (Marriage marriage : MarriageMap.getMarriagesList()) {
             Row row = marriage.getSourceRow();
             if (marriage.isSpousesParents()) {
                 // don't add children (they are already there) just one person (the spouse)

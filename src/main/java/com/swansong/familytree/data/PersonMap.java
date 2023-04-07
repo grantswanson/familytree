@@ -1,4 +1,4 @@
-package com.swansong.familytree.biz;
+package com.swansong.familytree.data;
 
 import com.swansong.familytree.model.Name;
 import com.swansong.familytree.model.NameKey;

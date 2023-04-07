@@ -1,13 +1,14 @@
 package com.swansong.familytree.biz;
 
 import com.swansong.familytree.csv.Row;
+import com.swansong.familytree.data.MarriageMap;
+import com.swansong.familytree.data.PersonMap;
 import com.swansong.familytree.model.GenCode;
 import com.swansong.familytree.model.Marriage;
 import com.swansong.familytree.model.Name;
 import com.swansong.familytree.model.Person;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class SpousesParentsBuilder {
     public static Marriage buildSpousesParentsMarriage(Row row, Person spouse) {
@@ -81,14 +82,14 @@ public class SpousesParentsBuilder {
         return person;
     }
 
-    public static void buildSpousesParentsMarriage(List<Marriage> marriages, ArrayList<Row> csvData) {
+    public static void buildSpousesParentsMarriage(ArrayList<Row> csvData) {
         for (Row row : csvData) {
 
             Person spouse = SpouseBuilder.lookupSpouse(row);
 
             Marriage spousesParentsMarriage = buildSpousesParentsMarriage(row, spouse);
             if (spousesParentsMarriage != null) {
-                marriages.add(spousesParentsMarriage);
+                MarriageMap.addMarriage(spousesParentsMarriage);
             }
         }
     }

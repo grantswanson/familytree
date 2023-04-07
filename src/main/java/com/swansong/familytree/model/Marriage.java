@@ -147,19 +147,21 @@ public class Marriage {
         childrenFromUnRelatedMarriage.add(unRelatedChild);
     }
 
+
+    @SuppressWarnings("unused")
     public String toFormattedString2() {
         String str = "";
         Person person = getHusband();
         if (person != null) {
-            str += person.getName().toFullName();
+            str += "\"" + person.getName().toFullName() + "\"";
         }
 
         person = getWife();
         if (person != null) {
-            str += " " + person.getName().toFullName();
+            str += ", \"" + person.getName().toFullName() + "\"";
         }
-        str += String.format(" #%-2d M%2s ",
-                getSourceRow().getNumber(), getId());
+        //str += String.format(" #%-2d M%2s ",
+        //        getSourceRow().getNumber(), getId());
         //str += childrenToString();
         return str;
     }

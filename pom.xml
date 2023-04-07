@@ -27,32 +27,37 @@
         <!--		</dependency>-->
 
         <!--		<dependency>-->
-        <!--			<groupId>com.h2database</groupId>-->
-        <!--			<artifactId>h2</artifactId>-->
-        <!--			<scope>runtime</scope>-->
-        <!--		</dependency>-->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
+		<!--			<groupId>com.h2database</groupId>-->
+		<!--			<artifactId>h2</artifactId>-->
+		<!--			<scope>runtime</scope>-->
+		<!--		</dependency>-->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
 			<!-- used to check if names are similar using org.apache.commons.text.similarity.LevenshteinDistance (name1, name2);-->
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-text</artifactId>
 			<version>1.10.0</version>
 		</dependency>
-        <!--		<dependency>-->
-        <!--			<groupId>io.projectreactor</groupId>-->
-        <!--			<artifactId>reactor-test</artifactId>-->
-        <!--			<scope>test</scope>-->
-        <!--		</dependency>-->
-    </dependencies>
+		<dependency> <!-- only needed for couplesSorter, but we could switch to it if we wanted -->
+			<groupId>com.opencsv</groupId>
+			<artifactId>opencsv</artifactId>
+			<version>5.5.2</version>
+		</dependency>
+		<!--		<dependency>-->
+		<!--			<groupId>io.projectreactor</groupId>-->
+		<!--			<artifactId>reactor-test</artifactId>-->
+		<!--			<scope>test</scope>-->
+		<!--		</dependency>-->
+	</dependencies>
 
 	<build>
 		<plugins>

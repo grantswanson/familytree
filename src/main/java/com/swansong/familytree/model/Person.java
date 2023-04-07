@@ -155,7 +155,7 @@ public class Person {
                 name.toFullName());
     }
 
-    public String toFormatedString() {
+    public String toFormattedString() {
         String str = String.format("#%-2d %-7s %1s %-30.30s",
                 getSourceRow().getNumber(),
                 getGenCode(),
@@ -169,7 +169,8 @@ public class Person {
         return str;
     }
 
-    public String toFormatedString2() {
+    @SuppressWarnings("unused")
+    public String toFormattedString2() {
         String str = String.format("%-30s #%-2d %-7s",
                 getName().toFullName(),
                 getSourceRow().getNumber(),

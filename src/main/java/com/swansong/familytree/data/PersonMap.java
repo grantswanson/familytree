@@ -58,21 +58,21 @@ public class PersonMap {
     }
 
     public static void printIndividualMap() {
-//        Comparator<Map.Entry<String, Person>> valueComparator = Comparator
-//                .comparing((Map.Entry<String, Person> e) -> e.getValue().getSourceRow().getNumber())
-//                .thenComparing(e -> e.getValue().getGenCode());
-
         Comparator<Map.Entry<String, Person>> valueComparator = Comparator
-                .comparing((Map.Entry<String, Person> e) -> e.getValue().getName().toFullName());
+                .comparing((Map.Entry<String, Person> e) -> e.getValue().getSourceRow().getNumber())
+                .thenComparing(e -> e.getValue().getGenCode());
+
+//        Comparator<Map.Entry<String, Person>> valueComparator = Comparator
+//                .comparing((Map.Entry<String, Person> e) -> e.getValue().getName().toFullName());
         Map<String, Person> sortedPersonMap = individualMapByGenCode.entrySet()
                 .stream()
                 .sorted(valueComparator)
                 .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e1, LinkedHashMap::new));
 
-        System.out.println("\n People:");
+        System.out.println("\nPeople...");
         for (Map.Entry<String, Person> entry : sortedPersonMap.entrySet()) {
             Person person = entry.getValue();
-            System.out.println(person.toFormatedString2());
+            System.out.println(person.toFormattedString());
         }
 
         System.out.println("Total Count=" + (individualMapByGenCode.size()));

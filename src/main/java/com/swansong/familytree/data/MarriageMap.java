@@ -25,21 +25,27 @@ public class MarriageMap {
     }
 
     public static Collection<Marriage> getMarriagesCollection() {
-        Comparator<Marriage> valueComparator = Comparator
-                .comparing((Marriage e) -> e.getHusband().getName().toFullName());
-        return marriages.values().stream().sorted(valueComparator).collect(Collectors.toList());
-        //return marriages.values().stream().sorted(Comparator.comparingInt(Marriage::getId)).collect(Collectors.toList());
+//        Comparator<Marriage> valueComparator = Comparator
+//                .comparing((Marriage e) -> e.getHusband().getName().toFullName());
+//        return marriages.values().stream().sorted(valueComparator).collect(Collectors.toList());
+        return marriages.values().stream().sorted(Comparator.comparingInt(Marriage::getId)).collect(Collectors.toList());
     }
 
     public static void printMarriages() {
         System.out.println("\nMarriages...");
+        Collection<Marriage> marriages = getMarriagesCollection();
         // build the marriages
-        for (Marriage marriage : getMarriagesCollection()) {
+        for (Marriage marriage : marriages) {
 
-            String str = marriage.toFormattedString2();
+            String str = marriage.toFormattedString();
 
             System.out.println(str);
         }
+        System.out.println("Marriage Count:" + marriages.size());
+
     }
 
+    public static int count() {
+        return marriages.size();
+    }
 }

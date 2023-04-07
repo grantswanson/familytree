@@ -1,4 +1,4 @@
-package com.swansong.familytree;
+package com.swansong.familytree.nontest;
 
 import java.io.File;
 

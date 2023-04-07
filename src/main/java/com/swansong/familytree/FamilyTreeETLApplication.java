@@ -38,16 +38,22 @@ public class FamilyTreeETLApplication {
 
             MarriageMap.printMarriages();
             PersonMap.printIndividualMap();
-            verifyCounts();
+            verifyCounts(inputFile);
         }
 
 
     }
 
-    private static void verifyCounts() {
+    private static void verifyCounts(String inputFile) {
         int count = PersonMap.count();
-        if (count != 129) {
-            throw new RuntimeException("individual map size is not 129 for SwansonFloyd.csv. size:" + count);
+        int expectedCount = 129;
+        if (count != expectedCount && inputFile.endsWith("SwansonFloyd.csv")) {
+            throw new RuntimeException("individual map size is not " + expectedCount + " for SwansonFloyd.csv. size:" + count);
+        }
+        count = MarriageMap.count();
+        expectedCount = 45;
+        if (count != expectedCount && inputFile.endsWith("SwansonFloyd.csv")) {
+            throw new RuntimeException("Marriage map size is not " + expectedCount + " for SwansonFloyd.csv. size:" + count);
         }
     }
 

@@ -5,17 +5,17 @@
         <option name="PROGRAM_PARAMETERS" value="src/main/resources/working/SwansonFloyd.csv"/>
         <extension name="coverage">
             <pattern>
-                <option name="PATTERN" value="com.swansong.familytree.*"/>
+                <option name="PATTERN" value="com.swansong.familytree.nontest.*"/>
                 <option name="ENABLED" value="true"/>
             </pattern>
         </extension>
         <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
             <option name="credential"/>
-      <option name="region" />
-      <option name="useCurrentConnection" value="false" />
-    </extension>
-    <method v="2">
-      <option name="Make" enabled="true" />
-    </method>
-  </configuration>
+            <option name="region"/>
+            <option name="useCurrentConnection" value="false"/>
+        </extension>
+        <method v="2">
+            <option name="Make" enabled="true"/>
+        </method>
+    </configuration>
 </component>

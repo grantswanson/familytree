@@ -169,6 +169,20 @@ public class Person {
         return str;
     }
 
+    public String toFormatedString2() {
+        String str = String.format("%-30s #%-2d %-7s",
+                getName().toFullName(),
+                getSourceRow().getNumber(),
+                getGenCode()
+
+        );
+
+//        str += String.format("%-35s", spousesToString());
+//        str += parentsToString();
+
+        return str;
+    }
+
 
 }
 

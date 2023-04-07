@@ -25,8 +25,10 @@ public class MarriageMap {
     }
 
     public static Collection<Marriage> getMarriagesCollection() {
-
-        return marriages.values().stream().sorted(Comparator.comparingInt(Marriage::getId)).collect(Collectors.toList());
+        Comparator<Marriage> valueComparator = Comparator
+                .comparing((Marriage e) -> e.getHusband().getName().toFullName());
+        return marriages.values().stream().sorted(valueComparator).collect(Collectors.toList());
+        //return marriages.values().stream().sorted(Comparator.comparingInt(Marriage::getId)).collect(Collectors.toList());
     }
 
     public static void printMarriages() {
@@ -34,7 +36,7 @@ public class MarriageMap {
         // build the marriages
         for (Marriage marriage : getMarriagesCollection()) {
 
-            String str = marriage.toFormattedString();
+            String str = marriage.toFormattedString2();
 
             System.out.println(str);
         }

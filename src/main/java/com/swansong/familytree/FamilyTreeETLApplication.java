@@ -36,11 +36,20 @@ public class FamilyTreeETLApplication {
             String outputFile = inputFile.replace(".csv", ".ged");
             writeOutputFile(outputFile);
 
+            MarriageMap.printMarriages();
+            PersonMap.printIndividualMap();
+            verifyCounts();
         }
-        MarriageMap.printMarriages();
-        PersonMap.printIndividualMap();
+
+
     }
 
+    private static void verifyCounts() {
+        int count = PersonMap.count();
+        if (count != 129) {
+            throw new RuntimeException("individual map size is not 129 for SwansonFloyd.csv. size:" + count);
+        }
+    }
 
     private static void processInputFile(String fileName) {
         System.out.println("\nProcessing file:" + fileName);

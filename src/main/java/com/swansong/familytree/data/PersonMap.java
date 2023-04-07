@@ -58,9 +58,12 @@ public class PersonMap {
     }
 
     public static void printIndividualMap() {
+//        Comparator<Map.Entry<String, Person>> valueComparator = Comparator
+//                .comparing((Map.Entry<String, Person> e) -> e.getValue().getSourceRow().getNumber())
+//                .thenComparing(e -> e.getValue().getGenCode());
+
         Comparator<Map.Entry<String, Person>> valueComparator = Comparator
-                .comparing((Map.Entry<String, Person> e) -> e.getValue().getSourceRow().getNumber())
-                .thenComparing(e -> e.getValue().getGenCode());
+                .comparing((Map.Entry<String, Person> e) -> e.getValue().getName().toFullName());
         Map<String, Person> sortedPersonMap = individualMapByGenCode.entrySet()
                 .stream()
                 .sorted(valueComparator)
@@ -69,10 +72,20 @@ public class PersonMap {
         System.out.println("\n People:");
         for (Map.Entry<String, Person> entry : sortedPersonMap.entrySet()) {
             Person person = entry.getValue();
-            System.out.println(person.toFormatedString());
+            System.out.println(person.toFormatedString2());
         }
 
         System.out.println("Total Count=" + (individualMapByGenCode.size()));
+
+    }
+
+    public static int count() {
+        if (individualMapByGenCode.size() != individualMapByName.size()) {
+            throw new RuntimeException("individual map sizes don't match. byGenCode:" + individualMapByGenCode.size() +
+                    " byName:" + individualMapByName.size());
+        }
+        return individualMapByGenCode.size();
+
     }
 
 }

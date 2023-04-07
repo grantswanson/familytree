@@ -1,5 +1,6 @@
 package com.swansong.familytree.model;
 
+import com.swansong.familytree.StringUtilities;
 import com.swansong.familytree.biz.ChildBuilder;
 import com.swansong.familytree.csv.Row;
 import lombok.Data;
@@ -52,12 +53,15 @@ public class Marriage {
      */
     public void addChild(Person child, int childNum) {
         ChildBuilder.verifyChildNumber(childNum);
-        if (children[childNum - 1] != null) {
+        Person existingChild = children[childNum - 1];
+        if (existingChild != null &&
+                StringUtilities.diff(existingChild.toString(), child.toString()).size() > 0) {
             System.out.println(
-                    "overwriting existing child #:" + childNum + " " + children[childNum - 1].getGenCode() + " " + children[childNum - 1].getName().toFullName() +
+                    "overwriting existing child #:" + childNum + " " + existingChild.getGenCode() + " " + existingChild.getName().toFullName() +
                             "\n               with new child:" + child.getGenCode() + " " + child.getName().toFullName() +
-                            "\n existing:" + children[childNum - 1] +
-                            "\n    new:" + child);
+                            "\n existing:" + existingChild +
+                            "\n      new:" + child +
+                            "\n differences:" + StringUtilities.diff(existingChild.toString(), child.toString()));
         }
         children[childNum - 1] = child;
     }

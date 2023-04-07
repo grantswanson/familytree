@@ -125,7 +125,7 @@ public class StringUtilities {
         return name.replace("*", "").trim();
     }
 
-    public static Set<String> differences(String s1, String s2) {
+    public static Set<String> diff(String s1, String s2) {
         Set<String> str1 = new HashSet<>(Arrays.asList(toNameCase(s1).split("\\s+")));
         Set<String> str2 = new HashSet<>(Arrays.asList(toNameCase(s2).split("\\s+")));
         str2.removeAll(str1);

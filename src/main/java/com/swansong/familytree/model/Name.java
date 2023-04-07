@@ -205,7 +205,7 @@ public class Name {
             altName.firstNames = firstNames;
         }
 
-        Set<String> differentNames = differences(toFullName(), altName.toFullName());
+        Set<String> differentNames = diff(toFullName(), altName.toFullName());
         altNames.addAll(differentNames);
 
     }

@@ -26,26 +26,48 @@ public class Marriage {
 
     @ToString.Exclude
     private Person[] children = new Person[ChildBuilder.MAX_CHILDREN];
+
+    private List<Person> getChildrenList() {
+        List<Person> c = new ArrayList<>();
+        for (Person child : children) {
+            if (child != null) {
+                c.add(child);
+            }
+        }
+        return c;
+    }
+
+    @ToString.Exclude
     private List<Person> childrenFromUnRelatedMarriage = new ArrayList<>();
 
     @ToString.Exclude
     private Row sourceRow;
 
+
     @ToString.Include
     public String childrenToString() {
         StringBuilder strBuilder = new StringBuilder();
-        for (Person child : children) {
-            if (child == null) {
-                continue;
-            }
-            strBuilder.append(String.format("#%d %s %s", child.getSourceRow().getNumber(), child.getGenCode(),
-                    child.getName().getFirstNames() + ", "));
 
+        for (Person child : getChildrenList()) {
+            strBuilder.append(formattedChildString(child));
         }
         if (strBuilder.length() != 0) {
             strBuilder.insert(0, "  Kids:");
         }
-        return strBuilder.toString();
+        String kids = strBuilder.toString();
+        strBuilder = new StringBuilder();
+        for (Person child : getChildrenFromUnRelatedMarriage()) {
+            strBuilder.append(formattedChildString(child));
+        }
+        if (strBuilder.length() != 0) {
+            strBuilder.insert(0, "  Unrelated Kids:");
+        }
+        return kids + strBuilder;
+    }
+
+    private static String formattedChildString(Person child) {
+        return String.format("#%d %s %s", child.getSourceRow().getNumber(), child.getGenCode(),
+                child.getName().getFirstNames() + ", ");
     }
 
     /**
@@ -116,4 +138,21 @@ public class Marriage {
     public void addChildFromUnRelatedMarriage(Person unRelatedChild) {
         childrenFromUnRelatedMarriage.add(unRelatedChild);
     }
+
+    public String toFormattedString() {
+        String str = String.format("#%-2d %-5s ",
+                getSourceRow().getNumber(), getId());
+        Person person = getHusband();
+        if (person != null) {
+            str += " " + person.toShortString();
+        }
+
+        person = getWife();
+        if (person != null) {
+            str += " " + person.toShortString();
+        }
+        str += childrenToString();
+        return str;
+    }
+
 }

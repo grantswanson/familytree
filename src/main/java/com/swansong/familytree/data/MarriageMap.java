@@ -1,7 +1,6 @@
 package com.swansong.familytree.data;
 
 import com.swansong.familytree.model.Marriage;
-import com.swansong.familytree.model.Person;
 import lombok.Data;
 
 import java.util.LinkedList;
@@ -23,20 +22,11 @@ public class MarriageMap {
         System.out.println("\nMarriages...");
         // build the marriages
         for (Marriage marriage : marriages) {
-            String str = String.format("#%-2d %-5s ",
-                    marriage.getSourceRow().getNumber(), marriage.getId());
-            Person person = marriage.getHusband();
-            if (person != null) {
-                str += " " + person.toShortString();
-            }
 
-            person = marriage.getWife();
-            if (person != null) {
-                str += " " + person.toShortString();
-            }
+            String str = marriage.toFormattedString();
 
-            str += marriage.childrenToString();
             System.out.println(str);
         }
     }
+
 }

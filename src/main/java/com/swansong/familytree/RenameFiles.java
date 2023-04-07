@@ -11,7 +11,7 @@ public class RenameFiles {
         if (files != null) {
             for (File file : files) {
                 String oldName = file.getName();
-                String newName = oldName.replace(".csv", ".v0.csv");
+                String newName = oldName.replace(".v0.csv", ".csv");
 
                 if (!oldName.equals(newName)) {
                     File newFile = new File(directoryPath + "/" + newName);

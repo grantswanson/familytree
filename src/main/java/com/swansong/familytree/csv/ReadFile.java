@@ -98,13 +98,13 @@ public class ReadFile {
                     .child11(values[44])
                     .child12(values[45])
                     .childrenNotes(values[46])
-                    .notes1(values[47])
-                    .notes2(values[48])
-                    .notes3(values[49])
-                    .notes4(values[50])
-                    .notes5(values[51])
-                    .notes6(values[52])
-                    .notes7(values[53])
+                    .note1(values[47])
+                    .note2(values[48])
+                    .note3(values[49])
+                    .note4(values[50])
+                    .note5(values[51])
+                    .note6(values[52])
+                    .note7(values[53])
                     .build();
         }
     }

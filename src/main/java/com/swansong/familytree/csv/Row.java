@@ -62,13 +62,13 @@ public class Row {
     private String child11;
     private String child12;
     private String childrenNotes;
-    private String notes1;
-    private String notes2;
-    private String notes3;
-    private String notes4;
-    private String notes5;
-    private String notes6;
-    private String notes7;
+    private String note1;
+    private String note2;
+    private String note3;
+    private String note4;
+    private String note5;
+    private String note6;
+    private String note7;
 
     public List<String> getChildren() {
         List<String> names = new ArrayList<>();
@@ -130,5 +130,33 @@ public class Row {
 
     public boolean hasChildrenNotes() {
         return childrenNotes != null && !childrenNotes.isBlank();
+    }
+
+    public String getNote(int i) {
+        switch (i) {
+            case 1 -> {
+                return note1;
+            }
+            case 2 -> {
+                return note2;
+            }
+            case 3 -> {
+                return note3;
+            }
+            case 4 -> {
+                return note4;
+            }
+            case 5 -> {
+                return note5;
+            }
+            case 6 -> {
+                return note6;
+            }
+            case 7 -> {
+                return note7;
+            }
+            default -> throw new RuntimeException("Unexpected note #. Expected 1-7. Got:" + i);
+            
+        }
     }
 }

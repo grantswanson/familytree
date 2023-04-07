@@ -33,31 +33,36 @@ public class Person {
     private String confirmationDate = "";
     private String confirmationPlace = "";
     private String deathDate = "";
-    private String deathPlace = "";
-    private String burialDate = "";
     private String burialPlace = "";
+    private String occupation = "";
+    private List<String> notes = new ArrayList<>();
+
+    private String childrenNotes = "";
+    private String debug = "";
+
+    private String source = defaultSource;
+    private Row sourceRow;
 
     @ToString.Exclude
     private Map<String, Person> spouses = new HashMap<>();
 
     @ToString.Exclude
     List<Marriage> marriages = new ArrayList<>();
-    private String debug = "";
 
-    private String childrenNotes = "";
-
-    private Row sourceRow;
-
-
-    public boolean hasMiscNotes() {
+    public boolean hasChildRelatedNotes() {
         return (childrenNotes != null && !childrenNotes.equals("")) ||
                 name.isAsteriskPresent() || GenCode.isUnrelated(genCode);
     }
 
-    public String getMiscNotes() {
+    public String getChildRelatedNotes() {
         return (childrenNotes == null ? "" : childrenNotes) +
                 (name.isAsteriskPresent() ? " hasAsterisk" : "") +
                 (GenCode.isUnrelated(genCode) ? " isUnrelated:" + genCode : "");
+    }
+
+
+    public void addNote(String note) {
+        notes.add(note);
     }
 
     public void addSpouse(Person spouse) {
@@ -97,6 +102,7 @@ public class Person {
         }
     }
 
+
     public void setGenderToMale(boolean isMale) {
         if (isMale) {
             gender = MALE;
@@ -131,13 +137,6 @@ public class Person {
     }
 
 
-    //private String source;
-    private String birthSource = defaultSource;
-    private String baptismSource = defaultSource;
-    private String deathSource = defaultSource;
-    private String burialSource = defaultSource;
-    private String occupationSource = defaultSource;
-
     public String parentsToString() {
         String str = "";
         if (father != null) {
@@ -150,10 +149,9 @@ public class Person {
         return str;
     }
 
-
     public String toShortString() {
         return String.format("#%d %-5s%s %-1s %-30.30s",
-                sourceRow.getNumber(), genCode, (hasMiscNotes() ? "*" : ""), gender,
+                sourceRow.getNumber(), genCode, (hasChildRelatedNotes() ? "*" : ""), gender,
                 name.toFullName());
     }
 
@@ -170,18 +168,6 @@ public class Person {
 
         return str;
     }
-//    private String occupationdate;
-//    private String occupationplace;
-//    private String occupationplace_id;
-//
-//    private String occupationdescr;
-//    private String residencedate;
-//    private String residenceplace;
-//    private String residenceplace_id;
-//    private String residencesource;
-//    private String attributetype;
-//    private String attributevalue;
-//    private String attributesource;
 
 
 }

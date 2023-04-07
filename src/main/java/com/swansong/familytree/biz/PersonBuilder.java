@@ -12,6 +12,8 @@ import java.util.ArrayList;
 
 
 public class PersonBuilder {
+    private static final int NUM_OF_NOTES = 7; // 1-7
+
     public static Person lookupMainPerson(Row row) {
         return PersonMap.getPersonByGenCodeOrRawName(
                 GenCode.buildSelfCode(row.getGenCode()),
@@ -35,7 +37,7 @@ public class PersonBuilder {
     private static Person buildMainPersonDetails(Row row) {
         String name = row.getName();
         if (name == null || name.isBlank())
-            return null;
+            throw new RuntimeException("Unexpected data. Main person is null");
 
         Person person = buildBasicPerson(name);
         person.setSourceRow(row);
@@ -49,8 +51,14 @@ public class PersonBuilder {
         person.setConfirmationPlace(row.getConfirmationPlace());
         person.setDeathDate(row.getDeathDate());
         person.setBurialPlace(row.getBurialPlace());
-
+        person.setOccupation(row.getOccupation());
         person.setChildrenNotes(row.getChildrenNotes());
+        for (int i = 1; i < NUM_OF_NOTES; i++) {
+            if (row.getNote(i) != null && !row.getNote(i).isBlank()) {
+                person.addNote(row.getNote(i));
+            }
+
+        }
         return person;
     }
 

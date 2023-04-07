@@ -53,8 +53,8 @@ public class ChildBuilder {
                         " FOUND under a different marriage." +
                         "\n origGenCode:" + expectedCode +
                         "\n altGenCode :" + altMarriageExpectedCode +
-                        (expectedPerson.hasMiscNotes() ? " miscNotes:" + expectedPerson.getMiscNotes() : ""));
-                if (!expectedPerson.hasMiscNotes()) {
+                        (expectedPerson.hasChildRelatedNotes() ? " miscNotes:" + expectedPerson.getChildRelatedNotes() : ""));
+                if (!expectedPerson.hasChildRelatedNotes()) {
                     //System.out.println
                     throw new RuntimeException
                             ("expected miscNotes!");

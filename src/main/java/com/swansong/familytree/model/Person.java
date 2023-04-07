@@ -1,7 +1,6 @@
 package com.swansong.familytree.model;
 
 import com.swansong.familytree.csv.Row;
-import com.swansong.familytree.data.MarriageMap;
 import lombok.Data;
 import lombok.ToString;
 
@@ -17,7 +16,7 @@ public class Person {
     private final static String FEMALE = "F"; // unknown is blank
 
     public Person() {
-        id = Id.INDIVIDUAL.nextId();
+        id = Id.PERSON.nextId();
     }
 
     private String id;
@@ -128,7 +127,7 @@ public class Person {
     }
 
     public void addMarriage(Marriage marriage) {
-        MarriageMap.addMarriage(marriage);
+        marriages.add(marriage);
     }
 
 

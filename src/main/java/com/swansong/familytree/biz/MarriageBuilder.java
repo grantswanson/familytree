@@ -22,7 +22,6 @@ public class MarriageBuilder {
             spouse.addSpouse(mainPerson);
             spouse.addMarriage(marriage);
         }
-
         // add more here from row
 
         // don't add the children yet. However, the names are in the row

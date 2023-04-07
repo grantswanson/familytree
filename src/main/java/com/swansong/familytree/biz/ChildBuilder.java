@@ -18,7 +18,7 @@ public class ChildBuilder {
 
     public static void buildChildren() {
         // for each marriage
-        for (Marriage marriage : MarriageMap.getMarriagesList()) {
+        for (Marriage marriage : MarriageMap.getMarriagesCollection()) {
             Row row = marriage.getSourceRow();
             if (marriage.isSpousesParents()) {
                 // don't add children (they are already there) just one person (the spouse)

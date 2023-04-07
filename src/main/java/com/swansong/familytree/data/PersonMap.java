@@ -26,23 +26,11 @@ public class PersonMap {
             throw new RuntimeException("Error: Tried to add someone who is already there by name! cur:" +
                     currentPerson.toShortString() + " trying to add:" + newPerson.toShortString());
         }
-//        try {
-//            if (newPerson.getName().toNameKey().toString().equals("Larson, Florence Marie")) {
-//                System.out.println("newPerson:"+newPerson+" currentPerson:"+currentPerson);
-//                throw new RuntimeException();
-//            }
-//        }catch (Exception e) {
-//            e.printStackTrace();
-//            System.out.println("newPerson:"+newPerson+" currentPerson"+currentPerson);
-//        }
+
         individualMapByGenCode.put(newPerson.getGenCode(), newPerson);
         individualMapByName.put(newPerson.getName().toNameKey().toString(), newPerson);
     }
 
-    //    private static void savePersonByName(Person newPerson) {
-//    }
-//    private static void savePersonByGenCode(Person newPerson) {
-//    }
     public static Person getPersonByGenCode(String genCode) {
         return individualMapByGenCode.get(genCode);
     }

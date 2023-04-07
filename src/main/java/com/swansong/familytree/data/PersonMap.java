@@ -80,36 +80,10 @@ public class PersonMap {
 
         for (Map.Entry<String, Person> entry : sortedPersonMap.entrySet()) {
             Person person = entry.getValue();
-            String selfStr = String.format("#%-2d %-7s %1s %-30.30s",
-                    person.getSourceRow().getNumber(),
-                    person.getGenCode(),
-                    person.getGender(),
-                    person.getName().toFullName()
-            );
-
-//            selfStr += String.format("%-11s %-15.15s %-11s %-15.15s %s %s %s %s %s %s ",
-//
-//                    person.getDob(),
-//                    person.getPob(),
-//                    person.getBaptismDate(),
-//                    person.getBaptismPlace(),
-//                    person.getConfirmationDate(),
-//                    person.getConfirmationPlace(),
-//                    person.getDeathDate(),
-//                    person.getDeathPlace(),
-//                    person.getBurialDate(),
-//                    person.getBurialPlace()
-//                    );
-//            System.out.println(person);
-            System.out.print(selfStr);
-            //noinspection RedundantStringFormatCall
-            System.out.print(String.format("%-35s", person.spousesToString()));
-            System.out.print(person.parentsToString());
-
-            System.out.println();
-
+            System.out.println(person.toFormatedString());
         }
 
         System.out.println("Total Count=" + (individualMapByGenCode.size()));
     }
+
 }

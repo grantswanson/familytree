@@ -49,6 +49,7 @@ public class Person {
 
     private Row sourceRow;
 
+
     public boolean hasMiscNotes() {
         return (childrenNotes != null && !childrenNotes.equals("")) ||
                 name.isAsteriskPresent() || GenCode.isUnrelated(genCode);
@@ -157,6 +158,19 @@ public class Person {
                 name.toFullName());
     }
 
+    public String toFormatedString() {
+        String str = String.format("#%-2d %-7s %1s %-30.30s",
+                getSourceRow().getNumber(),
+                getGenCode(),
+                getGender(),
+                getName().toFullName()
+        );
+
+        str += String.format("%-35s", spousesToString());
+        str += parentsToString();
+
+        return str;
+    }
 //    private String occupationdate;
 //    private String occupationplace;
 //    private String occupationplace_id;

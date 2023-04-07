@@ -13,7 +13,8 @@ public class Id {
     public static final Id MARRIAGE = new Id("M");
     public static final Id INDIVIDUAL = new Id("I");
     public static final Id FAMILY = new Id("F");
-    public String nextId() {
-        return code + currentNum++;
+
+    public int nextId() {
+        return currentNum++; // no longer include the code in the output and make it an int
     }
 }

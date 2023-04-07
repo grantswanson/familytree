@@ -18,7 +18,7 @@ public class Marriage {
         id = Id.MARRIAGE.nextId();
     }
 
-    private String id;
+    private int id;
     private Person spouse1;
     private Person spouse2;
     private boolean isSpousesParents;
@@ -140,7 +140,7 @@ public class Marriage {
     }
 
     public String toFormattedString() {
-        String str = String.format("#%-2d %-5s ",
+        String str = String.format("#%-2d M%2s ",
                 getSourceRow().getNumber(), getId());
         Person person = getHusband();
         if (person != null) {

@@ -5,12 +5,14 @@ import com.swansong.familytree.model.Marriage;
 import lombok.Data;
 
 import java.util.Collection;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 @Data
 public class MarriageMap {
-    public static Map<String, Marriage> marriages = new HashMap<>();
+    public static Map<Integer, Marriage> marriages = new HashMap<>();
 
     public static void addMarriage(Marriage newMarriage) {
         Marriage currentMarriage = marriages.get(newMarriage.getId());
@@ -23,7 +25,8 @@ public class MarriageMap {
     }
 
     public static Collection<Marriage> getMarriagesCollection() {
-        return marriages.values();
+
+        return marriages.values().stream().sorted(Comparator.comparingInt(Marriage::getId)).collect(Collectors.toList());
     }
 
     public static void printMarriages() {

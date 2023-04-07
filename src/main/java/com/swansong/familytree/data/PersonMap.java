@@ -66,6 +66,7 @@ public class PersonMap {
                 .sorted(valueComparator)
                 .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e1, LinkedHashMap::new));
 
+        System.out.println("\n People:");
         for (Map.Entry<String, Person> entry : sortedPersonMap.entrySet()) {
             Person person = entry.getValue();
             System.out.println(person.toFormatedString());

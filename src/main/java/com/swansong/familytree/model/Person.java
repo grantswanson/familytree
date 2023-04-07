@@ -19,7 +19,7 @@ public class Person {
         id = Id.PERSON.nextId();
     }
 
-    private String id;
+    private int id;
     private String genCode;
     private Name name;
     private String gender = "";

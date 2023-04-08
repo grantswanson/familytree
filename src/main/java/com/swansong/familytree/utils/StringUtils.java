@@ -131,4 +131,8 @@ public class StringUtils {
         str2.removeAll(str1);
         return str2;
     }
+
+    public static boolean isNullOrBlank(String str) {
+        return str == null || str.isBlank();
+    }
 }

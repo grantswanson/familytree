@@ -1,5 +1,7 @@
 package com.swansong.familytree.gedcom;
 
+import com.swansong.familytree.utils.StringUtils;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -10,13 +12,15 @@ import java.util.List;
 import static com.swansong.familytree.gedcom.Individual.*;
 
 public class GedcomWriter {
+    private final int MAX_LINE_LENGTH = 255;
+
     private final Path filePath;
 
     public GedcomWriter(Path filePath) {
         this.filePath = filePath;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { // just for testing...
         String arg0 = "src/main/resources/gedcom.ged";
         if (args.length == 0) {
             System.out.println("Using default file:" + arg0);
@@ -68,38 +72,48 @@ public class GedcomWriter {
     }
 
     private void writeIndividuals(List<Individual> individuals) throws IOException {
-        for (Individual individual : individuals) {
-            String record = String.format("0 @I%d@ INDI\n", individual.getId());
-            record += String.format("1 NAME %s /%s/\n", individual.getGivenName(), individual.getSurname());
-            if (individual.getBirthDate() != null && individual.getBirthPlace() != null) {
-                record += "1 BIRT\n";
-                record += String.format("2 DATE %s\n", individual.getBirthDate());
-                record += String.format("2 PLAC %s\n", individual.getBirthPlace());
+        for (Individual indiv : individuals) {
+            String record = String.format("0 @I%d@ INDI\n", indiv.getId());
+            record += String.format("1 NAME %s /%s/\n", indiv.getGivenName(), indiv.getSurname());
+
+            record += getDateAndPlace("1 BIRT\n", indiv.getBirthDate(), indiv.getBirthPlace());
+            record += getDateAndPlace("1 DEAT\n", indiv.getDeathDate(), indiv.getDeathPlace());
+            record += getDateAndPlace("1 CONF\n", indiv.getConfirmationDate(), indiv.getConfirmationPlace());
+            record += getDateAndPlace("1 GRAD\n", indiv.getHighSchoolGraduationDate(), indiv.getHighSchoolGraduationPlace());
+
+            record += getIfNotNullOrBlank("1 OCCU %s\n", indiv.getOccupation());
+            for (String note : indiv.getNotes()) {
+                record += getIfNotNullOrBlank("1 NOTE %s\n", note);
             }
-            if (individual.getDeathDate() != null && individual.getDeathPlace() != null) {
-                record += "1 DEAT\n";
-                record += String.format("2 DATE %s\n", individual.getDeathDate());
-                record += String.format("2 PLAC %s\n", individual.getDeathPlace());
-            }
-            if (individual.getConfirmationDate() != null && individual.getConfirmationPlace() != null) {
-                record += "1 CONF\n";
-                record += String.format("2 DATE %s\n", individual.getConfirmationDate());
-                record += String.format("2 PLAC %s\n", individual.getConfirmationPlace());
-            }
-            if (individual.getHighSchoolGraduationDate() != null && individual.getHighSchoolGraduationPlace() != null) {
-                record += "1 GRAD\n";
-                record += String.format("2 DATE %s\n", individual.getHighSchoolGraduationDate());
-                record += String.format("2 PLAC %s\n", individual.getHighSchoolGraduationPlace());
-            }
-            if (individual.getOccupation() != null) {
-                record += String.format("1 OCCU %s\n", individual.getOccupation());
-            }
-            if (individual.getNote() != null) {
-                record += String.format("1 NOTE %s\n", individual.getNote());
-            }
+
             Files.writeString(filePath, record, StandardOpenOption.APPEND);
         }
+
     }
+
+    private String getDateAndPlace(String str1, String date, String place) {
+        String record = "";
+        if (!StringUtils.isNullOrBlank(date) || !StringUtils.isNullOrBlank(place)) {
+            record += str1;
+            record += getIfNotNullOrBlank("2 DATE %s\n", date);
+            record += getIfNotNullOrBlank("2 PLAC %s\n", place);
+        }
+        return record;
+    }
+
+    public String getIfNotNullOrBlank(String tag, String data) {
+        if (!StringUtils.isNullOrBlank(data)) {
+            if (tag.length() + data.length() <= MAX_LINE_LENGTH) {
+                return String.format(tag, data);
+            } else {
+                throw new RuntimeException("Line too long!!! Max:" + MAX_LINE_LENGTH +
+                        " length:" + tag.length() + data.length() +
+                        "\n line:" + String.format(tag, data));
+            }
+        }
+        return "";
+    }
+
 
     private void writeFamilies(List<Family> families) throws IOException {
         for (Family family : families) {

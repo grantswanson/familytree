@@ -5,6 +5,9 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -22,7 +25,11 @@ public class Individual {
     private String highSchoolGraduationDate;
     private String highSchoolGraduationPlace;
     private String occupation;
-    private String note;
+    private List<String> notes = new ArrayList<>();
+
+    public void addNote(String note) {
+        notes.add(note);
+    }
 
     public static Individual.IndividualBuilder testIndividualBuilder = Individual.builder()
             .id(1)
@@ -37,7 +44,7 @@ public class Individual {
             .highSchoolGraduationDate("15 JAN 2018")
             .highSchoolGraduationPlace("Boston")
             .occupation("Software Engineer")
-            .note("This is a test instance of the Individual class.");
+            .notes(List.of("This is a test instance of the Individual class."));
 
     public static Individual testIndividual1 = testIndividualBuilder.build();
     public static Individual testIndividual2 = testIndividualBuilder
@@ -52,4 +59,6 @@ public class Individual {
             .surname("Doe")
             .birthDate("15 JAN 2021")
             .build();
+
+
 }

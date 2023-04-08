@@ -20,9 +20,12 @@ public class PersonToIndividual {
         individual.setDeathPlace(person.getBurialPlace());
         individual.setConfirmationDate(convertDate(person.getConfirmationDate()));
         individual.setConfirmationPlace(person.getConfirmationPlace());
+        individual.setHighSchoolGraduationDate(person.getHighSchoolGradDate());
+        individual.setHighSchoolGraduationPlace(person.getHighSchoolGradPlace());
         individual.setOccupation(person.getOccupation());
-        if (person.getNotes() != null && !person.getNotes().isEmpty()) {
-            individual.setNote(String.join("\n", person.getNotes()));
+        individual.setNotes(person.getNotes());
+        if (person.getChildrenNotes() != null && !person.getChildrenNotes().isBlank()) {
+            individual.addNote(person.getChildrenNotes());
         }
         return individual;
     }

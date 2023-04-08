@@ -16,12 +16,15 @@ public class PersonToIndividual {
         }
         individual.setBirthDate(convertDate(person.getDob()));
         individual.setBirthPlace(person.getPob());
-        individual.setDeathDate(convertDate(person.getDeathDate()));
-        individual.setDeathPlace(person.getBurialPlace());
+        individual.setBaptismDate(convertDate(person.getBaptismDate()));
+        individual.setBaptismPlace(person.getBaptismPlace());
         individual.setConfirmationDate(convertDate(person.getConfirmationDate()));
         individual.setConfirmationPlace(person.getConfirmationPlace());
         individual.setHighSchoolGraduationDate(person.getHighSchoolGradDate());
         individual.setHighSchoolGraduationPlace(person.getHighSchoolGradPlace());
+        individual.setDeathDate(convertDate(person.getDeathDate()));
+        individual.setDeathPlace(person.getBurialPlace());
+
         individual.setOccupation(person.getOccupation());
         individual.setNotes(person.getNotes());
         if (person.getChildrenNotes() != null && !person.getChildrenNotes().isBlank()) {

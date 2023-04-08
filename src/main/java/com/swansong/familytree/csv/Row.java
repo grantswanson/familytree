@@ -14,6 +14,7 @@ import java.util.List;
 @AllArgsConstructor
 @Builder
 public class Row {
+    public static final int NUM_OF_NOTES = 7; // 1-7
     private Integer number;
     private String updateDate;
     private String name;

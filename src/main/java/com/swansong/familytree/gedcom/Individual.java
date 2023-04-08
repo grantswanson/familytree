@@ -18,12 +18,14 @@ public class Individual {
     private String surname;
     private String birthDate;
     private String birthPlace;
-    private String deathDate;
-    private String deathPlace;
+    private String baptismDate;
+    private String baptismPlace;
     private String confirmationDate;
     private String confirmationPlace;
     private String highSchoolGraduationDate;
     private String highSchoolGraduationPlace;
+    private String deathDate;
+    private String deathPlace;
     private String occupation;
     private List<String> notes = new ArrayList<>();
 
@@ -37,12 +39,14 @@ public class Individual {
             .surname("Doe")
             .birthDate("15 JAN 2000")
             .birthPlace("New York")
-            .deathDate("15 JAN 2070")
-            .deathPlace("Los Angeles")
+            .baptismDate("15 JAN 2001")
+            .baptismPlace("Los Angeles")
             .confirmationDate("15 JAN 2015")
             .confirmationPlace("Chicago")
             .highSchoolGraduationDate("15 JAN 2018")
             .highSchoolGraduationPlace("Boston")
+            .deathDate("15 JAN 2070")
+            .deathPlace("Los Angeles")
             .occupation("Software Engineer")
             .notes(List.of("This is a test instance of the Individual class."));
 

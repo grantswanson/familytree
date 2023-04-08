@@ -43,6 +43,18 @@ public class SpouseBuilder {
         person.setConfirmationPlace(row.getSpouseConfirmationPlace());
         person.setDeathDate(row.getSpouseDeathDate());
         person.setBurialPlace(row.getSpouseBurialPlace());
+        person.setHighSchoolGradDate(row.getSpouseHsGradDate());
+        person.setHighSchoolGradPlace(row.getSpouseHsGradPlace());
+        person.setDeathDate(row.getSpouseDeathDate());
+        person.setBurialPlace(row.getSpouseBurialPlace());
+        person.setOccupation(row.getSpouseOccupation());
+
+        person.setChildrenNotes(row.getChildrenNotes());
+        for (int i = 1; i < Row.NUM_OF_NOTES; i++) {
+            if (row.getNote(i) != null && !row.getNote(i).isBlank()) {
+                person.addNote(row.getNote(i));
+            }
+        }
 
         return person;
     }

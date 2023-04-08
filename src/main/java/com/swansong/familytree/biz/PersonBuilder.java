@@ -12,7 +12,6 @@ import java.util.ArrayList;
 
 
 public class PersonBuilder {
-    private static final int NUM_OF_NOTES = 7; // 1-7
 
     public static Person lookupMainPerson(Row row) {
         return PersonMap.getPersonByGenCodeOrRawName(
@@ -55,11 +54,10 @@ public class PersonBuilder {
         person.setBurialPlace(row.getBurialPlace());
         person.setOccupation(row.getOccupation());
         person.setChildrenNotes(row.getChildrenNotes());
-        for (int i = 1; i < NUM_OF_NOTES; i++) {
+        for (int i = 1; i < Row.NUM_OF_NOTES; i++) {
             if (row.getNote(i) != null && !row.getNote(i).isBlank()) {
                 person.addNote(row.getNote(i));
             }
-
         }
         return person;
     }

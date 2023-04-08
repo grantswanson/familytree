@@ -73,9 +73,10 @@ public class GedcomWriter {
             record += String.format("1 NAME %s /%s/\n", indiv.getGivenName(), indiv.getSurname());
 
             record += GedcomUtils.getDateAndPlace("1 BIRT\n", indiv.getBirthDate(), indiv.getBirthPlace());
-            record += GedcomUtils.getDateAndPlace("1 DEAT\n", indiv.getDeathDate(), indiv.getDeathPlace());
+            record += GedcomUtils.getDateAndPlace("1 BAPM\n", indiv.getBaptismDate(), indiv.getBaptismPlace());
             record += GedcomUtils.getDateAndPlace("1 CONF\n", indiv.getConfirmationDate(), indiv.getConfirmationPlace());
             record += GedcomUtils.getDateAndPlace("1 GRAD\n", indiv.getHighSchoolGraduationDate(), indiv.getHighSchoolGraduationPlace());
+            record += GedcomUtils.getDateAndPlace("1 DEAT\n", indiv.getDeathDate(), indiv.getDeathPlace());
 
             record += GedcomUtils.getIfNotNullOrBlank("1 OCCU %s\n", indiv.getOccupation());
             for (String note : indiv.getNotes()) {

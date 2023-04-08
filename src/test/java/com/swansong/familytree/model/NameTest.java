@@ -1,7 +1,6 @@
-package com.swansong.familytree;
+package com.swansong.familytree.model;
 
 import com.swansong.familytree.biz.ChildBuilder;
-import com.swansong.familytree.model.Name;
 import com.swansong.familytree.utils.StringUtils;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;

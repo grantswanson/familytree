@@ -1,8 +1,7 @@
-package com.swansong.familytree;
+package com.swansong.familytree.translate;
 
 import com.swansong.familytree.model.Name;
 import com.swansong.familytree.model.Person;
-import com.swansong.familytree.translate.PersonValidator;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 

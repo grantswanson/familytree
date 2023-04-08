@@ -1,6 +1,5 @@
-package com.swansong.familytree;
+package com.swansong.familytree.model;
 
-import com.swansong.familytree.model.GenCode;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;

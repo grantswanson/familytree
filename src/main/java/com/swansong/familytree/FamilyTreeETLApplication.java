@@ -14,6 +14,7 @@ import com.swansong.familytree.gedcom.GedcomWriter;
 import com.swansong.familytree.gedcom.Individual;
 import com.swansong.familytree.model.Marriage;
 import com.swansong.familytree.model.Person;
+import com.swansong.familytree.translate.MarriageToFamily;
 import com.swansong.familytree.translate.PersonToIndividual;
 
 import java.io.File;
@@ -83,7 +84,7 @@ public class FamilyTreeETLApplication {
     private static List<Family> translateMarriages() {
         List<Family> families = new ArrayList<>();
         for (Marriage marriage : MarriageMap.getMarriagesCollection()) {
-            //families.add( );
+            families.add(MarriageToFamily.convert(marriage));
         }
         return families;
     }

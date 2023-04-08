@@ -1,0 +1,1219 @@
+0 HEAD
+1 SOUR MyGenealogyProgram
+2 VERS 1.0
+2 NAME My Genealogy Program
+2 CORP My Corporation
+3 ADDR 1234 Main Street
+4 CONT Anytown, USA 12345
+1 DEST AnotherGenealogyProgram
+1 DATE 1 JAN 2022
+2 TIME 12:00:00
+1 FILE myGedcomFile.ged
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+1 SUBM @U1@
+0 @U1@ SUBM
+1 NAME Reldon Poulson
+0 @I42@ INDI
+1 NAME Linda Sue /Swanson/
+2 GIVN Linda Sue
+2 SURN Swanson
+1 SEX F
+1 BIRT
+2 DATE 9 Apr 1956
+1 OCCU Homemaker
+0 @I48@ INDI
+1 NAME Ricky Lee /Swanson/
+2 GIVN Ricky Lee
+2 SURN Swanson
+1 SEX M
+1 BIRT
+2 DATE 3 Nov 1957
+0 @I52@ INDI
+1 NAME Lisa Jo /Swanson/
+2 GIVN Lisa Jo
+2 SURN Swanson
+1 SEX F
+1 BIRT
+2 DATE 17 Nov 1959
+1 OCCU Homemaker
+0 @I56@ INDI
+1 NAME Kristin Mary /Swanson/
+2 GIVN Kristin Mary
+2 SURN Swanson
+1 BIRT
+2 DATE 20 Jul 1964
+0 @I57@ INDI
+1 NAME Eric John /Swanson/
+2 GIVN Eric John
+2 SURN Swanson
+1 DEAT
+2 DATE 25 Sep 1965
+2 PLAC Cedar Cem, Larrabee, IA, USA
+1 NOTE * Still born
+0 @I116@ INDI
+1 NAME Carolyn /Kincel/
+2 GIVN Carolyn
+2 SURN Kincel
+0 @I28@ INDI
+1 NAME Jonathan /Neuzil/
+2 GIVN Jonathan
+2 SURN Neuzil
+0 @I106@ INDI
+1 NAME Cynthia Marie Louise /Pasczkowski/
+2 GIVN Cynthia Marie Louise
+2 SURN Pasczkowski
+1 BIRT
+2 DATE 30 Nov 1953
+2 PLAC Danville, PA, USA
+1 OCCU Homemaker
+0 @I26@ INDI
+1 NAME Nathan /Neuzil/
+2 GIVN Nathan
+2 SURN Neuzil
+0 @I27@ INDI
+1 NAME Jessica /Neuzil/
+2 GIVN Jessica
+2 SURN Neuzil
+0 @I105@ INDI
+1 NAME Mary Therese /Kalin/
+2 GIVN Mary Therese
+2 SURN Kalin
+1 BIRT
+2 DATE 1 Oct 1948
+2 PLAC Chicago, IL, USA
+1 OCCU Homemaker
+0 @I41@ INDI
+1 NAME Mary Joan /Jager/
+2 GIVN Mary Joan
+2 SURN Jager
+1 SEX F
+1 BIRT
+2 DATE 13 Oct 1937
+1 OCCU Homemaker
+0 @I117@ INDI
+1 NAME Carol Sue /Kincel/
+2 GIVN Carol Sue
+2 SURN Kincel
+0 @I31@ INDI
+1 NAME Teresa Emma /Swanson/
+2 GIVN Teresa Emma
+2 SURN Swanson
+1 SEX F
+1 BIRT
+2 DATE 1 Jan 1960
+1 OCCU Homemaker
+0 @I34@ INDI
+1 NAME Billy Hugo /Swanson/
+2 GIVN Billy Hugo
+2 SURN Swanson
+1 BIRT
+2 DATE 10 Sep 1961
+0 @I102@ INDI
+1 NAME Grant Matthew /Swanson/
+2 GIVN Grant Matthew
+2 SURN Swanson
+1 BIRT
+2 DATE 21 Mar 1971
+2 PLAC Bethesda Naval Hosp. Bethesda, MD, USA
+1 OCCU College Student
+1 NOTE Grant graduated from Peekskill, NY. High School in 1989.  He is now studing Computer Science at the University of Wisconsin in Madison.
+1 NOTE He was Baptized in Gathersburg, MD.  He attended and was confirmed at Grace Lutheran in Yorktown Heights, NY.
+1 NOTE Grant enjoys mountain biking, juggling and racquetball.  He wrestled for five years in School.
+1 NOTE He has traveled many parts of the world including Europe, Japan, India and China.  He spent a year in Turkey as a Rotary International Exchange student.
+0 @I35@ INDI
+1 NAME Bryon Clarence /Swanson/
+2 GIVN Bryon Clarence
+2 SURN Swanson
+1 SEX M
+1 BIRT
+2 DATE 26 Jun 1964
+1 NOTE * Twins
+0 @I108@ INDI
+1 NAME Sylvia //
+2 GIVN Sylvia
+1 SEX F
+0 @I30@ INDI
+1 NAME Martha Ann /Gerstandt/
+2 GIVN Martha Ann
+2 SURN Gerstandt
+1 SEX F
+1 BIRT
+2 DATE 19 Nov 1934
+1 OCCU Homemaker
+0 @I23@ INDI
+1 NAME Alexis /Redshaw/
+2 GIVN Alexis
+2 SURN Redshaw
+1 BIRT
+2 DATE 13 Apr 2000
+0 @I112@ INDI
+1 NAME Kathryn Ann /Swanson/
+2 GIVN Kathryn Ann
+2 SURN Swanson
+2 NICK Kathy
+1 SEX F
+1 OCCU Homemaker
+0 @I109@ INDI
+1 NAME Curtis /Swanson/
+2 GIVN Curtis
+2 SURN Swanson
+0 @I111@ INDI
+1 NAME Linda /Swanson/
+2 GIVN Linda
+2 SURN Swanson
+0 @I115@ INDI
+1 NAME Andrew /Kincel/
+2 GIVN Andrew
+2 SURN Kincel
+1 SEX M
+0 @I101@ INDI
+1 NAME Loren Christian /Swanson/
+2 GIVN Loren Christian
+2 SURN Swanson
+1 BIRT
+2 DATE 30 Nov 1969
+2 PLAC Bethesda Naval Hosp. Bethesda, MD, USA
+1 BAPM
+2 PLAC A Lutheran, Gathersburg, MD, USA
+1 CONF
+2 DATE 1988
+2 PLAC Grace Lutheran, Yorktown Heights, NY, USA
+1 GRAD
+2 PLAC Peekskill HS, Peekskill, NY, USA
+1 OCCU Architectural/Computer Systems Analyist .
+1 NOTE Loren graduated with a Bachlors of Architecture from Iowa State in 8/93.
+1 NOTE Loren belongs to Grace Lutheran Church in Yorktown Heights, NY.
+1 NOTE N/A
+1 NOTE Loren likes traveling, computers, drawing , woodworking, and kite flying.  He wrestled all four years in high school.
+1 NOTE He lived in the Philippines for one year as a Rotary Exchange student.
+0 @I1@ INDI
+1 NAME Martha /Hakansdotter/
+2 GIVN Martha
+2 SURN Hakansdotter
+1 SEX F
+1 BIRT
+2 DATE 17 Oct 1838
+2 PLAC Harlunda, Sweden
+1 DEAT
+2 DATE 22 Apr 1917
+1 OCCU Homemaker
+0 @I25@ INDI
+1 NAME Kevin /Neuzil/
+2 GIVN Kevin
+2 SURN Neuzil
+1 SEX M
+1 NOTE * Twins
+0 @I88@ INDI
+1 NAME Kerstin /Swanson/
+2 GIVN Kerstin
+2 SURN Swanson
+1 SEX F
+1 BIRT
+2 DATE 24 May 1881
+2 PLAC Torhult, Vastra Torsas, Sweden
+1 DEAT
+2 DATE 23 Jun 1967
+2 PLAC Cedar Cem. Larrabee, IA, USA
+1 OCCU Homemaker
+0 @I64@ INDI
+1 NAME Suzanne Kay /Gould/
+2 GIVN Suzanne Kay
+2 SURN Gould
+1 SEX F
+1 BIRT
+2 DATE 20 Apr 1952
+0 @I67@ INDI
+1 NAME Debra Lynn /Gould/
+2 GIVN Debra Lynn
+2 SURN Gould
+1 SEX F
+1 BIRT
+2 DATE 25 Jul 1953
+0 @I71@ INDI
+1 NAME Terry Howard /Gould/
+2 GIVN Terry Howard
+2 SURN Gould
+1 BIRT
+2 DATE 11 Sep 1955
+0 @I72@ INDI
+1 NAME Timothy Dean /Gould/
+2 GIVN Timothy Dean
+2 SURN Gould
+1 SEX M
+1 BIRT
+2 DATE 12 Oct 1956
+0 @I75@ INDI
+1 NAME Jonathan David /Gould/
+2 GIVN Jonathan David
+2 SURN Gould
+1 BIRT
+2 DATE 10 Sep 1982
+0 @I74@ INDI
+1 NAME Aaron Lee /Gould/
+2 GIVN Aaron Lee
+2 SURN Gould
+1 BIRT
+2 DATE 16 Jan 1980
+0 @I17@ INDI
+1 NAME Ryan /Hedlund/
+2 GIVN Ryan
+2 SURN Hedlund
+0 @I18@ INDI
+1 NAME Garret /Hedlund/
+2 GIVN Garret
+2 SURN Hedlund
+0 @I2@ INDI
+1 NAME Elna Maria /Swanson/
+2 GIVN Elna Maria
+2 SURN Swanson
+1 BIRT
+2 DATE 29 Jan 1867
+1 OCCU Homemaker
+0 @I91@ INDI
+1 NAME Sanford /Swanson/
+2 GIVN Sanford
+2 SURN Swanson
+1 BIRT
+2 DATE 6 Mar 1909
+2 PLAC Swanson Home, Alta, IA, USA
+0 @I4@ INDI
+1 NAME John August /Swanson/
+2 GIVN John August
+2 SURN Swanson
+1 SEX M
+1 BIRT
+2 DATE 25 Sep 1868
+2 PLAC Vasta Tores, Sweden
+1 BAPM
+2 DATE 27 Sep 1868
+2 PLAC Church Parrish, Vasta Tores, Sweden
+1 DEAT
+2 DATE 30 Nov 1943
+2 PLAC Cedar Cem. Larrabee, IA, USA
+1 NOTE John came to America in 1887, returned to Sweden in1890 and came back to America in 1895 with his brother Will.
+0 @I76@ INDI
+1 NAME Rueben Joshua /Gould/
+2 GIVN Rueben Joshua
+2 SURN Gould
+1 BIRT
+2 DATE 17 Sep 1985
+0 @I89@ INDI
+1 NAME Ellen /Swanson/
+2 GIVN Ellen
+2 SURN Swanson
+1 BIRT
+2 DATE 1903
+1 OCCU Homemaker
+0 @I84@ INDI
+1 NAME Carl Salomon Solomon? /Swanson/
+2 GIVN Carl Salomon Solomon?
+2 SURN Swanson
+1 BIRT
+2 DATE 15 Jul 1870
+0 @I107@ INDI
+1 NAME Clifford /Swanson/
+2 GIVN Clifford
+2 SURN Swanson
+1 SEX M
+1 OCCU Language Professer
+0 @I85@ INDI
+1 NAME Peter Magni /Swanson/
+2 GIVN Peter Magni
+2 SURN Swanson
+1 BIRT
+2 DATE 24 Mar 1872
+0 @I92@ INDI
+1 NAME Carl Loyal William /Swanson/
+2 GIVN Carl Loyal William
+2 SURN Swanson
+1 SEX M
+1 BIRT
+2 DATE 3 Apr 1910
+2 PLAC Swanson home, Buena Vista Co. IA, USA
+1 DEAT
+2 DATE 5 Feb 1971
+2 PLAC Fishkill Rural Cem. Fishkill, NY, USA
+1 OCCU Agronomist
+0 @I86@ INDI
+1 NAME Nils Wilhelm /Swanson/
+2 GIVN Nils Wilhelm
+2 SURN Swanson
+1 BIRT
+2 DATE 21 Dec 1873
+0 @I0@ INDI
+1 NAME Sven /Magnusson/
+2 GIVN Sven
+2 SURN Magnusson
+1 SEX M
+1 BIRT
+2 DATE 30 Oct 1832
+1 DEAT
+2 DATE 28 Feb 1876
+0 @I21@ INDI
+1 NAME Channing /Redshaw/
+2 GIVN Channing
+2 SURN Redshaw
+1 BIRT
+2 DATE 1993
+0 @I87@ INDI
+1 NAME Sven Wilhelm /Swanson/
+2 GIVN Sven Wilhelm
+2 SURN Swanson
+2 NICK William
+1 SEX M
+1 BIRT
+2 DATE 29 May 1876
+2 PLAC Torhult, Vastra Torsas, Sweden
+1 DEAT
+2 DATE 30 Mar 1950
+2 PLAC Cedar Cem. Larrabee, IA, USA
+0 @I114@ INDI
+1 NAME Lillian /Swanson/
+2 GIVN Lillian
+2 SURN Swanson
+1 SEX F
+0 @I63@ INDI
+1 NAME Margaret Ellen /Kelly/
+2 GIVN Margaret Ellen
+2 SURN Kelly
+1 SEX F
+1 BIRT
+2 DATE 24 Jun 1933
+1 DEAT
+2 DATE 26 Nov 1973
+2 PLAC Cedar Cem. Larrabee, IA, USA
+1 OCCU Homemaker
+0 @I22@ INDI
+1 NAME Sandra //
+2 GIVN Sandra
+1 SEX F
+1 OCCU Homemaker
+0 @I20@ INDI
+1 NAME Laura //
+2 GIVN Laura
+1 SEX F
+1 OCCU Homemaker
+0 @I121@ INDI
+1 NAME Anna Heeren /Wuehke/
+2 GIVN Anna Heeren
+2 SURN Wuehke
+1 SEX F
+0 @I37@ INDI
+1 NAME Amanda Michelle /Swanson/
+2 GIVN Amanda Michelle
+2 SURN Swanson
+1 BIRT
+2 DATE 8 Apr 1992
+0 @I12@ INDI
+1 NAME Kimberly /Rapala/
+2 GIVN Kimberly
+2 SURN Rapala
+0 @I38@ INDI
+1 NAME Matthew Bryon /Swanson/
+2 GIVN Matthew Bryon
+2 SURN Swanson
+1 BIRT
+2 DATE 31 May 1996
+0 @I120@ INDI
+1 NAME Christian /Locker/
+2 GIVN Christian
+2 SURN Locker
+1 SEX M
+0 @I127@ INDI
+1 NAME Margaret Louise /Moroz/
+2 GIVN Margaret Louise
+2 SURN Moroz
+1 SEX F
+0 @I13@ INDI
+1 NAME Heather /Rapala/
+2 GIVN Heather
+2 SURN Rapala
+0 @I39@ INDI
+1 NAME Michael Dale /Swanson/
+2 GIVN Michael Dale
+2 SURN Swanson
+1 BIRT
+2 DATE 31 May 1996
+0 @I14@ INDI
+1 NAME April /Rapala/
+2 GIVN April
+2 SURN Rapala
+1 BIRT
+2 DATE 1 Apr 2001
+0 @I73@ INDI
+1 NAME Sheryl Lynn /Hory/
+2 GIVN Sheryl Lynn
+2 SURN Hory
+1 SEX F
+1 BIRT
+2 DATE 7 Nov 1952
+1 OCCU Homemaker
+0 @I126@ INDI
+1 NAME Stanley Joseph /Pasczkowski/
+2 GIVN Stanley Joseph
+2 SURN Pasczkowski
+1 SEX M
+0 @I16@ INDI
+1 NAME Jan /Hedlund/
+2 GIVN Jan
+2 SURN Hedlund
+1 SEX M
+0 @I90@ INDI
+1 NAME Leon /Furgasen/
+2 GIVN Leon
+2 SURN Furgasen
+0 @I8@ INDI
+1 NAME Lois Ann /Swanson/
+2 GIVN Lois Ann
+2 SURN Swanson
+1 SEX F
+1 BIRT
+2 DATE 24 Mar 1928
+1 OCCU Homemaker
+1 NOTE * Twins
+0 @I70@ INDI
+1 NAME Samantha /Clouten/
+2 GIVN Samantha
+2 SURN Clouten
+1 BIRT
+2 DATE 19 Oct 1990
+0 @I69@ INDI
+1 NAME Christopher /Clouten/
+2 GIVN Christopher
+2 SURN Clouten
+1 BIRT
+2 DATE 10 Mar 1988
+0 @I110@ INDI
+1 NAME Ortrid //
+2 GIVN Ortrid
+1 OCCU Homemaker
+0 @I29@ INDI
+1 NAME Floyd Dale /Swanson/
+2 GIVN Floyd Dale
+2 SURN Swanson
+1 SEX M
+1 BIRT
+2 DATE 3 Jul 1929
+0 @I40@ INDI
+1 NAME John Carl /Swanson/
+2 GIVN John Carl
+2 SURN Swanson
+1 SEX M
+1 BIRT
+2 DATE 24 Jul 1933
+0 @I59@ INDI
+1 NAME Kathryn /Collister/
+2 GIVN Kathryn
+2 SURN Collister
+1 BIRT
+2 DATE 18 Feb 1903
+1 DEAT
+2 DATE 21 Jul 1975
+2 PLAC Mount Calvary Cem. Cherokee, IA, USA
+1 OCCU Homeamaker
+0 @I36@ INDI
+1 NAME Michelle Marie /Caboth/
+2 GIVN Michelle Marie
+2 SURN Caboth
+1 SEX F
+1 BIRT
+2 DATE 26 Mar 1965
+1 OCCU Homemaker
+1 NOTE * Twins
+0 @I11@ INDI
+1 NAME Garry /Rapala/
+2 GIVN Garry
+2 SURN Rapala
+1 SEX M
+0 @I3@ INDI
+1 NAME Nils /Augustsson/
+2 GIVN Nils
+2 SURN Augustsson
+1 BIRT
+2 DATE 16 Apr 1859
+2 PLAC , Gammaltop, Sweden
+0 @I32@ INDI
+1 NAME Bryan /Kelley/
+2 GIVN Bryan
+2 SURN Kelley
+1 SEX M
+1 BIRT
+2 DATE 4 May 1969
+0 @I98@ INDI
+1 NAME Keeva Rachel /Stanberry/
+2 GIVN Keeva Rachel
+2 SURN Stanberry
+1 BIRT
+2 DATE 27 Mar 1974
+2 PLAC Mercy Hosp. Miami, FL, USA
+0 @I118@ INDI
+1 NAME Sven /Persson/
+2 GIVN Sven
+2 SURN Persson
+1 SEX M
+0 @I119@ INDI
+1 NAME Katarina /Svensdotter/
+2 GIVN Katarina
+2 SURN Svensdotter
+1 SEX F
+0 @I54@ INDI
+1 NAME Andrew Shane /McGEE/
+2 GIVN Andrew Shane
+2 SURN McGEE
+1 BIRT
+2 DATE 26 Dec 1996
+0 @I66@ INDI
+1 NAME Nicholas /Lawrence/
+2 GIVN Nicholas
+2 SURN Lawrence
+1 BIRT
+2 DATE 13 Jul 1985
+0 @I33@ INDI
+1 NAME Sarah Ann /Kelley/
+2 GIVN Sarah Ann
+2 SURN Kelley
+1 BIRT
+2 DATE 1 Apr 1986
+0 @I55@ INDI
+1 NAME Lily Erin /McGEE/
+2 GIVN Lily Erin
+2 SURN McGEE
+1 BIRT
+2 DATE 21 Sep 1999
+0 @I78@ INDI
+1 NAME Linda //
+2 GIVN Linda
+1 SEX F
+0 @I80@ INDI
+1 NAME Margaret /Stein/
+2 GIVN Margaret
+2 SURN Stein
+1 SEX F
+1 OCCU Homemaker
+0 @I83@ INDI
+1 NAME Sandy //
+2 GIVN Sandy
+1 SEX F
+1 OCCU Homemaker
+0 @I7@ INDI
+1 NAME Efrieda /Jaeger/
+2 GIVN Efrieda
+2 SURN Jaeger
+1 SEX F
+1 BIRT
+2 DATE 16 Sep 1900
+1 DEAT
+2 DATE 5 Jun 1957
+2 PLAC Cedar Cem. Larrabee, IA, USA
+1 OCCU Homemaker
+0 @I68@ INDI
+1 NAME Stephen John /Clouten/
+2 GIVN Stephen John
+2 SURN Clouten
+1 SEX M
+0 @I10@ INDI
+1 NAME Carla Jean /Redshaw/
+2 GIVN Carla Jean
+2 SURN Redshaw
+1 SEX F
+1 BIRT
+2 DATE 17 Nov 1954
+1 OCCU Homemaker
+0 @I49@ INDI
+1 NAME Lisa Marie /Maccario/
+2 GIVN Lisa Marie
+2 SURN Maccario
+1 SEX F
+1 BIRT
+2 DATE 7 Apr 1953
+1 OCCU Homemaker
+0 @I5@ INDI
+1 NAME Christina /Swanson/
+2 GIVN Christina
+2 SURN Swanson
+1 SEX F
+1 BIRT
+2 DATE 1875
+2 PLAC Sweden
+1 DEAT
+2 DATE 22 Jun 1939
+2 PLAC Cedar Cem. Larrabee, IA, USA
+1 OCCU Homemaker
+1 NOTE John came to America in 1887, returned to Sweden in1890 and came back to America in 1895 with his brother Will.
+0 @I15@ INDI
+1 NAME Valorie Ann /Redshaw/
+2 GIVN Valorie Ann
+2 SURN Redshaw
+1 SEX F
+1 BIRT
+2 DATE 6 Mar 1956
+1 OCCU Homemaker
+0 @I19@ INDI
+1 NAME Gregory John /Redshaw/
+2 GIVN Gregory John
+2 SURN Redshaw
+1 SEX M
+1 BIRT
+2 DATE 30 Apr 1961
+0 @I24@ INDI
+1 NAME Jana Lynn /Redshaw/
+2 GIVN Jana Lynn
+2 SURN Redshaw
+1 SEX F
+1 BIRT
+2 DATE 30 Apr 1961
+1 OCCU Homemaker
+1 NOTE * Twins
+0 @I93@ INDI
+1 NAME Viola Christina Francis /Locker/
+2 GIVN Viola Christina Francis
+2 SURN Locker
+1 SEX F
+1 BIRT
+2 DATE 26 Nov 1912
+1 OCCU Homemaker
+0 @I77@ INDI
+1 NAME Gary Lee /Gould/
+2 GIVN Gary Lee
+2 SURN Gould
+1 SEX M
+1 BIRT
+2 DATE 2 Nov 1941
+0 @I62@ INDI
+1 NAME Howard Duane /Gould/
+2 GIVN Howard Duane
+2 SURN Gould
+1 SEX M
+1 BIRT
+2 DATE 16 Feb 1933
+1 DEAT
+2 DATE 10 Jan 1977
+2 PLAC Cedar Cem. Larrabee, IA, USA
+0 @I100@ INDI
+1 NAME Carol Anne /Meyer/
+2 GIVN Carol Anne
+2 SURN Meyer
+1 SEX F
+1 BIRT
+2 DATE 4 Nov 1945
+2 PLAC Four Gables Horsforth, Yorkshire, England
+1 BAPM
+2 DATE 1945
+2 PLAC St. Margarets, Horsforth, England
+1 CONF
+2 DATE 1959
+2 PLAC Grace Lutheran, Champaign, IL, USA
+1 GRAD
+2 DATE 1962
+2 PLAC Ames High School, Ames, IA, USA
+1 OCCU Homemaker & Exchange Student Mother
+1 NOTE Roger earned a Doctor of Veterinary Medicine from Iowa State University at Ames, IA.  Carol earned a BS degree in Home Economics from Iowa State and a two year Associates degree from the School of Fine Arts in New York City.
+1 NOTE Both Roger and Carol are now active in Grace Lutheran in Yorktown, NY. Carol served as President & Sectretary of Grace Congregation Council and is now active in Synod Work.
+1 NOTE Roger served in the Public Health Service for 2 years at National Institute of Health at Poolesville and Bethesda, MD. Earned a rank of Captain.
+1 NOTE Roger is active in Westchester AVMA and Rotary International Youth Exchange.  Carol is active in the Women of the ELCA as editor of the Synodical newsletter.
+1 NOTE Roger enjoys animals, helping coach wrestling and traveling.  Carol enjoys ballroom dancing, sewing and crafts.
+1 NOTE Roger and Carol have been honored as Paul Harris Fellows for their work in Youth Exchange. Roger was named to the athletic Hall of Fame of John Jay H. S. Wappingers & of Peekskill H.S. for his achievements & work in wrestling.
+0 @I97@ INDI
+1 NAME Catherine Lucille /Pichler/
+2 GIVN Catherine Lucille
+2 SURN Pichler
+1 SEX F
+1 BIRT
+2 DATE 5 Jul 1949
+2 PLAC Riverside, CA, USA
+1 OCCU Homemaker
+1 NOTE *Keeva Rachel is Catherine's daughter from a previous marriage.
+0 @I9@ INDI
+1 NAME John E /Redshaw/
+2 GIVN John E
+2 SURN Redshaw
+1 SEX M
+1 BIRT
+2 DATE 27 Nov 1927
+1 DEAT
+2 DATE 18 Dec 1988
+2 PLAC The Cedars Memorial Park Cem. Sioux City, IA, USA
+1 NOTE * Twins
+0 @I50@ INDI
+1 NAME Brandy Lorraine /Swanson/
+2 GIVN Brandy Lorraine
+2 SURN Swanson
+1 BIRT
+2 DATE 22 Sep 1989
+0 @I58@ INDI
+1 NAME Carl Alex /Swanson/
+2 GIVN Carl Alex
+2 SURN Swanson
+1 BIRT
+2 DATE 8 Jun 1902
+1 DEAT
+2 DATE 7 Jun 1969
+2 PLAC Mount Calvary Cem. Cherokee, IA, USA
+0 @I95@ INDI
+1 NAME Barbara //
+2 GIVN Barbara
+1 SEX F
+1 OCCU Homemaker
+0 @I104@ INDI
+1 NAME Robert Paul /Swanson/
+2 GIVN Robert Paul
+2 SURN Swanson
+1 BIRT
+2 DATE 16 Sep 1950
+2 PLAC Yale University Hosp. New Haven, CT, USA
+0 @I6@ INDI
+1 NAME Clarence William /Swanson/
+2 GIVN Clarence William
+2 SURN Swanson
+1 SEX M
+1 BIRT
+2 DATE 26 Dec 1900
+1 DEAT
+2 DATE 3 Jun 1959
+2 PLAC Cedar Cem. Larrabee, IA, USA
+0 @I51@ INDI
+1 NAME Jonathon Joseph /Swanson/
+2 GIVN Jonathon Joseph
+2 SURN Swanson
+1 BIRT
+2 DATE 24 May 1991
+0 @I96@ INDI
+1 NAME Jacquelyn //
+2 GIVN Jacquelyn
+1 SEX F
+1 OCCU Homemaker
+0 @I122@ INDI
+1 NAME William Collins /Pichler/
+2 GIVN William Collins
+2 SURN Pichler
+1 SEX M
+0 @I99@ INDI
+1 NAME Roger Chris /Swanson/
+2 GIVN Roger Chris
+2 SURN Swanson
+1 SEX M
+1 BIRT
+2 DATE 25 May 1945
+2 PLAC Gardener General Hosp. Chicago, IL, USA
+1 BAPM
+2 DATE 1945
+2 PLAC Lutheran Church, Chicago, IL, USA
+1 CONF
+2 PLAC Grace Lutheran, Hinsdale, IL, USA
+1 GRAD
+2 PLAC Wappingers Central, Wappingers Falls, NY
+1 OCCU Veterinarian
+1 NOTE Roger earned a Doctor of Veterinary Medicine from Iowa State University at Ames, IA.  Carol earned a BS degree in Home Economics from Iowa State and a two year Associates degree from the School of Fine Arts in New York City.
+1 NOTE Both Roger and Carol are now active in Grace Lutheran in Yorktown, NY. Carol served as President & Sectretary of Grace Congregation Council and is now active in Synod Work.
+1 NOTE Roger served in the Public Health Service for 2 years at National Institute of Health at Poolesville and Bethesda, MD. Earned a rank of Captain.
+1 NOTE Roger is active in Westchester AVMA and Rotary International Youth Exchange.  Carol is active in the Women of the ELCA as editor of the Synodical newsletter.
+1 NOTE Roger enjoys animals, helping coach wrestling and traveling.  Carol enjoys ballroom dancing, sewing and crafts.
+1 NOTE Roger and Carol have been honored as Paul Harris Fellows for their work in Youth Exchange. Roger was named to the athletic Hall of Fame of John Jay H. S. Wappingers & of Peekskill H.S. for his achievements & work in wrestling.
+0 @I60@ INDI
+1 NAME Ruby Martha /Swanson/
+2 GIVN Ruby Martha
+2 SURN Swanson
+1 SEX F
+1 BIRT
+2 DATE 21 Apr 1910
+1 DEAT
+2 DATE 18 Dec 1993
+2 PLAC Mount Calvary Cem. Cherokee, IA, USA
+1 OCCU Homemaker
+0 @I103@ INDI
+1 NAME Leanna Christine /Swanson/
+2 GIVN Leanna Christine
+2 SURN Swanson
+1 BIRT
+2 DATE 7 Jul 1948
+1 DEAT
+2 DATE 16 Jul 1948
+2 PLAC Fishkill Rural Cem. Fishkill, NY, USA
+0 @I94@ INDI
+1 NAME Chester Loyal William /Swanson/
+2 GIVN Chester Loyal William
+2 SURN Swanson
+1 SEX M
+1 BIRT
+2 DATE 31 Aug 1942
+2 PLAC Ft. Devina, Ayer, MA, USA
+0 @I123@ INDI
+1 NAME Ada Inez /Miller/
+2 GIVN Ada Inez
+2 SURN Miller
+1 SEX F
+0 @I53@ INDI
+1 NAME Larry Eugene /McGee/
+2 GIVN Larry Eugene
+2 SURN McGee
+1 SEX M
+1 BIRT
+2 DATE 11 Sep 1946
+0 @I82@ INDI
+1 NAME Tabitha /Gould/
+2 GIVN Tabitha
+2 SURN Gould
+1 BIRT
+2 DATE 1982
+0 @I113@ INDI
+1 NAME Andre //
+2 GIVN Andre
+0 @I65@ INDI
+1 NAME Albert Earle /Lawrence/
+2 GIVN Albert Earle
+2 SURN Lawrence
+1 SEX M
+0 @I81@ INDI
+1 NAME Ursula /Gould/
+2 GIVN Ursula
+2 SURN Gould
+1 BIRT
+2 DATE 1979
+0 @I43@ INDI
+1 NAME Randy Scott /Solem/
+2 GIVN Randy Scott
+2 SURN Solem
+1 SEX M
+1 BIRT
+2 DATE 18 Feb 1953
+0 @I128@ INDI
+1 NAME Kim Walker /Stanberry/
+2 GIVN Kim Walker
+2 SURN Stanberry
+1 SEX M
+0 @I45@ INDI
+1 NAME Sarah Marie /Solem/
+2 GIVN Sarah Marie
+2 SURN Solem
+1 BIRT
+2 DATE 5 Sep 1979
+0 @I46@ INDI
+1 NAME Daniel Paul /Solem/
+2 GIVN Daniel Paul
+2 SURN Solem
+1 BIRT
+2 DATE 27 Jan 1981
+0 @I44@ INDI
+1 NAME David Scott /Solem/
+2 GIVN David Scott
+2 SURN Solem
+1 BIRT
+2 DATE 8 Jul 1978
+0 @I124@ INDI
+1 NAME Donovan Burdette /Meyer/
+2 GIVN Donovan Burdette
+2 SURN Meyer
+1 SEX M
+0 @I47@ INDI
+1 NAME Matthew Allen /Solem/
+2 GIVN Matthew Allen
+2 SURN Solem
+1 BIRT
+2 DATE 23 Mar 1982
+0 @I61@ INDI
+1 NAME Raymond Howard /Gould/
+2 GIVN Raymond Howard
+2 SURN Gould
+1 SEX M
+1 BIRT
+2 DATE 25 Nov 1908
+1 DEAT
+2 DATE 13 Mar 1972
+2 PLAC Mount Calvary Cem. Cherokee, IA, USA
+0 @I79@ INDI
+1 NAME Jeffrey Jon /Gould/
+2 GIVN Jeffrey Jon
+2 SURN Gould
+0 @I125@ INDI
+1 NAME Doris /Smith/
+2 GIVN Doris
+2 SURN Smith
+1 SEX F
+0 @F0@ FAM
+1 HUSB @I0@
+1 WIFE @I1@
+1 CHIL @I2@
+1 CHIL @I4@
+1 CHIL @I84@
+1 CHIL @I85@
+1 CHIL @I86@
+1 CHIL @I87@
+1 MARR
+2 DATE 7 Jul 1866
+0 @F1@ FAM
+1 HUSB @I2@
+1 WIFE @I3@
+0 @F2@ FAM
+1 HUSB @I4@
+1 WIFE @I5@
+1 CHIL @I6@
+1 CHIL @I58@
+1 CHIL @I60@
+1 MARR
+2 DATE 29 Mar 1900
+2 PLAC Cherokee Co. IA, USA
+0 @F3@ FAM
+1 HUSB @I6@
+1 WIFE @I7@
+1 CHIL @I8@
+1 CHIL @I29@
+1 CHIL @I40@
+1 MARR
+2 DATE 23 Feb 1927
+2 PLAC Spencer, IA, USA
+0 @F4@ FAM
+1 HUSB @I9@
+1 WIFE @I8@
+1 CHIL @I10@
+1 CHIL @I15@
+1 CHIL @I19@
+1 CHIL @I24@
+1 MARR
+2 DATE 14 Nov 1953
+2 PLAC Sioux City, IA, USA
+1 NOTE * Twins
+0 @F5@ FAM
+1 HUSB @I11@
+1 WIFE @I10@
+1 CHIL @I12@
+1 CHIL @I13@
+1 CHIL @I14@
+1 MARR
+2 DATE 21 Aug 1976
+0 @F6@ FAM
+1 HUSB @I16@
+1 WIFE @I15@
+1 CHIL @I17@
+1 CHIL @I18@
+1 MARR
+2 DATE 20 Nov 1976
+0 @F7@ FAM
+1 HUSB @I19@
+1 WIFE @I20@
+1 CHIL @I21@
+0 @F8@ FAM
+1 HUSB @I19@
+1 WIFE @I22@
+1 CHIL @I23@
+0 @F9@ FAM
+1 HUSB @I25@
+1 WIFE @I24@
+1 CHIL @I26@
+1 CHIL @I27@
+1 CHIL @I28@
+1 MARR
+2 DATE 9 Jun 1986
+1 NOTE * Twins
+0 @F10@ FAM
+1 HUSB @I29@
+1 WIFE @I30@
+1 CHIL @I31@
+1 CHIL @I34@
+1 CHIL @I35@
+1 MARR
+2 DATE 27 Feb 1959
+2 PLAC Calumet, IA, USA
+0 @F11@ FAM
+1 HUSB @I32@
+1 WIFE @I31@
+1 CHIL @I33@
+1 MARR
+2 DATE 1 Sep 1979
+1 DIV
+2 DATE 1987
+0 @F12@ FAM
+1 HUSB @I35@
+1 WIFE @I36@
+1 CHIL @I37@
+1 CHIL @I38@
+1 CHIL @I39@
+1 MARR
+2 DATE 29 Aug 1987
+1 NOTE * Twins
+0 @F13@ FAM
+1 HUSB @I40@
+1 WIFE @I41@
+1 CHIL @I42@
+1 CHIL @I48@
+1 CHIL @I52@
+1 CHIL @I56@
+1 CHIL @I57@
+1 MARR
+2 DATE 21 Aug 1955
+0 @F14@ FAM
+1 HUSB @I43@
+1 WIFE @I42@
+1 CHIL @I44@
+1 CHIL @I45@
+1 CHIL @I46@
+1 CHIL @I47@
+1 MARR
+2 DATE Nov 1977
+0 @F15@ FAM
+1 HUSB @I48@
+1 WIFE @I49@
+1 CHIL @I50@
+1 CHIL @I51@
+1 MARR
+2 DATE 12 Apr 1986
+0 @F16@ FAM
+1 HUSB @I53@
+1 WIFE @I52@
+1 CHIL @I54@
+1 CHIL @I55@
+1 MARR
+2 DATE 12 May 1984
+0 @F17@ FAM
+1 HUSB @I58@
+1 WIFE @I59@
+1 MARR
+2 DATE 18 Apr 1928
+2 PLAC Cherokee, IA, USA
+0 @F18@ FAM
+1 HUSB @I61@
+1 WIFE @I60@
+1 CHIL @I62@
+1 CHIL @I77@
+1 MARR
+2 DATE 17 Oct 1931
+2 PLAC Elk Point, SD, USA
+0 @F19@ FAM
+1 HUSB @I62@
+1 WIFE @I63@
+1 CHIL @I64@
+1 CHIL @I67@
+1 CHIL @I71@
+1 CHIL @I72@
+1 MARR
+2 DATE 27 Aug 1951
+2 PLAC Elk Point, SD, USA
+0 @F20@ FAM
+1 HUSB @I65@
+1 WIFE @I64@
+0 @F21@ FAM
+1 HUSB @I68@
+1 WIFE @I67@
+0 @F22@ FAM
+1 HUSB @I72@
+1 WIFE @I73@
+1 CHIL @I74@
+1 CHIL @I75@
+1 CHIL @I76@
+1 MARR
+2 DATE 13 Sep 1975
+0 @F23@ FAM
+1 HUSB @I77@
+1 WIFE @I78@
+1 CHIL @I79@
+0 @F24@ FAM
+1 HUSB @I77@
+1 WIFE @I80@
+1 CHIL @I81@
+1 CHIL @I82@
+0 @F25@ FAM
+1 HUSB @I77@
+1 WIFE @I83@
+0 @F26@ FAM
+1 HUSB @I87@
+1 WIFE @I88@
+1 CHIL @I89@
+1 CHIL @I91@
+1 CHIL @I92@
+1 CHIL @I107@
+1 CHIL @I114@
+0 @F27@ FAM
+1 HUSB @I89@
+1 WIFE @I90@
+0 @F28@ FAM
+1 HUSB @I92@
+1 WIFE @I93@
+1 CHIL @I94@
+1 CHIL @I99@
+1 CHIL @I103@
+1 CHIL @I104@
+0 @F29@ FAM
+1 HUSB @I94@
+1 WIFE @I95@
+0 @F30@ FAM
+1 HUSB @I94@
+1 WIFE @I96@
+0 @F31@ FAM
+1 HUSB @I94@
+1 WIFE @I97@
+1 MARR
+2 DATE 24 Aug 1991
+2 PLAC Loretto Chapel, Santa Fe, NM, USA
+1 NOTE *Keeva Rachel is Catherine's daughter from a previous marriage.
+1 NOTE Technically unrelated child: Stanberry, Keeva Rachel
+0 @F32@ FAM
+1 HUSB @I99@
+1 WIFE @I100@
+1 CHIL @I101@
+1 CHIL @I102@
+1 MARR
+2 DATE 27 Aug 1967
+2 PLAC Lutheran Student Center, Ames, IA, USA
+0 @F33@ FAM
+1 HUSB @I104@
+1 WIFE @I105@
+0 @F34@ FAM
+1 HUSB @I104@
+1 WIFE @I106@
+1 MARR
+2 DATE 20 Nov 1982
+2 PLAC St. Stevens Catholic, Shamokin, PA, USA
+0 @F35@ FAM
+1 HUSB @I107@
+1 WIFE @I108@
+1 CHIL @I109@
+1 CHIL @I111@
+1 CHIL @I112@
+0 @F36@ FAM
+1 HUSB @I109@
+1 WIFE @I110@
+0 @F37@ FAM
+1 HUSB @I112@
+1 CHIL @I113@
+0 @F38@ FAM
+1 HUSB @I115@
+1 WIFE @I114@
+1 CHIL @I116@
+1 CHIL @I117@
+0 @F39@ FAM
+1 HUSB @I118@
+1 WIFE @I119@
+1 CHIL @I88@
+0 @F40@ FAM
+1 HUSB @I120@
+1 WIFE @I121@
+1 CHIL @I93@
+0 @F41@ FAM
+1 HUSB @I122@
+1 WIFE @I123@
+1 CHIL @I97@
+1 MARR
+2 DATE 24 Aug 1991
+2 PLAC Loretto Chapel, Santa Fe, NM, USA
+1 NOTE *Keeva Rachel is Catherine's daughter from a previous marriage.
+0 @F42@ FAM
+1 HUSB @I124@
+1 WIFE @I125@
+1 CHIL @I100@
+1 MARR
+2 DATE 27 Aug 1967
+2 PLAC Lutheran Student Center, Ames, IA, USA
+0 @F43@ FAM
+1 HUSB @I126@
+1 WIFE @I127@
+1 CHIL @I106@
+1 MARR
+2 DATE 20 Nov 1982
+2 PLAC St. Stevens Catholic, Shamokin, PA, USA
+0 @F44@ FAM
+1 HUSB @I128@
+1 WIFE @I97@
+1 CHIL @I98@
+0 TRLR

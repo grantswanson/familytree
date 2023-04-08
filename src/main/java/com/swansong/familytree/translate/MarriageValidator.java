@@ -22,26 +22,26 @@ public class MarriageValidator {
         }
 
 
-        if (DateUtils.isBefore(marriage.getMarriageDate(), marriage.getHusband().getDob())) {
+        if (marriage.getHusband() != null && DateUtils.isBefore(marriage.getMarriageDate(), marriage.getHusband().getDob())) {
             throw new IllegalArgumentException("Marriage date cannot be before birth date for " + husbandName +
                     ". Birth date: " + marriage.getHusband().getDob() +
                     ", Marriage date: " + marriage.getMarriageDate());
         }
 
-        if (DateUtils.isAfter(marriage.getMarriageDate(), marriage.getHusband().getDeathDate())) {
+        if (marriage.getHusband() != null && DateUtils.isAfter(marriage.getMarriageDate(), marriage.getHusband().getDeathDate())) {
             throw new IllegalArgumentException("Marriage date cannot be after death date for " + husbandName +
                     ". Death date: " + marriage.getHusband().getDeathDate() +
                     ", Marriage date: " + marriage.getMarriageDate());
         }
 
 
-        if (DateUtils.isBefore(marriage.getMarriageDate(), marriage.getWife().getDob())) {
+        if (marriage.getWife() != null && DateUtils.isBefore(marriage.getMarriageDate(), marriage.getWife().getDob())) {
             throw new IllegalArgumentException("Marriage date cannot be before birth date for " + wifeName +
                     ". Birth date: " + marriage.getWife().getDob() +
                     ", Marriage date: " + marriage.getMarriageDate());
         }
 
-        if (DateUtils.isAfter(marriage.getMarriageDate(), marriage.getWife().getDeathDate())) {
+        if (marriage.getWife() != null && DateUtils.isAfter(marriage.getMarriageDate(), marriage.getWife().getDeathDate())) {
             throw new IllegalArgumentException("Marriage date cannot be after death date for " + wifeName +
                     ". Death date: " + marriage.getWife().getDeathDate() +
                     ", Marriage date: " + marriage.getMarriageDate());

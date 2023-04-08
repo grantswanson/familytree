@@ -7,10 +7,16 @@ import com.swansong.familytree.utils.DateUtils;
 
 public class MarriageToFamily {
     public static Family convert(Marriage marriage) {
+        MarriageValidator.validate(marriage);
+
         Family family = new Family();
         family.setId(marriage.getId());
-        family.setHusbandId(marriage.getHusband().getId());
-        family.setWifeId(marriage.getWife().getId());
+        if (marriage.getHusband() != null) {
+            family.setHusbandId(marriage.getHusband().getId());
+        }
+        if (marriage.getWife() != null) {
+            family.setWifeId(marriage.getWife().getId());
+        }
 
         for (Person child : marriage.getChildren()) {
             if (child != null) {

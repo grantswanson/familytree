@@ -29,7 +29,11 @@ public class Marriage {
     private String divorceDate = "";
     private String divorcePlace = "";
 
-    private String childNotes = "";
+    private List<String> notes = new ArrayList<>();
+
+    public void addNote(String note) {
+        notes.add(note);
+    }
 
     @ToString.Exclude
     private Person[] children = new Person[ChildBuilder.MAX_CHILDREN];

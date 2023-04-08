@@ -6,14 +6,20 @@ import com.swansong.familytree.utils.DateUtils;
 
 public class PersonToIndividual {
     public static Individual convertPersonToIndividual(Person person) {
-        PersonValidator.validatePersonDates(person);
+        PersonValidator.validate(person);
 
         Individual individual = new Individual();
         individual.setId(person.getId());
         if (person.getName() != null) {
-            individual.setGivenName(person.getName().getFirstNames()); // TODO nicknames, alt names, married names
-            individual.setSurname(person.getName().getSurName());
+            individual.setGivenName(person.getName().getFirstNames());
+            individual.setSurName(person.getName().getSurName());
+            individual.setNickName(person.getName().getNickName());
+            individual.setAliasNames(person.getName().getAltNames());
+            for (String marriedName : person.getName().getMarriedNames()) {
+                individual.addNote("Married name: " + marriedName);
+            }
         }
+        individual.setGender(person.getGender());
         individual.setBirthDate(DateUtils.convertDate(person.getDob()));
         individual.setBirthPlace(person.getPob());
         individual.setBaptismDate(DateUtils.convertDate(person.getBaptismDate()));

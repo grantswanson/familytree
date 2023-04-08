@@ -4,7 +4,7 @@ import com.swansong.familytree.model.Person;
 import com.swansong.familytree.utils.DateUtils;
 
 public class PersonValidator {
-    public static void validatePersonDates(Person person) throws IllegalArgumentException {
+    public static void validate(Person person) throws IllegalArgumentException {
         String personName = person.getName() != null ? person.getName().toNameKey().toString() : "Unknown";
 
         if (DateUtils.isBefore(person.getBaptismDate(), person.getDob())) {

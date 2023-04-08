@@ -27,7 +27,7 @@ public class MarriageBuilder {
         marriage.setMarriagePlace(row.getMarriagePlace());
         marriage.setDivorceDate(row.getDivorceDate());
         marriage.setDivorcePlace(row.getDivorcePlace());
-        marriage.setChildNotes(row.getChildrenNotes());
+        marriage.addNote(row.getChildrenNotes());
 
         // don't add the children yet. However, the names are in the row
         return marriage;

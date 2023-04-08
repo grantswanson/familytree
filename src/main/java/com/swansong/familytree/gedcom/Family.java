@@ -22,7 +22,11 @@ public class Family {
     private String divorceDate = "";
     private String divorcePlace = "";
 
-    private String notes = "";
+    private List<String> notes = new ArrayList<>();
+
+    public void addNote(String note) {
+        notes.add(note);
+    }
 
     private List<Integer> childIds = new ArrayList<>();
 

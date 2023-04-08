@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 @Data
 @NoArgsConstructor
@@ -15,7 +16,13 @@ import java.util.List;
 public class Individual {
     private int id;
     private String givenName;
-    private String surname;
+    private String surName;
+
+    private String nickName;
+    private Set<String> aliasNames;
+    private String marriedName;
+
+    private String gender = "";
     private String birthDate;
     private String birthPlace;
     private String baptismDate;
@@ -36,7 +43,7 @@ public class Individual {
     public static Individual.IndividualBuilder testIndividualBuilder = Individual.builder()
             .id(1)
             .givenName("John")
-            .surname("Doe")
+            .surName("Doe")
             .birthDate("15 JAN 2000")
             .birthPlace("New York")
             .baptismDate("15 JAN 2001")
@@ -54,13 +61,13 @@ public class Individual {
     public static Individual testIndividual2 = testIndividualBuilder
             .id(2)
             .givenName("Jane")
-            .surname("Doe")
+            .surName("Doe")
             .birthDate("15 JAN 2000")
             .build();
     public static Individual testIndividual3 = testIndividualBuilder
             .id(3)
             .givenName("Baby")
-            .surname("Doe")
+            .surName("Doe")
             .birthDate("15 JAN 2021")
             .build();
 

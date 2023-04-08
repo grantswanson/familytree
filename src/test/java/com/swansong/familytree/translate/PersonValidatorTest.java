@@ -36,9 +36,9 @@ public class PersonValidatorTest {
 
         if (shouldThrow) {
             assertThrows(IllegalArgumentException.class,
-                    () -> PersonValidator.validatePersonDates(person));
+                    () -> PersonValidator.validate(person));
         } else {
-            assertDoesNotThrow(() -> PersonValidator.validatePersonDates(person));
+            assertDoesNotThrow(() -> PersonValidator.validate(person));
         }
     }
 }

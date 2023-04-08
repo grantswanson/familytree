@@ -70,7 +70,14 @@ public class GedcomWriter {
     private void writeIndividuals(List<Individual> individuals) throws IOException {
         for (Individual indiv : individuals) {
             String record = String.format("0 @I%d@ INDI\n", indiv.getId());
-            record += String.format("1 NAME %s /%s/\n", indiv.getGivenName(), indiv.getSurname());
+            record += String.format("1 NAME %s /%s/\n", indiv.getGivenName(), indiv.getSurName());
+            record += GedcomUtils.getIfNotNullOrBlank("2 GIVN %s\n", indiv.getGivenName());
+            record += GedcomUtils.getIfNotNullOrBlank("2 SURN %s\n", indiv.getSurName());
+            record += GedcomUtils.getIfNotNullOrBlank("2 NICK %s\n", indiv.getNickName());
+            for (String altName : indiv.getAliasNames()) {
+                record += GedcomUtils.getIfNotNullOrBlank("1 ALIA %s\n", altName);
+            }
+            record += GedcomUtils.getIfNotNullOrBlank("1 SEX %s\n", indiv.getGender());
 
             record += GedcomUtils.getDateAndPlace("1 BIRT\n", indiv.getBirthDate(), indiv.getBirthPlace());
             record += GedcomUtils.getDateAndPlace("1 BAPM\n", indiv.getBaptismDate(), indiv.getBaptismPlace());
@@ -101,11 +108,13 @@ public class GedcomWriter {
             for (Integer childId : family.getChildIds()) {
                 record += String.format("1 CHIL @I%d@\n", childId);
             }
-            if (family.getMarriageDate() != null && family.getMarriagePlace() != null) {
-                record += "1 MARR\n";
-                record += String.format("2 DATE %s\n", family.getMarriageDate());
-                record += String.format("2 PLAC %s\n", family.getMarriagePlace());
+            record += GedcomUtils.getDateAndPlace("1 MARR\n", family.getMarriageDate(), family.getMarriagePlace());
+            record += GedcomUtils.getDateAndPlace("1 DIV\n", family.getDivorceDate(), family.getDivorcePlace());
+
+            for (String note : family.getNotes()) {
+                record += GedcomUtils.getIfNotNullOrBlank("1 NOTE %s\n", note);
             }
+
             Files.writeString(filePath, record, StandardOpenOption.APPEND);
         }
     }

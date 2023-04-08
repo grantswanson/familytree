@@ -48,8 +48,8 @@ public class Row {
     private String spouseFather;
     private String spouseMother;
     private String spouseOccupation;
-    private String unknown1;
-    private String unknown2;
+    private String divorceDate;
+    private String divorcePlace;
     private String child1;
     private String child2;
     private String child3;

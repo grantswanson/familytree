@@ -23,19 +23,16 @@ public class Marriage {
     private Person spouse2;
     private boolean isSpousesParents;
 
+    private String marriageDate = "";
+    private String marriagePlace = "";
+
+    private String divorceDate = "";
+    private String divorcePlace = "";
+
+    private String childNotes = "";
 
     @ToString.Exclude
     private Person[] children = new Person[ChildBuilder.MAX_CHILDREN];
-
-    private List<Person> getChildrenList() {
-        List<Person> c = new ArrayList<>();
-        for (Person child : children) {
-            if (child != null) {
-                c.add(child);
-            }
-        }
-        return c;
-    }
 
     @ToString.Exclude
     private List<Person> childrenFromUnRelatedMarriage = new ArrayList<>();
@@ -68,6 +65,16 @@ public class Marriage {
     private static String formattedChildString(Person child) {
         return String.format("#%d %s %s", child.getSourceRow().getNumber(), child.getGenCode(),
                 child.getName().getFirstNames() + ", ");
+    }
+
+    private List<Person> getChildrenList() {
+        List<Person> c = new ArrayList<>();
+        for (Person child : children) {
+            if (child != null) {
+                c.add(child);
+            }
+        }
+        return c;
     }
 
     /**

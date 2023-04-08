@@ -16,9 +16,15 @@ public class Family {
     private int id;
     private Integer husbandId;
     private Integer wifeId;
+    private String marriageDate = "";
+    private String marriagePlace = "";
+
+    private String divorceDate = "";
+    private String divorcePlace = "";
+
+    private String notes = "";
+
     private List<Integer> childIds = new ArrayList<>();
-    private String marriageDate;
-    private String marriagePlace;
 
     public static Family testFamily = Family.builder()
             .id(1)

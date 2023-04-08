@@ -12,6 +12,9 @@ import com.swansong.familytree.data.PersonMap;
 import com.swansong.familytree.gedcom.Family;
 import com.swansong.familytree.gedcom.GedcomWriter;
 import com.swansong.familytree.gedcom.Individual;
+import com.swansong.familytree.model.Marriage;
+import com.swansong.familytree.model.Person;
+import com.swansong.familytree.translate.PersonToIndividual;
 
 import java.io.File;
 import java.nio.file.Paths;
@@ -19,7 +22,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import static com.swansong.familytree.gedcom.Individual.*;
 import static java.lang.System.exit;
 
 
@@ -32,13 +34,16 @@ public class FamilyTreeETLApplication {
 
         for (String inputFile : filesToProcess) {
             processInputFile(inputFile);
-            translateData();
-            String outputFile = inputFile.replace(".csv", ".ged");
-            writeOutputFile(outputFile);
 
             MarriageMap.printMarriages();
             PersonMap.printIndividualMap();
             verifyCounts(inputFile);
+
+            List<Individual> individuals = translatePeople();
+            List<Family> families = translateMarriages();
+
+            String outputFile = inputFile.replace(".csv", ".ged");
+            writeOutputFile(outputFile, individuals, families);
         }
 
 
@@ -67,13 +72,23 @@ public class FamilyTreeETLApplication {
         ChildBuilder.buildChildren();
     }
 
-    private static void translateData() {
+    private static List<Individual> translatePeople() {
+        List<Individual> individuals = new ArrayList<>();
+        for (Person person : PersonMap.getPersonList()) {
+            individuals.add(PersonToIndividual.convertPersonToIndividual(person));
+        }
+        return individuals;
     }
 
-    private static void writeOutputFile(String outputFile) {
-        List<Individual> individuals = List.of(testIndividual1, testIndividual2, testIndividual3);
-        List<Family> families = List.of(Family.testFamily);
+    private static List<Family> translateMarriages() {
+        List<Family> families = new ArrayList<>();
+        for (Marriage marriage : MarriageMap.getMarriagesCollection()) {
+            //families.add( );
+        }
+        return families;
+    }
 
+    private static void writeOutputFile(String outputFile, List<Individual> individuals, List<Family> families) {
         GedcomWriter writer = new GedcomWriter(Paths.get(outputFile));
         writer.writeGedcomFile(individuals, families);
     }

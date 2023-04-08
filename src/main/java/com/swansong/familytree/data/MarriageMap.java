@@ -48,4 +48,5 @@ public class MarriageMap {
     public static int count() {
         return marriages.size();
     }
+
 }

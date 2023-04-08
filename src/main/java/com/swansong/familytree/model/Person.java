@@ -32,6 +32,8 @@ public class Person {
     private String baptismPlace = "";
     private String confirmationDate = "";
     private String confirmationPlace = "";
+    private String highSchoolGradDate = "";
+    private String highSchoolGradPlace = "";
     private String deathDate = "";
     private String burialPlace = "";
     private String occupation = "";

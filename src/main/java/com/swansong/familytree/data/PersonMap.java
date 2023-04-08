@@ -4,10 +4,7 @@ import com.swansong.familytree.model.Name;
 import com.swansong.familytree.model.NameKey;
 import com.swansong.familytree.model.Person;
 
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class PersonMap {
@@ -88,4 +85,7 @@ public class PersonMap {
 
     }
 
+    public static Collection<Person> getPersonList() {
+        return individualMapByGenCode.values();
+    }
 }

@@ -1,6 +1,5 @@
-package com.swansong.familytree;
+package com.swansong.familytree.utils;
 
-import com.swansong.familytree.utils.DateUtils;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 

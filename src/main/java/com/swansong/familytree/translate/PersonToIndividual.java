@@ -2,6 +2,7 @@ package com.swansong.familytree.translate;
 
 import com.swansong.familytree.gedcom.Individual;
 import com.swansong.familytree.model.Person;
+import com.swansong.familytree.utils.DateUtils;
 
 public class PersonToIndividual {
     public static Individual convertPersonToIndividual(Person person) {
@@ -35,7 +36,7 @@ public class PersonToIndividual {
             String year = dateParts[0];
             String month = dateParts[1];
             String day = dateParts[2];
-            if (PersonValidator.isValidDate(year, month, day)) {
+            if (DateUtils.isValidDate(year, month, day)) {
                 return day + " " + month + " " + year;
             } else {
                 return "";
@@ -43,14 +44,14 @@ public class PersonToIndividual {
         } else if (dateParts.length == 2) {
             String year = dateParts[0];
             String month = dateParts[1];
-            if (PersonValidator.isValidYear(year)) {
+            if (DateUtils.isValidYear(year)) {
                 return month + " " + year;
             } else {
                 return "";
             }
         } else if (dateParts.length == 1) {
             String year = dateParts[0];
-            if (PersonValidator.isValidYear(year)) {
+            if (DateUtils.isValidYear(year)) {
                 return year;
             } else {
                 return "";

@@ -1,7 +1,7 @@
 package com.swansong.familytree.data;
 
-import com.swansong.familytree.StringUtilities;
 import com.swansong.familytree.model.Marriage;
+import com.swansong.familytree.utils.StringUtils;
 import lombok.Data;
 
 import java.util.Collection;
@@ -19,7 +19,7 @@ public class MarriageMap {
         if (currentMarriage != null) {
             throw new RuntimeException("Error: Tried to add someone who is already there by genCode! cur:" +
                     currentMarriage.toFormattedString() + "\n trying to add:" + newMarriage.toFormattedString() +
-                    "\n diff:" + StringUtilities.diff(currentMarriage.toString(), newMarriage.toString()));
+                    "\n diff:" + StringUtils.diff(currentMarriage.toString(), newMarriage.toString()));
         }
         marriages.put(newMarriage.getId(), newMarriage);
     }

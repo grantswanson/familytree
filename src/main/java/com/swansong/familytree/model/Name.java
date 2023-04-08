@@ -10,7 +10,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import static com.swansong.familytree.StringUtilities.*;
+import static com.swansong.familytree.utils.StringUtils.*;
 
 @Data
 @NoArgsConstructor

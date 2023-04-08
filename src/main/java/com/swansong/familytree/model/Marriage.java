@@ -1,8 +1,8 @@
 package com.swansong.familytree.model;
 
-import com.swansong.familytree.StringUtilities;
 import com.swansong.familytree.biz.ChildBuilder;
 import com.swansong.familytree.csv.Row;
+import com.swansong.familytree.utils.StringUtils;
 import lombok.Data;
 import lombok.ToString;
 
@@ -77,13 +77,13 @@ public class Marriage {
         ChildBuilder.verifyChildNumber(childNum);
         Person existingChild = children[childNum - 1];
         if (existingChild != null &&
-                StringUtilities.diff(existingChild.toString(), child.toString()).size() > 0) {
+                StringUtils.diff(existingChild.toString(), child.toString()).size() > 0) {
             System.out.println(
                     "overwriting existing child #:" + childNum + " " + existingChild.getGenCode() + " " + existingChild.getName().toFullName() +
                             "\n               with new child:" + child.getGenCode() + " " + child.getName().toFullName() +
                             "\n existing:" + existingChild +
                             "\n      new:" + child +
-                            "\n differences:" + StringUtilities.diff(existingChild.toString(), child.toString()));
+                            "\n differences:" + StringUtils.diff(existingChild.toString(), child.toString()));
         }
         children[childNum - 1] = child;
     }

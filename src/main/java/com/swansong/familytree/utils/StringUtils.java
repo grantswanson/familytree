@@ -1,11 +1,11 @@
-package com.swansong.familytree;
+package com.swansong.familytree.utils;
 
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-public class StringUtilities {
+public class StringUtils {
     public static String toCapitalizedCase(String str) {
         if (str == null || str.isEmpty()) {
             return str; // return the original string if it's null or empty

@@ -2,6 +2,7 @@ package com.swansong.familytree;
 
 import com.swansong.familytree.biz.ChildBuilder;
 import com.swansong.familytree.model.Name;
+import com.swansong.familytree.utils.StringUtils;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -182,13 +183,13 @@ public class  NameTest {
     @ParameterizedTest
     @CsvSource({"'', ','", "'Smith, John', 'Smith, John'", "'Jane', ',Jane'", "'Doe, John', 'Doe, John'", ", ','"})
     void addCommaIfMissingTest(String name, String expected) {
-        assertEquals(expected, StringUtilities.addCommaIfMissing(name));
+        assertEquals(expected, StringUtils.addCommaIfMissing(name));
     }
 
     @ParameterizedTest
     @CsvSource({"'Smith, John * ', 'Smith, John'", "'Jane*', 'Jane'", "'Doe, Jill * [Roe]', 'Doe, Jill  [Roe]'", "'  *  ',''"})
     void removeAsteriskTest(String name, String expected) {
-        assertEquals(expected, StringUtilities.removeAsterisk(name));
+        assertEquals(expected, StringUtils.removeAsterisk(name));
     }
 
     @ParameterizedTest

@@ -11,7 +11,7 @@ import com.swansong.familytree.model.Person;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.swansong.familytree.StringUtilities.addCommaIfMissing;
+import static com.swansong.familytree.utils.StringUtils.addCommaIfMissing;
 
 public class ChildBuilder {
     public static final int MAX_CHILDREN = 12;

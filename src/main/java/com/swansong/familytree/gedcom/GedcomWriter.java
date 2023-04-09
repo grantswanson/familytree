@@ -119,7 +119,7 @@ public class GedcomWriter {
             record += GedcomUtils.getDateAndPlace("1 DIV\n", family.getDivorceDate(), family.getDivorcePlace());
 
             for (String note : family.getNotes()) {
-                record += GedcomUtils.getIfNotNullOrBlank("1 FACT %s\n", note);
+                record += GedcomUtils.getIfNotNullOrBlank("1 NOTE %s\n", note);
             }
 
             Files.writeString(filePath, record, StandardOpenOption.APPEND);

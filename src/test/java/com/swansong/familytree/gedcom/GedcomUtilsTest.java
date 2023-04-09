@@ -44,10 +44,10 @@ class GedcomUtilsTest {
     @ParameterizedTest
     @CsvSource({
             "'John', 'Doe', 'Jr', '1 NAME John /Doe/ Jr\n'",
-            "'John', 'Doe', null, '1 NAME John /Doe/\n'",
+            "'John', 'Doe', '   ', '1 NAME John /Doe/\n'",
             "'John', 'Doe', '', '1 NAME John /Doe/\n'",
-            "null, 'Doe', null, '1 NAME /Doe/\n'",
-            "'', 'Doe', null, '1 NAME /Doe/\n'"
+            "'  ', 'Doe', '  ', '1 NAME /Doe/\n'",
+            "'', 'Doe', '', '1 NAME /Doe/\n'"
     })
     void testGetNameTag(String givenName, String surName, String suffix, String expected) {
         assertEquals(expected, GedcomUtils.getNameTag(givenName, surName, suffix));

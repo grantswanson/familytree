@@ -70,7 +70,11 @@ public class GedcomWriter {
     private void writeIndividuals(List<Individual> individuals) throws IOException {
         for (Individual indiv : individuals) {
             String record = String.format("0 @I%d@ INDI\n", indiv.getId());
-            record += String.format("1 NAME %s /%s/\n", indiv.getGivenName(), indiv.getSurName());
+            if (indiv.getGivenName() != null && !indiv.getGivenName().isBlank()) {
+                record += String.format("1 NAME %s /%s/\n", indiv.getGivenName(), indiv.getSurName());
+            } else {
+                record += String.format("1 NAME /%s/\n", indiv.getSurName());
+            }
             record += GedcomUtils.getIfNotNullOrBlank("2 GIVN %s\n", indiv.getGivenName());
             record += GedcomUtils.getIfNotNullOrBlank("2 SURN %s\n", indiv.getSurName());
             record += GedcomUtils.getIfNotNullOrBlank("2 NICK %s\n", indiv.getNickName());

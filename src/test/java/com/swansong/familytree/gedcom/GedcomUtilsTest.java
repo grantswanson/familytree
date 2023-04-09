@@ -32,7 +32,7 @@ class GedcomUtilsTest {
 
     @ParameterizedTest
     @CsvSource({
-            "'1 NOTE %s', 'This is a very, very long note that exceeds the maximum line length of 255 characters. This is a very long note that exceeds the maximum line length of 255 characters. This is a very long note that exceeds the maximum line length of 255 characters. This is a very long note that exceeds the maximum line length of 255 characters.'," +
+            "'1 NOTE %s\n', 'This is a very, very long note that exceeds the maximum line length of 255 characters. This is a very long note that exceeds the maximum line length of 255 characters. This is a very long note that exceeds the maximum line length of 255 characters. This is a very long note that exceeds the maximum line length of 255 characters.'," +
                     "'1 NOTE This is a very, very long note that exceeds the maximum line length of 255 characters. This is a very long note that exceeds the maximum line length of 255 characters. This is a very long note that exceeds the maximum line length of 255\n" +
                     "2 CONC characters. This is a very long note that exceeds the maximum line length of 255 characters.\n'"
 

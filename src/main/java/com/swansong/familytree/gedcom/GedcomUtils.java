@@ -27,7 +27,7 @@ public class GedcomUtils {
 
                 for (int i = 1; i < notes.length; i++) {
                     if (tag.length() + notes[i].length() <= MAX_LINE_LENGTH) {
-                        retStr += String.format("\n2 CONC %s\n", notes[i]);
+                        retStr += String.format("2 CONC %s\n", notes[i]);
                         //System.out.println(" Long String. Adding: "+String.format("2 CONC %s\n", notes[i]));
                     } else {
                         throw new RuntimeException("Line too long!!! Max:" + MAX_LINE_LENGTH +

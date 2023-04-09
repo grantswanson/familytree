@@ -75,7 +75,10 @@ public class GedcomWriter {
             record += GedcomUtils.getIfNotNullOrBlank("2 SURN %s\n", indiv.getSurName());
             record += GedcomUtils.getIfNotNullOrBlank("2 NICK %s\n", indiv.getNickName());
             for (String altName : indiv.getAliasNames()) {
-                record += GedcomUtils.getIfNotNullOrBlank("1 ALIA %s\n", altName);
+                record += String.format("1 NAME %s /%s/\n", altName, indiv.getSurName());
+                record += GedcomUtils.getIfNotNullOrBlank("2 TYPE aka\n", "");
+                record += GedcomUtils.getIfNotNullOrBlank("2 GIVN %s\n", altName);
+                record += GedcomUtils.getIfNotNullOrBlank("2 SURN %s\n", indiv.getSurName());
             }
             record += GedcomUtils.getIfNotNullOrBlank("1 SEX %s\n", indiv.getGender());
 

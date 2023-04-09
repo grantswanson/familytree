@@ -26,7 +26,7 @@ public class PersonToIndividual {
         individual.setBaptismPlace(person.getBaptismPlace());
         individual.setConfirmationDate(DateUtils.convertDate(person.getConfirmationDate()));
         individual.setConfirmationPlace(person.getConfirmationPlace());
-        individual.setHighSchoolGraduationDate(person.getHighSchoolGradDate());
+        individual.setHighSchoolGraduationDate(DateUtils.convertDate(person.getHighSchoolGradDate()));
         individual.setHighSchoolGraduationPlace(person.getHighSchoolGradPlace());
         individual.setDeathDate(DateUtils.convertDate(person.getDeathDate()));
         individual.setDeathPlace(person.getBurialPlace());

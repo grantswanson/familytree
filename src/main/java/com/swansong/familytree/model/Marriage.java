@@ -71,7 +71,7 @@ public class Marriage {
                 child.getName().getFirstNames() + ", ");
     }
 
-    private List<Person> getChildrenList() {
+    public List<Person> getChildrenList() {
         List<Person> c = new ArrayList<>();
         for (Person child : children) {
             if (child != null) {

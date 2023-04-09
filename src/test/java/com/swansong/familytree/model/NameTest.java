@@ -242,6 +242,17 @@ public class  NameTest {
     }
 
     @ParameterizedTest
+    @CsvSource({
+            "'John Smith', true",
+            "'Jane Doe', true",
+            "', Doe', false",
+            "'John', true"
+    })
+    public void hasSurnameTest(String input, boolean expectedOutput) {
+        assertEquals(expectedOutput, Name.hasSurname(input));
+    }
+
+    @ParameterizedTest
     @CsvSource({"'Smith, Lynn', 'Smith, linn', 'Smith, Lynn alt: Linn'",
             "'Meyer, Minnie E. * \"Minny\" [Fastenow], Jr alt: Min', ', Minne E. [Fastenow]', 'Meyer, Minnie E \"Minny\" [Fastenow], Jr alt: Min Minne'",
             "'Tigges, Marie Emma Lina [Kracht] alt: Lena', 'Tigges, Marie Emma Lena [Kracht]','Tigges, Marie Emma Lina [Kracht] alt: Lena'",

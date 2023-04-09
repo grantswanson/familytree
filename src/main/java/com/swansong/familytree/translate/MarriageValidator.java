@@ -1,6 +1,7 @@
 package com.swansong.familytree.translate;
 
 import com.swansong.familytree.model.Marriage;
+import com.swansong.familytree.model.Person;
 import com.swansong.familytree.utils.DateUtils;
 
 public class MarriageValidator {
@@ -47,6 +48,27 @@ public class MarriageValidator {
             throw new IllegalArgumentException("Marriage date cannot be after death date for " + wifeName +
                     ". Death date: " + marriage.getWife().getDeathDate() +
                     ", Marriage date: " + marriage.getMarriageDate());
+        }
+
+
+        if (marriage.getHusband() != null) {
+            for (Person child : marriage.getChildrenList()) {
+                if (marriage.getHusband().getId() == child.getId()) {
+                    throw new IllegalArgumentException("Parents shouldn't be children in the same family. Husband:" + husbandName +
+                            ". childName: " + child.getName().toFullName() +
+                            " ln#:" + marriage.getSourceRow().getNumber());
+                }
+            }
+        }
+
+        if (marriage.getWife() != null) {
+            for (Person child : marriage.getChildrenList()) {
+                if (marriage.getWife().getId() == child.getId()) {
+                    throw new IllegalArgumentException("Parents shouldn't children in the same family. Wife:" + wifeName +
+                            ". childName: " + child.getName().toFullName() +
+                            " ln#:" + marriage.getSourceRow().getNumber());
+                }
+            }
         }
 
     }

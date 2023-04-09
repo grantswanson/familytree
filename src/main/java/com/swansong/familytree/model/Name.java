@@ -321,6 +321,10 @@ public class Name {
         return name.trim().endsWith(",");
     }
 
+    public static boolean hasSurname(String name) {
+        return !name.trim().startsWith(",");
+    }
+
 
     public NameKey toNameKey() {
         // only firstname, surname and suffix

@@ -40,4 +40,16 @@ public class GedcomUtils {
         }
         return "";
     }
+
+    static String getNameTag(String givenName, String surName, String suffix) {
+        String name = "";
+        if (givenName != null && !givenName.isBlank()) {
+            name += givenName + " ";
+        }
+        name += "/" + surName + "/";
+        if (suffix != null && !suffix.isBlank()) {
+            name += " " + suffix;
+        }
+        return String.format("1 NAME %s\n", name);
+    }
 }

@@ -14,6 +14,7 @@ public class PersonToIndividual {
             individual.setGivenName(person.getName().getFirstNames());
             individual.setSurName(person.getName().getSurName());
             individual.setNickName(person.getName().getNickName());
+            individual.setSuffix(person.getName().getSuffix());
             individual.setAliasNames(person.getName().getAltNames());
             for (String marriedName : person.getName().getMarriedNames()) {
                 individual.addNote("Married name: " + marriedName);

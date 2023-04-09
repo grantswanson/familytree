@@ -21,6 +21,7 @@ public class Individual {
     private String nickName;
     private Set<String> aliasNames;
     private String marriedName;
+    private String suffix;
 
     private String gender = "";
     private String birthDate;

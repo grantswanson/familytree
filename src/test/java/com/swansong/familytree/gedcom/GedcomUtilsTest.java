@@ -4,7 +4,6 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class GedcomUtilsTest {
 
@@ -33,9 +32,12 @@ class GedcomUtilsTest {
 
     @ParameterizedTest
     @CsvSource({
-            "'1 NOTE %s', 'This is a very long note that exceeds the maximum line length of 255 characters. This is a very long note that exceeds the maximum line length of 255 characters. This is a very long note that exceeds the maximum line length of 255 characters. This is a very long note that exceeds the maximum line length of 255 characters.'"
+            "'1 NOTE %s', 'This is a very, very long note that exceeds the maximum line length of 255 characters. This is a very long note that exceeds the maximum line length of 255 characters. This is a very long note that exceeds the maximum line length of 255 characters. This is a very long note that exceeds the maximum line length of 255 characters.'," +
+                    "'1 NOTE This is a very, very long note that exceeds the maximum line length of 255 characters. This is a very long note that exceeds the maximum line length of 255 characters. This is a very long note that exceeds the maximum line length of 255\n" +
+                    "2 CONC characters. This is a very long note that exceeds the maximum line length of 255 characters.\n'"
+
     })
-    void testGetIfNotNullOrBlankThrowsException(String tag, String data) {
-        assertThrows(RuntimeException.class, () -> GedcomUtils.getIfNotNullOrBlank(tag, data));
+    void testGetIfNotNullOrBlankLongString(String tag, String data, String expected) {
+        assertEquals(expected, GedcomUtils.getIfNotNullOrBlank(tag, data));
     }
 }

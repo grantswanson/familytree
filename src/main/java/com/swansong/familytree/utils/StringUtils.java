@@ -1,9 +1,6 @@
 package com.swansong.familytree.utils;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.LinkedHashSet;
-import java.util.Set;
+import java.util.*;
 
 public class StringUtils {
     public static String toCapitalizedCase(String str) {
@@ -134,5 +131,25 @@ public class StringUtils {
 
     public static boolean isNullOrBlank(String str) {
         return str == null || str.isBlank();
+    }
+
+    public static String[] splitStringAlongWords(String input, int maxLength) {
+        String[] words = input.split(" ");
+        List<String> result = new ArrayList<>();
+        StringBuilder currentSubstring = new StringBuilder();
+        for (String word : words) {
+            if (currentSubstring.length() + word.length() + 1 > maxLength) {
+                result.add(currentSubstring.toString());
+                currentSubstring.setLength(0);
+            }
+            if (currentSubstring.length() > 0) {
+                currentSubstring.append(" ");
+            }
+            currentSubstring.append(word);
+        }
+        if (currentSubstring.length() > 0) {
+            result.add(currentSubstring.toString());
+        }
+        return result.toArray(new String[0]);
     }
 }

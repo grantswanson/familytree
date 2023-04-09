@@ -68,4 +68,17 @@ public class DateUtilsTest {
     void testIsValidDate(String year, String month, String day, boolean expected) {
         assertEquals(expected, DateUtils.isValidDate(year, month, day));
     }
+
+    @ParameterizedTest
+    @CsvSource({
+            "null, ''",
+            "'', ''",
+            "'invalid date', ''",  // TODO Don't silently fail if an error
+            "'2022', '2022'",
+            "'2022 Jan', 'Jan 2022'",
+            "'2022 Jan 01', '01 Jan 2022'"
+    })
+    void testConvertDate(String input, String expected) {
+        assertEquals(expected, DateUtils.convertDate(input));
+    }
 }

@@ -16,9 +16,11 @@ public class MarriageValidator {
         }
 
         if (DateUtils.isBefore(marriage.getDivorceDate(), marriage.getMarriageDate())) {
-            throw new IllegalArgumentException("Divorce date cannot be before marriage date for " +
-                    husbandName + " and " + wifeName + ". Marriage date: " + marriage.getMarriageDate() +
-                    ", Divorce date: " + marriage.getDivorceDate());
+            System.out.println(
+                    //throw new IllegalArgumentException(
+                    "Warning: Divorce date should NOT be before marriage date for " +
+                            husbandName + " and " + wifeName + ". Marriage date: " + marriage.getMarriageDate() +
+                            ", Divorce date: " + marriage.getDivorceDate());
         }
 
 

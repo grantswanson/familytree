@@ -49,11 +49,11 @@ public class ChildBuilder {
             if (expectedPerson != null) {
                 foundUnrelatedChild = true;
 
-                System.out.println("ln#" + row.getNumber() + " Child #" + i + " " + childsName.toFullName() +
-                        " FOUND under a different marriage." +
-                        "\n origGenCode:" + expectedCode +
-                        "\n altGenCode :" + altMarriageExpectedCode +
-                        (expectedPerson.hasChildRelatedNotes() ? " miscNotes:" + expectedPerson.getChildRelatedNotes() : ""));
+//                System.out.println("ln#" + row.getNumber() + " Child #" + i + " " + childsName.toFullName() +
+//                        " FOUND under a different marriage." +
+//                        "\n origGenCode:" + expectedCode +
+//                        "\n altGenCode :" + altMarriageExpectedCode +
+//                        (expectedPerson.hasChildRelatedNotes() ? " miscNotes:" + expectedPerson.getChildRelatedNotes() : ""));
                 if (!expectedPerson.hasChildRelatedNotes()) {
                     //System.out.println
                     throw new RuntimeException
@@ -67,7 +67,8 @@ public class ChildBuilder {
             expectedPerson = PersonMap.getPersonByNameKey(childsName.toNameKey());
             if (expectedPerson != null) {
                 System.out.println("ln#" + row.getNumber() + " Child #" + i + " " + childsName.toFullName() +
-                        " found BY NAME:" + expectedPerson);
+                        "\n  found BY NAME:" + expectedPerson.getName().toFullName() + "\n person:" + expectedPerson +
+                        "\n");
             }
         }
 

@@ -56,15 +56,9 @@ public class Person {
                 name.isAsteriskPresent() || GenCode.isUnrelated(genCode);
     }
 
-    public String getChildRelatedNotes() {
-        return (childrenNotes == null ? "" : childrenNotes) +
-                (name.isAsteriskPresent() ? " hasAsterisk" : "") +
-                (GenCode.isUnrelated(genCode) ? " isUnrelated:" + genCode : "");
-    }
-
 
     public void addNote(String note) {
-        notes.add(note);
+        notes.add(note.trim());
     }
 
     public void addSpouse(Person spouse) {

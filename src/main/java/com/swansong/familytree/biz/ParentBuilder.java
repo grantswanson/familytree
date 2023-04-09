@@ -27,7 +27,7 @@ public class ParentBuilder {
                     father.setGenCode(GenCode.buildUnrelatedFathersCode(row.getGenCode()));
                     father.setSourceRow(row);
                     createMarriage = true;
-                    System.out.println("ln#:" + row.getNumber() + " created father:" + father.toShortString());
+//                    System.out.println("ln#:" + row.getNumber() + " created father:" + father.toShortString());
 
                     PersonMap.savePerson(father);
 
@@ -44,7 +44,7 @@ public class ParentBuilder {
                     mother.setGenCode(GenCode.buildUnrelatedMothersCode(row.getGenCode()));
                     mother.setSourceRow(row);
                     createMarriage = true;
-                    System.out.println("ln#:" + row.getNumber() + " created mother:" + mother.toShortString());
+                    //System.out.println("ln#:" + row.getNumber() + " created mother:" + mother.toShortString());
 
                     PersonMap.savePerson(mother);
 

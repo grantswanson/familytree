@@ -1,21 +1,24 @@
 0 HEAD
-1 SOUR MyGenealogyProgram
-2 VERS 1.0
-2 NAME My Genealogy Program
-2 CORP My Corporation
-3 ADDR 1234 Main Street
-4 CONT Anytown, USA 12345
-1 DEST AnotherGenealogyProgram
-1 DATE 1 JAN 2022
-2 TIME 12:00:00
-1 FILE myGedcomFile.ged
+1 CHAR UTF-8
+1 LANG English
+1 DATE 20 APR 2023
 1 GEDC
 2 VERS 5.5.1
 2 FORM LINEAGE-LINKED
-1 CHAR UTF-8
+1 SOUR SwansongCustomJavaProgram
+2 VERS 1.0
+1 NOTE Donovan Burdette /Meyer/ compiled the information up until his death in 2001. In 2023, Donovan's grandson, Grant Matthew /Swanson/ converted the records from a custom database using Microsoft Works to a GEDCOM file.
 1 SUBM @U1@
 0 @U1@ SUBM
-1 NAME Reldon Poulson
+1 NAME Grant Matthew /Swanson/
+0 @S1@ SOUR
+1 TITL Information compiled by Donovan Burdette /Meyer/
+1 NOTE Author: Donovan Burdette /Meyer/
+2 CONT Information compiled by Donovan Burdette /Meyer/ up until his death in 2001.
+0 @S2@ SOUR
+1 TITL GEDCOM conversion by Grant Matthew /Swanson/
+1 NOTE Author: Grant Matthew /Swanson/
+2 CONT In 2023, Donovan's grandson, Grant Matthew /Swanson/ converted the records from a custom database using Microsoft Works to a GEDCOM file.
 0 @I42@ INDI
 1 NAME Linda Sue /Swanson/
 2 GIVN Linda Sue
@@ -52,7 +55,7 @@
 1 DEAT
 2 DATE 25 Sep 1965
 2 PLAC Cedar Cem, Larrabee, IA, USA
-1 NOTE * Still born
+1 FACT * Still born
 0 @I116@ INDI
 1 NAME Carolyn /Kincel/
 2 GIVN Carolyn
@@ -119,10 +122,10 @@
 2 DATE 21 Mar 1971
 2 PLAC Bethesda Naval Hosp. Bethesda, MD, USA
 1 OCCU College Student
-1 NOTE Grant graduated from Peekskill, NY. High School in 1989.  He is now studing Computer Science at the University of Wisconsin in Madison.
-1 NOTE He was Baptized in Gathersburg, MD.  He attended and was confirmed at Grace Lutheran in Yorktown Heights, NY.
-1 NOTE Grant enjoys mountain biking, juggling and racquetball.  He wrestled for five years in School.
-1 NOTE He has traveled many parts of the world including Europe, Japan, India and China.  He spent a year in Turkey as a Rotary International Exchange student.
+1 FACT Grant graduated from Peekskill, NY. High School in 1989.  He is now studing Computer Science at the University of Wisconsin in Madison.
+1 FACT He was Baptized in Gathersburg, MD.  He attended and was confirmed at Grace Lutheran in Yorktown Heights, NY.
+1 FACT Grant enjoys mountain biking, juggling and racquetball.  He wrestled for five years in School.
+1 FACT He has traveled many parts of the world including Europe, Japan, India and China.  He spent a year in Turkey as a Rotary International Exchange student.
 0 @I35@ INDI
 1 NAME Bryon Clarence /Swanson/
 2 GIVN Bryon Clarence
@@ -130,7 +133,7 @@
 1 SEX M
 1 BIRT
 2 DATE 26 Jun 1964
-1 NOTE * Twins
+1 FACT * Twins
 0 @I108@ INDI
 1 NAME Sylvia //
 2 GIVN Sylvia
@@ -184,11 +187,11 @@
 1 GRAD
 2 PLAC Peekskill HS, Peekskill, NY, USA
 1 OCCU Architectural/Computer Systems Analyist .
-1 NOTE Loren graduated with a Bachlors of Architecture from Iowa State in 8/93.
-1 NOTE Loren belongs to Grace Lutheran Church in Yorktown Heights, NY.
-1 NOTE N/A
-1 NOTE Loren likes traveling, computers, drawing , woodworking, and kite flying.  He wrestled all four years in high school.
-1 NOTE He lived in the Philippines for one year as a Rotary Exchange student.
+1 FACT Loren graduated with a Bachlors of Architecture from Iowa State in 8/93.
+1 FACT Loren belongs to Grace Lutheran Church in Yorktown Heights, NY.
+1 FACT N/A
+1 FACT Loren likes traveling, computers, drawing , woodworking, and kite flying.  He wrestled all four years in high school.
+1 FACT He lived in the Philippines for one year as a Rotary Exchange student.
 0 @I1@ INDI
 1 NAME Martha /Hakansdotter/
 2 GIVN Martha
@@ -205,7 +208,7 @@
 2 GIVN Kevin
 2 SURN Neuzil
 1 SEX M
-1 NOTE * Twins
+1 FACT * Twins
 0 @I88@ INDI
 1 NAME Kerstin /Swanson/
 2 GIVN Kerstin
@@ -293,7 +296,7 @@
 1 DEAT
 2 DATE 30 Nov 1943
 2 PLAC Cedar Cem. Larrabee, IA, USA
-1 NOTE John came to America in 1887, returned to Sweden in1890 and came back to America in 1895 with his brother Will.
+1 FACT John came to America in 1887, returned to Sweden in1890 and came back to America in 1895 with his brother Will.
 0 @I76@ INDI
 1 NAME Rueben Joshua /Gould/
 2 GIVN Rueben Joshua
@@ -473,7 +476,7 @@
 1 BIRT
 2 DATE 24 Mar 1928
 1 OCCU Homemaker
-1 NOTE * Twins
+1 FACT * Twins
 0 @I70@ INDI
 1 NAME Samantha /Clouten/
 2 GIVN Samantha
@@ -522,7 +525,7 @@
 1 BIRT
 2 DATE 26 Mar 1965
 1 OCCU Homemaker
-1 NOTE * Twins
+1 FACT * Twins
 0 @I11@ INDI
 1 NAME Garry /Rapala/
 2 GIVN Garry
@@ -642,7 +645,7 @@
 2 DATE 22 Jun 1939
 2 PLAC Cedar Cem. Larrabee, IA, USA
 1 OCCU Homemaker
-1 NOTE John came to America in 1887, returned to Sweden in1890 and came back to America in 1895 with his brother Will.
+1 FACT John came to America in 1887, returned to Sweden in1890 and came back to America in 1895 with his brother Will.
 0 @I15@ INDI
 1 NAME Valorie Ann /Redshaw/
 2 GIVN Valorie Ann
@@ -666,7 +669,7 @@
 1 BIRT
 2 DATE 30 Apr 1961
 1 OCCU Homemaker
-1 NOTE * Twins
+1 FACT * Twins
 0 @I93@ INDI
 1 NAME Viola Christina Francis /Locker/
 2 GIVN Viola Christina Francis
@@ -710,12 +713,12 @@
 2 DATE 1962
 2 PLAC Ames High School, Ames, IA, USA
 1 OCCU Homemaker & Exchange Student Mother
-1 NOTE Roger earned a Doctor of Veterinary Medicine from Iowa State University at Ames, IA.  Carol earned a BS degree in Home Economics from Iowa State and a two year Associates degree from the School of Fine Arts in New York City.
-1 NOTE Both Roger and Carol are now active in Grace Lutheran in Yorktown, NY. Carol served as President & Sectretary of Grace Congregation Council and is now active in Synod Work.
-1 NOTE Roger served in the Public Health Service for 2 years at National Institute of Health at Poolesville and Bethesda, MD. Earned a rank of Captain.
-1 NOTE Roger is active in Westchester AVMA and Rotary International Youth Exchange.  Carol is active in the Women of the ELCA as editor of the Synodical newsletter.
-1 NOTE Roger enjoys animals, helping coach wrestling and traveling.  Carol enjoys ballroom dancing, sewing and crafts.
-1 NOTE Roger and Carol have been honored as Paul Harris Fellows for their work in Youth Exchange. Roger was named to the athletic Hall of Fame of John Jay H. S. Wappingers & of Peekskill H.S. for his achievements & work in wrestling.
+1 FACT Roger earned a Doctor of Veterinary Medicine from Iowa State University at Ames, IA.  Carol earned a BS degree in Home Economics from Iowa State and a two year Associates degree from the School of Fine Arts in New York City.
+1 FACT Both Roger and Carol are now active in Grace Lutheran in Yorktown, NY. Carol served as President & Sectretary of Grace Congregation Council and is now active in Synod Work.
+1 FACT Roger served in the Public Health Service for 2 years at National Institute of Health at Poolesville and Bethesda, MD. Earned a rank of Captain.
+1 FACT Roger is active in Westchester AVMA and Rotary International Youth Exchange.  Carol is active in the Women of the ELCA as editor of the Synodical newsletter.
+1 FACT Roger enjoys animals, helping coach wrestling and traveling.  Carol enjoys ballroom dancing, sewing and crafts.
+1 FACT Roger and Carol have been honored as Paul Harris Fellows for their work in Youth Exchange. Roger was named to the athletic Hall of Fame of John Jay H. S. Wappingers & of Peekskill H.S. for his achievements & work in wrestling.
 0 @I97@ INDI
 1 NAME Catherine Lucille /Pichler/
 2 GIVN Catherine Lucille
@@ -725,7 +728,7 @@
 2 DATE 5 Jul 1949
 2 PLAC Riverside, CA, USA
 1 OCCU Homemaker
-1 NOTE *Keeva Rachel is Catherine's daughter from a previous marriage.
+1 FACT *Keeva Rachel is Catherine's daughter from a previous marriage.
 0 @I9@ INDI
 1 NAME John E /Redshaw/
 2 GIVN John E
@@ -736,7 +739,7 @@
 1 DEAT
 2 DATE 18 Dec 1988
 2 PLAC The Cedars Memorial Park Cem. Sioux City, IA, USA
-1 NOTE * Twins
+1 FACT * Twins
 0 @I50@ INDI
 1 NAME Brandy Lorraine /Swanson/
 2 GIVN Brandy Lorraine
@@ -806,12 +809,12 @@
 1 GRAD
 2 PLAC Wappingers Central, Wappingers Falls, NY
 1 OCCU Veterinarian
-1 NOTE Roger earned a Doctor of Veterinary Medicine from Iowa State University at Ames, IA.  Carol earned a BS degree in Home Economics from Iowa State and a two year Associates degree from the School of Fine Arts in New York City.
-1 NOTE Both Roger and Carol are now active in Grace Lutheran in Yorktown, NY. Carol served as President & Sectretary of Grace Congregation Council and is now active in Synod Work.
-1 NOTE Roger served in the Public Health Service for 2 years at National Institute of Health at Poolesville and Bethesda, MD. Earned a rank of Captain.
-1 NOTE Roger is active in Westchester AVMA and Rotary International Youth Exchange.  Carol is active in the Women of the ELCA as editor of the Synodical newsletter.
-1 NOTE Roger enjoys animals, helping coach wrestling and traveling.  Carol enjoys ballroom dancing, sewing and crafts.
-1 NOTE Roger and Carol have been honored as Paul Harris Fellows for their work in Youth Exchange. Roger was named to the athletic Hall of Fame of John Jay H. S. Wappingers & of Peekskill H.S. for his achievements & work in wrestling.
+1 FACT Roger earned a Doctor of Veterinary Medicine from Iowa State University at Ames, IA.  Carol earned a BS degree in Home Economics from Iowa State and a two year Associates degree from the School of Fine Arts in New York City.
+1 FACT Both Roger and Carol are now active in Grace Lutheran in Yorktown, NY. Carol served as President & Sectretary of Grace Congregation Council and is now active in Synod Work.
+1 FACT Roger served in the Public Health Service for 2 years at National Institute of Health at Poolesville and Bethesda, MD. Earned a rank of Captain.
+1 FACT Roger is active in Westchester AVMA and Rotary International Youth Exchange.  Carol is active in the Women of the ELCA as editor of the Synodical newsletter.
+1 FACT Roger enjoys animals, helping coach wrestling and traveling.  Carol enjoys ballroom dancing, sewing and crafts.
+1 FACT Roger and Carol have been honored as Paul Harris Fellows for their work in Youth Exchange. Roger was named to the athletic Hall of Fame of John Jay H. S. Wappingers & of Peekskill H.S. for his achievements & work in wrestling.
 0 @I60@ INDI
 1 NAME Ruby Martha /Swanson/
 2 GIVN Ruby Martha
@@ -862,7 +865,7 @@
 1 NAME Andre //
 2 GIVN Andre
 0 @I65@ INDI
-1 NAME Albert Earle /Lawrence/
+1 NAME Albert Earle /Lawrence/ Jr
 2 GIVN Albert Earle
 2 SURN Lawrence
 1 SEX M

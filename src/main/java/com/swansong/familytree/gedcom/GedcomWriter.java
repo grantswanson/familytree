@@ -46,23 +46,26 @@ public class GedcomWriter {
     private void writeHeader() throws IOException {
         String header = """
                 0 HEAD
-                1 SOUR MyGenealogyProgram
-                2 VERS 1.0
-                2 NAME My Genealogy Program
-                2 CORP My Corporation
-                3 ADDR 1234 Main Street
-                4 CONT Anytown, USA 12345
-                1 DEST AnotherGenealogyProgram
-                1 DATE 1 JAN 2022
-                2 TIME 12:00:00
-                1 FILE myGedcomFile.ged
+                1 CHAR UTF-8
+                1 LANG English
+                1 DATE 20 APR 2023
                 1 GEDC
                 2 VERS 5.5.1
                 2 FORM LINEAGE-LINKED
-                1 CHAR UTF-8
+                1 SOUR SwansongCustomJavaProgram
+                2 VERS 1.0
+                1 NOTE Donovan Burdette /Meyer/ compiled the information up until his death in 2001. In 2023, Donovan's grandson, Grant Matthew /Swanson/ converted the records from a custom database using Microsoft Works to a GEDCOM file.
                 1 SUBM @U1@
                 0 @U1@ SUBM
-                1 NAME Reldon Poulson
+                1 NAME Grant Matthew /Swanson/
+                0 @S1@ SOUR
+                1 TITL Information compiled by Donovan Burdette /Meyer/
+                1 NOTE Author: Donovan Burdette /Meyer/
+                2 CONT Information compiled by Donovan Burdette /Meyer/ up until his death in 2001.
+                0 @S2@ SOUR
+                1 TITL GEDCOM conversion by Grant Matthew /Swanson/
+                1 NOTE Author: Grant Matthew /Swanson/
+                2 CONT In 2023, Donovan's grandson, Grant Matthew /Swanson/ converted the records from a custom database using Microsoft Works to a GEDCOM file.
                 """;
         Files.writeString(filePath, header, StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING);
     }

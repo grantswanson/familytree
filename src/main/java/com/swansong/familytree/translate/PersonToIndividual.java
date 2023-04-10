@@ -6,7 +6,6 @@ import com.swansong.familytree.utils.DateUtils;
 
 public class PersonToIndividual {
     public static Individual convertPersonToIndividual(Person person) {
-        PersonValidator.validate(person);
 
         Individual individual = new Individual();
         individual.setId(person.getId());
@@ -37,6 +36,8 @@ public class PersonToIndividual {
         if (person.getChildrenNotes() != null && !person.getChildrenNotes().isBlank()) {
             individual.addNote(person.getChildrenNotes());
         }
+        PersonValidator.getWarnings(person).forEach(individual::addNote);
+
         return individual;
     }
 

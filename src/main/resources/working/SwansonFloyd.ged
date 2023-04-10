@@ -311,9 +311,12 @@
 2 DATE 1903
 1 OCCU Homemaker
 0 @I84@ INDI
-1 NAME Carl Salomon Solomon? /Swanson/
-2 GIVN Carl Salomon Solomon?
+1 NAME Carl Salomon /Swanson/
+2 GIVN Carl Salomon
 2 SURN Swanson
+1 NAME Solomon?
+2 TYPE aka
+2 GIVN Solomon?
 1 BIRT
 2 DATE 15 Jul 1870
 0 @I107@ INDI
@@ -605,6 +608,9 @@
 1 NAME Efrieda /Jaeger/
 2 GIVN Efrieda
 2 SURN Jaeger
+1 NAME Elfrieda?
+2 TYPE aka
+2 GIVN Elfrieda?
 1 SEX F
 1 BIRT
 2 DATE 16 Sep 1900

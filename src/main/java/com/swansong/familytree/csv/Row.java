@@ -157,7 +157,7 @@ public class Row {
                 return note7;
             }
             default -> throw new RuntimeException("Unexpected note #. Expected 1-7. Got:" + i);
-            
+
         }
     }
 }

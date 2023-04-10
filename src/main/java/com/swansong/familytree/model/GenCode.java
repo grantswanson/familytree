@@ -20,6 +20,7 @@ public class GenCode {
     public static String buildSpousesFatherCode(String genCode) {
         return buildSpousesCode(genCode) + SPOUSES_FATHER_CODE;
     }
+
     public static String buildSpousesMotherCode(String genCode) {
         return buildSpousesCode(genCode) + SPOUSES_MOTHER_CODE;
     }

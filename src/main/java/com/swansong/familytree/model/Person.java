@@ -122,7 +122,6 @@ public class Person {
     }
 
 
-
     @SuppressWarnings("unused")
     public Marriage getMarriage(int i) {
         return marriages.get(i);
@@ -167,17 +166,12 @@ public class Person {
 
     @SuppressWarnings("unused")
     public String toFormattedString2() {
-        String str = String.format("%-30s #%-2d %-7s",
+        return String.format("%-30s #%-2d %-7s",
                 getName().toFullName(),
                 getSourceRow().getNumber(),
                 getGenCode()
 
         );
-
-//        str += String.format("%-35s", spousesToString());
-//        str += parentsToString();
-
-        return str;
     }
 
 

@@ -4,52 +4,71 @@ import com.swansong.familytree.model.Marriage;
 import com.swansong.familytree.model.Person;
 import com.swansong.familytree.utils.DateUtils;
 
-public class MarriageValidator {
-    public static void validate(Marriage marriage) throws IllegalArgumentException {
-        String husbandName = "Unknown";
-        String wifeName = "Unknown";
+import java.util.ArrayList;
+import java.util.List;
 
-        if (marriage.getHusband() != null && marriage.getHusband().getName() != null) {
-            husbandName = marriage.getHusband().getName().toNameKey().toString();
-        }
-        if (marriage.getWife() != null && marriage.getWife().getName() != null) {
-            wifeName = marriage.getWife().getName().toNameKey().toString();
-        }
+public class MarriageValidator {
+    public static List<String> getWarnings(Marriage marriage) {
+        List<String> warnings = new ArrayList<>();
+
+        String husbandName = getHusbandsName(marriage);
+        String wifeName = getWifesName(marriage);
 
         if (DateUtils.isBefore(marriage.getDivorceDate(), marriage.getMarriageDate())) {
-            System.out.println(
-                    //throw new IllegalArgumentException(
-                    "Warning: Divorce date should NOT be before marriage date for " +
+            warnings.add(
+                    "Divorce date should NOT be before marriage date for " +
                             husbandName + " and " + wifeName + ". Marriage date: " + marriage.getMarriageDate() +
                             ", Divorce date: " + marriage.getDivorceDate());
         }
 
 
         if (marriage.getHusband() != null && DateUtils.isBefore(marriage.getMarriageDate(), marriage.getHusband().getDob())) {
-            throw new IllegalArgumentException("Marriage date cannot be before birth date for " + husbandName +
+            warnings.add("Marriage date should NOT be before birth date for " + husbandName +
                     ". Birth date: " + marriage.getHusband().getDob() +
                     ", Marriage date: " + marriage.getMarriageDate());
         }
 
         if (marriage.getHusband() != null && DateUtils.isAfter(marriage.getMarriageDate(), marriage.getHusband().getDeathDate())) {
-            throw new IllegalArgumentException("Marriage date cannot be after death date for " + husbandName +
+            warnings.add("Marriage date should NOT be after death date for " + husbandName +
                     ". Death date: " + marriage.getHusband().getDeathDate() +
                     ", Marriage date: " + marriage.getMarriageDate());
         }
 
 
         if (marriage.getWife() != null && DateUtils.isBefore(marriage.getMarriageDate(), marriage.getWife().getDob())) {
-            throw new IllegalArgumentException("Marriage date cannot be before birth date for " + wifeName +
+            warnings.add("Marriage date should NOT be before birth date for " + wifeName +
                     ". Birth date: " + marriage.getWife().getDob() +
                     ", Marriage date: " + marriage.getMarriageDate());
         }
 
         if (marriage.getWife() != null && DateUtils.isAfter(marriage.getMarriageDate(), marriage.getWife().getDeathDate())) {
-            throw new IllegalArgumentException("Marriage date cannot be after death date for " + wifeName +
+            warnings.add("Marriage date should NOT be after death date for " + wifeName +
                     ". Death date: " + marriage.getWife().getDeathDate() +
                     ", Marriage date: " + marriage.getMarriageDate());
         }
+        return warnings;
+    }
 
+    private static String getWifesName(Marriage marriage) {
+        String wifeName = "Unknown";
+        if (marriage.getWife() != null && marriage.getWife().getName() != null) {
+            wifeName = marriage.getWife().getName().toNameKey().toString();
+        }
+        return wifeName;
+    }
+
+    private static String getHusbandsName(Marriage marriage) {
+        String husbandName = "Unknown";
+        if (marriage.getHusband() != null && marriage.getHusband().getName() != null) {
+            husbandName = marriage.getHusband().getName().toNameKey().toString();
+        }
+        return husbandName;
+    }
+
+
+    public static void validate(Marriage marriage) throws IllegalArgumentException {
+        String husbandName = getHusbandsName(marriage);
+        String wifeName = getWifesName(marriage);
 
         if (marriage.getHusband() != null) {
             for (Person child : marriage.getChildrenList()) {

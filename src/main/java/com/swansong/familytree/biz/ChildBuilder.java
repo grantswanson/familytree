@@ -65,11 +65,11 @@ public class ChildBuilder {
         if (expectedPerson == null) { // find by name
             setChildsSurName(marriage, childsName);
             expectedPerson = PersonMap.getPersonByNameKey(childsName.toNameKey());
-            if (expectedPerson != null) {
-                System.out.println("ln#" + row.getNumber() + " Child #" + i + " " + childsName.toFullName() +
-                        "\n  found BY NAME:" + expectedPerson.getName().toFullName() + "\n person:" + expectedPerson +
-                        "\n");
-            }
+//            if (expectedPerson != null) {
+//                System.out.println("ln#" + row.getNumber() + " Child #" + i + " " + childsName.toFullName() +
+//                        "\n  found BY NAME:" + expectedPerson.getName().toFullName() + "\n person:" + expectedPerson +
+//                        "\n");
+//            }
         }
 
         if (expectedPerson != null) {

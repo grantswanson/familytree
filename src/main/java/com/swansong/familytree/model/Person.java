@@ -59,6 +59,7 @@ public class Person {
 
     public void addNote(String note) {
         notes.add(note.trim());
+        System.out.println("Added note to:" + name.toNameKey().toString() + " note:" + note.trim());
     }
 
     public void addSpouse(Person spouse) {

@@ -33,13 +33,22 @@ public class PersonMap {
     }
 
     public static Person getPersonByNameKey(NameKey nameKey) {
+        validateNameKey(nameKey);
         return individualMapByName.get(nameKey.toString());
+    }
+
+    private static void validateNameKey(NameKey nameKey) {
+        String rawName = nameKey.toString();
+        if (Name.isOnlySurname(rawName) || !Name.hasSurname(rawName)) {
+            System.out.println("Warn: Looking for someone without a first and lastname. name:" + rawName);
+        }
     }
 
     @SuppressWarnings("unused")
     public static Person getPersonByGenCodeOrNameKey(String genCode, NameKey nameKey) {
         Person person = individualMapByGenCode.get(genCode);
         if (person == null) {
+            validateNameKey(nameKey);
             person = individualMapByName.get(nameKey.toString());
         }
         return person;
@@ -60,8 +69,6 @@ public class PersonMap {
                 .comparing((Map.Entry<String, Person> e) -> e.getValue().getSourceRow().getNumber())
                 .thenComparing(e -> e.getValue().getGenCode());
 
-//        Comparator<Map.Entry<String, Person>> valueComparator = Comparator
-//                .comparing((Map.Entry<String, Person> e) -> e.getValue().getName().toFullName());
         Map<String, Person> sortedPersonMap = individualMapByGenCode.entrySet()
                 .stream()
                 .sorted(valueComparator)

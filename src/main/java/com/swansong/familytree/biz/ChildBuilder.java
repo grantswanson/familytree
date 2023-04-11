@@ -88,11 +88,18 @@ public class ChildBuilder {
                 throw new RuntimeException(" Merge failed!!! Fix data.");
             }
         } else {
-            System.out.println("ln#" + row.getNumber() + " Child #" + i + " " + childsName.toNameKey() +
-                    " NOT found by GenCode, AltGenCode, or Name. " +
-                    (childsName.isAsteriskPresent() ? "\n childsName has asterisk." : "") +
-                    (row.hasChildrenNotes() ? "\n " + row.getChildrenNotes() : "")
-            );
+            Person parent = marriage.getSpouse2();
+            if (parent == null) {
+                parent = marriage.getSpouse1();
+            }
+
+            parent.addNote(
+                    childsName.toFullName() + " is possibly child #" + i + " from a different marriage.");
+//            System.out.println("ln#" + row.getNumber() + " Child #" + i + " " + childsName.toNameKey() +
+//                    " NOT found by GenCode, AltGenCode, or Name. " +
+//                    (childsName.isAsteriskPresent() ? "\n childsName has asterisk." : "") +
+//                    (row.hasChildrenNotes() ? "\n " + row.getChildrenNotes() : "")
+//            );
             if (!childsName.isAsteriskPresent() && !row.hasChildrenNotes()) {
                 System.out.println
                         //throw new RuntimeException

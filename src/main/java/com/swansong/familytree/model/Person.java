@@ -38,6 +38,7 @@ public class Person {
     private String burialPlace = "";
     private String occupation = "";
     private List<String> notes = new ArrayList<>();
+    private List<String> processingNotes = new ArrayList<>();
 
     private String childrenNotes = "";
     private String debug = "";
@@ -59,7 +60,11 @@ public class Person {
 
     public void addNote(String note) {
         notes.add(note.trim());
-        System.out.println("Added note to:" + name.toNameKey().toString() + " note:" + note.trim());
+    }
+
+    public void addProcessingNote(String note) {
+        processingNotes.add(note.trim());
+        System.out.println("Added processing note to:" + name.toNameKey().toString() + " note:" + note.trim());
     }
 
     public void addSpouse(Person spouse) {

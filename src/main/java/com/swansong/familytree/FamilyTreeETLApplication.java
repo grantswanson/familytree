@@ -36,8 +36,8 @@ public class FamilyTreeETLApplication {
         for (String inputFile : filesToProcess) {
             processInputFile(inputFile);
 
-            MarriageMap.printMarriages();
-            PersonMap.printIndividualMap();
+            //MarriageMap.printMarriages();
+            //PersonMap.printIndividualMap();
             verifyCounts(inputFile);
 
             List<Individual> individuals = translatePeople();

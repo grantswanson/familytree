@@ -49,13 +49,12 @@ public class ChildBuilder {
             if (expectedPerson != null) {
                 foundUnrelatedChild = true;
 
-//                System.out.println("ln#" + row.getNumber() + " Child #" + i + " " + childsName.toFullName() +
-//                        " FOUND under a different marriage." +
-//                        "\n origGenCode:" + expectedCode +
-//                        "\n altGenCode :" + altMarriageExpectedCode +
-//                        (expectedPerson.hasChildRelatedNotes() ? " miscNotes:" + expectedPerson.getChildRelatedNotes() : ""));
+                System.out.println("Warn: ln#" + row.getNumber() + " Child #" + i + " " + childsName.toFullName() +
+                        " FOUND under a different marriage. Storing child as unrelated." +
+                        "\n  origGenCode:" + expectedCode +
+                        "\n  altGenCode :" + altMarriageExpectedCode +
+                        (expectedPerson.getChildrenNotes() != null ? "\n  miscNotes:" + expectedPerson.getChildrenNotes() : ""));
                 if (!expectedPerson.hasChildRelatedNotes()) {
-                    //System.out.println
                     throw new RuntimeException
                             ("expected miscNotes!");
                 }
@@ -65,11 +64,11 @@ public class ChildBuilder {
         if (expectedPerson == null) { // find by name
             setChildsSurName(marriage, childsName);
             expectedPerson = PersonMap.getPersonByNameKey(childsName.toNameKey());
-//            if (expectedPerson != null) {
-//                System.out.println("ln#" + row.getNumber() + " Child #" + i + " " + childsName.toFullName() +
-//                        "\n  found BY NAME:" + expectedPerson.getName().toFullName() + "\n person:" + expectedPerson +
-//                        "\n");
-//            }
+            if (expectedPerson != null) {
+                System.out.println("Warn: ln#" + row.getNumber() + " Child #" + i + " " + childsName.toFullName() +
+                        "\n       found BY NAME:" + expectedPerson.getName().toFullName()
+                );
+            }
         }
 
         if (expectedPerson != null) {
@@ -84,7 +83,6 @@ public class ChildBuilder {
                 }
 
             } else {
-                //System.out.println
                 throw new RuntimeException(" Merge failed!!! Fix data.");
             }
         } else {
@@ -93,8 +91,8 @@ public class ChildBuilder {
                 parent = marriage.getSpouse1();
             }
 
-            parent.addNote(
-                    childsName.toFullName() + " is possibly child #" + i + " from a different marriage.");
+            parent.addProcessingNote(
+                    childsName.toFullName() + " is possibly child #" + (i + 1) + " from a different marriage.");
 //            System.out.println("ln#" + row.getNumber() + " Child #" + i + " " + childsName.toNameKey() +
 //                    " NOT found by GenCode, AltGenCode, or Name. " +
 //                    (childsName.isAsteriskPresent() ? "\n childsName has asterisk." : "") +

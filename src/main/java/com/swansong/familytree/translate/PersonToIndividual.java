@@ -19,6 +19,7 @@ public class PersonToIndividual {
                 individual.addNote("Married name: " + marriedName);
             }
         }
+        individual.setReferenceNumber("CustomGenCode:" + person.getGenCode());
         individual.setGender(person.getGender());
         individual.setBirthDate(DateUtils.convertDate(person.getDob()));
         individual.setBirthPlace(person.getPob());

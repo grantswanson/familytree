@@ -9,6 +9,7 @@ import java.util.List;
 
 import static com.swansong.familytree.gedcom.Individual.*;
 
+@SuppressWarnings("StringConcatenationInLoop")
 public class GedcomWriter {
     private final Path filePath;
 
@@ -46,6 +47,7 @@ public class GedcomWriter {
     private void writeHeader() throws IOException {
         String header = """
                 0 HEAD
+                1 FILE %s
                 1 CHAR UTF-8
                 1 LANG English
                 1 DATE 20 APR 2023
@@ -67,7 +69,8 @@ public class GedcomWriter {
                 1 NOTE Author: Grant Matthew /Swanson/
                 2 CONT In 2023, Donovan's grandson, Grant Matthew /Swanson/ converted the records from a custom database using Microsoft Works to a GEDCOM file.
                 """;
-        Files.writeString(filePath, header, StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING);
+        Files.writeString(filePath, String.format(header, filePath.getFileName().toString()),
+                StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING);
     }
 
     private void writeIndividuals(List<Individual> individuals) throws IOException {
@@ -84,6 +87,7 @@ public class GedcomWriter {
                 record += "2 TYPE aka\n";
                 record += GedcomUtils.getIfNotNullOrBlank("2 GIVN %s\n", altName + "?");
             }
+            record += GedcomUtils.getIfNotNullOrBlank("1 REFN %s\n", indiv.getReferenceNumber());
             record += GedcomUtils.getIfNotNullOrBlank("1 SEX %s\n", indiv.getGender());
 
             record += GedcomUtils.getDateAndPlace("1 BIRT\n", indiv.getBirthDate(), indiv.getBirthPlace());

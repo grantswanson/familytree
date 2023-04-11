@@ -23,6 +23,7 @@ public class Individual {
     private String marriedName;
     private String suffix;
 
+    private String referenceNumber = "";
     private String gender = "";
     private String birthDate;
     private String birthPlace;

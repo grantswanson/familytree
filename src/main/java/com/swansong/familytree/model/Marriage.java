@@ -97,6 +97,14 @@ public class Marriage {
                             "\n differences:" + StringUtils.diff(existingChild.toString(), child.toString()));
         }
         children[childNum - 1] = child;
+        if (child != null) {
+            if (child.getParentsMarriage() != null && child.getParentsMarriage().getId() != id) {
+                System.out.println("Warning: overwriting marriage. child:" + child.toShortString() +
+                        "\n   old:" + child.getParentsMarriage().toFormattedString() +
+                        "\n   new:" + this.toFormattedString());
+            }
+            child.setParentsMarriage(this);
+        }
     }
 
     public void addChild(Person child) {

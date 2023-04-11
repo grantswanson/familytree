@@ -11,7 +11,6 @@ import java.util.Map;
 
 @Data
 public class Person {
-    private final static String defaultSource = "Donovan Burdette Meyer";
     private final static String MALE = "M"; // unknown is blank
     private final static String FEMALE = "F"; // unknown is blank
 
@@ -43,8 +42,10 @@ public class Person {
     private String childrenNotes = "";
     private String debug = "";
 
-    private String source = defaultSource;
     private Row sourceRow;
+
+    @ToString.Exclude
+    private Marriage parentsMarriage;
 
     @ToString.Exclude
     private Map<String, Person> spouses = new HashMap<>();

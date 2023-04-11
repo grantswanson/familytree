@@ -28,4 +28,19 @@ public class StringUtilsTest {
             assertEquals(expected3, "");
         }
     }
+
+    @ParameterizedTest
+    @CsvSource({
+            "MacDONALD, MacDonald",
+            "McHENRY, McHenry",
+            "SMITH, Smith",
+            "'MacLEOD, ROBERT JOE, jr', 'MacLeod, Robert Joe, Jr'",
+            "'Robert joseph, jr', 'Robert Joseph, Jr'",
+            "'SMITH, ROBERT JOE, jr', 'Smith, Robert Joe, Jr'",
+            "'   SMITH   ,   DORIS   ', 'Smith, Doris'",
+            "'  SMITH  ,   ROBERT   JOE  ,   jr.  ', 'Smith, Robert Joe, Jr.'"
+    })
+    public void toNameCaseTest(String input, String expected) {
+        assertEquals(expected, StringUtils.toNameCase(input));
+    }
 }

@@ -1,50 +1,9 @@
 package com.swansong.familytree.utils;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class StringUtils {
-    public static String toCapitalizedCase(String str) {
-        if (str == null || str.isEmpty()) {
-            return str; // return the original string if it's null or empty
-        }
-
-        // split the input string into words
-        String[] words = str.split("\\s+");
-
-        // capitalize the first letter of each word
-        StringBuilder sb = new StringBuilder();
-        for (String word : words) {
-            if (word.length() > 1) {
-                sb.append(Character.toUpperCase(word.charAt(0))).append(word.substring(1).toLowerCase());
-            } else {
-                sb.append(word.toUpperCase());
-            }
-            sb.append(" ");
-        }
-
-        // trim the extra space at the end and return the capitalized string
-        return sb.toString().trim();
-    }
-
-    public static boolean isAllCaps(String input) {
-        for (int i = 0; i < input.length(); i++) {
-            char c = input.charAt(i);
-            if (Character.isLetter(c) && !Character.isUpperCase(c)) {
-                return false;
-            }
-        }
-        return true;
-    }
-
-    public static boolean isAllLowerCase(String input) {
-        for (int i = 0; i < input.length(); i++) {
-            char c = input.charAt(i);
-            if (Character.isLetter(c) && Character.isUpperCase(c)) {
-                return false;
-            }
-        }
-        return true;
-    }
 
     public static String removeALLTextBetween(String s, String begin, String end) {
         String n = extractTextBetween(s, begin, end);
@@ -96,13 +55,41 @@ public class StringUtils {
         }
     }
 
-    public static String toNameCase(String s) {
-        // only change the case if already in all caps
-        if (isAllCaps(s) || isAllLowerCase(s)) {
-            return toCapitalizedCase(s);
+    /*
+     * If the name is in all caps, then make just the first letter uppercase.
+     * However, if the 2nd letter or later is in lower case and there is an uppercase
+     * letter after that, then leave the first uppercase letter in uppercase.
+     * Only the first letter and the first uppercase letter should be in uppercase.
+     * For example: MacDONALD becomes MacDonald, McHENRY becomes McHenry, SMITH becomes Smith
+     */
+    public static String toNameCase(String name) {
+        if (name == null) {
+            return null;
         }
-        // else leave in existing case. E.g. McGee should NOT be Mcgee
-        return s;
+
+        String str = Arrays.stream(name.split("\\s+"))
+                .map(word -> StringUtils.toNameCaseSingleWord(word.trim()))
+                .collect(Collectors.joining(" "));
+        return str.trim().replace(" , ", ", ");
+    }
+
+    private static String toNameCaseSingleWord(String name) {
+
+        StringBuilder formattedName = new StringBuilder();
+        boolean firstUppercaseFound = false;
+        for (int i = 0; i < name.length(); i++) {
+            char c = name.charAt(i);
+            if (i == 0) {
+                formattedName.append(Character.toUpperCase(c));
+            } else if (!firstUppercaseFound && Character.isLowerCase(name.charAt(i - 1)) && Character.isUpperCase(c)) {
+                formattedName.append(c);
+                firstUppercaseFound = true;
+            } else {
+                formattedName.append(Character.toLowerCase(c));
+            }
+
+        }
+        return formattedName.toString();
     }
 
     public static String addCommaIfMissing(String name) {
@@ -129,6 +116,7 @@ public class StringUtils {
         return str2;
     }
 
+    @SuppressWarnings("BooleanMethodIsAlwaysInverted")
     public static boolean isNullOrBlank(String str) {
         return str == null || str.isBlank();
     }

@@ -13,7 +13,7 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class  NameTest {
+public class NameTest {
 
     @Test
     void parseFullNameTest() {
@@ -120,6 +120,7 @@ public class  NameTest {
         name1.mergeInName(name2);
         assertEquals(expected, name1);
     }
+
 
     static Stream<Arguments> mergeNamesData() {
         return Stream.of(     // name1, name2, expected output

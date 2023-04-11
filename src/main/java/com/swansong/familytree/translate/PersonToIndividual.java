@@ -36,6 +36,7 @@ public class PersonToIndividual {
         if (person.getChildrenNotes() != null && !person.getChildrenNotes().isBlank()) {
             individual.addNote(person.getChildrenNotes());
         }
+        person.getProcessingNotes().forEach(individual::addNote);
         PersonValidator.getWarnings(person).forEach(individual::addNote);
 
         return individual;

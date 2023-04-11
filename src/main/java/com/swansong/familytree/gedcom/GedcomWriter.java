@@ -103,6 +103,9 @@ public class GedcomWriter {
             for (int id : indiv.getMarriageIds()) {
                 record += String.format("1 FAMS @F%d@\n", id);
             }
+            if (indiv.getParentsMarriageId() != null) {
+                record += String.format("1 FAMC @F%d@\n", indiv.getParentsMarriageId());
+            }
             Files.writeString(filePath, record, StandardOpenOption.APPEND);
         }
 

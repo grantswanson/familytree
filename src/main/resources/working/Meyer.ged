@@ -48,6 +48,7 @@
 2 PLAC Plymouth Presbyterian Church, Plymouth, MN, USA
 1 OCCU Student
 1 FACT Dave enjoys reading, karate & baseball.
+1 FAMC @F45@
 0 @I838@ INDI
 1 NAME Sheryl K /Walter/
 2 GIVN Sheryl K
@@ -62,6 +63,7 @@
 2 PLAC , Cherokee, IA, USA
 1 OCCU Homemaker, Secretary
 1 FAMS @F265@
+1 FAMC @F472@
 0 @I131@ INDI
 1 NAME Sandra Lynn /Johnson/
 2 GIVN Sandra Lynn
@@ -80,6 +82,7 @@
 1 OCCU Student
 1 FACT Sandra is active in Church groups.
 1 FACT She enjoys competitive swimming and band.
+1 FAMC @F45@
 0 @I611@ INDI
 1 NAME Alice /Parker/
 2 GIVN Alice
@@ -91,6 +94,7 @@
 2 PLAC , Holyoak, MA, USA
 1 OCCU Homemaker
 1 FAMS @F186@
+1 FAMC @F417@
 0 @I1055@ INDI
 1 NAME Donna Mary /Norney/
 2 GIVN Donna Mary
@@ -141,6 +145,7 @@
 1 FACT They are members of the Presbyterian
 1 FACT He was commissioned an Ensign in the United States Navy from the Dept of the Navy in May of 1999.
 1 FAMS @F139@
+1 FAMC @F392@
 0 @I704@ INDI
 1 NAME Vonnie Lee /Mohror/
 2 GIVN Vonnie Lee
@@ -152,6 +157,7 @@
 2 PLAC , Arlington, SD, USA
 1 OCCU Homemaker, Nurse
 1 FAMS @F217@
+1 FAMC @F210@
 0 @I697@ INDI
 1 NAME Sharon Alene /Mohror/
 2 GIVN Sharon Alene
@@ -163,6 +169,7 @@
 2 PLAC , Arlington, SD, USA
 1 OCCU Homemaker, Cook at Nursing Home
 1 FAMS @F215@
+1 FAMC @F210@
 0 @I924@ INDI
 1 NAME Charles Simon /Wagner/
 2 GIVN Charles Simon
@@ -194,6 +201,7 @@
 2 PLAC Valley Community Presbyterian Ch. Golden Valley, MN, USA
 1 OCCU Student
 1 FACT Tom enjoys competitive swimming and baseball.
+1 FAMC @F45@
 0 @I684@ INDI
 1 NAME Robert Arlen /Mohror/
 2 GIVN Robert Arlen
@@ -207,6 +215,7 @@
 1 FAMS @F211@
 1 FAMS @F214@
 1 FAMS @F494@
+1 FAMC @F210@
 0 @I606@ INDI
 1 NAME Jason Lee /Meyer/
 2 GIVN Jason Lee
@@ -217,6 +226,7 @@
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA, USA
 1 OCCU Student
 1 FAMS @F185@
+1 FAMC @F184@
 0 @I1082@ INDI
 1 NAME Arleen Ann /Mohrhauser/
 2 GIVN Arleen Ann
@@ -246,6 +256,7 @@
 1 FACT Patty is Treasurer of Women's Circle, belongs to the PTO and the Bucket Brigade.  Ernie belongs to the Masonic Lodge and the Society of American Magicians.
 1 FACT Patty enjoys reading, gardening and crafts.  Ernie enjoys his magic and they both like to play golf.
 1 FAMS @F45@
+1 FAMC @F310@
 0 @I77@ INDI
 1 NAME Amanda Jolynne /Watts/
 2 GIVN Amanda Jolynne
@@ -253,6 +264,7 @@
 1 REFN CustomGenCode:MAACABC
 1 BIRT
 2 DATE 7 Jun 1987
+1 FAMC @F27@
 0 @I609@ INDI
 1 NAME Kristen Danielle /Meyer/
 2 GIVN Kristen Danielle
@@ -262,6 +274,7 @@
 2 DATE 15 Jul 1983
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA, USA
 1 OCCU Student
+1 FAMC @F184@
 0 @I608@ INDI
 1 NAME Nele Dawn /Meyer/
 2 GIVN Nele Dawn
@@ -271,6 +284,7 @@
 2 DATE 28 Sep 1977
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA, USA
 1 OCCU Student
+1 FAMC @F184@
 0 @I75@ INDI
 1 NAME Robert Joseph /Watts/ Jr
 2 GIVN Robert Joseph
@@ -281,6 +295,7 @@
 1 DEAT
 2 DATE 18 Feb 1983
 1 OCCU Died in infancy
+1 FAMC @F27@
 0 @I76@ INDI
 1 NAME Kody John /Watts/
 2 GIVN Kody John
@@ -288,6 +303,7 @@
 1 REFN CustomGenCode:MAACABB
 1 BIRT
 2 DATE 7 Mar 1984
+1 FAMC @F27@
 0 @I100@ INDI
 1 NAME Andrew Ryan /Wood/
 2 GIVN Andrew Ryan
@@ -295,6 +311,7 @@
 1 REFN CustomGenCode:MAADBAA
 1 BIRT
 2 DATE 6 Oct 1998
+1 FAMC @F36@
 0 @I1081@ INDI
 1 NAME Louie Andrew /Hinrickson/
 2 GIVN Louie Andrew
@@ -313,6 +330,7 @@
 2 PLAC , Arlington, SD, USA
 1 OCCU Homemaker, Teacher
 1 FAMS @F210@
+1 FAMC @F434@
 0 @I605@ INDI
 1 NAME Rebecca /French/
 2 GIVN Rebecca
@@ -324,6 +342,7 @@
 2 PLAC , Primghar, IA, USA
 1 OCCU Homemaker
 1 FAMS @F184@
+1 FAMC @F416@
 0 @I846@ INDI
 1 NAME Robert Ashley /Williams/
 2 GIVN Robert Ashley
@@ -341,6 +360,7 @@
 1 FACT Sonja is an active member of the Wyoming Cattle Women, the Wind River Valley Artists Guild & the National Bighorn Sheep Interpretive Assoc. Inc.
 1 FACT She enjoys horses, cake decorating, sewing & beading.
 1 FAMS @F268@
+1 FAMC @F474@
 0 @I693@ INDI
 1 NAME Luke /Mohror/
 2 GIVN Luke
@@ -379,6 +399,7 @@
 1 FACT Loren likes traveling, computers, drawing , woodworking, and kite flying.
 1 FACT He lived in the Philippines for one year as a Rotary Exchange student.
 1 FAMS @F127@
+1 FAMC @F381@
 0 @I839@ INDI
 1 NAME Teresa Anne /Fastenow/
 2 GIVN Teresa Anne
@@ -404,6 +425,7 @@
 1 FACT She is on the Art World Board of Directors & active in 4-H.  Donald belongs to Ducks Unlimited, Rock Mountain Elk Foundation, Pheasants Forever, Muskies, Inc. & North American Sheep Foundation.
 1 FACT Teresa enjoys many crafts, music, sewing, knitting, bicycling, photography & pets.  Don likes to hunt & fish.
 1 FAMS @F266@
+1 FAMC @F265@
 0 @I135@ INDI
 1 NAME David Neil /Hausmann/
 2 GIVN David Neil
@@ -426,6 +448,7 @@
 1 FACT Connie likes reading, cross stitching & gardening.  Dave enjoys golf & fishing.  They both go hunting & cross country skiing.
 1 FACT Gabriel Jon is David's son from a previous marriage.
 1 FAMS @F46@
+1 FAMC @F311@
 0 @I602@ INDI
 1 NAME Todd Matthew /Meyer/
 2 GIVN Todd Matthew
@@ -435,6 +458,7 @@
 2 DATE 30 Mar 1975
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA, USA
 1 OCCU Student
+1 FAMC @F182@
 0 @I598@ INDI
 1 NAME Brent Michael /Meyer/
 2 GIVN Brent Michael
@@ -446,6 +470,7 @@
 2 PLAC Alta Hosp. Alta, IA, USA
 1 OCCU Employed at Melodent Seed Co.
 1 FAMS @F183@
+1 FAMC @F182@
 0 @I103@ INDI
 1 NAME Matthew Lawrence /Fresquez/
 2 GIVN Matthew Lawrence
@@ -453,6 +478,7 @@
 1 REFN CustomGenCode:MAADBBA
 1 BIRT
 2 DATE 28 Nov 1995
+1 FAMC @F37@
 0 @I1130@ INDI
 1 NAME Clarence /Nyre/
 2 GIVN Clarence
@@ -467,6 +493,7 @@
 1 REFN CustomGenCode:MAADBBB
 1 BIRT
 2 DATE 20 May 1999
+1 FAMC @F37@
 0 @I603@ INDI
 1 NAME Scott Patrick /Meyer/
 2 GIVN Scott Patrick
@@ -476,6 +503,7 @@
 2 DATE 13 Dec 1977
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA, USA
 1 OCCU Student
+1 FAMC @F182@
 0 @I842@ INDI
 1 NAME Rhonda Ranee /Fastenow/
 2 GIVN Rhonda Ranee
@@ -490,6 +518,7 @@
 2 PLAC , Spirit Lake, IA, USA
 1 OCCU Homemaker & Secretary
 1 FAMS @F267@
+1 FAMC @F265@
 0 @I711@ INDI
 1 NAME Clarence /Holland/
 2 GIVN Clarence
@@ -504,6 +533,7 @@
 2 PLAC Lake Preston Cem. Lake Preston, SD, USA
 1 OCCU Farmer
 1 FAMS @F219@
+1 FAMC @F439@
 0 @I888@ INDI
 1 NAME Sally Ann /Osterfeld/
 2 GIVN Sally Ann
@@ -552,6 +582,7 @@
 2 PLAC Arlington Cem. Arlington, SD, USA
 1 OCCU Farmer
 1 FAMS @F232@
+1 FAMC @F443@
 0 @I73@ INDI
 1 NAME D'Lisa Lynne /Saunders/
 2 GIVN D'Lisa Lynne
@@ -563,6 +594,7 @@
 2 PLAC , Portland, OR, USA
 1 OCCU Homemaker
 1 FAMS @F27@
+1 FAMC @F26@
 0 @I72@ INDI
 1 NAME Tracy John /Saunders/
 2 GIVN Tracy John
@@ -572,6 +604,7 @@
 2 DATE 10 Mar 1961
 2 PLAC , Portland, OR, USA
 1 OCCU Fork Lift Operator
+1 FAMC @F26@
 0 @I136@ INDI
 1 NAME Gabriel Jon /Hausmann/
 2 GIVN Gabriel Jon
@@ -601,6 +634,7 @@
 2 PLAC , Cherokee, IA, USA
 1 OCCU Homemaker, Technician
 1 FAMS @F270@
+1 FAMC @F476@
 0 @I989@ INDI
 1 NAME Gertrude /Bancroft/
 2 GIVN Gertrude
@@ -637,6 +671,7 @@
 1 BIRT
 2 DATE 19 Jun 1967
 2 PLAC , Portland, OR, USA
+1 FAMC @F26@
 0 @I71@ INDI
 1 NAME John Fredrick /Saunders/
 2 GIVN John Fredrick
@@ -656,6 +691,7 @@
 1 BIRT
 2 DATE 25 Jan 1988
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA. USA
+1 FAMC @F187@
 0 @I847@ INDI
 1 NAME John D /Williams/
 2 GIVN John D
@@ -674,6 +710,7 @@
 1 OCCU Forest Service Firefighter, Truck Driver, Wood Worker & Mechanic.
 1 FACT Kim earned an Associate Degree from Central Wyoming College & is presently a student at the University of Wyoming in Laramie, WY.
 1 FAMS @F269@
+1 FAMC @F268@
 0 @I1277@ INDI
 1 NAME Kari Ann /Matter/
 2 GIVN Kari Ann
@@ -696,6 +733,7 @@
 1 BIRT
 2 DATE 19 Aug 1992
 2 PLAC , Minneapolis, MN, USA
+1 FAMC @F23@
 0 @I1273@ INDI
 1 NAME Christine /McBride/
 2 GIVN Christine
@@ -712,6 +750,7 @@
 2 DATE 22 Feb 1970
 1 OCCU Homemaker, Data Processor
 1 FAMS @F29@
+1 FAMC @F28@
 0 @I616@ INDI
 1 NAME Cal /Johnson/
 2 GIVN Cal
@@ -729,6 +768,7 @@
 2 DATE 29 Dec 1966
 2 PLAC , Portland, OR, USA
 1 OCCU Machinist, Race Car Specialist
+1 FAMC @F28@
 0 @I74@ INDI
 1 NAME Robert Joseph /Watts/ Sr
 2 GIVN Robert Joseph
@@ -739,6 +779,7 @@
 2 DATE 8 Oct 1961
 1 OCCU Construction Worker
 1 FAMS @F27@
+1 FAMC @F298@
 0 @I99@ INDI
 1 NAME David Alan /Wood/
 2 GIVN David Alan
@@ -769,6 +810,7 @@
 2 DATE 10 Jul 1985
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA, USA
 1 OCCU Student
+1 FAMC @F187@
 0 @I982@ INDI
 1 NAME John Francis /Jaminet/
 2 GIVN John Francis
@@ -784,6 +826,7 @@
 1 BIRT
 2 DATE 10 Dec 1986
 2 PLAC Methodist Hosp. Des Moines, IA, USA
+1 FAMC @F186@
 0 @I612@ INDI
 1 NAME Jeffery Thomas /Meyer/
 2 GIVN Jeffery Thomas
@@ -793,6 +836,7 @@
 2 DATE 28 Jan 1984
 2 PLAC Methodist Hosp. Des Moines, IA, USA
 1 OCCU Student
+1 FAMC @F186@
 0 @I856@ INDI
 1 NAME Jason Wade /Fastenow/
 2 GIVN Jason Wade
@@ -802,6 +846,7 @@
 2 DATE 10 Jul 1972
 2 PLAC , Alta, IA, USA
 1 OCCU Student
+1 FAMC @F270@
 0 @I80@ INDI
 1 NAME Deborah Ann /Loney/
 2 GIVN Deborah Ann
@@ -813,6 +858,7 @@
 2 PLAC , Portland, OR, USA
 1 OCCU Homemaker, Data Processor
 1 FAMS @F28@
+1 FAMC @F299@
 0 @I852@ INDI
 1 NAME Wendy Jo /Fastenow/
 2 GIVN Wendy Jo
@@ -825,6 +871,7 @@
 1 OCCU Homemaker & College Student at Orange City, IA
 1 FACT Stephen earned a Batchelors degree in Agriculture.
 1 FAMS @F271@
+1 FAMC @F270@
 0 @I1211@ INDI
 1 NAME Hazel Loraine /Ellis/
 2 GIVN Hazel Loraine
@@ -857,6 +904,7 @@
 2 PLAC , Storm Lake, IA, USA
 1 OCCU Farmer
 1 FAMS @F187@
+1 FAMC @F418@
 0 @I1265@ INDI
 1 NAME Randy /Woltman/
 2 GIVN Randy
@@ -903,6 +951,7 @@
 1 FACT Leah belongs to Wheaton Economic Development Authority.  They both are members of the American Chiropractic Assoc, the Minnesota Chiropractic Assoc. & the South Dakota Chiropractic Assoc.
 1 FACT Leah collects & reads cookbooks and does crossword puzzles.  Paul likes Archery & goes bowhunting.
 1 FAMS @F22@
+1 FAMC @F294@
 0 @I1104@ INDI
 1 NAME Suzanne /Leonhardt/
 2 GIVN Suzanne
@@ -921,6 +970,7 @@
 2 PLAC , Mobile, AL, USA
 1 OCCU Systems Analyst
 1 FAMS @F31@
+1 FAMC @F300@
 0 @I85@ INDI
 1 NAME Steven G /McCarthy/
 2 GIVN Steven G
@@ -968,6 +1018,7 @@
 1 FACT Golf.
 1 FAMS @F168@
 1 FAMS @F169@
+1 FAMC @F165@
 0 @I545@ INDI
 1 NAME Vivian /Vanerstrom/
 2 GIVN Vivian
@@ -991,6 +1042,7 @@
 1 FACT Vivian plays in the Community Hand Bell Choir.
 1 FACT Vivian is a volunteer on the Denver Art Museum.  Richard likes to work with both metat & wood. He does spider identification for the Musiem of Science & Natural History in Denver.  They both like ti hike, skii & climb mountains.
 1 FAMS @F166@
+1 FAMC @F165@
 0 @I65@ INDI
 1 NAME Kami Denise /Hofman/
 2 GIVN Kami Denise
@@ -1010,6 +1062,7 @@
 1 FACT They are both members and active in the Messiah Lutheran church in Lakeville, MN.
 1 FACT Phillip went to Nepal in 1989 and stayed with a college friend from Katmandu.
 1 FAMS @F23@
+1 FAMC @F295@
 0 @I986@ INDI
 1 NAME Kenneth Daniel /Wenck/
 2 GIVN Kenneth Daniel
@@ -1042,6 +1095,7 @@
 1 BAPM
 2 PLAC St. John Lutheran Church, Wheaton, Mn, USA
 1 FACT Callie is very creative.
+1 FAMC @F22@
 0 @I61@ INDI
 1 NAME Samuel Paul /Thielen/
 2 GIVN Samuel Paul
@@ -1053,6 +1107,7 @@
 1 BAPM
 2 PLAC St. John Lutheran Church, Wheaton, Mn, USA
 1 FACT Sam likes sports & hunting.
+1 FAMC @F22@
 0 @I60@ INDI
 1 NAME Brita Margaret /Thielen/
 2 GIVN Brita Margaret
@@ -1065,6 +1120,7 @@
 2 PLAC St. John Lutheran Church, Wheaton, Mn, USA
 1 OCCU Student
 1 FACT Brita is an avid reader.
+1 FAMC @F22@
 0 @I544@ INDI
 1 NAME Agnes K /Magnuson/
 2 GIVN Agnes K
@@ -1089,6 +1145,7 @@
 1 FACT Milton was a 32nd degree Mason & a Shriner
 1 FACT They spent the last 20 winters in Arizona.
 1 FAMS @F165@
+1 FAMC @F408@
 0 @I63@ INDI
 1 NAME Matthew Joel /Thielen/
 2 GIVN Matthew Joel
@@ -1099,6 +1156,7 @@
 2 PLAC St. Francis Hosp. Breckenridge, MN, USA
 1 BAPM
 2 PLAC Ave Maria Catholic Church, Wheaton, MN, USA
+1 FAMC @F22@
 0 @I181@ INDI
 1 NAME Samantha Ashley /Kracht/
 2 GIVN Samantha Ashley
@@ -1113,6 +1171,7 @@
 1 OCCU Student
 1 FACT Samantha is Catholic.
 1 FACT Samantha is active in school sports, likes to dance & loves animals.
+1 FAMC @F64@
 0 @I694@ INDI
 1 NAME Steffenie Tian /Mohror/
 2 GIVN Steffenie Tian
@@ -1120,6 +1179,7 @@
 1 REFN CustomGenCode:MAHAA1CB
 1 BIRT
 2 DATE 29 Dec 1989
+1 FAMC @F213@
 0 @I549@ INDI
 1 NAME Julie /Hoffer/
 2 GIVN Julie
@@ -1147,6 +1207,7 @@
 2 DATE 1 Oct 1975
 2 PLAC Sioux Valley Memorial Hosp. Cherokee, IA, USA
 1 OCCU Student
+1 FAMC @F72@
 0 @I215@ INDI
 1 NAME Chad Michael /Brown/
 2 GIVN Chad Michael
@@ -1156,6 +1217,7 @@
 2 DATE 10 Sep 1977
 2 PLAC Sioux Valley Memorial Hosp. Cherokee, IA, USA
 1 OCCU Student
+1 FAMC @F72@
 0 @I54@ INDI
 1 NAME Sandra Doris /Ringdahl/
 2 GIVN Sandra Doris
@@ -1177,11 +1239,13 @@
 1 FACT Paul belongs to several professional organizations.  Sandy is active in church organizations.
 1 FACT Paul enjoys water sports in the summer & skiing in the winter.  Sandy likes decorating all the year around.
 1 FAMS @F21@
+1 FAMC @F293@
 0 @I550@ INDI
 1 NAME Ticah Kiera /Burrows/
 2 GIVN Ticah Kiera
 2 SURN Burrows
 1 REFN CustomGenCode:MAFBABA
+1 FAMC @F167@
 0 @I1167@ INDI
 1 NAME David S /Miller/
 2 GIVN David S
@@ -1194,6 +1258,7 @@
 2 GIVN Saffron
 2 SURN Burrows
 1 REFN CustomGenCode:MAFBABB
+1 FAMC @F167@
 0 @I692@ INDI
 1 NAME Tami /Steinke/
 2 GIVN Tami
@@ -1251,6 +1316,7 @@
 2 DATE 28 Mar 1975
 2 PLAC Oakland Cem. Peterson, IA, USA
 1 FACT Died in infancy.
+1 FAMC @F71@
 0 @I1228@ INDI
 1 NAME Benjamin /Friend/
 2 GIVN Benjamin
@@ -1267,6 +1333,7 @@
 2 DATE 14 Sep 1976
 2 PLAC Sioux Valley Memorial Hosp. Cherokee, IA, USA
 1 OCCU Student
+1 FAMC @F71@
 0 @I689@ INDI
 1 NAME Alexander David /Johnson/
 2 GIVN Alexander David
@@ -1274,6 +1341,7 @@
 1 REFN CustomGenCode:MAHAA1BA
 1 BIRT
 2 DATE 4 May 1987
+1 FAMC @F212@
 0 @I690@ INDI
 1 NAME Issac Charles /Johnson/
 2 GIVN Issac Charles
@@ -1281,6 +1349,7 @@
 1 REFN CustomGenCode:MAHAA1BB
 1 BIRT
 2 DATE 12 Oct 1988
+1 FAMC @F212@
 0 @I828@ INDI
 1 NAME Betty Ann /Kraemer/
 2 GIVN Betty Ann
@@ -1290,6 +1359,7 @@
 2 DATE 29 Mar 1960
 2 PLAC , Cherokee, IA, USA
 1 OCCU Employed through P.F.F.
+1 FAMC @F261@
 0 @I209@ INDI
 1 NAME Ryan Lee /Brown/
 2 GIVN Ryan Lee
@@ -1299,6 +1369,7 @@
 2 DATE 29 Jul 1973
 2 PLAC Sioux Valley Memorial Hosp. Cherokee, IA, USA
 1 OCCU Student
+1 FAMC @F71@
 0 @I1229@ INDI
 1 NAME Eleanor /Fox/
 2 GIVN Eleanor
@@ -1326,6 +1397,7 @@
 1 FACT Shannon is a Christian & Hilda is Catholic.
 1 FACT Golf.
 1 FAMS @F64@
+1 FAMC @F328@
 0 @I688@ INDI
 1 NAME Charles /Johnson/
 2 GIVN Charles
@@ -1354,6 +1426,7 @@
 2 PLAC , Cherokee, IA, USA
 1 OCCU Homemaker, Cherokee Credit Union
 1 FAMS @F72@
+1 FAMC @F336@
 0 @I950@ INDI
 1 NAME John Elwin /Wagner/ Sr
 2 GIVN John Elwin
@@ -1380,6 +1453,7 @@
 2 DATE 1979
 2 PLAC Good Shepards Lutheran Church, Wheaton, MN, USA
 1 OCCU Student
+1 FAMC @F21@
 0 @I1111@ INDI
 1 NAME Ingwald /Viste/
 2 GIVN Ingwald
@@ -1399,6 +1473,7 @@
 2 DATE 1984
 2 PLAC Good Shepards Lutheran Church, Wheaton, MN, USA
 1 OCCU Student
+1 FAMC @F21@
 0 @I951@ INDI
 1 NAME Marie /Wietzel/
 2 GIVN Marie
@@ -1422,6 +1497,7 @@
 2 DATE 10 Dec 1975
 2 PLAC Sioux Valley Memorial Hosp. Cherokee, IA, USA
 1 OCCU Student
+1 FAMC @F483@
 0 @I484@ INDI
 1 NAME Marjorie Carol /Paulsen/
 2 GIVN Marjorie Carol
@@ -1435,6 +1511,7 @@
 2 DATE 9 Jan 1998
 1 OCCU Homemaker, Teacher
 1 FAMS @F151@
+1 FAMC @F402@
 0 @I475@ INDI
 1 NAME Richard Otto /Meyer/
 2 GIVN Richard Otto
@@ -1447,6 +1524,7 @@
 1 OCCU Air Transport Pilot
 1 FAMS @F148@
 1 FAMS @F150@
+1 FAMC @F124@
 0 @I467@ INDI
 1 NAME Virgil Keith /Meyer/
 2 GIVN Virgil Keith
@@ -1471,6 +1549,7 @@
 1 FACT Virgil plays some golf.  Carole likes to read & play bridge.  They both enjoy boating, fishing & relaxing at their cabin on Norway lake in MN.  They both like to travel.
 1 FACT They spent 3 weeks touring Europe in 1978.  Have been to China, Israel & plan to spend winters in Florida.  They have time shares in Cancun, Mexico & Hawaii.
 1 FAMS @F144@
+1 FAMC @F124@
 0 @I441@ INDI
 1 NAME Irene Phyllis /Meyer/
 2 GIVN Irene Phyllis
@@ -1498,6 +1577,7 @@
 1 FACT Irene has kept a diary continuously since age 12 & enjoyed sewing from an even earlier age.  She volunteers in school, community & church.  Ed likes wood working, sailing & loves to golf.  They both like music & tennis.
 1 FACT Through AFS, they have hosted a boy from Switzerland in 1977-78 and an English teacher from the Peoples Republic of China in 1987-88.  They have followed up with visits back to them in Europe and China.
 1 FAMS @F135@
+1 FAMC @F124@
 0 @I407@ INDI
 1 NAME Donovan Burdette /Meyer/
 2 GIVN Donovan Burdette
@@ -1527,6 +1607,7 @@
 1 FACT Donovan earned his private pilot's license in 1982 & flies a Cessna 172. He has been working on family histories since 1990.  Doris has done a little art work & enjoys cooking, sewing & visiting the grand children.
 1 FACT Doris went back to England for 6 weeks to visit her family in 1970.  Both have been back for a month's visit in 1989, 1991, 1995 and 1998
 1 FAMS @F125@
+1 FAMC @F124@
 0 @I586@ INDI
 1 NAME Marilyn Fay /Nyre/
 2 GIVN Marilyn Fay
@@ -1538,6 +1619,7 @@
 2 PLAC , Big Timber, MT, USA
 1 OCCU Homemaker, Hair Stylist
 1 FAMS @F179@
+1 FAMC @F175@
 0 @I582@ INDI
 1 NAME Jerome Phillip /Nyre/
 2 GIVN Jerome Phillip
@@ -1550,6 +1632,7 @@
 1 OCCU Owner Oerator-Masonary Business
 1 FAMS @F177@
 1 FAMS @F178@
+1 FAMC @F175@
 0 @I647@ INDI
 1 NAME Andrew James /Hummel/
 2 GIVN Andrew James
@@ -1558,6 +1641,7 @@
 1 BIRT
 2 DATE 15 Jul 1994
 2 PLAC Sacred Heart Hosp, Yankton, SD, USA
+1 FAMC @F198@
 0 @I576@ INDI
 1 NAME Wayne Allen /Nyre/
 2 GIVN Wayne Allen
@@ -1569,6 +1653,7 @@
 2 PLAC , Big Timber, MT, USA
 1 OCCU Chemical Engineer
 1 FAMS @F176@
+1 FAMC @F175@
 0 @I208@ INDI
 1 NAME Cheryl Jean /Anderson/
 2 GIVN Cheryl Jean
@@ -1582,6 +1667,7 @@
 1 FACT Greg attended the School of barbering in Sioux City, IA.  Cheryl is a graduate of the Storm Lake School of Cosmetology.
 1 FACT They are both active in the Congregational Church in Peterson, IA.
 1 FAMS @F71@
+1 FAMC @F335@
 0 @I646@ INDI
 1 NAME Tyler Dean /Hummel/
 2 GIVN Tyler Dean
@@ -1590,6 +1676,7 @@
 1 BIRT
 2 DATE 11 Feb 1992
 2 PLAC Sacred Heart Hosp, Yankton, SD, USA
+1 FAMC @F198@
 0 @I386@ INDI
 1 NAME John Walter /Franken/
 2 GIVN John Walter
@@ -1599,6 +1686,7 @@
 2 DATE 3 Dec 1968
 2 PLAC , Alta, IA, USA
 1 OCCU Student
+1 FAMC @F116@
 0 @I406@ INDI
 1 NAME Beda Rosalia /Knudson/
 2 GIVN Beda Rosalia
@@ -1628,6 +1716,7 @@
 1 FACT Their main hobbies were entertaining friends and playing bridge in several different clubs most of their married life.
 1 FACT In the late 1950's they bought a new pick up and slide in camper.  They spent a month driving up the Alaskan Highway and touring Fairbanks and Anchorage.  They sold the outfit in Juneau and came back by boat, train & bus.
 1 FAMS @F124@
+1 FAMC @F378@
 0 @I203@ INDI
 1 NAME Hillary Kathleen /Brown/
 2 GIVN Hillary Kathleen
@@ -1637,6 +1726,7 @@
 2 DATE 10 Sep 1980
 2 PLAC Sioux Valley Memorial Hosp. Cherokee, IA, USA
 1 OCCU Student
+1 FAMC @F69@
 0 @I478@ INDI
 1 NAME Carl /Reber/
 2 GIVN Carl
@@ -1666,6 +1756,7 @@
 1 FACT * David's children from a previous marriage
 1 FAMS @F137@
 1 FAMS @F491@
+1 FAMC @F390@
 0 @I444@ INDI
 1 NAME William Allister /MacLeod/ Jr
 2 GIVN William Allister
@@ -1686,6 +1777,7 @@
 1 FACT Sue likes to quilt, knit, sew, plays recorder.  Bill loves to putter with electronics and ham radio.  Bill and Sue both sing, and belonged to a professional Renaissance singing group.
 1 FACT Sue has maintained a Colonial-era home in Massachusetts, thus learning carpentry, plumbing, painting and demolishing techniques.
 1 FAMS @F136@
+1 FAMC @F389@
 0 @I490@ INDI
 1 NAME Marilyn Jean /Meyer/
 2 GIVN Marilyn Jean
@@ -1701,6 +1793,7 @@
 1 FACT Marilyn earned her Bachelor of Arts & Bachelor of Music at Drake University, in Des Moines, IA, USA.
 1 FACT She is a member of Beta Beta Beta, Mortar Board, Phi Beta Kappa and American Guild of Organists.
 1 FACT Music
+1 FAMC @F151@
 0 @I1@ INDI
 1 NAME Herman Henry William /Meyer/
 2 GIVN Herman Henry William
@@ -1716,6 +1809,7 @@
 1 OCCU Farmer
 1 FAMS @F1@
 1 FAMS @F374@
+1 FAMC @F0@
 0 @I387@ INDI
 1 NAME Amanda Bertha Marie /Meyer/
 2 GIVN Amanda Bertha Marie
@@ -1731,6 +1825,7 @@
 1 OCCU Homemaker
 1 FAMS @F117@
 1 FAMS @F280@
+1 FAMC @F0@
 0 @I137@ INDI
 1 NAME Anna Marie Cathrine /Meyer/
 2 GIVN Anna Marie Cathrine
@@ -1745,6 +1840,7 @@
 2 PLAC St. John's Cem. Peterson, IA, USA
 1 OCCU Homemaker
 1 FAMS @F47@
+1 FAMC @F0@
 0 @I205@ INDI
 1 NAME Frederick Phillip /Jaminet/
 2 GIVN Frederick Phillip
@@ -1757,6 +1853,7 @@
 1 OCCU Farmer
 1 FACT * Adopted
 1 FAMS @F70@
+1 FAMC @F334@
 0 @I491@ INDI
 1 NAME Marie Augusta Christina /Meyer/
 2 GIVN Marie Augusta Christina
@@ -1771,6 +1868,7 @@
 2 PLAC Lutheran Cem. Bisbee, ND, USA
 1 OCCU Homemaker
 1 FAMS @F153@
+1 FAMC @F0@
 0 @I1208@ INDI
 1 NAME Elsie May /Combs/
 2 GIVN Elsie May
@@ -1792,6 +1890,7 @@
 2 PLAC Evergreen Cem. Los Angeles, CA, USA
 1 OCCU Farmer
 1 FAMS @F123@
+1 FAMC @F0@
 0 @I479@ INDI
 1 NAME Brett Justin /Meyer/
 2 GIVN Brett Justin
@@ -1800,6 +1899,7 @@
 1 BIRT
 2 DATE 8 Nov 1988
 2 PLAC , Torrance, CA, USA
+1 FAMC @F149@
 0 @I591@ INDI
 1 NAME Albert John George /Meyer/
 2 GIVN Albert John George
@@ -1814,6 +1914,7 @@
 2 PLAC Elk Township Cem. Alta, IA, USA
 1 OCCU Farmer, Carpenter
 1 FAMS @F180@
+1 FAMC @F0@
 0 @I480@ INDI
 1 NAME Michelle /Reber/
 2 GIVN Michelle
@@ -1821,6 +1922,7 @@
 1 REFN CustomGenCode:MADAD1AB
 1 BIRT
 2 DATE 26 Mar 1997
+1 FAMC @F149@
 0 @I540@ INDI
 1 NAME Emma Anna Kathrine /Meyer/
 2 GIVN Emma Anna Kathrine
@@ -1835,6 +1937,7 @@
 2 PLAC , Carpio, ND, USA
 1 OCCU Homemaker
 1 FAMS @F164@
+1 FAMC @F0@
 0 @I485@ INDI
 1 NAME Bruce Anthony /Meyer/
 2 GIVN Bruce Anthony
@@ -1852,6 +1955,7 @@
 1 FACT They both enjoy their music.   Bruce is teaching himself to play drums. Carol enjoys playing her guitar.  She also enjoys cooking.
 1 FACT Bruce made a single parachute jump in Jackson Hole, WY, & broke his leg.  Carol got stalled in a severe snow storm in a van overnite without heat in South Dakota.
 1 FAMS @F152@
+1 FAMC @F151@
 0 @I562@ INDI
 1 NAME Jean Kathleen /Zaro/
 2 GIVN Jean Kathleen
@@ -1864,6 +1968,7 @@
 1 FACT * George was adopted by Helen's second husband, Harry Francis Garvey in 1947.
 1 FAMS @F171@
 1 FAMS @F492@
+1 FAMC @F409@
 0 @I753@ INDI
 1 NAME William Ernest /Meyer/
 2 GIVN William Ernest
@@ -1878,6 +1983,7 @@
 2 PLAC Oakland Cem. Peterson, IA, USA
 1 OCCU Farmer
 1 FAMS @F233@
+1 FAMC @F0@
 0 @I565@ INDI
 1 NAME Maxine T /Raymer/
 2 GIVN Maxine T
@@ -1890,6 +1996,7 @@
 1 OCCU Adminmistrative Secretary
 1 FACT *  Maxine's  children from a previous marriage.
 1 FAMS @F172@
+1 FAMC @F410@
 0 @I680@ INDI
 1 NAME Lydia Dorthea Marie /Meyer/
 2 GIVN Lydia Dorthea Marie
@@ -1907,6 +2014,7 @@
 2 PLAC Arlington Cem. Arlington, SD, USA
 1 OCCU Homemaker
 1 FAMS @F209@
+1 FAMC @F0@
 0 @I383@ INDI
 1 NAME Judy Lee /Felten/
 2 GIVN Judy Lee
@@ -1929,6 +2037,7 @@
 1 FACT Presbyterian
 1 FACT AANN
 1 FACT Needlework, Gardening, Bicyling & Volleyball.
+1 FAMC @F115@
 0 @I873@ INDI
 1 NAME Ella /Meyer/
 2 GIVN Ella
@@ -1941,6 +2050,7 @@
 2 DATE 22 Feb 1891
 2 PLAC St. John's Cem. Haverhill, IA, USA
 1 OCCU Died in infancy
+1 FAMC @F0@
 0 @I384@ INDI
 1 NAME Christ Dean /Felten/
 2 GIVN Christ Dean
@@ -1950,6 +2060,7 @@
 2 DATE 18 Oct 1961
 2 PLAC , Cherokee, IA, USA
 1 OCCU Diesel Mechanic
+1 FAMC @F115@
 0 @I833@ INDI
 1 NAME Minnie E /Meyer/
 2 GIVN Minnie E
@@ -1964,6 +2075,7 @@
 2 PLAC St. John's Cem. Peterson, IA, USA
 1 OCCU Homemaker
 1 FAMS @F263@
+1 FAMC @F0@
 0 @I1207@ INDI
 1 NAME Arthur Leslie /Wilson/
 2 GIVN Arthur Leslie
@@ -1980,6 +2092,7 @@
 2 DATE 15 May 1974
 2 PLAC Spencer Mumiciple Hosp. Spencer, IA, USA
 1 OCCU Student
+1 FAMC @F81@
 0 @I249@ INDI
 1 NAME Heath Allan /Struve/
 2 GIVN Heath Allan
@@ -1989,6 +2102,7 @@
 2 DATE 18 Mar 1976
 2 PLAC Spencer Mumiciple Hosp. Spencer, IA, USA
 1 OCCU Student
+1 FAMC @F81@
 0 @I940@ INDI
 1 NAME Fredrich Ernst Philipp /Tigges/
 2 GIVN Fredrich Ernst Philipp
@@ -2005,6 +2119,7 @@
 2 DATE 22 Dec 1981
 2 PLAC , Grinnell, IA, USA
 1 OCCU Student
+1 FAMC @F81@
 0 @I571@ INDI
 1 NAME /Tarrant/
 2 SURN Tarrant
@@ -2020,6 +2135,7 @@
 1 BIRT
 2 DATE Aug 1935
 1 FAMS @F214@
+1 FAMC @F436@
 0 @I452@ INDI
 1 NAME James Edward /Maize/
 2 GIVN James Edward
@@ -2037,6 +2153,7 @@
 1 FACT They attended the Presbyterian church.
 1 FACT Carol plays the cello, does crocheting & needlework & likes to ski.  Jim is interested in auto racing.
 1 FAMS @F138@
+1 FAMC @F391@
 0 @I685@ INDI
 1 NAME /Ffffff/
 2 SURN Ffffff
@@ -2047,6 +2164,7 @@
 2 PLAC , Bruce, SD, USA
 1 OCCU Homemaker
 1 FAMS @F211@
+1 FAMC @F435@
 0 @I941@ INDI
 1 NAME Rosina /Strahback/
 2 GIVN Rosina
@@ -2069,6 +2187,7 @@
 1 FACT *Terry Allen is Marcella's son from a previous marriage.
 1 FAMS @F69@
 1 FAMS @F483@
+1 FAMC @F333@
 0 @I456@ INDI
 1 NAME Eric Joseph /Maize/
 2 GIVN Eric Joseph
@@ -2078,6 +2197,7 @@
 2 DATE 2 Aug 1982
 2 PLAC Butler Memorial Hosp. Butler, PA, USA
 1 OCCU Student
+1 FAMC @F138@
 0 @I455@ INDI
 1 NAME Christopher Mathew /Maize/
 2 GIVN Christopher Mathew
@@ -2087,6 +2207,7 @@
 2 DATE 27 Jul 1979
 2 PLAC Magee Women's Hosp. Pittsburgh, PA, USA
 1 OCCU Student
+1 FAMC @F138@
 0 @I453@ INDI
 1 NAME James Ian /Maize/
 2 GIVN James Ian
@@ -2109,6 +2230,7 @@
 1 FACT They are members of the Presbyterian
 1 FACT He was commissioned an Ensign in the United States Navy from the Dept of the Navy in May of 1999.
 1 FAMS @F139@
+1 FAMC @F138@
 0 @I458@ INDI
 1 NAME James Dean /Sipe/
 2 GIVN James Dean
@@ -2119,6 +2241,7 @@
 2 PLAC , Indianapolis, IN, USA
 1 OCCU Student
 1 FAMS @F140@
+1 FAMC @F393@
 0 @I569@ INDI
 1 NAME Harry Francis /Garvey/
 2 GIVN Harry Francis
@@ -2144,6 +2267,7 @@
 2 PLAC , Cherokee, IA, USA
 1 OCCU Microwave Communication Spclst.
 1 FAMS @F113@
+1 FAMC @F112@
 0 @I374@ INDI
 1 NAME Eric William /Mohror/
 2 GIVN Eric William
@@ -2153,6 +2277,7 @@
 2 DATE 28 Jun 1963
 2 PLAC , Alta, IA, USA
 1 OCCU Construction
+1 FAMC @F112@
 0 @I375@ INDI
 1 NAME Adam Wayne /Mohror/
 2 GIVN Adam Wayne
@@ -2164,6 +2289,7 @@
 2 PLAC , Alta, IA, USA
 1 OCCU US Marines
 1 FAMS @F114@
+1 FAMC @F112@
 0 @I575@ INDI
 1 NAME Cyril Jerome /Nyre/
 2 GIVN Cyril Jerome
@@ -2177,6 +2303,7 @@
 2 DATE 11 Dec 1963
 2 PLAC , Big Timber, MT, USA
 1 FAMS @F175@
+1 FAMC @F411@
 0 @I379@ INDI
 1 NAME Andrew Robert /Mohror/
 2 GIVN Andrew Robert
@@ -2186,6 +2313,7 @@
 2 DATE 17 Feb 1969
 2 PLAC , New Hampton, IA, USA
 1 OCCU Student
+1 FAMC @F112@
 0 @I698@ INDI
 1 NAME Maurice /Kruger/
 2 GIVN Maurice
@@ -2196,6 +2324,7 @@
 2 PLAC , De Smet, SD, USA
 1 OCCU Farmer
 1 FAMS @F215@
+1 FAMC @F437@
 0 @I780@ INDI
 1 NAME Harold /Swanger/
 2 GIVN Harold
@@ -2204,6 +2333,7 @@
 1 BIRT
 2 DATE 18 Apr 1913
 1 FAMS @F244@
+1 FAMC @F453@
 0 @I380@ INDI
 1 NAME Susan Jane /Mohror/
 2 GIVN Susan Jane
@@ -2213,6 +2343,7 @@
 2 DATE 4 Mar 1971
 2 PLAC , Postville, IA, USA
 1 OCCU Student
+1 FAMC @F112@
 0 @I459@ INDI
 1 NAME David Edward /Charlton/
 2 GIVN David Edward
@@ -2233,6 +2364,7 @@
 1 FACT Laurie enjoys women's barbershop singing, handbell ringing, sewing & crafts.  David sings in the church choir & enjoys bicycling.
 1 FACT Laurie had an interesting experience as a Corning Glass representive to Japan.  The Japanese men were a bit unnerved by the fact that she was about 8 inches taller than they and a woman.
 1 FAMS @F141@
+1 FAMC @F394@
 0 @I883@ INDI
 1 NAME Warren /Sandberg/
 2 GIVN Warren
@@ -2245,6 +2377,7 @@
 2 GIVN James
 2 SURN Tarrant
 1 REFN CustomGenCode:MAFDB
+1 FAMC @F174@
 0 @I247@ INDI
 1 NAME William Allan /Struve/
 2 GIVN William Allan
@@ -2256,6 +2389,7 @@
 2 PLAC , Sioux Rapids, IA, USA
 1 OCCU General Telephone
 1 FAMS @F81@
+1 FAMC @F345@
 0 @I368@ INDI
 1 NAME Jane Elaine Schafroth /Covey/
 2 GIVN Jane Elaine Schafroth
@@ -2268,11 +2402,13 @@
 1 OCCU Homemaker, Teacher, N.H. Mgr.
 1 FACT * Jane's son from a previous marriage.
 1 FAMS @F112@
+1 FAMC @F368@
 0 @I572@ INDI
 1 NAME Irene Marie /Tarrant/
 2 GIVN Irene Marie
 2 SURN Tarrant
 1 REFN CustomGenCode:MAFDA
+1 FAMC @F174@
 0 @I1169@ INDI
 1 NAME John Franklin /Marshall/
 2 GIVN John Franklin
@@ -2306,6 +2442,7 @@
 1 FACT Kurt has had Juvenile Myoclonic Epilepsy since the age of ten.  He is fully controlled as of age 32 using Depakote (5500 mg/day) and secured his first driver's license at the age of 32.
 1 FACT Katherine always has been known as Katy.
 1 FAMS @F143@
+1 FAMC @F396@
 0 @I465@ INDI
 1 NAME Molly /McDaniel/
 2 GIVN Molly
@@ -2316,6 +2453,7 @@
 2 PLAC , Richmond, CA, USA
 1 OCCU Development Dept. at University of Maryland.
 1 FAMS @F142@
+1 FAMC @F395@
 0 @I1170@ INDI
 1 NAME Betty Latichia /Nutting/
 2 GIVN Betty Latichia
@@ -2341,6 +2479,7 @@
 2 PLAC , Madison, SD, USA
 1 OCCU Surveyor
 1 FAMS @F217@
+1 FAMC @F438@
 0 @I1028@ INDI
 1 NAME Paul /Dettmann/
 2 GIVN Paul
@@ -2357,6 +2496,7 @@
 2 DATE 6 Jun 1974
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA, USA
 1 OCCU Student
+1 FAMC @F80@
 0 @I369@ INDI
 1 NAME Peter Covey /Schafroth/
 2 GIVN Peter Covey
@@ -2375,6 +2515,7 @@
 2 DATE 11 Apr 1977
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA, USA
 1 OCCU Student
+1 FAMC @F80@
 0 @I782@ INDI
 1 NAME John Earl /Putnam/ Sr
 2 GIVN John Earl
@@ -2388,6 +2529,7 @@
 1 FACT Joyce attended Western Iow Tech. 1 year to become an LPN
 1 FACT Joyce enjoys gardening, making quilts, Snowmobiling & her grandchildren.  Johnenjoys restoring old cars & trucks & snowmobiling in the winter.
 1 FAMS @F245@
+1 FAMC @F454@
 0 @I1181@ INDI
 1 NAME Dorothy /Riedel/
 2 GIVN Dorothy
@@ -2421,6 +2563,7 @@
 1 FACT Chris served in the US Army in Korea.
 1 FACT Chris was active in Northwest Iowa Hereford Association.
 1 FAMS @F115@
+1 FAMC @F371@
 0 @I1180@ INDI
 1 NAME Irvin /Feistner/
 2 GIVN Irvin
@@ -2456,6 +2599,7 @@
 1 FACT John was active in the Izaak Walton League.
 1 FACT Betty enjoys jig saw puzzles, counted cross stitching, knitting, stamp collecting, birds & hiking.
 1 FAMS @F116@
+1 FAMC @F372@
 0 @I0@ INDI
 1 NAME William /Meyer/
 2 GIVN William
@@ -2486,12 +2630,14 @@
 2 PLAC St. John's Cem. Peterson, IA, USA
 1 OCCU Farmer, Farm Machinery Salesman
 1 FAMS @F56@
+1 FAMC @F48@
 0 @I703@ INDI
 1 NAME Lonny Jay /Kruger/
 2 GIVN Lonny Jay
 2 SURN Kruger
 1 REFN CustomGenCode:MAHABC
 1 OCCU Sign Maker
+1 FAMC @F215@
 0 @I141@ INDI
 1 NAME Irene Marie /Kracht/
 2 GIVN Irene Marie
@@ -2518,6 +2664,7 @@
 1 FACT * Adopted by John Wagner at Storm Lake, IA, in 1948.
 1 FAMS @F49@
 1 FAMS @F52@
+1 FAMC @F48@
 0 @I699@ INDI
 1 NAME Steven /Kruger/
 2 GIVN Steven
@@ -2526,12 +2673,14 @@
 1 SEX M
 1 OCCU Scrimshaw
 1 FAMS @F216@
+1 FAMC @F215@
 0 @I702@ INDI
 1 NAME Keven Robbie /Kruger/
 2 GIVN Keven Robbie
 2 SURN Kruger
 1 REFN CustomGenCode:MAHABB
 1 OCCU Farmer
+1 FAMC @F215@
 0 @I145@ INDI
 1 NAME Roger Douglas /Edwards/
 2 GIVN Roger Douglas
@@ -2541,6 +2690,7 @@
 2 DATE 2 Feb 1969
 2 PLAC , Sioux City, IA, USA
 1 OCCU Student
+1 FAMC @F50@
 0 @I1029@ INDI
 1 NAME Catharine /Gessman/
 2 GIVN Catharine
@@ -2559,6 +2709,7 @@
 2 PLAC , Ida Grove, IA, USA
 1 OCCU Ham Boner, Wilson Packing
 1 FAMS @F248@
+1 FAMC @F456@
 0 @I894@ INDI
 1 NAME LaVergne Hilda /Otto/
 2 GIVN LaVergne Hilda
@@ -2582,6 +2733,7 @@
 2 DATE 6 Mar 1974
 2 PLAC , Sioux City, IA, USA
 1 OCCU Student
+1 FAMC @F79@
 0 @I1261@ INDI
 1 NAME Katherine /Elizabeth/
 2 GIVN Katherine
@@ -2597,6 +2749,7 @@
 1 BIRT
 2 DATE 24 Apr 1995
 2 PLAC Spencer Mumiciple Hosp. Spencer, IA, USA
+1 FAMC @F271@
 0 @I855@ INDI
 1 NAME Emma Marie /Meyers/
 2 GIVN Emma Marie
@@ -2605,6 +2758,7 @@
 1 BIRT
 2 DATE 9 Apr 1997
 2 PLAC Spencer Mumiciple Hosp. Spencer, IA, USA
+1 FAMC @F271@
 0 @I1037@ INDI
 1 NAME Myra /Hinkeldey/
 2 GIVN Myra
@@ -2627,6 +2781,7 @@
 1 OCCU Farmer
 1 FACT * Stillborn son between Jean and Luella
 1 FAMS @F62@
+1 FAMC @F326@
 0 @I793@ INDI
 1 NAME James /Weins/
 2 GIVN James
@@ -2647,6 +2802,7 @@
 1 FACT Jim served in the US Air Force from 1968 to1972.
 1 FACT Jane enjoys collecting copper jello molds.
 1 FAMS @F249@
+1 FAMC @F457@
 0 @I893@ INDI
 1 NAME Merlyn Glenister /Hedman/
 2 GIVN Merlyn Glenister
@@ -2688,6 +2844,7 @@
 2 SURN Feistner
 1 REFN CustomGenCode:MAHACA
 1 OCCU College Student
+1 FAMC @F217@
 0 @I242@ INDI
 1 NAME Martin Ryan /Mason/
 2 GIVN Martin Ryan
@@ -2699,6 +2856,7 @@
 2 PLAC , Storm Lake, IA, USA
 1 OCCU District Mgr. for Coast to Coast
 1 FAMS @F80@
+1 FAMC @F344@
 0 @I853@ INDI
 1 NAME Stephen /Meyers/
 2 GIVN Stephen
@@ -2710,6 +2868,7 @@
 2 PLAC , Sioux City, IA, USA
 1 FACT Stephen earned a Batchelors degree in Agriculture.
 1 FAMS @F271@
+1 FAMC @F477@
 0 @I1183@ INDI
 1 NAME Lewis /Sneesby/
 2 GIVN Lewis
@@ -2726,6 +2885,7 @@
 1 OCCU Student
 1 FAMS @F218@
 1 FAMS @F495@
+1 FAMC @F217@
 0 @I787@ INDI
 1 NAME John Earl /Putnam/ Jr
 2 GIVN John Earl
@@ -2739,6 +2899,7 @@
 1 FACT John earned a 4 year degree from South Dakota State University in Brookings, SD.  Angela earned a 4 year degree from Southwest State University in Marshall, MN, USA.
 1 FACT John enjoys collecting comic books & sports cards.  Angela enjoys scrap booking.
 1 FAMS @F247@
+1 FAMC @F245@
 0 @I1182@ INDI
 1 NAME Peter /Holland/
 2 GIVN Peter
@@ -2760,6 +2921,7 @@
 1 FACT They are members of the United Methodist Church in Sutherland, IA, where Jodi teaches Sunday School & Bible School.
 1 FACT Jodi enjoys her cross stitching & scrap booking.  Robert "Bubba" enjoys building things out of wood & restoring old motorcycles
 1 FAMS @F246@
+1 FAMC @F245@
 0 @I695@ INDI
 1 NAME Gaylene Ruth /Mohror/
 2 GIVN Gaylene Ruth
@@ -2768,6 +2930,7 @@
 1 BIRT
 2 DATE 31 Mar 1967
 1 OCCU Assistant Manager at Toco Johns
+1 FAMC @F211@
 0 @I1260@ INDI
 1 NAME Clarence Fredrick /Love/
 2 GIVN Clarence Fredrick
@@ -2783,6 +2946,7 @@
 1 SEX M
 1 FACT * Tami's son from a previous marriage.
 1 FAMS @F213@
+1 FAMC @F211@
 0 @I687@ INDI
 1 NAME Karla Jean /Mohror/
 2 GIVN Karla Jean
@@ -2794,6 +2958,7 @@
 2 PLAC , Arlington, SD, USA
 1 OCCU Secretary
 1 FAMS @F212@
+1 FAMC @F211@
 0 @I1123@ INDI
 1 NAME /Dunphy/
 2 SURN Dunphy
@@ -2811,6 +2976,7 @@
 1 BIRT
 2 DATE 1 Aug 1961
 1 OCCU Holiday Inn
+1 FAMC @F211@
 0 @I1202@ INDI
 1 NAME Monice /Nathan/
 2 GIVN Monice
@@ -2827,6 +2993,7 @@
 2 DATE 15 Jan 1976
 2 PLAC , Sioux City, IA, USA
 1 OCCU Student
+1 FAMC @F79@
 0 @I240@ INDI
 1 NAME Jessica Lynn /Christensen/
 2 GIVN Jessica Lynn
@@ -2836,6 +3003,7 @@
 2 DATE 4 May 1981
 2 PLAC , Sioux City, IA, USA
 1 OCCU Student
+1 FAMC @F79@
 0 @I1036@ INDI
 1 NAME Marvin /Winterhof/
 2 GIVN Marvin
@@ -2869,6 +3037,7 @@
 2 PLAC , Algona, IA, USA
 1 OCCU Agricultural Consultant
 1 FAMS @F250@
+1 FAMC @F458@
 0 @I124@ INDI
 1 NAME Curt Douglas /Meyer/
 2 GIVN Curt Douglas
@@ -2877,6 +3046,7 @@
 1 BIRT
 2 DATE 15 Jul 1978
 2 PLAC , Green Bay, WI, USA
+1 FAMC @F43@
 0 @I123@ INDI
 1 NAME Shannon Jo /Meyer/
 2 GIVN Shannon Jo
@@ -2885,6 +3055,7 @@
 1 BIRT
 2 DATE 19 Oct 1976
 2 PLAC , Green Bay, WI, USA
+1 FAMC @F43@
 0 @I122@ INDI
 1 NAME Steven Jon /Meyer/
 2 GIVN Steven Jon
@@ -2893,6 +3064,7 @@
 1 BIRT
 2 DATE 19 Oct 1976
 2 PLAC , Green Bay, WI, USA
+1 FAMC @F43@
 0 @I121@ INDI
 1 NAME Brad Micheal /Meyer/
 2 GIVN Brad Micheal
@@ -2901,6 +3073,7 @@
 1 BIRT
 2 DATE 27 Jan 1973
 2 PLAC , Green Bay, WI, USA
+1 FAMC @F43@
 0 @I292@ INDI
 1 NAME Sy Allen /Eaton/
 2 GIVN Sy Allen
@@ -2920,6 +3093,7 @@
 2 PLAC , Storm Lake, IA, USA
 1 OCCU Homemaker, Teachers Aid
 1 FAMS @F79@
+1 FAMC @F343@
 0 @I120@ INDI
 1 NAME Janice Karen /Hutchison/
 2 GIVN Janice Karen
@@ -2932,6 +3106,7 @@
 1 OCCU Homemaker
 1 FACT * Twins
 1 FAMS @F43@
+1 FAMC @F308@
 0 @I291@ INDI
 1 NAME Jeremy /Eaton/
 2 GIVN Jeremy
@@ -2960,6 +3135,7 @@
 1 FACT Marie belonged to  Woman's Club & was a 4H Leader.
 1 FACT They enjoyed golf & bridge.
 1 FAMS @F48@
+1 FAMC @F313@
 0 @I1226@ INDI
 1 NAME James Dee I /Leggett/
 2 GIVN James Dee I
@@ -3033,6 +3209,7 @@
 1 FACT They both like fishing & camping.  Ken enjoys On Line Computing, Worldwide.
 1 FACT *Evans, Robert John and Evans, Randall Kenneth are Adopted by Rita and Kenneth.
 1 FAMS @F44@
+1 FAMC @F309@
 0 @I798@ INDI
 1 NAME Rita Marie /Meyer/
 2 GIVN Rita Marie
@@ -3041,6 +3218,7 @@
 1 BIRT
 2 DATE 20 Jun 1986
 2 PLAC , Cherokee, IA, USA
+1 FAMC @F250@
 0 @I289@ INDI
 1 NAME Alyannah Alette /Kelly/
 2 GIVN Alyannah Alette
@@ -3058,6 +3236,7 @@
 2 DATE 19 Jan 1984
 2 PLAC , Cherokee, IA, USA
 1 OCCU Student
+1 FAMC @F250@
 0 @I918@ INDI
 1 NAME Hans B /Krog/
 2 GIVN Hans B
@@ -3073,6 +3252,7 @@
 1 BIRT
 2 DATE 12 Dec 1988
 2 PLAC , Cherokee, IA, USA
+1 FAMC @F250@
 0 @I288@ INDI
 1 NAME Stephanie /Kelly/
 2 GIVN Stephanie
@@ -3084,6 +3264,7 @@
 2 PLAC , Sioux City, IA, USA
 1 OCCU Receptionist
 1 FAMS @F92@
+1 FAMC @F486@
 0 @I290@ INDI
 1 NAME Brooke Liane /Kelly/
 2 GIVN Brooke Liane
@@ -3106,6 +3287,7 @@
 2 PLAC St. John's Cem. Peterson, IA, USA
 1 OCCU Homemaker
 1 FAMS @F98@
+1 FAMC @F357@
 0 @I468@ INDI
 1 NAME Carole Mae /Fink/
 2 GIVN Carole Mae
@@ -3130,6 +3312,7 @@
 1 FACT Virgil plays some golf.  Carole likes to read & play bridge.  They both enjoy boating, fishing & relaxing at their cabin on Norway lake in MN.  They both like to travel.
 1 FACT They spent 3 weeks touring Europe in 1978.  Have been to China, Israel & plan to spend winters in Florida.  They have time shares in Cancun, Mexico & Hawaii.
 1 FAMS @F144@
+1 FAMC @F397@
 0 @I451@ INDI
 1 NAME Carol Lynn /Brungraber/
 2 GIVN Carol Lynn
@@ -3151,6 +3334,7 @@
 1 FACT They attended the Presbyterian church.
 1 FACT Carol plays the cello, does crocheting & needlework & likes to ski.  Jim is interested in auto racing.
 1 FAMS @F138@
+1 FAMC @F135@
 0 @I463@ INDI
 1 NAME Evan Patrick /Charlton/
 2 GIVN Evan Patrick
@@ -3163,6 +3347,7 @@
 2 DATE Oct 1988
 2 PLAC Christ Episcopal Church, Corning, NY, USA
 1 OCCU Student
+1 FAMC @F141@
 0 @I509@ INDI
 1 NAME Scott David /Meyer/
 2 GIVN Scott David
@@ -3170,6 +3355,7 @@
 1 REFN CustomGenCode:MAEBAA
 1 BIRT
 2 DATE Jun 1965
+1 FAMC @F157@
 0 @I443@ INDI
 1 NAME Sue Ann /Brungraber/
 2 GIVN Sue Ann
@@ -3197,6 +3383,7 @@
 1 FACT Sue has maintained a Colonial-era home in Massachusetts, thus learning carpentry, plumbing, painting and demolishing techniques.
 1 FAMS @F136@
 1 FAMS @F137@
+1 FAMC @F135@
 0 @I464@ INDI
 1 NAME Kurt Edward /Brungraber/
 2 GIVN Kurt Edward
@@ -3217,6 +3404,7 @@
 1 OCCU Database Software Tech. Support
 1 FAMS @F142@
 1 FAMS @F143@
+1 FAMC @F135@
 0 @I457@ INDI
 1 NAME Laurie Kay /Brungraber/
 2 GIVN Laurie Kay
@@ -3238,6 +3426,7 @@
 1 OCCU Homemaker
 1 FAMS @F140@
 1 FAMS @F141@
+1 FAMC @F135@
 0 @I510@ INDI
 1 NAME Kent D /Meyer/
 2 GIVN Kent D
@@ -3246,6 +3435,7 @@
 1 BIRT
 2 DATE Nov 1970
 2 PLAC , Quesnel, B.C. Canada
+1 FAMC @F157@
 0 @I287@ INDI
 1 NAME Susan Louise /Mercer/
 2 GIVN Susan Louise
@@ -3259,6 +3449,7 @@
 1 FACT * Susan's daughters from previous marriage.
 1 FAMS @F91@
 1 FAMS @F486@
+1 FAMC @F353@
 0 @I460@ INDI
 1 NAME Clara Victoria /Charlton/
 2 GIVN Clara Victoria
@@ -3272,6 +3463,7 @@
 2 PLAC St. John's Episcopal, San Antonio, TX, USA
 1 OCCU Student
 1 FACT JV and Varsity soccer in high school.
+1 FAMC @F141@
 0 @I461@ INDI
 1 NAME Cecilia Irene /Charlton/
 2 GIVN Cecilia Irene
@@ -3285,6 +3477,7 @@
 2 PLAC Southminster Presbyterian Church, Mt. Lebanon, PA, USA
 1 OCCU Student
 1 FACT diving, basketball, track and field
+1 FAMC @F141@
 0 @I462@ INDI
 1 NAME Corinne Jessica /Charlton/
 2 GIVN Corinne Jessica
@@ -3299,6 +3492,7 @@
 1 OCCU Student
 1 FACT Girl Scouts
 1 FACT Gymnastics
+1 FAMC @F141@
 0 @I1070@ INDI
 1 NAME Ada /Carter/
 2 GIVN Ada
@@ -3321,6 +3515,7 @@
 1 SEX F
 1 OCCU Homemaker
 1 FAMS @F157@
+1 FAMC @F407@
 0 @I442@ INDI
 1 NAME Louis Edward /Brungraber/
 2 GIVN Louis Edward
@@ -3345,6 +3540,7 @@
 1 FACT Irene has kept a diary continuously since age 12 & enjoyed sewing from an even earlier age.  She volunteers in school, community & church.  Ed likes wood working, sailing & loves to golf.  They both like music & tennis.
 1 FACT Through AFS, they have hosted a boy from Switzerland in 1977-78 and an English teacher from the Peoples Republic of China in 1987-88.  They have followed up with visits back to them in Europe and China.
 1 FAMS @F135@
+1 FAMC @F388@
 0 @I1237@ INDI
 1 NAME Louie /Kraemer/
 2 GIVN Louie
@@ -3368,6 +3564,7 @@
 2 DATE 2 Jan 1967
 1 OCCU College Student
 1 FAMS @F59@
+1 FAMC @F324@
 0 @I318@ INDI
 1 NAME Fred Tobias /Kolpin/
 2 GIVN Fred Tobias
@@ -3382,6 +3579,7 @@
 2 PLAC St. John's Cem. Peterson, IA, USA
 1 OCCU Farmer
 1 FAMS @F99@
+1 FAMC @F358@
 0 @I482@ INDI
 1 NAME Jo Ann /Marshall/
 2 GIVN Jo Ann
@@ -3393,6 +3591,7 @@
 2 PLAC , Angleton, TX, USA
 1 OCCU Homemaker, Retail Research Science
 1 FAMS @F150@
+1 FAMC @F401@
 0 @I516@ INDI
 1 NAME Jessie /Stockford/
 2 GIVN Jessie
@@ -3411,6 +3610,7 @@
 2 PLAC , Algoma, WI, USA
 1 OCCU Homemaker
 1 FAMS @F148@
+1 FAMC @F400@
 0 @I514@ INDI
 1 NAME Heather Jean /Meyer/
 2 GIVN Heather Jean
@@ -3419,6 +3619,7 @@
 1 BIRT
 2 DATE 1980
 2 PLAC , Jamestown, ND, USA
+1 FAMC @F158@
 0 @I471@ INDI
 1 NAME Paula Irene /Meyer/
 2 GIVN Paula Irene
@@ -3431,6 +3632,7 @@
 1 OCCU Homemaker, Consumer Banking Rep.
 1 FAMS @F146@
 1 FAMS @F147@
+1 FAMC @F144@
 0 @I513@ INDI
 1 NAME Brian Henry /Meyer/
 2 GIVN Brian Henry
@@ -3440,6 +3642,7 @@
 2 DATE Jan 1978
 2 PLAC , Jamestown, ND, USA
 1 OCCU Farmer
+1 FAMC @F158@
 0 @I841@ INDI
 1 NAME April LeAnn /Johnson/
 2 GIVN April LeAnn
@@ -3451,6 +3654,7 @@
 1 BAPM
 2 DATE 10 Feb 1991
 2 PLAC First Presbyterian Church, Spirit Lake, IA, USA
+1 FAMC @F266@
 0 @I285@ INDI
 1 NAME Cherri Ellen /Carpenter/
 2 GIVN Cherri Ellen
@@ -3468,6 +3672,7 @@
 1 FACT Roger belongs to the Jay Cees & Cherri belongs to the Women of Today.
 1 FACT Roger is a wood carver & throws darts.  Cherri sews, does cross-stitching & raises tropical fish.
 1 FAMS @F90@
+1 FAMC @F352@
 0 @I607@ INDI
 1 NAME Angie //
 2 GIVN Angie
@@ -3497,6 +3702,7 @@
 1 OCCU Mechanical Designer
 1 FACT Gary served in the US Marine Corps in the Pacific Theatre from 1973 to 1976.
 1 FAMS @F145@
+1 FAMC @F144@
 0 @I512@ INDI
 1 NAME Mary /Henry/
 2 GIVN Mary
@@ -3533,6 +3739,7 @@
 1 FACT She is on the Art World Board of Directors & active in 4-H.  Donald belongs to Ducks Unlimited, Rock Mountain Elk Foundation, Pheasants Forever, Muskies, Inc. & North American Sheep Foundation.
 1 FACT Teresa enjoys many crafts, music, sewing, knitting, bicycling, photography & pets.  Don likes to hunt & fish.
 1 FAMS @F266@
+1 FAMC @F473@
 0 @I42@ INDI
 1 NAME /Goodhart/
 2 SURN Goodhart
@@ -3558,6 +3765,7 @@
 2 PLAC Riverside Cem. Spencer, IA, USA
 1 OCCU Homemaker
 1 FAMS @F97@
+1 FAMC @F356@
 0 @I1149@ INDI
 1 NAME Ruth /Guinn/
 2 GIVN Ruth
@@ -3595,6 +3803,7 @@
 2 DATE 1 Sep 1938
 2 PLAC Sioux Valley Memorial Hosp. Cherokee, IA, USA
 1 OCCU Farmer
+1 FAMC @F62@
 0 @I519@ INDI
 1 NAME Machelle /Meyer/
 2 GIVN Machelle
@@ -3603,6 +3812,7 @@
 1 BIRT
 2 DATE 3 Aug 1977
 2 PLAC , Bismark, ND, USA
+1 FAMC @F159@
 0 @I278@ INDI
 1 NAME Luella Verba Berniece /Kracht/
 2 GIVN Luella Verba Berniece
@@ -3617,6 +3827,7 @@
 2 PLAC Kracht Home, Buena Vista Co. IA, USA
 1 OCCU Homemaker
 1 FAMS @F88@
+1 FAMC @F62@
 0 @I518@ INDI
 1 NAME Mary /Meyer/
 2 GIVN Mary
@@ -3625,6 +3836,7 @@
 1 BIRT
 2 DATE 1976
 2 PLAC , Jamestown, ND, USA
+1 FAMC @F159@
 0 @I251@ INDI
 1 NAME Jean Ann /Kracht/
 2 GIVN Jean Ann
@@ -3636,6 +3848,7 @@
 2 PLAC Kracht Home, Buena Vista Co. IA, USA
 1 OCCU Homemaker
 1 FAMS @F82@
+1 FAMC @F62@
 0 @I521@ INDI
 1 NAME Melissa /Meyer/
 2 GIVN Melissa
@@ -3644,6 +3857,7 @@
 1 BIRT
 2 DATE 1980
 2 PLAC , Bismark, ND, USA
+1 FAMC @F159@
 0 @I1020@ INDI
 1 NAME Robert LeRoy /Mercer/
 2 GIVN Robert LeRoy
@@ -3679,6 +3893,7 @@
 1 FACT Calvin was always active with the American Legion, BPOE & the Elks Lodge in Storm Lake.
 1 FACT He Liked to glolf & play cards.
 1 FAMS @F78@
+1 FAMC @F62@
 0 @I520@ INDI
 1 NAME Paul /Meyer/
 2 GIVN Paul
@@ -3687,6 +3902,7 @@
 1 BIRT
 2 DATE 1978
 2 PLAC , Bismark, ND, USA
+1 FAMC @F159@
 0 @I281@ INDI
 1 NAME Gay Stephanie /Lyngaas/
 2 GIVN Gay Stephanie
@@ -3709,6 +3925,7 @@
 1 FACT They belong to the Congregational UCC.
 1 FACT Southern Minnesota Canine Search & Rescue Unit.
 1 FAMS @F89@
+1 FAMC @F351@
 0 @I1147@ INDI
 1 NAME Sena /Hansen/
 2 GIVN Sena
@@ -3736,6 +3953,7 @@
 1 FACT Jan & Bob were both active in the American Legion as well as the Shrine.
 1 FACT They both enjoyed participating in Shrine activities and parades, especially in the summer time.
 1 FAMS @F94@
+1 FAMC @F62@
 0 @I216@ INDI
 1 NAME Herbert Ernest /Kracht/
 2 GIVN Herbert Ernest
@@ -3747,6 +3965,7 @@
 2 PLAC Kracht Home, Buena Vista Co. IA, USA
 1 OCCU Farmer
 1 FAMS @F73@
+1 FAMC @F62@
 0 @I197@ INDI
 1 NAME Arlene Maxine /Kracht/
 2 GIVN Arlene Maxine
@@ -3762,6 +3981,7 @@
 1 OCCU Homemaker
 1 FACT Ralph attended the College of Mortuary Science at St. Louis in 1949.
 1 FAMS @F68@
+1 FAMC @F62@
 0 @I183@ INDI
 1 NAME Marjorie Marie /Kracht/
 2 GIVN Marjorie Marie
@@ -3773,6 +3993,7 @@
 2 PLAC Kracht Home, Buena Vista Co. IA, USA
 1 OCCU Homemaker
 1 FAMS @F65@
+1 FAMC @F62@
 0 @I517@ INDI
 1 NAME Mark /Meyer/
 2 GIVN Mark
@@ -3781,6 +4002,7 @@
 1 BIRT
 2 DATE 1975
 2 PLAC , Jamestown, ND, USA
+1 FAMC @F159@
 0 @I1047@ INDI
 1 NAME Ida Mae Nichols /Strickland/
 2 GIVN Ida Mae Nichols
@@ -3807,6 +4029,7 @@
 1 FACT Ida is active in the BPOE.
 1 FACT They both enjoy rock hounding & traveling.
 1 FAMS @F63@
+1 FAMC @F62@
 0 @I1027@ INDI
 1 NAME Augusta /Muetzel/
 2 GIVN Augusta
@@ -3825,6 +4048,7 @@
 1 BAPM
 2 DATE 15 Mar 1992
 2 PLAC Congregational UCC Church Rochester, MN, USA
+1 FAMC @F89@
 0 @I283@ INDI
 1 NAME Griffin James /Reed/
 2 GIVN Griffin James
@@ -3836,6 +4060,7 @@
 1 BAPM
 2 DATE 20 Feb 1994
 2 PLAC Congregational UCC Church Rochester, MN, USA
+1 FAMC @F89@
 0 @I892@ INDI
 1 NAME Vivian Clarice /Zebell/
 2 GIVN Vivian Clarice
@@ -3879,16 +4104,19 @@
 1 BIRT
 2 DATE 25 Feb 1988
 2 PLAC , Portland, OR, USA
+1 FAMC @F40@
 0 @I556@ INDI
 1 NAME Jane /Vanerstrom/
 2 GIVN Jane
 2 SURN Vanerstrom
 1 REFN CustomGenCode:MAFBB1C
+1 FAMC @F168@
 0 @I557@ INDI
 1 NAME Sally /Vanerstrom/
 2 GIVN Sally
 2 SURN Vanerstrom
 1 REFN CustomGenCode:MAFBB1D
+1 FAMC @F168@
 0 @I114@ INDI
 1 NAME Jacob Aaron /Landau/
 2 GIVN Jacob Aaron
@@ -3898,6 +4126,7 @@
 2 DATE 14 Dec 1980
 2 PLAC , Portland, OR, USA
 1 OCCU Student
+1 FAMC @F40@
 0 @I1118@ INDI
 1 NAME Florence Marguerite /Shea/
 2 GIVN Florence Marguerite
@@ -3910,6 +4139,7 @@
 2 GIVN Peggy
 2 SURN Vanerstrom
 1 REFN CustomGenCode:MAFBB1A
+1 FAMC @F168@
 0 @I902@ INDI
 1 NAME Maria /Radischat/
 2 GIVN Maria
@@ -3924,6 +4154,7 @@
 1 REFN CustomGenCode:MAFBB1B
 1 DEAT
 2 DATE 1963
+1 FAMC @F168@
 0 @I431@ INDI
 1 NAME Loren Jay /Wingert/ Jr
 2 GIVN Loren Jay
@@ -3933,6 +4164,7 @@
 2 DATE 15 Sep 1969
 2 PLAC Battle Creek Hosp. Battle Creek, IA, USA
 1 OCCU Installs & Repairs Air Conditioners
+1 FAMC @F490@
 0 @I377@ INDI
 1 NAME Laurren Danielle /Mohror/
 2 GIVN Laurren Danielle
@@ -3941,6 +4173,7 @@
 1 BIRT
 2 DATE 14 Nov 1990
 2 PLAC , Okinawa, Japan
+1 FAMC @F114@
 0 @I378@ INDI
 1 NAME Nathan Brendon /Mohror/
 2 GIVN Nathan Brendon
@@ -3948,6 +4181,7 @@
 1 REFN CustomGenCode:MABHADB
 1 BIRT
 2 DATE 24 Sep 1992
+1 FAMC @F114@
 0 @I1117@ INDI
 1 NAME Joseph Lawrence /Laughlin/
 2 GIVN Joseph Lawrence
@@ -4006,6 +4240,7 @@
 2 PLAC , Anaconda, MT, USA
 1 OCCU Homemaker, Nurse & Xray Technician
 1 FAMS @F196@
+1 FAMC @F421@
 0 @I761@ INDI
 1 NAME Allan /Brown/
 2 GIVN Allan
@@ -4024,6 +4259,7 @@
 1 FACT Both enjoy horses. Allen also enjoys hunting and flying.
 1 FACT Killed while felling a tree.  Cremated & ashes scattered at Coral Butte, WA
 1 FAMS @F237@
+1 FAMC @F448@
 0 @I1240@ INDI
 1 NAME Flora Jeanette /McMillan/
 2 GIVN Flora Jeanette
@@ -4048,6 +4284,7 @@
 1 OCCU Apple Shed Worker
 1 FACT Horses
 1 FAMS @F236@
+1 FAMC @F447@
 0 @I1046@ INDI
 1 NAME Onis Welton /Graham/
 2 GIVN Onis Welton
@@ -4089,6 +4326,7 @@
 1 FACT John is President of Western Assoc. of Technology Credit Unions, a member of Credit Union Executives Society & Kiwanis.
 1 FACT He likes golf, all sports & travel.
 1 FAMS @F54@
+1 FAMC @F319@
 0 @I149@ INDI
 1 NAME Joan Margaret /Tomhave/
 2 GIVN Joan Margaret
@@ -4105,6 +4343,7 @@
 1 FACT John is President of Western Assoc. of Technology Credit Unions, a member of Credit Union Executives Society & Kiwanis.
 1 FACT He likes golf, all sports & travel.
 1 FAMS @F53@
+1 FAMC @F318@
 0 @I897@ INDI
 1 NAME Harlyn Dean /Bartz/
 2 GIVN Harlyn Dean
@@ -4128,6 +4367,7 @@
 2 DATE 3 Sep 1977
 2 PLAC , Lake City, IA, USA
 1 OCCU Student
+1 FAMC @F487@
 0 @I308@ INDI
 1 NAME Amber Nicole /Stricker/
 2 GIVN Amber Nicole
@@ -4136,6 +4376,7 @@
 1 BIRT
 2 DATE 14 Jun 1986
 2 PLAC Spencer Mumiciple Hosp. Spencer, IA, USA
+1 FAMC @F96@
 0 @I947@ INDI
 1 NAME Emma //
 2 GIVN Emma
@@ -4159,6 +4400,7 @@
 1 BIRT
 2 DATE 12 Oct 1988
 2 PLAC Spencer Mumiciple Hosp. Spencer, IA, USA
+1 FAMC @F96@
 0 @I310@ INDI
 1 NAME Jacob Robert /Stricker/
 2 GIVN Jacob Robert
@@ -4167,6 +4409,7 @@
 1 BIRT
 2 DATE 25 Nov 1990
 2 PLAC Spencer Mumiciple Hosp. Spencer, IA, USA
+1 FAMC @F96@
 0 @I376@ INDI
 1 NAME Elizabeth Ann /Thomas/
 2 GIVN Elizabeth Ann
@@ -4177,6 +4420,7 @@
 2 PLAC , Marion, OH, USA
 1 OCCU Assistant Mgr. at Resturant
 1 FAMS @F114@
+1 FAMC @F370@
 0 @I311@ INDI
 1 NAME Julie Ann /Stricker/
 2 GIVN Julie Ann
@@ -4185,6 +4429,7 @@
 1 BIRT
 2 DATE 26 Mar 1992
 2 PLAC Spencer Mumiciple Hosp. Spencer, IA, USA
+1 FAMC @F96@
 0 @I898@ INDI
 1 NAME Carol Ann /Hedrick/
 2 GIVN Carol Ann
@@ -4215,6 +4460,7 @@
 2 DATE 22 Aug 1984
 2 PLAC Spencer Mumiciple Hosp. Spencer, IA, USA
 1 OCCU Student
+1 FAMC @F96@
 0 @I34@ INDI
 1 NAME Margaret Ann /Stewart/
 2 GIVN Margaret Ann
@@ -4239,6 +4485,7 @@
 1 FACT Duane Liked trap shooting & hunting
 1 FAMS @F14@
 1 FAMS @F15@
+1 FAMC @F13@
 0 @I46@ INDI
 1 NAME John Sinclair /Stewart/
 2 GIVN John Sinclair
@@ -4255,6 +4502,7 @@
 1 FACT John is serving in the US Air Force at Hill AFB in Utah.  He has attained the rank of Captain.  He also earned his M.S. at Air Force Instute of Technology at Wright-Patterson AFB in Ohio on Sep 20, 1994.
 1 FACT They enjoy Biking & Skiing.
 1 FAMS @F18@
+1 FAMC @F13@
 0 @I39@ INDI
 1 NAME Jeanne Marie /Stewart/
 2 GIVN Jeanne Marie
@@ -4276,6 +4524,7 @@
 1 FACT Jeanne is Charter Member of Town & Country Gals, in Chat N'Chew Extension Club, on Co. Extention Committee & an Emergency Medical Technition. Rich was School Board Member, on Big Stone Co. Co-op Board of Directors & 4-H Leader.
 1 FACT They like gardening, cooking, baking, pets & family outings.
 1 FAMS @F16@
+1 FAMC @F13@
 0 @I641@ INDI
 1 NAME Cynthia Lee /Hess/
 2 GIVN Cynthia Lee
@@ -4287,6 +4536,7 @@
 2 PLAC , Spencer, IA, USA
 1 OCCU Homemaker, Hairdresser
 1 FAMS @F197@
+1 FAMC @F422@
 0 @I1200@ INDI
 1 NAME Winfred /Noble/
 2 GIVN Winfred
@@ -4307,6 +4557,7 @@
 1 FACT * Robert's children from a previous marriage.
 1 FAMS @F95@
 1 FAMS @F487@
+1 FAMC @F355@
 0 @I372@ INDI
 1 NAME Joshua Allen /Mohror/
 2 GIVN Joshua Allen
@@ -4315,6 +4566,7 @@
 1 BIRT
 2 DATE 2 Jun 1986
 2 PLAC , Spokane, WA, USA
+1 FAMC @F113@
 0 @I373@ INDI
 1 NAME Trevor Creston /Mohror/
 2 GIVN Trevor Creston
@@ -4323,6 +4575,7 @@
 1 BIRT
 2 DATE 21 Dec 1988
 2 PLAC , Spokane, WA, USA
+1 FAMC @F113@
 0 @I725@ INDI
 1 NAME /Albrecht/
 2 SURN Albrecht
@@ -4336,6 +4589,7 @@
 1 REFN CustomGenCode:MAJAABA
 1 BIRT
 2 DATE 5 Oct 2001
+1 FAMC @F267@
 0 @I1176@ INDI
 1 NAME Ruth //
 2 GIVN Ruth
@@ -4359,6 +4613,7 @@
 1 BIRT
 2 DATE 7 Oct 1975
 1 OCCU Student
+1 FAMC @F196@
 0 @I366@ INDI
 1 NAME Emmett George /Mohror/
 2 GIVN Emmett George
@@ -4388,6 +4643,7 @@
 1 FACT Ina enjoyed reading, crocheting & baby sitting her grand childred, nieces & nephews.  They both enjoyed dancing, any kind, anywhere.
 1 FACT Ina cared for her Grandfather, William Meyer, for 3 yrs, her Mother & Father, the two blind Aldi sisters for 7 months and Emmett for 7 years when he got Alzheimers disease; all until they passed away.
 1 FAMS @F111@
+1 FAMC @F367@
 0 @I429@ INDI
 1 NAME Danielle Lizabeth /Meyer/
 2 GIVN Danielle Lizabeth
@@ -4400,6 +4656,7 @@
 2 PLAC Elk Creek Lutheran Church, Elk Mound, WI. USA
 1 FACT Menomonie Middle School Year Book Staff.
 1 FACT Danielle like to do experimental cooking with herbs.
+1 FAMC @F131@
 0 @I1175@ INDI
 1 NAME Merle /Pierce/
 2 GIVN Merle
@@ -4420,6 +4677,7 @@
 1 OCCU Student
 1 FACT Menomie High School Band & Color Guard
 1 FACT Christina likes to draw color & work with her computer.
+1 FAMC @F131@
 0 @I1124@ INDI
 1 NAME Hjalmer Cottfrid /Magnuson/
 2 GIVN Hjalmer Cottfrid
@@ -4445,6 +4703,7 @@
 2 PLAC , Cherokee, IA, USA
 1 OCCU Airline Pilot
 1 FAMS @F110@
+1 FAMC @F99@
 0 @I153@ INDI
 1 NAME John Boyd /Askew/
 2 GIVN John Boyd
@@ -4456,6 +4715,7 @@
 2 PLAC , Hamburg, IA, USA
 1 OCCU Farmer
 1 FAMS @F55@
+1 FAMC @F320@
 0 @I352@ INDI
 1 NAME Carolyn Ann /Kolpin/
 2 GIVN Carolyn Ann
@@ -4466,6 +4726,7 @@
 2 DATE 9 Jan 1934
 2 PLAC , Cherokee, IA, USA
 1 FAMS @F107@
+1 FAMC @F99@
 0 @I1013@ INDI
 1 NAME Pearl Henrietta /Mattingley/
 2 GIVN Pearl Henrietta
@@ -4484,6 +4745,7 @@
 2 PLAC , Cherokee, IA, USA
 1 OCCU Farmer
 1 FAMS @F100@
+1 FAMC @F99@
 0 @I304@ INDI
 1 NAME Robert Donald /Rushton/
 2 GIVN Robert Donald
@@ -4500,6 +4762,7 @@
 1 BIRT
 2 DATE 26 Mar 1970
 1 OCCU Student
+1 FAMC @F196@
 0 @I1213@ INDI
 1 NAME Linda /Schubert/
 2 GIVN Linda
@@ -4515,6 +4778,7 @@
 1 BIRT
 2 DATE 2 Jan 2000
 2 PLAC St. Joseph Hosp. Bloomington, IL. USA
+1 FAMC @F129@
 0 @I727@ INDI
 1 NAME Rustin /Albrecht/
 2 GIVN Rustin
@@ -4523,6 +4787,7 @@
 1 BIRT
 2 DATE 22 Dec 1984
 1 OCCU Student
+1 FAMC @F223@
 0 @I421@ INDI
 1 NAME Jane Lizabeth /Baize/
 2 GIVN Jane Lizabeth
@@ -4531,6 +4796,7 @@
 1 BIRT
 2 DATE 16 Sep 1998
 2 PLAC St. Joseph Hosp. Bloomington, IL. USA
+1 FAMC @F129@
 0 @I726@ INDI
 1 NAME Deven /Albrecht/
 2 GIVN Deven
@@ -4539,6 +4805,7 @@
 1 BIRT
 2 DATE 9 Oct 1982
 1 OCCU Student
+1 FAMC @F223@
 0 @I843@ INDI
 1 NAME Steven /Sands/
 2 GIVN Steven
@@ -4561,6 +4828,7 @@
 1 BIRT
 2 DATE 25 Feb 1990
 2 PLAC Spencer Mumiciple Hosp. Spencer, IA, USA
+1 FAMC @F95@
 0 @I303@ INDI
 1 NAME Jennifer Raye /Rushton/
 2 GIVN Jennifer Raye
@@ -4569,6 +4837,7 @@
 1 BIRT
 2 DATE 25 Feb 1992
 2 PLAC Spencer Mumiciple Hosp. Spencer, IA, USA
+1 FAMC @F95@
 0 @I728@ INDI
 1 NAME McKingsley /Albrecht/
 2 GIVN McKingsley
@@ -4576,6 +4845,7 @@
 1 REFN CustomGenCode:MAHB1ACC
 1 BIRT
 2 DATE 10 May 1989
+1 FAMC @F223@
 0 @I1125@ INDI
 1 NAME Elin /Petersdotter/
 2 GIVN Elin
@@ -4592,6 +4862,7 @@
 2 DATE 29 Apr 1986
 2 PLAC , Omaha, NE, USA
 1 OCCU Student
+1 FAMC @F55@
 0 @I86@ INDI
 1 NAME Shannon Colette /McCARTHY/
 2 GIVN Shannon Colette
@@ -4601,6 +4872,7 @@
 2 DATE 18 Jan 1969
 2 PLAC , Portland, OR, USA
 1 OCCU Student
+1 FAMC @F30@
 0 @I155@ INDI
 1 NAME Alexander Daniel /Askew/
 2 GIVN Alexander Daniel
@@ -4609,6 +4881,7 @@
 1 BIRT
 2 DATE 19 Sep 1991
 2 PLAC , Omaha, NE, USA
+1 FAMC @F55@
 0 @I423@ INDI
 1 NAME Jessica /Baize/
 2 GIVN Jessica
@@ -4620,6 +4893,7 @@
 1 BIRT
 2 DATE 20 Nov 2001
 2 PLAC St. Joseph Hosp. Bloomington, IL. USA
+1 FAMC @F129@
 0 @I645@ INDI
 1 NAME Jay Dean /Hummel/
 2 GIVN Jay Dean
@@ -4631,6 +4905,7 @@
 2 PLAC , Wahoo, NE, USA
 1 OCCU Management-Dale Electronics
 1 FAMS @F198@
+1 FAMC @F423@
 0 @I1038@ INDI
 1 NAME Donald Dwayne /Handy/
 2 GIVN Donald Dwayne
@@ -4669,6 +4944,7 @@
 1 FACT Chris was active in Northwest Iowa Hereford Association.
 1 FAMS @F115@
 1 FAMS @F116@
+1 FAMC @F111@
 0 @I642@ INDI
 1 NAME Ross Aaron /Meyer/
 2 GIVN Ross Aaron
@@ -4677,6 +4953,7 @@
 1 BIRT
 2 DATE 6 Oct 1979
 1 OCCU Student
+1 FAMC @F197@
 0 @I643@ INDI
 1 NAME Cass Lynn /Meyer/
 2 GIVN Cass Lynn
@@ -4685,6 +4962,7 @@
 1 BIRT
 2 DATE 16 Apr 1981
 1 OCCU Student
+1 FAMC @F197@
 0 @I1039@ INDI
 1 NAME Marcia Ann /Dorr/
 2 GIVN Marcia Ann
@@ -4703,6 +4981,7 @@
 2 PLAC , Anaheim, CA, USA
 1 OCCU Bookkeeper/Accountant
 1 FAMS @F113@
+1 FAMC @F369@
 0 @I731@ INDI
 1 NAME Bradly /Sneesby/
 2 GIVN Bradly
@@ -4710,6 +4989,7 @@
 1 REFN CustomGenCode:MAHB1ADB
 1 BIRT
 2 DATE 26 May 1989
+1 FAMC @F224@
 0 @I420@ INDI
 1 NAME Bailey Nicole /Baize/
 2 GIVN Bailey Nicole
@@ -4718,6 +4998,7 @@
 1 BIRT
 2 DATE 14 Nov 1997
 2 PLAC St. Joseph Hosp. Bloomington, IL. USA
+1 FAMC @F488@
 0 @I367@ INDI
 1 NAME Emmett Keith /Mohror/
 2 GIVN Emmett Keith
@@ -4730,6 +5011,7 @@
 1 OCCU Farmer, Sales Representative
 1 FACT * Jane's son from a previous marriage.
 1 FAMS @F112@
+1 FAMC @F111@
 0 @I730@ INDI
 1 NAME Megan /Sneesby/
 2 GIVN Megan
@@ -4738,6 +5020,7 @@
 1 BIRT
 2 DATE 13 Aug 1985
 1 OCCU Student
+1 FAMC @F224@
 0 @I1188@ INDI
 1 NAME Lorraine /Culkane/
 2 GIVN Lorraine
@@ -4803,6 +5086,7 @@
 1 FACT * Adopted by Clarence Stevens.                                              ** Twins
 1 FAMS @F74@
 1 FAMS @F75@
+1 FAMC @F73@
 0 @I227@ INDI
 1 NAME Rebecca Sue /Kracht/
 2 GIVN Rebecca Sue
@@ -4814,6 +5098,7 @@
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA, USA
 1 OCCU Homemaker, Office Manager
 1 FAMS @F76@
+1 FAMC @F73@
 0 @I715@ INDI
 1 NAME Paul /Danielson/
 2 GIVN Paul
@@ -4843,6 +5128,7 @@
 1 FACT He is a member of St. John's Evangelical Church.
 1 FACT He is active in the Farm Bureau.
 1 FAMS @F77@
+1 FAMC @F73@
 0 @I624@ INDI
 1 NAME Jill //
 2 GIVN Jill
@@ -4882,6 +5168,7 @@
 2 PLAC , Sac City, IA, USA
 1 OCCU Homemaker
 1 FAMS @F73@
+1 FAMC @F337@
 0 @I717@ INDI
 1 NAME Shaun Marie /Danielson/
 2 GIVN Shaun Marie
@@ -4890,6 +5177,7 @@
 1 BIRT
 2 DATE 30 Nov 1976
 1 OCCU Student
+1 FAMC @F221@
 0 @I1203@ INDI
 1 NAME Robert Kurth /Weems/
 2 GIVN Robert Kurth
@@ -4905,6 +5193,7 @@
 1 BIRT
 2 DATE 25 Apr 1974
 1 OCCU Student
+1 FAMC @F221@
 0 @I932@ INDI
 1 NAME William /Hutchison/
 2 GIVN William
@@ -4927,6 +5216,7 @@
 1 BIRT
 2 DATE 5 Jun 1978
 1 OCCU Student
+1 FAMC @F221@
 0 @I1099@ INDI
 1 NAME Robert Edward /Charlton/
 2 GIVN Robert Edward
@@ -4959,6 +5249,7 @@
 2 DATE 15 Jan 1949
 2 PLAC St. John's Cem. Peterson, IA, USA
 1 FACT Died in infancy.
+1 FAMC @F78@
 0 @I236@ INDI
 1 NAME Calvin Duane /Christensen/
 2 GIVN Calvin Duane
@@ -4970,6 +5261,7 @@
 2 PLAC Sioux Valley Memorial Hosp. Cherokee, IA, USA
 1 OCCU Teacher, Coach
 1 FAMS @F79@
+1 FAMC @F78@
 0 @I709@ INDI
 1 NAME Olivia Irene /Feistner/
 2 GIVN Olivia Irene
@@ -4979,6 +5271,7 @@
 2 DATE 16 Aug 2001
 1 BAPM
 2 PLAC Normandale Lutheran Church, Minneapolis, MN, USA
+1 FAMC @F218@
 0 @I241@ INDI
 1 NAME Candace Elaine /Christensen/
 2 GIVN Candace Elaine
@@ -4990,6 +5283,7 @@
 2 PLAC Sioux Valley Memorial Hosp. Cherokee, IA, USA
 1 OCCU Homemaker
 1 FAMS @F80@
+1 FAMC @F78@
 0 @I1132@ INDI
 1 NAME Henry /Glawe/
 2 GIVN Henry
@@ -5009,6 +5303,7 @@
 2 DATE 18 Sep 1952
 2 PLAC St. John's Cem. Peterson, IA, USA
 1 FACT Died in infancy.
+1 FAMC @F78@
 0 @I246@ INDI
 1 NAME Cheryl Jean /Christensen/
 2 GIVN Cheryl Jean
@@ -5020,6 +5315,7 @@
 2 PLAC Sioux Valley Memorial Hosp. Cherokee, IA, USA
 1 OCCU Homemaker
 1 FAMS @F81@
+1 FAMC @F78@
 0 @I629@ INDI
 1 NAME Jeff /Hudson/
 2 GIVN Jeff
@@ -5077,6 +5373,7 @@
 1 BIRT
 2 DATE 9 Nov 1978
 1 OCCU Student
+1 FAMC @F222@
 0 @I234@ INDI
 1 NAME Calvin Charles /Christensen/
 2 GIVN Calvin Charles
@@ -5097,6 +5394,7 @@
 1 FACT Calvin was always active with the American Legion, BPOE & the Elks Lodge in Storm Lake.
 1 FACT He Liked to glolf & play cards.
 1 FAMS @F78@
+1 FAMC @F342@
 0 @I708@ INDI
 1 NAME /Matter Kari Ann/
 2 SURN Matter Kari Ann
@@ -5113,6 +5411,7 @@
 1 BIRT
 2 DATE 27 Mar 1981
 1 OCCU Student
+1 FAMC @F222@
 0 @I1007@ INDI
 1 NAME Esther Julia /Gunnarson/
 2 GIVN Esther Julia
@@ -5142,6 +5441,7 @@
 1 FACT They enjoyed playing bridge, golf & out door activies
 1 FACT * Adopted by John Wagner at Storm Lake, IA, in 1948.
 1 FAMS @F49@
+1 FAMC @F314@
 0 @I722@ INDI
 1 NAME Chrestie Lynn /Neilson/
 2 GIVN Chrestie Lynn
@@ -5150,6 +5450,7 @@
 1 BIRT
 2 DATE 31 Jan 1980
 1 OCCU Student
+1 FAMC @F222@
 0 @I147@ INDI
 1 NAME John Elwin /Wagner/ Jr
 2 GIVN John Elwin
@@ -5171,6 +5472,7 @@
 1 FACT They were members of the Masonic Lodge.
 1 FACT They liked golf, yard work & playing cards.
 1 FAMS @F52@
+1 FAMC @F317@
 0 @I626@ INDI
 1 NAME Sarah /Peters/
 2 GIVN Sarah
@@ -5227,6 +5529,7 @@
 2 PLAC , Sioux Rapids, IA, USA
 1 OCCU Iowa Job Service Manager
 1 FAMS @F88@
+1 FAMC @F350@
 0 @I253@ INDI
 1 NAME Alan Bruce /Saunders/
 2 GIVN Alan Bruce
@@ -5238,6 +5541,7 @@
 2 PLAC Sioux Valley Memorial Hosp. Cherokee, IA, USA
 1 OCCU Service Station Operator
 1 FAMS @F83@
+1 FAMC @F82@
 0 @I258@ INDI
 1 NAME Gloria Jean /Saunders/
 2 GIVN Gloria Jean
@@ -5262,6 +5566,7 @@
 1 FACT Gloria is a trained for th Community Response Unit, is active in the American Legion Auxiliary  & works with the United Fund.  Lyle is an active member of the Sons of the American Legion.
 1 FACT They are interested in all the High School Sporting Events.
 1 FAMS @F84@
+1 FAMC @F82@
 0 @I158@ INDI
 1 NAME John Orville /Kracht/
 2 GIVN John Orville
@@ -5274,6 +5579,7 @@
 1 OCCU Insurance Agent
 1 FACT John served in Viet Naum.
 1 FAMS @F57@
+1 FAMC @F56@
 0 @I263@ INDI
 1 NAME Jon Thomas /Saunders/
 2 GIVN Jon Thomas
@@ -5285,6 +5591,7 @@
 2 PLAC Sioux Valley Memorial Hosp. Cherokee, IA, USA
 1 OCCU Student
 1 FAMS @F85@
+1 FAMC @F82@
 0 @I162@ INDI
 1 NAME Virginia Kay /Kracht/
 2 GIVN Virginia Kay
@@ -5296,6 +5603,7 @@
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA, USA
 1 OCCU Homemaker, College Student
 1 FAMS @F58@
+1 FAMC @F56@
 0 @I268@ INDI
 1 NAME Kevin Dean /Saunders/
 2 GIVN Kevin Dean
@@ -5307,6 +5615,7 @@
 2 PLAC Sioux Valley Memorial Hosp. Cherokee, IA, USA
 1 OCCU Insurance Rep. John Hancock
 1 FAMS @F86@
+1 FAMC @F82@
 0 @I784@ INDI
 1 NAME Robert James /Munn/
 2 GIVN Robert James
@@ -5321,6 +5630,7 @@
 1 FACT They are members of the United Methodist Church in Sutherland, IA, where Jodi teaches Sunday School & Bible School.
 1 FACT Jodi enjoys her cross stitching & scrap booking.  Robert "Bubba" enjoys building things out of wood & restoring old motorcycles
 1 FAMS @F246@
+1 FAMC @F455@
 0 @I168@ INDI
 1 NAME Kelly Sue /Kracht/
 2 GIVN Kelly Sue
@@ -5333,6 +5643,7 @@
 1 OCCU Receptionist, Doctor's Office
 1 FAMS @F60@
 1 FAMS @F61@
+1 FAMC @F56@
 0 @I272@ INDI
 1 NAME Dawn Renee /Saunders/
 2 GIVN Dawn Renee
@@ -5345,6 +5656,7 @@
 1 OCCU Student
 1 FACT * Jeff's Children from a previous marriage
 1 FAMS @F87@
+1 FAMC @F82@
 0 @I173@ INDI
 1 NAME Tammy Rae /Kracht/
 2 GIVN Tammy Rae
@@ -5354,6 +5666,7 @@
 2 DATE 7 Mar 1961
 2 PLAC , Hastings, NE, USA
 1 OCCU English & Speech Teacher
+1 FAMC @F56@
 0 @I953@ INDI
 1 NAME Alyce /Callanan/
 2 GIVN Alyce
@@ -5379,6 +5692,7 @@
 2 PLAC , Peterson, IA, USA
 1 OCCU Service Station Owner
 1 FAMS @F82@
+1 FAMC @F346@
 0 @I786@ INDI
 1 NAME Dylan John /Munn/
 2 GIVN Dylan John
@@ -5390,6 +5704,7 @@
 1 BAPM
 2 DATE Mar 1995
 2 PLAC United Methodist Church, Sutherland, IA, USA
+1 FAMC @F246@
 0 @I157@ INDI
 1 NAME Dorothy May /Rehmeier/
 2 GIVN Dorothy May
@@ -5401,6 +5716,7 @@
 2 PLAC , Omaha, NE, USA
 1 OCCU Homemaker, Secretary
 1 FAMS @F56@
+1 FAMC @F321@
 0 @I785@ INDI
 1 NAME Dustin James /Munn/
 2 GIVN Dustin James
@@ -5412,6 +5728,7 @@
 1 BAPM
 2 DATE Mar 1995
 2 PLAC United Methodist Church, Sutherland, IA, USA
+1 FAMC @F246@
 0 @I1053@ INDI
 1 NAME Virginia /Dubach/
 2 GIVN Virginia
@@ -5452,6 +5769,7 @@
 2 GIVN Dawn
 2 SURN Matlock
 1 REFN CustomGenCode:MABGBBA
+1 FAMC @F109@
 0 @I1121@ INDI
 1 NAME Henry /Meyer/
 2 GIVN Henry
@@ -5479,6 +5797,7 @@
 1 FACT Roger belongs to the Jay Cees & Cherri belongs to the Women of Today.
 1 FACT Roger is a wood carver & throws darts.  Cherri sews, does cross-stitching & raises tropical fish.
 1 FAMS @F90@
+1 FAMC @F88@
 0 @I1158@ INDI
 1 NAME Joel /Larson/
 2 GIVN Joel
@@ -5498,6 +5817,7 @@
 1 OCCU Police Officer
 1 FACT * Susan's daughters from previous marriage.
 1 FAMS @F91@
+1 FAMC @F88@
 0 @I293@ INDI
 1 NAME Aaron Keith /Reed/
 2 GIVN Aaron Keith
@@ -5507,6 +5827,7 @@
 2 DATE 2 Dec 1968
 2 PLAC Spencer Mumiciple Hosp. Spencer, IA, USA
 1 OCCU Student
+1 FAMC @F88@
 0 @I788@ INDI
 1 NAME Angela Marie /Arens/
 2 GIVN Angela Marie
@@ -5536,6 +5857,7 @@
 2 DATE 12 Oct 1973
 2 PLAC Spencer Mumiciple Hosp. Spencer, IA, USA
 1 OCCU Student
+1 FAMC @F88@
 0 @I449@ INDI
 1 NAME Brian David /Richardson/
 2 GIVN Brian David
@@ -5570,6 +5892,7 @@
 1 FACT They "Humaniots" non-religious.
 1 FACT They enjoy walking & writing.
 1 FAMS @F238@
+1 FAMC @F449@
 0 @I1122@ INDI
 1 NAME Birdie /Crawford/
 2 GIVN Birdie
@@ -5602,6 +5925,7 @@
 2 PLAC , Ida Grove, IA, USA
 1 OCCU Homemaker, Landscaping Architect
 1 FAMS @F55@
+1 FAMC @F52@
 0 @I148@ INDI
 1 NAME John Paul /Wagner/
 2 GIVN John Paul
@@ -5622,6 +5946,7 @@
 1 FACT He likes golf, all sports & travel.
 1 FAMS @F53@
 1 FAMS @F54@
+1 FAMC @F52@
 0 @I280@ INDI
 1 NAME Don Darrell /Reed/
 2 GIVN Don Darrell
@@ -5645,6 +5970,7 @@
 1 FACT They belong to the Congregational UCC.
 1 FACT Southern Minnesota Canine Search & Rescue Unit.
 1 FAMS @F89@
+1 FAMC @F88@
 0 @I789@ INDI
 1 NAME Rachel Elizabeth /Putnam/
 2 GIVN Rachel Elizabeth
@@ -5653,6 +5979,7 @@
 1 BIRT
 2 DATE 16 Sep 1996
 2 PLAC Pipestone Co. Medical Center, Pipestone, MN, USA
+1 FAMC @F247@
 0 @I1059@ INDI
 1 NAME Neva Orene /Wells/
 2 GIVN Neva Orene
@@ -5668,11 +5995,13 @@
 1 SEX F
 1 OCCU Homemaker
 1 FAMS @F221@
+1 FAMC @F220@
 0 @I357@ INDI
 1 NAME Thompson /Herman/
 2 GIVN Thompson
 2 SURN Herman
 1 REFN CustomGenCode:MABGBAB
+1 FAMC @F108@
 0 @I719@ INDI
 1 NAME Sherry /Sneesby/
 2 GIVN Sherry
@@ -5681,6 +6010,7 @@
 1 SEX F
 1 OCCU Homemaker
 1 FAMS @F222@
+1 FAMC @F220@
 0 @I297@ INDI
 1 NAME Don Robert /Hoover/
 2 GIVN Don Robert
@@ -5698,6 +6028,7 @@
 1 FACT Jan & Bob were both active in the American Legion as well as the Shrine.
 1 FACT They both enjoyed participating in Shrine activities and parades, especially in the summer time.
 1 FAMS @F94@
+1 FAMC @F354@
 0 @I724@ INDI
 1 NAME Bonittia /Sneesby/
 2 GIVN Bonittia
@@ -5706,6 +6037,7 @@
 1 SEX F
 1 OCCU Homemaker
 1 FAMS @F223@
+1 FAMC @F220@
 0 @I729@ INDI
 1 NAME Bryan /Sneesby/
 2 GIVN Bryan
@@ -5713,11 +6045,13 @@
 1 REFN CustomGenCode:MAHB1AD
 1 SEX M
 1 FAMS @F224@
+1 FAMC @F220@
 0 @I356@ INDI
 1 NAME Teal Dawn /Herman/
 2 GIVN Teal Dawn
 2 SURN Herman
 1 REFN CustomGenCode:MABGBAA
+1 FAMC @F108@
 0 @I473@ INDI
 1 NAME Wade Paul /Christenson/
 2 GIVN Wade Paul
@@ -5726,6 +6060,7 @@
 1 BIRT
 2 DATE 6 Oct 1988
 2 PLAC , Willmar, MN, USA
+1 FAMC @F146@
 0 @I808@ INDI
 1 NAME James Dee II /Leggett/
 2 GIVN James Dee II
@@ -5736,6 +6071,7 @@
 2 PLAC , Bellevue, WA, USA
 1 OCCU Insurance Agent
 1 FAMS @F254@
+1 FAMC @F462@
 0 @I1216@ INDI
 1 NAME Nick /Weins/
 2 GIVN Nick
@@ -5751,6 +6087,7 @@
 1 SEX M
 1 OCCU Farmer
 1 FAMS @F225@
+1 FAMC @F441@
 0 @I448@ INDI
 1 NAME Eric Michael /Richardson/
 2 GIVN Eric Michael
@@ -5758,6 +6095,7 @@
 1 REFN CustomGenCode:MADABA2a
 1 BIRT
 2 DATE 22 Sep 1983
+1 FAMC @F491@
 0 @I1137@ INDI
 1 NAME Helen /Ganzbeld/
 2 GIVN Helen
@@ -5785,6 +6123,7 @@
 1 FACT * Adopted by John Wagner on 2 May 1948.                                                                                                                                            ** No burial, his body was lost in the airplane explosion.
 1 FAMS @F50@
 1 FAMS @F51@
+1 FAMC @F49@
 0 @I750@ INDI
 1 NAME /Gary/
 2 SURN Gary
@@ -5839,6 +6178,7 @@
 1 REFN CustomGenCode:MAHB1BA
 1 SEX M
 1 FAMS @F226@
+1 FAMC @F225@
 0 @I737@ INDI
 1 NAME Ritia /Tolzin/
 2 GIVN Ritia
@@ -5850,6 +6190,7 @@
 1 SEX F
 1 OCCU Homemaker
 1 FAMS @F227@
+1 FAMC @F225@
 0 @I741@ INDI
 1 NAME Lou Ann /Tolzin/
 2 GIVN Lou Ann
@@ -5861,6 +6202,7 @@
 1 SEX F
 1 OCCU Homemaker
 1 FAMS @F228@
+1 FAMC @F225@
 0 @I1233@ INDI
 1 NAME Jeannette C /Fournier/
 2 GIVN Jeannette C
@@ -5874,6 +6216,7 @@
 2 SURN Tolzin
 1 REFN CustomGenCode:MAHB1BD
 1 FAMS @F229@
+1 FAMC @F225@
 0 @I927@ INDI
 1 NAME Agnes /Halley/
 2 GIVN Agnes
@@ -5896,6 +6239,7 @@
 1 BIRT
 2 DATE 17 Nov 1964
 2 PLAC , Tacoma, WA, USA
+1 FAMC @F176@
 0 @I445@ INDI
 1 NAME Allister Crawford /MacLEOD/
 2 GIVN Allister Crawford
@@ -5907,6 +6251,7 @@
 1 OCCU Student
 1 FACT Member of the Unitarian Church.
 1 FACT Working on his computer & Hero's Call.
+1 FAMC @F136@
 0 @I580@ INDI
 1 NAME Michelle Ardeen /Nyre/
 2 GIVN Michelle Ardeen
@@ -5915,11 +6260,13 @@
 1 BIRT
 2 DATE 29 Oct 1977
 2 PLAC , Watkins Glen, NY, USA
+1 FAMC @F176@
 0 @I673@ INDI
 1 NAME Alan /Miller/
 2 GIVN Alan
 2 SURN Miller
 1 REFN CustomGenCode:MAGEA2B
+1 FAMC @F207@
 0 @I446@ INDI
 1 NAME Catherine Elizabeth /MacLEOD/
 2 GIVN Catherine Elizabeth
@@ -5931,6 +6278,7 @@
 1 OCCU Student
 1 FACT Member of the Unitarian Church.
 1 FACT Reading, climbing trees.
+1 FAMC @F136@
 0 @I579@ INDI
 1 NAME Eric Allen /Nyre/
 2 GIVN Eric Allen
@@ -5939,6 +6287,7 @@
 1 BIRT
 2 DATE 17 May 1967
 2 PLAC , Buffalo, NY, USA
+1 FAMC @F176@
 0 @I672@ INDI
 1 NAME Dana Meyer /Miller/
 2 GIVN Dana Meyer
@@ -5947,6 +6296,7 @@
 1 BIRT
 2 DATE 3 Jan 1989
 2 PLAC , Pittsburgh, PA, USA
+1 FAMC @F207@
 0 @I581@ INDI
 1 NAME Michael Edward /Nyre/
 2 GIVN Michael Edward
@@ -5955,6 +6305,7 @@
 1 BIRT
 2 DATE 3 Jul 1983
 2 PLAC , Watkins Glen, NY, USA
+1 FAMC @F176@
 0 @I748@ INDI
 1 NAME Sandy /Smith/
 2 GIVN Sandy
@@ -5966,6 +6317,7 @@
 2 PLAC , De Smet, SD, USA
 1 OCCU Homemaker
 1 FAMS @F230@
+1 FAMC @F442@
 0 @I1004@ INDI
 1 NAME Carl Maynard /Struve/
 2 GIVN Carl Maynard
@@ -5991,6 +6343,7 @@
 1 OCCU Homemaker, Waitress
 1 FACT * Robert's children from a previous marriage.
 1 FAMS @F95@
+1 FAMC @F94@
 0 @I305@ INDI
 1 NAME Barbara Ann /Hoover/
 2 GIVN Barbara Ann
@@ -6002,6 +6355,7 @@
 2 PLAC Hoover Home, Peterson, IA, USA
 1 OCCU Homemaker, Employed at Wittco.
 1 FAMS @F96@
+1 FAMC @F94@
 0 @I355@ INDI
 1 NAME Robbie /Herman/
 2 GIVN Robbie
@@ -6136,6 +6490,7 @@
 1 FACT Janelle went to Oregon State University until 1995.  Kevin has taken some college courses.
 1 FACT Janelle like soccer, gardening, reading, & raising Pug dogs.  Kevin is a sports fan & likes music & videos.
 1 FAMS @F34@
+1 FAMC @F303@
 0 @I937@ INDI
 1 NAME Harriet /Ashbaugh/
 2 GIVN Harriet
@@ -6169,6 +6524,7 @@
 1 FACT Carol enjoys ballroom dancing, sewing and crafts. Roger enjoys animals, helping coach wrestling and traveling.
 1 FACT Roger and Carol have been honored as Paul Harris Fellows for their work in Youth Exchange. Roger was named to the athletic Hall of Fame of John Jay H. S. Wappingers & of Peekskill H.S. for his achievements & work in wrestling.
 1 FAMS @F126@
+1 FAMC @F125@
 0 @I588@ INDI
 1 NAME Rowena Ann /Meehan/
 2 GIVN Rowena Ann
@@ -6177,6 +6533,7 @@
 1 BIRT
 2 DATE 21 Jan 1971
 2 PLAC , Lewistown, MT, USA
+1 FAMC @F179@
 0 @I415@ INDI
 1 NAME Dean Charles /Meyer/
 2 GIVN Dean Charles
@@ -6195,6 +6552,7 @@
 1 OCCU Auto Mechanic
 1 FAMS @F128@
 1 FAMS @F130@
+1 FAMC @F125@
 0 @I414@ INDI
 1 NAME Duane Gordon /Meyer/
 2 GIVN Duane Gordon
@@ -6215,6 +6573,7 @@
 1 OCCU Mechanical Engineer
 1 FACT Duane earned a Batchelors Degree in Physics from Iowa State University & a second degree in Mechanical Engineering from the University of Chicago, IL.
 1 FACT He builds & sponsers dirt track race cars.
+1 FAMC @F125@
 0 @I589@ INDI
 1 NAME Wynn Matthew /Meehan/
 2 GIVN Wynn Matthew
@@ -6223,6 +6582,7 @@
 1 BIRT
 2 DATE 3 Jul 1975
 2 PLAC , Helena, MT, USA
+1 FAMC @F179@
 0 @I434@ INDI
 1 NAME Andrea Kay /Meyer/
 2 GIVN Andrea Kay
@@ -6241,6 +6601,7 @@
 1 OCCU Police Disp. Real Estate Sales
 1 FACT Andrea attended Iowa State University in Ames one year.
 1 FAMS @F133@
+1 FAMC @F125@
 0 @I426@ INDI
 1 NAME Donovan LeRoy /Meyer/
 2 GIVN Donovan LeRoy
@@ -6267,6 +6628,7 @@
 1 FACT After his divorce Don moved back to Peterson, IA. where he started his own business in home repair, auto repair, tire & battery sales.  He & his father bought & rebuilt a 5,500 sq. ft. building in Peterson, IA.
 1 FAMS @F131@
 1 FAMS @F132@
+1 FAMC @F125@
 0 @I805@ INDI
 1 NAME Mike J /Tipping/
 2 GIVN Mike J
@@ -6278,6 +6640,7 @@
 2 PLAC , Everett, WA, USA
 1 OCCU GTE
 1 FAMS @F253@
+1 FAMC @F461@
 0 @I1192@ INDI
 1 NAME Alice /Lucia/
 2 GIVN Alice
@@ -6303,6 +6666,7 @@
 1 FACT Douglas has attended Iowa State University in Ames, IA, for 3 years.  Jennifer earmed her Pharmisist Degree in Oregon.
 1 FACT Douglas has spent six years rebuilding a Camero.  He enjoys rebuilding & reprogramming computers.
 1 FAMS @F134@
+1 FAMC @F125@
 0 @I713@ INDI
 1 NAME Robert /Sneesby/
 2 GIVN Robert
@@ -6313,6 +6677,7 @@
 2 PLAC , Lake Preston, SD, USA
 1 OCCU Farmer
 1 FAMS @F220@
+1 FAMC @F440@
 0 @I1191@ INDI
 1 NAME Frank G /Scott/
 2 GIVN Frank G
@@ -6353,6 +6718,7 @@
 1 FACT Donovan earned his private pilot's license in 1982 & flies a Cessna 172. He has been working on family histories since 1990.  Doris has done a little art work & enjoys cooking, sewing & visiting the grand children.
 1 FACT Doris went back to England for 6 weeks to visit her family in 1970.  Both have been back for a month's visit in 1989, 1991, 1995 and 1998
 1 FAMS @F125@
+1 FAMC @F379@
 0 @I587@ INDI
 1 NAME Patrick /Meehan/
 2 GIVN Patrick
@@ -6375,6 +6741,7 @@
 1 BIRT
 2 DATE 21 May 1989
 2 PLAC , Everett, WA, USA
+1 FAMC @F253@
 0 @I1116@ INDI
 1 NAME Margaret Josephine /Steger/
 2 GIVN Margaret Josephine
@@ -6408,6 +6775,7 @@
 1 FACT Educational groups.
 1 FACT Duane was an outstanding soccer player in High Schol. He loves Baseball & enjoys watching pro sports.  He loves music & often attends concerts.
 1 FACT He is an excellent teacher (1st grade), excells in helping students learn to read.  He was selected as Outstanding First Year Teacher in state of Nevada, winning a cash prize & a trip to Washington DC.
+1 FAMC @F33@
 0 @I870@ INDI
 1 NAME Jane Ann /Pagel/
 2 GIVN Jane Ann
@@ -6430,6 +6798,7 @@
 1 FACT Mike earned a BS & E. op. from Iowa State University in Ames, IA, in May of 1973.  Jane earned a BA from the University of Northern Iowa in Cedar Falls, IA ,  in 1977.
 1 FACT Flying, Music & Scuba diving.
 1 FAMS @F276@
+1 FAMC @F481@
 0 @I1035@ INDI
 1 NAME Laverne /Colt/
 2 GIVN Laverne
@@ -6445,6 +6814,7 @@
 1 BIRT
 2 DATE 1 Dec 1985
 2 PLAC , Lincoln, NE, USA
+1 FAMC @F60@
 0 @I802@ INDI
 1 NAME Elizabeth Lynn /Meyer/
 2 GIVN Elizabeth Lynn
@@ -6459,6 +6829,7 @@
 2 PLAC , Philadelphia, PA, USA
 1 OCCU Homemaker, Real Estate Agent
 1 FAMS @F252@
+1 FAMC @F251@
 0 @I819@ INDI
 1 NAME John Ernest /Meyer/
 2 GIVN John Ernest
@@ -6470,6 +6841,7 @@
 2 PLAC , Seattle, WA, USA
 1 OCCU Foundation Contractor
 1 FAMS @F257@
+1 FAMC @F251@
 0 @I94@ INDI
 1 NAME Janelle Lynne /Meyer/
 2 GIVN Janelle Lynne
@@ -6488,6 +6860,7 @@
 1 FACT Janelle went to Oregon State University until 1995.  Kevin has taken some college courses.
 1 FACT Janelle like soccer, gardening, reading, & raising Pug dogs.  Kevin is a sports fan & likes music & videos.
 1 FAMS @F34@
+1 FAMC @F33@
 0 @I816@ INDI
 1 NAME Steven Charles /Meyer/
 2 GIVN Steven Charles
@@ -6499,6 +6872,7 @@
 2 PLAC , Hawaii, USA
 1 OCCU Sales Manager
 1 FAMS @F256@
+1 FAMC @F251@
 0 @I93@ INDI
 1 NAME Daryl Ray /Meyer/
 2 GIVN Daryl Ray
@@ -6521,6 +6895,7 @@
 1 FACT Soccor & Sports of all kinds.
 1 FACT Daryl was very disciplined & determined young man,  He earned enough for a down payment on a new home by his 24th birthday.
 1 FACT Daryl's early death was a shame.  He would have made a fine husband & a wonderful father.  Quoted by his older brother, Duane.
+1 FAMC @F33@
 0 @I811@ INDI
 1 NAME William Scott /Meyer/
 2 GIVN William Scott
@@ -6532,6 +6907,7 @@
 2 PLAC , Hawaii, USA
 1 OCCU Precious Metals Recyclist
 1 FAMS @F255@
+1 FAMC @F251@
 0 @I91@ INDI
 1 NAME Audrene Frances /Anderson/
 2 GIVN Audrene Frances
@@ -6557,6 +6933,7 @@
 1 FACT Lyle coached High School basball, enjoys Family Activities & poker.  Audrene is an excellent cook, enjoys reading, painting (not art), sewing & gardening.
 1 FACT Audrene made daughters wedding dress & dresses for all the attendants.
 1 FAMS @F33@
+1 FAMC @F302@
 0 @I775@ INDI
 1 NAME Michelle Nichole /Meyer/
 2 GIVN Michelle Nichole
@@ -6566,6 +6943,7 @@
 2 DATE 27 Oct 1983
 2 PLAC , Brighton, CO, USA
 1 OCCU Student
+1 FAMC @F242@
 0 @I868@ INDI
 1 NAME Kelly Jean /Connor/
 2 GIVN Kelly Jean
@@ -6575,6 +6953,7 @@
 2 DATE 3 Feb 1972
 2 PLAC , Madison, WI, USA
 1 OCCU Student
+1 FAMC @F275@
 0 @I774@ INDI
 1 NAME David Brian /Meyer/
 2 GIVN David Brian
@@ -6584,6 +6963,7 @@
 2 DATE 18 Apr 1981
 2 PLAC , Denver, CO, USA
 1 OCCU Student
+1 FAMC @F242@
 0 @I29@ INDI
 1 NAME Thomas Benjamin /O'dell/
 2 GIVN Thomas Benjamin
@@ -6599,6 +6979,7 @@
 1 FACT Lutheran
 1 FACT Eagan Athletic Assoc. & Boy Scouts.
 1 FACT Tom enjoys basketball, baseball, football, swimming, soccer, bike riding, movies, playing games and loves music.
+1 FAMC @F11@
 0 @I28@ INDI
 1 NAME Ann Christine /O'dell/
 2 GIVN Ann Christine
@@ -6614,6 +6995,7 @@
 1 FACT Lutheran
 1 FACT Eagan Athletic Assoc. Girl Scouts, Band and the Performing Arts Class.
 1 FACT Christine likes swimming, basketball, reading, movies & music.
+1 FAMC @F11@
 0 @I617@ INDI
 1 NAME Jodie /Johnson/
 2 GIVN Jodie
@@ -6636,6 +7018,7 @@
 2 PLAC , Aurelia, IA, USA
 1 OCCU Homemaker, Teacher
 1 FAMS @F251@
+1 FAMC @F459@
 0 @I1034@ INDI
 1 NAME William /Suffield/
 2 GIVN William
@@ -6654,6 +7037,7 @@
 2 PLAC , Portland, OR, USA
 1 OCCU Homemaker
 1 FAMS @F37@
+1 FAMC @F35@
 0 @I98@ INDI
 1 NAME Christine Marie /Meyer/
 2 GIVN Christine Marie
@@ -6665,16 +7049,19 @@
 2 PLAC , Portland, OR, USA
 1 OCCU Homemaker
 1 FAMS @F36@
+1 FAMC @F35@
 0 @I171@ INDI
 1 NAME John /Rosenberg/
 2 GIVN John
 2 SURN Rosenberg
 1 REFN CustomGenCode:MABABC2A
+1 FAMC @F61@
 0 @I172@ INDI
 1 NAME Sue /Rosenberm Sue/
 2 GIVN Sue
 2 SURN Rosenberm Sue
 1 REFN CustomGenCode:MABABC2B
+1 FAMC @F61@
 0 @I105@ INDI
 1 NAME Dennis Keith /Meyer/
 2 GIVN Dennis Keith
@@ -6685,6 +7072,7 @@
 2 DATE 29 Jan 1972
 2 PLAC Mt. Diablo Hosp. Concord, CA, USA
 1 FAMS @F38@
+1 FAMC @F35@
 0 @I872@ INDI
 1 NAME Caitlin Briann /Connor/
 2 GIVN Caitlin Briann
@@ -6699,6 +7087,7 @@
 1 CONF
 2 DATE Oct 2002
 2 PLAC Zion Lutheran Church, Clear Lake, IA, USA
+1 FAMC @F276@
 0 @I97@ INDI
 1 NAME Sarah Jane /Wagner/
 2 GIVN Sarah Jane
@@ -6711,6 +7100,7 @@
 1 OCCU Homemaker
 1 FACT * Twins
 1 FAMS @F35@
+1 FAMC @F304@
 0 @I871@ INDI
 1 NAME Courtney Michelle /Connor/
 2 GIVN Courtney Michelle
@@ -6729,6 +7119,7 @@
 1 OCCU Student
 1 FACT National Honors Society
 1 FACT Music
+1 FAMC @F276@
 0 @I1255@ INDI
 1 NAME Meyers /Melvin/
 2 GIVN Meyers
@@ -6757,6 +7148,7 @@
 1 REFN CustomGenCode:MAID1
 1 OCCU Farmer
 1 FAMS @F258@
+1 FAMC @F466@
 0 @I945@ INDI
 1 NAME Effie //
 2 GIVN Effie
@@ -6771,6 +7163,7 @@
 1 BIRT
 2 DATE 10 Apr 1981
 2 PLAC , Hayward, CA, USA
+1 FAMC @F39@
 0 @I749@ INDI
 1 NAME Donittia /Holland/
 2 GIVN Donittia
@@ -6778,6 +7171,7 @@
 1 REFN CustomGenCode:MAHB1CA
 1 OCCU Homemaker
 1 FAMS @F231@
+1 FAMC @F230@
 0 @I110@ INDI
 1 NAME Rachel Marie /Meyer/
 2 GIVN Rachel Marie
@@ -6786,6 +7180,7 @@
 1 BIRT
 2 DATE 24 Feb 1977
 2 PLAC , Hayward, CA, USA
+1 FAMC @F39@
 0 @I751@ INDI
 1 NAME Terri Lynn /Holland/
 2 GIVN Terri Lynn
@@ -6794,6 +7189,7 @@
 2 TYPE aka
 2 GIVN Linn?
 1 REFN CustomGenCode:MAHB1CB
+1 FAMC @F230@
 0 @I776@ INDI
 1 NAME Gayle Marie /Meyer/
 2 GIVN Gayle Marie
@@ -6806,6 +7202,7 @@
 2 DATE 29 Nov 1946
 2 PLAC Oakland Cem. Peterson, IA, USA
 1 OCCU Died at birth
+1 FAMC @F234@
 0 @I27@ INDI
 1 NAME Timothy /O'Dell/
 2 GIVN Timothy
@@ -6824,6 +7221,7 @@
 1 FACT She likes going to movies, traveling, camping, antigue shopping, baking, reading and going to the beach, especiallyif it's on the ocean.
 1 FACT She is an advocate for battered women & children within her job.
 1 FAMS @F11@
+1 FAMC @F285@
 0 @I1253@ INDI
 1 NAME Lowell /Gano/
 2 GIVN Lowell
@@ -6870,6 +7268,7 @@
 2 PLAC , Cherokee, IA, USA
 1 OCCU Manager, American Olean Tile
 1 FAMS @F242@
+1 FAMC @F234@
 0 @I765@ INDI
 1 NAME Roger Eugene /Meyer/
 2 GIVN Roger Eugene
@@ -6886,6 +7285,7 @@
 2 DATE 26 Dec 1999
 1 OCCU Owned & Operated his own Accounting Business.  He worked for the Postal Service his last few years.
 1 FAMS @F239@
+1 FAMC @F234@
 0 @I757@ INDI
 1 NAME Glenda Rae /Meyer/
 2 GIVN Glenda Rae
@@ -6912,6 +7312,7 @@
 1 FACT Glenda, enjoys music, gardening, cooking, water and oil painting.  Dale enjoys metal working and gunsmithing.
 1 FACT * Baptized on Easter Sunday.
 1 FAMS @F235@
+1 FAMC @F234@
 0 @I25@ INDI
 1 NAME Caitlin Rose /Boies/
 2 GIVN Caitlin Rose
@@ -6924,6 +7325,7 @@
 1 FACT Caitlin belongs to the Christian Church in California, MO.
 1 FACT She is in 4-H.
 1 FACT Caitlin enjoys softball, sports, reading and her pets.
+1 FAMC @F10@
 0 @I109@ INDI
 1 NAME Jeannie Jo /Lavorato/
 2 GIVN Jeannie Jo
@@ -6935,6 +7337,7 @@
 2 PLAC , Springfield, MO, USA
 1 OCCU Homemaker, Attorney
 1 FAMS @F39@
+1 FAMC @F305@
 0 @I24@ INDI
 1 NAME Genevieve Nicole /Boies/
 2 GIVN Genevieve Nicole
@@ -6948,6 +7351,7 @@
 1 FACT She is in 4-H
 1 FACT Genevieve enjoys softball, reading, her dolls & pets.
 1 FACT She survived a bone marrow transplant at the age of 5 at Johns Hopkins Hosp. Baltimore, MD.
+1 FAMC @F10@
 0 @I921@ INDI
 1 NAME Audrey Pearl /Tjdemann/
 2 GIVN Audrey Pearl
@@ -6968,6 +7372,7 @@
 1 FACT Adam belongs to the Christian Church in California, MO.
 1 FACT He is in 4-H.
 1 FACT Adam likes football, baseball, basketball, track and plays his guitar.
+1 FAMC @F10@
 0 @I561@ INDI
 1 NAME GEORGE WESLEY {Garvey} /Hudson/ Jr
 2 GIVN GEORGE WESLEY {Garvey}
@@ -6981,6 +7386,7 @@
 1 FACT * George was adopted by Helen's second husband, Harry Francis Garvey in 1947.
 1 FAMS @F171@
 1 FAMS @F172@
+1 FAMC @F170@
 0 @I1079@ INDI
 1 NAME Clayton LeRoy /Yoder/
 2 GIVN Clayton LeRoy
@@ -6999,6 +7405,7 @@
 1 BAPM
 2 DATE May 1988
 2 PLAC St. John's United Church of Christ, Peterson, IA, USA
+1 FAMC @F74@
 0 @I1254@ INDI
 1 NAME Ruby /Anderson/
 2 GIVN Ruby
@@ -7020,6 +7427,7 @@
 1 CONF
 2 DATE Jun 2000
 1 OCCU Student
+1 FAMC @F74@
 0 @I221@ INDI
 1 NAME Carissa Lynn /Kracht/
 2 GIVN Carissa Lynn
@@ -7035,6 +7443,7 @@
 2 DATE 27 Nov 1981
 2 PLAC St. John's Cem. Peterson, IA, USA
 1 FACT Died in infancy.
+1 FAMC @F74@
 0 @I220@ INDI
 1 NAME Justin Dean /Kracht/
 2 GIVN Justin Dean
@@ -7050,6 +7459,7 @@
 2 DATE 14 May 2000
 2 PLAC Sioux Central HS, Sioux Rapids, IA, USA
 1 OCCU Laborer in Sioux Falls
+1 FAMC @F74@
 0 @I756@ INDI
 1 NAME Edith Ruth /Klatt/
 2 GIVN Edith Ruth
@@ -7078,6 +7488,7 @@
 1 FACT They both loved to visit and learn new things.  They enjoyed to watch life on the river.
 1 FACT * Easter Sunday
 1 FAMS @F234@
+1 FAMC @F445@
 0 @I1080@ INDI
 1 NAME Evelyn Lorraine /Drury/
 2 GIVN Evelyn Lorraine
@@ -7110,6 +7521,7 @@
 2 PLAC , Cherokee, IA, USA
 1 OCCU Fabrication Machinist
 1 FAMS @F250@
+1 FAMC @F243@
 0 @I790@ INDI
 1 NAME Jane Marie /Meyer/
 2 GIVN Jane Marie
@@ -7130,6 +7542,7 @@
 1 OCCU RTW Mental Health Institute
 1 FAMS @F248@
 1 FAMS @F249@
+1 FAMC @F243@
 0 @I920@ INDI
 1 NAME Ray David /Anderson/ Sr
 2 GIVN Ray David
@@ -7150,6 +7563,7 @@
 1 FACT Joyce attended Western Iow Tech. 1 year to become an LPN
 1 FACT Joyce enjoys gardening, making quilts, Snowmobiling & her grandchildren.  Johnenjoys restoring old cars & trucks & snowmobiling in the winter.
 1 FAMS @F245@
+1 FAMC @F243@
 0 @I779@ INDI
 1 NAME Janice Kay /Meyer/
 2 GIVN Janice Kay
@@ -7160,6 +7574,7 @@
 2 PLAC , Cherokee, IA, USA
 1 OCCU Homemaker
 1 FAMS @F244@
+1 FAMC @F243@
 0 @I116@ INDI
 1 NAME Roger /Nesbit/
 2 GIVN Roger
@@ -7179,6 +7594,7 @@
 2 PLAC , Colorado Springs, CO, USA
 1 OCCU Attorney
 1 FAMS @F40@
+1 FAMC @F306@
 0 @I1140@ INDI
 1 NAME Harriet /Hazen/
 2 GIVN Harriet
@@ -7211,6 +7627,7 @@
 2 PLAC , Buena Vista Co. IA, USA
 1 OCCU Homemaker, Hospital Cook
 1 FAMS @F243@
+1 FAMC @F452@
 0 @I21@ INDI
 1 NAME Avis Jean /Meyer/
 2 GIVN Avis Jean
@@ -7229,6 +7646,7 @@
 1 FACT Avis is a 4-H leader, a PTA member & on the California Recreation Board.
 1 FACT Avis enjoys horseback riding, reading & gardening.
 1 FAMS @F10@
+1 FAMC @F4@
 0 @I17@ INDI
 1 NAME Gerald Lee /Meyer/
 2 GIVN Gerald Lee
@@ -7240,6 +7658,7 @@
 2 PLAC , Mankato, MN, USA
 1 OCCU Investment Broker, Mgmt.
 1 FAMS @F9@
+1 FAMC @F4@
 0 @I9@ INDI
 1 NAME Ronald Allen /Meyer/
 2 GIVN Ronald Allen
@@ -7262,6 +7681,7 @@
 1 FACT Ron likes golf, reading & hunting.
 1 FAMS @F5@
 1 FAMS @F8@
+1 FAMC @F4@
 0 @I903@ INDI
 1 NAME William /Ringdahl/
 2 GIVN William
@@ -7280,6 +7700,7 @@
 2 PLAC , Zumbrota, MN, USA
 1 OCCU Teacher & Homemaker
 1 FAMS @F9@
+1 FAMC @F283@
 0 @I2@ INDI
 1 NAME Lena Mina Ricke Johanna /Plagman/
 2 GIVN Lena Mina Ricke Johanna
@@ -7295,6 +7716,7 @@
 1 OCCU Homemaker
 1 FAMS @F1@
 1 FAMS @F374@
+1 FAMC @F278@
 0 @I655@ INDI
 1 NAME Carol Jean /Meyer/
 2 GIVN Carol Jean
@@ -7306,6 +7728,7 @@
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA, USA
 1 OCCU Homemaker
 1 FAMS @F201@
+1 FAMC @F199@
 0 @I654@ INDI
 1 NAME Randy Ray /Meyer/
 2 GIVN Randy Ray
@@ -7315,6 +7738,7 @@
 2 DATE 2 Jan 1957
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA, USA
 1 OCCU School Teacher
+1 FAMC @F199@
 0 @I904@ INDI
 1 NAME Ivy /Ranstrom/
 2 GIVN Ivy
@@ -7333,6 +7757,7 @@
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA, USA
 1 OCCU Farmer
 1 FAMS @F200@
+1 FAMC @F199@
 0 @I665@ INDI
 1 NAME Kevin Alan /Meyer/
 2 GIVN Kevin Alan
@@ -7342,6 +7767,7 @@
 2 DATE 28 Mar 1966
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA, USA
 1 OCCU Fert. & Chem. Mgr. Farmers Elev.
+1 FAMC @F199@
 0 @I663@ INDI
 1 NAME Connie Jo /Meyer/
 2 GIVN Connie Jo
@@ -7352,6 +7778,7 @@
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA, USA
 1 OCCU Homemaker
 1 FAMS @F203@
+1 FAMC @F199@
 0 @I659@ INDI
 1 NAME James Garland /Meyer/
 2 GIVN James Garland
@@ -7363,6 +7790,7 @@
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA, USA
 1 OCCU Farmer
 1 FAMS @F202@
+1 FAMC @F199@
 0 @I26@ INDI
 1 NAME Carol Ann /Meyer/
 2 GIVN Carol Ann
@@ -7388,6 +7816,7 @@
 1 FACT She is an advocate for battered women & children within her job.
 1 FAMS @F11@
 1 FAMS @F12@
+1 FAMC @F4@
 0 @I658@ INDI
 1 NAME Julie Ann /Meyer/
 2 GIVN Julie Ann
@@ -7400,6 +7829,7 @@
 2 DATE Nov 1962
 2 PLAC Woodlawn Cem. Alta, IA, USA
 1 FACT Lived only two years.
+1 FAMC @F199@
 0 @I8@ INDI
 1 NAME Ann Lucille /Roberts/
 2 GIVN Ann Lucille
@@ -7421,6 +7851,7 @@
 1 FACT Burton is on the church board and belongs to Senior Citizens Group.  Ann is active in church circle and Senior Group.
 1 FACT Burt likes to travel, yard work and helps with the Echo Food Shelf.  Ann enjoys sewing, knitting & baking.  They both enjoy their family, especially the grand children and do volunteer work.
 1 FAMS @F4@
+1 FAMC @F281@
 0 @I88@ INDI
 1 NAME Edwin Herman /Meyer/
 2 GIVN Edwin Herman
@@ -7448,6 +7879,7 @@
 1 FACT Though always scrimping to get by, they felt it more important for Elvira to be home while the children were in grade school.  They managed on Edwin's modest salary for years.
 1 FACT * Her parents made her stop school at the end of 10th grade.  Enough training for a farmer's wife.
 1 FAMS @F32@
+1 FAMC @F482@
 0 @I68@ INDI
 1 NAME Elden Louis /Meyer/
 2 GIVN Elden Louis
@@ -7462,6 +7894,7 @@
 2 PLAC Skyline Mem. Cem. Portland, OR, USA
 1 OCCU Bus Driver
 1 FAMS @F25@
+1 FAMC @F482@
 0 @I5@ INDI
 1 NAME Alfred William /Meyer/
 2 GIVN Alfred William
@@ -7477,6 +7910,7 @@
 1 OCCU Farmed 12 years in the Arco, MN, area and then moved to a farm he purchased near Balaton, MN,
 1 FAMS @F3@
 1 FAMS @F118@
+1 FAMC @F482@
 0 @I3@ INDI
 1 NAME Walter Wilford /Meyer/
 2 GIVN Walter Wilford
@@ -7490,6 +7924,7 @@
 2 PLAC Oakland Cem. Peterson, IA, USA
 1 OCCU Auto Mechanic, Farmer
 1 FAMS @F2@
+1 FAMC @F482@
 0 @I1166@ INDI
 1 NAME Edward C /Bender/
 2 GIVN Edward C
@@ -7515,6 +7950,7 @@
 2 PLAC , Jarvisome, IA, USA
 1 OCCU Homemaker
 1 FAMS @F199@
+1 FAMC @F424@
 0 @I117@ INDI
 1 NAME Robert Arthur Oliver /Meyer/
 2 GIVN Robert Arthur Oliver
@@ -7535,6 +7971,7 @@
 1 FACT Robert was a member of Farm Bureau and the National Farm Organization.  Evelyn was a member of the PTA and the Ladies Aid.
 1 FACT They both loved to dance, both ballroom and square dancing.  They both enjoyed reading.  Evelyn was a talented seamstress and enjoyed knitting and needlework.
 1 FAMS @F42@
+1 FAMC @F482@
 0 @I1222@ INDI
 1 NAME Clarence W /McCauley/
 2 GIVN Clarence W
@@ -7557,6 +7994,7 @@
 1 FACT Keith served in the US Army's Medical Detachment in the Korean conflict, where he was awarded a Bronze Star.
 1 FACT Keith enjoyed gardening, square dancing, traveling and tracing the family genealogy.  They both enjoyed visiting their far-flung children & grandchildren.
 1 FAMS @F205@
+1 FAMC @F429@
 0 @I83@ INDI
 1 NAME James Arthur /Boell/
 2 GIVN James Arthur
@@ -7581,6 +8019,7 @@
 1 FACT Avis is a 4-H leader, a PTA member & on the California Recreation Board.
 1 FACT Avis enjoys horseback riding, reading & gardening.
 1 FAMS @F10@
+1 FAMC @F284@
 0 @I792@ INDI
 1 NAME Amanda Lynn /Monroe/
 2 GIVN Amanda Lynn
@@ -7600,6 +8039,7 @@
 2 PLAC Washington HS, Cherokee, IA, USA
 1 OCCU Registered Nurse
 1 FACT Amanda earned an Associate Degree In Nursing from Iowa Central Community College.  Currently she is working on a Bachelor's Degree in Nursing from the University of Iowa.
+1 FAMC @F248@
 0 @I179@ INDI
 1 NAME Shannon Layne /Kracht/
 2 GIVN Shannon Layne
@@ -7620,6 +8060,7 @@
 1 FACT Shannon is a Christian & Hilda is Catholic.
 1 FACT Golf.
 1 FAMS @F64@
+1 FAMC @F63@
 0 @I182@ INDI
 1 NAME Robin Brian /Kracht/
 2 GIVN Robin Brian
@@ -7635,6 +8076,7 @@
 1 FACT Robin earned his Bachelor of Science degree in Accounting from the University of Oregon at Eugene, OR.
 1 FACT Robin served in the US Army from 1070 to 1972.
 1 FACT He likes to hunt, fish, hike & read.
+1 FAMC @F63@
 0 @I1143@ INDI
 1 NAME Shirley /Deppe/
 2 GIVN Shirley
@@ -7652,6 +8094,7 @@
 2 PLAC , Missoula, MT, USA
 1 OCCU Student
 1 FACT Kirklen is attending College in Missoula, MT.
+1 FAMC @F9@
 0 @I50@ INDI
 1 NAME Richard J /Skoog/
 2 GIVN Richard J
@@ -7660,6 +8103,7 @@
 1 SEX M
 1 OCCU Farmer
 1 FAMS @F19@
+1 FAMC @F291@
 0 @I32@ INDI
 1 NAME William James /Stewart/ Jr
 2 GIVN William James
@@ -7674,6 +8118,7 @@
 1 FACT Shirley is active in Ortonville Teachers Assn. and both the West Central & Minnesota Reading Association.
 1 FACT She enjoys music, likes antiques, refinishes furniture and does fine art in charcoal.
 1 FAMS @F13@
+1 FAMC @F286@
 0 @I1077@ INDI
 1 NAME William Verne /Ross/
 2 GIVN William Verne
@@ -7690,6 +8135,7 @@
 2 DATE 8 Nov 1974
 2 PLAC , Huron, SD, USA
 1 OCCU Investment Broker in Portland, OR.
+1 FAMC @F9@
 0 @I667@ INDI
 1 NAME Thelma Lorraine /Nelson/
 2 GIVN Thelma Lorraine
@@ -7700,6 +8146,7 @@
 2 PLAC Nelson Home, Codington Co. SD, USA
 1 OCCU Homemaker
 1 FAMS @F204@
+1 FAMC @F428@
 0 @I1142@ INDI
 1 NAME Eldon /Sorbe/
 2 GIVN Eldon
@@ -7728,6 +8175,7 @@
 1 FACT Ida is active in the BPOE.
 1 FACT They both enjoy rock hounding & traveling.
 1 FAMS @F63@
+1 FAMC @F327@
 0 @I1078@ INDI
 1 NAME Mary Eloise /Brinkley/
 2 GIVN Mary Eloise
@@ -7750,6 +8198,7 @@
 1 OCCU Farmer
 1 FAMS @F117@
 1 FAMS @F280@
+1 FAMC @F373@
 0 @I1243@ INDI
 1 NAME Charles F /Rohrbaugh/
 2 GIVN Charles F
@@ -7782,6 +8231,7 @@
 2 PLAC Sioux Valley Memorial Hosp. Cherokee, IA, USA
 1 OCCU General Manager, Symecon Mitchell
 1 FAMS @F66@
+1 FAMC @F65@
 0 @I191@ INDI
 1 NAME Mary Kathleen /Murphy/
 2 GIVN Mary Kathleen
@@ -7794,6 +8244,7 @@
 1 OCCU Homemaker, Sioux City Public School
 1 FACT * Twins
 1 FAMS @F67@
+1 FAMC @F65@
 0 @I1102@ INDI
 1 NAME Ellen /Dietrich/
 2 GIVN Ellen
@@ -7818,6 +8269,7 @@
 1 DEAT
 2 PLAC , Alta, IA, USA
 1 OCCU Lived only a few years
+1 FAMC @F117@
 0 @I67@ INDI
 1 NAME William Francis /Mord/
 2 GIVN William Francis
@@ -7840,6 +8292,7 @@
 1 FACT Mord, David Francis is possibly child #3 from a different marriage.
 1 FACT Mord, Steven Lee is possibly child #4 from a different marriage.
 1 FAMS @F24@
+1 FAMC @F296@
 0 @I52@ INDI
 1 NAME Milton Virgil /Mitteness/
 2 GIVN Milton Virgil
@@ -7865,6 +8318,7 @@
 1 FACT Audrey likes gardening, reading & traveling.  Milton likes to hunt.
 1 FACT They took trips to Europe and Norway in 1980 & 1990 and to Israel & Egypt in 1992.
 1 FAMS @F20@
+1 FAMC @F292@
 0 @I985@ INDI
 1 NAME Phyllis Jean /Struve/
 2 GIVN Phyllis Jean
@@ -7883,6 +8337,7 @@
 2 PLAC , Bisbee, ND, USA
 1 OCCU Farmer
 1 FAMS @F119@
+1 FAMC @F117@
 0 @I49@ INDI
 1 NAME Jordan Lynn /Stewart/
 2 GIVN Jordan Lynn
@@ -7896,6 +8351,7 @@
 2 PLAC Trinity Lutheran Church, Ortonville, MN, USA
 1 OCCU Student
 1 FACT Horse riding.
+1 FAMC @F18@
 0 @I594@ INDI
 1 NAME Edna Mae /Lindquist/
 2 GIVN Edna Mae
@@ -7916,6 +8372,7 @@
 1 FACT Ron was a member of the Masonic Lodge, Elk Township Cemetery Board, Alta Coop Elevator Board, Fairview School Board, Buena Vista County Zoning Commission & the Buena Vista County Election Board.
 1 FACT Ron enjoyed woodworking, square dancing, ballroom dancing, playing cards & being with family & friends.
 1 FAMS @F181@
+1 FAMC @F413@
 0 @I48@ INDI
 1 NAME Phillip John /Stewart/
 2 GIVN Phillip John
@@ -7930,6 +8387,7 @@
 1 OCCU Student
 1 FACT Boy Scouts of America (Wehelo)
 1 FACT Phil likes to draw & collect comic books.
+1 FAMC @F18@
 0 @I827@ INDI
 1 NAME Burdette /Kraemer/
 2 GIVN Burdette
@@ -7940,6 +8398,7 @@
 2 DATE 21 Feb 1918
 1 OCCU Farmer
 1 FAMS @F261@
+1 FAMC @F468@
 0 @I826@ INDI
 1 NAME Francis DeWayne /Larsen/
 2 GIVN Francis DeWayne
@@ -7953,6 +8412,7 @@
 2 PLAC Lone Tree Cem. Sioux Rapids, IA,USA
 1 OCCU Hardware Merchant
 1 FAMS @F260@
+1 FAMC @F467@
 0 @I184@ INDI
 1 NAME Edward John /Murphy/ Sr
 2 GIVN Edward John
@@ -7967,6 +8427,7 @@
 2 PLAC St. John's Cem. Peterson, IA, USA
 1 OCCU Bartender
 1 FAMS @F65@
+1 FAMC @F329@
 0 @I886@ INDI
 1 NAME Claudia Rosella /Cecile/
 2 GIVN Claudia Rosella
@@ -8007,6 +8468,7 @@
 1 FACT Ethelyn's children from a previous marriage.
 1 FAMS @F189@
 1 FAMS @F493@
+1 FAMC @F419@
 0 @I16@ INDI
 1 NAME Nancy /Kooy/
 2 GIVN Nancy
@@ -8035,6 +8497,7 @@
 2 PLAC St. John's Cem. Peterson, IA, USA
 1 OCCU Farmer
 1 FAMS @F47@
+1 FAMC @F312@
 0 @I193@ INDI
 1 NAME Ashlee Marie /French/
 2 GIVN Ashlee Marie
@@ -8044,6 +8507,7 @@
 2 DATE 20 Jul 1981
 2 PLAC , Sioux City, IA, USA
 1 OCCU Student
+1 FAMC @F67@
 0 @I10@ INDI
 1 NAME Susan Lynn /Sorebo/
 2 GIVN Susan Lynn
@@ -8065,6 +8529,7 @@
 1 FACT Ron is in Quarterback Club and the Aitkin Education Assn.
 1 FACT Ron likes golf, reading & hunting.
 1 FAMS @F5@
+1 FAMC @F282@
 0 @I194@ INDI
 1 NAME Michael Edward /French/
 2 GIVN Michael Edward
@@ -8074,6 +8539,7 @@
 2 DATE 21 Apr 1984
 2 PLAC , Sioux City, IA, USA
 1 OCCU Student
+1 FAMC @F67@
 0 @I195@ INDI
 1 NAME Steven Dale /French/
 2 GIVN Steven Dale
@@ -8082,6 +8548,7 @@
 1 BIRT
 2 DATE 30 Jan 1988
 2 PLAC , Sioux City, IA, USA
+1 FAMC @F67@
 0 @I196@ INDI
 1 NAME Sean Charles /French/
 2 GIVN Sean Charles
@@ -8090,6 +8557,7 @@
 1 BIRT
 2 DATE 30 Jan 1988
 2 PLAC , Sioux City, IA, USA
+1 FAMC @F67@
 0 @I979@ INDI
 1 NAME Bessie Viola /Allen/
 2 GIVN Bessie Viola
@@ -8117,6 +8585,7 @@
 1 OCCU Aircraft Maintenance, A & P
 1 FACT Gary served in the US Marine Corps in the Pacific Theatre from 1973 to 1976.
 1 FAMS @F145@
+1 FAMC @F398@
 0 @I1096@ INDI
 1 NAME Ellen //
 2 GIVN Ellen
@@ -8134,6 +8603,7 @@
 2 PLAC Storm Lake Hosp, Alta, IA, USA
 1 OCCU Salesman, R.J. Reynolds
 1 FAMS @F197@
+1 FAMC @F195@
 0 @I978@ INDI
 1 NAME Harry Ernest /Brown/
 2 GIVN Harry Ernest
@@ -8166,6 +8636,7 @@
 2 PLAC Alta HS, Alta, IA, USA
 1 OCCU Medical Technologist
 1 FAMS @F196@
+1 FAMC @F195@
 0 @I832@ INDI
 1 NAME Michael Warren /Meyer/
 2 GIVN Michael Warren
@@ -8175,6 +8646,7 @@
 2 DATE 15 Jun 1971
 2 PLAC , Concord, CA, USA
 1 OCCU Retail Sales
+1 FAMC @F262@
 0 @I1025@ INDI
 1 NAME Irma May /Vogel/
 2 GIVN Irma May
@@ -8194,6 +8666,7 @@
 2 DATE 5 Sep 1945
 2 PLAC St. John's Cem. Peterson, IA, USA
 1 FACT Died in infancy.
+1 FAMC @F68@
 0 @I831@ INDI
 1 NAME Kelly Christopher /Meyer/
 2 GIVN Kelly Christopher
@@ -8203,6 +8676,7 @@
 2 DATE 2 Mar 1968
 2 PLAC , Dover, NJ, USA
 1 OCCU US Army Ranger
+1 FAMC @F262@
 0 @I200@ INDI
 1 NAME Rodney Ralph /Brown/
 2 GIVN Rodney Ralph
@@ -8219,6 +8693,7 @@
 1 FACT Rodney enlisted in the US Air Force and served for 10 months in Viet Nam.
 1 FACT *Terry Allen is Marcella's son from a previous marriage.
 1 FAMS @F69@
+1 FAMC @F68@
 0 @I204@ INDI
 1 NAME Peggy Renee /Brown/
 2 GIVN Peggy Renee
@@ -8231,6 +8706,7 @@
 1 OCCU Homemaker
 1 FACT * Adopted
 1 FAMS @F70@
+1 FAMC @F68@
 0 @I207@ INDI
 1 NAME Gregory Lee /Brown/
 2 GIVN Gregory Lee
@@ -8246,6 +8722,7 @@
 1 FACT Greg attended the School of barbering in Sioux City, IA.  Cheryl is a graduate of the Storm Lake School of Cosmetology.
 1 FACT They are both active in the Congregational Church in Peterson, IA.
 1 FAMS @F71@
+1 FAMC @F68@
 0 @I212@ INDI
 1 NAME Jeffery John /Brown/
 2 GIVN Jeffery John
@@ -8257,6 +8734,7 @@
 2 PLAC Sioux Valley Memorial Hosp. Cherokee, IA, USA
 1 OCCU Iowa Department of Transportation
 1 FAMS @F72@
+1 FAMC @F68@
 0 @I644@ INDI
 1 NAME Janet Kay /Meyer/
 2 GIVN Janet Kay
@@ -8275,6 +8753,7 @@
 2 PLAC Alta HS, Alta, IA, USA
 1 OCCU Homemaker, Registered Nurse
 1 FAMS @F198@
+1 FAMC @F195@
 0 @I139@ INDI
 1 NAME Marie Emma Lina /Tigges/
 2 GIVN Marie Emma Lina
@@ -8296,6 +8775,7 @@
 1 FACT Marie belonged to  Woman's Club & was a 4H Leader.
 1 FACT They enjoyed golf & bridge.
 1 FAMS @F48@
+1 FAMC @F47@
 0 @I314@ INDI
 1 NAME Frederick August /Tigges/
 2 GIVN Frederick August
@@ -8311,6 +8791,7 @@
 2 DATE 25 Apr 1904
 2 PLAC St. John's Cem. Peterson, IA, USA
 1 OCCU Died in infancy
+1 FAMC @F47@
 0 @I312@ INDI
 1 NAME Theodore William Fredric /Tigges/
 2 GIVN Theodore William Fredric
@@ -8324,6 +8805,7 @@
 2 PLAC Riverside Cem. Spencer, IA, USA
 1 OCCU Farmer
 1 FAMS @F97@
+1 FAMC @F47@
 0 @I175@ INDI
 1 NAME Lulu Rosina Marie /Tigges/
 2 GIVN Lulu Rosina Marie
@@ -8339,6 +8821,7 @@
 1 OCCU Homemaker
 1 FACT * Stillborn son between Jean and Luella
 1 FAMS @F62@
+1 FAMC @F47@
 0 @I174@ INDI
 1 NAME Edward Carl /Tigges/
 2 GIVN Edward Carl
@@ -8351,6 +8834,7 @@
 2 DATE 2 Sep 1896
 2 PLAC St. John's Cem. Peterson, IA, USA
 1 OCCU Died in infancy
+1 FAMC @F47@
 0 @I365@ INDI
 1 NAME Ina Anna /Tigges/
 2 GIVN Ina Anna
@@ -8371,6 +8855,7 @@
 1 FACT Ina enjoyed reading, crocheting & baby sitting her grand childred, nieces & nephews.  They both enjoyed dancing, any kind, anywhere.
 1 FACT Ina cared for her Grandfather, William Meyer, for 3 yrs, her Mother & Father, the two blind Aldi sisters for 7 months and Emmett for 7 years when he got Alzheimers disease; all until they passed away.
 1 FAMS @F111@
+1 FAMC @F47@
 0 @I635@ INDI
 1 NAME Virginia Leone /Haahr/
 2 GIVN Virginia Leone
@@ -8386,6 +8871,7 @@
 1 FACT He served on both the Alta & Fairview School Boards, a Buena Vista County Fair Board member & an active member of the Alta Kiwanis.  He was a charter & life time member of the Alta V.F.W. Post #6172 & a 4-H leader for 10 years.
 1 FACT He shared his life with his family & enjoyed traveling, cooking & gardening.  Vegetables & flowers were always in abundance because of his caring hands.
 1 FAMS @F195@
+1 FAMC @F420@
 0 @I317@ INDI
 1 NAME Edna Leone /Tigges/
 2 GIVN Edna Leone
@@ -8403,6 +8889,7 @@
 2 PLAC St. John's Cem. Peterson, IA, USA
 1 OCCU Housewife
 1 FAMS @F99@
+1 FAMC @F47@
 0 @I198@ INDI
 1 NAME Ralph Clifford /Brown/
 2 GIVN Ralph Clifford
@@ -8417,6 +8904,7 @@
 1 OCCU Funeral Director
 1 FACT Ralph attended the College of Mortuary Science at St. Louis in 1949.
 1 FAMS @F68@
+1 FAMC @F332@
 0 @I315@ INDI
 1 NAME Walter Albert /Tigges/
 2 GIVN Walter Albert
@@ -8430,6 +8918,7 @@
 2 PLAC St. John's Cem. Peterson, IA, USA
 1 OCCU Veterans Administrative Hosp.
 1 FAMS @F98@
+1 FAMC @F47@
 0 @I830@ INDI
 1 NAME Caroline Jane /Stoner/
 2 GIVN Caroline Jane
@@ -8441,6 +8930,7 @@
 2 PLAC , Spencer, IA, USA
 1 OCCU Homemaker, Teacher
 1 FAMS @F262@
+1 FAMC @F469@
 0 @I1244@ INDI
 1 NAME Eva E /Cunningham/
 2 GIVN Eva E
@@ -8457,6 +8947,7 @@
 2 DATE 21 Jan 1984
 2 PLAC , Marshall, MN, USA
 1 OCCU Student
+1 FAMC @F66@
 0 @I664@ INDI
 1 NAME David /Jobusch/
 2 GIVN David
@@ -8466,6 +8957,7 @@
 2 DATE 2 May 1963
 1 OCCU Computor Programmer
 1 FAMS @F203@
+1 FAMC @F427@
 0 @I188@ INDI
 1 NAME Sara Ann /Murphy/
 2 GIVN Sara Ann
@@ -8475,6 +8967,7 @@
 2 DATE 15 Apr 1986
 2 PLAC , Sioux Falls, SD, USA
 1 OCCU Student
+1 FAMC @F66@
 0 @I189@ INDI
 1 NAME Patrick John /Murphy/
 2 GIVN Patrick John
@@ -8483,6 +8976,7 @@
 1 BIRT
 2 DATE 26 Feb 1988
 2 PLAC , Sioux Falls, SD, USA
+1 FAMC @F66@
 0 @I492@ INDI
 1 NAME William Lawrence /Larsen/
 2 GIVN William Lawrence
@@ -8496,6 +8990,7 @@
 2 PLAC , Bisbee, ND, USA
 1 OCCU Farmer
 1 FAMS @F153@
+1 FAMC @F404@
 0 @I1017@ INDI
 1 NAME Karolyn Kay /Rinke/
 2 GIVN Karolyn Kay
@@ -8521,6 +9016,7 @@
 2 PLAC , Montevideo, MN, USA
 1 OCCU Railroad Brakeman
 1 FAMS @F146@
+1 FAMC @F399@
 0 @I881@ INDI
 1 NAME John /Sorebo/
 2 GIVN John
@@ -8556,6 +9052,7 @@
 1 FACT Jeanne is Charter Member of Town & Country Gals, in Chat N'Chew Extension Club, on Co. Extention Committee & an Emergency Medical Technition. Rich was School Board Member, on Big Stone Co. Co-op Board of Directors & 4-H Leader.
 1 FACT They like gardening, cooking, baking, pets & family outings.
 1 FAMS @F16@
+1 FAMC @F289@
 0 @I525@ INDI
 1 NAME Mariyln C /Larsen/
 2 GIVN Mariyln C
@@ -8565,6 +9062,7 @@
 2 GIVN Marilyn?
 1 REFN CustomGenCode:MAECB
 1 FAMS @F161@
+1 FAMC @F160@
 0 @I1016@ INDI
 1 NAME Kermit Magnus /Lyngaas/
 2 GIVN Kermit Magnus
@@ -8584,6 +9082,7 @@
 1 OCCU Business Agent-Operating Engineers
 1 FACT * Twins
 1 FAMS @F67@
+1 FAMC @F331@
 0 @I527@ INDI
 1 NAME Clarence Archiebald /Larsen/
 2 GIVN Clarence Archiebald
@@ -8596,6 +9095,7 @@
 2 DATE Mar 1984
 2 PLAC , Bisbee, ND, USA
 1 OCCU Teacher, Farmer
+1 FAMC @F153@
 0 @I522@ INDI
 1 NAME William George /Larsen/
 2 GIVN William George
@@ -8616,6 +9116,7 @@
 1 FACT Hunting & Fishing
 1 FACT Retired from farming in 1994.
 1 FAMS @F160@
+1 FAMC @F153@
 0 @I1274@ INDI
 1 NAME George Wesley /Hudson/ Jr Garvey
 2 GIVN George Wesley
@@ -8634,6 +9135,7 @@
 2 PLAC , Slayton, MN, USA
 1 OCCU Homemaker
 1 FAMS @F156@
+1 FAMC @F153@
 0 @I493@ INDI
 1 NAME Donald William Peter /Larsen/
 2 GIVN Donald William Peter
@@ -8647,11 +9149,13 @@
 2 DATE 21 Mar 1964
 2 PLAC Lutheran Cem. Bisbee, ND, USA
 1 FAMS @F154@
+1 FAMC @F153@
 0 @I524@ INDI
 1 NAME William Jess /Larsen/
 2 GIVN William Jess
 2 SURN Larsen
 1 REFN CustomGenCode:MAECA
+1 FAMC @F160@
 0 @I535@ INDI
 1 NAME Ethel Mary /Larsen/
 2 GIVN Ethel Mary
@@ -8662,6 +9166,7 @@
 2 DATE 29 Jan 1914
 2 PLAC , Agate, ND, USA
 1 FAMS @F163@
+1 FAMC @F153@
 0 @I534@ INDI
 1 NAME George Herman /Larsen/
 2 GIVN George Herman
@@ -8671,6 +9176,7 @@
 2 DATE 20 Dec 1911
 2 PLAC , Agate, ND, USA
 1 OCCU Farmer
+1 FAMC @F153@
 0 @I661@ INDI
 1 NAME Amanda Lynn /Meyer/
 2 GIVN Amanda Lynn
@@ -8679,6 +9185,7 @@
 1 BIRT
 2 DATE 18 Feb 1989
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA, USA
+1 FAMC @F202@
 0 @I528@ INDI
 1 NAME Hazel Minnie /Larsen/
 2 GIVN Hazel Minnie
@@ -8689,6 +9196,7 @@
 2 DATE 30 Jan 1909
 2 PLAC , Agate, ND, USA
 1 FAMS @F162@
+1 FAMC @F153@
 0 @I662@ INDI
 1 NAME Shelby Ann /Meyer/
 2 GIVN Shelby Ann
@@ -8696,6 +9204,7 @@
 1 REFN CustomGenCode:MAGCEB
 1 BIRT
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA, USA
+1 FAMC @F202@
 0 @I568@ INDI
 1 NAME /Third child/
 2 SURN Third child
@@ -8723,6 +9232,7 @@
 1 BIRT
 2 DATE 8 May 1991
 2 PLAC , Mitchell, SD, USA
+1 FAMC @F66@
 0 @I541@ INDI
 1 NAME David Allen /Vanerstrom/
 2 GIVN David Allen
@@ -8765,6 +9275,7 @@
 2 PLAC Oakland Cem. Peterson, IA, USA
 1 OCCU Homemaker
 1 FAMS @F123@
+1 FAMC @F377@
 0 @I969@ INDI
 1 NAME Irva L /Murdock/
 2 GIVN Irva L
@@ -8783,6 +9294,7 @@
 2 PLAC , Seattle, WA, USA
 1 OCCU Building Contractor
 1 FAMS @F252@
+1 FAMC @F460@
 0 @I968@ INDI
 1 NAME Charles R /Evans/
 2 GIVN Charles R
@@ -8825,6 +9337,7 @@
 1 FACT John is serving in the US Air Force at Hill AFB in Utah.  He has attained the rank of Captain.  He also earned his M.S. at Air Force Instute of Technology at Wright-Patterson AFB in Ohio on Sep 20, 1994.
 1 FACT They enjoy Biking & Skiing.
 1 FAMS @F18@
+1 FAMC @F290@
 0 @I186@ INDI
 1 NAME Julie Ann /Gengler/
 2 GIVN Julie Ann
@@ -8836,6 +9349,7 @@
 2 PLAC , LeMars, IA, USA
 1 OCCU Homemaker
 1 FAMS @F66@
+1 FAMC @F330@
 0 @I483@ INDI
 1 NAME Floyd Herbert /Meyer/
 2 GIVN Floyd Herbert
@@ -8853,6 +9367,7 @@
 2 PLAC Calvary Cem. Tulsa, OK, USA
 1 OCCU US Army, Pharmacist
 1 FAMS @F151@
+1 FAMC @F123@
 0 @I405@ INDI
 1 NAME LeRoy Clarence /Meyer/
 2 GIVN LeRoy Clarence
@@ -8882,6 +9397,7 @@
 1 FACT Their main hobbies were entertaining friends and playing bridge in several different clubs most of their married life.
 1 FACT In the late 1950's they bought a new pick up and slide in camper.  They spent a month driving up the Alaskan Highway and touring Fairbanks and Anchorage.  They sold the outfit in Juneau and came back by boat, train & bus.
 1 FAMS @F124@
+1 FAMC @F123@
 0 @I41@ INDI
 1 NAME Sarah Jean /Krueger/
 2 GIVN Sarah Jean
@@ -8898,6 +9414,7 @@
 2 PLAC Beardsley Valley HS, Beardsley, MN, USA
 1 OCCU Homemaker
 1 FAMS @F17@
+1 FAMC @F16@
 0 @I45@ INDI
 1 NAME Sheila Renee /Krueger/
 2 GIVN Sheila Renee
@@ -8910,6 +9427,7 @@
 2 PLAC Bethleham Lutheran Church, Beardsley, MN, USA
 1 OCCU Student
 1 FACT Sheila is active in 4-H.
+1 FAMC @F16@
 0 @I44@ INDI
 1 NAME Holly Marie /Krueger/
 2 GIVN Holly Marie
@@ -8923,6 +9441,7 @@
 1 OCCU Student
 1 FACT Holly is active in 4-H.
 1 FACT She likes her cats.
+1 FAMC @F16@
 0 @I150@ INDI
 1 NAME Matthew Stuart /Wagner/
 2 GIVN Matthew Stuart
@@ -8935,6 +9454,7 @@
 2 PLAC , Plano, TX, USA
 1 OCCU Student & Professiohal Basebatt player.
 1 FACT Matthew belongs to a Catholic Church.
+1 FAMC @F53@
 0 @I43@ INDI
 1 NAME Brian Richard /Krueger/
 2 GIVN Brian Richard
@@ -8950,6 +9470,7 @@
 1 OCCU Student
 1 FACT Brian belongs to the 4-H Club.
 1 FACT He assembles model rockets.
+1 FAMC @F16@
 0 @I1031@ INDI
 1 NAME Caroline /Ruebsan/
 2 GIVN Caroline
@@ -8975,6 +9496,7 @@
 2 PLAC , Los Angeles, CA, USA
 1 OCCU Homemaker, Teacher
 1 FAMS @F255@
+1 FAMC @F463@
 0 @I497@ INDI
 1 NAME Audrey Jean /Larsen/
 2 GIVN Audrey Jean
@@ -8986,16 +9508,19 @@
 2 PLAC , Agate, ND, USA
 1 OCCU Homemaker
 1 FAMS @F155@
+1 FAMC @F154@
 0 @I496@ INDI
 1 NAME Dwight John /Larsen/
 2 GIVN Dwight John
 2 SURN Larsen
 1 REFN CustomGenCode:MAEAB
+1 FAMC @F154@
 0 @I495@ INDI
 1 NAME Clark Donald /Larsen/
 2 GIVN Clark Donald
 2 SURN Larsen
 1 REFN CustomGenCode:MAEAA
+1 FAMC @F154@
 0 @I810@ INDI
 1 NAME Gayle Elizabeth /McCAULEY/
 2 GIVN Gayle Elizabeth
@@ -9005,6 +9530,7 @@
 2 DATE 10 Dec 1971
 2 PLAC , Everett, WA, USA
 1 OCCU Student
+1 FAMC @F252@
 0 @I674@ INDI
 1 NAME Laura Marie /Meyer/
 2 GIVN Laura Marie
@@ -9016,6 +9542,7 @@
 2 PLAC , Lansing, MI, USA
 1 OCCU Homemaker, Nursing, Missionary
 1 FAMS @F208@
+1 FAMC @F205@
 0 @I794@ INDI
 1 NAME Benjamin /Weins/
 2 GIVN Benjamin
@@ -9023,6 +9550,7 @@
 1 REFN CustomGenCode:MAIBC2A
 1 BIRT
 2 DATE 19 Apr 1982
+1 FAMC @F249@
 0 @I809@ INDI
 1 NAME Deborah Jean /McCAULEY/
 2 GIVN Deborah Jean
@@ -9032,6 +9560,7 @@
 2 DATE 9 Apr 1969
 2 PLAC , Everett, WA, USA
 1 OCCU Student
+1 FAMC @F252@
 0 @I634@ INDI
 1 NAME Kenneth Orville /Meyer/
 2 GIVN Kenneth Orville
@@ -9057,6 +9586,7 @@
 1 FACT He served on both the Alta & Fairview School Boards, a Buena Vista County Fair Board member & an active member of the Alta Kiwanis.  He was a charter & life time member of the Alta V.F.W. Post #6172 & a 4-H leader for 10 years.
 1 FACT He shared his life with his family & enjoyed traveling, cooking & gardening.  Vegetables & flowers were always in abundance because of his caring hands.
 1 FAMS @F195@
+1 FAMC @F180@
 0 @I593@ INDI
 1 NAME Ronald Orlo /Meyer/
 2 GIVN Ronald Orlo
@@ -9077,6 +9607,7 @@
 1 FACT Ron enjoyed woodworking, square dancing, ballroom dancing, playing cards & being with family & friends.
 1 FAMS @F181@
 1 FAMS @F189@
+1 FAMC @F180@
 0 @I931@ INDI
 1 NAME Brigetta /Petersen/
 2 GIVN Brigetta
@@ -9109,6 +9640,7 @@
 1 FACT Keith served in the US Army's Medical Detachment in the Korean conflict, where he was awarded a Bronze Star.
 1 FACT Keith enjoyed gardening, square dancing, traveling and tracing the family genealogy.  They both enjoyed visiting their far-flung children & grandchildren.
 1 FAMS @F205@
+1 FAMC @F180@
 0 @I666@ INDI
 1 NAME Wayne Henry /Meyer/
 2 GIVN Wayne Henry
@@ -9121,6 +9653,7 @@
 2 DATE 11 Sep 1993
 1 OCCU Linotype Operater
 1 FAMS @F204@
+1 FAMC @F180@
 0 @I930@ INDI
 1 NAME Peder /Lauritzen/
 2 GIVN Peder
@@ -9153,6 +9686,7 @@
 2 PLAC Meyer Home, Buena Vista Co. IA, USA
 1 OCCU Farmer
 1 FAMS @F199@
+1 FAMC @F180@
 0 @I807@ INDI
 1 NAME Diane Eleanor /McCAULEY/
 2 GIVN Diane Eleanor
@@ -9163,6 +9697,7 @@
 2 PLAC , Everett, WA, USA
 1 OCCU Bookkeeper, Student Pilot
 1 FAMS @F254@
+1 FAMC @F252@
 0 @I804@ INDI
 1 NAME Lynn Louise /McCAULEY/
 2 GIVN Lynn Louise
@@ -9174,6 +9709,7 @@
 2 PLAC , Everett, WA, USA
 1 OCCU Homemaker,
 1 FAMS @F253@
+1 FAMC @F252@
 0 @I1193@ INDI
 1 NAME Louis Frederick /Klatt/
 2 GIVN Louis Frederick
@@ -9197,6 +9733,7 @@
 2 DATE 29 Apr 1953
 2 PLAC , Lynnwood, WA, USA
 1 OCCU Small Business, Automotive
+1 FAMC @F171@
 0 @I1224@ INDI
 1 NAME Gene /Tipping/
 2 GIVN Gene
@@ -9224,6 +9761,7 @@
 2 DATE 4 Jan 1951
 2 PLAC , Inglewood, CA, USA
 1 OCCU Teacher, P.E., Hairstylist
+1 FAMC @F171@
 0 @I681@ INDI
 1 NAME George Frederick /Mohror/
 2 GIVN George Frederick
@@ -9241,6 +9779,7 @@
 2 PLAC Arlington Cem. Arlington, SD, USA
 1 OCCU Farmer
 1 FAMS @F209@
+1 FAMC @F433@
 0 @I1186@ INDI
 1 NAME Ruby /Nelson/
 2 GIVN Ruby
@@ -9262,6 +9801,7 @@
 2 DATE 2 Dec 1984
 2 PLAC Spencer Mumiciple Hosp. Spencer, IA, USA
 1 OCCU Student
+1 FAMC @F76@
 0 @I275@ INDI
 1 NAME Nicholas /Anliker/
 2 GIVN Nicholas
@@ -9275,6 +9815,7 @@
 1 BIRT
 2 DATE 7 Mar 1988
 2 PLAC Iowa Methodist Hosp. Des Moines, IA, USA
+1 FAMC @F76@
 0 @I276@ INDI
 1 NAME Christin /Anliker/
 2 GIVN Christin
@@ -9322,6 +9863,7 @@
 1 FACT Carol enjoys ballroom dancing, sewing and crafts. Roger enjoys animals, helping coach wrestling and traveling.
 1 FACT Roger and Carol have been honored as Paul Harris Fellows for their work in Youth Exchange. Roger was named to the athletic Hall of Fame of John Jay H. S. Wappingers & of Peekskill H.S. for his achievements & work in wrestling.
 1 FAMS @F126@
+1 FAMC @F380@
 0 @I817@ INDI
 1 NAME Sandra Gail /King/
 2 GIVN Sandra Gail
@@ -9333,6 +9875,7 @@
 2 PLAC , Muscle Shoals, AL, USA
 1 OCCU Homemaker, Bookkeeper
 1 FAMS @F256@
+1 FAMC @F464@
 0 @I515@ INDI
 1 NAME William Alexander /Meyer/
 2 GIVN William Alexander
@@ -9344,6 +9887,7 @@
 2 PLAC , Jamestown, ND, USA
 1 OCCU Rancher
 1 FAMS @F159@
+1 FAMC @F156@
 0 @I511@ INDI
 1 NAME John Lotus Delta /Meyer/
 2 GIVN John Lotus Delta
@@ -9355,6 +9899,7 @@
 2 PLAC , Jamestown, ND, USA
 1 OCCU US Army
 1 FAMS @F158@
+1 FAMC @F156@
 0 @I507@ INDI
 1 NAME David John /Meyer/
 2 GIVN David John
@@ -9366,6 +9911,7 @@
 2 PLAC , Jamestown, ND, USA
 1 OCCU Rancher
 1 FAMS @F157@
+1 FAMC @F156@
 0 @I542@ INDI
 1 NAME Oliver Wendell /Vanerstrom/
 2 GIVN Oliver Wendell
@@ -9377,6 +9923,7 @@
 1 DEAT
 2 DATE 15 Feb 1922
 2 PLAC , Carpio, ND, USA
+1 FAMC @F164@
 0 @I36@ INDI
 1 NAME Clayton Alan /Hedman/
 2 GIVN Clayton Alan
@@ -9401,6 +9948,7 @@
 1 FACT Margaret is a 4-H Leader, a Girl Scout Leader, a Hospice Volunteer, serves on the College Health Education Advisory Board in CO. & on the Chamber of Commerce Comm.  Clayton is active in the Lions Club & fire dept.
 1 FACT They like walking, biking, golf and camping in the summer & skiing in the winter.
 1 FAMS @F15@
+1 FAMC @F288@
 0 @I35@ INDI
 1 NAME Duane David /Hay/
 2 GIVN Duane David
@@ -9423,6 +9971,7 @@
 1 FACT Margaret served on the University Nursing program advisory board in Idaha & LPN Assoc Dorector.
 1 FACT Duane Liked trap shooting & hunting
 1 FAMS @F14@
+1 FAMC @F287@
 0 @I574@ INDI
 1 NAME Emma Allen Lillian /Vanerstrom/
 2 GIVN Emma Allen Lillian
@@ -9434,6 +9983,7 @@
 2 PLAC , Carpio, ND, USA
 1 OCCU Homemaker, Chaplain
 1 FAMS @F175@
+1 FAMC @F164@
 0 @I232@ INDI
 1 NAME Toni Teresa /Peterson/
 2 GIVN Toni Teresa
@@ -9456,6 +10006,7 @@
 1 FACT He is a member of St. John's Evangelical Church.
 1 FACT He is active in the Farm Bureau.
 1 FAMS @F77@
+1 FAMC @F341@
 0 @I570@ INDI
 1 NAME Irene Grace /Vanerstrom/
 2 GIVN Irene Grace
@@ -9467,6 +10018,7 @@
 2 PLAC , Carpio, ND, USA
 1 OCCU Homemaker
 1 FAMS @F174@
+1 FAMC @F164@
 0 @I559@ INDI
 1 NAME Helen G /Vanerstrom/
 2 GIVN Helen G
@@ -9480,6 +10032,7 @@
 1 OCCU Homemaker
 1 FAMS @F170@
 1 FAMS @F173@
+1 FAMC @F164@
 0 @I543@ INDI
 1 NAME Milton Meyer /Vanerstrom/
 2 GIVN Milton Meyer
@@ -9500,6 +10053,7 @@
 1 FACT Milton was a 32nd degree Mason & a Shriner
 1 FACT They spent the last 20 winters in Arizona.
 1 FAMS @F165@
+1 FAMC @F164@
 0 @I815@ INDI
 1 NAME Heather Margot /Meyer/
 2 GIVN Heather Margot
@@ -9508,6 +10062,7 @@
 1 BIRT
 2 DATE 9 Jul 1989
 2 PLAC , Los Angeles, CA, USA
+1 FAMC @F255@
 0 @I814@ INDI
 1 NAME Emily Beth /Meyer/
 2 GIVN Emily Beth
@@ -9516,6 +10071,7 @@
 1 BIRT
 2 DATE 26 May 1986
 2 PLAC , Los Angeles, CA, USA
+1 FAMC @F255@
 0 @I413@ INDI
 1 NAME Grant Matthew /Swanson/
 2 GIVN Grant Matthew
@@ -9536,6 +10092,7 @@
 1 FACT Grant belongs to Grace Lutheran Church in Yorktown Heights, NY.
 1 FACT Grant enjoys mountain biking, juggling and racquetball.  He wrestled for five years in High School.
 1 FACT He has traveled many parts of the world including Europe, Japan, India and China.  He spent a year in Turkey as a Rotary International Exchange student.
+1 FAMC @F126@
 0 @I813@ INDI
 1 NAME Rachel Sarah /Meyer/
 2 GIVN Rachel Sarah
@@ -9545,6 +10102,7 @@
 2 DATE 19 Oct 1983
 2 PLAC , Los Angeles, CA, USA
 1 OCCU Student
+1 FAMC @F255@
 0 @I411@ INDI
 1 NAME Loren Christian /Swanson/
 2 GIVN Loren Christian
@@ -9567,6 +10125,7 @@
 1 FACT Loren likes traveling, computers, drawing , woodworking, and kite flying.
 1 FACT He lived in the Philippines for one year as a Rotary Exchange student.
 1 FAMS @F127@
+1 FAMC @F126@
 0 @I590@ INDI
 1 NAME William /Vanerstrom/
 2 GIVN William
@@ -9575,6 +10134,7 @@
 1 DEAT
 2 PLAC , Carpio, ND, USA
 1 OCCU Died in infancy
+1 FAMC @F164@
 0 @I506@ INDI
 1 NAME John Henry /Meyer/
 2 GIVN John Henry
@@ -9588,6 +10148,7 @@
 2 DATE 23 Mar 1975
 1 OCCU Farmer
 1 FAMS @F156@
+1 FAMC @F406@
 0 @I592@ INDI
 1 NAME Henrietta Sophia /Glawe/
 2 GIVN Henrietta Sophia
@@ -9602,6 +10163,7 @@
 2 PLAC Elk Twp. Cem. Alta, IA, USA
 1 OCCU Homemaker
 1 FAMS @F180@
+1 FAMC @F412@
 0 @I820@ INDI
 1 NAME Kathleen Joanne /Lewis/
 2 GIVN Kathleen Joanne
@@ -9613,6 +10175,7 @@
 2 PLAC , Seattle, WA, USA
 1 OCCU Homemaker, Office Worker
 1 FAMS @F257@
+1 FAMC @F465@
 0 @I1245@ INDI
 1 NAME Ed /Walter/
 2 GIVN Ed
@@ -9646,6 +10209,7 @@
 1 FAMS @F75@
 1 FAMS @F484@
 1 FAMS @F485@
+1 FAMC @F339@
 0 @I822@ INDI
 1 NAME June Anna /Meyer/
 2 GIVN June Anna
@@ -9659,6 +10223,7 @@
 1 OCCU Homemaker
 1 FAMS @F258@
 1 FAMS @F259@
+1 FAMC @F233@
 0 @I800@ INDI
 1 NAME Connie William /Meyer/
 2 GIVN Connie William
@@ -9670,6 +10235,7 @@
 2 PLAC , Peterson, IA, USA
 1 OCCU US Navy, Farmer, School Admistrtr
 1 FAMS @F251@
+1 FAMC @F233@
 0 @I777@ INDI
 1 NAME Boyd Hale /Meyer/
 2 GIVN Boyd Hale
@@ -9684,6 +10250,7 @@
 2 PLAC Buena Vista Memorial Cem. Storm Lake, IA, USA
 1 OCCU Farmer
 1 FAMS @F243@
+1 FAMC @F233@
 0 @I755@ INDI
 1 NAME Phillip Scott /Meyer/
 2 GIVN Phillip Scott
@@ -9707,11 +10274,13 @@
 1 FACT They both loved to visit and learn new things.  They enjoyed to watch life on the river.
 1 FACT * Easter Sunday
 1 FAMS @F234@
+1 FAMC @F233@
 0 @I537@ INDI
 1 NAME Wendy /Kingston/
 2 GIVN Wendy
 2 SURN Kingston
 1 REFN CustomGenCode:MAEGA
+1 FAMC @F163@
 0 @I1009@ INDI
 1 NAME Jean /King/
 2 GIVN Jean
@@ -9730,6 +10299,7 @@
 2 PLAC , Storm Lake, IA, USA
 1 OCCU Teacher, Coach
 1 FAMS @F76@
+1 FAMC @F340@
 0 @I829@ INDI
 1 NAME Donald Thomas /Meyer/
 2 GIVN Donald Thomas
@@ -9741,6 +10311,7 @@
 2 PLAC , Peterson, IA, USA
 1 OCCU US Gov. Safety Engineer
 1 FAMS @F262@
+1 FAMC @F233@
 0 @I825@ INDI
 1 NAME Bonnie Lou /Meyer/
 2 GIVN Bonnie Lou
@@ -9753,6 +10324,7 @@
 1 OCCU Homemaker
 1 FAMS @F260@
 1 FAMS @F261@
+1 FAMC @F233@
 0 @I1221@ INDI
 1 NAME Elizabeth B /Kolpin/
 2 GIVN Elizabeth B
@@ -9771,6 +10343,7 @@
 2 PLAC , Cando, ND, USA
 1 OCCU Uranium Resources, President
 1 FAMS @F122@
+1 FAMC @F119@
 0 @I395@ INDI
 1 NAME James Wesley /Larson/
 2 GIVN James Wesley
@@ -9782,6 +10355,7 @@
 2 PLAC , Rolette, ND, USA
 1 OCCU Biologist, National Park Service
 1 FAMS @F121@
+1 FAMC @F119@
 0 @I392@ INDI
 1 NAME Arlyn James /Larson/
 2 GIVN Arlyn James
@@ -9793,16 +10367,19 @@
 2 PLAC , Rolette, ND, USA
 1 OCCU V.P. Pinnacle West Corp.
 1 FAMS @F120@
+1 FAMC @F119@
 0 @I539@ INDI
 1 NAME Sarah /Kingston/
 2 GIVN Sarah
 2 SURN Kingston
 1 REFN CustomGenCode:MAEGC
+1 FAMC @F163@
 0 @I538@ INDI
 1 NAME Ann /Kingston/
 2 GIVN Ann
 2 SURN Kingston
 1 REFN CustomGenCode:MAEGB
+1 FAMC @F163@
 0 @I818@ INDI
 1 NAME Justin Conrad /Meyer/
 2 GIVN Justin Conrad
@@ -9812,6 +10389,7 @@
 2 DATE 27 Apr 1984
 2 PLAC , Denver, CO, USA
 1 OCCU Student
+1 FAMC @F256@
 0 @I424@ INDI
 1 NAME JoAnne /Ross/
 2 GIVN JoAnne
@@ -9826,6 +10404,7 @@
 1 FACT * JoAnne's daughter from a previous marriage.
 1 FAMS @F130@
 1 FAMS @F489@
+1 FAMC @F383@
 0 @I834@ INDI
 1 NAME Charles Frederick /Fastenow/
 2 GIVN Charles Frederick
@@ -9840,6 +10419,7 @@
 2 PLAC St. John's Cem. Peterson, IA, USA
 1 OCCU Farmer
 1 FAMS @F263@
+1 FAMC @F470@
 0 @I1220@ INDI
 1 NAME Charles J /Hamann/
 2 GIVN Charles J
@@ -9858,6 +10438,7 @@
 2 PLAC , Evanston, IL, USA
 1 OCCU Accounting Clerk
 1 FAMS @F128@
+1 FAMC @F382@
 0 @I277@ INDI
 1 NAME Austin Douglas /Anliker/
 2 GIVN Austin Douglas
@@ -9865,6 +10446,7 @@
 1 REFN CustomGenCode:MABCFED
 1 BIRT
 2 DATE 11 Mar 2002
+1 FAMC @F87@
 0 @I1246@ INDI
 1 NAME Ruth /Zarr/
 2 GIVN Ruth
@@ -9890,6 +10472,7 @@
 2 PLAC , Cherokee, IA, USA
 1 OCCU Homemaker, Teacher
 1 FAMS @F101@
+1 FAMC @F100@
 0 @I1174@ INDI
 1 NAME Minnie Gustara Gunderson /Moe/
 2 GIVN Minnie Gustara Gunderson
@@ -9906,6 +10489,7 @@
 2 DATE 5 Jan 1999
 1 BAPM
 2 PLAC Congregational Church, Peterson, IA, USA
+1 FAMC @F86@
 0 @I326@ INDI
 1 NAME Rickie Dean /Kolpin/
 2 GIVN Rickie Dean
@@ -9917,6 +10501,7 @@
 2 PLAC , Cherokee, IA, USA
 1 OCCU Farmer, Feed Mill Manager
 1 FAMS @F102@
+1 FAMC @F100@
 0 @I271@ INDI
 1 NAME Jacob Bruce /Saunders/
 2 GIVN Jacob Bruce
@@ -9925,6 +10510,7 @@
 1 BAPM
 2 DATE 4 Nov 2001
 2 PLAC Congregational Church, Peterson, IA, USA
+1 FAMC @F86@
 0 @I331@ INDI
 1 NAME Darwin Craig /Kolpin/
 2 GIVN Darwin Craig
@@ -9936,6 +10522,7 @@
 1 DEAT
 2 DATE 22 Feb 1957
 2 PLAC St. John's Cem. Peterson, IA, USA
+1 FAMC @F100@
 0 @I166@ INDI
 1 NAME Heather Lee /Stewart/
 2 GIVN Heather Lee
@@ -9945,6 +10532,7 @@
 2 DATE 22 Oct 1971
 2 PLAC , Sioux Falls, SD, USA
 1 OCCU Nursing Assistant
+1 FAMC @F58@
 0 @I332@ INDI
 1 NAME Rhonda Kay /Kolpin/
 2 GIVN Rhonda Kay
@@ -9956,6 +10544,7 @@
 2 PLAC , Cherokee, IA, USA
 1 OCCU Homemaker, Banking
 1 FAMS @F103@
+1 FAMC @F100@
 0 @I1061@ INDI
 1 NAME Marie /Dahl/
 2 GIVN Marie
@@ -9974,6 +10563,7 @@
 2 PLAC , Sioux Falls, SD, USA
 1 OCCU Physicians Assistant
 1 FAMS @F59@
+1 FAMC @F58@
 0 @I336@ INDI
 1 NAME Van Warren /Kolpin/
 2 GIVN Van Warren
@@ -9985,6 +10575,7 @@
 2 PLAC , Cherokee, IA, USA
 1 OCCU Professor
 1 FAMS @F104@
+1 FAMC @F100@
 0 @I4@ INDI
 1 NAME Edith Louise /Grapenthin/
 2 GIVN Edith Louise
@@ -10005,6 +10596,7 @@
 2 PLAC Oakland Cem. Peterson, IA, USA
 1 OCCU Homemaker
 1 FAMS @F2@
+1 FAMC @F279@
 0 @I341@ INDI
 1 NAME Dana Ward /Kolpin/
 2 GIVN Dana Ward
@@ -10027,6 +10619,7 @@
 1 FACT Sherry earned a degree in Physical Education from Buena Vista College in Storm Lake, IA.
 1 FACT They belong to the Congregational Church.
 1 FAMS @F105@
+1 FAMC @F100@
 0 @I347@ INDI
 1 NAME Ryan Russell /Kolpin/
 2 GIVN Ryan Russell
@@ -10038,6 +10631,7 @@
 2 PLAC , Cherokee, IA, USA
 1 OCCU Student
 1 FAMS @F106@
+1 FAMC @F100@
 0 @I758@ INDI
 1 NAME Dale Kenley /Sewell/
 2 GIVN Dale Kenley
@@ -10064,6 +10658,7 @@
 1 FACT Glenda, enjoys music, gardening, cooking, water and oil painting.  Dale enjoys metal working and gunsmithing.
 1 FACT * Baptized on Easter Sunday.
 1 FAMS @F235@
+1 FAMC @F446@
 0 @I1173@ INDI
 1 NAME Charles Sigfried /Sederstrom/
 2 GIVN Charles Sigfried
@@ -10083,6 +10678,7 @@
 1 OCCU Homemaker
 1 FAMS @F219@
 1 FAMS @F232@
+1 FAMC @F209@
 0 @I1060@ INDI
 1 NAME Peder /Larsen/
 2 GIVN Peder
@@ -10105,6 +10701,7 @@
 2 PLAC Arlington Cem. Arlington, SD, USA
 1 OCCU Farmer, Locker Worker
 1 FAMS @F210@
+1 FAMC @F209@
 0 @I821@ INDI
 1 NAME Lauren Kay /Meyer/
 2 GIVN Lauren Kay
@@ -10113,6 +10710,7 @@
 1 BIRT
 2 DATE 22 Jun 1989
 2 PLAC , Lynnwood, WA, USA
+1 FAMC @F257@
 0 @I273@ INDI
 1 NAME Jeff /Anliker/
 2 GIVN Jeff
@@ -10133,6 +10731,7 @@
 2 PLAC , Cherokee, IA, USA
 1 OCCU Homemaker, Teacher
 1 FAMS @F100@
+1 FAMC @F359@
 0 @I219@ INDI
 1 NAME Connie Lynn /Stevens/
 2 GIVN Connie Lynn
@@ -10152,6 +10751,7 @@
 1 FACT Jim completed a 2 year course in Farm Equipment Mechanics at Iowa Lakes Community College in Emmettsburg, IA.
 1 FACT * Adopted by Clarence Stevens.                                              ** Twins
 1 FAMS @F74@
+1 FAMC @F338@
 0 @I169@ INDI
 1 NAME Donald Harvey /Johnson/
 2 GIVN Donald Harvey
@@ -10163,6 +10763,7 @@
 2 PLAC , Detroit, MI, USA
 1 OCCU Medical School
 1 FAMS @F60@
+1 FAMC @F325@
 0 @I430@ INDI
 1 NAME Linda Arleen /Wingert/
 2 GIVN Linda Arleen
@@ -10187,6 +10788,7 @@
 1 FACT * Linda's children from a previous marriage.
 1 FAMS @F132@
 1 FAMS @F490@
+1 FAMC @F385@
 0 @I427@ INDI
 1 NAME Peggy Lynn /Yoder/
 2 GIVN Peggy Lynn
@@ -10212,6 +10814,7 @@
 1 FACT Donovan was charter member and instructor of the Knapp Karate Club. Donovan and Peggy enjoyed motorcycling.
 1 FACT After his divorce Don moved back to Peterson, IA. where he started his own business in home repair, auto repair, tire & battery sales.  He & his father bought & rebuilt a 5,500 sq. ft. building in Peterson, IA.
 1 FAMS @F131@
+1 FAMC @F384@
 0 @I167@ INDI
 1 NAME Brook Pauline /Stewart/
 2 GIVN Brook Pauline
@@ -10221,6 +10824,7 @@
 2 DATE 8 Mar 1976
 2 PLAC , Sioux Falls, SD, USA
 1 OCCU Student
+1 FAMC @F58@
 0 @I754@ INDI
 1 NAME Linna Anna /Scott/
 2 GIVN Linna Anna
@@ -10235,6 +10839,7 @@
 2 PLAC Oakland Cem. Peterson, IA, USA
 1 OCCU Homemaker
 1 FAMS @F233@
+1 FAMC @F444@
 0 @I354@ INDI
 1 NAME Lari Denise /Henderson/
 2 GIVN Lari Denise
@@ -10246,6 +10851,7 @@
 2 PLAC , Chicago, IL, USA
 1 OCCU Homemaker
 1 FAMS @F108@
+1 FAMC @F107@
 0 @I766@ INDI
 1 NAME Merle /Weems/
 2 GIVN Merle
@@ -10257,6 +10863,7 @@
 2 PLAC , Lufkin, TX, USA
 1 OCCU Homemaker, Secretary
 1 FAMS @F239@
+1 FAMC @F450@
 0 @I358@ INDI
 1 NAME Darcy /Henderson/
 2 GIVN Darcy
@@ -10264,6 +10871,7 @@
 1 REFN CustomGenCode:MABGBB
 1 SEX F
 1 FAMS @F109@
+1 FAMC @F107@
 0 @I265@ INDI
 1 NAME Jessica Marie /Saunders/
 2 GIVN Jessica Marie
@@ -10272,6 +10880,7 @@
 1 BIRT
 2 DATE 13 Jun 1992
 2 PLAC Marion Health Center, Sioux City, Ia, USA
+1 FAMC @F85@
 0 @I1263@ INDI
 1 NAME Luella Mae //
 2 GIVN Luella Mae
@@ -10287,6 +10896,7 @@
 2 DATE 19 Dec 1973
 2 PLAC , Arlington, TX, USA
 1 OCCU Student
+1 FAMC @F57@
 0 @I860@ INDI
 1 NAME Jean /Glenn/
 2 GIVN Jean
@@ -10296,11 +10906,13 @@
 1 BIRT
 2 DATE 13 Aug 1942
 1 FAMS @F273@
+1 FAMC @F479@
 0 @I533@ INDI
 1 NAME Keith /Peters/
 2 GIVN Keith
 2 SURN Peters
 1 REFN CustomGenCode:MAEED
+1 FAMC @F162@
 0 @I353@ INDI
 1 NAME Donald /Henderson/
 2 GIVN Donald
@@ -10310,6 +10922,7 @@
 1 BIRT
 2 DATE 19 Apr 1934
 1 FAMS @F107@
+1 FAMC @F365@
 0 @I269@ INDI
 1 NAME Laurie Michelle /McDied/
 2 GIVN Laurie Michelle
@@ -10322,6 +10935,7 @@
 2 GIVN Gail
 2 SURN Peters
 1 REFN CustomGenCode:MAEEC
+1 FAMC @F162@
 0 @I163@ INDI
 1 NAME Merritt Samuel /Stewart/
 2 GIVN Merritt Samuel
@@ -10333,11 +10947,13 @@
 2 PLAC , Ida Grove, IA, USA
 1 OCCU Electronics Technician
 1 FAMS @F58@
+1 FAMC @F323@
 0 @I531@ INDI
 1 NAME David /Peters/
 2 GIVN David
 2 SURN Peters
 1 REFN CustomGenCode:MAEEB
+1 FAMC @F162@
 0 @I763@ INDI
 1 NAME Kip Kenley /Sewell/
 2 GIVN Kip Kenley
@@ -10357,11 +10973,13 @@
 1 FACT They "Humaniots" non-religious.
 1 FACT They enjoy walking & writing.
 1 FAMS @F238@
+1 FAMC @F235@
 0 @I530@ INDI
 1 NAME Stanley /Peters/
 2 GIVN Stanley
 2 SURN Peters
 1 REFN CustomGenCode:MAEEA
+1 FAMC @F162@
 0 @I762@ INDI
 1 NAME Robin Ruth /Sewell/
 2 GIVN Robin Ruth
@@ -10376,6 +10994,7 @@
 1 OCCU Veterinarian, works  for intenet group "wellmed" as an indexer
 1 FACT Robin earned a D.V.M. from Washington State University. She earned her Masters degree in Library Science, from University with grants from the National Institute of Health.
 1 FACT Gardening, home remodeling, and bird watching
+1 FAMC @F235@
 0 @I759@ INDI
 1 NAME Laura LuVern /Sewell/
 2 GIVN Laura LuVern
@@ -10391,6 +11010,7 @@
 1 FACT Horses
 1 FAMS @F236@
 1 FAMS @F237@
+1 FAMC @F235@
 0 @I1262@ INDI
 1 NAME George August Albert /Pagel/
 2 GIVN George August Albert
@@ -10410,6 +11030,7 @@
 2 DATE 30 Dec 1976
 2 PLAC , Mansfield, TX, USA
 1 OCCU Student
+1 FAMC @F57@
 0 @I435@ INDI
 1 NAME Richard Martin /Mohrmann/
 2 GIVN Richard Martin
@@ -10422,6 +11043,7 @@
 1 OCCU Electronics Technician
 1 FACT Andrea attended Iowa State University in Ames one year.
 1 FAMS @F133@
+1 FAMC @F386@
 0 @I266@ INDI
 1 NAME Samantha Rae /Saunders/
 2 GIVN Samantha Rae
@@ -10432,6 +11054,7 @@
 1 BAPM
 2 DATE 11 Feb 1996
 2 PLAC Congregational Church, Peterson, IA, USA
+1 FAMC @F85@
 0 @I267@ INDI
 1 NAME Evan Jon /Saunders/
 2 GIVN Evan Jon
@@ -10440,6 +11063,7 @@
 1 BIRT
 2 DATE 17 Jan 1997
 2 PLAC Marion Health Center, Sioux City, Ia, USA
+1 FAMC @F85@
 0 @I364@ INDI
 1 NAME Fredrick Graham /Kolpin/
 2 GIVN Fredrick Graham
@@ -10449,6 +11073,7 @@
 2 DATE 12 Oct 1970
 2 PLAC , Thousand Oaks, CA, USA
 1 OCCU Student
+1 FAMC @F110@
 0 @I536@ INDI
 1 NAME Gonden /Kingston/
 2 GIVN Gonden
@@ -10467,6 +11092,7 @@
 2 PLAC , Sharon, WI. USA
 1 OCCU Homemaker
 1 FAMS @F275@
+1 FAMC @F480@
 0 @I773@ INDI
 1 NAME Dora Mae /Manzanares/
 2 GIVN Dora Mae
@@ -10478,6 +11104,7 @@
 2 PLAC , Denver, CO, USA
 1 OCCU Homemaker, Secretary
 1 FAMS @F242@
+1 FAMC @F451@
 0 @I391@ INDI
 1 NAME Borghild Gudrun /Sand/
 2 GIVN Borghild Gudrun
@@ -10489,6 +11116,7 @@
 2 PLAC , Bisbee, ND, USA
 1 OCCU Homemaker
 1 FAMS @F119@
+1 FAMC @F375@
 0 @I835@ INDI
 1 NAME Jesse Wilbur /Fastenow/
 2 GIVN Jesse Wilbur
@@ -10504,6 +11132,7 @@
 1 OCCU Farmer & repaired antiques in his retirement years.
 1 FACT Jesse was active in the Peterson Heritage Club.
 1 FAMS @F264@
+1 FAMC @F263@
 0 @I438@ INDI
 1 NAME Derek Emerson /Mohrmann/
 2 GIVN Derek Emerson
@@ -10512,6 +11141,7 @@
 1 BIRT
 2 DATE 26 Oct 1992
 2 PLAC Condell Hosp. Libertyville, IL, USA
+1 FAMC @F133@
 0 @I437@ INDI
 1 NAME Karl Aric /Mohrmann/
 2 GIVN Karl Aric
@@ -10525,6 +11155,7 @@
 2 PLAC Grace Lutheran Church, Libertyville, IL, USA
 1 FACT Karl is an active member of the Boy Scouts
 1 FACT He loves to swim, is very good & has picked up many medals & trophies.
+1 FAMC @F133@
 0 @I436@ INDI
 1 NAME Sarah Lynne /Mohrmann/
 2 GIVN Sarah Lynne
@@ -10536,6 +11167,7 @@
 1 OCCU Student
 1 FACT Sarah belongs to the Lake Forest Swim Club & is doing very well.
 1 FACT She plays the violine.
+1 FAMC @F133@
 0 @I259@ INDI
 1 NAME Lyle Eugene /Goettsch/
 2 GIVN Lyle Eugene
@@ -10554,6 +11186,7 @@
 1 FACT Gloria is a trained for th Community Response Unit, is active in the American Legion Auxiliary  & works with the United Fund.  Lyle is an active member of the Sons of the American Legion.
 1 FACT They are interested in all the High School Sporting Events.
 1 FAMS @F84@
+1 FAMC @F348@
 0 @I363@ INDI
 1 NAME Kelly Lynn /Kolpin/
 2 GIVN Kelly Lynn
@@ -10566,6 +11199,7 @@
 2 DATE 29 Mar 1968
 2 PLAC , Sewart AFB, TN, USA
 1 OCCU Student
+1 FAMC @F110@
 0 @I857@ INDI
 1 NAME Audrey Louise /Fastenow/
 2 GIVN Audrey Louise
@@ -10577,6 +11211,7 @@
 2 PLAC , Buena Vista Co. IA, USA
 1 OCCU Homemaker
 1 FAMS @F272@
+1 FAMC @F263@
 0 @I767@ INDI
 1 NAME Ross Eugene /Meyer/
 2 GIVN Ross Eugene
@@ -10588,6 +11223,7 @@
 2 PLAC , Galena Park, TX, USA
 1 OCCU Computer Programmer
 1 FAMS @F240@
+1 FAMC @F239@
 0 @I264@ INDI
 1 NAME Lana Rae /Evans/
 2 GIVN Lana Rae
@@ -10599,6 +11235,7 @@
 2 PLAC Glendale Memorial Hosp. Glendale, CA, USA
 1 OCCU Homemaker
 1 FAMS @F85@
+1 FAMC @F349@
 0 @I159@ INDI
 1 NAME Donni Anne /Winters/
 2 GIVN Donni Anne
@@ -10611,6 +11248,7 @@
 1 OCCU Homemaker, English, Home Ec. & Art Teacher
 1 FACT John served in Viet Naum.
 1 FAMS @F57@
+1 FAMC @F322@
 0 @I865@ INDI
 1 NAME Catherine Ann /Connor/
 2 GIVN Catherine Ann
@@ -10620,6 +11258,7 @@
 2 DATE 4 Jul 1972
 2 PLAC , Rocky River, OH, USA
 1 OCCU Student
+1 FAMC @F273@
 0 @I1156@ INDI
 1 NAME Robert Dale /Grienke/
 2 GIVN Robert Dale
@@ -10638,6 +11277,7 @@
 2 PLAC , St. Paul, MN, USA
 1 OCCU Student
 1 FAMS @F274@
+1 FAMC @F273@
 0 @I770@ INDI
 1 NAME Russ Edward /Meyer/
 2 GIVN Russ Edward
@@ -10648,6 +11288,7 @@
 2 PLAC Spencer Mumiciple Hosp. Spencer, IA, USA
 1 OCCU Welder/Mechanic
 1 FAMS @F241@
+1 FAMC @F239@
 0 @I861@ INDI
 1 NAME Colleen L /Connor/
 2 GIVN Colleen L
@@ -10657,6 +11298,7 @@
 2 DATE 19 Feb 1966
 2 PLAC , St. Paul, MN, USA
 1 OCCU Student
+1 FAMC @F273@
 0 @I1189@ INDI
 1 NAME Chris /Henrikson/
 2 GIVN Chris
@@ -10683,6 +11325,7 @@
 1 FACT She is an active member of the Congregational Church & a Sunday School Teacher.
 1 FACT Julie is a member of the FCA & belongs to the American Legion Auxiliary.
 1 FACT She likes to watch & participate in all sports.
+1 FAMC @F84@
 0 @I440@ INDI
 1 NAME Jennifer Rebercca /Pelster/
 2 GIVN Jennifer Rebercca
@@ -10694,6 +11337,7 @@
 1 FACT Douglas has attended Iowa State University in Ames, IA, for 3 years.  Jennifer earmed her Pharmisist Degree in Oregon.
 1 FACT Douglas has spent six years rebuilding a Camero.  He enjoys rebuilding & reprogramming computers.
 1 FAMS @F134@
+1 FAMC @F387@
 0 @I1157@ INDI
 1 NAME Josephine Hazel /Husman/
 2 GIVN Josephine Hazel
@@ -10718,6 +11362,7 @@
 1 FACT Kimberly is a member of the Congregational Church & active in the Youth Group.
 1 FACT Kimberly belongs to the FCA & the American Legion Auxiliary.
 1 FACT She likes all sports & enjoys getting on the Internet.
+1 FAMC @F84@
 0 @I262@ INDI
 1 NAME Darren Wayne /Goettsch/
 2 GIVN Darren Wayne
@@ -10731,6 +11376,7 @@
 2 PLAC Congregational Church, Peterson, IA, USA
 1 FACT Darren is a faithful Accolite in the Congregational Church.
 1 FACT Sports
+1 FAMC @F84@
 0 @I1190@ INDI
 1 NAME Bertha /Brunick/
 2 GIVN Bertha
@@ -10749,6 +11395,7 @@
 2 PLAC , Shephard AFB, Wichita Falls, TX, USA
 1 OCCU Speech Pathologist
 1 FAMS @F110@
+1 FAMC @F366@
 0 @I89@ INDI
 1 NAME Elvira Margaret /Krog/
 2 GIVN Elvira Margaret
@@ -10774,6 +11421,7 @@
 1 FACT Though always scrimping to get by, they felt it more important for Elvira to be home while the children were in grade school.  They managed on Edwin's modest salary for years.
 1 FACT * Her parents made her stop school at the end of 10th grade.  Enough training for a farmer's wife.
 1 FAMS @F32@
+1 FAMC @F301@
 0 @I912@ INDI
 1 NAME May W /Dunn/
 2 GIVN May W
@@ -10798,6 +11446,7 @@
 2 PLAC , Lake Park, IA, USA
 1 OCCU Homemaker, Teacher
 1 FAMS @F83@
+1 FAMC @F347@
 0 @I70@ INDI
 1 NAME Elda Lou /Meyer/
 2 GIVN Elda Lou
@@ -10809,6 +11458,7 @@
 2 PLAC , Portland, OR, USA
 1 OCCU Homemaker, Secretary
 1 FAMS @F26@
+1 FAMC @F25@
 0 @I911@ INDI
 1 NAME Henry Harrison /Hines/
 2 GIVN Henry Harrison
@@ -10835,6 +11485,7 @@
 1 OCCU Homemaker
 1 FAMS @F30@
 1 FAMS @F31@
+1 FAMC @F25@
 0 @I895@ INDI
 1 NAME Albert William /Krueger/
 2 GIVN Albert William
@@ -10860,6 +11511,7 @@
 2 PLAC , Portland, OR, USA
 1 OCCU Machinist
 1 FAMS @F28@
+1 FAMC @F25@
 0 @I1107@ INDI
 1 NAME Clemence Joseph /Folz/
 2 GIVN Clemence Joseph
@@ -10878,6 +11530,7 @@
 2 PLAC , Pittsburgh, PA, USA
 1 OCCU Technician, Graduate Student
 1 FAMS @F206@
+1 FAMC @F430@
 0 @I671@ INDI
 1 NAME Steven Mark /Miller/
 2 GIVN Steven Mark
@@ -10889,6 +11542,7 @@
 2 PLAC , Miami Beach, FL, USA
 1 OCCU Professor, Manufacturing Mgr.
 1 FAMS @F207@
+1 FAMC @F431@
 0 @I255@ INDI
 1 NAME Mark Alan /Saunders/
 2 GIVN Mark Alan
@@ -10897,6 +11551,7 @@
 1 BIRT
 2 DATE 8 Dec 1988
 2 PLAC Sioux Valley Memorial Hosp. Cherokee, IA, USA
+1 FAMC @F83@
 0 @I896@ INDI
 1 NAME Irma Lillian /Firchay/
 2 GIVN Irma Lillian
@@ -10912,6 +11567,7 @@
 1 BIRT
 2 DATE 20 May 1991
 2 PLAC Sioux Valley Memorial Hosp. Cherokee, IA, USA
+1 FAMC @F83@
 0 @I1108@ INDI
 1 NAME Monica Mary /Hine/
 2 GIVN Monica Mary
@@ -10927,6 +11583,7 @@
 1 BIRT
 2 DATE 9 May 1995
 2 PLAC Sioux Valley Memorial Hosp. Cherokee, IA, USA
+1 FAMC @F83@
 0 @I118@ INDI
 1 NAME Evelyn Violet /Lauritzen/
 2 GIVN Evelyn Violet
@@ -10947,6 +11604,7 @@
 1 FACT Robert was a member of Farm Bureau and the National Farm Organization.  Evelyn was a member of the PTA and the Ladies Aid.
 1 FACT They both loved to dance, both ballroom and square dancing.  They both enjoyed reading.  Evelyn was a talented seamstress and enjoyed knitting and needlework.
 1 FAMS @F42@
+1 FAMC @F307@
 0 @I1134@ INDI
 1 NAME Nick /Lindquist/
 2 GIVN Nick
@@ -10962,6 +11620,7 @@
 1 BIRT
 2 DATE 19 Dec 1988
 2 PLAC , San Jose, Costa Rica
+1 FAMC @F208@
 0 @I678@ INDI
 1 NAME Sarah Lynn /Marshall/
 2 GIVN Sarah Lynn
@@ -10970,6 +11629,7 @@
 1 BIRT
 2 DATE 16 Nov 1990
 2 PLAC , Lima, Peru
+1 FAMC @F208@
 0 @I676@ INDI
 1 NAME Nichole Marie /Marshall/
 2 GIVN Nichole Marie
@@ -10981,6 +11641,7 @@
 1 BIRT
 2 DATE 12 Jun 1987
 2 PLAC , Louton, VA, USA
+1 FAMC @F208@
 0 @I1135@ INDI
 1 NAME Anna /Anderson/
 2 GIVN Anna
@@ -10994,6 +11655,7 @@
 2 GIVN Nathan
 2 SURN Marshall
 1 REFN CustomGenCode:MAGEBD
+1 FAMC @F208@
 0 @I96@ INDI
 1 NAME Leon Dennis /Meyer/
 2 GIVN Leon Dennis
@@ -11009,6 +11671,7 @@
 1 OCCU Computer Analyst
 1 FACT * Twins
 1 FAMS @F35@
+1 FAMC @F32@
 0 @I1011@ INDI
 1 NAME Sandra Sue /Sauter/
 2 GIVN Sandra Sue
@@ -11043,6 +11706,7 @@
 1 FACT Lyle coached High School basball, enjoys Family Activities & poker.  Audrene is an excellent cook, enjoys reading, painting (not art), sewing & gardening.
 1 FACT Audrene made daughters wedding dress & dresses for all the attendants.
 1 FAMS @F33@
+1 FAMC @F32@
 0 @I112@ INDI
 1 NAME Lynne Joy /Meyer/
 2 GIVN Lynne Joy
@@ -11055,6 +11719,7 @@
 1 OCCU Homemaker
 1 FAMS @F40@
 1 FAMS @F41@
+1 FAMC @F32@
 0 @I108@ INDI
 1 NAME Larry Gene /Meyer/
 2 GIVN Larry Gene
@@ -11066,6 +11731,7 @@
 2 PLAC , Portland, OR, USA
 1 OCCU Computer Analyst
 1 FAMS @F39@
+1 FAMC @F32@
 0 @I1010@ INDI
 1 NAME Donald Harvey /Goettsch/
 2 GIVN Donald Harvey
@@ -11084,6 +11750,7 @@
 2 PLAC , Waterville, Maine, USA
 1 OCCU Nurse, Missionary, Minister
 1 FAMS @F208@
+1 FAMC @F432@
 0 @I6@ INDI
 1 NAME Florence Marie /Larson/
 2 GIVN Florence Marie
@@ -11099,6 +11766,7 @@
 1 OCCU Homemaker
 1 FAMS @F3@
 1 FAMS @F118@
+1 FAMC @F117@
 0 @I425@ INDI
 1 NAME Amanda Mae /Parke/
 2 GIVN Amanda Mae
@@ -11108,6 +11776,7 @@
 2 DATE 26 Apr 1983
 2 PLAC , Rockford, IL, USA
 1 OCCU Student
+1 FAMC @F489@
 0 @I1242@ INDI
 1 NAME Louiesia /Kracht/
 2 GIVN Louiesia
@@ -11135,6 +11804,7 @@
 2 DATE Apr 1998
 1 OCCU Homemaker
 1 FAMS @F25@
+1 FAMC @F297@
 0 @I923@ INDI
 1 NAME /Foster Margaret Ann/
 2 SURN Foster Margaret Ann
@@ -11165,6 +11835,7 @@
 2 PLAC , Erie, ND, USA
 1 OCCU Farmer
 1 FAMS @F155@
+1 FAMC @F405@
 0 @I548@ INDI
 1 NAME Mark K /Burrows/
 2 GIVN Mark K
@@ -11185,6 +11856,7 @@
 1 FACT Mark is from Protesdant background & Julie is of Jewish descent.  Currently they are not active in any church.
 1 FACT Mark enjoys snoboarding, hiking & roller blading.  Julie likes to read.
 1 FAMS @F167@
+1 FAMC @F166@
 0 @I547@ INDI
 1 NAME Craig D /Burrows/
 2 GIVN Craig D
@@ -11206,6 +11878,7 @@
 1 FACT Craig is a member of the Lutheran Charch in Evergreen, CO.
 1 FACT Special Olympics
 1 FACT Swimming & listening to music
+1 FAMC @F166@
 0 @I1179@ INDI
 1 NAME Florence //
 2 GIVN Florence
@@ -11226,6 +11899,7 @@
 1 FACT Brandi is in Girl Scouts, 4-H Club & belonged to the Freestepers Dance Troup.
 1 FACT She enjoys Snowmobiling, Swimming & Diving.  She set a new Diving record at Riverton Middle School & qualified with a First Place win for the Wyoming History competition in Casper, WY.
 1 FACT Brandi is an Honor Roll student with a 4.0 grade point, she competed in Tract & Cross Country racing & won awards with her art in a National Art Show (WRVAG).
+1 FAMC @F269@
 0 @I599@ INDI
 1 NAME Tracey /Shoenfeld/
 2 GIVN Tracey
@@ -11234,6 +11908,7 @@
 1 SEX F
 1 OCCU Homemaker & Clerk at Savings & Loan
 1 FAMS @F183@
+1 FAMC @F415@
 0 @I1178@ INDI
 1 NAME Henry /Kruger/
 2 GIVN Henry
@@ -11274,6 +11949,7 @@
 1 FACT They took trips to Europe and Norway in 1980 & 1990 and to Israel & Egypt in 1992.
 1 FAMS @F20@
 1 FAMS @F24@
+1 FAMC @F118@
 0 @I31@ INDI
 1 NAME Shirley Helen /Meyer/
 2 GIVN Shirley Helen
@@ -11295,6 +11971,7 @@
 1 FACT She enjoys music, likes antiques, refinishes furniture and does fine art in charcoal.
 1 FAMS @F13@
 1 FAMS @F19@
+1 FAMC @F118@
 0 @I7@ INDI
 1 NAME Burton Keith /Meyer/
 2 GIVN Burton Keith
@@ -11312,6 +11989,7 @@
 1 FACT Burton is on the church board and belongs to Senior Citizens Group.  Ann is active in church circle and Senior Group.
 1 FACT Burt likes to travel, yard work and helps with the Echo Food Shelf.  Ann enjoys sewing, knitting & baking.  They both enjoy their family, especially the grand children and do volunteer work.
 1 FAMS @F4@
+1 FAMC @F118@
 0 @I922@ INDI
 1 NAME Ron J /Henrickson/
 2 GIVN Ron J
@@ -11362,6 +12040,7 @@
 1 OCCU Homemaker, Cartogrpher (Map Maker) & Computer Tec.
 1 FACT Kim earned an Associate Degree from Central Wyoming College & is presently a student at the University of Wyoming in Laramie, WY.
 1 FAMS @F269@
+1 FAMC @F475@
 0 @I600@ INDI
 1 NAME Kimberly Anne /Meyer/
 2 GIVN Kimberly Anne
@@ -11370,6 +12049,7 @@
 1 BIRT
 2 DATE 18 Jul 1990
 2 PLAC Alta Hosp. Alta, IA, USA
+1 FAMC @F183@
 0 @I601@ INDI
 1 NAME Corey /Meyer/
 2 GIVN Corey
@@ -11401,16 +12081,19 @@
 2 PLAC G.E D. McLean Co. Il, USA
 1 OCCU Musical Instrument Repair Technician.
 1 FACT Instrumental Musical performance of all kinds.
+1 FAMC @F128@
 0 @I502@ INDI
 1 NAME William Bryce /Stibbe/
 2 GIVN William Bryce
 2 SURN Stibbe
 1 REFN CustomGenCode:MAEACD
+1 FAMC @F155@
 0 @I501@ INDI
 1 NAME Nola Faye /Stibbe/
 2 GIVN Nola Faye
 2 SURN Stibbe
 1 REFN CustomGenCode:MAEACC
+1 FAMC @F155@
 0 @I351@ INDI
 1 NAME Barritt Ryan /Kolpin/
 2 GIVN Barritt Ryan
@@ -11418,11 +12101,13 @@
 1 REFN CustomGenCode:MABGAGC
 1 BIRT
 2 DATE 22 Feb 2000
+1 FAMC @F106@
 0 @I504@ INDI
 1 NAME Jay Paul /Stibbe/
 2 GIVN Jay Paul
 2 SURN Stibbe
 1 REFN CustomGenCode:MAEACF
+1 FAMC @F155@
 0 @I652@ INDI
 1 NAME April Jo /Meyer/
 2 GIVN April Jo
@@ -11432,11 +12117,13 @@
 2 DATE 1 Sep 1981
 2 PLAC , Alta, IA, USA
 1 OCCU Student
+1 FAMC @F200@
 0 @I503@ INDI
 1 NAME John Kevin /Stibbe/
 2 GIVN John Kevin
 2 SURN Stibbe
 1 REFN CustomGenCode:MAEACE
+1 FAMC @F155@
 0 @I653@ INDI
 1 NAME Heidi Lynn /Meyer/
 2 GIVN Heidi Lynn
@@ -11446,6 +12133,7 @@
 2 DATE 23 Aug 1985
 2 PLAC , Cherokee, IA, USA
 1 OCCU Student
+1 FAMC @F200@
 0 @I771@ INDI
 1 NAME Jon //
 2 GIVN Jon
@@ -11459,6 +12147,7 @@
 1 REFN CustomGenCode:MABGAGA
 1 BIRT
 2 DATE 17 May 1997
+1 FAMC @F106@
 0 @I350@ INDI
 1 NAME Tiernan Marie /Kolpin/
 2 GIVN Tiernan Marie
@@ -11466,6 +12155,7 @@
 1 REFN CustomGenCode:MABGAGB
 1 BIRT
 2 DATE 1 Jul 1998
+1 FAMC @F106@
 0 @I1073@ INDI
 1 NAME /Alvaro R Santamaria/
 2 SURN Alvaro R Santamaria
@@ -11491,6 +12181,7 @@
 1 OCCU Student
 1 FACT * John's daughter from a previous marriage.
 1 FAMS @F129@
+1 FAMC @F128@
 0 @I1177@ INDI
 1 NAME /Petit/
 2 SURN Petit
@@ -11502,11 +12193,13 @@
 2 GIVN Jodelle Jean
 2 SURN Stibbe
 1 REFN CustomGenCode:MAEACB
+1 FAMC @F155@
 0 @I499@ INDI
 1 NAME Frederick Marvin /Stibbe/
 2 GIVN Frederick Marvin
 2 SURN Stibbe
 1 REFN CustomGenCode:MAEACA
+1 FAMC @F155@
 0 @I1041@ INDI
 1 NAME Beverly Ann /Steffens/
 2 GIVN Beverly Ann
@@ -11534,6 +12227,7 @@
 2 PLAC , Buena Vista Co. IA, USA
 1 OCCU Homemaker
 1 FAMS @F200@
+1 FAMC @F425@
 0 @I1040@ INDI
 1 NAME Wayne Aurther /Whitmore/
 2 GIVN Wayne Aurther
@@ -11571,6 +12265,7 @@
 1 BIRT
 2 DATE 1 May 2000
 2 PLAC , West Chester, OH, USA
+1 FAMC @F274@
 0 @I1150@ INDI
 1 NAME Vearl Bruce /Hess/
 2 GIVN Vearl Bruce
@@ -11586,6 +12281,7 @@
 1 BIRT
 2 DATE 25 Jul 1996
 2 PLAC Mercy Hosp. Iowa City, IA, USA
+1 FAMC @F105@
 0 @I914@ INDI
 1 NAME Aldean //
 2 GIVN Aldean
@@ -11618,6 +12314,7 @@
 1 BAPM
 2 DATE Nov 1992
 2 PLAC St. John's United Church of Christ, Peterson, IA, USA
+1 FAMC @F105@
 0 @I913@ INDI
 1 NAME Matt /Watts/
 2 GIVN Matt
@@ -11659,6 +12356,7 @@
 2 DATE May 1977
 2 PLAC Culver City HS, Culver City, CA
 1 OCCU Data Processing Manager
+1 FAMC @F148@
 0 @I477@ INDI
 1 NAME Karen /Meyer/
 2 GIVN Karen
@@ -11676,6 +12374,7 @@
 1 FACT Taking care of my son.
 1 FACT * Karen's son
 1 FAMS @F149@
+1 FAMC @F148@
 0 @I910@ INDI
 1 NAME Clara /Pope/
 2 GIVN Clara
@@ -11690,6 +12389,7 @@
 1 REFN CustomGenCode:MABGAEC
 1 BIRT
 2 DATE 11 Jun 1998
+1 FAMC @F104@
 0 @I338@ INDI
 1 NAME Carly Marie /Kolpin/
 2 GIVN Carly Marie
@@ -11697,6 +12397,7 @@
 1 REFN CustomGenCode:MABGAEA
 1 BIRT
 2 DATE 28 May 1991
+1 FAMC @F104@
 0 @I878@ INDI
 1 NAME Elvina /Schultz/
 2 GIVN Elvina
@@ -11711,6 +12412,7 @@
 1 REFN CustomGenCode:MABGAEB
 1 BIRT
 2 DATE 28 Mar 1995
+1 FAMC @F104@
 0 @I909@ INDI
 1 NAME Carl Victor /Mord/
 2 GIVN Carl Victor
@@ -11756,6 +12458,7 @@
 1 FAMS @F45@
 1 FAMS @F206@
 1 FAMS @F207@
+1 FAMC @F205@
 0 @I125@ INDI
 1 NAME Rita Rae /Meyer/
 2 GIVN Rita Rae
@@ -11778,6 +12481,7 @@
 1 FACT They both like fishing & camping.  Ken enjoys On Line Computing, Worldwide.
 1 FACT *Evans, Robert John and Evans, Randall Kenneth are Adopted by Rita and Kenneth.
 1 FAMS @F44@
+1 FAMC @F42@
 0 @I119@ INDI
 1 NAME Douglas Kent /Meyer/
 2 GIVN Douglas Kent
@@ -11790,6 +12494,7 @@
 1 OCCU Teacher, US Army
 1 FACT * Twins
 1 FAMS @F43@
+1 FAMC @F42@
 0 @I657@ INDI
 1 NAME Marcus Lee /Cornelius/
 2 GIVN Marcus Lee
@@ -11799,6 +12504,7 @@
 2 DATE Oct 1982
 2 PLAC , Ames, IA, USA
 1 OCCU Student
+1 FAMC @F201@
 0 @I1236@ INDI
 1 NAME Esther /Carlberg/
 2 GIVN Esther
@@ -11835,6 +12541,7 @@
 1 FACT Connie likes reading, cross stitching & gardening.  Dave enjoys golf & fishing.  They both go hunting & cross country skiing.
 1 FACT Gabriel Jon is David's son from a previous marriage.
 1 FAMS @F46@
+1 FAMC @F42@
 0 @I1235@ INDI
 1 NAME Evans /Larsen/
 2 GIVN Evans
@@ -11871,6 +12578,7 @@
 1 FACT Sherry earned a degree in Physical Education from Buena Vista College in Storm Lake, IA.
 1 FACT They belong to the Congregational Church.
 1 FAMS @F105@
+1 FAMC @F364@
 0 @I875@ INDI
 1 NAME William /Plagman/
 2 GIVN William
@@ -11888,6 +12596,7 @@
 2 DATE 20 Jan 1969
 1 OCCU Homemaker, Bank Teller
 1 FAMS @F202@
+1 FAMC @F426@
 0 @I1154@ INDI
 1 NAME Thomas Adrian /Jarvis/ Jr
 2 GIVN Thomas Adrian
@@ -11903,6 +12612,7 @@
 1 BIRT
 2 DATE 22 Jul 1987
 2 PLAC , Cherokee, IA, USA
+1 FAMC @F103@
 0 @I768@ INDI
 1 NAME Kathy //
 2 GIVN Kathy
@@ -11933,6 +12643,7 @@
 2 DATE 17 Apr 1982
 2 PLAC , Cherokee, IA, USA
 1 OCCU Student
+1 FAMC @F103@
 0 @I1119@ INDI
 1 NAME Frederick /Stibbe/
 2 GIVN Frederick
@@ -11955,6 +12666,7 @@
 1 OCCU Farmer & Pilot in Air National Guard.
 1 FACT * Adopted by John Wagner on 2 May 1948.                                                                                                                                            ** No burial, his body was lost in the airplane explosion.
 1 FAMS @F50@
+1 FAMC @F315@
 0 @I993@ INDI
 1 NAME Sylvia Lea /Hamon/
 2 GIVN Sylvia Lea
@@ -11979,6 +12691,7 @@
 2 DATE 2 Aug 1944
 1 OCCU Health Physisist
 1 FAMS @F51@
+1 FAMC @F316@
 0 @I769@ INDI
 1 NAME William Roger /Meyer/
 2 GIVN William Roger
@@ -11987,6 +12700,7 @@
 1 BIRT
 2 DATE 2 Dec 1998
 2 PLAC , Houston, Tx, USA
+1 FAMC @F240@
 0 @I1120@ INDI
 1 NAME Emma /Rasmussen/
 2 GIVN Emma
@@ -12005,6 +12719,7 @@
 2 PLAC , Denison, IA, USA
 1 OCCU Homemaker
 1 FAMS @F104@
+1 FAMC @F363@
 0 @I1198@ INDI
 1 NAME Carol //
 2 GIVN Carol
@@ -12045,6 +12760,7 @@
 1 OCCU Second Year Dental Student
 1 FACT Joel attended Moorhead State from '77 to '80.  He attended Northwestern University (Chicago Campus) Dental College '80-'81.
 1 FACT He liked motocross racing and riding his motorcycle.
+1 FAMC @F20@
 0 @I53@ INDI
 1 NAME Paul Milton /Mitteness/
 2 GIVN Paul Milton
@@ -12066,6 +12782,7 @@
 1 FACT Paul belongs to several professional organizations.  Sandy is active in church organizations.
 1 FACT Paul enjoys water sports in the summer & skiing in the winter.  Sandy likes decorating all the year around.
 1 FAMS @F21@
+1 FAMC @F20@
 0 @I595@ INDI
 1 NAME Roger Lee /Meyer/
 2 GIVN Roger Lee
@@ -12076,6 +12793,7 @@
 1 DEAT
 2 PLAC Elk Township Cem. Alta, IA, USA
 1 OCCU Lived only three days.
+1 FAMC @F181@
 0 @I1276@ INDI
 1 NAME Arlene /Pierce/
 2 GIVN Arlene
@@ -12094,6 +12812,7 @@
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA, USA
 1 OCCU Farmer
 1 FAMS @F182@
+1 FAMC @F181@
 0 @I742@ INDI
 1 NAME Jack /Nelson/
 2 GIVN Jack
@@ -12108,6 +12827,7 @@
 1 REFN CustomGenCode:MAHABAA
 1 BIRT
 2 DATE 4 Jan 1984
+1 FAMC @F216@
 0 @I394@ INDI
 1 NAME Craig Arlyn /Larson/
 2 GIVN Craig Arlyn
@@ -12115,6 +12835,7 @@
 1 REFN CustomGenCode:MACCAA
 1 BIRT
 2 DATE 31 Jan 1959
+1 FAMC @F120@
 0 @I995@ INDI
 1 NAME Norma Irene /Johnsen/
 2 GIVN Norma Irene
@@ -12130,6 +12851,7 @@
 1 BIRT
 2 DATE 25 Jul 1984
 1 OCCU Student
+1 FAMC @F228@
 0 @I700@ INDI
 1 NAME Lori /Malone/
 2 GIVN Lori
@@ -12148,6 +12870,7 @@
 2 PLAC , Cherokee, IA, USA
 1 OCCU Farmer, Carpenter
 1 FAMS @F103@
+1 FAMC @F362@
 0 @I744@ INDI
 1 NAME Stephenie /Nelson/
 2 GIVN Stephenie
@@ -12155,6 +12878,7 @@
 1 REFN CustomGenCode:MAHB1BCB
 1 BIRT
 2 DATE 26 Dec 1986
+1 FAMC @F228@
 0 @I393@ INDI
 1 NAME Charlotte /Keller/
 2 GIVN Charlotte
@@ -12164,6 +12888,7 @@
 1 BIRT
 2 PLAC , Bisbee, ND, USA
 1 FAMS @F120@
+1 FAMC @F376@
 0 @I994@ INDI
 1 NAME George Wayne /Brighton/ Rev
 2 GIVN George Wayne
@@ -12189,6 +12914,7 @@
 2 PLAC , Lake Preston, SD, USA
 1 OCCU Homemaker
 1 FAMS @F220@
+1 FAMC @F219@
 0 @I732@ INDI
 1 NAME Ardelle Fay /Holland/
 2 GIVN Ardelle Fay
@@ -12200,6 +12926,7 @@
 2 PLAC , Lake Preston, SD, USA
 1 OCCU Homemaker
 1 FAMS @F225@
+1 FAMC @F219@
 0 @I890@ INDI
 1 NAME Marie /Castleman/
 2 GIVN Marie
@@ -12215,6 +12942,7 @@
 1 BIRT
 2 DATE 2 Apr 1990
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA, USA
+1 FAMC @F102@
 0 @I330@ INDI
 1 NAME Patrick Jon /Kolpin/
 2 GIVN Patrick Jon
@@ -12224,6 +12952,7 @@
 2 DATE Feb 1992
 1 DEAT
 2 DATE Feb 1992
+1 FAMC @F102@
 0 @I328@ INDI
 1 NAME Janessa Lynn /Kolpin/
 2 GIVN Janessa Lynn
@@ -12236,6 +12965,7 @@
 2 DATE May 1987
 2 PLAC Pleasant Hill Cem. Aurelia, IA, USA
 1 OCCU Died in infancy
+1 FAMC @F102@
 0 @I746@ INDI
 1 NAME Lanet //
 2 GIVN Lanet
@@ -12265,6 +12995,7 @@
 2 DATE 4 Aug 1959
 2 PLAC , Kelso, WA, USA
 1 OCCU Construction
+1 FAMC @F121@
 0 @I398@ INDI
 1 NAME Jane Elizabeth /Larson/
 2 GIVN Jane Elizabeth
@@ -12274,6 +13005,7 @@
 2 DATE 30 Mar 1961
 2 PLAC , Fairbanks, Alaska, USA
 1 OCCU Veterinarian Technician
+1 FAMC @F121@
 0 @I889@ INDI
 1 NAME William James /Stewart/ Sr
 2 GIVN William James
@@ -12290,6 +13022,7 @@
 2 DATE 20 Mar 1962
 2 PLAC , Fairbanks, Alaska, USA
 1 OCCU Advertising
+1 FAMC @F121@
 0 @I1063@ INDI
 1 NAME Sina /Akre/
 2 GIVN Sina
@@ -12323,6 +13056,7 @@
 1 OCCU Homemaker, Secretary
 1 FAMS @F187@
 1 FAMS @F188@
+1 FAMC @F181@
 0 @I604@ INDI
 1 NAME Lee Ray /Meyer/
 2 GIVN Lee Ray
@@ -12334,6 +13068,7 @@
 2 PLAC Alta Hosp. Alta, IA, USA
 1 OCCU Farmer
 1 FAMS @F184@
+1 FAMC @F181@
 0 @I396@ INDI
 1 NAME Arlene June /Hansen/
 2 GIVN Arlene June
@@ -12356,6 +13091,7 @@
 2 PLAC Alta Hosp. Alta, IA, USA
 1 OCCU Personnel Director of a Bank.
 1 FAMS @F186@
+1 FAMC @F181@
 0 @I1252@ INDI
 1 NAME Wanda //
 2 GIVN Wanda
@@ -12382,6 +13118,7 @@
 1 FACT They are both members and active in the Messiah Lutheran church in Lakeville, MN.
 1 FACT Phillip went to Nepal in 1989 and stayed with a college friend from Katmandu.
 1 FAMS @F23@
+1 FAMC @F20@
 0 @I1072@ INDI
 1 NAME Viola Christina Francis /Locker/
 2 GIVN Viola Christina Francis
@@ -12407,6 +13144,7 @@
 1 FACT Leah belongs to Wheaton Economic Development Authority.  They both are members of the American Chiropractic Assoc, the Minnesota Chiropractic Assoc. & the South Dakota Chiropractic Assoc.
 1 FACT Leah collects & reads cookbooks and does crossword puzzles.  Paul likes Archery & goes bowhunting.
 1 FAMS @F22@
+1 FAMC @F20@
 0 @I1251@ INDI
 1 NAME Ted /Knowles/
 2 GIVN Ted
@@ -12423,6 +13161,7 @@
 2 DATE 8 Dec 1980
 2 PLAC , Davenport, IA, USA
 1 OCCU Student
+1 FAMC @F101@
 0 @I632@ INDI
 1 NAME Patricia Ann /Saathoff/
 2 GIVN Patricia Ann
@@ -12448,6 +13187,7 @@
 2 DATE 30 Nov 1977
 2 PLAC , Sioux City, IA, USA
 1 OCCU Student
+1 FAMC @F101@
 0 @I929@ INDI
 1 NAME Barbara /Thompson/
 2 GIVN Barbara
@@ -12467,6 +13207,7 @@
 2 DATE 30 Aug 1979
 2 PLAC , Sioux City, IA, USA
 1 OCCU Student
+1 FAMC @F101@
 0 @I621@ INDI
 1 NAME Rita Mae /Saathoff/
 2 GIVN Rita Mae
@@ -12483,6 +13224,7 @@
 2 DATE May 1964
 2 PLAC Alta HS, Alta, IA, USA
 1 FAMS @F190@
+1 FAMC @F493@
 0 @I1057@ INDI
 1 NAME Martha /Luetkeman/
 2 GIVN Martha
@@ -12497,6 +13239,7 @@
 1 REFN CustomGenCode:MACCCA
 1 BIRT
 2 DATE 4 Oct 1961
+1 FAMC @F122@
 0 @I928@ INDI
 1 NAME Samuel /Landau/
 2 GIVN Samuel
@@ -12525,6 +13268,7 @@
 2 PLAC , Cherokee, IA, USA
 1 OCCU Homemaker, CPA
 1 FAMS @F102@
+1 FAMC @F361@
 0 @I1015@ INDI
 1 NAME Rosamond Lucille /Deegan/
 2 GIVN Rosamond Lucille
@@ -12548,6 +13292,7 @@
 1 BIRT
 2 DATE 1 Jun 1978
 1 OCCU Student
+1 FAMC @F226@
 0 @I747@ INDI
 1 NAME Donald Clarence /Holland/
 2 GIVN Donald Clarence
@@ -12559,6 +13304,7 @@
 2 PLAC , Lake Preston, SD, USA
 1 OCCU Farmer
 1 FAMS @F230@
+1 FAMC @F219@
 0 @I15@ INDI
 1 NAME Daniel Scott /Meyer/
 2 GIVN Daniel Scott
@@ -12574,6 +13320,7 @@
 1 OCCU Broker for Edward Jones.
 1 FACT He is active in the National Honors Society.
 1 FACT Daniel is active in most sports.
+1 FAMC @F5@
 0 @I13@ INDI
 1 NAME Mark John /Meyer/
 2 GIVN Mark John
@@ -12590,6 +13337,7 @@
 1 FACT He is active in the National Honors Society.
 1 FACT Mark is active in all sports
 1 FAMS @F7@
+1 FAMC @F5@
 0 @I11@ INDI
 1 NAME Michael Ronald /Meyer/
 2 GIVN Michael Ronald
@@ -12608,6 +13356,7 @@
 1 FACT Michael is now attending St. Cloud University.
 1 FACT Mike is active in all sports.
 1 FAMS @F6@
+1 FAMC @F5@
 0 @I736@ INDI
 1 NAME Jason /Tolzin/
 2 GIVN Jason
@@ -12616,6 +13365,7 @@
 1 BIRT
 2 DATE 29 Jan 1985
 1 OCCU Student
+1 FAMC @F226@
 0 @I1196@ INDI
 1 NAME Alice LuVerne /Tucker/
 2 GIVN Alice LuVerne
@@ -12681,6 +13431,7 @@
 2 PLAC , Sioux City, IA, USA
 1 OCCU Real Estate Appraiser
 1 FAMS @F101@
+1 FAMC @F360@
 0 @I917@ INDI
 1 NAME Ethel /Baggett/
 2 GIVN Ethel
@@ -12703,6 +13454,7 @@
 1 BIRT
 2 DATE 1 Jun 1983
 1 OCCU Student
+1 FAMC @F227@
 0 @I942@ INDI
 1 NAME John Martin /Kracht/
 2 GIVN John Martin
@@ -12719,6 +13471,7 @@
 1 BIRT
 2 DATE 27 Aug 1981
 1 OCCU Student
+1 FAMC @F227@
 0 @I949@ INDI
 1 NAME Bertie //
 2 GIVN Bertie
@@ -12756,6 +13509,7 @@
 1 OCCU Student
 1 FACT Mike is active in the National Forensic League.
 1 FACT He likes to draw people, life scenes & a great debater.
+1 FAMC @F14@
 0 @I850@ INDI
 1 NAME Jesse Gene /Fastenow/
 2 GIVN Jesse Gene
@@ -12767,6 +13521,7 @@
 2 PLAC , Cherokee Co. IA, USA
 1 OCCU Farmer, Hogs & Cattle
 1 FAMS @F270@
+1 FAMC @F264@
 0 @I935@ INDI
 1 NAME Vera Luverne /Erickson/
 2 GIVN Vera Luverne
@@ -12818,6 +13573,7 @@
 1 FACT Sonja is an active member of the Wyoming Cattle Women, the Wind River Valley Artists Guild & the National Bighorn Sheep Interpretive Assoc. Inc.
 1 FACT She enjoys horses, cake decorating, sewing & beading.
 1 FAMS @F268@
+1 FAMC @F264@
 0 @I955@ INDI
 1 NAME Barbara //
 2 GIVN Barbara
@@ -12838,6 +13594,7 @@
 2 PLAC , Cherokee Co. IA, USA
 1 OCCU Carpenter & is Owner/Operator of J & S Construction.
 1 FAMS @F265@
+1 FAMC @F264@
 0 @I1172@ INDI
 1 NAME Dorathea Marie Henrietta /Hopp/
 2 GIVN Dorathea Marie Henrietta
@@ -12901,6 +13658,7 @@
 1 REFN CustomGenCode:MAFEB1A
 1 BIRT
 2 PLAC , Denver, CO, USA
+1 FAMC @F177@
 0 @I226@ INDI
 1 NAME Sierra Kaylee Raeann {Kracht} /Lane/
 2 GIVN Sierra Kaylee Raeann {Kracht}
@@ -12909,6 +13667,7 @@
 1 BIRT
 2 DATE 12 Apr 1993
 1 FACT * Sierra Kaylee  Raeanne Lane was officially adopted by James D. Kracht in 1995.  She now goes by Kracht.
+1 FAMC @F485@
 0 @I836@ INDI
 1 NAME Lillian Mae /Rohrbaugh/
 2 GIVN Lillian Mae
@@ -12921,6 +13680,7 @@
 1 OCCU Homemaker
 1 FACT Jesse was active in the Peterson Heritage Club.
 1 FAMS @F264@
+1 FAMC @F471@
 0 @I1068@ INDI
 1 NAME Emma Cathrine /Peterson/
 2 GIVN Emma Cathrine
@@ -12942,6 +13702,7 @@
 1 BIRT
 2 DATE 18 Sep 1986
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA. USA
+1 FAMC @F484@
 0 @I1089@ INDI
 1 NAME William Allister /MacLeod/ Sr
 2 GIVN William Allister
@@ -12976,6 +13737,7 @@
 1 OCCU Student
 1 FACT Erin is active in 4-H.
 1 FACT She likes swimming & basketball.
+1 FAMC @F15@
 0 @I633@ INDI
 1 NAME George /Vebsky/
 2 GIVN George
@@ -12996,6 +13758,7 @@
 1 OCCU Student
 1 FACT Heidi is active in 4-H, Girl Scouts, Missionettes & the Hallock Figure Skating Assoc.
 1 FACT She enjoys bicycling, swimming & figure skating.
+1 FAMC @F15@
 0 @I999@ INDI
 1 NAME Thelma /Stevens/
 2 GIVN Thelma
@@ -13012,6 +13775,7 @@
 2 DATE 11 Apr 1984
 2 PLAC , Tulsa, OK, USA
 1 OCCU Student
+1 FAMC @F152@
 0 @I1165@ INDI
 1 NAME Jessie Viola /Tuttle/
 2 GIVN Jessie Viola
@@ -13028,6 +13792,7 @@
 2 DATE 9 Nov 1980
 2 PLAC , Tulsa, OK, USA
 1 OCCU Student
+1 FAMC @F152@
 0 @I998@ INDI
 1 NAME Alfred /Christensen/
 2 GIVN Alfred
@@ -13056,6 +13821,7 @@
 1 FACT Mike earned a BS & E. op. from Iowa State University in Ames, IA, in May of 1973.  Jane earned a BA from the University of Northern Iowa in Cedar Falls, IA ,  in 1977.
 1 FACT Flying, Music & Scuba diving.
 1 FAMS @F276@
+1 FAMC @F272@
 0 @I489@ INDI
 1 NAME Jesse Shea /Meyer/
 2 GIVN Jesse Shea
@@ -13064,6 +13830,7 @@
 1 BIRT
 2 DATE 28 Feb 1986
 2 PLAC , Tulsa, OK, USA
+1 FAMC @F152@
 0 @I866@ INDI
 1 NAME Dennis Patrick /Connor/
 2 GIVN Dennis Patrick
@@ -13075,6 +13842,7 @@
 2 PLAC , Des Moines, IA, USA
 1 OCCU Communications
 1 FAMS @F275@
+1 FAMC @F272@
 0 @I859@ INDI
 1 NAME Douglas Michael /Connor/
 2 GIVN Douglas Michael
@@ -13085,6 +13853,7 @@
 2 DATE 12 May 1941
 2 PLAC , Des Moines, IA, USA
 1 FAMS @F273@
+1 FAMC @F272@
 0 @I1090@ INDI
 1 NAME Isabel /Blount/
 2 GIVN Isabel
@@ -13151,6 +13920,7 @@
 1 FACT They both enjoy their music.   Bruce is teaching himself to play drums. Carol enjoys playing her guitar.  She also enjoys cooking.
 1 FACT Bruce made a single parachute jump in Jackson Hole, WY, & broke his leg.  Carol got stalled in a severe snow storm in a van overnite without heat in South Dakota.
 1 FAMS @F152@
+1 FAMC @F403@
 0 @I858@ INDI
 1 NAME William Mathew /Connor/
 2 GIVN William Mathew
@@ -13165,6 +13935,7 @@
 2 PLAC , Elgin, IL, USA
 1 OCCU Artist
 1 FAMS @F272@
+1 FAMC @F478@
 0 @I967@ INDI
 1 NAME Laura /Hanna/
 2 GIVN Laura
@@ -13183,6 +13954,7 @@
 2 PLAC , Ireton, IA, USA
 1 OCCU Homemaker, School Teacher
 1 FAMS @F182@
+1 FAMC @F414@
 0 @I1214@ INDI
 1 NAME Ralph /Monroe/
 2 GIVN Ralph
@@ -13197,6 +13969,7 @@
 1 REFN CustomGenCode:MAADBCA
 1 BIRT
 2 DATE 26 Feb 2001
+1 FAMC @F38@
 0 @I1215@ INDI
 1 NAME Ruby /Fletcher/
 2 GIVN Ruby

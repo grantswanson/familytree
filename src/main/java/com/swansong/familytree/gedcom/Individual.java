@@ -38,6 +38,7 @@ public class Individual {
     private String occupation;
     private List<String> notes = new ArrayList<>();
     private List<Integer> marriageIds = new ArrayList<>();
+    private Integer parentsMarriageId;
 
     public void addNote(String note) {
         notes.add(note);

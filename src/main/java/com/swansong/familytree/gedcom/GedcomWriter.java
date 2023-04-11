@@ -52,7 +52,7 @@ public class GedcomWriter {
                 1 LANG English
                 1 DATE 20 APR 2023
                 1 GEDC
-                2 VERS 5.5.1
+                2 VERS 5.5.5
                 2 FORM LINEAGE-LINKED
                 1 SOUR SwansongCustomJavaProgram
                 2 VERS 1.0

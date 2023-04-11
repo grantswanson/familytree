@@ -4,7 +4,7 @@
 1 LANG English
 1 DATE 20 APR 2023
 1 GEDC
-2 VERS 5.5.1
+2 VERS 5.5.5
 2 FORM LINEAGE-LINKED
 1 SOUR SwansongCustomJavaProgram
 2 VERS 1.0
@@ -49,7 +49,7 @@
 1 OCCU Student
 1 FACT Dave enjoys reading, karate & baseball.
 1 FAMC @F45@
-0 @I838@ INDI
+0 @I837@ INDI
 1 NAME Sheryl K /Walter/
 2 GIVN Sheryl K
 2 SURN Walter
@@ -95,14 +95,14 @@
 1 OCCU Homemaker
 1 FAMS @F186@
 1 FAMC @F417@
-0 @I1055@ INDI
+0 @I1054@ INDI
 1 NAME Donna Mary /Norney/
 2 GIVN Donna Mary
 2 SURN Norney
 1 REFN CustomGenCode:MABHAD1sm
 1 SEX F
 1 FAMS @F370@
-0 @I1066@ INDI
+0 @I1065@ INDI
 1 NAME Sophia Marie /Mohror/
 2 GIVN Sophia Marie
 2 SURN Mohror
@@ -116,14 +116,14 @@
 1 REFN CustomGenCode:MAADBB1
 1 SEX M
 1 FAMS @F37@
-0 @I1054@ INDI
+0 @I1053@ INDI
 1 NAME Patrick Edward /Thomas/
 2 GIVN Patrick Edward
 2 SURN Thomas
 1 REFN CustomGenCode:MABHAD1sf
 1 SEX M
 1 FAMS @F370@
-0 @I1065@ INDI
+0 @I1064@ INDI
 1 NAME Karl /Hintz/
 2 GIVN Karl
 2 SURN Hintz
@@ -146,7 +146,7 @@
 1 FACT He was commissioned an Ensign in the United States Navy from the Dept of the Navy in May of 1999.
 1 FAMS @F139@
 1 FAMC @F392@
-0 @I704@ INDI
+0 @I703@ INDI
 1 NAME Vonnie Lee /Mohror/
 2 GIVN Vonnie Lee
 2 SURN Mohror
@@ -158,7 +158,7 @@
 1 OCCU Homemaker, Nurse
 1 FAMS @F217@
 1 FAMC @F210@
-0 @I697@ INDI
+0 @I696@ INDI
 1 NAME Sharon Alene /Mohror/
 2 GIVN Sharon Alene
 2 SURN Mohror
@@ -170,7 +170,7 @@
 1 OCCU Homemaker, Cook at Nursing Home
 1 FAMS @F215@
 1 FAMC @F210@
-0 @I924@ INDI
+0 @I923@ INDI
 1 NAME Charles Simon /Wagner/
 2 GIVN Charles Simon
 2 SURN Wagner
@@ -227,7 +227,7 @@
 1 OCCU Student
 1 FAMS @F185@
 1 FAMC @F184@
-0 @I1082@ INDI
+0 @I1081@ INDI
 1 NAME Arleen Ann /Mohrhauser/
 2 GIVN Arleen Ann
 2 SURN Mohrhauser
@@ -312,7 +312,7 @@
 1 BIRT
 2 DATE 6 Oct 1998
 1 FAMC @F36@
-0 @I1081@ INDI
+0 @I1080@ INDI
 1 NAME Louie Andrew /Hinrickson/
 2 GIVN Louie Andrew
 2 SURN Hinrickson
@@ -343,7 +343,7 @@
 1 OCCU Homemaker
 1 FAMS @F184@
 1 FAMC @F416@
-0 @I846@ INDI
+0 @I845@ INDI
 1 NAME Robert Ashley /Williams/
 2 GIVN Robert Ashley
 2 SURN Williams
@@ -361,19 +361,19 @@
 1 FACT She enjoys horses, cake decorating, sewing & beading.
 1 FAMS @F268@
 1 FAMC @F474@
-0 @I693@ INDI
+0 @I692@ INDI
 1 NAME Luke /Mohror/
 2 GIVN Luke
 2 SURN Mohror
 1 REFN CustomGenCode:MAHAA1Ca
-0 @I1249@ INDI
+0 @I1248@ INDI
 1 NAME Ashley /Williams/
 2 GIVN Ashley
 2 SURN Williams
 1 REFN CustomGenCode:MAJAB1sf
 1 SEX M
 1 FAMS @F474@
-0 @I887@ INDI
+0 @I886@ INDI
 1 NAME Ronald Eugene /O'Dell/
 2 GIVN Ronald Eugene
 2 SURN O'Dell
@@ -400,7 +400,7 @@
 1 FACT He lived in the Philippines for one year as a Rotary Exchange student.
 1 FAMS @F127@
 1 FAMC @F381@
-0 @I839@ INDI
+0 @I838@ INDI
 1 NAME Teresa Anne /Fastenow/
 2 GIVN Teresa Anne
 2 SURN Fastenow
@@ -479,7 +479,7 @@
 1 BIRT
 2 DATE 28 Nov 1995
 1 FAMC @F37@
-0 @I1130@ INDI
+0 @I1129@ INDI
 1 NAME Clarence /Nyre/
 2 GIVN Clarence
 2 SURN Nyre
@@ -504,7 +504,7 @@
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA, USA
 1 OCCU Student
 1 FAMC @F182@
-0 @I842@ INDI
+0 @I841@ INDI
 1 NAME Rhonda Ranee /Fastenow/
 2 GIVN Rhonda Ranee
 2 SURN Fastenow
@@ -519,7 +519,7 @@
 1 OCCU Homemaker & Secretary
 1 FAMS @F267@
 1 FAMC @F265@
-0 @I711@ INDI
+0 @I710@ INDI
 1 NAME Clarence /Holland/
 2 GIVN Clarence
 2 SURN Holland
@@ -534,41 +534,41 @@
 1 OCCU Farmer
 1 FAMS @F219@
 1 FAMC @F439@
-0 @I888@ INDI
+0 @I887@ INDI
 1 NAME Sally Ann /Osterfeld/
 2 GIVN Sally Ann
 2 SURN Osterfeld
 1 REFN CustomGenCode:MAABAD1sm
 1 SEX F
 1 FAMS @F285@
-0 @I939@ INDI
+0 @I938@ INDI
 1 NAME Violette Ruth /Wark/
 2 GIVN Violette Ruth
 2 SURN Wark
 1 REFN CustomGenCode:MAAED1sm
 1 SEX F
 1 FAMS @F311@
-0 @I1250@ INDI
+0 @I1249@ INDI
 1 NAME Eloise //
 2 GIVN Eloise
 1 REFN CustomGenCode:MAJAB1sm
 1 SEX F
 1 FAMS @F474@
-0 @I1131@ INDI
+0 @I1130@ INDI
 1 NAME Josie /Dahl/
 2 GIVN Josie
 2 SURN Dahl
 1 REFN CustomGenCode:MAFE1sm
 1 SEX F
 1 FAMS @F411@
-0 @I938@ INDI
+0 @I937@ INDI
 1 NAME Herbert Wilhelm /Hausmann/
 2 GIVN Herbert Wilhelm
 2 SURN Hausmann
 1 REFN CustomGenCode:MAAED1sf
 1 SEX M
 1 FAMS @F311@
-0 @I752@ INDI
+0 @I751@ INDI
 1 NAME Gilbert /Henrikson/
 2 GIVN Gilbert
 2 SURN Henrikson
@@ -623,7 +623,7 @@
 1 OCCU Student
 1 FACT Gabriel will attend St. Cloud State University in 1994.
 1 FACT He likes reading, sports & goes hunting.
-0 @I851@ INDI
+0 @I850@ INDI
 1 NAME Peggy J /Gano/
 2 GIVN Peggy J
 2 SURN Gano
@@ -635,28 +635,28 @@
 1 OCCU Homemaker, Technician
 1 FAMS @F270@
 1 FAMC @F476@
-0 @I989@ INDI
+0 @I988@ INDI
 1 NAME Gertrude /Bancroft/
 2 GIVN Gertrude
 2 SURN Bancroft
 1 REFN CustomGenCode:MABCD1sm
 1 SEX F
 1 FAMS @F337@
-0 @I1272@ INDI
+0 @I1271@ INDI
 1 NAME Loren Jay /Wingert/ Sr
 2 GIVN Loren Jay
 2 SURN Wingert
 1 REFN CustomGenCode:MADAAD2auf
 1 SEX M
 1 FAMS @F490@
-0 @I988@ INDI
+0 @I987@ INDI
 1 NAME Earl /Cole/
 2 GIVN Earl
 2 SURN Cole
 1 REFN CustomGenCode:MABCD1sf
 1 SEX M
 1 FAMS @F337@
-0 @I970@ INDI
+0 @I969@ INDI
 1 NAME Adrianus /Stoltz/
 2 GIVN Adrianus
 2 SURN Stoltz
@@ -692,7 +692,7 @@
 2 DATE 25 Jan 1988
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA. USA
 1 FAMC @F187@
-0 @I847@ INDI
+0 @I846@ INDI
 1 NAME John D /Williams/
 2 GIVN John D
 2 SURN Williams
@@ -711,14 +711,14 @@
 1 FACT Kim earned an Associate Degree from Central Wyoming College & is presently a student at the University of Wyoming in Laramie, WY.
 1 FAMS @F269@
 1 FAMC @F268@
-0 @I1277@ INDI
+0 @I1276@ INDI
 1 NAME Kari Ann /Matter/
 2 GIVN Kari Ann
 2 SURN Matter
 1 REFN CustomGenCode:MAHACBAum
 1 SEX F
 1 FAMS @F495@
-0 @I971@ INDI
+0 @I970@ INDI
 1 NAME Hedwig /Kitzmann/
 2 GIVN Hedwig
 2 SURN Kitzmann
@@ -734,7 +734,7 @@
 2 DATE 19 Aug 1992
 2 PLAC , Minneapolis, MN, USA
 1 FAMC @F23@
-0 @I1273@ INDI
+0 @I1272@ INDI
 1 NAME Christine /McBride/
 2 GIVN Christine
 2 SURN McBride
@@ -787,14 +787,14 @@
 1 REFN CustomGenCode:MAADBA1
 1 SEX M
 1 FAMS @F36@
-0 @I874@ INDI
+0 @I873@ INDI
 1 NAME Rudolph /Rose/
 2 GIVN Rudolph
 2 SURN Rose
 1 REFN CustomGenCode:MA1sf
 1 SEX M
 1 FAMS @F277@
-0 @I1210@ INDI
+0 @I1209@ INDI
 1 NAME Homer Orville /Putnam/
 2 GIVN Homer Orville
 2 SURN Putnam
@@ -811,7 +811,7 @@
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA, USA
 1 OCCU Student
 1 FAMC @F187@
-0 @I982@ INDI
+0 @I981@ INDI
 1 NAME John Francis /Jaminet/
 2 GIVN John Francis
 2 SURN Jaminet
@@ -837,7 +837,7 @@
 2 PLAC Methodist Hosp. Des Moines, IA, USA
 1 OCCU Student
 1 FAMC @F186@
-0 @I856@ INDI
+0 @I855@ INDI
 1 NAME Jason Wade /Fastenow/
 2 GIVN Jason Wade
 2 SURN Fastenow
@@ -859,7 +859,7 @@
 1 OCCU Homemaker, Data Processor
 1 FAMS @F28@
 1 FAMC @F299@
-0 @I852@ INDI
+0 @I851@ INDI
 1 NAME Wendy Jo /Fastenow/
 2 GIVN Wendy Jo
 2 SURN Fastenow
@@ -872,21 +872,21 @@
 1 FACT Stephen earned a Batchelors degree in Agriculture.
 1 FAMS @F271@
 1 FAMC @F270@
-0 @I1211@ INDI
+0 @I1210@ INDI
 1 NAME Hazel Loraine /Ellis/
 2 GIVN Hazel Loraine
 2 SURN Ellis
 1 REFN CustomGenCode:MAIBB1sm
 1 SEX F
 1 FAMS @F454@
-0 @I983@ INDI
+0 @I982@ INDI
 1 NAME Phyllis Elizabeth /Nilles/
 2 GIVN Phyllis Elizabeth
 2 SURN Nilles
 1 REFN CustomGenCode:MABCCC1sm
 1 SEX F
 1 FAMS @F334@
-0 @I1269@ INDI
+0 @I1268@ INDI
 1 NAME Charlene Kay /Jacob/
 2 GIVN Charlene Kay
 2 SURN Jacob
@@ -905,28 +905,28 @@
 1 OCCU Farmer
 1 FAMS @F187@
 1 FAMC @F418@
-0 @I1265@ INDI
+0 @I1264@ INDI
 1 NAME Randy /Woltman/
 2 GIVN Randy
 2 SURN Woltman
 1 REFN CustomGenCode:MABCCBauf
 1 SEX M
 1 FAMS @F483@
-0 @I973@ INDI
+0 @I972@ INDI
 1 NAME Johanna Bertha /Gantz/
 2 GIVN Johanna Bertha
 2 SURN Gantz
 1 REFN CustomGenCode:MABCB1sm
 1 SEX F
 1 FAMS @F329@
-0 @I1103@ INDI
+0 @I1102@ INDI
 1 NAME James Edward III /Yates/
 2 GIVN James Edward III
 2 SURN Yates
 1 REFN CustomGenCode:MADABD2sf
 1 SEX M
 1 FAMS @F396@
-0 @I972@ INDI
+0 @I971@ INDI
 1 NAME Jermiah William /Murphy/
 2 GIVN Jermiah William
 2 SURN Murphy
@@ -952,7 +952,7 @@
 1 FACT Leah collects & reads cookbooks and does crossword puzzles.  Paul likes Archery & goes bowhunting.
 1 FAMS @F22@
 1 FAMC @F294@
-0 @I1104@ INDI
+0 @I1103@ INDI
 1 NAME Suzanne /Leonhardt/
 2 GIVN Suzanne
 2 SURN Leonhardt
@@ -978,14 +978,14 @@
 1 REFN CustomGenCode:MAACC1
 1 SEX M
 1 FAMS @F30@
-0 @I1258@ INDI
+0 @I1257@ INDI
 1 NAME Rose /Roche/
 2 GIVN Rose
 2 SURN Roche
 1 REFN CustomGenCode:MAJB1sm
 1 SEX F
 1 FAMS @F478@
-0 @I1257@ INDI
+0 @I1256@ INDI
 1 NAME Mathew /Connor/
 2 GIVN Mathew
 2 SURN Connor
@@ -1063,21 +1063,21 @@
 1 FACT Phillip went to Nepal in 1989 and stayed with a college friend from Katmandu.
 1 FAMS @F23@
 1 FAMC @F295@
-0 @I986@ INDI
+0 @I985@ INDI
 1 NAME Kenneth Daniel /Wenck/
 2 GIVN Kenneth Daniel
 2 SURN Wenck
 1 REFN CustomGenCode:MABCCE1sf
 1 SEX M
 1 FAMS @F336@
-0 @I1270@ INDI
+0 @I1269@ INDI
 1 NAME Amy Lynn /Schultz/
 2 GIVN Amy Lynn
 2 SURN Schultz
 1 REFN CustomGenCode:MADAAC1Baum
 1 SEX F
 1 FAMS @F488@
-0 @I987@ INDI
+0 @I986@ INDI
 1 NAME Wilma Irene /Hanson/
 2 GIVN Wilma Irene
 2 SURN Hanson
@@ -1172,7 +1172,7 @@
 1 FACT Samantha is Catholic.
 1 FACT Samantha is active in school sports, likes to dance & loves animals.
 1 FAMC @F64@
-0 @I694@ INDI
+0 @I693@ INDI
 1 NAME Steffenie Tian /Mohror/
 2 GIVN Steffenie Tian
 2 SURN Mohror
@@ -1191,7 +1191,7 @@
 1 FACT Mark is from Protesdant background & Julie is of Jewish descent.  Currently they are not active in any church.
 1 FACT Mark enjoys snoboarding, hiking & roller blading.  Julie likes to read.
 1 FAMS @F167@
-0 @I1048@ INDI
+0 @I1047@ INDI
 1 NAME David /Mohror/
 2 GIVN David
 2 SURN Mohror
@@ -1246,7 +1246,7 @@
 2 SURN Burrows
 1 REFN CustomGenCode:MAFBABA
 1 FAMC @F167@
-0 @I1167@ INDI
+0 @I1166@ INDI
 1 NAME David S /Miller/
 2 GIVN David S
 2 SURN Miller
@@ -1259,7 +1259,7 @@
 2 SURN Burrows
 1 REFN CustomGenCode:MAFBABB
 1 FAMC @F167@
-0 @I692@ INDI
+0 @I691@ INDI
 1 NAME Tami /Steinke/
 2 GIVN Tami
 2 SURN Steinke
@@ -1268,28 +1268,28 @@
 1 OCCU Homemaker
 1 FACT * Tami's son from a previous marriage.
 1 FAMS @F213@
-0 @I1141@ INDI
+0 @I1140@ INDI
 1 NAME Robert /Parker/
 2 GIVN Robert
 2 SURN Parker
 1 REFN CustomGenCode:MAGA1D1sf
 1 SEX M
 1 FAMS @F417@
-0 @I1271@ INDI
+0 @I1270@ INDI
 1 NAME Daniel Lee /Parke/
 2 GIVN Daniel Lee
 2 SURN Parke
 1 REFN CustomGenCode:MADAAC2auf
 1 SEX M
 1 FAMS @F489@
-0 @I1049@ INDI
+0 @I1048@ INDI
 1 NAME Lowena /Leiske/
 2 GIVN Lowena
 2 SURN Leiske
 1 REFN CustomGenCode:MABH1sm
 1 SEX F
 1 FAMS @F367@
-0 @I1168@ INDI
+0 @I1167@ INDI
 1 NAME Phyllis Ruth /Morstein/
 2 GIVN Phyllis Ruth
 2 SURN Morstein
@@ -1317,7 +1317,7 @@
 2 PLAC Oakland Cem. Peterson, IA, USA
 1 FACT Died in infancy.
 1 FAMC @F71@
-0 @I1228@ INDI
+0 @I1227@ INDI
 1 NAME Benjamin /Friend/
 2 GIVN Benjamin
 2 SURN Friend
@@ -1334,7 +1334,7 @@
 2 PLAC Sioux Valley Memorial Hosp. Cherokee, IA, USA
 1 OCCU Student
 1 FAMC @F71@
-0 @I689@ INDI
+0 @I688@ INDI
 1 NAME Alexander David /Johnson/
 2 GIVN Alexander David
 2 SURN Johnson
@@ -1342,7 +1342,7 @@
 1 BIRT
 2 DATE 4 May 1987
 1 FAMC @F212@
-0 @I690@ INDI
+0 @I689@ INDI
 1 NAME Issac Charles /Johnson/
 2 GIVN Issac Charles
 2 SURN Johnson
@@ -1350,7 +1350,7 @@
 1 BIRT
 2 DATE 12 Oct 1988
 1 FAMC @F212@
-0 @I828@ INDI
+0 @I827@ INDI
 1 NAME Betty Ann /Kraemer/
 2 GIVN Betty Ann
 2 SURN Kraemer
@@ -1370,7 +1370,7 @@
 2 PLAC Sioux Valley Memorial Hosp. Cherokee, IA, USA
 1 OCCU Student
 1 FAMC @F71@
-0 @I1229@ INDI
+0 @I1228@ INDI
 1 NAME Eleanor /Fox/
 2 GIVN Eleanor
 2 SURN Fox
@@ -1398,7 +1398,7 @@
 1 FACT Golf.
 1 FAMS @F64@
 1 FAMC @F328@
-0 @I688@ INDI
+0 @I687@ INDI
 1 NAME Charles /Johnson/
 2 GIVN Charles
 2 SURN Johnson
@@ -1409,7 +1409,7 @@
 2 PLAC , Clarkfield, MN, USA
 1 OCCU Engineer
 1 FAMS @F212@
-0 @I1112@ INDI
+0 @I1111@ INDI
 1 NAME Beatrice Christina //
 2 GIVN Beatrice Christina
 1 REFN CustomGenCode:MADAD1sm
@@ -1427,14 +1427,14 @@
 1 OCCU Homemaker, Cherokee Credit Union
 1 FAMS @F72@
 1 FAMC @F336@
-0 @I950@ INDI
+0 @I949@ INDI
 1 NAME John Elwin /Wagner/ Sr
 2 GIVN John Elwin
 2 SURN Wagner
 1 REFN CustomGenCode:MABAA2sf
 1 SEX M
 1 FAMS @F317@
-0 @I1075@ INDI
+0 @I1074@ INDI
 1 NAME John Irving /Schmidt/
 2 GIVN John Irving
 2 SURN Schmidt
@@ -1454,7 +1454,7 @@
 2 PLAC Good Shepards Lutheran Church, Wheaton, MN, USA
 1 OCCU Student
 1 FAMC @F21@
-0 @I1111@ INDI
+0 @I1110@ INDI
 1 NAME Ingwald /Viste/
 2 GIVN Ingwald
 2 SURN Viste
@@ -1474,14 +1474,14 @@
 2 PLAC Good Shepards Lutheran Church, Wheaton, MN, USA
 1 OCCU Student
 1 FAMC @F21@
-0 @I951@ INDI
+0 @I950@ INDI
 1 NAME Marie /Wietzel/
 2 GIVN Marie
 2 SURN Wietzel
 1 REFN CustomGenCode:MABAA2sm
 1 SEX F
 1 FAMS @F317@
-0 @I1076@ INDI
+0 @I1075@ INDI
 1 NAME Ruth Lee /Anderson/
 2 GIVN Ruth Lee
 2 SURN Anderson
@@ -1869,7 +1869,7 @@
 1 OCCU Homemaker
 1 FAMS @F153@
 1 FAMC @F0@
-0 @I1208@ INDI
+0 @I1207@ INDI
 1 NAME Elsie May /Combs/
 2 GIVN Elsie May
 2 SURN Combs
@@ -1969,7 +1969,7 @@
 1 FAMS @F171@
 1 FAMS @F492@
 1 FAMC @F409@
-0 @I753@ INDI
+0 @I752@ INDI
 1 NAME William Ernest /Meyer/
 2 GIVN William Ernest
 2 SURN Meyer
@@ -2038,7 +2038,7 @@
 1 FACT AANN
 1 FACT Needlework, Gardening, Bicyling & Volleyball.
 1 FAMC @F115@
-0 @I873@ INDI
+0 @I872@ INDI
 1 NAME Ella /Meyer/
 2 GIVN Ella
 2 SURN Meyer
@@ -2061,7 +2061,7 @@
 2 PLAC , Cherokee, IA, USA
 1 OCCU Diesel Mechanic
 1 FAMC @F115@
-0 @I833@ INDI
+0 @I832@ INDI
 1 NAME Minnie E /Meyer/
 2 GIVN Minnie E
 2 SURN Meyer
@@ -2076,7 +2076,7 @@
 1 OCCU Homemaker
 1 FAMS @F263@
 1 FAMC @F0@
-0 @I1207@ INDI
+0 @I1206@ INDI
 1 NAME Arthur Leslie /Wilson/
 2 GIVN Arthur Leslie
 2 SURN Wilson
@@ -2103,7 +2103,7 @@
 2 PLAC Spencer Mumiciple Hosp. Spencer, IA, USA
 1 OCCU Student
 1 FAMC @F81@
-0 @I940@ INDI
+0 @I939@ INDI
 1 NAME Fredrich Ernst Philipp /Tigges/
 2 GIVN Fredrich Ernst Philipp
 2 SURN Tigges
@@ -2126,7 +2126,7 @@
 1 REFN CustomGenCode:MAFD1
 1 SEX M
 1 FAMS @F174@
-0 @I696@ INDI
+0 @I695@ INDI
 1 NAME Lucy /Petit/
 2 GIVN Lucy
 2 SURN Petit
@@ -2154,18 +2154,7 @@
 1 FACT Carol plays the cello, does crocheting & needlework & likes to ski.  Jim is interested in auto racing.
 1 FAMS @F138@
 1 FAMC @F391@
-0 @I685@ INDI
-1 NAME /Ffffff/
-2 SURN Ffffff
-1 REFN CustomGenCode:MAHAA1
-1 SEX F
-1 BIRT
-2 DATE 9 Dec 1932
-2 PLAC , Bruce, SD, USA
-1 OCCU Homemaker
-1 FAMS @F211@
-1 FAMC @F435@
-0 @I941@ INDI
+0 @I940@ INDI
 1 NAME Rosina /Strahback/
 2 GIVN Rosina
 2 SURN Strahback
@@ -2314,7 +2303,7 @@
 2 PLAC , New Hampton, IA, USA
 1 OCCU Student
 1 FAMC @F112@
-0 @I698@ INDI
+0 @I697@ INDI
 1 NAME Maurice /Kruger/
 2 GIVN Maurice
 2 SURN Kruger
@@ -2325,7 +2314,7 @@
 1 OCCU Farmer
 1 FAMS @F215@
 1 FAMC @F437@
-0 @I780@ INDI
+0 @I779@ INDI
 1 NAME Harold /Swanger/
 2 GIVN Harold
 2 SURN Swanger
@@ -2365,7 +2354,7 @@
 1 FACT Laurie had an interesting experience as a Corning Glass representive to Japan.  The Japanese men were a bit unnerved by the fact that she was about 8 inches taller than they and a woman.
 1 FAMS @F141@
 1 FAMC @F394@
-0 @I883@ INDI
+0 @I882@ INDI
 1 NAME Warren /Sandberg/
 2 GIVN Warren
 2 SURN Sandberg
@@ -2409,7 +2398,7 @@
 2 SURN Tarrant
 1 REFN CustomGenCode:MAFDA
 1 FAMC @F174@
-0 @I1169@ INDI
+0 @I1168@ INDI
 1 NAME John Franklin /Marshall/
 2 GIVN John Franklin
 2 SURN Marshall
@@ -2454,21 +2443,21 @@
 1 OCCU Development Dept. at University of Maryland.
 1 FAMS @F142@
 1 FAMC @F395@
-0 @I1170@ INDI
+0 @I1169@ INDI
 1 NAME Betty Latichia /Nutting/
 2 GIVN Betty Latichia
 2 SURN Nutting
 1 REFN CustomGenCode:MAGEB1sm
 1 SEX F
 1 FAMS @F432@
-0 @I884@ INDI
+0 @I883@ INDI
 1 NAME Marion /Olson/
 2 GIVN Marion
 2 SURN Olson
 1 REFN CustomGenCode:MAABAB1sm
 1 SEX F
 1 FAMS @F283@
-0 @I705@ INDI
+0 @I704@ INDI
 1 NAME Samuel /Feistner/
 2 GIVN Samuel
 2 SURN Feistner
@@ -2480,7 +2469,7 @@
 1 OCCU Surveyor
 1 FAMS @F217@
 1 FAMC @F438@
-0 @I1028@ INDI
+0 @I1027@ INDI
 1 NAME Paul /Dettmann/
 2 GIVN Paul
 2 SURN Dettmann
@@ -2516,7 +2505,7 @@
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA, USA
 1 OCCU Student
 1 FAMC @F80@
-0 @I782@ INDI
+0 @I781@ INDI
 1 NAME John Earl /Putnam/ Sr
 2 GIVN John Earl
 2 SURN Putnam
@@ -2530,7 +2519,7 @@
 1 FACT Joyce enjoys gardening, making quilts, Snowmobiling & her grandchildren.  Johnenjoys restoring old cars & trucks & snowmobiling in the winter.
 1 FAMS @F245@
 1 FAMC @F454@
-0 @I1181@ INDI
+0 @I1180@ INDI
 1 NAME Dorothy /Riedel/
 2 GIVN Dorothy
 2 SURN Riedel
@@ -2564,7 +2553,7 @@
 1 FACT Chris was active in Northwest Iowa Hereford Association.
 1 FAMS @F115@
 1 FAMC @F371@
-0 @I1180@ INDI
+0 @I1179@ INDI
 1 NAME Irvin /Feistner/
 2 GIVN Irvin
 2 SURN Feistner
@@ -2631,7 +2620,7 @@
 1 OCCU Farmer, Farm Machinery Salesman
 1 FAMS @F56@
 1 FAMC @F48@
-0 @I703@ INDI
+0 @I702@ INDI
 1 NAME Lonny Jay /Kruger/
 2 GIVN Lonny Jay
 2 SURN Kruger
@@ -2665,7 +2654,7 @@
 1 FAMS @F49@
 1 FAMS @F52@
 1 FAMC @F48@
-0 @I699@ INDI
+0 @I698@ INDI
 1 NAME Steven /Kruger/
 2 GIVN Steven
 2 SURN Kruger
@@ -2674,7 +2663,7 @@
 1 OCCU Scrimshaw
 1 FAMS @F216@
 1 FAMC @F215@
-0 @I702@ INDI
+0 @I701@ INDI
 1 NAME Keven Robbie /Kruger/
 2 GIVN Keven Robbie
 2 SURN Kruger
@@ -2691,14 +2680,14 @@
 2 PLAC , Sioux City, IA, USA
 1 OCCU Student
 1 FAMC @F50@
-0 @I1029@ INDI
+0 @I1028@ INDI
 1 NAME Catharine /Gessman/
 2 GIVN Catharine
 2 SURN Gessman
 1 REFN CustomGenCode:MABF1sm
 1 SEX F
 1 FAMS @F357@
-0 @I791@ INDI
+0 @I790@ INDI
 1 NAME Rick /Monroe/
 2 GIVN Rick
 2 SURN Monroe
@@ -2710,14 +2699,14 @@
 1 OCCU Ham Boner, Wilson Packing
 1 FAMS @F248@
 1 FAMC @F456@
-0 @I894@ INDI
+0 @I893@ INDI
 1 NAME LaVergne Hilda /Otto/
 2 GIVN LaVergne Hilda
 2 SURN Otto
 1 REFN CustomGenCode:MAABB1A2sm
 1 SEX F
 1 FAMS @F288@
-0 @I1019@ INDI
+0 @I1018@ INDI
 1 NAME Charlotte Ann /Ballard/
 2 GIVN Charlotte Ann
 2 SURN Ballard
@@ -2734,14 +2723,14 @@
 2 PLAC , Sioux City, IA, USA
 1 OCCU Student
 1 FAMC @F79@
-0 @I1261@ INDI
+0 @I1260@ INDI
 1 NAME Katherine /Elizabeth/
 2 GIVN Katherine
 2 SURN Elizabeth
 1 REFN CustomGenCode:MAJBB1sm
 1 SEX F
 1 FAMS @F480@
-0 @I854@ INDI
+0 @I853@ INDI
 1 NAME Jacob Charles /Meyers/
 2 GIVN Jacob Charles
 2 SURN Meyers
@@ -2750,7 +2739,7 @@
 2 DATE 24 Apr 1995
 2 PLAC Spencer Mumiciple Hosp. Spencer, IA, USA
 1 FAMC @F271@
-0 @I855@ INDI
+0 @I854@ INDI
 1 NAME Emma Marie /Meyers/
 2 GIVN Emma Marie
 2 SURN Meyers
@@ -2759,7 +2748,7 @@
 2 DATE 9 Apr 1997
 2 PLAC Spencer Mumiciple Hosp. Spencer, IA, USA
 1 FAMC @F271@
-0 @I1037@ INDI
+0 @I1036@ INDI
 1 NAME Myra /Hinkeldey/
 2 GIVN Myra
 2 SURN Hinkeldey
@@ -2782,7 +2771,7 @@
 1 FACT * Stillborn son between Jean and Luella
 1 FAMS @F62@
 1 FAMC @F326@
-0 @I793@ INDI
+0 @I792@ INDI
 1 NAME James /Weins/
 2 GIVN James
 2 SURN Weins
@@ -2803,42 +2792,42 @@
 1 FACT Jane enjoys collecting copper jello molds.
 1 FAMS @F249@
 1 FAMC @F457@
-0 @I893@ INDI
+0 @I892@ INDI
 1 NAME Merlyn Glenister /Hedman/
 2 GIVN Merlyn Glenister
 2 SURN Hedman
 1 REFN CustomGenCode:MAABB1A2sf
 1 SEX M
 1 FAMS @F288@
-0 @I1083@ INDI
+0 @I1082@ INDI
 1 NAME Richard Leo /Mohrmann/
 2 GIVN Richard Leo
 2 SURN Mohrmann
 1 REFN CustomGenCode:MADAAE1sf
 1 SEX M
 1 FAMS @F386@
-0 @I1018@ INDI
+0 @I1017@ INDI
 1 NAME Delbert LuVern /Carpenter/
 2 GIVN Delbert LuVern
 2 SURN Carpenter
 1 REFN CustomGenCode:MABCGB1sf
 1 SEX M
 1 FAMS @F352@
-0 @I1275@ INDI
+0 @I1274@ INDI
 1 NAME Clayton Ellsworth /Saathoff/
 2 GIVN Clayton Ellsworth
 2 SURN Saathoff
 1 REFN CustomGenCode:MAGA2auf
 1 SEX M
 1 FAMS @F493@
-0 @I1201@ INDI
+0 @I1200@ INDI
 1 NAME Mark A /Weis/
 2 GIVN Mark A
 2 SURN Weis
 1 REFN CustomGenCode:MAIAAC1sf
 1 SEX M
 1 FAMS @F449@
-0 @I706@ INDI
+0 @I705@ INDI
 1 NAME Laura Jean /Feistner/
 2 GIVN Laura Jean
 2 SURN Feistner
@@ -2857,7 +2846,7 @@
 1 OCCU District Mgr. for Coast to Coast
 1 FAMS @F80@
 1 FAMC @F344@
-0 @I853@ INDI
+0 @I852@ INDI
 1 NAME Stephen /Meyers/
 2 GIVN Stephen
 2 SURN Meyers
@@ -2869,14 +2858,14 @@
 1 FACT Stephen earned a Batchelors degree in Agriculture.
 1 FAMS @F271@
 1 FAMC @F477@
-0 @I1183@ INDI
+0 @I1182@ INDI
 1 NAME Lewis /Sneesby/
 2 GIVN Lewis
 2 SURN Sneesby
 1 REFN CustomGenCode:MAHB1A1sf
 1 SEX M
 1 FAMS @F440@
-0 @I707@ INDI
+0 @I706@ INDI
 1 NAME John /Feistner/
 2 GIVN John
 2 SURN Feistner
@@ -2886,7 +2875,7 @@
 1 FAMS @F218@
 1 FAMS @F495@
 1 FAMC @F217@
-0 @I787@ INDI
+0 @I786@ INDI
 1 NAME John Earl /Putnam/ Jr
 2 GIVN John Earl
 2 SURN Putnam
@@ -2900,14 +2889,14 @@
 1 FACT John enjoys collecting comic books & sports cards.  Angela enjoys scrap booking.
 1 FAMS @F247@
 1 FAMC @F245@
-0 @I1182@ INDI
+0 @I1181@ INDI
 1 NAME Peter /Holland/
 2 GIVN Peter
 2 SURN Holland
 1 REFN CustomGenCode:MAHB1sf
 1 SEX M
 1 FAMS @F439@
-0 @I783@ INDI
+0 @I782@ INDI
 1 NAME Jodi Ellen /Putnam/
 2 GIVN Jodi Ellen
 2 SURN Putnam
@@ -2922,7 +2911,7 @@
 1 FACT Jodi enjoys her cross stitching & scrap booking.  Robert "Bubba" enjoys building things out of wood & restoring old motorcycles
 1 FAMS @F246@
 1 FAMC @F245@
-0 @I695@ INDI
+0 @I694@ INDI
 1 NAME Gaylene Ruth /Mohror/
 2 GIVN Gaylene Ruth
 2 SURN Mohror
@@ -2931,14 +2920,14 @@
 2 DATE 31 Mar 1967
 1 OCCU Assistant Manager at Toco Johns
 1 FAMC @F211@
-0 @I1260@ INDI
+0 @I1259@ INDI
 1 NAME Clarence Fredrick /Love/
 2 GIVN Clarence Fredrick
 2 SURN Love
 1 REFN CustomGenCode:MAJBB1sf
 1 SEX M
 1 FAMS @F480@
-0 @I691@ INDI
+0 @I690@ INDI
 1 NAME Michael Robert /Mohror/
 2 GIVN Michael Robert
 2 SURN Mohror
@@ -2947,7 +2936,7 @@
 1 FACT * Tami's son from a previous marriage.
 1 FAMS @F213@
 1 FAMC @F211@
-0 @I687@ INDI
+0 @I686@ INDI
 1 NAME Karla Jean /Mohror/
 2 GIVN Karla Jean
 2 SURN Mohror
@@ -2959,13 +2948,13 @@
 1 OCCU Secretary
 1 FAMS @F212@
 1 FAMC @F211@
-0 @I1123@ INDI
+0 @I1122@ INDI
 1 NAME /Dunphy/
 2 SURN Dunphy
 1 REFN CustomGenCode:MAEBA1sf
 1 SEX M
 1 FAMS @F407@
-0 @I686@ INDI
+0 @I685@ INDI
 1 NAME Sherroe Lynn /Mohror/
 2 GIVN Sherroe Lynn
 2 SURN Mohror
@@ -2977,7 +2966,7 @@
 2 DATE 1 Aug 1961
 1 OCCU Holiday Inn
 1 FAMC @F211@
-0 @I1202@ INDI
+0 @I1201@ INDI
 1 NAME Monice /Nathan/
 2 GIVN Monice
 2 SURN Nathan
@@ -3004,28 +2993,28 @@
 2 PLAC , Sioux City, IA, USA
 1 OCCU Student
 1 FAMC @F79@
-0 @I1036@ INDI
+0 @I1035@ INDI
 1 NAME Marvin /Winterhof/
 2 GIVN Marvin
 2 SURN Winterhof
 1 REFN CustomGenCode:MABGAB1sf
 1 SEX M
 1 FAMS @F361@
-0 @I1084@ INDI
+0 @I1083@ INDI
 1 NAME Barbara Gail /Dinger/
 2 GIVN Barbara Gail
 2 SURN Dinger
 1 REFN CustomGenCode:MADAAE1sm
 1 SEX F
 1 FAMS @F386@
-0 @I1184@ INDI
+0 @I1183@ INDI
 1 NAME Lillian /Hanson/
 2 GIVN Lillian
 2 SURN Hanson
 1 REFN CustomGenCode:MAHB1A1sm
 1 SEX F
 1 FAMS @F440@
-0 @I796@ INDI
+0 @I795@ INDI
 1 NAME Annette Marie /Frankl/
 2 GIVN Annette Marie
 2 SURN Frankl
@@ -3136,49 +3125,49 @@
 1 FACT They enjoyed golf & bridge.
 1 FAMS @F48@
 1 FAMC @F313@
-0 @I1226@ INDI
+0 @I1225@ INDI
 1 NAME James Dee I /Leggett/
 2 GIVN James Dee I
 2 SURN Leggett
 1 REFN CustomGenCode:MAICAB1sf
 1 SEX M
 1 FAMS @F462@
-0 @I907@ INDI
+0 @I906@ INDI
 1 NAME Norman /Hofman/
 2 GIVN Norman
 2 SURN Hofman
 1 REFN CustomGenCode:MAABC1D1sf
 1 SEX M
 1 FAMS @F295@
-0 @I1144@ INDI
+0 @I1143@ INDI
 1 NAME Vern Ray /Jones/
 2 GIVN Vern Ray
 2 SURN Jones
 1 REFN CustomGenCode:MAGA2sf
 1 SEX M
 1 FAMS @F419@
-0 @I919@ INDI
+0 @I918@ INDI
 1 NAME Thyra /Knudsen/
 2 GIVN Thyra
 2 SURN Knudsen
 1 REFN CustomGenCode:MAAD1sm
 1 SEX F
 1 FAMS @F301@
-0 @I1227@ INDI
+0 @I1226@ INDI
 1 NAME Karen Jo /Foster/
 2 GIVN Karen Jo
 2 SURN Foster
 1 REFN CustomGenCode:MAICAB1sm
 1 SEX F
 1 FAMS @F462@
-0 @I908@ INDI
+0 @I907@ INDI
 1 NAME Rebecca /Powell/
 2 GIVN Rebecca
 2 SURN Powell
 1 REFN CustomGenCode:MAABC1D1sm
 1 SEX F
 1 FAMS @F295@
-0 @I1145@ INDI
+0 @I1144@ INDI
 1 NAME Sarah Ethel /Smith/
 2 GIVN Sarah Ethel
 2 SURN Smith
@@ -3210,7 +3199,7 @@
 1 FACT *Evans, Robert John and Evans, Randall Kenneth are Adopted by Rita and Kenneth.
 1 FAMS @F44@
 1 FAMC @F309@
-0 @I798@ INDI
+0 @I797@ INDI
 1 NAME Rita Marie /Meyer/
 2 GIVN Rita Marie
 2 SURN Meyer
@@ -3227,7 +3216,7 @@
 1 BIRT
 2 DATE 6 Aug 2001
 2 PLAC Le Mars Hosp. Le Mars, IA, USA
-0 @I797@ INDI
+0 @I796@ INDI
 1 NAME Ryan James /Meyer/
 2 GIVN Ryan James
 2 SURN Meyer
@@ -3237,14 +3226,14 @@
 2 PLAC , Cherokee, IA, USA
 1 OCCU Student
 1 FAMC @F250@
-0 @I918@ INDI
+0 @I917@ INDI
 1 NAME Hans B /Krog/
 2 GIVN Hans B
 2 SURN Krog
 1 REFN CustomGenCode:MAAD1sf
 1 SEX M
 1 FAMS @F301@
-0 @I799@ INDI
+0 @I798@ INDI
 1 NAME Evan Patrick /Meyer/
 2 GIVN Evan Patrick
 2 SURN Meyer
@@ -3493,14 +3482,14 @@
 1 FACT Girl Scouts
 1 FACT Gymnastics
 1 FAMC @F141@
-0 @I1070@ INDI
+0 @I1069@ INDI
 1 NAME Ada /Carter/
 2 GIVN Ada
 2 SURN Carter
 1 REFN CustomGenCode:MADAA1sm
 1 SEX F
 1 FAMS @F379@
-0 @I1238@ INDI
+0 @I1237@ INDI
 1 NAME Christine Reese /Milliner/
 2 GIVN Christine Reese
 2 SURN Milliner
@@ -3541,14 +3530,14 @@
 1 FACT Through AFS, they have hosted a boy from Switzerland in 1977-78 and an English teacher from the Peoples Republic of China in 1987-88.  They have followed up with visits back to them in Europe and China.
 1 FAMS @F135@
 1 FAMC @F388@
-0 @I1237@ INDI
+0 @I1236@ INDI
 1 NAME Louie /Kraemer/
 2 GIVN Louie
 2 SURN Kraemer
 1 REFN CustomGenCode:MAIE2sf
 1 SEX M
 1 FAMS @F468@
-0 @I1069@ INDI
+0 @I1068@ INDI
 1 NAME Charles Thomas /Smith/
 2 GIVN Charles Thomas
 2 SURN Smith
@@ -3643,7 +3632,7 @@
 2 PLAC , Jamestown, ND, USA
 1 OCCU Farmer
 1 FAMC @F158@
-0 @I841@ INDI
+0 @I840@ INDI
 1 NAME April LeAnn /Johnson/
 2 GIVN April LeAnn
 2 SURN Johnson
@@ -3679,7 +3668,7 @@
 1 REFN CustomGenCode:MAGA1CA1
 1 OCCU Homemaker
 1 FAMS @F185@
-0 @I1043@ INDI
+0 @I1042@ INDI
 1 NAME Betty Lou Joyce /Muilenburg/
 2 GIVN Betty Lou Joyce
 2 SURN Muilenburg
@@ -3711,7 +3700,7 @@
 1 SEX F
 1 OCCU Muscular Theropist
 1 FAMS @F158@
-0 @I840@ INDI
+0 @I839@ INDI
 1 NAME Donald Lee /Johnson/ Jr
 2 GIVN Donald Lee
 2 SURN Johnson
@@ -3745,7 +3734,7 @@
 2 SURN Goodhart
 1 REFN CustomGenCode:MAABB1BA1
 1 FAMS @F17@
-0 @I1042@ INDI
+0 @I1041@ INDI
 1 NAME Max Levern /Wetherell/
 2 GIVN Max Levern
 2 SURN Wetherell
@@ -3766,28 +3755,28 @@
 1 OCCU Homemaker
 1 FAMS @F97@
 1 FAMC @F356@
-0 @I1149@ INDI
+0 @I1148@ INDI
 1 NAME Ruth /Guinn/
 2 GIVN Ruth
 2 SURN Guinn
 1 REFN CustomGenCode:MAGBA1sm
 1 SEX F
 1 FAMS @F421@
-0 @I1026@ INDI
+0 @I1025@ INDI
 1 NAME Sam /Fisk/
 2 GIVN Sam
 2 SURN Fisk
 1 REFN CustomGenCode:MABD1sf
 1 SEX M
 1 FAMS @F356@
-0 @I1021@ INDI
+0 @I1020@ INDI
 1 NAME Darlene Mae /Loomis/
 2 GIVN Darlene Mae
 2 SURN Loomis
 1 REFN CustomGenCode:MABCGC1sm
 1 SEX F
 1 FAMS @F353@
-0 @I1146@ INDI
+0 @I1145@ INDI
 1 NAME Viggo W /Haahr/
 2 GIVN Viggo W
 2 SURN Haahr
@@ -3858,14 +3847,14 @@
 2 DATE 1980
 2 PLAC , Bismark, ND, USA
 1 FAMC @F159@
-0 @I1020@ INDI
+0 @I1019@ INDI
 1 NAME Robert LeRoy /Mercer/
 2 GIVN Robert LeRoy
 2 SURN Mercer
 1 REFN CustomGenCode:MABCGC1sf
 1 SEX M
 1 FAMS @F353@
-0 @I1148@ INDI
+0 @I1147@ INDI
 1 NAME George P /Wadsworth/
 2 GIVN George P
 2 SURN Wadsworth
@@ -3926,7 +3915,7 @@
 1 FACT Southern Minnesota Canine Search & Rescue Unit.
 1 FAMS @F89@
 1 FAMC @F351@
-0 @I1147@ INDI
+0 @I1146@ INDI
 1 NAME Sena /Hansen/
 2 GIVN Sena
 2 SURN Hansen
@@ -4003,7 +3992,7 @@
 2 DATE 1975
 2 PLAC , Jamestown, ND, USA
 1 FAMC @F159@
-0 @I1047@ INDI
+0 @I1046@ INDI
 1 NAME Ida Mae Nichols /Strickland/
 2 GIVN Ida Mae Nichols
 2 SURN Strickland
@@ -4030,7 +4019,7 @@
 1 FACT They both enjoy rock hounding & traveling.
 1 FAMS @F63@
 1 FAMC @F62@
-0 @I1027@ INDI
+0 @I1026@ INDI
 1 NAME Augusta /Muetzel/
 2 GIVN Augusta
 2 SURN Muetzel
@@ -4061,35 +4050,35 @@
 2 DATE 20 Feb 1994
 2 PLAC Congregational UCC Church Rochester, MN, USA
 1 FAMC @F89@
-0 @I892@ INDI
+0 @I891@ INDI
 1 NAME Vivian Clarice /Zebell/
 2 GIVN Vivian Clarice
 2 SURN Zebell
 1 REFN CustomGenCode:MAABB1A1sm
 1 SEX F
 1 FAMS @F287@
-0 @I1091@ INDI
+0 @I1090@ INDI
 1 NAME Frederick /Richardson/
 2 GIVN Frederick
 2 SURN Richardson
 1 REFN CustomGenCode:MADABA2sf
 1 SEX M
 1 FAMS @F390@
-0 @I891@ INDI
+0 @I890@ INDI
 1 NAME Fred Stanley /Hay/
 2 GIVN Fred Stanley
 2 SURN Hay
 1 REFN CustomGenCode:MAABB1A1sf
 1 SEX M
 1 FAMS @F287@
-0 @I1092@ INDI
+0 @I1091@ INDI
 1 NAME Gloria /Masterson/
 2 GIVN Gloria
 2 SURN Masterson
 1 REFN CustomGenCode:MADABA2sm
 1 SEX F
 1 FAMS @F390@
-0 @I1234@ INDI
+0 @I1233@ INDI
 1 NAME Amos /Hahn/
 2 GIVN Amos
 2 SURN Hahn
@@ -4127,7 +4116,7 @@
 2 PLAC , Portland, OR, USA
 1 OCCU Student
 1 FAMC @F40@
-0 @I1118@ INDI
+0 @I1117@ INDI
 1 NAME Florence Marguerite /Shea/
 2 GIVN Florence Marguerite
 2 SURN Shea
@@ -4140,7 +4129,7 @@
 2 SURN Vanerstrom
 1 REFN CustomGenCode:MAFBB1A
 1 FAMC @F168@
-0 @I902@ INDI
+0 @I901@ INDI
 1 NAME Maria /Radischat/
 2 GIVN Maria
 2 SURN Radischat
@@ -4182,14 +4171,14 @@
 1 BIRT
 2 DATE 24 Sep 1992
 1 FAMC @F114@
-0 @I1117@ INDI
+0 @I1116@ INDI
 1 NAME Joseph Lawrence /Laughlin/
 2 GIVN Joseph Lawrence
 2 SURN Laughlin
 1 REFN CustomGenCode:MADBA1sf
 1 SEX M
 1 FAMS @F403@
-0 @I901@ INDI
+0 @I900@ INDI
 1 NAME Morris /Mitteness/
 2 GIVN Morris
 2 SURN Mitteness
@@ -4222,7 +4211,7 @@
 2 GIVN Cassidy
 2 SURN Hudson
 1 REFN CustomGenCode:MAGA2ab2a
-0 @I1239@ INDI
+0 @I1238@ INDI
 1 NAME Warren /Stoner/
 2 GIVN Warren
 2 SURN Stoner
@@ -4241,7 +4230,7 @@
 1 OCCU Homemaker, Nurse & Xray Technician
 1 FAMS @F196@
 1 FAMC @F421@
-0 @I761@ INDI
+0 @I760@ INDI
 1 NAME Allan /Brown/
 2 GIVN Allan
 2 SURN Brown
@@ -4260,14 +4249,14 @@
 1 FACT Killed while felling a tree.  Cremated & ashes scattered at Coral Butte, WA
 1 FAMS @F237@
 1 FAMC @F448@
-0 @I1240@ INDI
+0 @I1239@ INDI
 1 NAME Flora Jeanette /McMillan/
 2 GIVN Flora Jeanette
 2 SURN McMillan
 1 REFN CustomGenCode:MAIF1sm
 1 SEX F
 1 FAMS @F469@
-0 @I760@ INDI
+0 @I759@ INDI
 1 NAME Douglas /Turner/
 2 GIVN Douglas
 2 SURN Turner
@@ -4285,7 +4274,7 @@
 1 FACT Horses
 1 FAMS @F236@
 1 FAMC @F447@
-0 @I1046@ INDI
+0 @I1045@ INDI
 1 NAME Onis Welton /Graham/
 2 GIVN Onis Welton
 2 SURN Graham
@@ -4300,7 +4289,7 @@
 1 SEX M
 1 OCCU Machine Operator
 1 FAMS @F96@
-0 @I946@ INDI
+0 @I945@ INDI
 1 NAME William /Edwards/
 2 GIVN William
 2 SURN Edwards
@@ -4344,14 +4333,14 @@
 1 FACT He likes golf, all sports & travel.
 1 FAMS @F53@
 1 FAMC @F318@
-0 @I897@ INDI
+0 @I896@ INDI
 1 NAME Harlyn Dean /Bartz/
 2 GIVN Harlyn Dean
 2 SURN Bartz
 1 REFN CustomGenCode:MAABB1C1sf
 1 SEX M
 1 FAMS @F290@
-0 @I991@ INDI
+0 @I990@ INDI
 1 NAME Margaret /Beamon/
 2 GIVN Margaret
 2 SURN Beamon
@@ -4377,7 +4366,7 @@
 2 DATE 14 Jun 1986
 2 PLAC Spencer Mumiciple Hosp. Spencer, IA, USA
 1 FAMC @F96@
-0 @I947@ INDI
+0 @I946@ INDI
 1 NAME Emma //
 2 GIVN Emma
 1 REFN CustomGenCode:MABAA1A1sm
@@ -4430,21 +4419,21 @@
 2 DATE 26 Mar 1992
 2 PLAC Spencer Mumiciple Hosp. Spencer, IA, USA
 1 FAMC @F96@
-0 @I898@ INDI
+0 @I897@ INDI
 1 NAME Carol Ann /Hedrick/
 2 GIVN Carol Ann
 2 SURN Hedrick
 1 REFN CustomGenCode:MAABB1C1sm
 1 SEX F
 1 FAMS @F290@
-0 @I990@ INDI
+0 @I989@ INDI
 1 NAME George /Dillinger/
 2 GIVN George
 2 SURN Dillinger
 1 REFN CustomGenCode:MABCDA1sf
 1 SEX M
 1 FAMS @F338@
-0 @I1199@ INDI
+0 @I1198@ INDI
 1 NAME William /Brown/
 2 GIVN William
 2 SURN Brown
@@ -4537,7 +4526,7 @@
 1 OCCU Homemaker, Hairdresser
 1 FAMS @F197@
 1 FAMC @F422@
-0 @I1200@ INDI
+0 @I1199@ INDI
 1 NAME Winfred /Noble/
 2 GIVN Winfred
 2 SURN Noble
@@ -4576,13 +4565,13 @@
 2 DATE 21 Dec 1988
 2 PLAC , Spokane, WA, USA
 1 FAMC @F113@
-0 @I725@ INDI
+0 @I724@ INDI
 1 NAME /Albrecht/
 2 SURN Albrecht
 1 REFN CustomGenCode:MAHB1AC1
 1 SEX M
 1 FAMS @F223@
-0 @I844@ INDI
+0 @I843@ INDI
 1 NAME Mikayla Marie /Sands/
 2 GIVN Mikayla Marie
 2 SURN Sands
@@ -4590,7 +4579,7 @@
 1 BIRT
 2 DATE 5 Oct 2001
 1 FAMC @F267@
-0 @I1176@ INDI
+0 @I1175@ INDI
 1 NAME Ruth //
 2 GIVN Ruth
 1 REFN CustomGenCode:MAHAA1sm
@@ -4657,7 +4646,7 @@
 1 FACT Menomonie Middle School Year Book Staff.
 1 FACT Danielle like to do experimental cooking with herbs.
 1 FAMC @F131@
-0 @I1175@ INDI
+0 @I1174@ INDI
 1 NAME Merle /Pierce/
 2 GIVN Merle
 2 SURN Pierce
@@ -4678,14 +4667,14 @@
 1 FACT Menomie High School Band & Color Guard
 1 FACT Christina likes to draw color & work with her computer.
 1 FAMC @F131@
-0 @I1124@ INDI
+0 @I1123@ INDI
 1 NAME Hjalmer Cottfrid /Magnuson/
 2 GIVN Hjalmer Cottfrid
 2 SURN Magnuson
 1 REFN CustomGenCode:MAFB1sf
 1 SEX M
 1 FAMS @F408@
-0 @I1212@ INDI
+0 @I1211@ INDI
 1 NAME James /Munn/
 2 GIVN James
 2 SURN Munn
@@ -4727,7 +4716,7 @@
 2 PLAC , Cherokee, IA, USA
 1 FAMS @F107@
 1 FAMC @F99@
-0 @I1013@ INDI
+0 @I1012@ INDI
 1 NAME Pearl Henrietta /Mattingley/
 2 GIVN Pearl Henrietta
 2 SURN Mattingley
@@ -4763,7 +4752,7 @@
 2 DATE 26 Mar 1970
 1 OCCU Student
 1 FAMC @F196@
-0 @I1213@ INDI
+0 @I1212@ INDI
 1 NAME Linda /Schubert/
 2 GIVN Linda
 2 SURN Schubert
@@ -4779,7 +4768,7 @@
 2 DATE 2 Jan 2000
 2 PLAC St. Joseph Hosp. Bloomington, IL. USA
 1 FAMC @F129@
-0 @I727@ INDI
+0 @I726@ INDI
 1 NAME Rustin /Albrecht/
 2 GIVN Rustin
 2 SURN Albrecht
@@ -4797,7 +4786,7 @@
 2 DATE 16 Sep 1998
 2 PLAC St. Joseph Hosp. Bloomington, IL. USA
 1 FAMC @F129@
-0 @I726@ INDI
+0 @I725@ INDI
 1 NAME Deven /Albrecht/
 2 GIVN Deven
 2 SURN Albrecht
@@ -4806,14 +4795,14 @@
 2 DATE 9 Oct 1982
 1 OCCU Student
 1 FAMC @F223@
-0 @I843@ INDI
+0 @I842@ INDI
 1 NAME Steven /Sands/
 2 GIVN Steven
 2 SURN Sands
 1 REFN CustomGenCode:MAJAAB1
 1 SEX M
 1 FAMS @F267@
-0 @I1012@ INDI
+0 @I1011@ INDI
 1 NAME John Shubert /Evans/
 2 GIVN John Shubert
 2 SURN Evans
@@ -4838,7 +4827,7 @@
 2 DATE 25 Feb 1992
 2 PLAC Spencer Mumiciple Hosp. Spencer, IA, USA
 1 FAMC @F95@
-0 @I728@ INDI
+0 @I727@ INDI
 1 NAME McKingsley /Albrecht/
 2 GIVN McKingsley
 2 SURN Albrecht
@@ -4846,7 +4835,7 @@
 1 BIRT
 2 DATE 10 May 1989
 1 FAMC @F223@
-0 @I1125@ INDI
+0 @I1124@ INDI
 1 NAME Elin /Petersdotter/
 2 GIVN Elin
 2 SURN Petersdotter
@@ -4906,14 +4895,14 @@
 1 OCCU Management-Dale Electronics
 1 FAMS @F198@
 1 FAMC @F423@
-0 @I1038@ INDI
+0 @I1037@ INDI
 1 NAME Donald Dwayne /Handy/
 2 GIVN Donald Dwayne
 2 SURN Handy
 1 REFN CustomGenCode:MABGAD1sf
 1 SEX M
 1 FAMS @F362@
-0 @I1187@ INDI
+0 @I1186@ INDI
 1 NAME John /Smith/
 2 GIVN John
 2 SURN Smith
@@ -4963,7 +4952,7 @@
 2 DATE 16 Apr 1981
 1 OCCU Student
 1 FAMC @F197@
-0 @I1039@ INDI
+0 @I1038@ INDI
 1 NAME Marcia Ann /Dorr/
 2 GIVN Marcia Ann
 2 SURN Dorr
@@ -4982,7 +4971,7 @@
 1 OCCU Bookkeeper/Accountant
 1 FAMS @F113@
 1 FAMC @F369@
-0 @I731@ INDI
+0 @I730@ INDI
 1 NAME Bradly /Sneesby/
 2 GIVN Bradly
 2 SURN Sneesby
@@ -5012,7 +5001,7 @@
 1 FACT * Jane's son from a previous marriage.
 1 FAMS @F112@
 1 FAMC @F111@
-0 @I730@ INDI
+0 @I729@ INDI
 1 NAME Megan /Sneesby/
 2 GIVN Megan
 2 SURN Sneesby
@@ -5021,42 +5010,42 @@
 2 DATE 13 Aug 1985
 1 OCCU Student
 1 FAMC @F224@
-0 @I1188@ INDI
+0 @I1187@ INDI
 1 NAME Lorraine /Culkane/
 2 GIVN Lorraine
 2 SURN Culkane
 1 REFN CustomGenCode:MAHB1C1sm
 1 SEX F
 1 FAMS @F442@
-0 @I1162@ INDI
+0 @I1161@ INDI
 1 NAME Melvin Eugene /Nelson/
 2 GIVN Melvin Eugene
 2 SURN Nelson
 1 REFN CustomGenCode:MAGD1sf
 1 SEX M
 1 FAMS @F428@
-0 @I1204@ INDI
+0 @I1203@ INDI
 1 NAME Emma Lee /Hill/
 2 GIVN Emma Lee
 2 SURN Hill
 1 REFN CustomGenCode:MAIAB1sm
 1 SEX F
 1 FAMS @F450@
-0 @I1093@ INDI
+0 @I1092@ INDI
 1 NAME Paul /Maize/
 2 GIVN Paul
 2 SURN Maize
 1 REFN CustomGenCode:MADABB1sf
 1 SEX M
 1 FAMS @F391@
-0 @I1152@ INDI
+0 @I1151@ INDI
 1 NAME Jimmy Dean /Hummel/
 2 GIVN Jimmy Dean
 2 SURN Hummel
 1 REFN CustomGenCode:MAGBC1sf
 1 SEX M
 1 FAMS @F423@
-0 @I1163@ INDI
+0 @I1162@ INDI
 1 NAME Anna Mary /Eck/
 2 GIVN Anna Mary
 2 SURN Eck
@@ -5099,7 +5088,7 @@
 1 OCCU Homemaker, Office Manager
 1 FAMS @F76@
 1 FAMC @F73@
-0 @I715@ INDI
+0 @I714@ INDI
 1 NAME Paul /Danielson/
 2 GIVN Paul
 2 SURN Danielson
@@ -5136,21 +5125,21 @@
 1 SEX F
 1 OCCU Homemaker
 1 FAMS @F191@
-0 @I1094@ INDI
+0 @I1093@ INDI
 1 NAME Carolyn /Long/
 2 GIVN Carolyn
 2 SURN Long
 1 REFN CustomGenCode:MADABB1sm
 1 SEX F
 1 FAMS @F391@
-0 @I1153@ INDI
+0 @I1152@ INDI
 1 NAME Vera Marie /Churchill/
 2 GIVN Vera Marie
 2 SURN Churchill
 1 REFN CustomGenCode:MAGBC1sm
 1 SEX F
 1 FAMS @F423@
-0 @I1033@ INDI
+0 @I1032@ INDI
 1 NAME Marie Anna /Wilkens/
 2 GIVN Marie Anna
 2 SURN Wilkens
@@ -5169,7 +5158,7 @@
 1 OCCU Homemaker
 1 FAMS @F73@
 1 FAMC @F337@
-0 @I717@ INDI
+0 @I716@ INDI
 1 NAME Shaun Marie /Danielson/
 2 GIVN Shaun Marie
 2 SURN Danielson
@@ -5178,14 +5167,14 @@
 2 DATE 30 Nov 1976
 1 OCCU Student
 1 FAMC @F221@
-0 @I1203@ INDI
+0 @I1202@ INDI
 1 NAME Robert Kurth /Weems/
 2 GIVN Robert Kurth
 2 SURN Weems
 1 REFN CustomGenCode:MAIAB1sf
 1 SEX M
 1 FAMS @F450@
-0 @I716@ INDI
+0 @I715@ INDI
 1 NAME Amy Jean /Danielson/
 2 GIVN Amy Jean
 2 SURN Danielson
@@ -5194,21 +5183,21 @@
 2 DATE 25 Apr 1974
 1 OCCU Student
 1 FAMC @F221@
-0 @I932@ INDI
+0 @I931@ INDI
 1 NAME William /Hutchison/
 2 GIVN William
 2 SURN Hutchison
 1 REFN CustomGenCode:MAAEA1sf
 1 SEX M
 1 FAMS @F308@
-0 @I1133@ INDI
+0 @I1132@ INDI
 1 NAME Fredericka /Deyloff/
 2 GIVN Fredericka
 2 SURN Deyloff
 1 REFN CustomGenCode:MAG1sm
 1 SEX F
 1 FAMS @F412@
-0 @I718@ INDI
+0 @I717@ INDI
 1 NAME Kaye Lynn /Danielson/
 2 GIVN Kaye Lynn
 2 SURN Danielson
@@ -5217,21 +5206,21 @@
 2 DATE 5 Jun 1978
 1 OCCU Student
 1 FAMC @F221@
-0 @I1099@ INDI
+0 @I1098@ INDI
 1 NAME Robert Edward /Charlton/
 2 GIVN Robert Edward
 2 SURN Charlton
 1 REFN CustomGenCode:MADABC2sf
 1 SEX M
 1 FAMS @F394@
-0 @I933@ INDI
+0 @I932@ INDI
 1 NAME Olga /Poaluce/
 2 GIVN Olga
 2 SURN Poaluce
 1 REFN CustomGenCode:MAAEA1sm
 1 SEX F
 1 FAMS @F308@
-0 @I720@ INDI
+0 @I719@ INDI
 1 NAME /Neilson/
 2 SURN Neilson
 1 REFN CustomGenCode:MAHB1AB1
@@ -5262,7 +5251,7 @@
 1 OCCU Teacher, Coach
 1 FAMS @F79@
 1 FAMC @F78@
-0 @I709@ INDI
+0 @I708@ INDI
 1 NAME Olivia Irene /Feistner/
 2 GIVN Olivia Irene
 2 SURN Feistner
@@ -5284,7 +5273,7 @@
 1 OCCU Homemaker
 1 FAMS @F80@
 1 FAMC @F78@
-0 @I1132@ INDI
+0 @I1131@ INDI
 1 NAME Henry /Glawe/
 2 GIVN Henry
 2 SURN Glawe
@@ -5323,7 +5312,7 @@
 1 REFN CustomGenCode:MAGA2ab2
 1 SEX M
 1 FAMS @F193@
-0 @I1218@ INDI
+0 @I1217@ INDI
 1 NAME Gerald /Frankl/
 2 GIVN Gerald
 2 SURN Frankl
@@ -5337,35 +5326,35 @@
 1 REFN CustomGenCode:MAGA2ab1
 1 SEX M
 1 FAMS @F192@
-0 @I1100@ INDI
+0 @I1099@ INDI
 1 NAME Sarah Margaret /Lund/
 2 GIVN Sarah Margaret
 2 SURN Lund
 1 REFN CustomGenCode:MADABC2sm
 1 SEX F
 1 FAMS @F394@
-0 @I1006@ INDI
+0 @I1005@ INDI
 1 NAME Thomas Fred /Saunders/
 2 GIVN Thomas Fred
 2 SURN Saunders
 1 REFN CustomGenCode:MABCF1sf
 1 SEX M
 1 FAMS @F346@
-0 @I1114@ INDI
+0 @I1113@ INDI
 1 NAME Cora Belle /Sewell/
 2 GIVN Cora Belle
 2 SURN Sewell
 1 REFN CustomGenCode:MADAD2sm
 1 SEX F
 1 FAMS @F401@
-0 @I1219@ INDI
+0 @I1218@ INDI
 1 NAME Rita Marie /Kunkel/
 2 GIVN Rita Marie
 2 SURN Kunkel
 1 REFN CustomGenCode:MAIBD1sm
 1 SEX F
 1 FAMS @F458@
-0 @I721@ INDI
+0 @I720@ INDI
 1 NAME Michael Robert /Neilson/
 2 GIVN Michael Robert
 2 SURN Neilson
@@ -5395,7 +5384,7 @@
 1 FACT He Liked to glolf & play cards.
 1 FAMS @F78@
 1 FAMC @F342@
-0 @I708@ INDI
+0 @I707@ INDI
 1 NAME /Matter Kari Ann/
 2 SURN Matter Kari Ann
 1 REFN CustomGenCode:MAHACB1
@@ -5403,7 +5392,7 @@
 1 BIRT
 2 DATE 27 Aug 1977
 1 FAMS @F218@
-0 @I723@ INDI
+0 @I722@ INDI
 1 NAME Patricia Jo /Neilson/
 2 GIVN Patricia Jo
 2 SURN Neilson
@@ -5412,7 +5401,7 @@
 2 DATE 27 Mar 1981
 1 OCCU Student
 1 FAMC @F222@
-0 @I1007@ INDI
+0 @I1006@ INDI
 1 NAME Esther Julia /Gunnarson/
 2 GIVN Esther Julia
 2 SURN Gunnarson
@@ -5442,7 +5431,7 @@
 1 FACT * Adopted by John Wagner at Storm Lake, IA, in 1948.
 1 FAMS @F49@
 1 FAMC @F314@
-0 @I722@ INDI
+0 @I721@ INDI
 1 NAME Chrestie Lynn /Neilson/
 2 GIVN Chrestie Lynn
 2 SURN Neilson
@@ -5483,35 +5472,35 @@
 2 GIVN Garrett
 2 SURN Peters
 1 REFN CustomGenCode:MAGA2aaa
-0 @I1113@ INDI
+0 @I1112@ INDI
 1 NAME Jackson Wesley /Marshall/
 2 GIVN Jackson Wesley
 2 SURN Marshall
 1 REFN CustomGenCode:MADAD2sf
 1 SEX M
 1 FAMS @F401@
-0 @I879@ INDI
+0 @I878@ INDI
 1 NAME Arthur /Roberts/
 2 GIVN Arthur
 2 SURN Roberts
 1 REFN CustomGenCode:MAABA1sf
 1 SEX M
 1 FAMS @F281@
-0 @I952@ INDI
+0 @I951@ INDI
 1 NAME Charles /Tomhave/
 2 GIVN Charles
 2 SURN Tomhave
 1 REFN CustomGenCode:MABAA2A1sf
 1 SEX M
 1 FAMS @F318@
-0 @I880@ INDI
+0 @I879@ INDI
 1 NAME Etta Sheldon /Eakin/
 2 GIVN Etta Sheldon
 2 SURN Eakin
 1 REFN CustomGenCode:MAABA1sm
 1 SEX F
 1 FAMS @F281@
-0 @I1052@ INDI
+0 @I1051@ INDI
 1 NAME Robert McMillan /Odell/
 2 GIVN Robert McMillan
 2 SURN Odell
@@ -5616,7 +5605,7 @@
 1 OCCU Insurance Rep. John Hancock
 1 FAMS @F86@
 1 FAMC @F82@
-0 @I784@ INDI
+0 @I783@ INDI
 1 NAME Robert James /Munn/
 2 GIVN Robert James
 2 SURN Munn
@@ -5667,14 +5656,14 @@
 2 PLAC , Hastings, NE, USA
 1 OCCU English & Speech Teacher
 1 FAMC @F56@
-0 @I953@ INDI
+0 @I952@ INDI
 1 NAME Alyce /Callanan/
 2 GIVN Alyce
 2 SURN Callanan
 1 REFN CustomGenCode:MABAA2A1sm
 1 SEX F
 1 FAMS @F318@
-0 @I1106@ INDI
+0 @I1105@ INDI
 1 NAME Thelma Clemese /Peterson/
 2 GIVN Thelma Clemese
 2 SURN Peterson
@@ -5693,7 +5682,7 @@
 1 OCCU Service Station Owner
 1 FAMS @F82@
 1 FAMC @F346@
-0 @I786@ INDI
+0 @I785@ INDI
 1 NAME Dylan John /Munn/
 2 GIVN Dylan John
 2 SURN Munn
@@ -5717,7 +5706,7 @@
 1 OCCU Homemaker, Secretary
 1 FAMS @F56@
 1 FAMC @F321@
-0 @I785@ INDI
+0 @I784@ INDI
 1 NAME Dustin James /Munn/
 2 GIVN Dustin James
 2 SURN Munn
@@ -5729,35 +5718,35 @@
 2 DATE Mar 1995
 2 PLAC United Methodist Church, Sutherland, IA, USA
 1 FAMC @F246@
-0 @I1053@ INDI
+0 @I1052@ INDI
 1 NAME Virginia /Dubach/
 2 GIVN Virginia
 2 SURN Dubach
 1 REFN CustomGenCode:MABHAB1sm
 1 SEX F
 1 FAMS @F369@
-0 @I1105@ INDI
+0 @I1104@ INDI
 1 NAME Harold Frederick /Fink/
 2 GIVN Harold Frederick
 2 SURN Fink
 1 REFN CustomGenCode:MADAC1sf
 1 SEX M
 1 FAMS @F397@
-0 @I899@ INDI
+0 @I898@ INDI
 1 NAME Albert /Skoog/
 2 GIVN Albert
 2 SURN Skoog
 1 REFN CustomGenCode:MAABB2sf
 1 SEX M
 1 FAMS @F291@
-0 @I900@ INDI
+0 @I899@ INDI
 1 NAME Ida /Erickson/
 2 GIVN Ida
 2 SURN Erickson
 1 REFN CustomGenCode:MAABB2sm
 1 SEX F
 1 FAMS @F291@
-0 @I1003@ INDI
+0 @I1002@ INDI
 1 NAME Margery Jean /Adams/
 2 GIVN Margery Jean
 2 SURN Adams
@@ -5770,7 +5759,7 @@
 2 SURN Matlock
 1 REFN CustomGenCode:MABGBBA
 1 FAMC @F109@
-0 @I1121@ INDI
+0 @I1120@ INDI
 1 NAME Henry /Meyer/
 2 GIVN Henry
 2 SURN Meyer
@@ -5798,7 +5787,7 @@
 1 FACT Roger is a wood carver & throws darts.  Cherri sews, does cross-stitching & raises tropical fish.
 1 FAMS @F90@
 1 FAMC @F88@
-0 @I1158@ INDI
+0 @I1157@ INDI
 1 NAME Joel /Larson/
 2 GIVN Joel
 2 SURN Larson
@@ -5828,7 +5817,7 @@
 2 PLAC Spencer Mumiciple Hosp. Spencer, IA, USA
 1 OCCU Student
 1 FAMC @F88@
-0 @I788@ INDI
+0 @I787@ INDI
 1 NAME Angela Marie /Arens/
 2 GIVN Angela Marie
 2 SURN Arens
@@ -5841,7 +5830,7 @@
 1 FACT John earned a 4 year degree from South Dakota State University in Brookings, SD.  Angela earned a 4 year degree from Southwest State University in Marshall, MN, USA.
 1 FACT John enjoys collecting comic books & sports cards.  Angela enjoys scrap booking.
 1 FAMS @F247@
-0 @I1032@ INDI
+0 @I1031@ INDI
 1 NAME Otto Siguard /Nelson/
 2 GIVN Otto Siguard
 2 SURN Nelson
@@ -5865,7 +5854,7 @@
 1 REFN CustomGenCode:MADABA2b
 1 BIRT
 2 DATE 2 Sep 1986
-0 @I1002@ INDI
+0 @I1001@ INDI
 1 NAME Roger Costello /Mason/
 2 GIVN Roger Costello
 2 SURN Mason
@@ -5879,7 +5868,7 @@
 1 REFN CustomGenCode:MADABA2c
 1 BIRT
 2 DATE Jan 1991
-0 @I764@ INDI
+0 @I763@ INDI
 1 NAME Joan /Weis/
 2 GIVN Joan
 2 SURN Weis
@@ -5893,21 +5882,21 @@
 1 FACT They enjoy walking & writing.
 1 FAMS @F238@
 1 FAMC @F449@
-0 @I1122@ INDI
+0 @I1121@ INDI
 1 NAME Birdie /Crawford/
 2 GIVN Birdie
 2 SURN Crawford
 1 REFN CustomGenCode:MAEB1sm
 1 SEX F
 1 FAMS @F406@
-0 @I1267@ INDI
+0 @I1266@ INDI
 1 NAME Joseph Jay /Lane/
 2 GIVN Joseph Jay
 2 SURN Lane
 1 REFN CustomGenCode:MABCDA2buf
 1 SEX M
 1 FAMS @F485@
-0 @I1159@ INDI
+0 @I1158@ INDI
 1 NAME Rozaline /Kischer/
 2 GIVN Rozaline
 2 SURN Kischer
@@ -5971,7 +5960,7 @@
 1 FACT Southern Minnesota Canine Search & Rescue Unit.
 1 FAMS @F89@
 1 FAMC @F88@
-0 @I789@ INDI
+0 @I788@ INDI
 1 NAME Rachel Elizabeth /Putnam/
 2 GIVN Rachel Elizabeth
 2 SURN Putnam
@@ -5980,14 +5969,14 @@
 2 DATE 16 Sep 1996
 2 PLAC Pipestone Co. Medical Center, Pipestone, MN, USA
 1 FAMC @F247@
-0 @I1059@ INDI
+0 @I1058@ INDI
 1 NAME Neva Orene /Wells/
 2 GIVN Neva Orene
 2 SURN Wells
 1 REFN CustomGenCode:MABHB2sm
 1 SEX F
 1 FAMS @F372@
-0 @I714@ INDI
+0 @I713@ INDI
 1 NAME Rhonda Jean /Sneesby/
 2 GIVN Rhonda Jean
 2 SURN Sneesby
@@ -6002,7 +5991,7 @@
 2 SURN Herman
 1 REFN CustomGenCode:MABGBAB
 1 FAMC @F108@
-0 @I719@ INDI
+0 @I718@ INDI
 1 NAME Sherry /Sneesby/
 2 GIVN Sherry
 2 SURN Sneesby
@@ -6029,7 +6018,7 @@
 1 FACT They both enjoyed participating in Shrine activities and parades, especially in the summer time.
 1 FAMS @F94@
 1 FAMC @F354@
-0 @I724@ INDI
+0 @I723@ INDI
 1 NAME Bonittia /Sneesby/
 2 GIVN Bonittia
 2 SURN Sneesby
@@ -6038,7 +6027,7 @@
 1 OCCU Homemaker
 1 FAMS @F223@
 1 FAMC @F220@
-0 @I729@ INDI
+0 @I728@ INDI
 1 NAME Bryan /Sneesby/
 2 GIVN Bryan
 2 SURN Sneesby
@@ -6061,7 +6050,7 @@
 2 DATE 6 Oct 1988
 2 PLAC , Willmar, MN, USA
 1 FAMC @F146@
-0 @I808@ INDI
+0 @I807@ INDI
 1 NAME James Dee II /Leggett/
 2 GIVN James Dee II
 2 SURN Leggett
@@ -6072,14 +6061,14 @@
 1 OCCU Insurance Agent
 1 FAMS @F254@
 1 FAMC @F462@
-0 @I1216@ INDI
+0 @I1215@ INDI
 1 NAME Nick /Weins/
 2 GIVN Nick
 2 SURN Weins
 1 REFN CustomGenCode:MAIBC2sf
 1 SEX M
 1 FAMS @F457@
-0 @I733@ INDI
+0 @I732@ INDI
 1 NAME Marvin /Tolzin/
 2 GIVN Marvin
 2 SURN Tolzin
@@ -6096,14 +6085,14 @@
 1 BIRT
 2 DATE 22 Sep 1983
 1 FAMC @F491@
-0 @I1137@ INDI
+0 @I1136@ INDI
 1 NAME Helen /Ganzbeld/
 2 GIVN Helen
 2 SURN Ganzbeld
 1 REFN CustomGenCode:MAGA1B1sm
 1 SEX F
 1 FAMS @F414@
-0 @I1217@ INDI
+0 @I1216@ INDI
 1 NAME Lillian Lucille /Boysen/
 2 GIVN Lillian Lucille
 2 SURN Boysen
@@ -6124,7 +6113,7 @@
 1 FAMS @F50@
 1 FAMS @F51@
 1 FAMC @F49@
-0 @I750@ INDI
+0 @I749@ INDI
 1 NAME /Gary/
 2 SURN Gary
 1 REFN CustomGenCode:MAHB1CA1
@@ -6136,42 +6125,42 @@
 1 REFN CustomGenCode:MABGBB1
 1 SEX M
 1 FAMS @F109@
-0 @I958@ INDI
+0 @I957@ INDI
 1 NAME Andrew Jensen /Rehmeier/
 2 GIVN Andrew Jensen
 2 SURN Rehmeier
 1 REFN CustomGenCode:MABAB1sf
 1 SEX M
 1 FAMS @F321@
-0 @I1136@ INDI
+0 @I1135@ INDI
 1 NAME Peter /Van Whye/
 2 GIVN Peter
 2 SURN Van Whye
 1 REFN CustomGenCode:MAGA1B1sf
 1 SEX M
 1 FAMS @F414@
-0 @I959@ INDI
+0 @I958@ INDI
 1 NAME Pauline Elgaard /Nielsen/
 2 GIVN Pauline Elgaard
 2 SURN Nielsen
 1 REFN CustomGenCode:MABAB1sm
 1 SEX F
 1 FAMS @F321@
-0 @I926@ INDI
+0 @I925@ INDI
 1 NAME Albert /Lavorato/
 2 GIVN Albert
 2 SURN Lavorato
 1 REFN CustomGenCode:MAADC1sf
 1 SEX M
 1 FAMS @F305@
-0 @I1051@ INDI
+0 @I1050@ INDI
 1 NAME Jane Ellen /Munson/
 2 GIVN Jane Ellen
 2 SURN Munson
 1 REFN CustomGenCode:MABHA1sm
 1 SEX F
 1 FAMS @F368@
-0 @I734@ INDI
+0 @I733@ INDI
 1 NAME Daniel /Tolzin/
 2 GIVN Daniel
 2 SURN Tolzin
@@ -6179,7 +6168,7 @@
 1 SEX M
 1 FAMS @F226@
 1 FAMC @F225@
-0 @I737@ INDI
+0 @I736@ INDI
 1 NAME Ritia /Tolzin/
 2 GIVN Ritia
 2 SURN Tolzin
@@ -6191,7 +6180,7 @@
 1 OCCU Homemaker
 1 FAMS @F227@
 1 FAMC @F225@
-0 @I741@ INDI
+0 @I740@ INDI
 1 NAME Lou Ann /Tolzin/
 2 GIVN Lou Ann
 2 SURN Tolzin
@@ -6203,28 +6192,28 @@
 1 OCCU Homemaker
 1 FAMS @F228@
 1 FAMC @F225@
-0 @I1233@ INDI
+0 @I1232@ INDI
 1 NAME Jeannette C /Fournier/
 2 GIVN Jeannette C
 2 SURN Fournier
 1 REFN CustomGenCode:MAICD1sm
 1 SEX F
 1 FAMS @F465@
-0 @I745@ INDI
+0 @I744@ INDI
 1 NAME Dean /Tolzin/
 2 GIVN Dean
 2 SURN Tolzin
 1 REFN CustomGenCode:MAHB1BD
 1 FAMS @F229@
 1 FAMC @F225@
-0 @I927@ INDI
+0 @I926@ INDI
 1 NAME Agnes /Halley/
 2 GIVN Agnes
 2 SURN Halley
 1 REFN CustomGenCode:MAADC1sm
 1 SEX F
 1 FAMS @F305@
-0 @I1005@ INDI
+0 @I1004@ INDI
 1 NAME Shirley Jean /Bruner/
 2 GIVN Shirley Jean
 2 SURN Bruner
@@ -6306,7 +6295,7 @@
 2 DATE 3 Jul 1983
 2 PLAC , Watkins Glen, NY, USA
 1 FAMC @F176@
-0 @I748@ INDI
+0 @I747@ INDI
 1 NAME Sandy /Smith/
 2 GIVN Sandy
 2 SURN Smith
@@ -6318,14 +6307,14 @@
 1 OCCU Homemaker
 1 FAMS @F230@
 1 FAMC @F442@
-0 @I1004@ INDI
+0 @I1003@ INDI
 1 NAME Carl Maynard /Struve/
 2 GIVN Carl Maynard
 2 SURN Struve
 1 REFN CustomGenCode:MABCEE1sf
 1 SEX M
 1 FAMS @F345@
-0 @I1127@ INDI
+0 @I1126@ INDI
 1 NAME Geri //
 2 GIVN Geri
 1 REFN CustomGenCode:MAFC1A1sm
@@ -6363,27 +6352,27 @@
 1 REFN CustomGenCode:MABGBA1
 1 SEX M
 1 FAMS @F108@
-0 @I1109@ INDI
+0 @I1108@ INDI
 1 NAME Gene /Christenson/
 2 GIVN Gene
 2 SURN Christenson
 1 REFN CustomGenCode:MADACB1sf
 1 SEX M
 1 FAMS @F399@
-0 @I1110@ INDI
+0 @I1109@ INDI
 1 NAME Lois /Lynne/
 2 GIVN Lois
 2 SURN Lynne
 1 REFN CustomGenCode:MADACB1sm
 1 SEX F
 1 FAMS @F399@
-0 @I1126@ INDI
+0 @I1125@ INDI
 1 NAME /Zaro/
 2 SURN Zaro
 1 REFN CustomGenCode:MAFC1A1sf
 1 SEX M
 1 FAMS @F409@
-0 @I1058@ INDI
+0 @I1057@ INDI
 1 NAME Walter Henry /Franken/
 2 GIVN Walter Henry
 2 SURN Franken
@@ -6396,14 +6385,14 @@
 1 REFN CustomGenCode:MAFEA1
 1 SEX F
 1 FAMS @F176@
-0 @I1232@ INDI
+0 @I1231@ INDI
 1 NAME Maurice E /Dorgan/
 2 GIVN Maurice E
 2 SURN Dorgan
 1 REFN CustomGenCode:MAICD1sf
 1 SEX M
 1 FAMS @F465@
-0 @I974@ INDI
+0 @I973@ INDI
 1 NAME Donald Leo /Gengler/
 2 GIVN Donald Leo
 2 SURN Gengler
@@ -6419,28 +6408,28 @@
 1 FACT Michael is now attending St. Cloud University.
 1 FACT Mike is active in all sports.
 1 FAMS @F6@
-0 @I975@ INDI
+0 @I974@ INDI
 1 NAME Mary Margaret /Durband/
 2 GIVN Mary Margaret
 2 SURN Durband
 1 REFN CustomGenCode:MABCBA1sm
 1 SEX F
 1 FAMS @F330@
-0 @I963@ INDI
+0 @I962@ INDI
 1 NAME Leona /Stauffer/
 2 GIVN Leona
 2 SURN Stauffer
 1 REFN CustomGenCode:MABABB1sm
 1 SEX F
 1 FAMS @F323@
-0 @I962@ INDI
+0 @I961@ INDI
 1 NAME Maurice /Stewart/
 2 GIVN Maurice
 2 SURN Stewart
 1 REFN CustomGenCode:MABABB1sf
 1 SEX M
 1 FAMS @F323@
-0 @I1050@ INDI
+0 @I1049@ INDI
 1 NAME Earl William /Covey/
 2 GIVN Earl William
 2 SURN Covey
@@ -6459,7 +6448,7 @@
 1 REFN CustomGenCode:MAFEB1
 1 SEX F
 1 FAMS @F177@
-0 @I936@ INDI
+0 @I935@ INDI
 1 NAME Glen /Johnson/
 2 GIVN Glen
 2 SURN Johnson
@@ -6491,7 +6480,7 @@
 1 FACT Janelle like soccer, gardening, reading, & raising Pug dogs.  Kevin is a sports fan & likes music & videos.
 1 FAMS @F34@
 1 FAMC @F303@
-0 @I937@ INDI
+0 @I936@ INDI
 1 NAME Harriet /Ashbaugh/
 2 GIVN Harriet
 2 SURN Ashbaugh
@@ -6629,7 +6618,7 @@
 1 FAMS @F131@
 1 FAMS @F132@
 1 FAMC @F125@
-0 @I805@ INDI
+0 @I804@ INDI
 1 NAME Mike J /Tipping/
 2 GIVN Mike J
 2 SURN Tipping
@@ -6641,7 +6630,7 @@
 1 OCCU GTE
 1 FAMS @F253@
 1 FAMC @F461@
-0 @I1192@ INDI
+0 @I1191@ INDI
 1 NAME Alice /Lucia/
 2 GIVN Alice
 2 SURN Lucia
@@ -6667,7 +6656,7 @@
 1 FACT Douglas has spent six years rebuilding a Camero.  He enjoys rebuilding & reprogramming computers.
 1 FAMS @F134@
 1 FAMC @F125@
-0 @I713@ INDI
+0 @I712@ INDI
 1 NAME Robert /Sneesby/
 2 GIVN Robert
 2 SURN Sneesby
@@ -6678,14 +6667,14 @@
 1 OCCU Farmer
 1 FAMS @F220@
 1 FAMC @F440@
-0 @I1191@ INDI
+0 @I1190@ INDI
 1 NAME Frank G /Scott/
 2 GIVN Frank G
 2 SURN Scott
 1 REFN CustomGenCode:MAI1sf
 1 SEX M
 1 FAMS @F444@
-0 @I1115@ INDI
+0 @I1114@ INDI
 1 NAME Lynn Harrison /Paulsen/
 2 GIVN Lynn Harrison
 2 SURN Paulsen
@@ -6726,14 +6715,14 @@
 1 REFN CustomGenCode:MAFEC1
 1 SEX M
 1 FAMS @F179@
-0 @I997@ INDI
+0 @I996@ INDI
 1 NAME Barbara /Hummel/
 2 GIVN Barbara
 2 SURN Hummel
 1 REFN CustomGenCode:MABCDC1sm
 1 SEX F
 1 FAMS @F341@
-0 @I806@ INDI
+0 @I805@ INDI
 1 NAME Kelsea Elizabeth /Tipping/
 2 GIVN Kelsea Elizabeth
 2 SURN Tipping
@@ -6742,14 +6731,14 @@
 2 DATE 21 May 1989
 2 PLAC , Everett, WA, USA
 1 FAMC @F253@
-0 @I1116@ INDI
+0 @I1115@ INDI
 1 NAME Margaret Josephine /Steger/
 2 GIVN Margaret Josephine
 2 SURN Steger
 1 REFN CustomGenCode:MADB1sm
 1 SEX F
 1 FAMS @F402@
-0 @I996@ INDI
+0 @I995@ INDI
 1 NAME Lawrence /Miller/
 2 GIVN Lawrence
 2 SURN Miller
@@ -6776,7 +6765,7 @@
 1 FACT Duane was an outstanding soccer player in High Schol. He loves Baseball & enjoys watching pro sports.  He loves music & often attends concerts.
 1 FACT He is an excellent teacher (1st grade), excells in helping students learn to read.  He was selected as Outstanding First Year Teacher in state of Nevada, winning a cash prize & a trip to Washington DC.
 1 FAMC @F33@
-0 @I870@ INDI
+0 @I869@ INDI
 1 NAME Jane Ann /Pagel/
 2 GIVN Jane Ann
 2 SURN Pagel
@@ -6799,7 +6788,7 @@
 1 FACT Flying, Music & Scuba diving.
 1 FAMS @F276@
 1 FAMC @F481@
-0 @I1035@ INDI
+0 @I1034@ INDI
 1 NAME Laverne /Colt/
 2 GIVN Laverne
 2 SURN Colt
@@ -6815,7 +6804,7 @@
 2 DATE 1 Dec 1985
 2 PLAC , Lincoln, NE, USA
 1 FAMC @F60@
-0 @I802@ INDI
+0 @I801@ INDI
 1 NAME Elizabeth Lynn /Meyer/
 2 GIVN Elizabeth Lynn
 2 SURN Meyer
@@ -6830,7 +6819,7 @@
 1 OCCU Homemaker, Real Estate Agent
 1 FAMS @F252@
 1 FAMC @F251@
-0 @I819@ INDI
+0 @I818@ INDI
 1 NAME John Ernest /Meyer/
 2 GIVN John Ernest
 2 SURN Meyer
@@ -6861,7 +6850,7 @@
 1 FACT Janelle like soccer, gardening, reading, & raising Pug dogs.  Kevin is a sports fan & likes music & videos.
 1 FAMS @F34@
 1 FAMC @F33@
-0 @I816@ INDI
+0 @I815@ INDI
 1 NAME Steven Charles /Meyer/
 2 GIVN Steven Charles
 2 SURN Meyer
@@ -6896,7 +6885,7 @@
 1 FACT Daryl was very disciplined & determined young man,  He earned enough for a down payment on a new home by his 24th birthday.
 1 FACT Daryl's early death was a shame.  He would have made a fine husband & a wonderful father.  Quoted by his older brother, Duane.
 1 FAMC @F33@
-0 @I811@ INDI
+0 @I810@ INDI
 1 NAME William Scott /Meyer/
 2 GIVN William Scott
 2 SURN Meyer
@@ -6934,7 +6923,7 @@
 1 FACT Audrene made daughters wedding dress & dresses for all the attendants.
 1 FAMS @F33@
 1 FAMC @F302@
-0 @I775@ INDI
+0 @I774@ INDI
 1 NAME Michelle Nichole /Meyer/
 2 GIVN Michelle Nichole
 2 SURN Meyer
@@ -6944,7 +6933,7 @@
 2 PLAC , Brighton, CO, USA
 1 OCCU Student
 1 FAMC @F242@
-0 @I868@ INDI
+0 @I867@ INDI
 1 NAME Kelly Jean /Connor/
 2 GIVN Kelly Jean
 2 SURN Connor
@@ -6954,7 +6943,7 @@
 2 PLAC , Madison, WI, USA
 1 OCCU Student
 1 FAMC @F275@
-0 @I774@ INDI
+0 @I773@ INDI
 1 NAME David Brian /Meyer/
 2 GIVN David Brian
 2 SURN Meyer
@@ -7001,13 +6990,13 @@
 2 GIVN Jodie
 2 SURN Johnson
 1 REFN CustomGenCode:MAGA1E2a
-0 @I1209@ INDI
+0 @I1208@ INDI
 1 NAME Elsie //
 2 GIVN Elsie
 1 REFN CustomGenCode:MAIBA1sm
 1 SEX F
 1 FAMS @F453@
-0 @I801@ INDI
+0 @I800@ INDI
 1 NAME Carolyn Jeanette /Hamann/
 2 GIVN Carolyn Jeanette
 2 SURN Hamann
@@ -7019,7 +7008,7 @@
 1 OCCU Homemaker, Teacher
 1 FAMS @F251@
 1 FAMC @F459@
-0 @I1034@ INDI
+0 @I1033@ INDI
 1 NAME William /Suffield/
 2 GIVN William
 2 SURN Suffield
@@ -7073,7 +7062,7 @@
 2 PLAC Mt. Diablo Hosp. Concord, CA, USA
 1 FAMS @F38@
 1 FAMC @F35@
-0 @I872@ INDI
+0 @I871@ INDI
 1 NAME Caitlin Briann /Connor/
 2 GIVN Caitlin Briann
 2 SURN Connor
@@ -7101,7 +7090,7 @@
 1 FACT * Twins
 1 FAMS @F35@
 1 FAMC @F304@
-0 @I871@ INDI
+0 @I870@ INDI
 1 NAME Courtney Michelle /Connor/
 2 GIVN Courtney Michelle
 2 SURN Connor
@@ -7120,28 +7109,28 @@
 1 FACT National Honors Society
 1 FACT Music
 1 FAMC @F276@
-0 @I1255@ INDI
+0 @I1254@ INDI
 1 NAME Meyers /Melvin/
 2 GIVN Meyers
 2 SURN Melvin
 1 REFN CustomGenCode:MAJACA1sf
 1 SEX M
 1 FAMS @F477@
-0 @I944@ INDI
+0 @I943@ INDI
 1 NAME Chancy /Pyle/
 2 GIVN Chancy
 2 SURN Pyle
 1 REFN CustomGenCode:MABAA1sf
 1 SEX M
 1 FAMS @F314@
-0 @I824@ INDI
+0 @I823@ INDI
 1 NAME Irvin /Blackwell/
 2 GIVN Irvin
 2 SURN Blackwell
 1 REFN CustomGenCode:MAID2
 1 OCCU Farmer
 1 FAMS @F259@
-0 @I823@ INDI
+0 @I822@ INDI
 1 NAME Kerrill C /Hahn/
 2 GIVN Kerrill C
 2 SURN Hahn
@@ -7149,7 +7138,7 @@
 1 OCCU Farmer
 1 FAMS @F258@
 1 FAMC @F466@
-0 @I945@ INDI
+0 @I944@ INDI
 1 NAME Effie //
 2 GIVN Effie
 1 REFN CustomGenCode:MABAA1sm
@@ -7164,7 +7153,7 @@
 2 DATE 10 Apr 1981
 2 PLAC , Hayward, CA, USA
 1 FAMC @F39@
-0 @I749@ INDI
+0 @I748@ INDI
 1 NAME Donittia /Holland/
 2 GIVN Donittia
 2 SURN Holland
@@ -7181,7 +7170,7 @@
 2 DATE 24 Feb 1977
 2 PLAC , Hayward, CA, USA
 1 FAMC @F39@
-0 @I751@ INDI
+0 @I750@ INDI
 1 NAME Terri Lynn /Holland/
 2 GIVN Terri Lynn
 2 SURN Holland
@@ -7190,7 +7179,7 @@
 2 GIVN Linn?
 1 REFN CustomGenCode:MAHB1CB
 1 FAMC @F230@
-0 @I776@ INDI
+0 @I775@ INDI
 1 NAME Gayle Marie /Meyer/
 2 GIVN Gayle Marie
 2 SURN Meyer
@@ -7222,14 +7211,14 @@
 1 FACT She is an advocate for battered women & children within her job.
 1 FAMS @F11@
 1 FAMC @F285@
-0 @I1253@ INDI
+0 @I1252@ INDI
 1 NAME Lowell /Gano/
 2 GIVN Lowell
 2 SURN Gano
 1 REFN CustomGenCode:MAJAC1sf
 1 SEX M
 1 FAMS @F476@
-0 @I1231@ INDI
+0 @I1230@ INDI
 1 NAME Emma Jean /Mitchell/
 2 GIVN Emma Jean
 2 SURN Mitchell
@@ -7250,14 +7239,14 @@
 1 FACT She likes going to movies, traveling, camping, antigue shopping, baking, reading and going to the beach, especiallyif it's on the ocean.
 1 FACT She is an advocate for battered women & children within her job.
 1 FAMS @F12@
-0 @I1256@ INDI
+0 @I1255@ INDI
 1 NAME Mary Lee /Carlson/
 2 GIVN Mary Lee
 2 SURN Carlson
 1 REFN CustomGenCode:MAJACA1sm
 1 SEX F
 1 FAMS @F477@
-0 @I772@ INDI
+0 @I771@ INDI
 1 NAME William Louie /Meyer/
 2 GIVN William Louie
 2 SURN Meyer
@@ -7269,7 +7258,7 @@
 1 OCCU Manager, American Olean Tile
 1 FAMS @F242@
 1 FAMC @F234@
-0 @I765@ INDI
+0 @I764@ INDI
 1 NAME Roger Eugene /Meyer/
 2 GIVN Roger Eugene
 2 SURN Meyer
@@ -7286,7 +7275,7 @@
 1 OCCU Owned & Operated his own Accounting Business.  He worked for the Postal Service his last few years.
 1 FAMS @F239@
 1 FAMC @F234@
-0 @I757@ INDI
+0 @I756@ INDI
 1 NAME Glenda Rae /Meyer/
 2 GIVN Glenda Rae
 2 SURN Meyer
@@ -7352,7 +7341,7 @@
 1 FACT Genevieve enjoys softball, reading, her dolls & pets.
 1 FACT She survived a bone marrow transplant at the age of 5 at Johns Hopkins Hosp. Baltimore, MD.
 1 FAMC @F10@
-0 @I921@ INDI
+0 @I920@ INDI
 1 NAME Audrey Pearl /Tjdemann/
 2 GIVN Audrey Pearl
 2 SURN Tjdemann
@@ -7387,7 +7376,7 @@
 1 FAMS @F171@
 1 FAMS @F172@
 1 FAMC @F170@
-0 @I1079@ INDI
+0 @I1078@ INDI
 1 NAME Clayton LeRoy /Yoder/
 2 GIVN Clayton LeRoy
 2 SURN Yoder
@@ -7406,7 +7395,7 @@
 2 DATE May 1988
 2 PLAC St. John's United Church of Christ, Peterson, IA, USA
 1 FAMC @F74@
-0 @I1254@ INDI
+0 @I1253@ INDI
 1 NAME Ruby /Anderson/
 2 GIVN Ruby
 2 SURN Anderson
@@ -7460,7 +7449,7 @@
 2 PLAC Sioux Central HS, Sioux Rapids, IA, USA
 1 OCCU Laborer in Sioux Falls
 1 FAMC @F74@
-0 @I756@ INDI
+0 @I755@ INDI
 1 NAME Edith Ruth /Klatt/
 2 GIVN Edith Ruth
 2 SURN Klatt
@@ -7489,28 +7478,28 @@
 1 FACT * Easter Sunday
 1 FAMS @F234@
 1 FAMC @F445@
-0 @I1080@ INDI
+0 @I1079@ INDI
 1 NAME Evelyn Lorraine /Drury/
 2 GIVN Evelyn Lorraine
 2 SURN Drury
 1 REFN CustomGenCode:MADAAD1sm
 1 SEX F
 1 FAMS @F384@
-0 @I1230@ INDI
+0 @I1229@ INDI
 1 NAME Charles /King/
 2 GIVN Charles
 2 SURN King
 1 REFN CustomGenCode:MAICC1sf
 1 SEX M
 1 FAMS @F464@
-0 @I977@ INDI
+0 @I976@ INDI
 1 NAME Bertha LaVern /Smith/
 2 GIVN Bertha LaVern
 2 SURN Smith
 1 REFN CustomGenCode:MABCBB1sm
 1 SEX F
 1 FAMS @F331@
-0 @I795@ INDI
+0 @I794@ INDI
 1 NAME James Hale /Meyer/
 2 GIVN James Hale
 2 SURN Meyer
@@ -7522,7 +7511,7 @@
 1 OCCU Fabrication Machinist
 1 FAMS @F250@
 1 FAMC @F243@
-0 @I790@ INDI
+0 @I789@ INDI
 1 NAME Jane Marie /Meyer/
 2 GIVN Jane Marie
 2 SURN Meyer
@@ -7543,14 +7532,14 @@
 1 FAMS @F248@
 1 FAMS @F249@
 1 FAMC @F243@
-0 @I920@ INDI
+0 @I919@ INDI
 1 NAME Ray David /Anderson/ Sr
 2 GIVN Ray David
 2 SURN Anderson
 1 REFN CustomGenCode:MAADA1sf
 1 SEX M
 1 FAMS @F302@
-0 @I781@ INDI
+0 @I780@ INDI
 1 NAME Joyce Ann /Meyer/
 2 GIVN Joyce Ann
 2 SURN Meyer
@@ -7564,7 +7553,7 @@
 1 FACT Joyce enjoys gardening, making quilts, Snowmobiling & her grandchildren.  Johnenjoys restoring old cars & trucks & snowmobiling in the winter.
 1 FAMS @F245@
 1 FAMC @F243@
-0 @I779@ INDI
+0 @I778@ INDI
 1 NAME Janice Kay /Meyer/
 2 GIVN Janice Kay
 2 SURN Meyer
@@ -7595,28 +7584,28 @@
 1 OCCU Attorney
 1 FAMS @F40@
 1 FAMC @F306@
-0 @I1140@ INDI
+0 @I1139@ INDI
 1 NAME Harriet /Hazen/
 2 GIVN Harriet
 2 SURN Hazen
 1 REFN CustomGenCode:MAGA1C1sm
 1 SEX F
 1 FAMS @F416@
-0 @I1139@ INDI
+0 @I1138@ INDI
 1 NAME George /French/
 2 GIVN George
 2 SURN French
 1 REFN CustomGenCode:MAGA1C1sf
 1 SEX M
 1 FAMS @F416@
-0 @I976@ INDI
+0 @I975@ INDI
 1 NAME Dale Edward /French/
 2 GIVN Dale Edward
 2 SURN French
 1 REFN CustomGenCode:MABCBB1sf
 1 SEX M
 1 FAMS @F331@
-0 @I778@ INDI
+0 @I777@ INDI
 1 NAME Vivian Ruth /Wilson/
 2 GIVN Vivian Ruth
 2 SURN Wilson
@@ -7682,7 +7671,7 @@
 1 FAMS @F5@
 1 FAMS @F8@
 1 FAMC @F4@
-0 @I903@ INDI
+0 @I902@ INDI
 1 NAME William /Ringdahl/
 2 GIVN William
 2 SURN Ringdahl
@@ -7739,7 +7728,7 @@
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA, USA
 1 OCCU School Teacher
 1 FAMC @F199@
-0 @I904@ INDI
+0 @I903@ INDI
 1 NAME Ivy /Ranstrom/
 2 GIVN Ivy
 2 SURN Ranstrom
@@ -7925,14 +7914,14 @@
 1 OCCU Auto Mechanic, Farmer
 1 FAMS @F2@
 1 FAMC @F482@
-0 @I1166@ INDI
+0 @I1165@ INDI
 1 NAME Edward C /Bender/
 2 GIVN Edward C
 2 SURN Bender
 1 REFN CustomGenCode:MAGEA1sf
 1 SEX M
 1 FAMS @F430@
-0 @I1223@ INDI
+0 @I1222@ INDI
 1 NAME Eleanor W /Cook/
 2 GIVN Eleanor W
 2 SURN Cook
@@ -7972,7 +7961,7 @@
 1 FACT They both loved to dance, both ballroom and square dancing.  They both enjoyed reading.  Evelyn was a talented seamstress and enjoyed knitting and needlework.
 1 FAMS @F42@
 1 FAMC @F482@
-0 @I1222@ INDI
+0 @I1221@ INDI
 1 NAME Clarence W /McCauley/
 2 GIVN Clarence W
 2 SURN McCauley
@@ -8020,7 +8009,7 @@
 1 FACT Avis enjoys horseback riding, reading & gardening.
 1 FAMS @F10@
 1 FAMC @F284@
-0 @I792@ INDI
+0 @I791@ INDI
 1 NAME Amanda Lynn /Monroe/
 2 GIVN Amanda Lynn
 2 SURN Monroe
@@ -8077,7 +8066,7 @@
 1 FACT Robin served in the US Army from 1070 to 1972.
 1 FACT He likes to hunt, fish, hike & read.
 1 FAMC @F63@
-0 @I1143@ INDI
+0 @I1142@ INDI
 1 NAME Shirley /Deppe/
 2 GIVN Shirley
 2 SURN Deppe
@@ -8119,7 +8108,7 @@
 1 FACT She enjoys music, likes antiques, refinishes furniture and does fine art in charcoal.
 1 FAMS @F13@
 1 FAMC @F286@
-0 @I1077@ INDI
+0 @I1076@ INDI
 1 NAME William Verne /Ross/
 2 GIVN William Verne
 2 SURN Ross
@@ -8147,7 +8136,7 @@
 1 OCCU Homemaker
 1 FAMS @F204@
 1 FAMC @F428@
-0 @I1142@ INDI
+0 @I1141@ INDI
 1 NAME Eldon /Sorbe/
 2 GIVN Eldon
 2 SURN Sorbe
@@ -8176,7 +8165,7 @@
 1 FACT They both enjoy rock hounding & traveling.
 1 FAMS @F63@
 1 FAMC @F327@
-0 @I1078@ INDI
+0 @I1077@ INDI
 1 NAME Mary Eloise /Brinkley/
 2 GIVN Mary Eloise
 2 SURN Brinkley
@@ -8199,21 +8188,21 @@
 1 FAMS @F117@
 1 FAMS @F280@
 1 FAMC @F373@
-0 @I1243@ INDI
+0 @I1242@ INDI
 1 NAME Charles F /Rohrbaugh/
 2 GIVN Charles F
 2 SURN Rohrbaugh
 1 REFN CustomGenCode:MAJA1sf
 1 SEX M
 1 FAMS @F471@
-0 @I885@ INDI
+0 @I884@ INDI
 1 NAME William Albert /Boies/
 2 GIVN William Albert
 2 SURN Boies
 1 REFN CustomGenCode:MAABAC1sf
 1 SEX M
 1 FAMS @F284@
-0 @I1101@ INDI
+0 @I1100@ INDI
 1 NAME George /McDaniel/
 2 GIVN George
 2 SURN McDaniel
@@ -8245,14 +8234,14 @@
 1 FACT * Twins
 1 FAMS @F67@
 1 FAMC @F65@
-0 @I1102@ INDI
+0 @I1101@ INDI
 1 NAME Ellen /Dietrich/
 2 GIVN Ellen
 2 SURN Dietrich
 1 REFN CustomGenCode:MADABD1sm
 1 SEX F
 1 FAMS @F395@
-0 @I984@ INDI
+0 @I983@ INDI
 1 NAME Duane Olin /Anderson/
 2 GIVN Duane Olin
 2 SURN Anderson
@@ -8319,7 +8308,7 @@
 1 FACT They took trips to Europe and Norway in 1980 & 1990 and to Israel & Egypt in 1992.
 1 FAMS @F20@
 1 FAMC @F292@
-0 @I985@ INDI
+0 @I984@ INDI
 1 NAME Phyllis Jean /Struve/
 2 GIVN Phyllis Jean
 2 SURN Struve
@@ -8388,7 +8377,7 @@
 1 FACT Boy Scouts of America (Wehelo)
 1 FACT Phil likes to draw & collect comic books.
 1 FAMC @F18@
-0 @I827@ INDI
+0 @I826@ INDI
 1 NAME Burdette /Kraemer/
 2 GIVN Burdette
 2 SURN Kraemer
@@ -8399,7 +8388,7 @@
 1 OCCU Farmer
 1 FAMS @F261@
 1 FAMC @F468@
-0 @I826@ INDI
+0 @I825@ INDI
 1 NAME Francis DeWayne /Larsen/
 2 GIVN Francis DeWayne
 2 SURN Larsen
@@ -8428,14 +8417,14 @@
 1 OCCU Bartender
 1 FAMS @F65@
 1 FAMC @F329@
-0 @I886@ INDI
+0 @I885@ INDI
 1 NAME Claudia Rosella /Cecile/
 2 GIVN Claudia Rosella
 2 SURN Cecile
 1 REFN CustomGenCode:MAABAC1sm
 1 SEX F
 1 FAMS @F284@
-0 @I1264@ INDI
+0 @I1263@ INDI
 1 NAME Anna Katherine Marie /Rose/
 2 GIVN Anna Katherine Marie
 2 SURN Rose
@@ -8558,14 +8547,14 @@
 2 DATE 30 Jan 1988
 2 PLAC , Sioux City, IA, USA
 1 FAMC @F67@
-0 @I979@ INDI
+0 @I978@ INDI
 1 NAME Bessie Viola /Allen/
 2 GIVN Bessie Viola
 2 SURN Allen
 1 REFN CustomGenCode:MABCC1sm
 1 SEX F
 1 FAMS @F332@
-0 @I1024@ INDI
+0 @I1023@ INDI
 1 NAME Robert Ronald /Rushton/
 2 GIVN Robert Ronald
 2 SURN Rushton
@@ -8586,7 +8575,7 @@
 1 FACT Gary served in the US Marine Corps in the Pacific Theatre from 1973 to 1976.
 1 FAMS @F145@
 1 FAMC @F398@
-0 @I1096@ INDI
+0 @I1095@ INDI
 1 NAME Ellen //
 2 GIVN Ellen
 1 REFN CustomGenCode:MADABBA1sm
@@ -8604,14 +8593,14 @@
 1 OCCU Salesman, R.J. Reynolds
 1 FAMS @F197@
 1 FAMC @F195@
-0 @I978@ INDI
+0 @I977@ INDI
 1 NAME Harry Ernest /Brown/
 2 GIVN Harry Ernest
 2 SURN Brown
 1 REFN CustomGenCode:MABCC1sf
 1 SEX M
 1 FAMS @F332@
-0 @I1095@ INDI
+0 @I1094@ INDI
 1 NAME Mark /Jones/
 2 GIVN Mark
 2 SURN Jones
@@ -8637,7 +8626,7 @@
 1 OCCU Medical Technologist
 1 FAMS @F196@
 1 FAMC @F195@
-0 @I832@ INDI
+0 @I831@ INDI
 1 NAME Michael Warren /Meyer/
 2 GIVN Michael Warren
 2 SURN Meyer
@@ -8647,7 +8636,7 @@
 2 PLAC , Concord, CA, USA
 1 OCCU Retail Sales
 1 FAMC @F262@
-0 @I1025@ INDI
+0 @I1024@ INDI
 1 NAME Irma May /Vogel/
 2 GIVN Irma May
 2 SURN Vogel
@@ -8667,7 +8656,7 @@
 2 PLAC St. John's Cem. Peterson, IA, USA
 1 FACT Died in infancy.
 1 FAMC @F68@
-0 @I831@ INDI
+0 @I830@ INDI
 1 NAME Kelly Christopher /Meyer/
 2 GIVN Kelly Christopher
 2 SURN Meyer
@@ -8919,7 +8908,7 @@
 1 OCCU Veterans Administrative Hosp.
 1 FAMS @F98@
 1 FAMC @F47@
-0 @I830@ INDI
+0 @I829@ INDI
 1 NAME Caroline Jane /Stoner/
 2 GIVN Caroline Jane
 2 SURN Stoner
@@ -8931,7 +8920,7 @@
 1 OCCU Homemaker, Teacher
 1 FAMS @F262@
 1 FAMC @F469@
-0 @I1244@ INDI
+0 @I1243@ INDI
 1 NAME Eva E /Cunningham/
 2 GIVN Eva E
 2 SURN Cunningham
@@ -8991,7 +8980,7 @@
 1 OCCU Farmer
 1 FAMS @F153@
 1 FAMC @F404@
-0 @I1017@ INDI
+0 @I1016@ INDI
 1 NAME Karolyn Kay /Rinke/
 2 GIVN Karolyn Kay
 2 SURN Rinke
@@ -9017,14 +9006,14 @@
 1 OCCU Railroad Brakeman
 1 FAMS @F146@
 1 FAMC @F399@
-0 @I881@ INDI
+0 @I880@ INDI
 1 NAME John /Sorebo/
 2 GIVN John
 2 SURN Sorebo
 1 REFN CustomGenCode:MAABAA1sf
 1 SEX M
 1 FAMS @F282@
-0 @I1085@ INDI
+0 @I1084@ INDI
 1 NAME Robert /Pelster/
 2 GIVN Robert
 2 SURN Pelster
@@ -9063,7 +9052,7 @@
 1 REFN CustomGenCode:MAECB
 1 FAMS @F161@
 1 FAMC @F160@
-0 @I1016@ INDI
+0 @I1015@ INDI
 1 NAME Kermit Magnus /Lyngaas/
 2 GIVN Kermit Magnus
 2 SURN Lyngaas
@@ -9117,7 +9106,7 @@
 1 FACT Retired from farming in 1994.
 1 FAMS @F160@
 1 FAMC @F153@
-0 @I1274@ INDI
+0 @I1273@ INDI
 1 NAME George Wesley /Hudson/ Jr Garvey
 2 GIVN George Wesley
 2 SURN Hudson
@@ -9209,7 +9198,7 @@
 1 NAME /Third child/
 2 SURN Third child
 1 REFN CustomGenCode:MAFC1A2c
-0 @I1259@ INDI
+0 @I1258@ INDI
 1 NAME Ray /Glenn/
 2 GIVN Ray
 2 SURN Glenn
@@ -9247,14 +9236,14 @@
 2 PLAC , Carpio, ND, USA
 1 OCCU Farmer
 1 FAMS @F164@
-0 @I1086@ INDI
+0 @I1085@ INDI
 1 NAME Beverly /Schwab/
 2 GIVN Beverly
 2 SURN Schwab
 1 REFN CustomGenCode:MADAAF1sm
 1 SEX F
 1 FAMS @F387@
-0 @I882@ INDI
+0 @I881@ INDI
 1 NAME Marion /Schwecke/
 2 GIVN Marion
 2 SURN Schwecke
@@ -9276,14 +9265,14 @@
 1 OCCU Homemaker
 1 FAMS @F123@
 1 FAMC @F377@
-0 @I969@ INDI
+0 @I968@ INDI
 1 NAME Irva L /Murdock/
 2 GIVN Irva L
 2 SURN Murdock
 1 REFN CustomGenCode:MABCA1sm
 1 SEX F
 1 FAMS @F327@
-0 @I803@ INDI
+0 @I802@ INDI
 1 NAME Larry /McCauley/
 2 GIVN Larry
 2 SURN McCauley
@@ -9295,7 +9284,7 @@
 1 OCCU Building Contractor
 1 FAMS @F252@
 1 FAMC @F460@
-0 @I968@ INDI
+0 @I967@ INDI
 1 NAME Charles R /Evans/
 2 GIVN Charles R
 2 SURN Evans
@@ -9309,7 +9298,7 @@
 1 REFN CustomGenCode:MAEE1
 1 SEX M
 1 FAMS @F162@
-0 @I1030@ INDI
+0 @I1029@ INDI
 1 NAME George /Kolpin/
 2 GIVN George
 2 SURN Kolpin
@@ -9471,21 +9460,21 @@
 1 FACT Brian belongs to the 4-H Club.
 1 FACT He assembles model rockets.
 1 FAMC @F16@
-0 @I1031@ INDI
+0 @I1030@ INDI
 1 NAME Caroline /Ruebsan/
 2 GIVN Caroline
 2 SURN Ruebsan
 1 REFN CustomGenCode:MABG1sm
 1 SEX F
 1 FAMS @F358@
-0 @I905@ INDI
+0 @I904@ INDI
 1 NAME Robert /Thielen/
 2 GIVN Robert
 2 SURN Thielen
 1 REFN CustomGenCode:MAABC1C1sf
 1 SEX M
 1 FAMS @F294@
-0 @I812@ INDI
+0 @I811@ INDI
 1 NAME Linda Carol /Friend/
 2 GIVN Linda Carol
 2 SURN Friend
@@ -9521,7 +9510,7 @@
 2 SURN Larsen
 1 REFN CustomGenCode:MAEAA
 1 FAMC @F154@
-0 @I810@ INDI
+0 @I809@ INDI
 1 NAME Gayle Elizabeth /McCAULEY/
 2 GIVN Gayle Elizabeth
 2 SURN McCAULEY
@@ -9543,7 +9532,7 @@
 1 OCCU Homemaker, Nursing, Missionary
 1 FAMS @F208@
 1 FAMC @F205@
-0 @I794@ INDI
+0 @I793@ INDI
 1 NAME Benjamin /Weins/
 2 GIVN Benjamin
 2 SURN Weins
@@ -9551,7 +9540,7 @@
 1 BIRT
 2 DATE 19 Apr 1982
 1 FAMC @F249@
-0 @I809@ INDI
+0 @I808@ INDI
 1 NAME Deborah Jean /McCAULEY/
 2 GIVN Deborah Jean
 2 SURN McCAULEY
@@ -9608,14 +9597,14 @@
 1 FAMS @F181@
 1 FAMS @F189@
 1 FAMC @F180@
-0 @I931@ INDI
+0 @I930@ INDI
 1 NAME Brigetta /Petersen/
 2 GIVN Brigetta
 2 SURN Petersen
 1 REFN CustomGenCode:MAAE1sm
 1 SEX F
 1 FAMS @F307@
-0 @I906@ INDI
+0 @I905@ INDI
 1 NAME Margaret /Fritz/
 2 GIVN Margaret
 2 SURN Fritz
@@ -9654,21 +9643,21 @@
 1 OCCU Linotype Operater
 1 FAMS @F204@
 1 FAMC @F180@
-0 @I930@ INDI
+0 @I929@ INDI
 1 NAME Peder /Lauritzen/
 2 GIVN Peder
 2 SURN Lauritzen
 1 REFN CustomGenCode:MAAE1sf
 1 SEX M
 1 FAMS @F307@
-0 @I1194@ INDI
+0 @I1193@ INDI
 1 NAME Anna Christina /Heick/
 2 GIVN Anna Christina
 2 SURN Heick
 1 REFN CustomGenCode:MAIA1sm
 1 SEX F
 1 FAMS @F445@
-0 @I1225@ INDI
+0 @I1224@ INDI
 1 NAME Ardith /Johnson/
 2 GIVN Ardith
 2 SURN Johnson
@@ -9687,7 +9676,7 @@
 1 OCCU Farmer
 1 FAMS @F199@
 1 FAMC @F180@
-0 @I807@ INDI
+0 @I806@ INDI
 1 NAME Diane Eleanor /McCAULEY/
 2 GIVN Diane Eleanor
 2 SURN McCAULEY
@@ -9698,7 +9687,7 @@
 1 OCCU Bookkeeper, Student Pilot
 1 FAMS @F254@
 1 FAMC @F252@
-0 @I804@ INDI
+0 @I803@ INDI
 1 NAME Lynn Louise /McCAULEY/
 2 GIVN Lynn Louise
 2 SURN McCAULEY
@@ -9710,14 +9699,14 @@
 1 OCCU Homemaker,
 1 FAMS @F253@
 1 FAMC @F252@
-0 @I1193@ INDI
+0 @I1192@ INDI
 1 NAME Louis Frederick /Klatt/
 2 GIVN Louis Frederick
 2 SURN Klatt
 1 REFN CustomGenCode:MAIA1sf
 1 SEX M
 1 FAMS @F445@
-0 @I1185@ INDI
+0 @I1184@ INDI
 1 NAME Earl /Tolzin/
 2 GIVN Earl
 2 SURN Tolzin
@@ -9734,7 +9723,7 @@
 2 PLAC , Lynnwood, WA, USA
 1 OCCU Small Business, Automotive
 1 FAMC @F171@
-0 @I1224@ INDI
+0 @I1223@ INDI
 1 NAME Gene /Tipping/
 2 GIVN Gene
 2 SURN Tipping
@@ -9780,7 +9769,7 @@
 1 OCCU Farmer
 1 FAMS @F209@
 1 FAMC @F433@
-0 @I1186@ INDI
+0 @I1185@ INDI
 1 NAME Ruby /Nelson/
 2 GIVN Ruby
 2 SURN Nelson
@@ -9864,7 +9853,7 @@
 1 FACT Roger and Carol have been honored as Paul Harris Fellows for their work in Youth Exchange. Roger was named to the athletic Hall of Fame of John Jay H. S. Wappingers & of Peekskill H.S. for his achievements & work in wrestling.
 1 FAMS @F126@
 1 FAMC @F380@
-0 @I817@ INDI
+0 @I816@ INDI
 1 NAME Sandra Gail /King/
 2 GIVN Sandra Gail
 2 SURN King
@@ -10054,7 +10043,7 @@
 1 FACT They spent the last 20 winters in Arizona.
 1 FAMS @F165@
 1 FAMC @F164@
-0 @I815@ INDI
+0 @I814@ INDI
 1 NAME Heather Margot /Meyer/
 2 GIVN Heather Margot
 2 SURN Meyer
@@ -10063,7 +10052,7 @@
 2 DATE 9 Jul 1989
 2 PLAC , Los Angeles, CA, USA
 1 FAMC @F255@
-0 @I814@ INDI
+0 @I813@ INDI
 1 NAME Emily Beth /Meyer/
 2 GIVN Emily Beth
 2 SURN Meyer
@@ -10093,7 +10082,7 @@
 1 FACT Grant enjoys mountain biking, juggling and racquetball.  He wrestled for five years in High School.
 1 FACT He has traveled many parts of the world including Europe, Japan, India and China.  He spent a year in Turkey as a Rotary International Exchange student.
 1 FAMC @F126@
-0 @I813@ INDI
+0 @I812@ INDI
 1 NAME Rachel Sarah /Meyer/
 2 GIVN Rachel Sarah
 2 SURN Meyer
@@ -10164,7 +10153,7 @@
 1 OCCU Homemaker
 1 FAMS @F180@
 1 FAMC @F412@
-0 @I820@ INDI
+0 @I819@ INDI
 1 NAME Kathleen Joanne /Lewis/
 2 GIVN Kathleen Joanne
 2 SURN Lewis
@@ -10176,7 +10165,7 @@
 1 OCCU Homemaker, Office Worker
 1 FAMS @F257@
 1 FAMC @F465@
-0 @I1245@ INDI
+0 @I1244@ INDI
 1 NAME Ed /Walter/
 2 GIVN Ed
 2 SURN Walter
@@ -10210,7 +10199,7 @@
 1 FAMS @F484@
 1 FAMS @F485@
 1 FAMC @F339@
-0 @I822@ INDI
+0 @I821@ INDI
 1 NAME June Anna /Meyer/
 2 GIVN June Anna
 2 SURN Meyer
@@ -10224,7 +10213,7 @@
 1 FAMS @F258@
 1 FAMS @F259@
 1 FAMC @F233@
-0 @I800@ INDI
+0 @I799@ INDI
 1 NAME Connie William /Meyer/
 2 GIVN Connie William
 2 SURN Meyer
@@ -10236,7 +10225,7 @@
 1 OCCU US Navy, Farmer, School Admistrtr
 1 FAMS @F251@
 1 FAMC @F233@
-0 @I777@ INDI
+0 @I776@ INDI
 1 NAME Boyd Hale /Meyer/
 2 GIVN Boyd Hale
 2 SURN Meyer
@@ -10251,7 +10240,7 @@
 1 OCCU Farmer
 1 FAMS @F243@
 1 FAMC @F233@
-0 @I755@ INDI
+0 @I754@ INDI
 1 NAME Phillip Scott /Meyer/
 2 GIVN Phillip Scott
 2 SURN Meyer
@@ -10281,7 +10270,7 @@
 2 SURN Kingston
 1 REFN CustomGenCode:MAEGA
 1 FAMC @F163@
-0 @I1009@ INDI
+0 @I1008@ INDI
 1 NAME Jean /King/
 2 GIVN Jean
 2 SURN King
@@ -10300,7 +10289,7 @@
 1 OCCU Teacher, Coach
 1 FAMS @F76@
 1 FAMC @F340@
-0 @I829@ INDI
+0 @I828@ INDI
 1 NAME Donald Thomas /Meyer/
 2 GIVN Donald Thomas
 2 SURN Meyer
@@ -10312,7 +10301,7 @@
 1 OCCU US Gov. Safety Engineer
 1 FAMS @F262@
 1 FAMC @F233@
-0 @I825@ INDI
+0 @I824@ INDI
 1 NAME Bonnie Lou /Meyer/
 2 GIVN Bonnie Lou
 2 SURN Meyer
@@ -10325,7 +10314,7 @@
 1 FAMS @F260@
 1 FAMS @F261@
 1 FAMC @F233@
-0 @I1221@ INDI
+0 @I1220@ INDI
 1 NAME Elizabeth B /Kolpin/
 2 GIVN Elizabeth B
 2 SURN Kolpin
@@ -10380,7 +10369,7 @@
 2 SURN Kingston
 1 REFN CustomGenCode:MAEGB
 1 FAMC @F163@
-0 @I818@ INDI
+0 @I817@ INDI
 1 NAME Justin Conrad /Meyer/
 2 GIVN Justin Conrad
 2 SURN Meyer
@@ -10405,7 +10394,7 @@
 1 FAMS @F130@
 1 FAMS @F489@
 1 FAMC @F383@
-0 @I834@ INDI
+0 @I833@ INDI
 1 NAME Charles Frederick /Fastenow/
 2 GIVN Charles Frederick
 2 SURN Fastenow
@@ -10420,7 +10409,7 @@
 1 OCCU Farmer
 1 FAMS @F263@
 1 FAMC @F470@
-0 @I1220@ INDI
+0 @I1219@ INDI
 1 NAME Charles J /Hamann/
 2 GIVN Charles J
 2 SURN Hamann
@@ -10447,14 +10436,14 @@
 1 BIRT
 2 DATE 11 Mar 2002
 1 FAMC @F87@
-0 @I1246@ INDI
+0 @I1245@ INDI
 1 NAME Ruth /Zarr/
 2 GIVN Ruth
 2 SURN Zarr
 1 REFN CustomGenCode:MAJAA1sm
 1 SEX F
 1 FAMS @F472@
-0 @I1008@ INDI
+0 @I1007@ INDI
 1 NAME Stanley /Hawes/
 2 GIVN Stanley
 2 SURN Hawes
@@ -10473,7 +10462,7 @@
 1 OCCU Homemaker, Teacher
 1 FAMS @F101@
 1 FAMC @F100@
-0 @I1174@ INDI
+0 @I1173@ INDI
 1 NAME Minnie Gustara Gunderson /Moe/
 2 GIVN Minnie Gustara Gunderson
 2 SURN Moe
@@ -10545,7 +10534,7 @@
 1 OCCU Homemaker, Banking
 1 FAMS @F103@
 1 FAMC @F100@
-0 @I1061@ INDI
+0 @I1060@ INDI
 1 NAME Marie /Dahl/
 2 GIVN Marie
 2 SURN Dahl
@@ -10632,7 +10621,7 @@
 1 OCCU Student
 1 FAMS @F106@
 1 FAMC @F100@
-0 @I758@ INDI
+0 @I757@ INDI
 1 NAME Dale Kenley /Sewell/
 2 GIVN Dale Kenley
 2 SURN Sewell
@@ -10659,14 +10648,14 @@
 1 FACT * Baptized on Easter Sunday.
 1 FAMS @F235@
 1 FAMC @F446@
-0 @I1173@ INDI
+0 @I1172@ INDI
 1 NAME Charles Sigfried /Sederstrom/
 2 GIVN Charles Sigfried
 2 SURN Sederstrom
 1 REFN CustomGenCode:MAHA1sf
 1 SEX M
 1 FAMS @F434@
-0 @I710@ INDI
+0 @I709@ INDI
 1 NAME Beatrice /Mohror/
 2 GIVN Beatrice
 2 SURN Mohror
@@ -10679,7 +10668,7 @@
 1 FAMS @F219@
 1 FAMS @F232@
 1 FAMC @F209@
-0 @I1060@ INDI
+0 @I1059@ INDI
 1 NAME Peder /Larsen/
 2 GIVN Peder
 2 SURN Larsen
@@ -10702,7 +10691,7 @@
 1 OCCU Farmer, Locker Worker
 1 FAMS @F210@
 1 FAMC @F209@
-0 @I821@ INDI
+0 @I820@ INDI
 1 NAME Lauren Kay /Meyer/
 2 GIVN Lauren Kay
 2 SURN Meyer
@@ -10825,7 +10814,7 @@
 2 PLAC , Sioux Falls, SD, USA
 1 OCCU Student
 1 FAMC @F58@
-0 @I754@ INDI
+0 @I753@ INDI
 1 NAME Linna Anna /Scott/
 2 GIVN Linna Anna
 2 SURN Scott
@@ -10852,7 +10841,7 @@
 1 OCCU Homemaker
 1 FAMS @F108@
 1 FAMC @F107@
-0 @I766@ INDI
+0 @I765@ INDI
 1 NAME Merle /Weems/
 2 GIVN Merle
 2 SURN Weems
@@ -10881,7 +10870,7 @@
 2 DATE 13 Jun 1992
 2 PLAC Marion Health Center, Sioux City, Ia, USA
 1 FAMC @F85@
-0 @I1263@ INDI
+0 @I1262@ INDI
 1 NAME Luella Mae //
 2 GIVN Luella Mae
 1 REFN CustomGenCode:MAJBC1sm
@@ -10897,7 +10886,7 @@
 2 PLAC , Arlington, TX, USA
 1 OCCU Student
 1 FAMC @F57@
-0 @I860@ INDI
+0 @I859@ INDI
 1 NAME Jean /Glenn/
 2 GIVN Jean
 2 SURN Glenn
@@ -10954,7 +10943,7 @@
 2 SURN Peters
 1 REFN CustomGenCode:MAEEB
 1 FAMC @F162@
-0 @I763@ INDI
+0 @I762@ INDI
 1 NAME Kip Kenley /Sewell/
 2 GIVN Kip Kenley
 2 SURN Sewell
@@ -10980,7 +10969,7 @@
 2 SURN Peters
 1 REFN CustomGenCode:MAEEA
 1 FAMC @F162@
-0 @I762@ INDI
+0 @I761@ INDI
 1 NAME Robin Ruth /Sewell/
 2 GIVN Robin Ruth
 2 SURN Sewell
@@ -10995,7 +10984,7 @@
 1 FACT Robin earned a D.V.M. from Washington State University. She earned her Masters degree in Library Science, from University with grants from the National Institute of Health.
 1 FACT Gardening, home remodeling, and bird watching
 1 FAMC @F235@
-0 @I759@ INDI
+0 @I758@ INDI
 1 NAME Laura LuVern /Sewell/
 2 GIVN Laura LuVern
 2 SURN Sewell
@@ -11011,7 +11000,7 @@
 1 FAMS @F236@
 1 FAMS @F237@
 1 FAMC @F235@
-0 @I1262@ INDI
+0 @I1261@ INDI
 1 NAME George August Albert /Pagel/
 2 GIVN George August Albert
 2 SURN Pagel
@@ -11081,7 +11070,7 @@
 1 REFN CustomGenCode:MAEG1
 1 SEX M
 1 FAMS @F163@
-0 @I867@ INDI
+0 @I866@ INDI
 1 NAME Nancy Lee /Love/
 2 GIVN Nancy Lee
 2 SURN Love
@@ -11093,7 +11082,7 @@
 1 OCCU Homemaker
 1 FAMS @F275@
 1 FAMC @F480@
-0 @I773@ INDI
+0 @I772@ INDI
 1 NAME Dora Mae /Manzanares/
 2 GIVN Dora Mae
 2 SURN Manzanares
@@ -11117,7 +11106,7 @@
 1 OCCU Homemaker
 1 FAMS @F119@
 1 FAMC @F375@
-0 @I835@ INDI
+0 @I834@ INDI
 1 NAME Jesse Wilbur /Fastenow/
 2 GIVN Jesse Wilbur
 2 SURN Fastenow
@@ -11200,7 +11189,7 @@
 2 PLAC , Sewart AFB, TN, USA
 1 OCCU Student
 1 FAMC @F110@
-0 @I857@ INDI
+0 @I856@ INDI
 1 NAME Audrey Louise /Fastenow/
 2 GIVN Audrey Louise
 2 SURN Fastenow
@@ -11212,7 +11201,7 @@
 1 OCCU Homemaker
 1 FAMS @F272@
 1 FAMC @F263@
-0 @I767@ INDI
+0 @I766@ INDI
 1 NAME Ross Eugene /Meyer/
 2 GIVN Ross Eugene
 2 SURN Meyer
@@ -11249,7 +11238,7 @@
 1 FACT John served in Viet Naum.
 1 FAMS @F57@
 1 FAMC @F322@
-0 @I865@ INDI
+0 @I864@ INDI
 1 NAME Catherine Ann /Connor/
 2 GIVN Catherine Ann
 2 SURN Connor
@@ -11259,14 +11248,14 @@
 2 PLAC , Rocky River, OH, USA
 1 OCCU Student
 1 FAMC @F273@
-0 @I1156@ INDI
+0 @I1155@ INDI
 1 NAME Robert Dale /Grienke/
 2 GIVN Robert Dale
 2 SURN Grienke
 1 REFN CustomGenCode:MAGCA1sf
 1 SEX M
 1 FAMS @F425@
-0 @I862@ INDI
+0 @I861@ INDI
 1 NAME Julie /Connor/
 2 GIVN Julie
 2 SURN Connor
@@ -11278,7 +11267,7 @@
 1 OCCU Student
 1 FAMS @F274@
 1 FAMC @F273@
-0 @I770@ INDI
+0 @I769@ INDI
 1 NAME Russ Edward /Meyer/
 2 GIVN Russ Edward
 2 SURN Meyer
@@ -11289,7 +11278,7 @@
 1 OCCU Welder/Mechanic
 1 FAMS @F241@
 1 FAMC @F239@
-0 @I861@ INDI
+0 @I860@ INDI
 1 NAME Colleen L /Connor/
 2 GIVN Colleen L
 2 SURN Connor
@@ -11299,7 +11288,7 @@
 2 PLAC , St. Paul, MN, USA
 1 OCCU Student
 1 FAMC @F273@
-0 @I1189@ INDI
+0 @I1188@ INDI
 1 NAME Chris /Henrikson/
 2 GIVN Chris
 2 SURN Henrikson
@@ -11338,7 +11327,7 @@
 1 FACT Douglas has spent six years rebuilding a Camero.  He enjoys rebuilding & reprogramming computers.
 1 FAMS @F134@
 1 FAMC @F387@
-0 @I1157@ INDI
+0 @I1156@ INDI
 1 NAME Josephine Hazel /Husman/
 2 GIVN Josephine Hazel
 2 SURN Husman
@@ -11377,7 +11366,7 @@
 1 FACT Darren is a faithful Accolite in the Congregational Church.
 1 FACT Sports
 1 FAMC @F84@
-0 @I1190@ INDI
+0 @I1189@ INDI
 1 NAME Bertha /Brunick/
 2 GIVN Bertha
 2 SURN Brunick
@@ -11422,14 +11411,14 @@
 1 FACT * Her parents made her stop school at the end of 10th grade.  Enough training for a farmer's wife.
 1 FAMS @F32@
 1 FAMC @F301@
-0 @I912@ INDI
+0 @I911@ INDI
 1 NAME May W /Dunn/
 2 GIVN May W
 2 SURN Dunn
 1 REFN CustomGenCode:MAAC1sm
 1 SEX F
 1 FAMS @F297@
-0 @I1064@ INDI
+0 @I1063@ INDI
 1 NAME /Homemaker/
 2 SURN Homemaker
 1 REFN CustomGenCode:MACCA1sm
@@ -11459,14 +11448,14 @@
 1 OCCU Homemaker, Secretary
 1 FAMS @F26@
 1 FAMC @F25@
-0 @I911@ INDI
+0 @I910@ INDI
 1 NAME Henry Harrison /Hines/
 2 GIVN Henry Harrison
 2 SURN Hines
 1 REFN CustomGenCode:MAAC1sf
 1 SEX M
 1 FAMS @F297@
-0 @I1022@ INDI
+0 @I1021@ INDI
 1 NAME Donald E /Hoover/
 2 GIVN Donald E
 2 SURN Hoover
@@ -11486,14 +11475,14 @@
 1 FAMS @F30@
 1 FAMS @F31@
 1 FAMC @F25@
-0 @I895@ INDI
+0 @I894@ INDI
 1 NAME Albert William /Krueger/
 2 GIVN Albert William
 2 SURN Krueger
 1 REFN CustomGenCode:MAABB1B1sf
 1 SEX M
 1 FAMS @F289@
-0 @I1023@ INDI
+0 @I1022@ INDI
 1 NAME Violet R /Walsh/
 2 GIVN Violet R
 2 SURN Walsh
@@ -11512,7 +11501,7 @@
 1 OCCU Machinist
 1 FAMS @F28@
 1 FAMC @F25@
-0 @I1107@ INDI
+0 @I1106@ INDI
 1 NAME Clemence Joseph /Folz/
 2 GIVN Clemence Joseph
 2 SURN Folz
@@ -11552,7 +11541,7 @@
 2 DATE 8 Dec 1988
 2 PLAC Sioux Valley Memorial Hosp. Cherokee, IA, USA
 1 FAMC @F83@
-0 @I896@ INDI
+0 @I895@ INDI
 1 NAME Irma Lillian /Firchay/
 2 GIVN Irma Lillian
 2 SURN Firchay
@@ -11568,7 +11557,7 @@
 2 DATE 20 May 1991
 2 PLAC Sioux Valley Memorial Hosp. Cherokee, IA, USA
 1 FAMC @F83@
-0 @I1108@ INDI
+0 @I1107@ INDI
 1 NAME Monica Mary /Hine/
 2 GIVN Monica Mary
 2 SURN Hine
@@ -11605,7 +11594,7 @@
 1 FACT They both loved to dance, both ballroom and square dancing.  They both enjoyed reading.  Evelyn was a talented seamstress and enjoyed knitting and needlework.
 1 FAMS @F42@
 1 FAMC @F307@
-0 @I1134@ INDI
+0 @I1133@ INDI
 1 NAME Nick /Lindquist/
 2 GIVN Nick
 2 SURN Lindquist
@@ -11642,7 +11631,7 @@
 2 DATE 12 Jun 1987
 2 PLAC , Louton, VA, USA
 1 FAMC @F208@
-0 @I1135@ INDI
+0 @I1134@ INDI
 1 NAME Anna /Anderson/
 2 GIVN Anna
 2 SURN Anderson
@@ -11672,7 +11661,7 @@
 1 FACT * Twins
 1 FAMS @F35@
 1 FAMC @F32@
-0 @I1011@ INDI
+0 @I1010@ INDI
 1 NAME Sandra Sue /Sauter/
 2 GIVN Sandra Sue
 2 SURN Sauter
@@ -11732,7 +11721,7 @@
 1 OCCU Computer Analyst
 1 FAMS @F39@
 1 FAMC @F32@
-0 @I1010@ INDI
+0 @I1009@ INDI
 1 NAME Donald Harvey /Goettsch/
 2 GIVN Donald Harvey
 2 SURN Goettsch
@@ -11777,14 +11766,14 @@
 2 PLAC , Rockford, IL, USA
 1 OCCU Student
 1 FAMC @F489@
-0 @I1242@ INDI
+0 @I1241@ INDI
 1 NAME Louiesia /Kracht/
 2 GIVN Louiesia
 2 SURN Kracht
 1 REFN CustomGenCode:MAJ1sm
 1 SEX F
 1 FAMS @F470@
-0 @I1241@ INDI
+0 @I1240@ INDI
 1 NAME William /Fastenow/
 2 GIVN William
 2 SURN Fastenow
@@ -11805,7 +11794,7 @@
 1 OCCU Homemaker
 1 FAMS @F25@
 1 FAMC @F297@
-0 @I923@ INDI
+0 @I922@ INDI
 1 NAME /Foster Margaret Ann/
 2 SURN Foster Margaret Ann
 1 REFN CustomGenCode:MAADAC1sm
@@ -11879,13 +11868,13 @@
 1 FACT Special Olympics
 1 FACT Swimming & listening to music
 1 FAMC @F166@
-0 @I1179@ INDI
+0 @I1178@ INDI
 1 NAME Florence //
 2 GIVN Florence
 1 REFN CustomGenCode:MAHAB1sm
 1 SEX F
 1 FAMS @F437@
-0 @I849@ INDI
+0 @I848@ INDI
 1 NAME Brandi Kay /Williams/
 2 GIVN Brandi Kay
 2 SURN Williams
@@ -11909,14 +11898,14 @@
 1 OCCU Homemaker & Clerk at Savings & Loan
 1 FAMS @F183@
 1 FAMC @F415@
-0 @I1178@ INDI
+0 @I1177@ INDI
 1 NAME Henry /Kruger/
 2 GIVN Henry
 2 SURN Kruger
 1 REFN CustomGenCode:MAHAB1sf
 1 SEX M
 1 FAMS @F437@
-0 @I961@ INDI
+0 @I960@ INDI
 1 NAME Eva Maxine /Caswell/
 2 GIVN Eva Maxine
 2 SURN Caswell
@@ -11990,7 +11979,7 @@
 1 FACT Burt likes to travel, yard work and helps with the Echo Food Shelf.  Ann enjoys sewing, knitting & baking.  They both enjoy their family, especially the grand children and do volunteer work.
 1 FAMS @F4@
 1 FAMC @F118@
-0 @I922@ INDI
+0 @I921@ INDI
 1 NAME Ron J /Henrickson/
 2 GIVN Ron J
 2 SURN Henrickson
@@ -12015,14 +12004,14 @@
 1 FACT Vivian plays in the Community Hand Bell Choir.
 1 FACT Vivian is a volunteer on the Denver Art Museum.  Richard likes to work with both metat & wood. He does spider identification for the Musiem of Science & Natural History in Denver.  They both like ti hike, skii & climb mountains.
 1 FAMS @F166@
-0 @I960@ INDI
+0 @I959@ INDI
 1 NAME William Frank /Winters/
 2 GIVN William Frank
 2 SURN Winters
 1 REFN CustomGenCode:MABABA1sf
 1 SEX M
 1 FAMS @F322@
-0 @I848@ INDI
+0 @I847@ INDI
 1 NAME Kim /Knowles/
 2 GIVN Kim
 2 SURN Knowles
@@ -12055,13 +12044,13 @@
 2 GIVN Corey
 2 SURN Meyer
 1 REFN CustomGenCode:MAGA1BAB
-0 @I1074@ INDI
+0 @I1073@ INDI
 1 NAME /Julia J Santos/
 2 SURN Julia J Santos
 1 REFN CustomGenCode:MADAAAA1sm
 1 SEX F
 1 FAMS @F381@
-0 @I1001@ INDI
+0 @I1000@ INDI
 1 NAME Leona /Gustafson/
 2 GIVN Leona
 2 SURN Gustafson
@@ -12134,7 +12123,7 @@
 2 PLAC , Cherokee, IA, USA
 1 OCCU Student
 1 FAMC @F200@
-0 @I771@ INDI
+0 @I770@ INDI
 1 NAME Jon //
 2 GIVN Jon
 1 REFN CustomGenCode:MAIABB1
@@ -12156,13 +12145,13 @@
 1 BIRT
 2 DATE 1 Jul 1998
 1 FAMC @F106@
-0 @I1073@ INDI
+0 @I1072@ INDI
 1 NAME /Alvaro R Santamaria/
 2 SURN Alvaro R Santamaria
 1 REFN CustomGenCode:MADAAAA1sf
 1 SEX M
 1 FAMS @F381@
-0 @I1000@ INDI
+0 @I999@ INDI
 1 NAME Donald /Gibbons/
 2 GIVN Donald
 2 SURN Gibbons
@@ -12182,7 +12171,7 @@
 1 FACT * John's daughter from a previous marriage.
 1 FAMS @F129@
 1 FAMC @F128@
-0 @I1177@ INDI
+0 @I1176@ INDI
 1 NAME /Petit/
 2 SURN Petit
 1 REFN CustomGenCode:MAHAA2sf
@@ -12200,7 +12189,7 @@
 2 SURN Stibbe
 1 REFN CustomGenCode:MAEACA
 1 FAMC @F155@
-0 @I1041@ INDI
+0 @I1040@ INDI
 1 NAME Beverly Ann /Steffens/
 2 GIVN Beverly Ann
 2 SURN Steffens
@@ -12228,14 +12217,14 @@
 1 OCCU Homemaker
 1 FAMS @F200@
 1 FAMC @F425@
-0 @I1040@ INDI
+0 @I1039@ INDI
 1 NAME Wayne Aurther /Whitmore/
 2 GIVN Wayne Aurther
 2 SURN Whitmore
 1 REFN CustomGenCode:MABGAE1sf
 1 SEX M
 1 FAMS @F363@
-0 @I1151@ INDI
+0 @I1150@ INDI
 1 NAME Mary Inez /Peterson/
 2 GIVN Mary Inez
 2 SURN Peterson
@@ -12257,7 +12246,7 @@
 1 BIRT
 2 DATE 31 Jul 2000
 2 PLAC Mercy Hosp. Iowa City, IA, USA
-0 @I864@ INDI
+0 @I863@ INDI
 1 NAME Catherine J /Happel/
 2 GIVN Catherine J
 2 SURN Happel
@@ -12266,7 +12255,7 @@
 2 DATE 1 May 2000
 2 PLAC , West Chester, OH, USA
 1 FAMC @F274@
-0 @I1150@ INDI
+0 @I1149@ INDI
 1 NAME Vearl Bruce /Hess/
 2 GIVN Vearl Bruce
 2 SURN Hess
@@ -12282,7 +12271,7 @@
 2 DATE 25 Jul 1996
 2 PLAC Mercy Hosp. Iowa City, IA, USA
 1 FAMC @F105@
-0 @I914@ INDI
+0 @I913@ INDI
 1 NAME Aldean //
 2 GIVN Aldean
 1 REFN CustomGenCode:MAACAB1sm
@@ -12296,7 +12285,7 @@
 1 BIRT
 2 DATE 31 Jul 2000
 2 PLAC Mercy Hosp. Iowa City, IA, USA
-0 @I1248@ INDI
+0 @I1247@ INDI
 1 NAME Dolores Ann /Somers/
 2 GIVN Dolores Ann
 2 SURN Somers
@@ -12315,14 +12304,14 @@
 2 DATE Nov 1992
 2 PLAC St. John's United Church of Christ, Peterson, IA, USA
 1 FAMC @F105@
-0 @I913@ INDI
+0 @I912@ INDI
 1 NAME Matt /Watts/
 2 GIVN Matt
 2 SURN Watts
 1 REFN CustomGenCode:MAACAB1sf
 1 SEX M
 1 FAMS @F298@
-0 @I863@ INDI
+0 @I862@ INDI
 1 NAME Robert /Happel/
 2 GIVN Robert
 2 SURN Happel
@@ -12375,7 +12364,7 @@
 1 FACT * Karen's son
 1 FAMS @F149@
 1 FAMC @F148@
-0 @I910@ INDI
+0 @I909@ INDI
 1 NAME Clara /Pope/
 2 GIVN Clara
 2 SURN Pope
@@ -12398,7 +12387,7 @@
 1 BIRT
 2 DATE 28 May 1991
 1 FAMC @F104@
-0 @I878@ INDI
+0 @I877@ INDI
 1 NAME Elvina /Schultz/
 2 GIVN Elvina
 2 SURN Schultz
@@ -12413,21 +12402,21 @@
 1 BIRT
 2 DATE 28 Mar 1995
 1 FAMC @F104@
-0 @I909@ INDI
+0 @I908@ INDI
 1 NAME Carl Victor /Mord/
 2 GIVN Carl Victor
 2 SURN Mord
 1 REFN CustomGenCode:MAABC2sf
 1 SEX M
 1 FAMS @F296@
-0 @I877@ INDI
+0 @I876@ INDI
 1 NAME Herman /Grapenthin/
 2 GIVN Herman
 2 SURN Grapenthin
 1 REFN CustomGenCode:MAAA1sf
 1 SEX M
 1 FAMS @F279@
-0 @I1044@ INDI
+0 @I1043@ INDI
 1 NAME Herbert /Henderson/
 2 GIVN Herbert
 2 SURN Henderson
@@ -12505,14 +12494,14 @@
 2 PLAC , Ames, IA, USA
 1 OCCU Student
 1 FAMC @F201@
-0 @I1236@ INDI
+0 @I1235@ INDI
 1 NAME Esther /Carlberg/
 2 GIVN Esther
 2 SURN Carlberg
 1 REFN CustomGenCode:MAIE1sm
 1 SEX F
 1 FAMS @F467@
-0 @I1247@ INDI
+0 @I1246@ INDI
 1 NAME Donald Lee /Johnson/ Sr
 2 GIVN Donald Lee
 2 SURN Johnson
@@ -12542,14 +12531,14 @@
 1 FACT Gabriel Jon is David's son from a previous marriage.
 1 FAMS @F46@
 1 FAMC @F42@
-0 @I1235@ INDI
+0 @I1234@ INDI
 1 NAME Evans /Larsen/
 2 GIVN Evans
 2 SURN Larsen
 1 REFN CustomGenCode:MAIE1sf
 1 SEX M
 1 FAMS @F467@
-0 @I1268@ INDI
+0 @I1267@ INDI
 1 NAME Dan Ross /Kelly/
 2 GIVN Dan Ross
 2 SURN Kelly
@@ -12579,7 +12568,7 @@
 1 FACT They belong to the Congregational Church.
 1 FAMS @F105@
 1 FAMC @F364@
-0 @I875@ INDI
+0 @I874@ INDI
 1 NAME William /Plagman/
 2 GIVN William
 2 SURN Plagman
@@ -12597,7 +12586,7 @@
 1 OCCU Homemaker, Bank Teller
 1 FAMS @F202@
 1 FAMC @F426@
-0 @I1154@ INDI
+0 @I1153@ INDI
 1 NAME Thomas Adrian /Jarvis/ Jr
 2 GIVN Thomas Adrian
 2 SURN Jarvis
@@ -12613,21 +12602,21 @@
 2 DATE 22 Jul 1987
 2 PLAC , Cherokee, IA, USA
 1 FAMC @F103@
-0 @I768@ INDI
+0 @I767@ INDI
 1 NAME Kathy //
 2 GIVN Kathy
 1 REFN CustomGenCode:MAIABA1
 1 SEX F
 1 OCCU Homemaker
 1 FAMS @F240@
-0 @I876@ INDI
+0 @I875@ INDI
 1 NAME Sophia /Bauer/
 2 GIVN Sophia
 2 SURN Bauer
 1 REFN CustomGenCode:MAA1sm
 1 SEX F
 1 FAMS @F278@
-0 @I1155@ INDI
+0 @I1154@ INDI
 1 NAME Bertha Leota /Mastellar/
 2 GIVN Bertha Leota
 2 SURN Mastellar
@@ -12644,7 +12633,7 @@
 2 PLAC , Cherokee, IA, USA
 1 OCCU Student
 1 FAMC @F103@
-0 @I1119@ INDI
+0 @I1118@ INDI
 1 NAME Frederick /Stibbe/
 2 GIVN Frederick
 2 SURN Stibbe
@@ -12667,14 +12656,14 @@
 1 FACT * Adopted by John Wagner on 2 May 1948.                                                                                                                                            ** No burial, his body was lost in the airplane explosion.
 1 FAMS @F50@
 1 FAMC @F315@
-0 @I993@ INDI
+0 @I992@ INDI
 1 NAME Sylvia Lea /Hamon/
 2 GIVN Sylvia Lea
 2 SURN Hamon
 1 REFN CustomGenCode:MABCDA2sm
 1 SEX F
 1 FAMS @F339@
-0 @I1045@ INDI
+0 @I1044@ INDI
 1 NAME Velma /Colburn/
 2 GIVN Velma
 2 SURN Colburn
@@ -12692,7 +12681,7 @@
 1 OCCU Health Physisist
 1 FAMS @F51@
 1 FAMC @F316@
-0 @I769@ INDI
+0 @I768@ INDI
 1 NAME William Roger /Meyer/
 2 GIVN William Roger
 2 SURN Meyer
@@ -12701,7 +12690,7 @@
 2 DATE 2 Dec 1998
 2 PLAC , Houston, Tx, USA
 1 FAMC @F240@
-0 @I1120@ INDI
+0 @I1119@ INDI
 1 NAME Emma /Rasmussen/
 2 GIVN Emma
 2 SURN Rasmussen
@@ -12720,20 +12709,20 @@
 1 OCCU Homemaker
 1 FAMS @F104@
 1 FAMC @F363@
-0 @I1198@ INDI
+0 @I1197@ INDI
 1 NAME Carol //
 2 GIVN Carol
 1 REFN CustomGenCode:MAIAAA1sm
 1 SEX F
 1 FAMS @F447@
-0 @I992@ INDI
+0 @I991@ INDI
 1 NAME Donald Ray /Burns/
 2 GIVN Donald Ray
 2 SURN Burns
 1 REFN CustomGenCode:MABCDA2sf
 1 SEX M
 1 FAMS @F339@
-0 @I1197@ INDI
+0 @I1196@ INDI
 1 NAME Joseph /Turner/
 2 GIVN Joseph
 2 SURN Turner
@@ -12794,7 +12783,7 @@
 2 PLAC Elk Township Cem. Alta, IA, USA
 1 OCCU Lived only three days.
 1 FAMC @F181@
-0 @I1276@ INDI
+0 @I1275@ INDI
 1 NAME Arlene /Pierce/
 2 GIVN Arlene
 2 SURN Pierce
@@ -12813,14 +12802,14 @@
 1 OCCU Farmer
 1 FAMS @F182@
 1 FAMC @F181@
-0 @I742@ INDI
+0 @I741@ INDI
 1 NAME Jack /Nelson/
 2 GIVN Jack
 2 SURN Nelson
 1 REFN CustomGenCode:MAHB1BC1
 1 SEX M
 1 FAMS @F228@
-0 @I701@ INDI
+0 @I700@ INDI
 1 NAME Heather Marie /Kruger/
 2 GIVN Heather Marie
 2 SURN Kruger
@@ -12836,14 +12825,14 @@
 1 BIRT
 2 DATE 31 Jan 1959
 1 FAMC @F120@
-0 @I995@ INDI
+0 @I994@ INDI
 1 NAME Norma Irene /Johnsen/
 2 GIVN Norma Irene
 2 SURN Johnsen
 1 REFN CustomGenCode:MABCDB1sm
 1 SEX F
 1 FAMS @F340@
-0 @I743@ INDI
+0 @I742@ INDI
 1 NAME Taylor /Nelson/
 2 GIVN Taylor
 2 SURN Nelson
@@ -12852,7 +12841,7 @@
 2 DATE 25 Jul 1984
 1 OCCU Student
 1 FAMC @F228@
-0 @I700@ INDI
+0 @I699@ INDI
 1 NAME Lori /Malone/
 2 GIVN Lori
 2 SURN Malone
@@ -12871,7 +12860,7 @@
 1 OCCU Farmer, Carpenter
 1 FAMS @F103@
 1 FAMC @F362@
-0 @I744@ INDI
+0 @I743@ INDI
 1 NAME Stephenie /Nelson/
 2 GIVN Stephenie
 2 SURN Nelson
@@ -12889,21 +12878,21 @@
 2 PLAC , Bisbee, ND, USA
 1 FAMS @F120@
 1 FAMC @F376@
-0 @I994@ INDI
+0 @I993@ INDI
 1 NAME George Wayne /Brighton/ Rev
 2 GIVN George Wayne
 2 SURN Brighton
 1 REFN CustomGenCode:MABCDB1sf
 1 SEX M
 1 FAMS @F340@
-0 @I956@ INDI
+0 @I955@ INDI
 1 NAME Edward /Askew/
 2 GIVN Edward
 2 SURN Askew
 1 REFN CustomGenCode:MABAA2B1sf
 1 SEX M
 1 FAMS @F320@
-0 @I712@ INDI
+0 @I711@ INDI
 1 NAME Norma Jean /Holland/
 2 GIVN Norma Jean
 2 SURN Holland
@@ -12915,7 +12904,7 @@
 1 OCCU Homemaker
 1 FAMS @F220@
 1 FAMC @F219@
-0 @I732@ INDI
+0 @I731@ INDI
 1 NAME Ardelle Fay /Holland/
 2 GIVN Ardelle Fay
 2 SURN Holland
@@ -12927,7 +12916,7 @@
 1 OCCU Homemaker
 1 FAMS @F225@
 1 FAMC @F219@
-0 @I890@ INDI
+0 @I889@ INDI
 1 NAME Marie /Castleman/
 2 GIVN Marie
 2 SURN Castleman
@@ -12966,20 +12955,20 @@
 2 PLAC Pleasant Hill Cem. Aurelia, IA, USA
 1 OCCU Died in infancy
 1 FAMC @F102@
-0 @I746@ INDI
+0 @I745@ INDI
 1 NAME Lanet //
 2 GIVN Lanet
 1 REFN CustomGenCode:MAHB1BD1
 1 OCCU Homemaker
 1 FAMS @F229@
-0 @I957@ INDI
+0 @I956@ INDI
 1 NAME Margery /Elam/
 2 GIVN Margery
 2 SURN Elam
 1 REFN CustomGenCode:MABAA2B1sm
 1 SEX F
 1 FAMS @F320@
-0 @I1062@ INDI
+0 @I1061@ INDI
 1 NAME Holstein E /Sand/
 2 GIVN Holstein E
 2 SURN Sand
@@ -13006,7 +12995,7 @@
 2 PLAC , Fairbanks, Alaska, USA
 1 OCCU Veterinarian Technician
 1 FAMC @F121@
-0 @I889@ INDI
+0 @I888@ INDI
 1 NAME William James /Stewart/ Sr
 2 GIVN William James
 2 SURN Stewart
@@ -13023,21 +13012,21 @@
 2 PLAC , Fairbanks, Alaska, USA
 1 OCCU Advertising
 1 FAMC @F121@
-0 @I1063@ INDI
+0 @I1062@ INDI
 1 NAME Sina /Akre/
 2 GIVN Sina
 2 SURN Akre
 1 REFN CustomGenCode:MACC1sm
 1 SEX F
 1 FAMS @F375@
-0 @I1266@ INDI
+0 @I1265@ INDI
 1 NAME Ronald James /Peters/
 2 GIVN Ronald James
 2 SURN Peters
 1 REFN CustomGenCode:MABCDA2auf
 1 SEX M
 1 FAMS @F484@
-0 @I1071@ INDI
+0 @I1070@ INDI
 1 NAME Carl Loyal William /Swanson/
 2 GIVN Carl Loyal William
 2 SURN Swanson
@@ -13092,7 +13081,7 @@
 1 OCCU Personnel Director of a Bank.
 1 FAMS @F186@
 1 FAMC @F181@
-0 @I1252@ INDI
+0 @I1251@ INDI
 1 NAME Wanda //
 2 GIVN Wanda
 1 REFN CustomGenCode:MAJABA1sm
@@ -13119,7 +13108,7 @@
 1 FACT Phillip went to Nepal in 1989 and stayed with a college friend from Katmandu.
 1 FAMS @F23@
 1 FAMC @F20@
-0 @I1072@ INDI
+0 @I1071@ INDI
 1 NAME Viola Christina Francis /Locker/
 2 GIVN Viola Christina Francis
 2 SURN Locker
@@ -13145,7 +13134,7 @@
 1 FACT Leah collects & reads cookbooks and does crossword puzzles.  Paul likes Archery & goes bowhunting.
 1 FAMS @F22@
 1 FAMC @F20@
-0 @I1251@ INDI
+0 @I1250@ INDI
 1 NAME Ted /Knowles/
 2 GIVN Ted
 2 SURN Knowles
@@ -13188,7 +13177,7 @@
 2 PLAC , Sioux City, IA, USA
 1 OCCU Student
 1 FAMC @F101@
-0 @I929@ INDI
+0 @I928@ INDI
 1 NAME Barbara /Thompson/
 2 GIVN Barbara
 2 SURN Thompson
@@ -13225,7 +13214,7 @@
 2 PLAC Alta HS, Alta, IA, USA
 1 FAMS @F190@
 1 FAMC @F493@
-0 @I1057@ INDI
+0 @I1056@ INDI
 1 NAME Martha /Luetkeman/
 2 GIVN Martha
 2 SURN Luetkeman
@@ -13240,14 +13229,14 @@
 1 BIRT
 2 DATE 4 Oct 1961
 1 FAMC @F122@
-0 @I928@ INDI
+0 @I927@ INDI
 1 NAME Samuel /Landau/
 2 GIVN Samuel
 2 SURN Landau
 1 REFN CustomGenCode:MAADD1sf
 1 SEX M
 1 FAMS @F306@
-0 @I1014@ INDI
+0 @I1013@ INDI
 1 NAME George Robert /Reed/
 2 GIVN George Robert
 2 SURN Reed
@@ -13269,7 +13258,7 @@
 1 OCCU Homemaker, CPA
 1 FAMS @F102@
 1 FAMC @F361@
-0 @I1015@ INDI
+0 @I1014@ INDI
 1 NAME Rosamond Lucille /Deegan/
 2 GIVN Rosamond Lucille
 2 SURN Deegan
@@ -13284,7 +13273,7 @@
 1 SEX F
 1 OCCU Homemaker
 1 FAMS @F122@
-0 @I735@ INDI
+0 @I734@ INDI
 1 NAME Jackie /Tolzin/
 2 GIVN Jackie
 2 SURN Tolzin
@@ -13293,7 +13282,7 @@
 2 DATE 1 Jun 1978
 1 OCCU Student
 1 FAMC @F226@
-0 @I747@ INDI
+0 @I746@ INDI
 1 NAME Donald Clarence /Holland/
 2 GIVN Donald Clarence
 2 SURN Holland
@@ -13357,7 +13346,7 @@
 1 FACT Mike is active in all sports.
 1 FAMS @F6@
 1 FAMC @F5@
-0 @I736@ INDI
+0 @I735@ INDI
 1 NAME Jason /Tolzin/
 2 GIVN Jason
 2 SURN Tolzin
@@ -13366,54 +13355,54 @@
 2 DATE 29 Jan 1985
 1 OCCU Student
 1 FAMC @F226@
-0 @I1196@ INDI
+0 @I1195@ INDI
 1 NAME Alice LuVerne /Tucker/
 2 GIVN Alice LuVerne
 2 SURN Tucker
 1 REFN CustomGenCode:MAIAA1sm
 1 SEX F
 1 FAMS @F446@
-0 @I965@ INDI
+0 @I964@ INDI
 1 NAME Marsha /Vande Poppe/
 2 GIVN Marsha
 2 SURN Vande Poppe
 1 REFN CustomGenCode:MABABBA1sm
 1 SEX F
 1 FAMS @F324@
-0 @I1097@ INDI
+0 @I1096@ INDI
 1 NAME Robert /Sipe/
 2 GIVN Robert
 2 SURN Sipe
 1 REFN CustomGenCode:MADABC1sf
 1 SEX M
 1 FAMS @F393@
-0 @I738@ INDI
+0 @I737@ INDI
 1 NAME /Liljengren/
 2 SURN Liljengren
 1 REFN CustomGenCode:MAHB1BB1
 1 SEX M
 1 FAMS @F227@
-0 @I964@ INDI
+0 @I963@ INDI
 1 NAME Theodore Edward /Homan/
 2 GIVN Theodore Edward
 2 SURN Homan
 1 REFN CustomGenCode:MABABBA1sf
 1 SEX M
 1 FAMS @F324@
-0 @I1098@ INDI
+0 @I1097@ INDI
 1 NAME June //
 2 GIVN June
 1 REFN CustomGenCode:MADABC1sm
 1 SEX F
 1 FAMS @F393@
-0 @I948@ INDI
+0 @I947@ INDI
 1 NAME Donald /Peterson/
 2 GIVN Donald
 2 SURN Peterson
 1 REFN CustomGenCode:MABAA1A2sf
 1 SEX M
 1 FAMS @F316@
-0 @I943@ INDI
+0 @I942@ INDI
 1 NAME Wilhelmina Christina /Hintz/
 2 GIVN Wilhelmina Christina
 2 SURN Hintz
@@ -13432,21 +13421,21 @@
 1 OCCU Real Estate Appraiser
 1 FAMS @F101@
 1 FAMC @F360@
-0 @I917@ INDI
+0 @I916@ INDI
 1 NAME Ethel /Baggett/
 2 GIVN Ethel
 2 SURN Baggett
 1 REFN CustomGenCode:MAACC2sm
 1 SEX F
 1 FAMS @F300@
-0 @I1056@ INDI
+0 @I1055@ INDI
 1 NAME Christ Carl /Felten/
 2 GIVN Christ Carl
 2 SURN Felten
 1 REFN CustomGenCode:MABHB1sf
 1 SEX M
 1 FAMS @F371@
-0 @I740@ INDI
+0 @I739@ INDI
 1 NAME Erick /Liljengren/
 2 GIVN Erick
 2 SURN Liljengren
@@ -13455,7 +13444,7 @@
 2 DATE 1 Jun 1983
 1 OCCU Student
 1 FAMC @F227@
-0 @I942@ INDI
+0 @I941@ INDI
 1 NAME John Martin /Kracht/
 2 GIVN John Martin
 2 SURN Kracht
@@ -13463,7 +13452,7 @@
 1 SEX M
 1 FAMS @F313@
 1 FAMS @F326@
-0 @I739@ INDI
+0 @I738@ INDI
 1 NAME Alan /Liljengren/
 2 GIVN Alan
 2 SURN Liljengren
@@ -13472,20 +13461,20 @@
 2 DATE 27 Aug 1981
 1 OCCU Student
 1 FAMC @F227@
-0 @I949@ INDI
+0 @I948@ INDI
 1 NAME Bertie //
 2 GIVN Bertie
 1 REFN CustomGenCode:MABAA1A2sm
 1 SEX F
 1 FAMS @F316@
-0 @I1195@ INDI
+0 @I1194@ INDI
 1 NAME L P /Sewell/
 2 GIVN L P
 2 SURN Sewell
 1 REFN CustomGenCode:MAIAA1sf
 1 SEX M
 1 FAMS @F446@
-0 @I934@ INDI
+0 @I933@ INDI
 1 NAME John Foster /Evans/
 2 GIVN John Foster
 2 SURN Evans
@@ -13510,7 +13499,7 @@
 1 FACT Mike is active in the National Forensic League.
 1 FACT He likes to draw people, life scenes & a great debater.
 1 FAMC @F14@
-0 @I850@ INDI
+0 @I849@ INDI
 1 NAME Jesse Gene /Fastenow/
 2 GIVN Jesse Gene
 2 SURN Fastenow
@@ -13522,35 +13511,35 @@
 1 OCCU Farmer, Hogs & Cattle
 1 FAMS @F270@
 1 FAMC @F264@
-0 @I935@ INDI
+0 @I934@ INDI
 1 NAME Vera Luverne /Erickson/
 2 GIVN Vera Luverne
 2 SURN Erickson
 1 REFN CustomGenCode:MAAEB1sm
 1 SEX F
 1 FAMS @F309@
-0 @I1160@ INDI
+0 @I1159@ INDI
 1 NAME Lou /Jobusch/
 2 GIVN Lou
 2 SURN Jobusch
 1 REFN CustomGenCode:MAGCF1sf
 1 SEX M
 1 FAMS @F427@
-0 @I1171@ INDI
+0 @I1170@ INDI
 1 NAME William Albert Fredrick /Mohror/
 2 GIVN William Albert Fredrick
 2 SURN Mohror
 1 REFN CustomGenCode:MAH1sf
 1 SEX M
 1 FAMS @F433@
-0 @I954@ INDI
+0 @I953@ INDI
 1 NAME Horace /Chaves/
 2 GIVN Horace
 2 SURN Chaves
 1 REFN CustomGenCode:MABAA2A2sf
 1 SEX M
 1 FAMS @F319@
-0 @I845@ INDI
+0 @I844@ INDI
 1 NAME Sonja Maureen /Fastenow/
 2 GIVN Sonja Maureen
 2 SURN Fastenow
@@ -13574,13 +13563,13 @@
 1 FACT She enjoys horses, cake decorating, sewing & beading.
 1 FAMS @F268@
 1 FAMC @F264@
-0 @I955@ INDI
+0 @I954@ INDI
 1 NAME Barbara //
 2 GIVN Barbara
 1 REFN CustomGenCode:MABAA2A2sm
 1 SEX F
 1 FAMS @F319@
-0 @I837@ INDI
+0 @I836@ INDI
 1 NAME Jerald C /Fastenow/
 2 GIVN Jerald C
 2 SURN Fastenow
@@ -13595,21 +13584,21 @@
 1 OCCU Carpenter & is Owner/Operator of J & S Construction.
 1 FAMS @F265@
 1 FAMC @F264@
-0 @I1172@ INDI
+0 @I1171@ INDI
 1 NAME Dorathea Marie Henrietta /Hopp/
 2 GIVN Dorathea Marie Henrietta
 2 SURN Hopp
 1 REFN CustomGenCode:MAH1sm
 1 SEX F
 1 FAMS @F433@
-0 @I980@ INDI
+0 @I979@ INDI
 1 NAME Kirk /Phillips/
 2 GIVN Kirk
 2 SURN Phillips
 1 REFN CustomGenCode:MABCCB1sf
 1 SEX M
 1 FAMS @F333@
-0 @I915@ INDI
+0 @I914@ INDI
 1 NAME Donald /Loney/
 2 GIVN Donald
 2 SURN Loney
@@ -13624,7 +13613,7 @@
 1 SEX F
 1 FAMS @F192@
 1 FAMS @F193@
-0 @I1067@ INDI
+0 @I1066@ INDI
 1 NAME Oliver Bernard /Knudson/
 2 GIVN Oliver Bernard
 2 SURN Knudson
@@ -13638,13 +13627,13 @@
 1 REFN CustomGenCode:MAGA2aa
 1 SEX M
 1 FAMS @F191@
-0 @I916@ INDI
+0 @I915@ INDI
 1 NAME Norma //
 2 GIVN Norma
 1 REFN CustomGenCode:MAACB1sm
 1 SEX F
 1 FAMS @F299@
-0 @I981@ INDI
+0 @I980@ INDI
 1 NAME Marcella /LaPlante/
 2 GIVN Marcella
 2 SURN LaPlante
@@ -13668,7 +13657,7 @@
 2 DATE 12 Apr 1993
 1 FACT * Sierra Kaylee  Raeanne Lane was officially adopted by James D. Kracht in 1995.  She now goes by Kracht.
 1 FAMC @F485@
-0 @I836@ INDI
+0 @I835@ INDI
 1 NAME Lillian Mae /Rohrbaugh/
 2 GIVN Lillian Mae
 2 SURN Rohrbaugh
@@ -13681,14 +13670,14 @@
 1 FACT Jesse was active in the Peterson Heritage Club.
 1 FAMS @F264@
 1 FAMC @F471@
-0 @I1068@ INDI
+0 @I1067@ INDI
 1 NAME Emma Cathrine /Peterson/
 2 GIVN Emma Cathrine
 2 SURN Peterson
 1 REFN CustomGenCode:MADA1sm
 1 SEX F
 1 FAMS @F378@
-0 @I1161@ INDI
+0 @I1160@ INDI
 1 NAME Polly //
 2 GIVN Polly
 1 REFN CustomGenCode:MAGCF1sm
@@ -13703,21 +13692,21 @@
 2 DATE 18 Sep 1986
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA. USA
 1 FAMC @F484@
-0 @I1089@ INDI
+0 @I1088@ INDI
 1 NAME William Allister /MacLeod/ Sr
 2 GIVN William Allister
 2 SURN MacLeod
 1 REFN CustomGenCode:MADABA1sf
 1 SEX M
 1 FAMS @F389@
-0 @I1206@ INDI
+0 @I1205@ INDI
 1 NAME Aurora /Castellano/
 2 GIVN Aurora
 2 SURN Castellano
 1 REFN CustomGenCode:MAIAC1sm
 1 SEX F
 1 FAMS @F451@
-0 @I1164@ INDI
+0 @I1163@ INDI
 1 NAME Ralph /Casperson/
 2 GIVN Ralph
 2 SURN Casperson
@@ -13759,7 +13748,7 @@
 1 FACT Heidi is active in 4-H, Girl Scouts, Missionettes & the Hallock Figure Skating Assoc.
 1 FACT She enjoys bicycling, swimming & figure skating.
 1 FAMC @F15@
-0 @I999@ INDI
+0 @I998@ INDI
 1 NAME Thelma /Stevens/
 2 GIVN Thelma
 2 SURN Stevens
@@ -13776,7 +13765,7 @@
 2 PLAC , Tulsa, OK, USA
 1 OCCU Student
 1 FAMC @F152@
-0 @I1165@ INDI
+0 @I1164@ INDI
 1 NAME Jessie Viola /Tuttle/
 2 GIVN Jessie Viola
 2 SURN Tuttle
@@ -13793,14 +13782,14 @@
 2 PLAC , Tulsa, OK, USA
 1 OCCU Student
 1 FAMC @F152@
-0 @I998@ INDI
+0 @I997@ INDI
 1 NAME Alfred /Christensen/
 2 GIVN Alfred
 2 SURN Christensen
 1 REFN CustomGenCode:MABCE1sf
 1 SEX M
 1 FAMS @F342@
-0 @I869@ INDI
+0 @I868@ INDI
 1 NAME Michael Brian /Connor/
 2 GIVN Michael Brian
 2 SURN Connor
@@ -13831,7 +13820,7 @@
 2 DATE 28 Feb 1986
 2 PLAC , Tulsa, OK, USA
 1 FAMC @F152@
-0 @I866@ INDI
+0 @I865@ INDI
 1 NAME Dennis Patrick /Connor/
 2 GIVN Dennis Patrick
 2 SURN Connor
@@ -13843,7 +13832,7 @@
 1 OCCU Communications
 1 FAMS @F275@
 1 FAMC @F272@
-0 @I859@ INDI
+0 @I858@ INDI
 1 NAME Douglas Michael /Connor/
 2 GIVN Douglas Michael
 2 SURN Connor
@@ -13854,7 +13843,7 @@
 2 PLAC , Des Moines, IA, USA
 1 FAMS @F273@
 1 FAMC @F272@
-0 @I1090@ INDI
+0 @I1089@ INDI
 1 NAME Isabel /Blount/
 2 GIVN Isabel
 2 SURN Blount
@@ -13862,34 +13851,34 @@
 1 REFN CustomGenCode:MADABA1sm
 1 SEX F
 1 FAMS @F389@
-0 @I1088@ INDI
+0 @I1087@ INDI
 1 NAME Beatrice Imogene /Crawford/
 2 GIVN Beatrice Imogene
 2 SURN Crawford
 1 REFN CustomGenCode:MADAB1sm
 1 SEX F
 1 FAMS @F388@
-0 @I1138@ INDI
+0 @I1137@ INDI
 1 NAME Julia //
 2 GIVN Julia
 1 REFN CustomGenCode:MAGA1BA1sm
 1 SEX F
 1 FAMS @F415@
-0 @I1087@ INDI
+0 @I1086@ INDI
 1 NAME Louis Rudolph /Brungraber/
 2 GIVN Louis Rudolph
 2 SURN Brungraber
 1 REFN CustomGenCode:MADAB1sf
 1 SEX M
 1 FAMS @F388@
-0 @I966@ INDI
+0 @I965@ INDI
 1 NAME J Harvey /Johnson/
 2 GIVN J Harvey
 2 SURN Johnson
 1 REFN CustomGenCode:MABABC1sf
 1 SEX M
 1 FAMS @F325@
-0 @I1205@ INDI
+0 @I1204@ INDI
 1 NAME Fred /Manzanares/
 2 GIVN Fred
 2 SURN Manzanares
@@ -13921,7 +13910,7 @@
 1 FACT Bruce made a single parachute jump in Jackson Hole, WY, & broke his leg.  Carol got stalled in a severe snow storm in a van overnite without heat in South Dakota.
 1 FAMS @F152@
 1 FAMC @F403@
-0 @I858@ INDI
+0 @I857@ INDI
 1 NAME William Mathew /Connor/
 2 GIVN William Mathew
 2 SURN Connor
@@ -13936,7 +13925,7 @@
 1 OCCU Artist
 1 FAMS @F272@
 1 FAMC @F478@
-0 @I967@ INDI
+0 @I966@ INDI
 1 NAME Laura /Hanna/
 2 GIVN Laura
 2 SURN Hanna
@@ -13955,7 +13944,7 @@
 1 OCCU Homemaker, School Teacher
 1 FAMS @F182@
 1 FAMC @F414@
-0 @I1214@ INDI
+0 @I1213@ INDI
 1 NAME Ralph /Monroe/
 2 GIVN Ralph
 2 SURN Monroe
@@ -13970,21 +13959,21 @@
 1 BIRT
 2 DATE 26 Feb 2001
 1 FAMC @F38@
-0 @I1215@ INDI
+0 @I1214@ INDI
 1 NAME Ruby /Fletcher/
 2 GIVN Ruby
 2 SURN Fletcher
 1 REFN CustomGenCode:MAIBC1sm
 1 SEX F
 1 FAMS @F456@
-0 @I1129@ INDI
+0 @I1128@ INDI
 1 NAME Elizabeth /Mortonson/
 2 GIVN Elizabeth
 2 SURN Mortonson
 1 REFN CustomGenCode:MAFC1A2sm
 1 SEX F
 1 FAMS @F410@
-0 @I925@ INDI
+0 @I924@ INDI
 1 NAME Jane Alice /Masten/
 2 GIVN Jane Alice
 2 SURN Masten
@@ -13996,7 +13985,7 @@
 2 SURN Ford
 1 REFN CustomGenCode:MAECB1
 1 FAMS @F161@
-0 @I1128@ INDI
+0 @I1127@ INDI
 1 NAME Robert Walter /Raymer/
 2 GIVN Robert Walter
 2 SURN Raymer
@@ -14013,9 +14002,9 @@
 1 CHIL @I540@
 1 CHIL @I591@
 1 CHIL @I680@
-1 CHIL @I753@
-1 CHIL @I833@
-1 CHIL @I873@
+1 CHIL @I752@
+1 CHIL @I832@
+1 CHIL @I872@
 1 MARR
 2 DATE 6 Aug 1871
 0 @F1@ FAM
@@ -15649,283 +15638,282 @@
 1 HUSB @I681@
 1 WIFE @I680@
 1 CHIL @I682@
-1 CHIL @I710@
+1 CHIL @I709@
 1 MARR
 2 DATE 31 Dec 1902
 0 @F210@ FAM
 1 HUSB @I682@
 1 WIFE @I683@
 1 CHIL @I684@
-1 CHIL @I697@
-1 CHIL @I704@
+1 CHIL @I696@
+1 CHIL @I703@
 1 MARR
 2 DATE 29 May 1933
 0 @F211@ FAM
 1 HUSB @I684@
-1 WIFE @I685@
+1 CHIL @I685@
 1 CHIL @I686@
-1 CHIL @I687@
-1 CHIL @I691@
-1 CHIL @I695@
+1 CHIL @I690@
+1 CHIL @I694@
 1 MARR
 2 DATE 25 Apr 1960
 1 DIV
 2 DATE 16 Jun 1981
 0 @F212@ FAM
-1 HUSB @I688@
-1 WIFE @I687@
+1 HUSB @I687@
+1 WIFE @I686@
+1 CHIL @I688@
 1 CHIL @I689@
-1 CHIL @I690@
 1 MARR
 2 DATE 10 Sep 1983
 0 @F213@ FAM
-1 HUSB @I691@
-1 WIFE @I692@
-1 CHIL @I694@
+1 HUSB @I690@
+1 WIFE @I691@
+1 CHIL @I693@
 1 MARR
 2 DATE 1 Jul 1989
 1 NOTE * Tami's son from a previous marriage.
 1 NOTE Technically unrelated child: Mohror, Luke
 0 @F214@ FAM
 1 HUSB @I684@
-1 WIFE @I696@
+1 WIFE @I695@
 1 MARR
 2 DATE 18 Jun 1982
 0 @F215@ FAM
-1 HUSB @I698@
-1 WIFE @I697@
-1 CHIL @I699@
+1 HUSB @I697@
+1 WIFE @I696@
+1 CHIL @I698@
+1 CHIL @I701@
 1 CHIL @I702@
-1 CHIL @I703@
 1 MARR
 2 DATE 17 Jun 1957
 0 @F216@ FAM
-1 HUSB @I699@
-1 WIFE @I700@
-1 CHIL @I701@
+1 HUSB @I698@
+1 WIFE @I699@
+1 CHIL @I700@
 1 MARR
 2 DATE 3 Jul 1983
 0 @F217@ FAM
-1 HUSB @I705@
-1 WIFE @I704@
+1 HUSB @I704@
+1 WIFE @I703@
+1 CHIL @I705@
 1 CHIL @I706@
-1 CHIL @I707@
 1 MARR
 2 DATE 25 Jun 1967
 0 @F218@ FAM
-1 HUSB @I707@
-1 WIFE @I708@
-1 CHIL @I709@
+1 HUSB @I706@
+1 WIFE @I707@
+1 CHIL @I708@
 1 MARR
 2 DATE 1 Jul 2000
 2 PLAC Holy Rosary Catholic Church, Detroit Lakes, MN, USA
 0 @F219@ FAM
-1 HUSB @I711@
-1 WIFE @I710@
-1 CHIL @I712@
-1 CHIL @I732@
-1 CHIL @I747@
+1 HUSB @I710@
+1 WIFE @I709@
+1 CHIL @I711@
+1 CHIL @I731@
+1 CHIL @I746@
 1 MARR
 2 DATE 31 Dec 1929
 1 DIV
 2 DATE 27 Jan 1958
 0 @F220@ FAM
-1 HUSB @I713@
-1 WIFE @I712@
-1 CHIL @I714@
-1 CHIL @I719@
-1 CHIL @I724@
-1 CHIL @I729@
+1 HUSB @I712@
+1 WIFE @I711@
+1 CHIL @I713@
+1 CHIL @I718@
+1 CHIL @I723@
+1 CHIL @I728@
 1 MARR
 2 DATE 20 May 1951
 0 @F221@ FAM
-1 HUSB @I715@
-1 WIFE @I714@
+1 HUSB @I714@
+1 WIFE @I713@
+1 CHIL @I715@
 1 CHIL @I716@
 1 CHIL @I717@
-1 CHIL @I718@
 0 @F222@ FAM
-1 HUSB @I720@
-1 WIFE @I719@
+1 HUSB @I719@
+1 WIFE @I718@
+1 CHIL @I720@
 1 CHIL @I721@
 1 CHIL @I722@
-1 CHIL @I723@
 0 @F223@ FAM
-1 HUSB @I725@
-1 WIFE @I724@
+1 HUSB @I724@
+1 WIFE @I723@
+1 CHIL @I725@
 1 CHIL @I726@
 1 CHIL @I727@
-1 CHIL @I728@
 0 @F224@ FAM
-1 HUSB @I729@
+1 HUSB @I728@
+1 CHIL @I729@
 1 CHIL @I730@
-1 CHIL @I731@
 0 @F225@ FAM
-1 HUSB @I733@
-1 WIFE @I732@
-1 CHIL @I734@
-1 CHIL @I737@
-1 CHIL @I741@
-1 CHIL @I745@
+1 HUSB @I732@
+1 WIFE @I731@
+1 CHIL @I733@
+1 CHIL @I736@
+1 CHIL @I740@
+1 CHIL @I744@
 1 MARR
 2 DATE 22 Jan 1955
 0 @F226@ FAM
-1 HUSB @I734@
+1 HUSB @I733@
+1 CHIL @I734@
 1 CHIL @I735@
-1 CHIL @I736@
 0 @F227@ FAM
-1 HUSB @I738@
-1 WIFE @I737@
+1 HUSB @I737@
+1 WIFE @I736@
+1 CHIL @I738@
 1 CHIL @I739@
-1 CHIL @I740@
 0 @F228@ FAM
-1 HUSB @I742@
-1 WIFE @I741@
+1 HUSB @I741@
+1 WIFE @I740@
+1 CHIL @I742@
 1 CHIL @I743@
-1 CHIL @I744@
 0 @F229@ FAM
-1 HUSB @I745@
-1 WIFE @I746@
+1 HUSB @I744@
+1 WIFE @I745@
 0 @F230@ FAM
-1 HUSB @I747@
-1 WIFE @I748@
-1 CHIL @I749@
-1 CHIL @I751@
+1 HUSB @I746@
+1 WIFE @I747@
+1 CHIL @I748@
+1 CHIL @I750@
 1 MARR
 2 DATE 4 Oct 1963
 0 @F231@ FAM
-1 HUSB @I749@
-1 WIFE @I750@
+1 HUSB @I748@
+1 WIFE @I749@
 0 @F232@ FAM
-1 HUSB @I752@
-1 WIFE @I710@
+1 HUSB @I751@
+1 WIFE @I709@
 1 MARR
 2 DATE 9 Oct 1962
 0 @F233@ FAM
-1 HUSB @I753@
-1 WIFE @I754@
-1 CHIL @I755@
-1 CHIL @I777@
-1 CHIL @I800@
-1 CHIL @I822@
-1 CHIL @I825@
-1 CHIL @I829@
+1 HUSB @I752@
+1 WIFE @I753@
+1 CHIL @I754@
+1 CHIL @I776@
+1 CHIL @I799@
+1 CHIL @I821@
+1 CHIL @I824@
+1 CHIL @I828@
 1 MARR
 2 DATE 28 Dec 1910
 0 @F234@ FAM
-1 HUSB @I755@
-1 WIFE @I756@
-1 CHIL @I757@
-1 CHIL @I765@
-1 CHIL @I772@
-1 CHIL @I776@
+1 HUSB @I754@
+1 WIFE @I755@
+1 CHIL @I756@
+1 CHIL @I764@
+1 CHIL @I771@
+1 CHIL @I775@
 1 MARR
 2 DATE 12 Jun 1934
 2 PLAC Congregational Church, Spencer, IA, USA
 1 NOTE * Easter Sunday
 0 @F235@ FAM
-1 HUSB @I758@
-1 WIFE @I757@
-1 CHIL @I759@
+1 HUSB @I757@
+1 WIFE @I756@
+1 CHIL @I758@
+1 CHIL @I761@
 1 CHIL @I762@
-1 CHIL @I763@
 1 MARR
 2 DATE 12 May 1956
 2 PLAC First United Methodist Church, Peterson, IA, USA
 1 NOTE * Baptized on Easter Sunday.
 0 @F236@ FAM
-1 HUSB @I759@
-1 WIFE @I760@
+1 HUSB @I758@
+1 WIFE @I759@
 1 MARR
 2 DATE 11 Nov 1978
 1 DIV
 2 DATE 1983
 2 PLAC , Okanogan Co. WA, USA
 0 @F237@ FAM
-1 HUSB @I759@
-1 WIFE @I761@
+1 HUSB @I758@
+1 WIFE @I760@
 1 MARR
 2 DATE 2 May 1986
 2 PLAC , Coeur d' Alene, ID, USA
 1 NOTE Killed while felling a tree.  Cremated & ashes scattered at Coral Butte, WA
 0 @F238@ FAM
-1 HUSB @I763@
-1 WIFE @I764@
+1 HUSB @I762@
+1 WIFE @I763@
 1 MARR
 2 DATE 24 Dec 1999
 2 PLAC City Hall, Lakewood, OH, USA
 0 @F239@ FAM
-1 HUSB @I765@
-1 WIFE @I766@
-1 CHIL @I767@
-1 CHIL @I770@
+1 HUSB @I764@
+1 WIFE @I765@
+1 CHIL @I766@
+1 CHIL @I769@
 1 MARR
 2 DATE 18 Aug 1961
 0 @F240@ FAM
-1 HUSB @I767@
-1 WIFE @I768@
-1 CHIL @I769@
+1 HUSB @I766@
+1 WIFE @I767@
+1 CHIL @I768@
 0 @F241@ FAM
-1 HUSB @I770@
-1 WIFE @I771@
+1 HUSB @I769@
+1 WIFE @I770@
 0 @F242@ FAM
-1 HUSB @I772@
-1 WIFE @I773@
+1 HUSB @I771@
+1 WIFE @I772@
+1 CHIL @I773@
 1 CHIL @I774@
-1 CHIL @I775@
 1 MARR
 2 DATE 13 Jun 1976
 0 @F243@ FAM
-1 HUSB @I777@
-1 WIFE @I778@
-1 CHIL @I779@
-1 CHIL @I781@
-1 CHIL @I790@
-1 CHIL @I795@
+1 HUSB @I776@
+1 WIFE @I777@
+1 CHIL @I778@
+1 CHIL @I780@
+1 CHIL @I789@
+1 CHIL @I794@
 1 MARR
 2 DATE 26 Jun 1942
 2 PLAC , Marathon, IA, USA
 0 @F244@ FAM
-1 HUSB @I779@
-1 WIFE @I780@
+1 HUSB @I778@
+1 WIFE @I779@
 1 MARR
 2 DATE 28 May 1970
 0 @F245@ FAM
-1 HUSB @I782@
-1 WIFE @I781@
-1 CHIL @I783@
-1 CHIL @I787@
+1 HUSB @I781@
+1 WIFE @I780@
+1 CHIL @I782@
+1 CHIL @I786@
 1 MARR
 2 DATE 31 Aug 1969
 2 PLAC Larrabee Methodist Church, Larrabee, IA, USA
 0 @F246@ FAM
-1 HUSB @I784@
-1 WIFE @I783@
+1 HUSB @I783@
+1 WIFE @I782@
+1 CHIL @I784@
 1 CHIL @I785@
-1 CHIL @I786@
 1 MARR
 2 DATE 24 Jun 1989
 2 PLAC United Methodist Church, Sutherland, IA, USA
 0 @F247@ FAM
-1 HUSB @I787@
-1 WIFE @I788@
-1 CHIL @I789@
+1 HUSB @I786@
+1 WIFE @I787@
+1 CHIL @I788@
 1 MARR
 2 DATE 14 Feb 1996
 2 PLAC County Courthouse, Brookings, SD, USA
 0 @F248@ FAM
-1 HUSB @I791@
-1 WIFE @I790@
-1 CHIL @I792@
+1 HUSB @I790@
+1 WIFE @I789@
+1 CHIL @I791@
 1 MARR
 2 DATE 31 Dec 1972
 1 DIV
 2 DATE 2 Nov 1987
 2 PLAC Court House, Cherokee, IA, USA
 0 @F249@ FAM
-1 HUSB @I793@
-1 WIFE @I790@
-1 CHIL @I794@
+1 HUSB @I792@
+1 WIFE @I789@
+1 CHIL @I793@
 1 MARR
 2 DATE 6 Nov 1998
 2 PLAC United Methodist Church, Cherokee, IA USA
@@ -15934,210 +15922,210 @@
 2 PLAC Court House, Cherokee, IA, USA
 1 NOTE Divorce date should NOT be before marriage date for Weins, James and Meyer, Jane Marie. Marriage date: 1998 Nov 6, Divorce date: 1987 Nov 2
 0 @F250@ FAM
-1 HUSB @I795@
-1 WIFE @I796@
+1 HUSB @I794@
+1 WIFE @I795@
+1 CHIL @I796@
 1 CHIL @I797@
 1 CHIL @I798@
-1 CHIL @I799@
 1 MARR
 2 DATE 19 Nov 1982
 0 @F251@ FAM
-1 HUSB @I800@
-1 WIFE @I801@
-1 CHIL @I802@
-1 CHIL @I811@
-1 CHIL @I816@
-1 CHIL @I819@
+1 HUSB @I799@
+1 WIFE @I800@
+1 CHIL @I801@
+1 CHIL @I810@
+1 CHIL @I815@
+1 CHIL @I818@
 1 MARR
 2 DATE 27 May 1944
 0 @F252@ FAM
-1 HUSB @I803@
-1 WIFE @I802@
-1 CHIL @I804@
-1 CHIL @I807@
+1 HUSB @I802@
+1 WIFE @I801@
+1 CHIL @I803@
+1 CHIL @I806@
+1 CHIL @I808@
 1 CHIL @I809@
-1 CHIL @I810@
 1 MARR
 2 DATE 18 Oct 1965
 0 @F253@ FAM
-1 HUSB @I805@
-1 WIFE @I804@
-1 CHIL @I806@
+1 HUSB @I804@
+1 WIFE @I803@
+1 CHIL @I805@
 1 MARR
 2 DATE 16 Apr 1988
 0 @F254@ FAM
-1 HUSB @I807@
-1 WIFE @I808@
+1 HUSB @I806@
+1 WIFE @I807@
 1 MARR
 2 DATE 10 Nov 1989
 0 @F255@ FAM
-1 HUSB @I811@
-1 WIFE @I812@
+1 HUSB @I810@
+1 WIFE @I811@
+1 CHIL @I812@
 1 CHIL @I813@
 1 CHIL @I814@
-1 CHIL @I815@
 1 MARR
 2 DATE 18 Jul 1980
 0 @F256@ FAM
-1 HUSB @I816@
-1 WIFE @I817@
-1 CHIL @I818@
+1 HUSB @I815@
+1 WIFE @I816@
+1 CHIL @I817@
 1 MARR
 2 DATE 31 Jul 1983
 0 @F257@ FAM
-1 HUSB @I819@
-1 WIFE @I820@
-1 CHIL @I821@
+1 HUSB @I818@
+1 WIFE @I819@
+1 CHIL @I820@
 1 MARR
 2 DATE 22 Jun 1986
 0 @F258@ FAM
-1 HUSB @I822@
-1 WIFE @I823@
+1 HUSB @I821@
+1 WIFE @I822@
 1 MARR
 2 DATE 28 Apr 1942
 1 DIV
 2 DATE Jul 1942
 0 @F259@ FAM
-1 HUSB @I822@
-1 WIFE @I824@
+1 HUSB @I821@
+1 WIFE @I823@
 1 MARR
 2 DATE 20 Feb 1943
 0 @F260@ FAM
-1 HUSB @I826@
-1 WIFE @I825@
+1 HUSB @I825@
+1 WIFE @I824@
 1 MARR
 2 DATE 1 Jun 1943
 0 @F261@ FAM
-1 HUSB @I827@
-1 WIFE @I825@
-1 CHIL @I828@
+1 HUSB @I826@
+1 WIFE @I824@
+1 CHIL @I827@
 1 MARR
 2 DATE 18 Jul 1959
 0 @F262@ FAM
-1 HUSB @I829@
-1 WIFE @I830@
+1 HUSB @I828@
+1 WIFE @I829@
+1 CHIL @I830@
 1 CHIL @I831@
-1 CHIL @I832@
 1 MARR
 2 DATE 15 Jul 1961
 0 @F263@ FAM
-1 HUSB @I834@
-1 WIFE @I833@
-1 CHIL @I835@
-1 CHIL @I857@
+1 HUSB @I833@
+1 WIFE @I832@
+1 CHIL @I834@
+1 CHIL @I856@
 1 MARR
 2 DATE 19 Jan 1910
 0 @F264@ FAM
-1 HUSB @I835@
-1 WIFE @I836@
-1 CHIL @I837@
-1 CHIL @I845@
-1 CHIL @I850@
+1 HUSB @I834@
+1 WIFE @I835@
+1 CHIL @I836@
+1 CHIL @I844@
+1 CHIL @I849@
 1 MARR
 2 DATE 8 Jun 1938
 0 @F265@ FAM
-1 HUSB @I837@
-1 WIFE @I838@
-1 CHIL @I839@
-1 CHIL @I842@
+1 HUSB @I836@
+1 WIFE @I837@
+1 CHIL @I838@
+1 CHIL @I841@
 1 MARR
 2 DATE 27 May 1962
 2 PLAC , Peterson, IA, USA
 0 @F266@ FAM
-1 HUSB @I840@
-1 WIFE @I839@
-1 CHIL @I841@
+1 HUSB @I839@
+1 WIFE @I838@
+1 CHIL @I840@
 1 MARR
 2 DATE 24 Sep 1983
 2 PLAC First Presbyterian Church, Spirit Lake, IA, USA
 0 @F267@ FAM
-1 HUSB @I843@
-1 WIFE @I842@
-1 CHIL @I844@
+1 HUSB @I842@
+1 WIFE @I841@
+1 CHIL @I843@
 1 MARR
 2 DATE Jun 2000
 2 PLAC , Jackson, MN, USA
 0 @F268@ FAM
-1 HUSB @I846@
-1 WIFE @I845@
-1 CHIL @I847@
+1 HUSB @I845@
+1 WIFE @I844@
+1 CHIL @I846@
 1 MARR
 2 DATE 23 Oct 1963
 2 PLAC St. John's Evangelical Church, Peterson, IA, USA
 0 @F269@ FAM
-1 HUSB @I847@
-1 WIFE @I848@
-1 CHIL @I849@
+1 HUSB @I846@
+1 WIFE @I847@
+1 CHIL @I848@
 1 MARR
 2 DATE 7 Feb 1986
 2 PLAC , Dubois, WY, USA
 1 DIV
 2 DATE Oct 1989
 0 @F270@ FAM
-1 HUSB @I850@
-1 WIFE @I851@
-1 CHIL @I852@
-1 CHIL @I856@
+1 HUSB @I849@
+1 WIFE @I850@
+1 CHIL @I851@
+1 CHIL @I855@
 1 MARR
 2 DATE 6 Sep 1969
 2 PLAC , Cherokee, IA, USA
 0 @F271@ FAM
-1 HUSB @I853@
-1 WIFE @I852@
+1 HUSB @I852@
+1 WIFE @I851@
+1 CHIL @I853@
 1 CHIL @I854@
-1 CHIL @I855@
 1 MARR
 2 DATE 15 Aug 1992
 2 PLAC St. John's Evangelical Church, Peterson, IA, USA
 0 @F272@ FAM
-1 HUSB @I858@
-1 WIFE @I857@
-1 CHIL @I859@
-1 CHIL @I866@
-1 CHIL @I869@
+1 HUSB @I857@
+1 WIFE @I856@
+1 CHIL @I858@
+1 CHIL @I865@
+1 CHIL @I868@
 1 MARR
 2 DATE 25 Mar 1939
 0 @F273@ FAM
-1 HUSB @I859@
-1 WIFE @I860@
+1 HUSB @I858@
+1 WIFE @I859@
+1 CHIL @I860@
 1 CHIL @I861@
-1 CHIL @I862@
-1 CHIL @I865@
+1 CHIL @I864@
 1 MARR
 2 DATE 6 Feb 1963
 2 PLAC , Minneapolis, MN, USA
 0 @F274@ FAM
-1 HUSB @I863@
-1 WIFE @I862@
-1 CHIL @I864@
+1 HUSB @I862@
+1 WIFE @I861@
+1 CHIL @I863@
 0 @F275@ FAM
-1 HUSB @I866@
-1 WIFE @I867@
-1 CHIL @I868@
+1 HUSB @I865@
+1 WIFE @I866@
+1 CHIL @I867@
 1 MARR
 2 DATE 14 Dec 1968
 2 PLAC , Madison, WI, USA
 0 @F276@ FAM
-1 HUSB @I869@
-1 WIFE @I870@
+1 HUSB @I868@
+1 WIFE @I869@
+1 CHIL @I870@
 1 CHIL @I871@
-1 CHIL @I872@
 1 MARR
 2 DATE 8 May 1982
 2 PLAC Emmanuel Lutheran Church, Grafton, IA, USA
 0 @F277@ FAM
-1 HUSB @I874@
+1 HUSB @I873@
 1 MARR
 2 DATE 6 Aug 1871
 0 @F278@ FAM
-1 HUSB @I875@
-1 WIFE @I876@
+1 HUSB @I874@
+1 WIFE @I875@
 1 CHIL @I2@
 1 MARR
 2 DATE 14 Oct 1897
 0 @F279@ FAM
-1 HUSB @I877@
-1 WIFE @I878@
+1 HUSB @I876@
+1 WIFE @I877@
 1 CHIL @I4@
 1 MARR
 2 DATE 26 Nov 1924
@@ -16148,15 +16136,15 @@
 1 MARR
 2 DATE Oct 1923
 0 @F281@ FAM
-1 HUSB @I879@
-1 WIFE @I880@
+1 HUSB @I878@
+1 WIFE @I879@
 1 CHIL @I8@
 1 MARR
 2 DATE 6 Dec 1947
 2 PLAC Welsh Presbyterian Church, Mankato, MN, USA
 0 @F282@ FAM
-1 HUSB @I881@
-1 WIFE @I882@
+1 HUSB @I880@
+1 WIFE @I881@
 1 CHIL @I10@
 1 MARR
 2 DATE 13 Jun 1970
@@ -16165,8 +16153,8 @@
 2 DATE Aug 1990
 2 PLAC , Aitkin, MN.
 0 @F283@ FAM
-1 HUSB @I883@
-1 WIFE @I884@
+1 HUSB @I882@
+1 WIFE @I883@
 1 CHIL @I18@
 1 MARR
 2 DATE 27 May 1972
@@ -16174,15 +16162,15 @@
 2 DATE Jan 1997
 2 PLAC , Great Falls, MT, USA
 0 @F284@ FAM
-1 HUSB @I885@
-1 WIFE @I886@
+1 HUSB @I884@
+1 WIFE @I885@
 1 CHIL @I22@
 1 MARR
 2 DATE 16 Sep 1978
 2 PLAC Justice of Peace, Couer d'Alene, ID, USA
 0 @F285@ FAM
-1 HUSB @I887@
-1 WIFE @I888@
+1 HUSB @I886@
+1 WIFE @I887@
 1 CHIL @I27@
 1 MARR
 2 DATE 23 Jul 1983
@@ -16191,8 +16179,8 @@
 2 DATE 21 Feb 1992
 2 PLAC , Dakota County, Eagan, MN, USA
 0 @F286@ FAM
-1 HUSB @I889@
-1 WIFE @I890@
+1 HUSB @I888@
+1 WIFE @I889@
 1 CHIL @I32@
 1 MARR
 2 DATE 26 Jun 1949
@@ -16201,8 +16189,8 @@
 2 DATE Feb 1978
 2 PLAC , Ortonville, MN, USA
 0 @F287@ FAM
-1 HUSB @I891@
-1 WIFE @I892@
+1 HUSB @I890@
+1 WIFE @I891@
 1 CHIL @I35@
 1 MARR
 2 DATE 24 Aug 1974
@@ -16211,35 +16199,35 @@
 2 DATE 6 Jan 1981
 2 PLAC , Milbank, SD, USA
 0 @F288@ FAM
-1 HUSB @I893@
-1 WIFE @I894@
+1 HUSB @I892@
+1 WIFE @I893@
 1 CHIL @I36@
 1 MARR
 2 DATE 14 May 1982
 2 PLAC American Lutheran Church, Milbank, SD, USA
 0 @F289@ FAM
-1 HUSB @I895@
-1 WIFE @I896@
+1 HUSB @I894@
+1 WIFE @I895@
 1 CHIL @I40@
 1 MARR
 2 DATE 16 Aug 1975
 2 PLAC Trinity Lutheran Church, Ortonville, MN, USA
 0 @F290@ FAM
-1 HUSB @I897@
-1 WIFE @I898@
+1 HUSB @I896@
+1 WIFE @I897@
 1 CHIL @I47@
 1 MARR
 2 DATE 6 Jun 1981
 2 PLAC Trinity Lutheran Church, Ortonville, MN, USA
 0 @F291@ FAM
-1 HUSB @I899@
-1 WIFE @I900@
+1 HUSB @I898@
+1 WIFE @I899@
 1 CHIL @I50@
 1 MARR
 2 DATE 12 Dec 1981
 0 @F292@ FAM
-1 HUSB @I901@
-1 WIFE @I902@
+1 HUSB @I900@
+1 WIFE @I901@
 1 CHIL @I52@
 1 MARR
 2 DATE 16 Oct 1954
@@ -16247,146 +16235,146 @@
 1 DIV
 2 DATE Aug 1993
 0 @F293@ FAM
-1 HUSB @I903@
-1 WIFE @I904@
+1 HUSB @I902@
+1 WIFE @I903@
 1 CHIL @I54@
 1 MARR
 2 DATE 4 Aug 1976
 2 PLAC Good Shepherd Lutheran Church Wheaton, MN, USA
 0 @F294@ FAM
-1 HUSB @I905@
-1 WIFE @I906@
+1 HUSB @I904@
+1 WIFE @I905@
 1 CHIL @I59@
 1 MARR
 2 DATE 12 May 1984
 2 PLAC St. John Lutheran Church, Wheaton, MN, USA
 0 @F295@ FAM
-1 HUSB @I907@
-1 WIFE @I908@
+1 HUSB @I906@
+1 WIFE @I907@
 1 CHIL @I65@
 1 MARR
 2 DATE 19 May 1990
 2 PLAC Messiah Lutheran Church, Lakeville, MN, USA
 0 @F296@ FAM
-1 HUSB @I909@
-1 WIFE @I910@
+1 HUSB @I908@
+1 WIFE @I909@
 1 CHIL @I67@
 1 NOTE * William's children from a previous marriage.
 0 @F297@ FAM
-1 HUSB @I911@
-1 WIFE @I912@
+1 HUSB @I910@
+1 WIFE @I911@
 1 CHIL @I69@
 1 MARR
 2 DATE 6 Nov 1938
 0 @F298@ FAM
-1 HUSB @I913@
-1 WIFE @I914@
+1 HUSB @I912@
+1 WIFE @I913@
 1 CHIL @I74@
 1 MARR
 2 DATE 27 Mar 1982
 0 @F299@ FAM
-1 HUSB @I915@
-1 WIFE @I916@
+1 HUSB @I914@
+1 WIFE @I915@
 1 CHIL @I80@
 0 @F300@ FAM
-1 WIFE @I917@
+1 WIFE @I916@
 1 CHIL @I87@
 1 MARR
 2 DATE 28 May 1976
 0 @F301@ FAM
-1 HUSB @I918@
-1 WIFE @I919@
+1 HUSB @I917@
+1 WIFE @I918@
 1 CHIL @I89@
 1 MARR
 2 DATE 12 Jan 1936
 2 PLAC , Tyler, MN, USA
 1 NOTE * Her parents made her stop school at the end of 10th grade.  Enough training for a farmer's wife.
 0 @F302@ FAM
-1 HUSB @I920@
-1 WIFE @I921@
+1 HUSB @I919@
+1 WIFE @I920@
 1 CHIL @I91@
 1 MARR
 2 DATE 18 Aug 1961
 2 PLAC Calvary Luthern Church, Portland, OR, USA
 0 @F303@ FAM
-1 HUSB @I922@
-1 WIFE @I923@
+1 HUSB @I921@
+1 WIFE @I922@
 1 CHIL @I95@
 1 MARR
 2 DATE 4 Aug 2001
 2 PLAC Private land outside of Portland, OR. USA
 0 @F304@ FAM
-1 HUSB @I924@
-1 WIFE @I925@
+1 HUSB @I923@
+1 WIFE @I924@
 1 CHIL @I97@
 1 MARR
 2 DATE 20 Nov 1965
 2 PLAC , Portland, OR, USA
 1 NOTE * Twins
 0 @F305@ FAM
-1 HUSB @I926@
-1 WIFE @I927@
+1 HUSB @I925@
+1 WIFE @I926@
 1 CHIL @I109@
 1 MARR
 2 DATE 15 Feb 1969
 0 @F306@ FAM
-1 HUSB @I928@
-1 WIFE @I929@
+1 HUSB @I927@
+1 WIFE @I928@
 1 CHIL @I113@
 1 MARR
 2 DATE 30 Dec 1977
 0 @F307@ FAM
-1 HUSB @I930@
-1 WIFE @I931@
+1 HUSB @I929@
+1 WIFE @I930@
 1 CHIL @I118@
 1 MARR
 2 DATE 16 Apr 1944
 2 PLAC Danebod Lutheran Church, Tyler, MN, USA
 0 @F308@ FAM
-1 HUSB @I932@
-1 WIFE @I933@
+1 HUSB @I931@
+1 WIFE @I932@
 1 CHIL @I120@
 1 MARR
 2 DATE 28 Dec 1968
 1 NOTE * Twins
 0 @F309@ FAM
-1 HUSB @I934@
-1 WIFE @I935@
+1 HUSB @I933@
+1 WIFE @I934@
 1 CHIL @I126@
 1 MARR
 2 DATE 15 Aug 1970
 1 NOTE *Evans, Robert John and Evans, Randall Kenneth are Adopted by Rita and Kenneth.
 0 @F310@ FAM
-1 HUSB @I936@
-1 WIFE @I937@
+1 HUSB @I935@
+1 WIFE @I936@
 1 CHIL @I130@
 1 MARR
 2 DATE 24 Jun 1972
 2 PLAC Bethany Lutheran Church, Arco, MN, USA
 0 @F311@ FAM
-1 HUSB @I938@
-1 WIFE @I939@
+1 HUSB @I937@
+1 WIFE @I938@
 1 CHIL @I135@
 1 MARR
 2 DATE 26 Apr 1986
 2 PLAC Glenwood Lutheran Church, Glenwood, MN, USA
 1 NOTE Gabriel Jon is David's son from a previous marriage.
 0 @F312@ FAM
-1 HUSB @I940@
-1 WIFE @I941@
+1 HUSB @I939@
+1 WIFE @I940@
 1 CHIL @I138@
 1 MARR
 2 DATE 1 Feb 1893
 0 @F313@ FAM
-1 HUSB @I942@
-1 WIFE @I943@
+1 HUSB @I941@
+1 WIFE @I942@
 1 CHIL @I140@
 1 MARR
 2 DATE 14 Oct 1914
 2 PLAC St. John's Evangelical Church, Peterson, IA, USA
 0 @F314@ FAM
-1 HUSB @I944@
-1 WIFE @I945@
+1 HUSB @I943@
+1 WIFE @I944@
 1 CHIL @I142@
 1 MARR
 2 DATE 6 Jun 1941
@@ -16396,30 +16384,30 @@
 2 PLAC , Onawa, IA, USA
 1 NOTE * Adopted by John Wagner at Storm Lake, IA, in 1948.
 0 @F315@ FAM
-1 HUSB @I946@
-1 WIFE @I947@
+1 HUSB @I945@
+1 WIFE @I946@
 1 CHIL @I144@
 1 MARR
 2 DATE 28 Jul 1967
 2 PLAC Methodist Church, Ida Grove, IA, USA
 1 NOTE * Adopted by John Wagner on 2 May 1948.                                                                                                                                            ** No burial, his body was lost in the airplane explosion.
 0 @F316@ FAM
-1 HUSB @I948@
-1 WIFE @I949@
+1 HUSB @I947@
+1 WIFE @I948@
 1 CHIL @I146@
 1 MARR
 2 DATE 20 Feb 1990
 2 PLAC , CA, USA
 0 @F317@ FAM
-1 HUSB @I950@
-1 WIFE @I951@
+1 HUSB @I949@
+1 WIFE @I950@
 1 CHIL @I147@
 1 MARR
 2 DATE 18 Jun 1946
 2 PLAC St. John's Evangelical Church, Peterson, IA, USA
 0 @F318@ FAM
-1 HUSB @I952@
-1 WIFE @I953@
+1 HUSB @I951@
+1 WIFE @I952@
 1 CHIL @I149@
 1 MARR
 2 DATE 4 Sep 1970
@@ -16427,364 +16415,364 @@
 2 DATE Jul 1972
 2 PLAC , Plano, TX, USA
 0 @F319@ FAM
-1 HUSB @I954@
-1 WIFE @I955@
+1 HUSB @I953@
+1 WIFE @I954@
 1 CHIL @I151@
 1 MARR
 2 DATE 6 Oct 2001
 2 PLAC , Napa, CA, USA
 0 @F320@ FAM
-1 HUSB @I956@
-1 WIFE @I957@
+1 HUSB @I955@
+1 WIFE @I956@
 1 CHIL @I153@
 1 MARR
 2 DATE 22 Sep 1984
 0 @F321@ FAM
-1 HUSB @I958@
-1 WIFE @I959@
+1 HUSB @I957@
+1 WIFE @I958@
 1 CHIL @I157@
 1 MARR
 2 DATE 15 Nov 1941
 0 @F322@ FAM
-1 HUSB @I960@
-1 WIFE @I961@
+1 HUSB @I959@
+1 WIFE @I960@
 1 CHIL @I159@
 1 MARR
 2 DATE 30 Aug 1969
 0 @F323@ FAM
-1 HUSB @I962@
-1 WIFE @I963@
+1 HUSB @I961@
+1 WIFE @I962@
 1 CHIL @I163@
 1 MARR
 2 DATE 20 Mar 1965
 0 @F324@ FAM
-1 HUSB @I964@
-1 WIFE @I965@
+1 HUSB @I963@
+1 WIFE @I964@
 1 CHIL @I165@
 1 MARR
 2 DATE 26 May 1990
 0 @F325@ FAM
-1 HUSB @I966@
-1 WIFE @I967@
+1 HUSB @I965@
+1 WIFE @I966@
 1 CHIL @I169@
 1 MARR
 2 DATE 29 Jul 1978
 1 DIV
 2 DATE 26 Feb 1987
 0 @F326@ FAM
-1 HUSB @I942@
+1 HUSB @I941@
 1 CHIL @I176@
 1 MARR
 2 DATE 16 Jan 1918
 1 NOTE * Stillborn son between Jean and Luella
 0 @F327@ FAM
-1 HUSB @I968@
-1 WIFE @I969@
+1 HUSB @I967@
+1 WIFE @I968@
 1 CHIL @I178@
 1 MARR
 2 DATE 21 Dec 1945
 2 PLAC Ft. Lauton, Seattle, WA, USA
 0 @F328@ FAM
-1 HUSB @I970@
-1 WIFE @I971@
+1 HUSB @I969@
+1 WIFE @I970@
 1 CHIL @I180@
 1 MARR
 2 DATE 11 Apr 1987
 2 PLAC , Las Vegas, NV, USA
 0 @F329@ FAM
-1 HUSB @I972@
-1 WIFE @I973@
+1 HUSB @I971@
+1 WIFE @I972@
 1 CHIL @I184@
 1 MARR
 2 DATE 13 Apr 1951
 0 @F330@ FAM
-1 HUSB @I974@
-1 WIFE @I975@
+1 HUSB @I973@
+1 WIFE @I974@
 1 CHIL @I186@
 1 MARR
 2 DATE 16 Apr 1982
 0 @F331@ FAM
-1 HUSB @I976@
-1 WIFE @I977@
+1 HUSB @I975@
+1 WIFE @I976@
 1 CHIL @I192@
 1 MARR
 2 DATE 24 Sep 1977
 1 NOTE * Twins
 0 @F332@ FAM
-1 HUSB @I978@
-1 WIFE @I979@
+1 HUSB @I977@
+1 WIFE @I978@
 1 CHIL @I198@
 1 MARR
 2 DATE 16 Nov 1944
 2 PLAC St. John's Evangelical Church, Peterson, IA, USA
 0 @F333@ FAM
-1 HUSB @I980@
-1 WIFE @I981@
+1 HUSB @I979@
+1 WIFE @I980@
 1 CHIL @I201@
 1 MARR
 2 DATE 2 Jan 1979
 2 PLAC , Cherokee, IA, USA
 1 NOTE *Terry Allen is Marcella's son from a previous marriage.
 0 @F334@ FAM
-1 HUSB @I982@
-1 WIFE @I983@
+1 HUSB @I981@
+1 WIFE @I982@
 1 CHIL @I205@
 1 MARR
 2 DATE 1 Sep 1973
 2 PLAC I. C. Church, Cherokee, IA, USA
 1 NOTE * Adopted
 0 @F335@ FAM
-1 HUSB @I984@
-1 WIFE @I985@
+1 HUSB @I983@
+1 WIFE @I984@
 1 CHIL @I208@
 1 MARR
 2 DATE 4 Jun 1971
 2 PLAC Congregational Church, Peterson, IA, USA
 0 @F336@ FAM
-1 HUSB @I986@
-1 WIFE @I987@
+1 HUSB @I985@
+1 WIFE @I986@
 1 CHIL @I213@
 1 MARR
 2 DATE 18 Nov 1972
 2 PLAC St. Paul's Methodist Church, Cherokee, IA, USA
 0 @F337@ FAM
-1 HUSB @I988@
-1 WIFE @I989@
+1 HUSB @I987@
+1 WIFE @I988@
 1 CHIL @I217@
 1 MARR
 2 DATE 25 Sep 1955
 2 PLAC , Storm Lake, IA, USA
 0 @F338@ FAM
-1 HUSB @I990@
-1 WIFE @I991@
+1 HUSB @I989@
+1 WIFE @I990@
 1 CHIL @I219@
 1 MARR
 2 DATE 15 Sep 1979
 1 NOTE * Adopted by Clarence Stevens.                                              ** Twins
 0 @F339@ FAM
-1 HUSB @I992@
-1 WIFE @I993@
+1 HUSB @I991@
+1 WIFE @I992@
 1 CHIL @I224@
 1 MARR
 2 DATE 5 Aug 1995
 2 PLAC St. John's Evangelical Church, Peterson, IA, USA
 1 NOTE * Sandra's children from a previous marriages.
 0 @F340@ FAM
-1 HUSB @I994@
-1 WIFE @I995@
+1 HUSB @I993@
+1 WIFE @I994@
 1 CHIL @I228@
 1 MARR
 2 DATE 5 Jun 1981
 0 @F341@ FAM
-1 HUSB @I996@
-1 WIFE @I997@
+1 HUSB @I995@
+1 WIFE @I996@
 1 CHIL @I232@
 1 MARR
 2 DATE 29 Jan 2000
 2 PLAC St. John's Evangelical Church, Peterson, IA, USA
 0 @F342@ FAM
-1 HUSB @I998@
-1 WIFE @I999@
+1 HUSB @I997@
+1 WIFE @I998@
 1 CHIL @I234@
 1 MARR
 2 DATE 4 Jun 1948
 2 PLAC St. John's Evangelical Church, Peterson, IA, USA
 0 @F343@ FAM
-1 HUSB @I1000@
-1 WIFE @I1001@
+1 HUSB @I999@
+1 WIFE @I1000@
 1 CHIL @I237@
 1 MARR
 2 DATE 17 Feb 1973
 0 @F344@ FAM
-1 HUSB @I1002@
-1 WIFE @I1003@
+1 HUSB @I1001@
+1 WIFE @I1002@
 1 CHIL @I242@
 1 MARR
 2 DATE 4 Sep 1970
 0 @F345@ FAM
-1 HUSB @I1004@
-1 WIFE @I1005@
+1 HUSB @I1003@
+1 WIFE @I1004@
 1 CHIL @I247@
 1 MARR
 2 DATE 27 Apr 1973
 0 @F346@ FAM
-1 HUSB @I1006@
-1 WIFE @I1007@
+1 HUSB @I1005@
+1 WIFE @I1006@
 1 CHIL @I252@
 1 MARR
 2 DATE 30 Jun 1957
 2 PLAC St. John's Evangelical Church, Peterson, IA, USA
 0 @F347@ FAM
-1 HUSB @I1008@
-1 WIFE @I1009@
+1 HUSB @I1007@
+1 WIFE @I1008@
 1 CHIL @I254@
 1 MARR
 2 DATE 26 Jun 1982
 2 PLAC , Dennison, IA, USA
 0 @F348@ FAM
-1 HUSB @I1010@
-1 WIFE @I1011@
+1 HUSB @I1009@
+1 WIFE @I1010@
 1 CHIL @I259@
 1 MARR
 2 DATE 26 Jun 1980
 2 PLAC Congregational Church, Peterson, IA, USA
 0 @F349@ FAM
-1 HUSB @I1012@
-1 WIFE @I1013@
+1 HUSB @I1011@
+1 WIFE @I1012@
 1 CHIL @I264@
 1 MARR
 2 DATE 4 May 1991
 0 @F350@ FAM
-1 HUSB @I1014@
-1 WIFE @I1015@
+1 HUSB @I1013@
+1 WIFE @I1014@
 1 CHIL @I279@
 1 MARR
 2 DATE 1 Jun 1958
 0 @F351@ FAM
-1 HUSB @I1016@
-1 WIFE @I1017@
+1 HUSB @I1015@
+1 WIFE @I1016@
 1 CHIL @I281@
 1 MARR
 2 DATE 19 Nov 1988
 2 PLAC Zumbro Lutheran Church, Rochester, MN, USA
 0 @F352@ FAM
-1 HUSB @I1018@
-1 WIFE @I1019@
+1 HUSB @I1017@
+1 WIFE @I1018@
 1 CHIL @I285@
 1 MARR
 2 DATE 19 Aug 1989
 2 PLAC , Pierre, SD, USA
 0 @F353@ FAM
-1 HUSB @I1020@
-1 WIFE @I1021@
+1 HUSB @I1019@
+1 WIFE @I1020@
 1 CHIL @I287@
 1 MARR
 2 DATE 26 May 1990
 1 NOTE * Susan's daughters from previous marriage.
 0 @F354@ FAM
-1 HUSB @I1022@
-1 WIFE @I1023@
+1 HUSB @I1021@
+1 WIFE @I1022@
 1 CHIL @I297@
 1 MARR
 2 DATE 26 Mar 1961
 2 PLAC Congregational Church, Peterson, IA, USA
 0 @F355@ FAM
-1 HUSB @I1024@
-1 WIFE @I1025@
+1 HUSB @I1023@
+1 WIFE @I1024@
 1 CHIL @I299@
 1 MARR
 2 DATE 25 Nov 1989
 2 PLAC Congregational Church, Peterson, IA, USA
 1 NOTE * Robert's children from a previous marriage.
 0 @F356@ FAM
-1 HUSB @I1026@
-1 WIFE @I1027@
+1 HUSB @I1025@
+1 WIFE @I1026@
 1 CHIL @I313@
 1 MARR
 2 DATE 14 Jan 1925
 0 @F357@ FAM
-1 HUSB @I1028@
-1 WIFE @I1029@
+1 HUSB @I1027@
+1 WIFE @I1028@
 1 CHIL @I316@
 1 MARR
 2 DATE 14 Feb 1954
 0 @F358@ FAM
-1 HUSB @I1030@
-1 WIFE @I1031@
+1 HUSB @I1029@
+1 WIFE @I1030@
 1 CHIL @I318@
 1 MARR
 2 DATE 19 Oct 1927
 0 @F359@ FAM
-1 HUSB @I1032@
-1 WIFE @I1033@
+1 HUSB @I1031@
+1 WIFE @I1032@
 1 CHIL @I320@
 1 MARR
 2 DATE 3 Sep 1949
 0 @F360@ FAM
-1 HUSB @I1034@
-1 WIFE @I1035@
+1 HUSB @I1033@
+1 WIFE @I1034@
 1 CHIL @I322@
 1 MARR
 2 DATE 18 May 1973
 0 @F361@ FAM
-1 HUSB @I1036@
-1 WIFE @I1037@
+1 HUSB @I1035@
+1 WIFE @I1036@
 1 CHIL @I327@
 1 MARR
 2 DATE 18 Mar 1978
 0 @F362@ FAM
-1 HUSB @I1038@
-1 WIFE @I1039@
+1 HUSB @I1037@
+1 WIFE @I1038@
 1 CHIL @I333@
 1 MARR
 2 DATE 7 Apr 1979
 0 @F363@ FAM
-1 HUSB @I1040@
-1 WIFE @I1041@
+1 HUSB @I1039@
+1 WIFE @I1040@
 1 CHIL @I337@
 1 MARR
 2 DATE 27 Jul 1990
 0 @F364@ FAM
-1 HUSB @I1042@
-1 WIFE @I1043@
+1 HUSB @I1041@
+1 WIFE @I1042@
 1 CHIL @I342@
 1 MARR
 2 DATE 26 Nov 1988
 2 PLAC Congregational Church, Peterson, IA, USA
 0 @F365@ FAM
-1 HUSB @I1044@
-1 WIFE @I1045@
+1 HUSB @I1043@
+1 WIFE @I1044@
 1 CHIL @I353@
 1 MARR
 2 DATE 19 Jul 1953
 0 @F366@ FAM
-1 HUSB @I1046@
-1 WIFE @I1047@
+1 HUSB @I1045@
+1 WIFE @I1046@
 1 CHIL @I362@
 1 MARR
 2 DATE 18 Sep 1965
 0 @F367@ FAM
-1 HUSB @I1048@
-1 WIFE @I1049@
+1 HUSB @I1047@
+1 WIFE @I1048@
 1 CHIL @I366@
 1 MARR
 2 DATE 4 Mar 1931
 0 @F368@ FAM
-1 HUSB @I1050@
-1 WIFE @I1051@
+1 HUSB @I1049@
+1 WIFE @I1050@
 1 CHIL @I368@
 1 MARR
 2 DATE 14 Jun 1959
 1 NOTE * Jane's son from a previous marriage.
 0 @F369@ FAM
-1 HUSB @I1052@
-1 WIFE @I1053@
+1 HUSB @I1051@
+1 WIFE @I1052@
 1 CHIL @I371@
 1 MARR
 2 DATE 12 Sep 1986
 0 @F370@ FAM
-1 HUSB @I1054@
-1 WIFE @I1055@
+1 HUSB @I1053@
+1 WIFE @I1054@
 1 CHIL @I376@
 1 MARR
 2 DATE 15 May 1990
 0 @F371@ FAM
-1 HUSB @I1056@
-1 WIFE @I1057@
+1 HUSB @I1055@
+1 WIFE @I1056@
 1 CHIL @I382@
 1 MARR
 2 DATE 19 May 1957
 2 PLAC St. John's Evangelical Church, Peterson, IA, USA
 0 @F372@ FAM
-1 HUSB @I1058@
-1 WIFE @I1059@
+1 HUSB @I1057@
+1 WIFE @I1058@
 1 CHIL @I385@
 1 MARR
 2 DATE 2 Jan 1968
 2 PLAC First Presbyterian Church, Schaller, IA, USA
 0 @F373@ FAM
-1 HUSB @I1060@
-1 WIFE @I1061@
+1 HUSB @I1059@
+1 WIFE @I1060@
 1 CHIL @I388@
 0 @F374@ FAM
 1 HUSB @I1@
@@ -16794,19 +16782,19 @@
 2 DATE Oct 1923
 1 NOTE See: MEYER, ALFRED WILLIAM - Dcdt Code: MAAB
 0 @F375@ FAM
-1 HUSB @I1062@
-1 WIFE @I1063@
+1 HUSB @I1061@
+1 WIFE @I1062@
 1 CHIL @I391@
 1 MARR
 2 DATE 30 Jun 1931
 0 @F376@ FAM
-1 WIFE @I1064@
+1 WIFE @I1063@
 1 CHIL @I393@
 1 MARR
 2 DATE 1957
 0 @F377@ FAM
-1 HUSB @I1065@
-1 WIFE @I1066@
+1 HUSB @I1064@
+1 WIFE @I1065@
 1 CHIL @I404@
 1 MARR
 2 DATE 29 Nov 1900
@@ -16814,35 +16802,35 @@
 2 DATE 1929
 2 PLAC , Buena Vista Co. IA, USA
 0 @F378@ FAM
-1 HUSB @I1067@
-1 WIFE @I1068@
+1 HUSB @I1066@
+1 WIFE @I1067@
 1 CHIL @I406@
 1 MARR
 2 DATE 10 Jan 1922
 2 PLAC Knudson Home, Linn Grove, IA, USA
 0 @F379@ FAM
-1 HUSB @I1069@
-1 WIFE @I1070@
+1 HUSB @I1068@
+1 WIFE @I1069@
 1 CHIL @I408@
 1 MARR
 2 DATE 20 Apr 1945
 2 PLAC St. Margarets, Horsforth, Yorkshire, England
 0 @F380@ FAM
-1 HUSB @I1071@
-1 WIFE @I1072@
+1 HUSB @I1070@
+1 WIFE @I1071@
 1 CHIL @I410@
 1 MARR
 2 DATE 27 Sep 1967
 2 PLAC Lutheran Student Center, Ames, IA, USA
 0 @F381@ FAM
-1 HUSB @I1073@
-1 WIFE @I1074@
+1 HUSB @I1072@
+1 WIFE @I1073@
 1 CHIL @I412@
 1 MARR
 2 PLAC Stern Grove Park, San Francisco
 0 @F382@ FAM
-1 HUSB @I1075@
-1 WIFE @I1076@
+1 HUSB @I1074@
+1 WIFE @I1075@
 1 CHIL @I416@
 1 MARR
 2 DATE 22 May 1976
@@ -16851,16 +16839,16 @@
 2 DATE 26 Jun 1983
 2 PLAC , Highland Park, IL, USA
 0 @F383@ FAM
-1 HUSB @I1077@
-1 WIFE @I1078@
+1 HUSB @I1076@
+1 WIFE @I1077@
 1 CHIL @I424@
 1 MARR
 2 DATE 29 Mar 1991
 2 PLAC Court Street Methodist Church, Rockford, IL, USA
 1 NOTE * JoAnne's daughter from a previous marriage.
 0 @F384@ FAM
-1 HUSB @I1079@
-1 WIFE @I1080@
+1 HUSB @I1078@
+1 WIFE @I1079@
 1 CHIL @I427@
 1 MARR
 2 DATE 7 Jun 1980
@@ -16869,37 +16857,37 @@
 2 DATE 2 Oct 1996
 2 PLAC , Menomonie, WI, USA
 0 @F385@ FAM
-1 HUSB @I1081@
-1 WIFE @I1082@
+1 HUSB @I1080@
+1 WIFE @I1081@
 1 CHIL @I430@
 1 DIV
 2 DATE 1974
 2 PLAC Woodbury Co. Court House, Sioux City, IA, USA
 1 NOTE * Linda's children from a previous marriage.
 0 @F386@ FAM
-1 HUSB @I1083@
-1 WIFE @I1084@
+1 HUSB @I1082@
+1 WIFE @I1083@
 1 CHIL @I435@
 1 MARR
 2 DATE 14 Jun 1980
 2 PLAC Grace Lutheran Church, Libertyville, IL, USA
 0 @F387@ FAM
-1 HUSB @I1085@
-1 WIFE @I1086@
+1 HUSB @I1084@
+1 WIFE @I1085@
 1 CHIL @I440@
 1 MARR
 2 DATE 23 Jun 2001
 2 PLAC Fort Scnelling Chapel, Minneapolis, MN, USA
 0 @F388@ FAM
-1 HUSB @I1087@
-1 WIFE @I1088@
+1 HUSB @I1086@
+1 WIFE @I1087@
 1 CHIL @I442@
 1 MARR
 2 DATE 25 Jun 1949
 2 PLAC Trinity Lutheran Church, Linn Grove, IA, USA
 0 @F389@ FAM
-1 HUSB @I1089@
-1 WIFE @I1090@
+1 HUSB @I1088@
+1 WIFE @I1089@
 1 CHIL @I444@
 1 MARR
 2 DATE 21 Apr 1978
@@ -16908,15 +16896,15 @@
 2 DATE Mar 1994
 2 PLAC , Bellingham, MA, USA
 0 @F390@ FAM
-1 HUSB @I1091@
-1 WIFE @I1092@
+1 HUSB @I1090@
+1 WIFE @I1091@
 1 CHIL @I447@
 1 MARR
 2 DATE 14 Oct 2001
 1 NOTE * David's children from a previous marriage
 0 @F391@ FAM
-1 HUSB @I1093@
-1 WIFE @I1094@
+1 HUSB @I1092@
+1 WIFE @I1093@
 1 CHIL @I452@
 1 MARR
 2 DATE 5 Sep 1976
@@ -16925,12 +16913,12 @@
 2 DATE Dec 1997
 2 PLAC , Butler, PA, USA
 0 @F392@ FAM
-1 HUSB @I1095@
-1 WIFE @I1096@
+1 HUSB @I1094@
+1 WIFE @I1095@
 1 CHIL @I454@
 0 @F393@ FAM
-1 HUSB @I1097@
-1 WIFE @I1098@
+1 HUSB @I1096@
+1 WIFE @I1097@
 1 CHIL @I458@
 1 MARR
 2 DATE 3 Jan 1976
@@ -16938,52 +16926,52 @@
 1 DIV
 2 DATE 1979
 0 @F394@ FAM
-1 HUSB @I1099@
-1 WIFE @I1100@
+1 HUSB @I1098@
+1 WIFE @I1099@
 1 CHIL @I459@
 1 MARR
 2 DATE 14 Feb 1982
 2 PLAC Southminster Presbyterian Church, Mt. Lebanon, PA, USA
 0 @F395@ FAM
-1 HUSB @I1101@
-1 WIFE @I1102@
+1 HUSB @I1100@
+1 WIFE @I1101@
 1 CHIL @I465@
 1 MARR
 2 DATE 30 Jun 1984
 1 DIV
 2 DATE 1989
 0 @F396@ FAM
-1 HUSB @I1103@
-1 WIFE @I1104@
+1 HUSB @I1102@
+1 WIFE @I1103@
 1 CHIL @I466@
 1 MARR
 2 DATE 23 Oct 1993
 2 PLAC Yates Home, Flint Hill, VA, USA
 1 NOTE Katherine always has been known as Katy.
 0 @F397@ FAM
-1 HUSB @I1105@
-1 WIFE @I1106@
+1 HUSB @I1104@
+1 WIFE @I1105@
 1 CHIL @I468@
 1 MARR
 2 DATE 29 Mar 1955
 2 PLAC Methodist Church, Melvin, IA, USA
 0 @F398@ FAM
-1 HUSB @I1107@
-1 WIFE @I1108@
+1 HUSB @I1106@
+1 WIFE @I1107@
 1 CHIL @I470@
 1 MARR
 2 DATE 1 May 1982
 2 PLAC Vinje Lutheran Church, Willmar, MN, USA
 0 @F399@ FAM
-1 HUSB @I1109@
-1 WIFE @I1110@
+1 HUSB @I1108@
+1 WIFE @I1109@
 1 CHIL @I472@
 1 MARR
 2 DATE 24 Aug 1985
 2 PLAC Vinje Lutheran Church, Willmar, MN, USA
 0 @F400@ FAM
-1 HUSB @I1111@
-1 WIFE @I1112@
+1 HUSB @I1110@
+1 WIFE @I1111@
 1 CHIL @I476@
 1 MARR
 2 DATE 8 Oct 1955
@@ -16991,115 +16979,115 @@
 1 DIV
 2 DATE 1981
 0 @F401@ FAM
-1 HUSB @I1113@
-1 WIFE @I1114@
+1 HUSB @I1112@
+1 WIFE @I1113@
 1 CHIL @I482@
 1 MARR
 2 DATE 18 Oct 1986
 0 @F402@ FAM
-1 HUSB @I1115@
-1 WIFE @I1116@
+1 HUSB @I1114@
+1 WIFE @I1115@
 1 CHIL @I484@
 1 MARR
 2 DATE 8 Nov 1940
 2 PLAC Justice of Peace, Kansas City, MO, USA
 0 @F403@ FAM
-1 HUSB @I1117@
-1 WIFE @I1118@
+1 HUSB @I1116@
+1 WIFE @I1117@
 1 CHIL @I486@
 1 MARR
 2 DATE 25 Oct 1976
 2 PLAC Glad Tidings, Omaha, NE, USA
 0 @F404@ FAM
-1 HUSB @I1060@
-1 WIFE @I1061@
+1 HUSB @I1059@
+1 WIFE @I1060@
 1 CHIL @I492@
 1 MARR
 2 DATE 12 Dec 1900
 0 @F405@ FAM
-1 HUSB @I1119@
-1 WIFE @I1120@
+1 HUSB @I1118@
+1 WIFE @I1119@
 1 CHIL @I498@
 1 MARR
 2 DATE 10 Jun 1951
 0 @F406@ FAM
-1 HUSB @I1121@
-1 WIFE @I1122@
+1 HUSB @I1120@
+1 WIFE @I1121@
 1 CHIL @I506@
 1 MARR
 2 DATE 22 Jun 1936
 0 @F407@ FAM
-1 HUSB @I1123@
+1 HUSB @I1122@
 1 CHIL @I508@
 1 MARR
 2 DATE 2 Jun 1962
 0 @F408@ FAM
-1 HUSB @I1124@
-1 WIFE @I1125@
+1 HUSB @I1123@
+1 WIFE @I1124@
 1 CHIL @I544@
 1 MARR
 2 DATE 31 Oct 1929
 2 PLAC , Moholl, ND, USA
 0 @F409@ FAM
-1 HUSB @I1126@
-1 WIFE @I1127@
+1 HUSB @I1125@
+1 WIFE @I1126@
 1 CHIL @I562@
 1 DIV
 2 DATE 27 Aug 1959
 1 NOTE * George was adopted by Helen's second husband, Harry Francis Garvey in 1947.
 0 @F410@ FAM
-1 HUSB @I1128@
-1 WIFE @I1129@
+1 HUSB @I1127@
+1 WIFE @I1128@
 1 CHIL @I565@
 1 MARR
 2 DATE 28 Jul 1961
 1 NOTE *  Maxine's  children from a previous marriage.
 0 @F411@ FAM
-1 HUSB @I1130@
-1 WIFE @I1131@
+1 HUSB @I1129@
+1 WIFE @I1130@
 1 CHIL @I575@
 0 @F412@ FAM
-1 HUSB @I1132@
-1 WIFE @I1133@
+1 HUSB @I1131@
+1 WIFE @I1132@
 1 CHIL @I592@
 1 MARR
 2 DATE 18 Dec 1912
 0 @F413@ FAM
-1 HUSB @I1134@
-1 WIFE @I1135@
+1 HUSB @I1133@
+1 WIFE @I1134@
 1 CHIL @I594@
 1 MARR
 2 DATE 17 Feb 1940
 2 PLAC Presbyterian Church, Alta, IA, USA
 0 @F414@ FAM
-1 HUSB @I1136@
-1 WIFE @I1137@
+1 HUSB @I1135@
+1 WIFE @I1136@
 1 CHIL @I597@
 1 MARR
 2 DATE 7 Aug 1971
 2 PLAC Presbyterian Church, Alta, IA, USA
 0 @F415@ FAM
-1 WIFE @I1138@
+1 WIFE @I1137@
 1 CHIL @I599@
 1 MARR
 2 DATE 25 Aug 1990
 2 PLAC Presbyterian Church, Alta, IA, USA
 0 @F416@ FAM
-1 HUSB @I1139@
-1 WIFE @I1140@
+1 HUSB @I1138@
+1 WIFE @I1139@
 1 CHIL @I605@
 1 MARR
 2 DATE 12 Aug 1972
 2 PLAC Presbyterian Church, Alta, IA, USA
 0 @F417@ FAM
-1 HUSB @I1141@
+1 HUSB @I1140@
 1 CHIL @I611@
 1 MARR
 2 DATE 27 Sep 1975
 2 PLAC Ronald Meyer Home, Alta, IA, USA
 0 @F418@ FAM
-1 HUSB @I1142@
-1 WIFE @I1143@
+1 HUSB @I1141@
+1 WIFE @I1142@
 1 CHIL @I615@
 1 MARR
 2 DATE 13 Sep 1980
@@ -17108,266 +17096,265 @@
 2 DATE 11 Dec 1989
 2 PLAC , Storm Lake, IA, USA
 0 @F419@ FAM
-1 HUSB @I1144@
-1 WIFE @I1145@
+1 HUSB @I1143@
+1 WIFE @I1144@
 1 CHIL @I620@
 1 MARR
 2 DATE 4 Jun 1995
 2 PLAC Methodist Chapel, Storm Lake, IA, USA
 1 NOTE Ethelyn's children from a previous marriage.
 0 @F420@ FAM
-1 HUSB @I1146@
-1 WIFE @I1147@
+1 HUSB @I1145@
+1 WIFE @I1146@
 1 CHIL @I635@
 1 MARR
 2 DATE 1 Jun 1941
 2 PLAC Haahr Home, Buena Vista Co. IA, USA
 0 @F421@ FAM
-1 HUSB @I1148@
-1 WIFE @I1149@
+1 HUSB @I1147@
+1 WIFE @I1148@
 1 CHIL @I637@
 1 MARR
 2 DATE 14 Oct 1967
 2 PLAC Methodist Church, Sioux Falls, SD, USA
 0 @F422@ FAM
-1 HUSB @I1150@
-1 WIFE @I1151@
+1 HUSB @I1149@
+1 WIFE @I1150@
 1 CHIL @I641@
 1 MARR
 2 DATE 25 Oct 1975
 0 @F423@ FAM
-1 HUSB @I1152@
-1 WIFE @I1153@
+1 HUSB @I1151@
+1 WIFE @I1152@
 1 CHIL @I645@
 1 MARR
 2 DATE 18 Feb 1989
 2 PLAC First Presbyterian Church, Alta, IA, USA
 0 @F424@ FAM
-1 HUSB @I1154@
-1 WIFE @I1155@
+1 HUSB @I1153@
+1 WIFE @I1154@
 1 CHIL @I649@
 1 MARR
 2 DATE 1 Mar 1953
 2 PLAC Little Brown Church, Nashua, IA, USA
 0 @F425@ FAM
-1 HUSB @I1156@
-1 WIFE @I1157@
+1 HUSB @I1155@
+1 WIFE @I1156@
 1 CHIL @I651@
 1 MARR
 2 DATE Jul 1980
 2 PLAC Trinity Lutheran Church, Alta, IA, USA
 0 @F426@ FAM
-1 HUSB @I1158@
-1 WIFE @I1159@
+1 HUSB @I1157@
+1 WIFE @I1158@
 1 CHIL @I660@
 1 MARR
 2 DATE 19 Jul 1987
 2 PLAC Presbyterian Church, Alta, IA, USA
 0 @F427@ FAM
-1 HUSB @I1160@
-1 WIFE @I1161@
+1 HUSB @I1159@
+1 WIFE @I1160@
 1 CHIL @I664@
 1 MARR
 2 DATE 19 Dec 1987
 2 PLAC Presbyterian Church, Alta, IA, USA
 0 @F428@ FAM
-1 HUSB @I1162@
-1 WIFE @I1163@
+1 HUSB @I1161@
+1 WIFE @I1162@
 1 CHIL @I667@
 1 MARR
 2 DATE 9 Jun 1951
 2 PLAC Lutheran Church, Sioux Falls, SD, USA
 0 @F429@ FAM
-1 HUSB @I1164@
-1 WIFE @I1165@
+1 HUSB @I1163@
+1 WIFE @I1164@
 1 CHIL @I669@
 1 MARR
 2 DATE 8 Jun 1952
 0 @F430@ FAM
-1 HUSB @I1166@
+1 HUSB @I1165@
 1 CHIL @I670@
 1 MARR
 2 DATE 3 Sep 1977
 1 DIV
 2 DATE 1982
 0 @F431@ FAM
-1 HUSB @I1167@
-1 WIFE @I1168@
+1 HUSB @I1166@
+1 WIFE @I1167@
 1 CHIL @I671@
 1 MARR
 2 DATE 2 Sep 1984
 0 @F432@ FAM
-1 HUSB @I1169@
-1 WIFE @I1170@
+1 HUSB @I1168@
+1 WIFE @I1169@
 1 CHIL @I675@
 1 MARR
 2 DATE 9 Jul 1983
 0 @F433@ FAM
-1 HUSB @I1171@
-1 WIFE @I1172@
+1 HUSB @I1170@
+1 WIFE @I1171@
 1 CHIL @I681@
 1 MARR
 2 DATE 31 Dec 1902
 0 @F434@ FAM
-1 HUSB @I1173@
-1 WIFE @I1174@
+1 HUSB @I1172@
+1 WIFE @I1173@
 1 CHIL @I683@
 1 MARR
 2 DATE 29 May 1933
 0 @F435@ FAM
-1 HUSB @I1175@
-1 WIFE @I1176@
-1 CHIL @I685@
+1 HUSB @I1174@
+1 WIFE @I1175@
 1 MARR
 2 DATE 25 Apr 1960
 1 DIV
 2 DATE 16 Jun 1981
 0 @F436@ FAM
-1 HUSB @I1177@
-1 CHIL @I696@
+1 HUSB @I1176@
+1 CHIL @I695@
 1 MARR
 2 DATE 18 Jun 1982
 0 @F437@ FAM
-1 HUSB @I1178@
-1 WIFE @I1179@
-1 CHIL @I698@
+1 HUSB @I1177@
+1 WIFE @I1178@
+1 CHIL @I697@
 1 MARR
 2 DATE 17 Jun 1957
 0 @F438@ FAM
-1 HUSB @I1180@
-1 WIFE @I1181@
-1 CHIL @I705@
+1 HUSB @I1179@
+1 WIFE @I1180@
+1 CHIL @I704@
 1 MARR
 2 DATE 25 Jun 1967
 0 @F439@ FAM
-1 HUSB @I1182@
-1 WIFE @I1135@
-1 CHIL @I711@
+1 HUSB @I1181@
+1 WIFE @I1134@
+1 CHIL @I710@
 1 MARR
 2 DATE 31 Dec 1929
 1 DIV
 2 DATE 27 Jan 1958
 0 @F440@ FAM
-1 HUSB @I1183@
-1 WIFE @I1184@
-1 CHIL @I713@
+1 HUSB @I1182@
+1 WIFE @I1183@
+1 CHIL @I712@
 1 MARR
 2 DATE 20 May 1951
 0 @F441@ FAM
-1 HUSB @I1185@
-1 WIFE @I1186@
-1 CHIL @I733@
+1 HUSB @I1184@
+1 WIFE @I1185@
+1 CHIL @I732@
 1 MARR
 2 DATE 22 Jan 1955
 0 @F442@ FAM
-1 HUSB @I1187@
-1 WIFE @I1188@
-1 CHIL @I748@
+1 HUSB @I1186@
+1 WIFE @I1187@
+1 CHIL @I747@
 1 MARR
 2 DATE 4 Oct 1963
 0 @F443@ FAM
-1 HUSB @I1189@
-1 WIFE @I1190@
-1 CHIL @I752@
+1 HUSB @I1188@
+1 WIFE @I1189@
+1 CHIL @I751@
 1 MARR
 2 DATE 9 Oct 1962
 0 @F444@ FAM
-1 HUSB @I1191@
-1 WIFE @I1192@
-1 CHIL @I754@
+1 HUSB @I1190@
+1 WIFE @I1191@
+1 CHIL @I753@
 1 MARR
 2 DATE 28 Dec 1910
 0 @F445@ FAM
-1 HUSB @I1193@
-1 WIFE @I1194@
-1 CHIL @I756@
+1 HUSB @I1192@
+1 WIFE @I1193@
+1 CHIL @I755@
 1 MARR
 2 DATE 12 Jun 1934
 2 PLAC Congregational Church, Spencer, IA, USA
 1 NOTE * Easter Sunday
 0 @F446@ FAM
-1 HUSB @I1195@
-1 WIFE @I1196@
-1 CHIL @I758@
+1 HUSB @I1194@
+1 WIFE @I1195@
+1 CHIL @I757@
 1 MARR
 2 DATE 12 May 1956
 2 PLAC First United Methodist Church, Peterson, IA, USA
 1 NOTE * Baptized on Easter Sunday.
 0 @F447@ FAM
-1 HUSB @I1197@
-1 WIFE @I1198@
-1 CHIL @I760@
+1 HUSB @I1196@
+1 WIFE @I1197@
+1 CHIL @I759@
 1 MARR
 2 DATE 11 Nov 1978
 1 DIV
 2 DATE 1983
 2 PLAC , Okanogan Co. WA, USA
 0 @F448@ FAM
-1 HUSB @I1199@
-1 WIFE @I1200@
-1 CHIL @I761@
+1 HUSB @I1198@
+1 WIFE @I1199@
+1 CHIL @I760@
 1 MARR
 2 DATE 2 May 1986
 2 PLAC , Coeur d' Alene, ID, USA
 1 NOTE Killed while felling a tree.  Cremated & ashes scattered at Coral Butte, WA
 0 @F449@ FAM
-1 HUSB @I1201@
-1 WIFE @I1202@
-1 CHIL @I764@
+1 HUSB @I1200@
+1 WIFE @I1201@
+1 CHIL @I763@
 1 MARR
 2 DATE 24 Dec 1999
 2 PLAC City Hall, Lakewood, OH, USA
 0 @F450@ FAM
-1 HUSB @I1203@
-1 WIFE @I1204@
-1 CHIL @I766@
+1 HUSB @I1202@
+1 WIFE @I1203@
+1 CHIL @I765@
 1 MARR
 2 DATE 18 Aug 1961
 0 @F451@ FAM
-1 HUSB @I1205@
-1 WIFE @I1206@
-1 CHIL @I773@
+1 HUSB @I1204@
+1 WIFE @I1205@
+1 CHIL @I772@
 1 MARR
 2 DATE 13 Jun 1976
 0 @F452@ FAM
-1 HUSB @I1207@
-1 WIFE @I1208@
-1 CHIL @I778@
+1 HUSB @I1206@
+1 WIFE @I1207@
+1 CHIL @I777@
 1 MARR
 2 DATE 26 Jun 1942
 2 PLAC , Marathon, IA, USA
 0 @F453@ FAM
-1 WIFE @I1209@
-1 CHIL @I780@
+1 WIFE @I1208@
+1 CHIL @I779@
 1 MARR
 2 DATE 28 May 1970
 0 @F454@ FAM
-1 HUSB @I1210@
-1 WIFE @I1211@
-1 CHIL @I782@
+1 HUSB @I1209@
+1 WIFE @I1210@
+1 CHIL @I781@
 1 MARR
 2 DATE 31 Aug 1969
 2 PLAC Larrabee Methodist Church, Larrabee, IA, USA
 0 @F455@ FAM
-1 HUSB @I1212@
-1 WIFE @I1213@
-1 CHIL @I784@
+1 HUSB @I1211@
+1 WIFE @I1212@
+1 CHIL @I783@
 1 MARR
 2 DATE 24 Jun 1989
 2 PLAC United Methodist Church, Sutherland, IA, USA
 0 @F456@ FAM
-1 HUSB @I1214@
-1 WIFE @I1215@
-1 CHIL @I791@
+1 HUSB @I1213@
+1 WIFE @I1214@
+1 CHIL @I790@
 1 MARR
 2 DATE 31 Dec 1972
 1 DIV
 2 DATE 2 Nov 1987
 2 PLAC Court House, Cherokee, IA, USA
 0 @F457@ FAM
-1 HUSB @I1216@
-1 WIFE @I1217@
-1 CHIL @I793@
+1 HUSB @I1215@
+1 WIFE @I1216@
+1 CHIL @I792@
 1 MARR
 2 DATE 6 Nov 1998
 2 PLAC United Methodist Church, Cherokee, IA USA
@@ -17376,163 +17363,163 @@
 2 PLAC Court House, Cherokee, IA, USA
 1 NOTE Divorce date should NOT be before marriage date for Weins, Nick and Boysen, Lillian Lucille. Marriage date: 1998 Nov 6, Divorce date: 1987 Nov 2
 0 @F458@ FAM
-1 HUSB @I1218@
-1 WIFE @I1219@
-1 CHIL @I796@
+1 HUSB @I1217@
+1 WIFE @I1218@
+1 CHIL @I795@
 1 MARR
 2 DATE 19 Nov 1982
 0 @F459@ FAM
-1 HUSB @I1220@
-1 WIFE @I1221@
-1 CHIL @I801@
+1 HUSB @I1219@
+1 WIFE @I1220@
+1 CHIL @I800@
 1 MARR
 2 DATE 27 May 1944
 0 @F460@ FAM
-1 HUSB @I1222@
-1 WIFE @I1223@
-1 CHIL @I803@
+1 HUSB @I1221@
+1 WIFE @I1222@
+1 CHIL @I802@
 1 MARR
 2 DATE 18 Oct 1965
 0 @F461@ FAM
-1 HUSB @I1224@
-1 WIFE @I1225@
-1 CHIL @I805@
+1 HUSB @I1223@
+1 WIFE @I1224@
+1 CHIL @I804@
 1 MARR
 2 DATE 16 Apr 1988
 0 @F462@ FAM
-1 HUSB @I1226@
-1 WIFE @I1227@
-1 CHIL @I808@
+1 HUSB @I1225@
+1 WIFE @I1226@
+1 CHIL @I807@
 1 MARR
 2 DATE 10 Nov 1989
 0 @F463@ FAM
-1 HUSB @I1228@
-1 WIFE @I1229@
-1 CHIL @I812@
+1 HUSB @I1227@
+1 WIFE @I1228@
+1 CHIL @I811@
 1 MARR
 2 DATE 18 Jul 1980
 0 @F464@ FAM
-1 HUSB @I1230@
-1 WIFE @I1231@
-1 CHIL @I817@
+1 HUSB @I1229@
+1 WIFE @I1230@
+1 CHIL @I816@
 1 MARR
 2 DATE 31 Jul 1983
 0 @F465@ FAM
-1 HUSB @I1232@
-1 WIFE @I1233@
-1 CHIL @I820@
+1 HUSB @I1231@
+1 WIFE @I1232@
+1 CHIL @I819@
 1 MARR
 2 DATE 22 Jun 1986
 0 @F466@ FAM
-1 HUSB @I1234@
-1 CHIL @I823@
+1 HUSB @I1233@
+1 CHIL @I822@
 1 MARR
 2 DATE 28 Apr 1942
 1 DIV
 2 DATE Jul 1942
 0 @F467@ FAM
-1 HUSB @I1235@
-1 WIFE @I1236@
-1 CHIL @I826@
+1 HUSB @I1234@
+1 WIFE @I1235@
+1 CHIL @I825@
 1 MARR
 2 DATE 1 Jun 1943
 0 @F468@ FAM
-1 HUSB @I1237@
-1 WIFE @I1238@
-1 CHIL @I827@
+1 HUSB @I1236@
+1 WIFE @I1237@
+1 CHIL @I826@
 1 MARR
 2 DATE 18 Jul 1959
 0 @F469@ FAM
-1 HUSB @I1239@
-1 WIFE @I1240@
-1 CHIL @I830@
+1 HUSB @I1238@
+1 WIFE @I1239@
+1 CHIL @I829@
 1 MARR
 2 DATE 15 Jul 1961
 0 @F470@ FAM
-1 HUSB @I1241@
-1 WIFE @I1242@
-1 CHIL @I834@
+1 HUSB @I1240@
+1 WIFE @I1241@
+1 CHIL @I833@
 1 MARR
 2 DATE 19 Jan 1910
 0 @F471@ FAM
-1 HUSB @I1243@
-1 WIFE @I1244@
-1 CHIL @I836@
+1 HUSB @I1242@
+1 WIFE @I1243@
+1 CHIL @I835@
 1 MARR
 2 DATE 8 Jun 1938
 0 @F472@ FAM
-1 HUSB @I1245@
-1 WIFE @I1246@
-1 CHIL @I838@
+1 HUSB @I1244@
+1 WIFE @I1245@
+1 CHIL @I837@
 1 MARR
 2 DATE 27 May 1962
 2 PLAC , Peterson, IA, USA
 0 @F473@ FAM
-1 HUSB @I1247@
-1 WIFE @I1248@
-1 CHIL @I840@
+1 HUSB @I1246@
+1 WIFE @I1247@
+1 CHIL @I839@
 1 MARR
 2 DATE 24 Sep 1983
 2 PLAC First Presbyterian Church, Spirit Lake, IA, USA
 0 @F474@ FAM
-1 HUSB @I1249@
-1 WIFE @I1250@
-1 CHIL @I846@
+1 HUSB @I1248@
+1 WIFE @I1249@
+1 CHIL @I845@
 1 MARR
 2 DATE 23 Oct 1963
 2 PLAC St. John's Evangelical Church, Peterson, IA, USA
 0 @F475@ FAM
-1 HUSB @I1251@
-1 WIFE @I1252@
-1 CHIL @I848@
+1 HUSB @I1250@
+1 WIFE @I1251@
+1 CHIL @I847@
 1 MARR
 2 DATE 7 Feb 1986
 2 PLAC , Dubois, WY, USA
 1 DIV
 2 DATE Oct 1989
 0 @F476@ FAM
-1 HUSB @I1253@
-1 WIFE @I1254@
-1 CHIL @I851@
+1 HUSB @I1252@
+1 WIFE @I1253@
+1 CHIL @I850@
 1 MARR
 2 DATE 6 Sep 1969
 2 PLAC , Cherokee, IA, USA
 0 @F477@ FAM
-1 HUSB @I1255@
-1 WIFE @I1256@
-1 CHIL @I853@
+1 HUSB @I1254@
+1 WIFE @I1255@
+1 CHIL @I852@
 1 MARR
 2 DATE 15 Aug 1992
 2 PLAC St. John's Evangelical Church, Peterson, IA, USA
 0 @F478@ FAM
-1 HUSB @I1257@
-1 WIFE @I1258@
-1 CHIL @I858@
+1 HUSB @I1256@
+1 WIFE @I1257@
+1 CHIL @I857@
 1 MARR
 2 DATE 25 Mar 1939
 0 @F479@ FAM
-1 HUSB @I1259@
-1 CHIL @I860@
+1 HUSB @I1258@
+1 CHIL @I859@
 1 MARR
 2 DATE 6 Feb 1963
 2 PLAC , Minneapolis, MN, USA
 0 @F480@ FAM
-1 HUSB @I1260@
-1 WIFE @I1261@
-1 CHIL @I867@
+1 HUSB @I1259@
+1 WIFE @I1260@
+1 CHIL @I866@
 1 MARR
 2 DATE 14 Dec 1968
 2 PLAC , Madison, WI, USA
 0 @F481@ FAM
-1 HUSB @I1262@
-1 WIFE @I1263@
-1 CHIL @I870@
+1 HUSB @I1261@
+1 WIFE @I1262@
+1 CHIL @I869@
 1 MARR
 2 DATE 8 May 1982
 2 PLAC Emmanuel Lutheran Church, Grafton, IA, USA
 0 @F482@ FAM
 1 HUSB @I0@
-1 WIFE @I1264@
+1 WIFE @I1263@
 1 CHIL @I3@
 1 CHIL @I5@
 1 CHIL @I68@
@@ -17541,50 +17528,50 @@
 1 MARR
 2 DATE 14 Oct 1897
 0 @F483@ FAM
-1 HUSB @I1265@
+1 HUSB @I1264@
 1 WIFE @I201@
 1 CHIL @I202@
 0 @F484@ FAM
-1 HUSB @I1266@
+1 HUSB @I1265@
 1 WIFE @I224@
 1 CHIL @I225@
 0 @F485@ FAM
-1 HUSB @I1267@
+1 HUSB @I1266@
 1 WIFE @I224@
 1 CHIL @I226@
 1 NOTE * Sierra Kaylee  Raeanne Lane was officially adopted by James D. Kracht in 1995.  She now goes by Kracht.
 0 @F486@ FAM
-1 HUSB @I1268@
+1 HUSB @I1267@
 1 WIFE @I287@
 1 CHIL @I288@
 1 NOTE Technically unrelated child: Kelly, Alyannah Alette
 0 @F487@ FAM
 1 HUSB @I299@
-1 WIFE @I1269@
+1 WIFE @I1268@
 1 CHIL @I300@
 0 @F488@ FAM
 1 HUSB @I419@
-1 WIFE @I1270@
+1 WIFE @I1269@
 1 CHIL @I420@
 0 @F489@ FAM
-1 HUSB @I1271@
+1 HUSB @I1270@
 1 WIFE @I424@
 1 CHIL @I425@
 0 @F490@ FAM
-1 HUSB @I1272@
+1 HUSB @I1271@
 1 WIFE @I430@
 1 CHIL @I431@
 1 MARR
 2 DATE Jun 1980
 0 @F491@ FAM
 1 HUSB @I447@
-1 WIFE @I1273@
+1 WIFE @I1272@
 1 CHIL @I448@
 0 @F492@ FAM
-1 HUSB @I1274@
+1 HUSB @I1273@
 1 WIFE @I562@
 0 @F493@ FAM
-1 HUSB @I1275@
+1 HUSB @I1274@
 1 WIFE @I620@
 1 CHIL @I621@
 1 MARR
@@ -17594,8 +17581,8 @@
 1 NOTE Technically unrelated child: Peters, Rachel Ann
 0 @F494@ FAM
 1 HUSB @I684@
-1 WIFE @I1276@
+1 WIFE @I1275@
 0 @F495@ FAM
-1 HUSB @I707@
-1 WIFE @I1277@
+1 HUSB @I706@
+1 WIFE @I1276@
 0 TRLR

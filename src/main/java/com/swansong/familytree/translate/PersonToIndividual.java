@@ -32,6 +32,7 @@ public class PersonToIndividual {
         individual.setDeathDate(DateUtils.convertDate(person.getDeathDate()));
         individual.setDeathPlace(person.getBurialPlace());
 
+        person.getMarriages().forEach(marriage -> individual.addMarriageId(marriage.getId()));
         individual.setOccupation(person.getOccupation());
         individual.setNotes(person.getNotes());
         if (person.getChildrenNotes() != null && !person.getChildrenNotes().isBlank()) {

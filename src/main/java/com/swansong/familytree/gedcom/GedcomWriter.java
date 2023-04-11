@@ -100,7 +100,9 @@ public class GedcomWriter {
             for (String note : indiv.getNotes()) {
                 record += GedcomUtils.getIfNotNullOrBlank("1 FACT %s\n", note);
             }
-
+            for (int id : indiv.getMarriageIds()) {
+                record += String.format("1 FAMS @F%d@\n", id);
+            }
             Files.writeString(filePath, record, StandardOpenOption.APPEND);
         }
 

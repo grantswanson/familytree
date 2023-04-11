@@ -37,9 +37,14 @@ public class Individual {
     private String deathPlace;
     private String occupation;
     private List<String> notes = new ArrayList<>();
+    private List<Integer> marriageIds = new ArrayList<>();
 
     public void addNote(String note) {
         notes.add(note);
+    }
+
+    public void addMarriageId(Integer marriageId) {
+        marriageIds.add(marriageId);
     }
 
     public static Individual.IndividualBuilder testIndividualBuilder = Individual.builder()

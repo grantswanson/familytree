@@ -2,16 +2,18 @@ package com.swansong.familytree.biz;
 
 import com.swansong.familytree.csv.Row;
 import com.swansong.familytree.model.Marriage;
+import com.swansong.familytree.model.MarriageSource;
 import com.swansong.familytree.model.Person;
 
 
 public class MarriageBuilder {
 
-    public static Marriage buildMarriage(Person mainPerson, Person spouse, Row row) {
+    public static Marriage buildMarriage(Person mainPerson, Person spouse, Row row, MarriageSource source) {
 
         Marriage marriage = new Marriage();
         marriage.setSpouse1(mainPerson);
         marriage.setSpouse2(spouse);
+        marriage.setSource(source);
         marriage.setSourceRow(row);
         if (mainPerson != null) {
             mainPerson.addMarriage(marriage);
@@ -22,6 +24,12 @@ public class MarriageBuilder {
             spouse.addSpouse(mainPerson);
             spouse.addMarriage(marriage);
         }
+
+        return marriage;
+    }
+
+    public static void addRowDetails(Marriage marriage, Row row) {
+
         // add more here from row
         marriage.setMarriageDate(row.getMarriageDate());
         marriage.setMarriagePlace(row.getMarriagePlace());
@@ -30,7 +38,6 @@ public class MarriageBuilder {
         marriage.addNote(row.getChildrenNotes());
 
         // don't add the children yet. However, the names are in the row
-        return marriage;
     }
 
 }

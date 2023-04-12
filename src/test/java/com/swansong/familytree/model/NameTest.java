@@ -31,8 +31,9 @@ public class NameTest {
                 Map.entry("                 , Sandra", ", Sandra"),
                 Map.entry(",Jana Lynn [Neuzil*] * ", ", Jana Lynn [Neuzil]"),
                 Map.entry("Burns, Sandra Kay (Peters)(Lane)", "Burns, Sandra Kay [Peters] [Lane]"),
-                Map.entry("McGEE, ANDREW SHANE", "McGEE, Andrew Shane"), // fix later
+                Map.entry("McGEE, ANDREW SHANE", "McGee, Andrew Shane"), // fix later
                 Map.entry(" SWANSON  ,  GRANT * alt: Grantt", "Swanson, Grant alt: Grantt"),
+                Map.entry("McLEOD, George Wesley {Garvey}, Jr.", "McLeod, George Wesley {Garvey}, Jr"),
                 Map.entry("SWANSON, SVEN WILHELM \"William\"", "Swanson, Sven Wilhelm \"William\"")
         );
 
@@ -65,7 +66,7 @@ public class NameTest {
                 Map.entry("                 , Sandra", ", Sandra"),
                 Map.entry(",Jana Lynn [Neuzil*] * ", ", Jana Lynn"),
                 Map.entry("Burns, Sandra Kay (Peters)(Lane)", "Burns, Sandra Kay"),
-                Map.entry("McGEE, ANDREW SHANE", "McGEE, Andrew Shane"), // fix later
+                Map.entry("McGEE, ANDREW SHANE", "McGee, Andrew Shane"), // fix later
                 Map.entry(" SWANSON  ,  GRANT * alt: Grantt", "Swanson, Grant"),
                 Map.entry("SWANSON, SVEN WILHELM \"William\"", "Swanson, Sven Wilhelm")
         );
@@ -168,7 +169,9 @@ public class NameTest {
 
 
     @ParameterizedTest
-    @CsvSource({"'Jones, Bill', false", "'', true", "'  ', true",
+    @CsvSource({"'Jones, Bill', false",
+            "'', true",
+            "'  ', true",
             "',\" jimmy\"', false",
             "'\" jimmy\"', false",
             "',[smith]', false",
@@ -236,7 +239,10 @@ public class NameTest {
     }
 
     @ParameterizedTest
-    @CsvSource({"',Smith', false", "'Smith, Jones', false", "'Ware, ', true "})
+    @CsvSource({"',Smith', false",
+            "'Smith, Jones', false",
+            "'Ware, ', true ",
+            "'Stewart, William James, Jr,', false"})
     void isOnlySurnameTest(String name, String expected) {
         boolean b = Name.isOnlySurname(name);
         assertEquals(expected, Boolean.toString(b));
@@ -247,7 +253,8 @@ public class NameTest {
             "'John Smith', true",
             "'Jane Doe', true",
             "', Doe', false",
-            "'John', true"
+            "'John', true",
+            "'Rosenberg Sue', true"
     })
     public void hasSurnameTest(String input, boolean expectedOutput) {
         assertEquals(expectedOutput, Name.hasSurname(input));

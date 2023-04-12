@@ -38,7 +38,8 @@ public class StringUtilsTest {
             "'Robert joseph, jr', 'Robert Joseph, Jr'",
             "'SMITH, ROBERT JOE, jr', 'Smith, Robert Joe, Jr'",
             "'   SMITH   ,   DORIS   ', 'Smith, Doris'",
-            "'  SMITH  ,   ROBERT   JOE  ,   jr.  ', 'Smith, Robert Joe, Jr.'"
+            "'  SMITH  ,   ROBERT   JOE  ,   jr.  ', 'Smith, Robert Joe, Jr.'",
+            "'McLEOD, George Wesley {Garvey}, Jr.', 'McLeod, George Wesley {Garvey}, Jr.'"
     })
     public void toNameCaseTest(String input, String expected) {
         assertEquals(expected, StringUtils.toNameCase(input));

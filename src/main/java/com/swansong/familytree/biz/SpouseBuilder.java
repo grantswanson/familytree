@@ -6,24 +6,26 @@ import com.swansong.familytree.model.GenCode;
 import com.swansong.familytree.model.Person;
 
 public class SpouseBuilder {
-    public static Person lookupSpouse(Row row) {
+    public static Person findSpouse(Row row) {
         return PersonMap.getPersonByGenCodeOrRawName(
                 GenCode.buildSpousesCode(row.getGenCode()),
                 row.getSpouse());
     }
 
-    public static Person buildSpouse(Row row) {
-        Person existingSpouse = lookupSpouse(row);
+    public static BuildPersonResult buildSpouse(Row row) {
+        Person existingSpouse = findSpouse(row);
         if (existingSpouse == null) {
             // make new person
             existingSpouse = buildSpouseDetails(row);
             if (existingSpouse != null) {
                 PersonMap.savePerson(existingSpouse);
+                return new BuildPersonResult(existingSpouse, true);
             }
+
         } else {
             existingSpouse.appendDebug(" Also spouse ln#:" + row.getNumber());
         }
-        return existingSpouse;
+        return new BuildPersonResult(existingSpouse, false);
     }
 
     private static Person buildSpouseDetails(Row row) {

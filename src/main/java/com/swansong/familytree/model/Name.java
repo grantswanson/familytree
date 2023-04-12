@@ -48,6 +48,14 @@ public class Name {
         if (names.length == 0) {
             // the str="," so it is basically blank, so we shouldn't really be parsing that name.
             throw new IllegalArgumentException("Unexpected lastName, firstName format: It is names.length:" + names.length + " str:'" + str + "'");
+        } else if (names.length == 1) {
+            // the str= has no commas or only a trailing one...
+            if (!str.trim().endsWith(",")) {
+                System.out.println("Unexpected lastName, firstName format. No commas: It is names.length:" + names.length + " str:'" + str + "'");
+                if (str.equals("Homemaker")) {
+                    throw new RuntimeException("Unexpected Name:" + str);
+                }
+            }
         } else if (names.length > 3) {
             throw new IllegalArgumentException("Unexpected lastName, firstName format: It contains an extra comma: '" + str + "'");
         }
@@ -317,12 +325,30 @@ public class Name {
                 suffix.isBlank();
     }
 
+    private boolean isOnlySurName() {
+        return surName != null && !surName.isBlank() &&
+                firstNames.isBlank() &&
+                nickName.isBlank() &&
+                marriedNames.size() == 0 &&
+                suffix.isBlank();
+    }
+
     public static boolean isOnlySurname(String name) {
-        return name.trim().endsWith(",");
+        Name name1 = Name.parseFullName(name);
+        boolean retVal = name1.isOnlySurName();
+        if (name.trim().endsWith(",") != retVal) {
+            System.out.println("old code did not work! retVal:" + retVal + " name:" + name + " parsedName:" + name1);
+        }
+        return retVal;
     }
 
     public static boolean hasSurname(String name) {
-        return !name.trim().startsWith(",");
+        Name name1 = Name.parseFullName(name);
+        boolean retVal = name1.surName != null && !name1.surName.isBlank();
+        if (!name.trim().startsWith(",") != retVal) {
+            throw new RuntimeException("old code did not work222!");
+        }
+        return retVal;
     }
 
 

@@ -3,10 +3,7 @@ package com.swansong.familytree.biz;
 import com.swansong.familytree.csv.Row;
 import com.swansong.familytree.data.MarriageMap;
 import com.swansong.familytree.data.PersonMap;
-import com.swansong.familytree.model.GenCode;
-import com.swansong.familytree.model.Marriage;
-import com.swansong.familytree.model.Name;
-import com.swansong.familytree.model.Person;
+import com.swansong.familytree.model.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,7 +17,7 @@ public class ChildBuilder {
         // for each marriage
         for (Marriage marriage : MarriageMap.getMarriagesCollection()) {
             Row row = marriage.getSourceRow();
-            if (marriage.isSpousesParents()) {
+            if (marriage.getSource() == MarriageSource.SpousesParents) {  // TODO reconsider this...
                 // don't add children (they are already there) just one person (the spouse)
                 continue;
             }

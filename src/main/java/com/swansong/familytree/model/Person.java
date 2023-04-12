@@ -20,7 +20,18 @@ public class Person {
 
     private int id;
     private String genCode;
+    @ToString.Exclude
     private Name name;
+
+    @SuppressWarnings("unused")
+    @ToString.Include
+    private String getFullName() {
+        if (name == null) {
+            return "";
+        }
+        return name.toFullName();
+    }
+
     private String gender = "";
 
     private Person father;
@@ -43,6 +54,7 @@ public class Person {
     private String debug = "";
 
     private Row sourceRow;
+
 
     @ToString.Exclude
     private Marriage parentsMarriage;

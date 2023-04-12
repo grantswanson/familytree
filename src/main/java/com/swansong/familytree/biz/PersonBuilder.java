@@ -3,34 +3,58 @@ package com.swansong.familytree.biz;
 import com.swansong.familytree.csv.Row;
 import com.swansong.familytree.data.MarriageMap;
 import com.swansong.familytree.data.PersonMap;
-import com.swansong.familytree.model.GenCode;
-import com.swansong.familytree.model.Marriage;
-import com.swansong.familytree.model.Name;
-import com.swansong.familytree.model.Person;
+import com.swansong.familytree.model.*;
 
 import java.util.ArrayList;
 
 
 public class PersonBuilder {
 
-    public static Person lookupMainPerson(Row row) {
+    public static void buildMainPersonAndSpouse(ArrayList<Row> csvData) {
+        // build all the primary people
+        for (Row row : csvData) {
+            BuildPersonResult buildMainPersonResult = buildMainPerson(row);
+            Person mainPerson = buildMainPersonResult.getPerson();
+
+            BuildPersonResult buildSpouseResult = SpouseBuilder.buildSpouse(row);
+            Person spouse = buildSpouseResult.getPerson();
+
+
+            if (!buildMainPersonResult.isNew() && !buildSpouseResult.isNew()) {
+                MarriageMerger.verifyExistingMarriage(mainPerson, spouse,
+                        MarriageSource.MainAndSpouse, null, row);
+            } else if (spouse != null || ChildBuilder.extractChildrensNames(row).size() > 0) { // add a marriage if there are children
+                if (spouse == null) {
+                    System.out.println("Warn: building marriage for main person with no spouse. ln#" + row.getNumber());
+                }
+                Marriage marriage = MarriageBuilder.buildMarriage(mainPerson, spouse, row, MarriageSource.MainAndSpouse);
+                MarriageBuilder.addRowDetails(marriage, row);
+                MarriageMap.addMarriage(marriage);
+            }
+
+        }
+    }
+
+    public static Person findMainPerson(Row row) {
         return PersonMap.getPersonByGenCodeOrRawName(
                 GenCode.buildSelfCode(row.getGenCode()),
                 row.getName());
     }
 
-    public static Person buildMainPerson(Row row) {
-        Person existingPerson = lookupMainPerson(row);
+    public static BuildPersonResult buildMainPerson(Row row) {
+        Person existingPerson = findMainPerson(row);
 
         if (existingPerson == null) {
             // make new person
             existingPerson = PersonBuilder.buildMainPersonDetails(row);
             PersonMap.savePerson(existingPerson);
+            return new BuildPersonResult(existingPerson, true);
 
         } else {
             existingPerson.appendDebug(" Also indiv ln#:" + row.getNumber());
         }
-        return existingPerson;
+        return new BuildPersonResult(existingPerson, false);
+
     }
 
     private static Person buildMainPersonDetails(Row row) {
@@ -72,18 +96,6 @@ public class PersonBuilder {
     }
 
 
-    public static void buildMainPersonAndSpouse(ArrayList<Row> csvData) {
-        // build all the primary people
-        for (Row row : csvData) {
-            Person mainPerson = buildMainPerson(row);
-            Person spouse = SpouseBuilder.buildSpouse(row);
 
-            if (spouse != null || ChildBuilder.extractChildrensNames(row).size() > 0) { // add a marriage if there are children
-                Marriage marriage = MarriageBuilder.buildMarriage(mainPerson, spouse, row);
-                MarriageMap.addMarriage(marriage);
-            }
-
-        }
-    }
 }
 

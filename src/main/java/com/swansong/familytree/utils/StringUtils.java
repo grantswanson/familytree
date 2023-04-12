@@ -74,20 +74,24 @@ public class StringUtils {
     }
 
     private static String toNameCaseSingleWord(String name) {
-
         StringBuilder formattedName = new StringBuilder();
         boolean firstUppercaseFound = false;
+        boolean firstLetterFound = false;
         for (int i = 0; i < name.length(); i++) {
             char c = name.charAt(i);
-            if (i == 0) {
-                formattedName.append(Character.toUpperCase(c));
-            } else if (!firstUppercaseFound && Character.isLowerCase(name.charAt(i - 1)) && Character.isUpperCase(c)) {
-                formattedName.append(c);
-                firstUppercaseFound = true;
+            if (Character.isLetter(c)) {
+                if (!firstLetterFound) {
+                    formattedName.append(Character.toUpperCase(c));
+                    firstLetterFound = true;
+                } else if (!firstUppercaseFound && Character.isLowerCase(name.charAt(i - 1)) && Character.isUpperCase(c)) {
+                    formattedName.append(c);
+                    firstUppercaseFound = true;
+                } else {
+                    formattedName.append(Character.toLowerCase(c));
+                }
             } else {
-                formattedName.append(Character.toLowerCase(c));
+                formattedName.append(c);
             }
-
         }
         return formattedName.toString();
     }
@@ -110,8 +114,8 @@ public class StringUtils {
     }
 
     public static Set<String> diff(String s1, String s2) {
-        Set<String> str1 = new HashSet<>(Arrays.asList(toNameCase(s1).split("\\s+")));
-        Set<String> str2 = new HashSet<>(Arrays.asList(toNameCase(s2).split("\\s+")));
+        Set<String> str1 = new HashSet<>(Arrays.asList(s1.split("\\s+")));
+        Set<String> str2 = new HashSet<>(Arrays.asList(s2.split("\\s+")));
         str2.removeAll(str1);
         return str2;
     }

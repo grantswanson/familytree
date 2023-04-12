@@ -1,6 +1,7 @@
 package com.swansong.familytree.data;
 
 import com.swansong.familytree.model.Marriage;
+import com.swansong.familytree.model.Person;
 import com.swansong.familytree.utils.StringUtils;
 import lombok.Data;
 
@@ -12,16 +13,38 @@ import java.util.stream.Collectors;
 
 @Data
 public class MarriageMap {
-    public static Map<Integer, Marriage> marriages = new HashMap<>();
+    private static Map<String, Marriage> marriages = new HashMap<>();
+
+    public static Marriage findMarriage(Person husband, Person wife) {
+        String key = Marriage.getParentsGenCode(husband, wife);
+        Marriage marriage = marriages.get(key);
+        if (marriage == null) {
+            marriage = marriages.get(Marriage.getParentsGenCode(wife, husband));
+        }
+        return marriage;
+    }
+
+    public static Marriage findMarriage(Marriage newMarriage) {
+        Marriage marriage = marriages.get(newMarriage.getKey());
+        if (marriage == null) {
+            marriage = marriages.get(newMarriage.getKeyReversed());
+        }
+        return marriage;
+    }
 
     public static void addMarriage(Marriage newMarriage) {
-        Marriage currentMarriage = marriages.get(newMarriage.getId());
-        if (currentMarriage != null) {
-            throw new RuntimeException("Error: Tried to add someone who is already there by genCode! cur:" +
-                    currentMarriage.toFormattedString() + "\n trying to add:" + newMarriage.toFormattedString() +
-                    "\n diff:" + StringUtils.diff(currentMarriage.toString(), newMarriage.toString()));
+        Marriage existingMarriage = findMarriage(newMarriage);
+        if (existingMarriage != null) {
+            //System.out.println(
+            throw new RuntimeException(
+                    "Warn: ln#" + newMarriage.getSourceRow().getNumber() + " Tried to add marriage that is already there. This can happen if cousins marry each other. Make sure the marriages have the same information." +
+                            "\n existing:" + existingMarriage.toFormattedString() +
+                            "\n   adding:" + newMarriage.toFormattedString() +
+                            "\n diff:" + StringUtils.diff(existingMarriage.toString(), newMarriage.toString()) +
+                            "\n existing:" + existingMarriage +
+                            "\n   adding:" + newMarriage);
         }
-        marriages.put(newMarriage.getId(), newMarriage);
+        marriages.put(newMarriage.getKey(), newMarriage);
     }
 
     public static Collection<Marriage> getMarriagesCollection() {

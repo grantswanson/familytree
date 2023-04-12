@@ -12,16 +12,32 @@ import java.util.List;
 @Data
 public class Marriage {
 
-    private final static String defaultSource = "Donovan Burdette Meyer";
-
     public Marriage() {
         id = Id.MARRIAGE.nextId();
     }
 
     private int id;
+
+    @SuppressWarnings("unused")
+    @ToString.Include
+    private int lineNum() {
+        return sourceRow.getNumber();
+    }
+
+    @ToString.Include
+    public String getKey() {
+        return getParentsGenCode(getHusband(), getWife());
+    }
+
+    public String getKeyReversed() {
+        return getParentsGenCode(getWife(), getHusband());
+    }
+
+    @ToString.Exclude
     private Person spouse1;
+    @ToString.Exclude
     private Person spouse2;
-    private boolean isSpousesParents;
+    private MarriageSource source;
 
     private String marriageDate = "";
     private String marriagePlace = "";
@@ -49,19 +65,19 @@ public class Marriage {
     public String childrenToString() {
         StringBuilder strBuilder = new StringBuilder();
 
+        strBuilder.append(String.format("  Kids(%d):", getChildrenList().size()));
         for (Person child : getChildrenList()) {
             strBuilder.append(formattedChildString(child));
         }
-        if (strBuilder.length() != 0) {
-            strBuilder.insert(0, "  Kids:");
-        }
+
         String kids = strBuilder.toString();
         strBuilder = new StringBuilder();
         for (Person child : getChildrenFromUnRelatedMarriage()) {
             strBuilder.append(formattedChildString(child));
         }
         if (strBuilder.length() != 0) {
-            strBuilder.insert(0, "  Unrelated Kids:");
+            strBuilder.insert(0,
+                    String.format("  Unrelated Kids(%d):", getChildrenFromUnRelatedMarriage().size()));
         }
         return kids + strBuilder;
     }
@@ -99,11 +115,16 @@ public class Marriage {
         children[childNum - 1] = child;
         if (child != null) {
             if (child.getParentsMarriage() != null && child.getParentsMarriage().getId() != id) {
-                System.out.println("Warning: overwriting marriage. child:" + child.toShortString() +
+                System.out.println("Warning: overwriting child in marriage. child:" + child.toShortString() +
                         "\n   old:" + child.getParentsMarriage().toFormattedString() +
                         "\n   new:" + this.toFormattedString());
             }
             child.setParentsMarriage(this);
+        }
+        if (source == MarriageSource.SpousesParents) {
+            if (child == null) {
+                throw new RuntimeException("Spouse parents exist, but spouse does not. Probably a data mistake. Marriage ln#" + sourceRow.getNumber());
+            }
         }
     }
 
@@ -124,7 +145,19 @@ public class Marriage {
         return children[i - 1];
     }
 
+    public static String getParentsGenCode(Person husband, Person wife) {
+        String retVal = "";
+        if (husband != null) {
+            retVal = husband.getGenCode();
+        }
+        retVal += "+";
+        if (wife != null) {
+            retVal += wife.getGenCode();
+        }
+        return retVal;
+    }
 
+    @ToString.Include
     public Person getHusband() {
         if (getSpouseNumOfHusband() == 1) {
             return spouse1;
@@ -143,6 +176,7 @@ public class Marriage {
         }
     }
 
+    @ToString.Include
     public Person getWife() {
         // do the opposite of husband
         if (getSpouseNumOfHusband() == 1) {

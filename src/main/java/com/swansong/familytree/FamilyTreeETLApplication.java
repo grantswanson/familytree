@@ -20,6 +20,7 @@ import com.swansong.familytree.translate.PersonToIndividual;
 import java.io.File;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Scanner;
 
@@ -36,12 +37,14 @@ public class FamilyTreeETLApplication {
         for (String inputFile : filesToProcess) {
             processInputFile(inputFile);
 
-            //MarriageMap.printMarriages();
-            //PersonMap.printIndividualMap();
+            MarriageMap.printMarriages();
+            PersonMap.printIndividualMap();
             verifyCounts(inputFile);
 
             List<Individual> individuals = translatePeople();
+            individuals.sort(Comparator.comparingInt(Individual::getId));
             List<Family> families = translateMarriages();
+            families.sort(Comparator.comparingInt(Family::getId));
 
             String outputFile = inputFile.replace(".csv", ".ged");
             writeOutputFile(outputFile, individuals, families);

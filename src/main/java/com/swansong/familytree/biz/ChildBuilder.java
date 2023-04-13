@@ -33,24 +33,39 @@ public class ChildBuilder {
 
 
     private static void buildChild(Marriage marriage, Row row, Name childsName, int i) {
+        boolean foundUnrelatedChild = false;
+
         // build the genCode of the kid and look up person
         // merge the name and person
         String expectedCode = GenCode.buildChildsCode(row.getGenCode(), i + 1);
         Person expectedPerson = PersonMap.getPersonByGenCode(expectedCode);
-        boolean foundUnrelatedChild = false;
+        if (!parentsMatch(row, expectedPerson)) {
+            expectedPerson = null;
+        }
 
+        if (expectedPerson == null) {
+            // possibly add or removed 1 at the end of the code
+            expectedCode = GenCode.buildAltCode(expectedCode);
+            expectedPerson = PersonMap.getPersonByGenCode(expectedCode);
+            if (!parentsMatch(row, expectedPerson)) {
+                expectedPerson = null;
+            }
+        }
         if (expectedPerson == null) {
             String altMarriageExpectedCode = GenCode.buildUnRelatedChildsCode(row.getGenCode(), i + 1);
             expectedPerson = PersonMap.getPersonByGenCode(altMarriageExpectedCode);
+            if (!parentsMatch(row, expectedPerson)) {
+                expectedPerson = null;
+            }
 
             if (expectedPerson != null) {
                 foundUnrelatedChild = true;
 
-                System.out.println("Warn: ln#" + row.getNumber() + " Child #" + i + " " + childsName.toFullName() +
-                        " FOUND under a different marriage. Storing child as unrelated." +
-                        "\n  origGenCode:" + expectedCode +
-                        "\n  altGenCode :" + altMarriageExpectedCode +
-                        (expectedPerson.getChildrenNotes() != null ? "\n  miscNotes:" + expectedPerson.getChildrenNotes() : ""));
+//                System.out.println("Warn: ln#" + row.getNumber() + " Child #" + i + " " + childsName.toFullName() +
+//                        " FOUND under a different marriage. Storing child as unrelated." +
+//                        "\n  origGenCode:" + expectedCode +
+//                        "\n  altGenCode :" + altMarriageExpectedCode +
+//                        (expectedPerson.getChildrenNotes() != null ? "\n  miscNotes:" + expectedPerson.getChildrenNotes() : ""));
                 if (!expectedPerson.hasChildRelatedNotes()) {
                     throw new RuntimeException
                             ("expected miscNotes!");
@@ -61,9 +76,14 @@ public class ChildBuilder {
         if (expectedPerson == null) { // find by name
             setChildsSurName(marriage, childsName);
             expectedPerson = PersonMap.getPersonByNameKey(childsName.toNameKey());
+            if (!parentsMatch(row, expectedPerson)) {
+                expectedPerson = null;
+            }
             if (expectedPerson != null) {
                 System.out.println("Warn: ln#" + row.getNumber() + " Child #" + i + " " + childsName.toFullName() +
-                        "\n       found BY NAME:" + expectedPerson.getName().toFullName()
+                        "\n       found BY NAME:" + expectedPerson.getName().toFullName() +
+                        "\n  expectedGenCode:" + expectedCode +
+                        "\n    foundGenCode :" + expectedPerson.getGenCode()
                 );
             }
         }
@@ -100,6 +120,26 @@ public class ChildBuilder {
                         //throw new RuntimeException
                                 ("expected notes or asterisk!!!!!\n\n");
             }
+        }
+    }
+
+    private static boolean parentsMatch(Row row, Person expectedPerson) {
+        if (expectedPerson == null) {
+            return false;
+        }
+        String fathersGenCode = expectedPerson.getFather() != null ? expectedPerson.getFather().getGenCode() : "";
+        String mothersGenCode = expectedPerson.getMother() != null ? expectedPerson.getMother().getGenCode() : "";
+        if (fathersGenCode.isEmpty() && mothersGenCode.isEmpty()) {
+            return true;
+        } else if (!GenCode.isEqual(row.getGenCode(), fathersGenCode) &&
+                !GenCode.isEqual(row.getGenCode(), mothersGenCode)) {
+            System.out.println("Warn: ln#" + row.getNumber() + " Parents do NOT match! " +
+                    "\n fathersGenCode:" + fathersGenCode +
+                    "\n mothersGenCode:" + mothersGenCode +
+                    "\n    row GenCode:" + row.getGenCode());
+            return false;
+        } else {
+            return true;
         }
     }
 

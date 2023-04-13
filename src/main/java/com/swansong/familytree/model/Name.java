@@ -351,6 +351,15 @@ public class Name {
         return retVal;
     }
 
+    public static boolean isEqual(String n1, String n2) {
+        return isEqual(parseFullName(n1), parseFullName(n2));
+    }
+
+    private static boolean isEqual(Name n1, Name n2) {
+        String name1 = n1.toNameKey().toString();
+        String name2 = n2.toNameKey().toString();
+        return name1.equals(name2);
+    }
 
     public NameKey toNameKey() {
         // only firstname, surname and suffix

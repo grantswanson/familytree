@@ -12,11 +12,11 @@ public class MarriageMerger {
         //if the marriage exists, just use it
         Marriage existingMarriage = MarriageMap.findMarriage(husband, wife);
         if (existingMarriage != null) {
-            System.out.println("Info: Found existing marriage for 2 existing people ln#" + row.getNumber() +
-                    "\n current:" + existingMarriage.toFormattedString() +
-                    "\n husband:" + (husband != null ? husband.toFormattedString() : "none") +
-                    "\n    wife:" + (wife != null ? wife.toFormattedString() : "none") +
-                    " source:" + source);
+//            System.out.println("Info: Found existing marriage for 2 existing people ln#" + row.getNumber() +
+//                    "\n current:" + existingMarriage.toFormattedString() +
+//                    "\n husband:" + (husband != null ? husband.toFormattedString() : "none") +
+//                    "\n    wife:" + (wife != null ? wife.toFormattedString() : "none") +
+//                    " source:" + source);
 
             // TODO verify parents are correct and child is one of the children
 

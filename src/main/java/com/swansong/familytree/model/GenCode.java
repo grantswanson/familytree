@@ -107,20 +107,46 @@ public class GenCode {
         }
     }
 
+    private static boolean isEndingWithNumber(String s) {
+        return (s != null && !s.isEmpty() &&
+                Character.isDigit(s.charAt(s.length() - 1)));
+    }
+
     private static String removeLastNumber(String s) {
-        if (s != null && !s.isEmpty() &&
-                Character.isDigit(s.charAt(s.length() - 1))) {
+        if (isEndingWithNumber(s)) {
             return s.substring(0, s.length() - 1);
         }
         return s;
     }
 
+
     private static String addLastNumber(String s) {
         if (s != null && !s.isEmpty() &&
-                !Character.isDigit(s.charAt(s.length() - 1))) {
+                !isEndingWithNumber(s)) {
             return s + "1";
         }
         return s;
+    }
+
+    /**
+     * add or remove the 1 at the end of the code
+     */
+    public static String buildAltCode(String code) {
+        if (code == null || code.isBlank()) {
+            return code;
+        } else if (isEndingWithNumber(code)) {
+            if (code.endsWith("1")) {
+                return removeLastNumber(code);
+            } else {
+                return code; // ends with 2 or 3 or other n#
+            }
+        } else {
+            return addLastNumber(code);
+        }
+    }
+
+    public static boolean isEqual(String s1, String s2) {
+        return addLastNumber(s1).equals(addLastNumber(s2));
     }
 
     private static String removeLastChar(String s) {
@@ -152,4 +178,6 @@ public class GenCode {
         return Character.isLowerCase(genCode.charAt(genCode.length() - 1));
 
     }
+
+
 }

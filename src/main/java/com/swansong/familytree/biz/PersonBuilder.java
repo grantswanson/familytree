@@ -36,13 +36,32 @@ public class PersonBuilder {
     }
 
     public static Person findMainPerson(Row row) {
-        return PersonMap.getPersonByGenCodeOrRawName(
-                GenCode.buildSelfCode(row.getGenCode()),
-                row.getName());
+        return PersonMap.getPersonByGenCode(
+                GenCode.buildSelfCode(row.getGenCode()));
+        //row.getName());
     }
 
     public static BuildPersonResult buildMainPerson(Row row) {
         Person existingPerson = findMainPerson(row);
+
+        if (existingPerson == null) { // find by name
+            existingPerson = PersonMap.getPersonByNameKey(Name.parseFullName(row.getName()).toNameKey());
+            if (!parentsMatch(row, existingPerson)) {
+                existingPerson = null;
+            }
+            if (existingPerson != null) {
+                System.out.println("Warn: ln#" + row.getNumber() + " name:" + row.getName() +
+                        "\n       found BY NAME:" + existingPerson.getName().toFullName() +
+                        "\n  expectedGenCode:" + GenCode.buildSelfCode(row.getGenCode()) +
+                        "\n    foundGenCode :" + existingPerson.getGenCode()
+                );
+            } else {
+//                System.out.println("Warn: ln#" + row.getNumber() + " name:" + row.getName() +
+//                        "\n       NOT found BY NAME." +
+//                        "\n  expectedGenCode:" + GenCode.buildSelfCode(row.getGenCode())
+//                );
+            }
+        }
 
         if (existingPerson == null) {
             // make new person
@@ -55,6 +74,61 @@ public class PersonBuilder {
         }
         return new BuildPersonResult(existingPerson, false);
 
+    }
+
+    private static boolean parentsMatch(Row row, Person foundPerson) {
+        if (foundPerson == null) {
+            return false;
+        }
+        String foundFather = foundPerson.getSourceRow().getFather();
+        String foundMother = foundPerson.getSourceRow().getMother();
+        String foundSpousesFather = foundPerson.getSourceRow().getSpouseFather();
+        String foundSpousesMother = foundPerson.getSourceRow().getSpouseMother();
+        String thisFather = row.getFather();
+        String thisMother = row.getMother();
+        String thisSpousesFather = row.getSpouseFather();
+        String thisSpousesMother = row.getSpouseMother();
+        if ((foundFather == null || foundFather.isEmpty()) && (foundMother == null || foundMother.isEmpty())) {
+            System.out.println("Found person's parents = null");
+            return true;
+        } else if ((thisFather == null || thisFather.isEmpty()) && (thisMother == null || thisMother.isEmpty())) {
+            System.out.println("This person's parents = null");
+            return true;
+        } else if (!Name.isEqual(thisFather, foundFather) &&
+                !Name.isEqual(thisFather, foundSpousesFather) &&
+                !Name.isEqual(thisSpousesFather, foundFather) &&
+                !Name.isEqual(thisSpousesFather, foundSpousesFather) &&
+
+                !Name.isEqual(thisMother, foundMother) &&
+                !Name.isEqual(thisMother, foundSpousesMother) &&
+                !Name.isEqual(thisSpousesMother, foundMother) &&
+                !Name.isEqual(thisSpousesMother, foundSpousesMother)
+        ) {
+            System.out.println("Warn: ln#" + row.getNumber() + " Parents do NOT match! " +
+                    "\n thisFather:" + thisFather +
+                    "\n foundFather:" + foundFather +
+                    "\n thisSpousesFather:" + thisSpousesFather +
+                    "\n foundSpousesFather:" + foundSpousesFather +
+
+                    "\n thisMother:" + thisMother +
+                    "\n foundMother:" + foundMother +
+                    "\n thisSpousesMother:" + thisSpousesMother +
+                    "\n foundSpousesMother:" + foundSpousesMother
+            );
+            return false;
+        } else {
+            System.out.println("Info: ln#" + row.getNumber() + " Parents DO match! " +
+                    "\n thisFather:" + thisFather +
+                    "\n foundFather:" + foundFather +
+                    "\n thisSpousesFather:" + thisSpousesFather +
+                    "\n foundSpousesFather:" + foundSpousesFather +
+
+                    "\n thisMother:" + thisMother +
+                    "\n foundMother:" + foundMother +
+                    "\n thisSpousesMother:" + thisSpousesMother +
+                    "\n foundSpousesMother:" + foundSpousesMother);
+            return true;
+        }
     }
 
     private static Person buildMainPersonDetails(Row row) {
@@ -94,7 +168,6 @@ public class PersonBuilder {
         person.setName(Name.parseFullName(name));
         return person;
     }
-
 
 
 }

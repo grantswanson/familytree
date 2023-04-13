@@ -20,7 +20,7 @@ public class PersonMap {
         }
         currentPerson = individualMapByName.get(newPerson.getName().toNameKey().toString());
         if (currentPerson != null) {
-            throw new RuntimeException("Error: Tried to add someone who is already there by name! cur:" +
+            throw new RuntimeException("Error:  Tried to add someone who is already there by name! cur:" +
                     currentPerson.toShortString().trim() + " trying to add:" + newPerson.toShortString().trim());
         }
 

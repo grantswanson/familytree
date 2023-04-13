@@ -51,7 +51,7 @@ public class Name {
         } else if (names.length == 1) {
             // the str= has no commas or only a trailing one...
             if (!str.trim().endsWith(",")) {
-                System.out.println("Unexpected lastName, firstName format. There should be at least 1 comma. names.length:" + names.length + " str:'" + str + "'");
+                System.out.println("Unexpected lastName, firstName format. There should be at least 1 comma. name:'" + str + "'");
                 if (str.equals("Homemaker")) {
                     throw new RuntimeException("Unexpected Name:" + str);
                 }
@@ -335,11 +335,7 @@ public class Name {
 
     public static boolean isOnlySurname(String name) {
         Name name1 = Name.parseFullName(name);
-        boolean retVal = name1.isOnlySurName();
-        if (name.trim().endsWith(",") != retVal) {
-            System.out.println("old code did not work! retVal:" + retVal + " name:" + name + " parsedName:" + name1);
-        }
-        return retVal;
+        return name1.isOnlySurName();
     }
 
     public static boolean hasSurname(String name) {

@@ -51,7 +51,7 @@ public class Name {
         } else if (names.length == 1) {
             // the str= has no commas or only a trailing one...
             if (!str.trim().endsWith(",")) {
-                System.out.println("Unexpected lastName, firstName format. No commas: It is names.length:" + names.length + " str:'" + str + "'");
+                System.out.println("Unexpected lastName, firstName format. There should be at least 1 comma. names.length:" + names.length + " str:'" + str + "'");
                 if (str.equals("Homemaker")) {
                     throw new RuntimeException("Unexpected Name:" + str);
                 }
@@ -344,13 +344,11 @@ public class Name {
 
     public static boolean hasSurname(String name) {
         Name name1 = Name.parseFullName(name);
-        boolean retVal = name1.surName != null && !name1.surName.isBlank();
-        if (!name.trim().startsWith(",") != retVal) {
-            throw new RuntimeException("old code did not work222!");
-        }
-        return retVal;
+        return name1.surName != null && !name1.surName.isBlank();
+
     }
 
+    @SuppressWarnings("BooleanMethodIsAlwaysInverted")
     public static boolean isEqual(String n1, String n2) {
         return isEqual(parseFullName(n1), parseFullName(n2));
     }

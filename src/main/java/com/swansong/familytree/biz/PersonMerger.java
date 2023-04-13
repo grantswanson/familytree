@@ -41,15 +41,17 @@ public class PersonMerger {
             return true;
 
         } else {
-            String s = "ln#:" + rowNum + " Source:" + altNameSource + " Merge failed. Expected:" + expectMerge +
+            String s = "ln#:" + rowNum + " Source:" + altNameSource + " Merge failed. ExpectedSuccess:" + expectMerge +
                     "\n name from row text:'" + altName.toFullName() + "'" +
                     "\n name from genCode :'" + person.getName().toFullName() + "' " + person.getGenCode();
             //System.out.println(s);
+
             if (expectMerge) {
+                //System.out.println(s);
                 throw new RuntimeException(s);
-            } else {
-                return false;
             }
+            return false;
+
         }
     }
 

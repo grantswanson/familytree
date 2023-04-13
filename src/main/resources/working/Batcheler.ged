@@ -1,9 +1,10 @@
 0 HEAD
+1 FILE Batcheler.ged
 1 CHAR UTF-8
 1 LANG English
 1 DATE 20 APR 2023
 1 GEDC
-2 VERS 5.5.1
+2 VERS 5.5.5
 2 FORM LINEAGE-LINKED
 1 SOUR SwansongCustomJavaProgram
 2 VERS 1.0
@@ -19,62 +20,21 @@
 1 TITL GEDCOM conversion by Grant Matthew /Swanson/
 1 NOTE Author: Grant Matthew /Swanson/
 2 CONT In 2023, Donovan's grandson, Grant Matthew /Swanson/ converted the records from a custom database using Microsoft Works to a GEDCOM file.
-0 @I22@ INDI
-1 NAME Harold Edward /Schmidt/
-2 GIVN Harold Edward
-2 SURN Schmidt
+0 @I0@ INDI
+1 NAME Joseph Wittmore /Batcheler/
+2 GIVN Joseph Wittmore
+2 SURN Batcheler
+1 REFN CustomGenCode:A
 1 SEX M
 1 BIRT
-2 DATE 30 Aug 1936
-0 @I350@ INDI
-1 NAME Ryan Lee /Brown/
-2 GIVN Ryan Lee
-2 SURN Brown
-1 BIRT
-2 DATE 29 Jul 1973
-2 PLAC Sioux Valley MemorialHosp. Cherokee, IA, USA
-1 OCCU Student
-0 @I220@ INDI
-1 NAME Samuel /Edmonds/
-2 GIVN Samuel
-2 SURN Edmonds
-1 SEX M
-0 @I17@ INDI
-1 NAME Peter John /Wolfe/
-2 GIVN Peter John
-2 SURN Wolfe
-1 SEX M
-0 @I405@ INDI
-1 NAME /Foster Child/
-2 SURN Foster Child
-1 SEX M
-0 @I60@ INDI
-1 NAME Marjorie Viola /Lundt/
-2 GIVN Marjorie Viola
-2 SURN Lundt
-1 SEX F
-1 BIRT
-2 DATE 21 Oct 1920
-1 OCCU Homemaker
-0 @I352@ INDI
-1 NAME Shane Michael /Brown/
-2 GIVN Shane Michael
-2 SURN Brown
-1 BIRT
-2 DATE 14 Sep 1976
-2 PLAC Sioux Valley MemorialHosp. Cherokee, IA, USA
-1 OCCU Student
-0 @I351@ INDI
-1 NAME Shawn D /Brown/
-2 GIVN Shawn D
-2 SURN Brown
-1 BIRT
-2 DATE 28 Mar 1975
-2 PLAC Sioux Valley MemorialHosp. Cherokee, IA, USA
+2 DATE 27 Jan 1848
+2 PLAC Batcheler Home, Tauntin, MA, USA
 1 DEAT
-2 DATE 28 Mar 1975
-2 PLAC Oakland Cem. Peterson, IA, USA
-1 FACT Died in infancy.
+2 DATE 30 Mar 1924
+1 OCCU Farmer
+1 FACT On Jun 23, 1882 a tornado struck their farm, destroying everything except a granary and a straw shed. Luckily no one was injured.
+1 FACT * Two sets of twins.
+1 FAMS @F0@
 0 @I1@ INDI
 1 NAME Ella Estelle /Carpenter/
 2 GIVN Ella Estelle
@@ -82,6 +42,7 @@
 1 NAME Estella?
 2 TYPE aka
 2 GIVN Estella?
+1 REFN CustomGenCode:A1
 1 SEX F
 1 BIRT
 2 DATE 28 Nov 1854
@@ -91,73 +52,12 @@
 1 OCCU Homemaker
 1 FACT On Jun 23, 1882 a tornado struck their farm, destroying everything except a granary and a straw shed. Luckily no one was injured.
 1 FACT * Two sets of twins.
-0 @I349@ INDI
-1 NAME Gregory Lee /Brown/
-2 GIVN Gregory Lee
-2 SURN Brown
-1 SEX M
-1 BIRT
-2 DATE 1 Feb 1951
-2 PLAC Floyd Valley Hosp. LeMars, IA, USA
-1 GRAD
-2 PLAC Washington HS, Cherokee, IA, USA
-0 @I3@ INDI
-1 NAME Elnora /Jolls/
-2 GIVN Elnora
-2 SURN Jolls
-1 SEX F
-1 BIRT
-2 DATE 18 Nov 1882
-1 DEAT
-2 DATE 26 May 1964
-2 PLAC Cushing Cem. Cushing, MN, USA
-1 OCCU Homemaker
-0 @I221@ INDI
-1 NAME Nathan Dale /Edmonds/
-2 GIVN Nathan Dale
-2 SURN Edmonds
-1 BIRT
-2 DATE 5 Oct 1978
-0 @I222@ INDI
-1 NAME Thomas Wesley /Edmonds/
-2 GIVN Thomas Wesley
-2 SURN Edmonds
-1 BIRT
-2 DATE 11 Sep 1980
-0 @I383@ INDI
-1 NAME Minnie Etta /Murfin/
-2 GIVN Minnie Etta
-2 SURN Murfin
-1 SEX F
-0 @I382@ INDI
-1 NAME Herman Edward /Webster/
-2 GIVN Herman Edward
-2 SURN Webster
-1 SEX M
-0 @I49@ INDI
-1 NAME Raymond LaVern /Anderson/
-2 GIVN Raymond LaVern
-2 SURN Anderson
-1 SEX M
-1 BIRT
-2 DATE 31 May 1934
-0 @I31@ INDI
-1 NAME Harold Edward /Anderson/
-2 GIVN Harold Edward
-2 SURN Anderson
-1 SEX M
-1 BIRT
-2 DATE 16 Aug 1932
-2 PLAC , Spencer, IA, USA
-0 @I394@ INDI
-1 NAME Eva Jaco /Pac/
-2 GIVN Eva Jaco
-2 SURN Pac
-1 SEX F
+1 FAMS @F0@
 0 @I2@ INDI
 1 NAME Alfred Eliphut /Batcheler/
 2 GIVN Alfred Eliphut
 2 SURN Batcheler
+1 REFN CustomGenCode:AA
 1 SEX M
 1 BIRT
 2 DATE 1 Sep 1872
@@ -166,42 +66,48 @@
 2 DATE 14 Feb 1955
 2 PLAC Cushing Cem. Cushing, MN, USA
 1 OCCU Farmer
-0 @I9@ INDI
-1 NAME Herbert Jerome /Majeski/
-2 GIVN Herbert Jerome
-2 SURN Majeski
-1 SEX M
+1 FAMS @F1@
+1 FAMC @F0@
+0 @I3@ INDI
+1 NAME Elnora /Jolls/
+2 GIVN Elnora
+2 SURN Jolls
+1 REFN CustomGenCode:AA1
+1 SEX F
 1 BIRT
-2 DATE 26 May 1935
+2 DATE 18 Nov 1882
 1 DEAT
-2 DATE Dec 1986
-1 FACT * Herbert's children from a previous marriage.
+2 DATE 26 May 1964
+2 PLAC Cushing Cem. Cushing, MN, USA
+1 OCCU Homemaker
+1 FAMS @F1@
 0 @I4@ INDI
 1 NAME LeRoy Wittmore /Batcheler/
 2 GIVN LeRoy Wittmore
 2 SURN Batcheler
+1 REFN CustomGenCode:AAA
 1 BIRT
 2 DATE 20 Feb 1902
 1 DEAT
 2 DATE 10 Jan 1972
 2 PLAC Cushing Cem. Cushing, MN, USA
 1 OCCU Newspaper publisher in Rock Rapids, MN.
-0 @I27@ INDI
-1 NAME Martin Gilbert /Batcheler/
-2 GIVN Martin Gilbert
-2 SURN Batcheler
-1 SEX M
+1 FAMS @F2@
+1 FAMC @F1@
+0 @I5@ INDI
+1 NAME Madji /Jolls/
+2 GIVN Madji
+2 SURN Jolls
+1 REFN CustomGenCode:AAA1
 1 BIRT
-2 DATE 20 Jan 1874
-2 PLAC Batcheler Home, Jones Co. IA, USA
-1 DEAT
-2 DATE 9 Sep 1949
-2 PLAC Riverside Cem. Spencer, IA, USA
-1 OCCU Farmer
+2 DATE 13 May 1906
+1 OCCU Homemaker
+1 FAMS @F2@
 0 @I6@ INDI
 1 NAME Melvin Clair /Batcheler/
 2 GIVN Melvin Clair
 2 SURN Batcheler
+1 REFN CustomGenCode:AAB
 1 SEX M
 1 BIRT
 2 DATE 14 Jan 1910
@@ -210,6 +116,557 @@
 2 DATE 1 Dec 1994
 1 OCCU Farmer & Resort Operator at Cushing, MN.
 1 FACT * Sarah's children from a previous marriage & adopted by Melvin Batcheler.  ** Foster daughter.
+1 FAMS @F3@
+1 FAMC @F1@
+0 @I7@ INDI
+1 NAME Sarah Augusta /Wheaton/
+2 GIVN Sarah Augusta
+2 SURN Wheaton
+1 REFN CustomGenCode:AAB1
+1 SEX F
+1 BIRT
+2 DATE 17 Oct 1912
+2 PLAC Wheaton Home, Jamestown, ND, USA
+1 OCCU Homemaker
+1 FACT * Sarah's children from a previous marriage & adopted by Melvin Batcheler.  ** Foster daughter.
+1 FAMS @F3@
+1 FAMS @F145@
+0 @I8@ INDI
+1 NAME Patricia Ann Murray /Batcheler/
+2 GIVN Patricia Ann Murray
+2 SURN Batcheler
+1 REFN CustomGenCode:AABa
+1 SEX F
+1 BIRT
+2 DATE 15 Mar 1938
+1 OCCU Homemaker
+1 FACT * Herbert's children from a previous marriage.
+1 FAMS @F4@
+1 FAMC @F145@
+0 @I9@ INDI
+1 NAME Herbert Jerome /Majeski/
+2 GIVN Herbert Jerome
+2 SURN Majeski
+1 REFN CustomGenCode:AABa1
+1 SEX M
+1 BIRT
+2 DATE 26 May 1935
+1 DEAT
+2 DATE Dec 1986
+1 FACT * Herbert's children from a previous marriage.
+1 FAMS @F4@
+1 FAMS @F146@
+0 @I10@ INDI
+1 NAME Richard /Majeski/
+2 GIVN Richard
+2 SURN Majeski
+1 REFN CustomGenCode:AABaa
+1 BIRT
+2 DATE 27 Dec 1962
+0 @I11@ INDI
+1 NAME Francis Jerome /Majeski/
+2 GIVN Francis Jerome
+2 SURN Majeski
+1 REFN CustomGenCode:AABab
+1 BIRT
+2 DATE 7 Nov 1963
+0 @I12@ INDI
+1 NAME Glen Travis /Majeski/
+2 GIVN Glen Travis
+2 SURN Majeski
+1 REFN CustomGenCode:AABac
+1 BIRT
+2 DATE 24 Oct 1964
+0 @I13@ INDI
+1 NAME Beatrice Jane /Majeski/
+2 GIVN Beatrice Jane
+2 SURN Majeski
+1 REFN CustomGenCode:AABad
+0 @I14@ INDI
+1 NAME Mathew Shawn /Majeski/
+2 GIVN Mathew Shawn
+2 SURN Majeski
+1 REFN CustomGenCode:AABae
+1 BIRT
+2 DATE 22 Feb 1979
+0 @I15@ INDI
+1 NAME Michael Patrick /Majeski/
+2 GIVN Michael Patrick
+2 SURN Majeski
+1 REFN CustomGenCode:AABaf
+0 @I16@ INDI
+1 NAME Beatrice Evelyn Murray /Batcheler/
+2 GIVN Beatrice Evelyn Murray
+2 SURN Batcheler
+1 REFN CustomGenCode:AABb
+1 SEX F
+1 BIRT
+2 DATE 12 Sep 1939
+1 OCCU Homemaker
+1 FAMS @F5@
+1 FAMS @F7@
+0 @I17@ INDI
+1 NAME Peter John /Wolfe/
+2 GIVN Peter John
+2 SURN Wolfe
+1 REFN CustomGenCode:AABb1
+1 SEX M
+1 FAMS @F5@
+0 @I18@ INDI
+1 NAME Debby Lou /Wolfe/
+2 GIVN Debby Lou
+2 SURN Wolfe
+1 REFN CustomGenCode:AABb1a
+1 SEX F
+1 BIRT
+2 DATE 11 Dec 1958
+1 OCCU Homemaker
+1 FAMS @F6@
+0 @I19@ INDI
+1 NAME Daniel George /Scipark/
+2 GIVN Daniel George
+2 SURN Scipark
+1 REFN CustomGenCode:AABb1a1
+1 SEX M
+1 FAMS @F6@
+0 @I20@ INDI
+1 NAME Jess Edward /Scipark/
+2 GIVN Jess Edward
+2 SURN Scipark
+1 REFN CustomGenCode:AABb1aa
+1 BIRT
+2 DATE 3 Nov 1979
+0 @I21@ INDI
+1 NAME Levi Mark /Scipark/
+2 GIVN Levi Mark
+2 SURN Scipark
+1 REFN CustomGenCode:AABb1ab
+1 BIRT
+2 DATE 4 Mar 1983
+0 @I22@ INDI
+1 NAME Harold Edward /Schmidt/
+2 GIVN Harold Edward
+2 SURN Schmidt
+1 REFN CustomGenCode:AABb2
+1 SEX M
+1 BIRT
+2 DATE 30 Aug 1936
+1 FAMS @F7@
+0 @I23@ INDI
+1 NAME Lenore Lee Murray /Batcheler/
+2 GIVN Lenore Lee Murray
+2 SURN Batcheler
+1 REFN CustomGenCode:AABc
+1 SEX F
+1 BIRT
+2 DATE 25 Jun 1946
+1 OCCU Homemaker
+1 FAMS @F8@
+0 @I24@ INDI
+1 NAME Thomas Louis /Myeskie/
+2 GIVN Thomas Louis
+2 SURN Myeskie
+1 REFN CustomGenCode:AABc1
+1 SEX M
+1 BIRT
+2 DATE 18 Apr 1944
+1 DEAT
+2 DATE 29 Jan 1992
+1 FAMS @F8@
+0 @I25@ INDI
+1 NAME Thomas Gene /Myeskie/
+2 GIVN Thomas Gene
+2 SURN Myeskie
+1 REFN CustomGenCode:AABca
+1 BIRT
+2 DATE 15 Sep 1967
+0 @I26@ INDI
+1 NAME Mary Koeing /Koeing/
+2 GIVN Mary Koeing
+2 SURN Koeing
+1 REFN CustomGenCode:AABd
+0 @I27@ INDI
+1 NAME Martin Gilbert /Batcheler/
+2 GIVN Martin Gilbert
+2 SURN Batcheler
+1 REFN CustomGenCode:AB
+1 SEX M
+1 BIRT
+2 DATE 20 Jan 1874
+2 PLAC Batcheler Home, Jones Co. IA, USA
+1 DEAT
+2 DATE 9 Sep 1949
+2 PLAC Riverside Cem. Spencer, IA, USA
+1 OCCU Farmer
+1 FAMS @F9@
+1 FAMC @F0@
+0 @I28@ INDI
+1 NAME Emma Viola /French/
+2 GIVN Emma Viola
+2 SURN French
+1 REFN CustomGenCode:AB1
+1 SEX F
+1 BIRT
+2 DATE 18 Aug 1883
+2 PLAC French Home, Peterson, IA, USA
+1 DEAT
+2 DATE 9 Jun 1971
+2 PLAC Riverside Cem. Spencer, IA, USA
+1 OCCU Homemaker
+1 FAMS @F9@
+1 FAMC @F124@
+0 @I29@ INDI
+1 NAME Velma Leeberta /Batcheler/
+2 GIVN Velma Leeberta
+2 SURN Batcheler
+1 NAME Batchelor,?
+2 TYPE aka
+2 GIVN Batchelor,?
+1 REFN CustomGenCode:ABA
+1 SEX F
+1 BIRT
+2 DATE 30 Jan 1911
+1 OCCU Homemaker
+1 FAMS @F10@
+1 FAMC @F9@
+0 @I30@ INDI
+1 NAME Clarence Edward /Anderson/
+2 GIVN Clarence Edward
+2 SURN Anderson
+1 REFN CustomGenCode:ABA1
+1 SEX M
+1 BIRT
+2 DATE 5 Sep 1907
+1 DEAT
+2 DATE 11 Nov 1988
+1 FAMS @F10@
+0 @I31@ INDI
+1 NAME Harold Edward /Anderson/
+2 GIVN Harold Edward
+2 SURN Anderson
+1 REFN CustomGenCode:ABAA
+1 SEX M
+1 BIRT
+2 DATE 16 Aug 1932
+2 PLAC , Spencer, IA, USA
+1 FAMS @F11@
+1 FAMC @F10@
+0 @I32@ INDI
+1 NAME Barbara Jayne /Barger/
+2 GIVN Barbara Jayne
+2 SURN Barger
+1 REFN CustomGenCode:ABAA1
+1 SEX F
+1 BIRT
+2 DATE 5 Mar 1931
+1 OCCU Homemaker
+1 FAMS @F11@
+0 @I33@ INDI
+1 NAME Vicki Jo /Anderson/
+2 GIVN Vicki Jo
+2 SURN Anderson
+1 REFN CustomGenCode:ABAAA
+1 SEX F
+1 BIRT
+2 DATE 31 Dec 1952
+1 OCCU Homemaker
+1 FAMS @F12@
+1 FAMC @F11@
+0 @I34@ INDI
+1 NAME Thomas Lynn /Thompson/
+2 GIVN Thomas Lynn
+2 SURN Thompson
+1 REFN CustomGenCode:ABAAA1
+1 SEX M
+1 BIRT
+2 DATE 17 Nov 1951
+1 FAMS @F12@
+0 @I35@ INDI
+1 NAME Shawn Thomas /Thompson/
+2 GIVN Shawn Thomas
+2 SURN Thompson
+1 REFN CustomGenCode:ABAAAA
+1 BIRT
+2 DATE 10 Jun 1979
+1 FAMC @F12@
+0 @I36@ INDI
+1 NAME Jenny Jo Lynn /Thompson/
+2 GIVN Jenny Jo Lynn
+2 SURN Thompson
+1 REFN CustomGenCode:ABAAAB
+1 BIRT
+2 DATE 17 Dec 1982
+1 FAMC @F12@
+0 @I37@ INDI
+1 NAME Cameron Rae /Anderson/
+2 GIVN Cameron Rae
+2 SURN Anderson
+1 NAME Carmeron?
+2 TYPE aka
+2 GIVN Carmeron?
+1 REFN CustomGenCode:ABAAB
+1 SEX F
+1 BIRT
+2 DATE 7 Sep 1955
+1 OCCU Homemaker
+1 FAMS @F13@
+1 FAMC @F11@
+0 @I38@ INDI
+1 NAME Patrick Joseph /Niechel/
+2 GIVN Patrick Joseph
+2 SURN Niechel
+1 REFN CustomGenCode:ABAAB1
+1 SEX M
+1 BIRT
+2 DATE 16 May 1955
+1 FAMS @F13@
+0 @I39@ INDI
+1 NAME Haley Jo /Niechel/
+2 GIVN Haley Jo
+2 SURN Niechel
+1 REFN CustomGenCode:ABAABA
+1 BIRT
+2 DATE 12 Sep 1982
+1 FAMC @F13@
+0 @I40@ INDI
+1 NAME Carly Nicole /Niechel/
+2 GIVN Carly Nicole
+2 SURN Niechel
+1 REFN CustomGenCode:ABAABB
+1 BIRT
+2 DATE 1 May 1984
+1 FAMC @F13@
+0 @I41@ INDI
+1 NAME Jamalie Lou /Anderson/
+2 GIVN Jamalie Lou
+2 SURN Anderson
+1 REFN CustomGenCode:ABAAC
+1 SEX F
+1 BIRT
+2 DATE 26 Feb 1959
+1 OCCU Homemaker
+1 FAMS @F14@
+1 FAMC @F11@
+0 @I42@ INDI
+1 NAME Todd Anthony /Schloemer/
+2 GIVN Todd Anthony
+2 SURN Schloemer
+1 REFN CustomGenCode:ABAAC1
+1 SEX M
+1 BIRT
+2 DATE 23 Jan 1959
+1 FAMS @F14@
+0 @I43@ INDI
+1 NAME Jacob Todd /Schloemer/
+2 GIVN Jacob Todd
+2 SURN Schloemer
+1 REFN CustomGenCode:ABAACA
+1 BIRT
+2 DATE 29 Sep 1981
+1 FAMC @F14@
+0 @I44@ INDI
+1 NAME Stephanie Lee /Schloemer/
+2 GIVN Stephanie Lee
+2 SURN Schloemer
+1 REFN CustomGenCode:ABAACB
+1 BIRT
+2 DATE 9 Mar 1984
+1 FAMC @F14@
+0 @I45@ INDI
+1 NAME Kristin Jayne /Anderson/
+2 GIVN Kristin Jayne
+2 SURN Anderson
+1 REFN CustomGenCode:ABAAD
+1 SEX F
+1 BIRT
+2 DATE 2 May 1968
+1 OCCU Homemaker
+1 FAMS @F15@
+1 FAMC @F11@
+0 @I46@ INDI
+1 NAME Rodney Steven /Havelion/
+2 GIVN Rodney Steven
+2 SURN Havelion
+1 REFN CustomGenCode:ABAAD1
+1 SEX M
+1 BIRT
+2 DATE 12 Feb 1966
+1 FAMS @F15@
+0 @I47@ INDI
+1 NAME Jayden Elizabeth /Havelion/
+2 GIVN Jayden Elizabeth
+2 SURN Havelion
+1 REFN CustomGenCode:ABAADA
+1 BIRT
+2 DATE 2 Jan 1989
+1 FAMC @F15@
+0 @I48@ INDI
+1 NAME Morgan D /Havelion/
+2 GIVN Morgan D
+2 SURN Havelion
+1 REFN CustomGenCode:ABAADB
+1 BIRT
+2 DATE 7 Sep 1992
+1 FAMC @F15@
+0 @I49@ INDI
+1 NAME Raymond LaVern /Anderson/
+2 GIVN Raymond LaVern
+2 SURN Anderson
+1 REFN CustomGenCode:ABAB
+1 SEX M
+1 BIRT
+2 DATE 31 May 1934
+1 FAMS @F16@
+1 FAMC @F10@
+0 @I50@ INDI
+1 NAME Olive Logene /Wightman/
+2 GIVN Olive Logene
+2 SURN Wightman
+1 REFN CustomGenCode:ABAB1
+1 SEX F
+1 BIRT
+2 DATE 30 Apr 1935
+1 DEAT
+2 DATE 14 Feb 1997
+1 OCCU Homemaker
+1 FAMS @F16@
+0 @I51@ INDI
+1 NAME Terri Rae /Anderson/
+2 GIVN Terri Rae
+2 SURN Anderson
+1 REFN CustomGenCode:ABABA
+1 SEX F
+1 BIRT
+2 DATE 9 Jan 1959
+2 PLAC , Yankton, SD, USA
+1 OCCU Homemaker
+1 FAMS @F17@
+1 FAMC @F16@
+0 @I52@ INDI
+1 NAME Daniel Joseph /Tjaden/
+2 GIVN Daniel Joseph
+2 SURN Tjaden
+1 REFN CustomGenCode:ABABA1
+1 SEX M
+1 BIRT
+2 DATE 9 Oct 1959
+1 FAMS @F17@
+0 @I53@ INDI
+1 NAME Adam Brock /Tjaden/
+2 GIVN Adam Brock
+2 SURN Tjaden
+1 REFN CustomGenCode:ABABAA
+1 BIRT
+2 DATE 21 Nov 1984
+1 FAMC @F17@
+0 @I54@ INDI
+1 NAME Danielle Elizabeth /Tjaden/
+2 GIVN Danielle Elizabeth
+2 SURN Tjaden
+1 REFN CustomGenCode:ABABAB
+1 BIRT
+2 DATE 28 Sep 1987
+1 FAMC @F17@
+0 @I55@ INDI
+1 NAME Shane Robert /Anderson/
+2 GIVN Shane Robert
+2 SURN Anderson
+1 REFN CustomGenCode:ABABB
+1 SEX M
+1 BIRT
+2 DATE 20 Aug 1960
+1 FAMS @F18@
+1 FAMC @F16@
+0 @I56@ INDI
+1 NAME Michelle Marie /Woolison/
+2 GIVN Michelle Marie
+2 SURN Woolison
+1 REFN CustomGenCode:ABABB1
+1 SEX F
+1 BIRT
+2 DATE 26 Sep 1960
+1 OCCU Homemaker
+1 FAMS @F18@
+0 @I57@ INDI
+1 NAME Taylor James /Anderson/
+2 GIVN Taylor James
+2 SURN Anderson
+1 REFN CustomGenCode:ABABBA
+1 BIRT
+2 DATE 16 May 1989
+1 FAMC @F18@
+0 @I58@ INDI
+1 NAME Emily Ann /Anderson/
+2 GIVN Emily Ann
+2 SURN Anderson
+1 REFN CustomGenCode:ABABBB
+1 BIRT
+2 DATE 13 Dec 1993
+1 FAMC @F18@
+0 @I59@ INDI
+1 NAME Lloyd Joseph /Batcheler/
+2 GIVN Lloyd Joseph
+2 SURN Batcheler
+1 REFN CustomGenCode:ABB
+1 SEX M
+1 BIRT
+2 DATE 9 Dec 1914
+1 FAMS @F19@
+1 FAMC @F9@
+0 @I60@ INDI
+1 NAME Marjorie Viola /Lundt/
+2 GIVN Marjorie Viola
+2 SURN Lundt
+1 REFN CustomGenCode:ABB1
+1 SEX F
+1 BIRT
+2 DATE 21 Oct 1920
+1 OCCU Homemaker
+1 FAMS @F19@
+0 @I61@ INDI
+1 NAME Dale Edward /Batcheler/
+2 GIVN Dale Edward
+2 SURN Batcheler
+1 REFN CustomGenCode:ABBA
+1 SEX M
+1 BIRT
+2 DATE 12 Nov 1943
+1 FAMS @F20@
+1 FAMC @F19@
+0 @I62@ INDI
+1 NAME Patricia Lee /Higgins/
+2 GIVN Patricia Lee
+2 SURN Higgins
+1 REFN CustomGenCode:ABBA1
+1 SEX F
+1 BIRT
+2 DATE 8 Mar 1942
+1 OCCU Homemaker
+1 FAMS @F20@
+0 @I63@ INDI
+1 NAME Thomas Edward /Batcheler/
+2 GIVN Thomas Edward
+2 SURN Batcheler
+1 REFN CustomGenCode:ABBAA
+1 BIRT
+2 DATE 21 Feb 1971
+1 FAMS @F21@
+1 FAMC @F20@
+0 @I64@ INDI
+1 NAME Shawn Mae /Hohenstein/
+2 GIVN Shawn Mae
+2 SURN Hohenstein
+1 REFN CustomGenCode:ABBAA1
+1 OCCU Homemaker
+1 FAMS @F21@
+0 @I65@ INDI
+1 NAME Catharine Anne /Batcheler/
+2 GIVN Catharine Anne
+2 SURN Batcheler
+1 REFN CustomGenCode:ABBAB
+1 BIRT
+2 DATE 28 Apr 1975
+1 FAMC @F20@
 0 @I66@ INDI
 1 NAME Julia Estella /Batcheler/
 2 GIVN Julia Estella
@@ -220,6 +677,7 @@
 1 NAME Estelle?
 2 TYPE aka
 2 GIVN Estelle?
+1 REFN CustomGenCode:AC
 1 SEX F
 1 BIRT
 2 DATE 6 Jan 1876
@@ -228,218 +686,13 @@
 2 DATE 23 Jun 1953
 2 PLAC Oakland Cem. Peterson, IA, USA
 1 OCCU Homemaker
-0 @I136@ INDI
-1 NAME Louis Arnold /Batcheler/
-2 GIVN Louis Arnold
-2 SURN Batcheler
-1 SEX M
-1 BIRT
-2 DATE 23 May 1878
-2 PLAC Batcheler Home, Central City, IA, USA
-1 DEAT
-2 DATE 4 May 1949
-1 OCCU Farmer
-0 @I177@ INDI
-1 NAME Everett Ellis /Batcheler/
-2 GIVN Everett Ellis
-2 SURN Batcheler
-1 BIRT
-2 DATE 27 Oct 1879
-2 PLAC Batcheler Home, Jones Co. IA, USA
-1 DEAT
-2 DATE 8 Dec 1943
-1 FACT Mabel was a member of the Maple Grove Church of God, north of Peterson, IA.
-0 @I179@ INDI
-1 NAME Clarence Edwin /Batcheler/
-2 GIVN Clarence Edwin
-2 SURN Batcheler
-1 SEX M
-1 BIRT
-2 DATE 12 Sep 1881
-2 PLAC Batcheler Home, Peterson, IA, USA
-1 DEAT
-2 DATE 10 Aug 1942
-1 OCCU Owner & Operator of Batcheler Auto Co.
-1 FACT They were active members of the Congregational church in Peterson where he was Sunday School teacher for about 25 years.
-0 @I194@ INDI
-1 NAME Nathan Hilton /Batcheler/
-2 GIVN Nathan Hilton
-2 SURN Batcheler
-1 SEX M
-1 BIRT
-2 DATE 30 Aug 1884
-2 PLAC Batcheler Home, Peterson, IA, USA
-1 DEAT
-2 DATE Jul 1958
-1 OCCU Methodist Minister near Lake Park, IA from 1928 to 1932.
-0 @I238@ INDI
-1 NAME Cora Belle /Batcheler/
-2 GIVN Cora Belle
-2 SURN Batcheler
-1 SEX F
-1 BIRT
-2 DATE 17 Jun 1889
-2 PLAC Batcheler Home, Peterson, IA, USA
-1 DEAT
-2 DATE 10 Nov 1947
-1 OCCU Homemaker
-0 @I271@ INDI
-1 NAME Clara Mae /Batcheler/
-2 GIVN Clara Mae
-2 SURN Batcheler
-1 SEX F
-1 BIRT
-2 DATE 17 Jun 1889
-2 PLAC Batcheler Home, Peterson, IA, USA
-1 DEAT
-2 DATE 21 Aug 1971
-2 PLAC Oakland Cem. Peterson, IA, USA
-1 OCCU Homemaker
-1 FACT They were active in the Maple Church of Christ, in Sutherland, where he held offices for 61 years.
-1 FACT Clarence served in the US Army during WWI.  He joined the American Legion in 1919 and served as Chaplain of Post #10 in Peterson for 50 years. He was Adjutant for 2 years & Chaplain for 2 years in district #9.
-1 FACT He served on the Selective Service Board for 11 Years, was Scout Master for 8 years and a Youth Camp volunteer for 23 years.
-0 @I306@ INDI
-1 NAME Florence Ella /Batcheler/
-2 GIVN Florence Ella
-2 SURN Batcheler
-1 SEX F
-1 BIRT
-2 DATE 12 Apr 1892
-2 PLAC Batcheler Home, Peterson, IA, USA
-1 DEAT
-2 DATE 26 Feb 1974
-1 OCCU Homemaker
-0 @I344@ INDI
-1 NAME Josephine Frances /Batcheler/
-2 GIVN Josephine Frances
-2 SURN Batcheler
-1 SEX F
-1 BIRT
-2 DATE 10 Dec 1894
-2 PLAC Batcheler Home, Peterson, IA, USA
-1 DEAT
-2 DATE 3 Aug 1982
-2 PLAC Oakland Cem. Peterson, IA, USA
-1 OCCU Homemaker
-1 FACT They were both very active members of the Congregational Church in  Peterson, IA,  Josie taught Sunday School for about 25 years.  Olin was Sunday School superintendant for several years & was on the church board several times.
-1 FACT Josie was active in Womens Fellowship for 60 years.
-1 FACT Olin was a motorcycle enthusiast, built & drove a race car and was a Ham radio operator.
-0 @I363@ INDI
-1 NAME Joseph Daniel /Batcheler/
-2 GIVN Joseph Daniel
-2 SURN Batcheler
-1 BIRT
-2 DATE 10 Dec 1894
-2 PLAC Batcheler Home, Royal, IA, USA
-1 DEAT
-2 DATE 5 Mar 1974
-1 OCCU Farmer
-1 FACT Joseph served in the US Army in England & France during World War I from July 26 1918 until June 2 1919.
-1 FACT Joe said of his family:  His mother's maiden name was Carpenter, his aunt married a Mason, he married a Shoemaker & his father was a Batcheler with 12 children.
-0 @I5@ INDI
-1 NAME Madji /Jolls/
-2 GIVN Madji
-2 SURN Jolls
-1 BIRT
-2 DATE 13 May 1906
-1 OCCU Homemaker
-0 @I28@ INDI
-1 NAME Emma Viola /French/
-2 GIVN Emma Viola
-2 SURN French
-1 SEX F
-1 BIRT
-2 DATE 18 Aug 1883
-2 PLAC French Home, Peterson, IA, USA
-1 DEAT
-2 DATE 9 Jun 1971
-2 PLAC Riverside Cem. Spencer, IA, USA
-1 OCCU Homemaker
-0 @I232@ INDI
-1 NAME Melanie Elizabeth /Anderson/
-2 GIVN Melanie Elizabeth
-2 SURN Anderson
-1 BIRT
-2 DATE 16 Aug 1987
-0 @I231@ INDI
-1 NAME Christopher William /Anderson/
-2 GIVN Christopher William
-2 SURN Anderson
-1 BIRT
-2 DATE 12 Dec 1981
-0 @I228@ INDI
-1 NAME Andrea Jade /Anderson/
-2 GIVN Andrea Jade
-2 SURN Anderson
-1 SEX F
-1 BIRT
-2 DATE 21 Nov 1979
-1 OCCU Homemaker
-0 @I61@ INDI
-1 NAME Dale Edward /Batcheler/
-2 GIVN Dale Edward
-2 SURN Batcheler
-1 SEX M
-1 BIRT
-2 DATE 12 Nov 1943
-0 @I29@ INDI
-1 NAME Velma Leeberta /Batcheler/
-2 GIVN Velma Leeberta
-2 SURN Batcheler
-1 NAME Batchelor,?
-2 TYPE aka
-2 GIVN Batchelor,?
-1 SEX F
-1 BIRT
-2 DATE 30 Jan 1911
-1 OCCU Homemaker
-0 @I0@ INDI
-1 NAME Joseph Wittmore /Batcheler/
-2 GIVN Joseph Wittmore
-2 SURN Batcheler
-1 SEX M
-1 BIRT
-2 DATE 27 Jan 1848
-2 PLAC Batcheler Home, Tauntin, MA, USA
-1 DEAT
-2 DATE 30 Mar 1924
-1 OCCU Farmer
-1 FACT On Jun 23, 1882 a tornado struck their farm, destroying everything except a granary and a straw shed. Luckily no one was injured.
-1 FACT * Two sets of twins.
-0 @I59@ INDI
-1 NAME Lloyd Joseph /Batcheler/
-2 GIVN Lloyd Joseph
-2 SURN Batcheler
-1 SEX M
-1 BIRT
-2 DATE 9 Dec 1914
-0 @I362@ INDI
-1 NAME Travis Jon /Anderson/
-2 GIVN Travis Jon
-2 SURN Anderson
-1 BIRT
-2 DATE 24 Nov 1984
-0 @I361@ INDI
-1 NAME Amanda Jo /Anderson/
-2 GIVN Amanda Jo
-2 SURN Anderson
-1 BIRT
-2 DATE 16 Jun 1982
-1 GRAD
-2 DATE 14 May 2000
-2 PLAC Sioux Central HS, Sioux Rapids, IA, USA
-0 @I18@ INDI
-1 NAME Debby Lou /Wolfe/
-2 GIVN Debby Lou
-2 SURN Wolfe
-1 SEX F
-1 BIRT
-2 DATE 11 Dec 1958
-1 OCCU Homemaker
+1 FAMS @F22@
+1 FAMC @F0@
 0 @I67@ INDI
 1 NAME Elmer George /Lane/
 2 GIVN Elmer George
 2 SURN Lane
+1 REFN CustomGenCode:AC1
 1 SEX M
 1 BIRT
 2 DATE 22 Aug 1866
@@ -448,42 +701,13 @@
 2 DATE 14 Jul 1943
 2 PLAC Oakland Cem. Peterson, IA, USA
 1 OCCU Farmer
-0 @I385@ INDI
-1 NAME Matilda /VanScoy/
-2 GIVN Matilda
-2 SURN VanScoy
-1 SEX F
-0 @I7@ INDI
-1 NAME Sarah Augusta /Wheaton/
-2 GIVN Sarah Augusta
-2 SURN Wheaton
-1 SEX F
-1 BIRT
-2 DATE 17 Oct 1912
-2 PLAC Wheaton Home, Jamestown, ND, USA
-1 OCCU Homemaker
-1 FACT * Sarah's children from a previous marriage & adopted by Melvin Batcheler.  ** Foster daughter.
-0 @I360@ INDI
-1 NAME Janet Fae /Patrick/
-2 GIVN Janet Fae
-2 SURN Patrick
-1 SEX F
-1 BIRT
-2 DATE 23 Jan 1960
-2 PLAC Sioux Rapids Hosp, Sioux Rapids, IA, USA
-1 GRAD
-2 DATE May 1979
-2 PLAC Sioux Valley HS, Linn Grove, IA, USA
-1 OCCU Homemaker
-0 @I384@ INDI
-1 NAME Ralph Ray /Chatterton/
-2 GIVN Ralph Ray
-2 SURN Chatterton
-1 SEX M
+1 FAMS @F22@
+1 FAMC @F125@
 0 @I68@ INDI
 1 NAME Fredrick Augustus /Lane/
 2 GIVN Fredrick Augustus
 2 SURN Lane
+1 REFN CustomGenCode:ACA
 1 SEX M
 1 BIRT
 2 DATE 17 Aug 1902
@@ -491,2268 +715,51 @@
 1 DEAT
 2 DATE 27 Feb 1955
 1 OCCU Farmer & Owned & operated a portable feed grinder.
-0 @I109@ INDI
-1 NAME Estella Mae /Lane/
-2 GIVN Estella Mae
-2 SURN Lane
+1 FAMS @F23@
+1 FAMC @F22@
+0 @I69@ INDI
+1 NAME Ingermarie {Mary} /Berg/
+2 GIVN Ingermarie {Mary}
+2 SURN Berg
+1 REFN CustomGenCode:ACA1
 1 SEX F
 1 BIRT
-2 DATE 2 Nov 1906
-2 PLAC Lane Home, Peterson, IA, USA
+2 DATE 29 Jul 1902
+2 PLAC Berg Home, Peterson, IA, USA
+1 OCCU Homemaker, worked as a clerk in Lee Gilbert's grocery store & managed the Variety store for Les Templer, both in Peterson, IA.
+1 FAMS @F23@
+1 FAMS @F147@
+1 FAMC @F126@
+0 @I70@ INDI
+1 NAME Donald Arthur /Lane/
+2 GIVN Donald Arthur
+2 SURN Lane
+1 REFN CustomGenCode:ACAA
+1 SEX M
+1 BIRT
+2 DATE 25 Oct 1926
+2 PLAC Lane Home, Clay Co. IA, USA
+1 BAPM
+2 DATE Nov 1926
+2 PLAC Lutheran Church, Royal, IA, USA
+1 CONF
+2 DATE May 1940
+2 PLAC Congregational Church, Peterson, IA, USA
 1 GRAD
-2 DATE May 1923
+2 DATE May 1944
 2 PLAC Peterson HS, Peterson, IA, USA
-1 DEAT
-2 DATE 14 Apr 1987
-2 PLAC Oakland Cem. Peterson, IA, USA
-1 OCCU Homemaker & worked as bookkeeper for Clarence Batcheler, her uncle, who was the Ford Dealer in Peterson, IA.
-1 FACT They were both active in the Congregational Church in Peterson, IA.
-1 FACT Rolland was an active member of the Masons & Estelle belonged to the "Our Afternoon Out" (O.A.O.) for many years.
-1 FACT Rolland Enjoyed his fishing & hunting.  Estelle did a lot of sewing, knitting & other hand work.
-0 @I356@ INDI
-1 NAME Gage Alex /Anderson/
-2 GIVN Gage Alex
-2 SURN Anderson
-1 BIRT
-2 DATE 11 Jan 1981
-2 PLAC Sioux Valley MemorialHosp. Cherokee, IA, USA
-1 BAPM
-2 PLAC Congregational Ch. Peterson, IA, USA
-0 @I8@ INDI
-1 NAME Patricia Ann Murray /Batcheler/
-2 GIVN Patricia Ann Murray
-2 SURN Batcheler
-1 SEX F
-1 BIRT
-2 DATE 15 Mar 1938
-1 OCCU Homemaker
-1 FACT * Herbert's children from a previous marriage.
-0 @I355@ INDI
-1 NAME Tait Duane /Anderson/
-2 GIVN Tait Duane
-2 SURN Anderson
-1 BIRT
-2 DATE 26 Jan 1978
-2 PLAC Sioux Valley MemorialHosp. Cherokee, IA, USA
-1 BAPM
-2 PLAC Congregational Ch. Peterson, IA, USA
-1 OCCU Student
-0 @I24@ INDI
-1 NAME Thomas Louis /Myeskie/
-2 GIVN Thomas Louis
-2 SURN Myeskie
-1 SEX M
-1 BIRT
-2 DATE 18 Apr 1944
-1 DEAT
-2 DATE 29 Jan 1992
-0 @I137@ INDI
-1 NAME Nellie Madge /Woolston/
-2 GIVN Nellie Madge
-2 SURN Woolston
-1 SEX F
-1 BIRT
-2 DATE 28 May 1878
-1 DEAT
-2 DATE 23 Jan 1921
-1 OCCU Homemaker
-0 @I358@ INDI
-1 NAME Bree Ann /Anderson/
-2 GIVN Bree Ann
-2 SURN Anderson
-1 BIRT
-2 DATE 3 Aug 1989
-2 PLAC Sioux Valley MemorialHosp. Cherokee, IA, USA
-1 BAPM
-2 PLAC Congregational Ch. Peterson, IA, USA
-0 @I176@ INDI
-1 NAME Nettie /Porter/
-2 GIVN Nettie
-2 SURN Porter
-1 SEX F
-1 BIRT
-2 DATE 11 Jun 1887
-1 DEAT
-2 DATE 15 Nov 1979
-1 OCCU Homemaker
-0 @I357@ INDI
-1 NAME Bryn Jesse /Anderson/
-2 GIVN Bryn Jesse
-2 SURN Anderson
-1 BIRT
-2 DATE 19 Dec 1986
-2 PLAC Sioux Valley MemorialHosp. Cherokee, IA, USA
-1 BAPM
-2 PLAC Congregational Ch. Peterson, IA, USA
-0 @I10@ INDI
-1 NAME Richard /Majeski/
-2 GIVN Richard
-2 SURN Majeski
-1 BIRT
-2 DATE 27 Dec 1962
-0 @I11@ INDI
-1 NAME Francis Jerome /Majeski/
-2 GIVN Francis Jerome
-2 SURN Majeski
-1 BIRT
-2 DATE 7 Nov 1963
-0 @I354@ INDI
-1 NAME Debra Sue /Schultz/
-2 GIVN Debra Sue
-2 SURN Schultz
-1 SEX F
-1 BIRT
-2 DATE 21 Feb 1953
-2 PLAC Holy Family Hosp. Estherville, IA, USA
-1 GRAD
-2 DATE May 1971
-2 PLAC Algona HS, Algona, IA, USA
-1 OCCU Homemaker
-1 FACT Deb earned her B.A. degree in Applied Art-Interior Design from Iowa State University in Ames, IA. in 1975.
-1 FACT They are both very active in the Congregational church in Peterson.  They both sing in the choir & Deb is Organist.
-1 FACT They are members of Clay County Pork producer & Porkttes.  Rick in active in the Lions club.
-1 FACT They both enjoy traveling fishing & snow mobiling.  Deb enjoys sewing & decorating cakes.
-0 @I14@ INDI
-1 NAME Mathew Shawn /Majeski/
-2 GIVN Mathew Shawn
-2 SURN Majeski
-1 BIRT
-2 DATE 22 Feb 1979
-0 @I15@ INDI
-1 NAME Michael Patrick /Majeski/
-2 GIVN Michael Patrick
-2 SURN Majeski
-0 @I225@ INDI
-1 NAME Angie /Karleskint/
-2 GIVN Angie
-2 SURN Karleskint
-1 BIRT
-2 DATE 15 May 1971
-0 @I12@ INDI
-1 NAME Glen Travis /Majeski/
-2 GIVN Glen Travis
-2 SURN Majeski
-1 BIRT
-2 DATE 24 Oct 1964
-0 @I13@ INDI
-1 NAME Beatrice Jane /Majeski/
-2 GIVN Beatrice Jane
-2 SURN Majeski
-0 @I283@ INDI
-1 NAME Leigh Jonathan /Winterboer/
-2 GIVN Leigh Jonathan
-2 SURN Winterboer
-1 NAME Jonathon?
-2 TYPE aka
-2 GIVN Jonathon?
-1 BIRT
-2 DATE 16 Dec 1983
-0 @I178@ INDI
-1 NAME Mabel Greutrud /Webster/
-2 GIVN Mabel Greutrud
-2 SURN Webster
-1 BIRT
-2 DATE 24 Jan 1892
-2 PLAC Webster Home, Buena Vista Co. IA, USA
-1 GRAD
-2 PLAC Peterson HS, Peterson, IA, USA
-1 DEAT
-2 DATE 7 May 1956
-1 OCCU Homemaker
-1 FACT Mabel was a member of the Maple Grove Church of God, north of Peterson, IA.
-0 @I282@ INDI
-1 NAME Cheryl Lynn /Clark/
-2 GIVN Cheryl Lynn
-2 SURN Clark
-1 SEX F
-1 BIRT
-2 DATE 24 May 1959
-1 GRAD
-2 PLAC Sutherland HS, Sutherland, IA, USA
-1 OCCU Homemaker
-0 @I193@ INDI
-1 NAME Sheridan Jean /Chatterton/
-2 GIVN Sheridan Jean
-2 SURN Chatterton
-1 BIRT
-2 DATE 24 Apr 1982
-0 @I192@ INDI
-1 NAME Annalise Amber /Chatterton/
-2 GIVN Annalise Amber
-2 SURN Chatterton
-1 BIRT
-2 DATE 18 Apr 1974
-0 @I191@ INDI
-1 NAME Shawna Marie /Chatterton/
-2 GIVN Shawna Marie
-2 SURN Chatterton
-1 BIRT
-2 DATE 30 Nov 1971
-0 @I26@ INDI
-1 NAME Mary Koeing /Koeing/
-2 GIVN Mary Koeing
-2 SURN Koeing
-0 @I16@ INDI
-1 NAME Beatrice Evelyn Murray /Batcheler/
-2 GIVN Beatrice Evelyn Murray
-2 SURN Batcheler
-1 SEX F
-1 BIRT
-2 DATE 12 Sep 1939
-1 OCCU Homemaker
-0 @I23@ INDI
-1 NAME Lenore Lee Murray /Batcheler/
-2 GIVN Lenore Lee Murray
-2 SURN Batcheler
-1 SEX F
-1 BIRT
-2 DATE 25 Jun 1946
-1 OCCU Homemaker
-0 @I180@ INDI
-1 NAME Florence /Shinkle/
-2 GIVN Florence
-2 SURN Shinkle
-1 SEX F
-1 DEAT
-2 DATE 28 Mar 1911
-1 OCCU Homemaker
-1 FACT They were active members of the Congregational church in Peterson where he was Sunday School teacher for about 25 years.
-0 @I181@ INDI
-1 NAME Minnie /Schweikhardt/
-2 GIVN Minnie
-2 SURN Schweikhardt
-1 SEX F
-1 BIRT
-2 DATE 30 Nov 1894
-2 PLAC , NJ, USA
-1 DEAT
-2 DATE 20 Jun 1982
-1 OCCU Homemaker
-1 FACT They were active members of the Congregational church in Peterson where he was Sunday School teacher for about 25 years.
-0 @I279@ INDI
-1 NAME Venus Renee /Anderson/
-2 GIVN Venus Renee
-2 SURN Anderson
-1 BIRT
-2 DATE 29 Apr 1976
-2 PLAC , Spencer, IA, USA
-1 BAPM
-2 DATE 1980
-2 PLAC United Methodist Church, Peterson, IA, USA
-1 CONF
-2 DATE 1988
-2 PLAC United Methodist, Peterson, IA, USA
-1 GRAD
-2 DATE Jun 1993
-2 PLAC Sioux Central HS, Sioux Rapids, IA, USA
-1 OCCU College Student
-1 FACT Venus is in her sophomore year at the University of South Dakota in Vermillion, majoring in the Medical field.
-1 FACT She is a member of the United Methodist in Peterson.
-1 FACT She enjoys softball, basketball, golf, volleyball, swimming & playing the piano.
-0 @I280@ INDI
-1 NAME Rena Lela /Anderson/
-2 GIVN Rena Lela
-2 SURN Anderson
-1 BIRT
-2 DATE 7 May 1980
-2 PLAC Sioux Valley MemorialHosp. Cherokee, IA, USA
-1 BAPM
-2 DATE 1980
-2 PLAC United Methodist Church, Peterson, IA, USA
-1 CONF
-2 DATE 1995
-2 PLAC United Methodist, Peterson, IA, USA
-1 OCCU High School Student
-1 FACT Rena is a member of the United Methodist in Peterson.
-1 FACT Rena plays basketball & volleyball, likes swimming, golfing & reading and enjoys playing the piano, clarinet & saxaphone.
-0 @I278@ INDI
-1 NAME Paul Brainard /Anderson/
-2 GIVN Paul Brainard
-2 SURN Anderson
-1 SEX M
-1 BIRT
-2 DATE 4 Jun 1954
-2 PLAC Spencer Municipal Hosp. Spencer, IA, USA
-1 BAPM
-2 DATE 1954
-2 PLAC Trinity Lutheran Church Linn Grove, IA, USA
-1 CONF
-2 DATE 1969
-2 PLAC Trinity Lutheran Church Linn Grove, IA, USA
-1 GRAD
-2 DATE May 1972
-2 PLAC Sioux Valley HS, Linn Grove, IA, USA
-1 FACT JoAnn attended Iowa Lakes Community College studing both Business & Realty.
-1 FACT JoAnn is a member of United Methodist in Peterson.  She was Sunday School Supt for many years, is Parish Treasurer & is active in Esther Circle.  Paul is a member of Trinity Lutheran Church in Linn Grove.
-1 FACT JoAnn has been a City Council member for 6 yrs. She organized a Bike-A-Thon & worked with both the Heart Association Fund Drive & the Booster Club. Paul is active in the Little Sioux Country Club, the men's Jaycees (past President) & a C.R.U.
-2 CONC member.
-1 FACT They both enjoy watching their daughter participate in sport events. They like shopping, canoeing, swimming & reading.  Paul enjoys his golf.
-1 FACT Paul played an active role in bringing Cable TV to Peterson. He is also active in raising funds for the C.R.U. ambulance.
-0 @I291@ INDI
-1 NAME Allison Ann /Syndergaard/
-2 GIVN Allison Ann
-2 SURN Syndergaard
-1 BIRT
-2 DATE 15 Apr 1985
-2 PLAC , Cherokee, IA, USA
-1 BAPM
-2 PLAC United Methodist Church, Peterson, IA, USA
-1 FACT United Methodist
-1 FACT Collects Carousels
-0 @I330@ INDI
-1 NAME Jason Michael /Lynn/
-2 GIVN Jason Michael
-2 SURN Lynn
-1 BIRT
-2 DATE 14 Apr 1973
-0 @I290@ INDI
-1 NAME Shawn Robert /Syndergaard/
-2 GIVN Shawn Robert
-2 SURN Syndergaard
-1 BIRT
-2 DATE 16 Jan 1982
-2 PLAC , Cherokee, IA, USA
-1 BAPM
-2 PLAC United Methodist Church, Peterson, IA, USA
-1 CONF
-2 DATE 23 Apr 1995
-2 PLAC Methodist Church, Sutherland, IA, USA
-1 FACT United Methodist
-1 FACT Collecting Basketball Cards & playing football.
-0 @I313@ INDI
-1 NAME Mark Allen /Niver/
-2 GIVN Mark Allen
-2 SURN Niver
-1 SEX M
-0 @I217@ INDI
-1 NAME Wesley Wittmore /Batcheler/
-2 GIVN Wesley Wittmore
-2 SURN Batcheler
-1 SEX M
-1 BIRT
-2 DATE 13 Sep 1929
-0 @I196@ INDI
-1 NAME Alliene Virgina /Batcheler/
-2 GIVN Alliene Virgina
-2 SURN Batcheler
-1 SEX F
-1 BIRT
-2 DATE 18 Apr 1924
-2 PLAC Batcheler Home, Ledyard, IA, USA
-1 BAPM
-2 DATE Jul 1924
-2 PLAC Methodist Parsonage, Ledyard, IA, USA
-1 CONF
-2 DATE Aug 1937
-2 PLAC Maple Grove Church of God, Peterson, IA, USA
-1 GRAD
-2 DATE 23 May 1941
-2 PLAC Peterson HS, Peterson, IA, USA
-1 OCCU Homemaker. She was Registrar of Goodman Memorial Theater, School of Dramatic Art with the Art Institute of Chicago & a Real Estate broker in North Carolina.
-1 FACT Alliene attended College at Northwestern Chicago Campus.  Charles attended Bryandt & Stratton Business College earning a 1 year Certificate.
-1 FACT They have both been active in the Methodist church. Alliene has been active in the United Methodist Womens Society.
-1 FACT Charles served in the US Army Air Corps as an Administrative Sergeant in the European Theater achieving a rank of Sargeant.
-1 FACT Alliene was a member of Epsilon Eta Phi, a Business & Professional Womens Sorority. She is a member of the West Jefferson Womens Club in NC & the Blue Ridge Writers Club. Charles is past President Jeffersons Rotary & Paul Harris Fellow.
-1 FACT Alliene is a professional Grandmother.  She is an ameture writter.  Charles was active in the Chicago Suburban Veterans Chorus. He also sang in Methodist Church choirs.
-1 FACT Identical twins.
-0 @I208@ INDI
-1 NAME Phyllis Mae /Batcheler/
-2 GIVN Phyllis Mae
-2 SURN Batcheler
-1 SEX F
-1 BIRT
-2 DATE 3 Dec 1927
-1 OCCU Homemaker
-0 @I195@ INDI
-1 NAME Clare Mae /Dearing/
-2 GIVN Clare Mae
-2 SURN Dearing
-1 SEX F
-1 BIRT
-2 DATE 7 Jan 1906
-1 DEAT
-2 DATE Sep 1944
-1 OCCU Homemaker
-0 @I237@ INDI
-1 NAME Maggie May /Flint/
-2 GIVN Maggie May
-2 SURN Flint
-1 SEX F
-1 DEAT
-2 DATE Aug 1965
-1 OCCU Homemaker
-0 @I331@ INDI
-1 NAME Shauna Elizabeth /Lynn/
-2 GIVN Shauna Elizabeth
-2 SURN Lynn
-1 BIRT
-2 DATE 15 Oct 1975
-0 @I329@ INDI
-1 NAME Linda Lee /Zobel/
-2 GIVN Linda Lee
-2 SURN Zobel
-1 SEX F
-1 BIRT
-2 DATE 5 Sep 1947
-1 OCCU Homemaker
-0 @I289@ INDI
-1 NAME Phillip Eugene /Syndergaard/
-2 GIVN Phillip Eugene
-2 SURN Syndergaard
-1 SEX M
-1 BIRT
-2 DATE 21 Jun 1955
-1 FACT United Methodist
-1 FACT Cow & Denim Day Collector.
-0 @I286@ INDI
-1 NAME Fallon Ann /Schneider/
-2 GIVN Fallon Ann
-2 SURN Schneider
-1 BIRT
-2 DATE 17 Jun 1982
-2 PLAC , Spencer, IA, USA
-1 BAPM
-2 DATE 22 Aug 1982
-2 PLAC Sacred Heart Catholic, Ruthven, IA, USA
-1 CONF
-2 DATE 25 May 1989
-2 PLAC Sacred Heart Catholic, Ruthven, IA, USA
-1 FACT Sacred Heart Catholic
-1 FACT Basketball, Volleyball & drawing.
-0 @I287@ INDI
-1 NAME Jacob James /Schneider/
-2 GIVN Jacob James
-2 SURN Schneider
-1 BIRT
-2 DATE 20 Aug 1985
-2 PLAC , Spencer, IA, USA
-1 BAPM
-2 DATE 11 Mar 1990
-2 PLAC Sacred Heart Catholic, Ruthven, IA, USA
-1 CONF
-2 DATE 22 May 1994
-2 PLAC Sacred Heart Catholic, Ruthven, IA, USA
-1 FACT Sacred Heart Catholic
-1 FACT Wrestling, fishing & hunting.
-0 @I318@ INDI
-1 NAME Marc Jacques /Minguet/
-2 GIVN Marc Jacques
-2 SURN Minguet
-1 SEX M
-1 BIRT
-2 DATE 11 Jan 1958
-0 @I239@ INDI
-1 NAME Charles /Joenks/
-2 GIVN Charles
-2 SURN Joenks
-1 SEX M
-1 BIRT
-2 DATE 13 Apr 1886
-1 DEAT
-2 DATE 17 Jul 1970
-0 @I322@ INDI
-1 NAME Deborah Ann /Lynn/
-2 GIVN Deborah Ann
-2 SURN Lynn
-1 SEX F
-1 BIRT
-2 DATE 1 Feb 1962
-1 OCCU Homemaker
-0 @I312@ INDI
-1 NAME Roberta Sue /Lynn/
-2 GIVN Roberta Sue
-2 SURN Lynn
-1 SEX F
-1 BIRT
-2 DATE 5 Aug 1958
-1 OCCU Homemaker
-0 @I317@ INDI
-1 NAME Barbara Kay /Lynn/
-2 GIVN Barbara Kay
-2 SURN Lynn
-1 SEX F
-1 BIRT
-2 DATE 21 Jun 1960
-1 OCCU Homemaker
-0 @I285@ INDI
-1 NAME Joseph /Schneider/
-2 GIVN Joseph
-2 SURN Schneider
-1 SEX M
-1 BIRT
-2 DATE 14 Jan 1957
-2 PLAC , Emmetsburg, IA, USA
-1 BAPM
-2 DATE 24 Jan 1957
-2 PLAC Sacred Heart Catholic, Emmetsburg, IA,USA
-1 CONF
-2 DATE May 1966
-2 PLAC Sacred Heart Catholic, Graetinger, IA,USA
-1 GRAD
-2 DATE May 1975
-2 PLAC Ruthven HS, Ruthven, IA, USA
-1 FACT Sacred Heart Catholic
-1 FACT Hunting, Fishing & Camping.
-0 @I380@ INDI
-1 NAME Ralph /Woolston/
-2 GIVN Ralph
-2 SURN Woolston
-1 SEX M
-0 @I314@ INDI
-1 NAME Grant Allan /Niver/
-2 GIVN Grant Allan
-2 SURN Niver
-1 BIRT
-2 DATE 25 Jun 1989
-0 @I315@ INDI
-1 NAME Blake Mathew /Niver/
-2 GIVN Blake Mathew
-2 SURN Niver
-1 BIRT
-2 DATE 24 Aug 1992
-0 @I316@ INDI
-1 NAME Bryce Robert /Niver/
-2 GIVN Bryce Robert
-2 SURN Niver
-1 BIRT
-2 DATE 9 Aug 1995
-0 @I240@ INDI
-1 NAME Kenneth Clarence /Joenks/
-2 GIVN Kenneth Clarence
-2 SURN Joenks
-1 SEX M
-1 BIRT
-2 DATE 21 Mar 1911
-1 DEAT
-2 DATE 14 Jul 1989
-0 @I266@ INDI
-1 NAME Melvin Charles /Joenks/
-2 GIVN Melvin Charles
-2 SURN Joenks
-1 SEX M
-1 BIRT
-2 DATE 17 Jan 1920
-0 @I381@ INDI
-1 NAME Sylvia /Harris/
-2 GIVN Sylvia
-2 SURN Harris
-1 SEX F
-0 @I311@ INDI
-1 NAME Ann Lyn /Rykken/
-2 GIVN Ann Lyn
-2 SURN Rykken
-1 SEX F
-1 BIRT
-2 DATE 14 Jun 1938
-1 OCCU Homemaker
-0 @I390@ INDI
-1 NAME Vern /Clark/
-2 GIVN Vern
-2 SURN Clark
-1 SEX M
-0 @I88@ INDI
-1 NAME Amy Elizabeth /Mesner/
-2 GIVN Amy Elizabeth
-2 SURN Mesner
-1 BIRT
-2 DATE 19 Sep 1979
-0 @I54@ INDI
-1 NAME Danielle Elizabeth /Tjaden/
-2 GIVN Danielle Elizabeth
-2 SURN Tjaden
-1 BIRT
-2 DATE 28 Sep 1987
-0 @I53@ INDI
-1 NAME Adam Brock /Tjaden/
-2 GIVN Adam Brock
-2 SURN Tjaden
-1 BIRT
-2 DATE 21 Nov 1984
-0 @I272@ INDI
-1 NAME Clarence Edward /Webster/
-2 GIVN Clarence Edward
-2 SURN Webster
-1 SEX M
-1 BIRT
-2 DATE 29 May 1894
-1 DEAT
-2 DATE 23 Jun 1980
-2 PLAC Oakland Cem. Peterson, IA, USA
-1 OCCU Farmer.  He worked for the Neighbors Telephone Co. for 18 years (9 as President).  He was township assessor for 8 years, county supervisor for 9 years & county adjuster  for 2 years.
-1 FACT They were active in the Maple Church of Christ, in Sutherland, where he held offices for 61 years.
-1 FACT Clarence served in the US Army during WWI.  He joined the American Legion in 1919 and served as Chaplain of Post #10 in Peterson for 50 years. He was Adjutant for 2 years & Chaplain for 2 years in district #9.
-1 FACT He served on the Selective Service Board for 11 Years, was Scout Master for 8 years and a Youth Camp volunteer for 23 years.
-0 @I262@ INDI
-1 NAME Kelly Joe /Langholz/
-2 GIVN Kelly Joe
-2 SURN Langholz
-1 NAME Kelley?
-2 TYPE aka
-2 GIVN Kelley?
-1 BIRT
-2 DATE 15 Apr 1967
-0 @I264@ INDI
-1 NAME Kent Daniel /Langholz/
-2 GIVN Kent Daniel
-2 SURN Langholz
-1 BIRT
-2 DATE 20 Aug 1968
-0 @I87@ INDI
-1 NAME Russell Warren /Mesner/
-2 GIVN Russell Warren
-2 SURN Mesner
-1 SEX M
-1 BIRT
-2 DATE 26 Nov 1955
-0 @I84@ INDI
-1 NAME Toni Lynn /Bergendahl/
-2 GIVN Toni Lynn
-2 SURN Bergendahl
-1 BIRT
-2 DATE 10 Apr 1977
-0 @I83@ INDI
-1 NAME Michael Dean /Bergendahl/
-2 GIVN Michael Dean
-2 SURN Bergendahl
-1 BIRT
-2 DATE 21 Aug 1975
-0 @I273@ INDI
-1 NAME Dorothy Etta /Webster/
-2 GIVN Dorothy Etta
-2 SURN Webster
-1 SEX F
-1 BIRT
-2 DATE 9 Aug 1922
-1 GRAD
-2 DATE 23 May 1941
-2 PLAC Peterson HS, Peterson, IA, USA
-1 DEAT
-2 DATE 16 Apr 1985
-1 OCCU Homemaker
-0 @I56@ INDI
-1 NAME Michelle Marie /Woolison/
-2 GIVN Michelle Marie
-2 SURN Woolison
-1 SEX F
-1 BIRT
-2 DATE 26 Sep 1960
-1 OCCU Homemaker
-0 @I292@ INDI
-1 NAME Fern Leone /Webster/
-2 GIVN Fern Leone
-2 SURN Webster
-1 BIRT
-2 DATE 29 Jul 1925
-2 PLAC Webster Home, Peterson, IA, USA
-1 BAPM
-2 PLAC Maple Grove Church, Sutherland, IA, USA
-1 OCCU Maiden Lady
-1 FACT Maple Grove Church of God, Sutherland, IA.
-1 FACT Fern belongs to Ladies Aide, American Legion Auxiliary, Cenior Citizens & the Peterson Civic Club.
-0 @I85@ INDI
-1 NAME Cory Allen /Bergendahl/
-2 GIVN Cory Allen
-2 SURN Bergendahl
-1 BIRT
-2 DATE 27 Jun 1978
-0 @I129@ INDI
-1 NAME Samuel Matthew /Finney/
-2 GIVN Samuel Matthew
-2 SURN Finney
-1 BIRT
-2 DATE 6 Nov 1985
-2 PLAC , Toronto, Canada
-0 @I293@ INDI
-1 NAME Wendell Elywin /Webster/
-2 GIVN Wendell Elywin
-2 SURN Webster
-1 SEX M
-1 BIRT
-2 DATE 19 May 1929
-2 PLAC Webster Home, Peterson, IA, USA
-1 BAPM
-2 DATE Jul 1938
-2 PLAC Waterman Creek, Peterson, IA, USA
-1 GRAD
-2 DATE May 1948
-2 PLAC Peterson HS, Peterson, IA, USA
-1 FACT Wendell attended Buena Vista College in Storm Lake, IA. for two years.
-1 FACT They attended the Church of God at Maple Grove west of Royal, IA.
-1 FACT He served in the US Army from 13 Sep 1951 to Sep 1953.
-1 FACT Wendell belonged to the 4-H & FFA.  He is now a member of the American Legion.
-0 @I261@ INDI
-1 NAME Ronny Jon /Langholz/
-2 GIVN Ronny Jon
-2 SURN Langholz
-1 SEX M
-1 BIRT
-2 DATE 18 Jun 1945
-0 @I163@ INDI
-1 NAME Thomas John /Hegel/
-2 GIVN Thomas John
-2 SURN Hegel
-1 SEX M
-1 BIRT
-2 DATE 12 Oct 1941
-0 @I307@ INDI
-1 NAME Benjamin Harrison /Lewis/
-2 GIVN Benjamin Harrison
-2 SURN Lewis
-1 SEX M
-1 BIRT
-2 DATE 15 Jun 1889
-1 DEAT
-2 DATE 20 Nov 1941
-0 @I82@ INDI
-1 NAME Terry Dean /Bergendahl/
-2 GIVN Terry Dean
-2 SURN Bergendahl
-1 SEX M
-1 BIRT
-2 DATE 18 Mar 1955
-1 FACT 0
-0 @I257@ INDI
-1 NAME James Ward /Joenks/
-2 GIVN James Ward
-2 SURN Joenks
-1 BIRT
-2 DATE 9 Jul 1963
-0 @I182@ INDI
-1 NAME June Alice /Batcheler/
-2 GIVN June Alice
-2 SURN Batcheler
-1 SEX F
-1 BIRT
-2 DATE 6 Nov 1916
-2 PLAC Batcheler Home, Peterson, IA, USA
-1 GRAD
-2 PLAC Peterson HS, Peterson, IA, USA
-1 OCCU Homemaker
-1 FACT Ralph attended Iowa State College in Ames, Iowa for a short while.
-1 FACT Dwight loved flying and eventually earned his commercial pilot's license.
-0 @I128@ INDI
-1 NAME Barbara /Baker/
-2 GIVN Barbara
-2 SURN Baker
-1 SEX F
-1 BIRT
-2 DATE 21 Nov 1959
-2 PLAC , Toronto, Canada
-1 OCCU Homemaker
-1 FACT Barbara is attending a Nurses Traing School.
-0 @I251@ INDI
-1 NAME Shannon Kay /Joenks/
-2 GIVN Shannon Kay
-2 SURN Joenks
-1 SEX F
-1 BIRT
-2 DATE 9 Dec 1961
-1 OCCU Homemaker
-0 @I244@ INDI
-1 NAME Neil Alan /Joenks/
-2 GIVN Neil Alan
-2 SURN Joenks
-1 SEX M
-1 BIRT
-2 DATE 17 Apr 1960
-0 @I395@ INDI
-1 NAME /Simeo/
-2 SURN Simeo
-1 SEX M
-0 @I366@ INDI
-1 NAME Joseph /French/
-2 GIVN Joseph
-2 SURN French
-1 SEX M
-0 @I164@ INDI
-1 NAME Roxanne Marie /Hegel/
-2 GIVN Roxanne Marie
-2 SURN Hegel
-1 SEX F
-1 BIRT
-2 DATE 31 Oct 1963
-1 OCCU Homemaker
-0 @I125@ INDI
-1 NAME Ryan Bruce /Richard/
-2 GIVN Ryan Bruce
-2 SURN Richard
-1 BIRT
-2 DATE 28 Jun 1985
-2 PLAC , Montreal, Canada
-0 @I168@ INDI
-1 NAME Ronald Thomas /Hegel/
-2 GIVN Ronald Thomas
-2 SURN Hegel
-1 SEX M
-1 BIRT
-2 DATE 30 Jun 1965
-0 @I308@ INDI
-1 NAME Beulah Eugenia /Lewis/
-2 GIVN Beulah Eugenia
-2 SURN Lewis
-1 SEX F
-1 BIRT
-2 DATE 22 Dec 1910
-2 PLAC Lewis Home, Peterson, IA, USA
-1 DEAT
-2 DATE 19 Jul 1990
-1 OCCU Homemaker
-0 @I367@ INDI
-1 NAME Victoreen //
-2 GIVN Victoreen
-1 SEX F
-0 @I52@ INDI
-1 NAME Daniel Joseph /Tjaden/
-2 GIVN Daniel Joseph
-2 SURN Tjaden
-1 SEX M
-1 BIRT
-2 DATE 9 Oct 1959
-0 @I126@ INDI
-1 NAME Chanelle Marie Suzanne /Richard/
-2 GIVN Chanelle Marie Suzanne
-2 SURN Richard
-1 BIRT
-2 DATE 31 Aug 1988
-2 PLAC , Montreal, Canada
-0 @I332@ INDI
-1 NAME LaVon Roene /Lewis/
-2 GIVN LaVon Roene
-2 SURN Lewis
-1 SEX F
-1 BIRT
-2 DATE 29 Dec 1912
-1 OCCU Homemaker
-0 @I243@ INDI
-1 NAME Barbara Lee /Williams/
-2 GIVN Barbara Lee
-2 SURN Williams
-1 SEX F
-1 BIRT
-2 DATE 30 Mar 1942
-1 OCCU Homemaker
-0 @I93@ INDI
-1 NAME Derrick Benjamin /Solberg/
-2 GIVN Derrick Benjamin
-2 SURN Solberg
-1 BIRT
-2 DATE 21 Dec 1989
-0 @I345@ INDI
-1 NAME Clarence Olin /Anderson/
-2 GIVN Clarence Olin
-2 SURN Anderson
-1 SEX M
-1 BIRT
-2 DATE 1 May 1892
-2 PLAC Anderson Home, Wood Co. WV, USA
-1 DEAT
-2 DATE 13 Aug 1959
-2 PLAC Oakland Cem. Peterson, IA, USA
-1 OCCU Auto Mechanic at Batcheler's Ford Garage for 30+ years.  He then farmed northwest of Peterson for 16 years.
-1 FACT They were both very active members of the Congregational Church in  Peterson, IA,  Josie taught Sunday School for about 25 years.  Olin was Sunday School superintendant for several years & was on the church board several times.
-1 FACT Josie was active in Womens Fellowship for 60 years.
-1 FACT Olin was a motorcycle enthusiast, built & drove a race car and was a Ham radio operator.
-0 @I36@ INDI
-1 NAME Jenny Jo Lynn /Thompson/
-2 GIVN Jenny Jo Lynn
-2 SURN Thompson
-1 BIRT
-2 DATE 17 Dec 1982
-0 @I35@ INDI
-1 NAME Shawn Thomas /Thompson/
-2 GIVN Shawn Thomas
-2 SURN Thompson
-1 BIRT
-2 DATE 10 Jun 1979
-0 @I207@ INDI
-1 NAME Polly Alemeda /Robinson/
-2 GIVN Polly Alemeda
-2 SURN Robinson
-1 BIRT
-2 DATE 13 Nov 1966
-1 OCCU & Secretarial Bookkeeper for Lowes Hardware Corp. office in North Wilksboro, NC.
-0 @I368@ INDI
-1 NAME George /Lane/
-2 GIVN George
-2 SURN Lane
-1 SEX M
-0 @I92@ INDI
-1 NAME Troy /Solberg/
-2 GIVN Troy
-2 SURN Solberg
-1 SEX M
-1 BIRT
-2 DATE 3 Jun 1968
-0 @I120@ INDI
-1 NAME Kevin /Keeney/
-2 GIVN Kevin
-2 SURN Keeney
-1 OCCU He is a Computer Programmer Analist.
-1 FACT They both attended college at Augustana; Brenda from 1986 to 1991 majoring in History & Kevin from 1986 to 1991 as a computer programer analist.
-1 FACT They belong to the Lutheran Church.
-1 FACT They enjoy their computers, music & reading.  They raise hamsters.
-1 FACT * Kevin was adopted by Keeneys.
-0 @I346@ INDI
-1 NAME Duane Olin /Anderson/
-2 GIVN Duane Olin
-2 SURN Anderson
-1 SEX M
-1 BIRT
-2 DATE 18 Dec 1927
-2 PLAC Anderson Home, Peterson, IA, USA
-1 GRAD
-2 DATE May 1945
-2 PLAC Peterson HS, Peterson, IA, USA
-1 OCCU Farmer
-1 FACT They are both very active members of the Congregational church in Peterson, IA
-1 FACT Duane served in the US Navy from Jan 1946 until Dec 1947.
-1 FACT Duane has been a member of the Lions Club in Peterson for 25 years.
-1 FACT Fishing & traveling are their favorite pastimes.
-0 @I118@ INDI
-1 NAME Julia Marie /Klinefelter/
-2 GIVN Julia Marie
-2 SURN Klinefelter
-1 BIRT
-2 DATE 17 Jul 1992
-2 PLAC Iowa City Hosp. Iowa City, IA, USA
-1 BAPM
-2 PLAC Catholic Church, Iowa City, IA, USA
-1 CONF
-2 PLAC Catholic Church, Iowa City, IA, USA
-0 @I116@ INDI
-1 NAME Jennifer Noel /Klinefelter/
-2 GIVN Jennifer Noel
-2 SURN Klinefelter
-1 BIRT
-2 DATE 16 Sep 1984
-2 PLAC Iowa City Hosp. Iowa City, IA, USA
-1 BAPM
-2 DATE 1984
-2 PLAC Catholic Church, Iowa City, IA, USA
-1 CONF
-2 DATE 1981
-2 PLAC Catholic Church, Iowa City, IA, USA
-1 FACT Confirmation date should NOT be before birth date for Klinefelter, Jennifer Noel. Birth date: 1984 Sep 16, Confirmation date: 1981
-0 @I369@ INDI
-1 NAME Elnor /Doyl/
-2 GIVN Elnor
-2 SURN Doyl
-1 SEX F
-0 @I38@ INDI
-1 NAME Patrick Joseph /Niechel/
-2 GIVN Patrick Joseph
-2 SURN Niechel
-1 SEX M
-1 BIRT
-2 DATE 16 May 1955
-0 @I117@ INDI
-1 NAME Lindsay Michelle /Klinefelter/
-2 GIVN Lindsay Michelle
-2 SURN Klinefelter
-1 BIRT
-2 DATE 9 Sep 1986
-2 PLAC Iowa City Hosp. Iowa City, IA, USA
-1 BAPM
-2 DATE 1986
-2 PLAC Catholic Church, Iowa City, IA, USA
-1 CONF
-2 DATE 1993
-2 PLAC Catholic Church, Iowa City, IA, USA
-0 @I276@ INDI
-1 NAME Bill /Williams/
-2 GIVN Bill
-2 SURN Williams
-0 @I364@ INDI
-1 NAME Louise Emma /Schumacher/
-2 GIVN Louise Emma
-2 SURN Schumacher
-1 BIRT
-2 DATE 12 Oct 1899
-2 PLAC Schumacher Home, Peterson, IA, USA
-1 DEAT
-2 DATE 19 Feb 1989
-1 OCCU Homemaker
-1 FACT Joseph served in the US Army in England & France during World War I from July 26 1918 until June 2 1919.
-1 FACT Joe said of his family:  His mother's maiden name was Carpenter, his aunt married a Mason, he married a Shoemaker & his father was a Batcheler with 12 children.
-0 @I58@ INDI
-1 NAME Emily Ann /Anderson/
-2 GIVN Emily Ann
-2 SURN Anderson
-1 BIRT
-2 DATE 13 Dec 1993
-0 @I57@ INDI
-1 NAME Taylor James /Anderson/
-2 GIVN Taylor James
-2 SURN Anderson
-1 BIRT
-2 DATE 16 May 1989
-0 @I115@ INDI
-1 NAME Mary Jo /Zachringer/
-2 GIVN Mary Jo
-2 SURN Zachringer
-1 SEX F
-1 BIRT
-2 DATE 14 Apr 1960
-1 BAPM
-2 DATE May 1960
-2 PLAC Catholic Church, Fallund, IL, USA
-1 GRAD
-2 DATE May 1978
-2 PLAC Fallund HS, Fallund, IL, USA
-1 OCCU Homemaker.  Mary works in the eye clinic at the Iowa City University Hospital.
-1 FACT They both attended the University at Iowa City, IA; Blair from 1978 to 1983 in Computer science & Economics & Mary from 1978 to 1982 in Teaching.
-1 FACT Blair belongs to the Congregational Church & Mary is active in the Catholic Church.
-1 FACT Blair likes sports & music.  They both enjoy woodworking.
-1 FACT * They were married early in Peoria due to her Father having a severe stroke.  Later they had a second wedding in the Catholic Church in Iowa City, IA.
-0 @I204@ INDI
-1 NAME Carol Ann /Bowen/
-2 GIVN Carol Ann
-2 SURN Bowen
-1 SEX F
-1 BIRT
-2 DATE 8 Sep 1961
-1 OCCU Homemaker
-0 @I89@ INDI
-1 NAME Nisa Nicole /Mesner/
-2 GIVN Nisa Nicole
-2 SURN Mesner
-1 BIRT
-2 DATE 7 Nov 1981
-0 @I34@ INDI
-1 NAME Thomas Lynn /Thompson/
-2 GIVN Thomas Lynn
-2 SURN Thompson
-1 SEX M
-1 BIRT
-2 DATE 17 Nov 1951
-0 @I391@ INDI
-1 NAME Fern //
-2 GIVN Fern
-1 SEX F
-0 @I205@ INDI
-1 NAME Christopher Thompson /Stierwalt/
-2 GIVN Christopher Thompson
-2 SURN Stierwalt
-1 NAME Thomas?
-2 TYPE aka
-2 GIVN Thomas?
-1 BIRT
-2 DATE 3 Dec 1984
-0 @I215@ INDI
-1 NAME Ralph /Ferguson/
-2 GIVN Ralph
-2 SURN Ferguson
-0 @I158@ INDI
-1 NAME Lila Alice /Batcheler/
-2 GIVN Lila Alice
-2 SURN Batcheler
-1 BIRT
-2 DATE 29 Sep 1911
-1 DEAT
-2 DATE 26 Feb 1955
-1 OCCU Homemaker
-0 @I133@ INDI
-1 NAME Susan /Marhoul/
-2 GIVN Susan
-2 SURN Marhoul
-1 SEX F
-1 BIRT
-2 DATE 26 Jun 1961
-1 OCCU Homemaker & Department Store Clerk.
-0 @I160@ INDI
-1 NAME Lucy Mae /Batcheler/
-2 GIVN Lucy Mae
-2 SURN Batcheler
-1 SEX F
-1 BIRT
-2 DATE 19 Oct 1914
-1 OCCU Homemaker
-0 @I143@ INDI
-1 NAME Jennie Eugene /Batcheler/
-2 GIVN Jennie Eugene
-2 SURN Batcheler
-1 NAME Eugena?
-2 TYPE aka
-2 GIVN Eugena?
-1 SEX F
-1 BIRT
-2 DATE 15 Sep 1904
-1 DEAT
-2 DATE 19 Apr 1993
-1 OCCU Homemaker
-0 @I101@ INDI
-1 NAME Dennis Ray /Baschke/
-2 GIVN Dennis Ray
-2 SURN Baschke
-1 SEX M
-1 BIRT
-2 DATE 24 Nov 1952
-0 @I157@ INDI
-1 NAME Edith Lucile /Batcheler/
-2 GIVN Edith Lucile
-2 SURN Batcheler
-1 BIRT
-2 DATE 2 Apr 1906
-1 DEAT
-2 DATE 12 Jul 1930
-0 @I379@ INDI
-1 NAME Matthews /Richard/
-2 GIVN Matthews
-2 SURN Richard
-1 SEX M
-0 @I199@ INDI
-1 NAME James Everett /Thompson/ Jr
-2 GIVN James Everett
-2 SURN Thompson
-1 SEX M
-1 BIRT
-2 DATE 25 Sep 1964
-0 @I138@ INDI
-1 NAME Ray Charles /Batcheler/
-2 GIVN Ray Charles
-2 SURN Batcheler
-1 SEX M
-1 BIRT
-2 DATE 28 Dec 1902
-1 DEAT
-2 DATE 16 Sep 1958
-0 @I209@ INDI
-1 NAME Warner George /Winterboer/
-2 GIVN Warner George
-2 SURN Winterboer
-1 SEX M
-0 @I216@ INDI
-1 NAME Muncie Upton /Kittleman/
-2 GIVN Muncie Upton
-2 SURN Kittleman
-1 SEX M
-1 BIRT
-2 DATE 13 Mar 1931
-0 @I202@ INDI
-1 NAME Amanda June /Thompson/
-2 GIVN Amanda June
-2 SURN Thompson
-1 BIRT
-2 DATE 15 Feb 1994
-0 @I203@ INDI
-1 NAME Gerald Hilton /Stierwalt/
-2 GIVN Gerald Hilton
-2 SURN Stierwalt
-1 SEX M
-1 BIRT
-2 DATE 31 Oct 1961
-2 PLAC Melbourne Hosp. Melbourne, FL, USA
-1 BAPM
-2 DATE Apr 1962
-2 PLAC Methodist Church, Indianalantic, FL, USA
-1 CONF
-2 DATE 1975
-2 PLAC Bethany Methodist, West Jefferson, NC,USA
-1 GRAD
-2 DATE May 1981
-2 PLAC Beaver Creek HS, West Jefferson, NC, USA
-1 OCCU Assistant Chief of Engineering in City Center Mariott Hotel, Charlotte, NC.
-0 @I206@ INDI
-1 NAME Harold Franklin /Stierwalt/
-2 GIVN Harold Franklin
-2 SURN Stierwalt
-1 BIRT
-2 DATE 31 Oct 1961
-2 PLAC Melbourne Hosp. Melbourne, FL, USA
-1 BAPM
-2 DATE Apr 1962
-2 PLAC Methodist Church, Indianalantic, FL, USA
-1 CONF
-2 DATE 1975
-2 PLAC Bethany Methodist, West Jefferson, NC,USA
-1 GRAD
-2 DATE May 1980
-2 PLAC Beaver Creek HS, West Jefferson, NC, USA
-1 OCCU Retail Shoe Store Manager.
-0 @I200@ INDI
-1 NAME Victoria Lynn /Thompson/
-2 GIVN Victoria Lynn
-2 SURN Thompson
-1 BIRT
-2 DATE 23 May 1989
-0 @I99@ INDI
-1 NAME Patrick Lee /Lane/
-2 GIVN Patrick Lee
-2 SURN Lane
-1 BIRT
-2 DATE 9 Dec 1988
-0 @I201@ INDI
-1 NAME Rebekah Lee /Thompson/
-2 GIVN Rebekah Lee
-2 SURN Thompson
-1 BIRT
-2 DATE 24 Dec 1992
-0 @I198@ INDI
-1 NAME Carolyn June /Stierwalt/
-2 GIVN Carolyn June
-2 SURN Stierwalt
-1 SEX F
-1 BIRT
-2 DATE 24 Oct 1957
-2 PLAC Hinsdale Sanitorium, Hinsdale, IL. USA
-1 BAPM
-2 DATE May 1958
-2 PLAC First Methodist, Downers Grove, IL, USA
-1 GRAD
-2 DATE May 1976
-2 PLAC Beaver Creek HS, West Jefferson, NC, USA
-1 OCCU Homemaker.  Religious Program Specialist in the US Navy.
-0 @I211@ INDI
-1 NAME Jack /Taylor/
-2 GIVN Jack
-2 SURN Taylor
-1 SEX M
-0 @I347@ INDI
-1 NAME Phyllis Jean /Struve/
-2 GIVN Phyllis Jean
-2 SURN Struve
-1 SEX F
-1 BIRT
-2 DATE 6 May 1933
-2 PLAC Struve Home, Paullina, IA, USA
-1 GRAD
-2 DATE May 1951
-2 PLAC Hartley HS, Hartley, IA, USA
-1 OCCU Homemaker
-1 FACT They are both very active members of the Congregational church in Peterson, IA
-1 FACT Duane served in the US Navy from Jan 1946 until Dec 1947.
-1 FACT Duane has been a member of the Lions Club in Peterson for 25 years.
-1 FACT Fishing & traveling are their favorite pastimes.
-0 @I97@ INDI
-1 NAME Mary Ann /Gothier/
-2 GIVN Mary Ann
-2 SURN Gothier
-1 SEX F
-1 BIRT
-2 DATE 17 Nov 1954
-1 OCCU Homemaker
-1 FACT Mary Ann's child from a previous marriage
-0 @I174@ INDI
-1 NAME Damon Matthew /Zinn/
-2 GIVN Damon Matthew
-2 SURN Zinn
-1 BIRT
-2 DATE 23 Oct 1964
-0 @I197@ INDI
-1 NAME Charles Franklin /Stierwalt/
-2 GIVN Charles Franklin
-2 SURN Stierwalt
-1 SEX M
-1 BIRT
-2 DATE 27 Sep 1915
-2 PLAC Washington Co. Hosp. Washington, IA, USA
-1 BAPM
-2 DATE Oct 1915
-2 PLAC First Methodist, Washington, IA, USA
-1 GRAD
-2 DATE Jan 1934
-2 PLAC North HS, Des Moines, IA, USA
-1 OCCU Department of Defense Administrator, Real Estate Broker in North Carolina.
-1 FACT Alliene attended College at Northwestern Chicago Campus.  Charles attended Bryandt & Stratton Business College earning a 1 year Certificate.
-1 FACT They have both been active in the Methodist church. Alliene has been active in the United Methodist Womens Society.
-1 FACT Charles served in the US Army Air Corps as an Administrative Sergeant in the European Theater achieving a rank of Sargeant.
-1 FACT Alliene was a member of Epsilon Eta Phi, a Business & Professional Womens Sorority. She is a member of the West Jefferson Womens Club in NC & the Blue Ridge Writers Club. Charles is past President Jeffersons Rotary & Paul Harris Fellow.
-1 FACT Alliene is a professional Grandmother.  She is an ameture writter.  Charles was active in the Chicago Suburban Veterans Chorus. He also sang in Methodist Church choirs.
-1 FACT Identical twins.
-0 @I212@ INDI
-1 NAME Aaron James /Taylor/
-2 GIVN Aaron James
-2 SURN Taylor
-1 BIRT
-2 DATE 28 Sep 1976
-0 @I213@ INDI
-1 NAME Amy Joy /Taylor/
-2 GIVN Amy Joy
-2 SURN Taylor
-1 BIRT
-2 DATE 19 Dec 1978
-0 @I76@ INDI
-1 NAME Debbie Ann /Edwards/
-2 GIVN Debbie Ann
-2 SURN Edwards
-1 SEX F
-1 BIRT
-2 DATE 2 Dec 1954
-0 @I124@ INDI
-1 NAME Robert /Richard/
-2 GIVN Robert
-2 SURN Richard
-1 SEX M
-1 BIRT
-2 DATE 4 Feb 1954
-1 OCCU Prepares bids & contracts for a construction company in Montreal, Canada
-0 @I79@ INDI
-1 NAME Myra /Day/
-2 GIVN Myra
-2 SURN Day
-1 SEX F
-1 BIRT
-2 DATE 7 Feb 1949
-1 OCCU Homemaker
-1 FACT Myra's child from a previous marriage.
-0 @I234@ INDI
-1 NAME Cheryl Ann /Parsons/
-2 GIVN Cheryl Ann
-2 SURN Parsons
-1 SEX F
-1 OCCU Homemaker
-0 @I236@ INDI
-1 NAME Sammy Lou /Rinker/
-2 GIVN Sammy Lou
-2 SURN Rinker
-1 SEX F
-1 BIRT
-2 DATE 30 Dec 1955
-1 OCCU Homemaker
-0 @I404@ INDI
-1 NAME Kenneth Lee /Murray/
-2 GIVN Kenneth Lee
-2 SURN Murray
-1 SEX M
-0 @I359@ INDI
-1 NAME Jon Olin /Anderson/
-2 GIVN Jon Olin
-2 SURN Anderson
-1 SEX M
-1 BIRT
-2 DATE 20 Oct 1958
-2 PLAC Sioux Valley MemorialHosp. Cherokee, IA, USA
-1 GRAD
-2 DATE May 1977
-2 PLAC Sioux Valley HS, Linn Grove, IA, USA
-1 OCCU Farmer
-0 @I348@ INDI
-1 NAME Cheryl Jean /Anderson/
-2 GIVN Cheryl Jean
-2 SURN Anderson
-1 SEX F
-1 BIRT
-2 DATE 3 Jul 1952
-2 PLAC Sioux Valley MemorialHosp. Cherokee, IA, USA
-1 GRAD
-2 PLAC Sioux Valley HS, Linn Grove, IA, USA
-1 OCCU Homemaker & Cosmetologist
-0 @I353@ INDI
-1 NAME Ricky Duane /Anderson/
-2 GIVN Ricky Duane
-2 SURN Anderson
-1 SEX M
-1 BIRT
-2 DATE 27 Apr 1954
-2 PLAC Sioux Valley MemorialHosp. Cherokee, IA, USA
-1 BAPM
-2 PLAC Congregational Ch. Peterson, IA, USA
-1 GRAD
-2 DATE May 1973
-2 PLAC Sioux Valley HS, Linn Grove, IA, USA
-1 OCCU Farmer
-1 FACT Deb earned her B.A. degree in Applied Art-Interior Design from Iowa State University in Ames, IA. in 1975.
-1 FACT They are both very active in the Congregational church in Peterson.  They both sing in the choir & Deb is Organist.
-1 FACT They are members of Clay County Pork producer & Porkttes.  Rick in active in the Lions club.
-1 FACT They both enjoy traveling fishing & snow mobiling.  Deb enjoys sewing & decorating cakes.
-0 @I107@ INDI
-1 NAME Jillian Cae /Ihrke/
-2 GIVN Jillian Cae
-2 SURN Ihrke
-1 BIRT
-2 DATE 27 Oct 1984
-0 @I74@ INDI
-1 NAME Erica Sue /Robinson/
-2 GIVN Erica Sue
-2 SURN Robinson
-1 BIRT
-2 DATE 2 Apr 1977
-2 PLAC , Price, UT, USA
-0 @I108@ INDI
-1 NAME Alison Mae /Ihrke/
-2 GIVN Alison Mae
-2 SURN Ihrke
-1 BIRT
-2 DATE 31 Aug 1987
-0 @I389@ INDI
-1 NAME Lela /Struve/
-2 GIVN Lela
-2 SURN Struve
-1 SEX F
-0 @I219@ INDI
-1 NAME Kathy Lou /Batcheler/
-2 GIVN Kathy Lou
-2 SURN Batcheler
-1 SEX F
-1 BIRT
-2 DATE 25 Jul 1951
-1 OCCU Homemaker
-0 @I223@ INDI
-1 NAME Karen Faye - /Batcheler/
-2 GIVN Karen Faye -
-2 SURN Batcheler
-1 SEX F
-1 BIRT
-2 DATE 26 Jul 1954
-1 OCCU Homemaker
-0 @I233@ INDI
-1 NAME Dennis J /Batcheler/
-2 GIVN Dennis J
-2 SURN Batcheler
-1 SEX M
-1 BIRT
-2 DATE 15 Jul 1958
-0 @I226@ INDI
-1 NAME Richard /Carpenter/
-2 GIVN Richard
-2 SURN Carpenter
-1 SEX M
-0 @I388@ INDI
-1 NAME Doyle Brainard /Anderson/
-2 GIVN Doyle Brainard
-2 SURN Anderson
-1 SEX M
-0 @I227@ INDI
-1 NAME George Michael /Anderson/
-2 GIVN George Michael
-2 SURN Anderson
-1 SEX M
-1 BIRT
-2 DATE 21 Feb 1947
-0 @I309@ INDI
-1 NAME Ellison Leslie /Lynn/
-2 GIVN Ellison Leslie
-2 SURN Lynn
-1 SEX M
-1 BIRT
-2 DATE 16 Sep 1906
-2 PLAC , SD, USA
-1 DEAT
-2 DATE 8 Sep 1949
-0 @I106@ INDI
-1 NAME Clyde Kevin /Ihrke/
-2 GIVN Clyde Kevin
-2 SURN Ihrke
-1 SEX M
-1 BIRT
-2 DATE 18 Dec 1958
-0 @I73@ INDI
-1 NAME Mark William /Robinson/
-2 GIVN Mark William
-2 SURN Robinson
-1 SEX M
-1 BIRT
-2 DATE 4 May 1951
-0 @I218@ INDI
-1 NAME Jessie Bethina /Reed/
-2 GIVN Jessie Bethina
-2 SURN Reed
-1 SEX F
-1 BIRT
-2 DATE 24 Oct 1931
-1 OCCU Homemaker
-0 @I224@ INDI
-1 NAME Dan Joseph /Karleskint/
-2 GIVN Dan Joseph
-2 SURN Karleskint
-1 SEX M
-0 @I134@ INDI
-1 NAME Jessica Sue /Hughes/
-2 GIVN Jessica Sue
-2 SURN Hughes
-1 BIRT
-2 DATE 24 Feb 1984
-2 PLAC , Cresco, IA, USA
-0 @I98@ INDI
-1 NAME Clifford /McMurray/
-2 GIVN Clifford
-2 SURN McMurray
-1 BIRT
-2 DATE 31 Jul 1977
-0 @I103@ INDI
-1 NAME Tara Anne /Lane/
-2 GIVN Tara Anne
-2 SURN Lane
-1 BIRT
-2 DATE 10 Sep 1981
-0 @I102@ INDI
-1 NAME Tina Marie /Lane/
-2 GIVN Tina Marie
-2 SURN Lane
-1 BIRT
-2 DATE 4 Dec 1978
-0 @I104@ INDI
-1 NAME Tyler James /Lane/
-2 GIVN Tyler James
-2 SURN Lane
-1 BIRT
-2 DATE 11 Jul 1986
-0 @I135@ INDI
-1 NAME Stephen William /Hughes/
-2 GIVN Stephen William
-2 SURN Hughes
-1 BIRT
-2 DATE 16 Aug 1985
-2 PLAC , Cresco, IA, USA
-0 @I253@ INDI
-1 NAME Amanda Kay /VanDAALEN/
-2 GIVN Amanda Kay
-2 SURN VanDAALEN
-1 BIRT
-2 DATE 24 Sep 1988
-0 @I333@ INDI
-1 NAME Stanley Charles /Mohn/
-2 GIVN Stanley Charles
-2 SURN Mohn
-1 SEX M
-1 BIRT
-2 DATE 10 Apr 1912
-0 @I254@ INDI
-1 NAME Jason Alan /VanDAALEN/
-2 GIVN Jason Alan
-2 SURN VanDAALEN
-1 NAME Allan?
-2 TYPE aka
-2 GIVN Allan?
-1 BIRT
-2 DATE 2 Apr 1990
-0 @I343@ INDI
-1 NAME Iver /Simeo/
-2 GIVN Iver
-2 SURN Simeo
-1 SEX M
-1 BIRT
-2 DATE 11 Jan 1902
-0 @I255@ INDI
-1 NAME Crystal Lee /VanDAALEN/
-2 GIVN Crystal Lee
-2 SURN VanDAALEN
-1 BIRT
-2 DATE 9 Apr 1993
-0 @I296@ INDI
-1 NAME Bonnie /Larson/
-2 GIVN Bonnie
-2 SURN Larson
-0 @I256@ INDI
-1 NAME Scott William /VanDAALEN/
-2 GIVN Scott William
-2 SURN VanDAALEN
-1 BIRT
-2 DATE 14 Jul 1995
-0 @I147@ INDI
-1 NAME Donna Rae /Thorson/
-2 GIVN Donna Rae
-2 SURN Thorson
-1 BIRT
-2 DATE 5 Jul 1953
-0 @I328@ INDI
-1 NAME James Leslie /Lynn/
-2 GIVN James Leslie
-2 SURN Lynn
-1 SEX M
-1 BIRT
-2 DATE 22 Mar 1946
-0 @I258@ INDI
-1 NAME Leslie M /Gilbertson/
-2 GIVN Leslie M
-2 SURN Gilbertson
-1 BIRT
-2 DATE 13 Dec 1965
-1 OCCU Homemaker
-0 @I259@ INDI
-1 NAME Jeanna /Larson/
-2 GIVN Jeanna
-2 SURN Larson
-1 OCCU Homemaker
-0 @I310@ INDI
-1 NAME Robert Ellison /Lynn/
-2 GIVN Robert Ellison
-2 SURN Lynn
-1 SEX M
-1 BIRT
-2 DATE 19 Jul 1934
-0 @I170@ INDI
-1 NAME Christopher John /Hegel/
-2 GIVN Christopher John
-2 SURN Hegel
-1 BIRT
-2 DATE 24 Jun 1991
-0 @I398@ INDI
-1 NAME Ralph Clifford /Brown/
-2 GIVN Ralph Clifford
-2 SURN Brown
-1 SEX M
-0 @I171@ INDI
-1 NAME Jonathan /Hegel/
-2 GIVN Jonathan
-2 SURN Hegel
-1 BIRT
-2 DATE 13 Oct 1994
-0 @I154@ INDI
-1 NAME Janette /Leader/
-2 GIVN Janette
-2 SURN Leader
-1 SEX F
-1 BIRT
-2 DATE 7 Aug 1942
-1 OCCU Homemaker
-1 FACT Jeanette's son from a previous mariage.
-0 @I274@ INDI
-1 NAME Everett Casper /Winterboer/
-2 GIVN Everett Casper
-2 SURN Winterboer
-1 NAME Kasper?
-2 TYPE aka
-2 GIVN Kasper?
-1 SEX M
-1 BIRT
-2 DATE 15 Dec 1924
-0 @I298@ INDI
-1 NAME Glennda /Larsen/
-2 GIVN Glennda
-2 SURN Larsen
-1 NAME Glenda?
-2 TYPE aka
-2 GIVN Glenda?
-1 NAME Larson,?
-2 TYPE aka
-2 GIVN Larson,?
-1 SEX F
-1 OCCU Homemaker
-0 @I155@ INDI
-1 NAME Mark Dean /Bailey/
-2 GIVN Mark Dean
-2 SURN Bailey
-1 BIRT
-2 DATE 16 Dec 1966
-0 @I156@ INDI
-1 NAME Michelle Ann /Bailey/
-2 GIVN Michelle Ann
-2 SURN Bailey
-1 BIRT
-2 DATE 14 Jan 1969
-0 @I172@ INDI
-1 NAME Patricia Lee /Kosta/
-2 GIVN Patricia Lee
-2 SURN Kosta
-1 SEX F
-1 BIRT
-2 DATE 1 Feb 1946
-1 OCCU Homemaker
-0 @I300@ INDI
-1 NAME James Wendell /Webster/
-2 GIVN James Wendell
-2 SURN Webster
-0 @I162@ INDI
-1 NAME Mary Jo /Kosta/
-2 GIVN Mary Jo
-2 SURN Kosta
-1 SEX F
-1 BIRT
-2 DATE 11 May 1943
-1 OCCU Homemaker
-0 @I184@ INDI
-1 NAME Michael Jon /Chatterton/
-2 GIVN Michael Jon
-2 SURN Chatterton
-1 SEX M
-1 BIRT
-2 DATE 8 Oct 1943
-0 @I301@ INDI
-1 NAME Benjimine /Webster/
-2 GIVN Benjimine
-2 SURN Webster
-0 @I188@ INDI
-1 NAME Mark Kevin /Chatterton/
-2 GIVN Mark Kevin
-2 SURN Chatterton
-1 SEX M
-1 BIRT
-2 DATE 26 Apr 1947
-0 @I299@ INDI
-1 NAME Melissa Sue /Webster/
-2 GIVN Melissa Sue
-2 SURN Webster
-1 BIRT
-2 DATE 11 May 1980
-1 DEAT
-2 DATE 11 May 1980
-0 @I376@ INDI
-1 NAME Stella Mae /Lawson/
-2 GIVN Stella Mae
-2 SURN Lawson
-1 SEX F
-0 @I377@ INDI
-1 NAME Ronald /Keeney/
-2 GIVN Ronald
-2 SURN Keeney
-1 SEX M
-0 @I375@ INDI
-1 NAME Arthur E /Olson/
-2 GIVN Arthur E
-2 SURN Olson
-1 SEX M
-0 @I378@ INDI
-1 NAME Carol /Kinney/
-2 GIVN Carol
-2 SURN Kinney
-1 SEX F
-0 @I165@ INDI
-1 NAME Jeffery /Madsen/
-2 GIVN Jeffery
-2 SURN Madsen
-1 SEX M
-1 BIRT
-2 DATE 1963
-0 @I19@ INDI
-1 NAME Daniel George /Scipark/
-2 GIVN Daniel George
-2 SURN Scipark
-1 SEX M
-0 @I288@ INDI
-1 NAME Suzanne Marie /Winterboer/
-2 GIVN Suzanne Marie
-2 SURN Winterboer
-1 SEX F
-1 BIRT
-2 DATE 10 Sep 1959
-2 PLAC , Iowa City, IA, USA
-1 BAPM
-2 PLAC United Methodist Church, Peterson, IA, USA
-1 CONF
-2 PLAC United Methodist, Peterson, IA, USA
-1 GRAD
-2 DATE May 1978
-2 PLAC Sioux Valley HS, Linn Grove, IA, USA
-1 OCCU BSI - Laborer
-1 FACT United Methodist
-1 FACT Cow & Denim Day Collector.
-0 @I281@ INDI
-1 NAME Jonathon Everett /Winterboer/
-2 GIVN Jonathon Everett
-2 SURN Winterboer
-1 NAME Jonathan?
-2 TYPE aka
-2 GIVN Jonathan?
-1 SEX M
-1 BIRT
-2 DATE 15 Aug 1955
-1 GRAD
-2 PLAC Sioux Valley HS, Linn Grove, IA, USA
-1 OCCU Heavy equipment operator.
-0 @I284@ INDI
-1 NAME Donna Mae /Winterboer/
-2 GIVN Donna Mae
-2 SURN Winterboer
-1 SEX F
-1 BIRT
-2 DATE 26 Jan 1958
-2 PLAC , Spencer, IA, USA
-1 BAPM
-2 DATE 4 Aug 1968
-2 PLAC Maple Grove Church, Sutherland, IA, USA
-1 GRAD
-2 DATE May 1977
-2 PLAC Sioux Valley HS, Linn Grove, IA, USA
-1 FACT Sacred Heart Catholic
-1 FACT Hunting, Fishing & Camping.
-0 @I275@ INDI
-1 NAME Wanda Jean /Winterboer/
-2 GIVN Wanda Jean
-2 SURN Winterboer
-1 BIRT
-2 DATE 16 Dec 1952
-1 OCCU Homemaker
-0 @I277@ INDI
-1 NAME JoAnn Kay /Winterboer/
-2 GIVN JoAnn Kay
-2 SURN Winterboer
-1 SEX F
-1 BIRT
-2 DATE 12 Mar 1954
-2 PLAC , Spencer, IA, USA
-1 BAPM
-2 DATE 1980
-2 PLAC United Methodist Church, Peterson, IA, USA
-1 CONF
-2 DATE 1969
-2 PLAC United Methodist, Peterson, IA, USA
-1 GRAD
-2 DATE May 1972
-2 PLAC Sioux Valley HS, Linn Grove, IA, USA
-1 OCCU Homemaker, Bank Loan Secretary, Real Estate Agent & Life Insurance Agent.
-1 FACT JoAnn attended Iowa Lakes Community College studing both Business & Realty.
-1 FACT JoAnn is a member of United Methodist in Peterson.  She was Sunday School Supt for many years, is Parish Treasurer & is active in Esther Circle.  Paul is a member of Trinity Lutheran Church in Linn Grove.
-1 FACT JoAnn has been a City Council member for 6 yrs. She organized a Bike-A-Thon & worked with both the Heart Association Fund Drive & the Booster Club. Paul is active in the Little Sioux Country Club, the men's Jaycees (past President) & a C.R.U.
-2 CONC member.
-1 FACT They both enjoy watching their daughter participate in sport events. They like shopping, canoeing, swimming & reading.  Paul enjoys his golf.
-1 FACT Paul played an active role in bringing Cable TV to Peterson. He is also active in raising funds for the C.R.U. ambulance.
-0 @I399@ INDI
-1 NAME Arlene Maxine /Kracht/
-2 GIVN Arlene Maxine
-2 SURN Kracht
-1 SEX F
-0 @I146@ INDI
-1 NAME Patricia /Iverson/
-2 GIVN Patricia
-2 SURN Iverson
-1 SEX F
-1 BIRT
-2 DATE 17 Dec 1934
-1 OCCU Homemaker
-1 FACT * Patricia's daughter from a previous marriage.
-0 @I169@ INDI
-1 NAME Renee /Sands/
-2 GIVN Renee
-2 SURN Sands
-1 SEX F
-1 BIRT
-2 DATE 23 Nov 1966
-1 OCCU Homemaker
-0 @I294@ INDI
-1 NAME Diane Aledia /Muckler/
-2 GIVN Diane Aledia
-2 SURN Muckler
-1 SEX F
-1 BIRT
-2 DATE 13 Feb 1937
-1 OCCU Homemaker
-1 FACT Wendell attended Buena Vista College in Storm Lake, IA. for two years.
-1 FACT They attended the Church of God at Maple Grove west of Royal, IA.
-1 FACT He served in the US Army from 13 Sep 1951 to Sep 1953.
-1 FACT Wendell belonged to the 4-H & FFA.  He is now a member of the American Legion.
-0 @I241@ INDI
-1 NAME Hila Dorothea /Plagman/
-2 GIVN Hila Dorothea
-2 SURN Plagman
-1 SEX F
-1 BIRT
-2 DATE 5 Sep 1916
-1 OCCU Homemaker
-0 @I303@ INDI
-1 NAME Mary /Jakopac/
-2 GIVN Mary
-2 SURN Jakopac
-1 SEX F
-1 BIRT
-2 DATE 24 Jun 1924
-2 PLAC , Sykesville, PA, USA
-1 OCCU Homemaker
-1 FACT Wendell attended Buena Vista College in Storm Lake, IA. for two years.
-1 FACT He served in the US Army from 13 Sep 1951 to Sep 1953.
-1 FACT Wendell belonged to the 4-H & FFA.  He is now a member of the American Legion.
-1 FACT * Mary's children from a previous marriage.
-0 @I148@ INDI
-1 NAME Richard Eugene /Bailey/
-2 GIVN Richard Eugene
-2 SURN Bailey
-1 BIRT
-2 DATE 9 Sep 1956
-0 @I149@ INDI
-1 NAME Michael Dean /Bailey/
-2 GIVN Michael Dean
-2 SURN Bailey
-1 BIRT
-2 DATE 30 Jul 1958
-0 @I407@ INDI
-1 NAME Susan Marie /Winterboer/
-2 GIVN Susan Marie
-2 SURN Winterboer
-1 SEX F
-0 @I150@ INDI
-1 NAME William Martin /Bailey/
-2 GIVN William Martin
-2 SURN Bailey
-1 BIRT
-2 DATE 21 May 1963
-1 DEAT
-2 DATE 14 May 1964
-0 @I151@ INDI
-1 NAME Lynn Annette /Bailey/
-2 GIVN Lynn Annette
-2 SURN Bailey
-1 BIRT
-2 DATE 13 Jul 1965
-0 @I167@ INDI
-1 NAME Nicholas Dean /Madsen/
-2 GIVN Nicholas Dean
-2 SURN Madsen
-1 BIRT
-2 DATE 18 May 1991
-0 @I166@ INDI
-1 NAME Amanda Rose /Madsen/
-2 GIVN Amanda Rose
-2 SURN Madsen
-1 BIRT
-2 DATE 22 Jan 1987
-0 @I365@ INDI
-1 NAME /Carpenter/
-2 SURN Carpenter
-1 SEX M
-0 @I401@ INDI
-1 NAME Doris Mae /Blanchard/
-2 GIVN Doris Mae
-2 SURN Blanchard
-1 SEX F
-0 @I46@ INDI
-1 NAME Rodney Steven /Havelion/
-2 GIVN Rodney Steven
-2 SURN Havelion
-1 SEX M
-1 BIRT
-2 DATE 12 Feb 1966
-0 @I187@ INDI
-1 NAME Brian Allen /Chatterton/
-2 GIVN Brian Allen
-2 SURN Chatterton
-1 BIRT
-2 DATE 1 Jun 1980
-0 @I267@ INDI
-1 NAME Marilyn Joan /Paine/
-2 GIVN Marilyn Joan
-2 SURN Paine
-1 NAME Marlyn?
-2 TYPE aka
-2 GIVN Marlyn?
-1 SEX F
-1 BIRT
-2 DATE 16 Jun 1932
-1 DEAT
-2 DATE 29 Mar 1987
-1 OCCU Homemaker
-0 @I186@ INDI
-1 NAME Larin Liana /Chatterton/
-2 GIVN Larin Liana
-2 SURN Chatterton
-1 BIRT
-2 DATE 15 Apr 1973
-0 @I44@ INDI
-1 NAME Stephanie Lee /Schloemer/
-2 GIVN Stephanie Lee
-2 SURN Schloemer
-1 BIRT
-2 DATE 9 Mar 1984
-0 @I77@ INDI
-1 NAME Ryan Joseph /Lane/
-2 GIVN Ryan Joseph
-2 SURN Lane
-1 BIRT
-2 DATE 25 Oct 1978
-0 @I78@ INDI
-1 NAME Ross Douglas /Lane/
-2 GIVN Ross Douglas
-2 SURN Lane
-1 BIRT
-2 DATE 28 Mar 1980
-0 @I337@ INDI
-1 NAME Deborah Erdine /Schoefer/
-2 GIVN Deborah Erdine
-2 SURN Schoefer
-1 SEX F
-1 BIRT
-2 DATE 2 Dec 1953
-1 OCCU Homemaker
-0 @I48@ INDI
-1 NAME Morgan D /Havelion/
-2 GIVN Morgan D
-2 SURN Havelion
-1 BIRT
-2 DATE 7 Sep 1992
-0 @I47@ INDI
-1 NAME Jayden Elizabeth /Havelion/
-2 GIVN Jayden Elizabeth
-2 SURN Havelion
-1 BIRT
-2 DATE 2 Jan 1989
-0 @I260@ INDI
-1 NAME Judy Jo /Joenks/
-2 GIVN Judy Jo
-2 SURN Joenks
-1 SEX F
-1 BIRT
-2 DATE 6 Jul 1946
-1 OCCU Homemaker
-0 @I185@ INDI
-1 NAME Lauri Jean /Smith/
-2 GIVN Lauri Jean
-2 SURN Smith
-1 SEX F
-1 BIRT
-2 DATE 28 Jan 1950
-1 OCCU Homemaker
-0 @I242@ INDI
-1 NAME Ronnie Eugene /Joenks/
-2 GIVN Ronnie Eugene
-2 SURN Joenks
-1 SEX M
-1 BIRT
-2 DATE 23 Nov 1940
-0 @I64@ INDI
-1 NAME Shawn Mae /Hohenstein/
-2 GIVN Shawn Mae
-2 SURN Hohenstein
-1 OCCU Homemaker
-0 @I153@ INDI
-1 NAME James Dean /Bailey/
-2 GIVN James Dean
-2 SURN Bailey
-1 SEX M
-1 BIRT
-2 DATE 7 Feb 1934
-1 FACT Jeanette's son from a previous mariage.
-0 @I152@ INDI
-1 NAME Barbara June /Bailey/
-2 GIVN Barbara June
-2 SURN Bailey
-1 BIRT
-2 DATE 2 Nov 1927
-1 DEAT
-2 DATE 19 Mar 1928
-0 @I145@ INDI
-1 NAME Cecil Eugene /Bailey/
-2 GIVN Cecil Eugene
-2 SURN Bailey
-1 SEX M
-1 BIRT
-2 DATE 23 Feb 1926
-1 FACT * Patricia's daughter from a previous marriage.
-0 @I334@ INDI
-1 NAME Shirley Ann /Mohn/
-2 GIVN Shirley Ann
-2 SURN Mohn
-1 SEX F
-1 BIRT
-2 DATE 24 Dec 1932
-1 OCCU Homemaker
-0 @I42@ INDI
-1 NAME Todd Anthony /Schloemer/
-2 GIVN Todd Anthony
-2 SURN Schloemer
-1 SEX M
-1 BIRT
-2 DATE 23 Jan 1959
-0 @I396@ INDI
-1 NAME Leo /Struve/
-2 GIVN Leo
-2 SURN Struve
-1 SEX M
-0 @I40@ INDI
-1 NAME Carly Nicole /Niechel/
-2 GIVN Carly Nicole
-2 SURN Niechel
-1 BIRT
-2 DATE 1 May 1984
-0 @I39@ INDI
-1 NAME Haley Jo /Niechel/
-2 GIVN Haley Jo
-2 SURN Niechel
-1 BIRT
-2 DATE 12 Sep 1982
-0 @I144@ INDI
-1 NAME Dwight Irvin /Bailey/
-2 GIVN Dwight Irvin
-2 SURN Bailey
-1 SEX M
-1 BIRT
-2 DATE 25 Nov 1899
-1 DEAT
-2 DATE 28 May 1990
-0 @I43@ INDI
-1 NAME Jacob Todd /Schloemer/
-2 GIVN Jacob Todd
-2 SURN Schloemer
-1 BIRT
-2 DATE 29 Sep 1981
-0 @I270@ INDI
-1 NAME Mark Samuel /Joenks/
-2 GIVN Mark Samuel
-2 SURN Joenks
-1 BIRT
-2 DATE 10 May 1972
-0 @I268@ INDI
-1 NAME Melva Joy /Joenks/
-2 GIVN Melva Joy
-2 SURN Joenks
-1 BIRT
-2 DATE 24 Nov 1967
-1 DEAT
-2 DATE 24 Nov 1967
-0 @I190@ INDI
-1 NAME Juanita /Hale/
-2 GIVN Juanita
-2 SURN Hale
-1 SEX F
-1 BIRT
-2 DATE 14 Nov 1949
-1 OCCU Homemaker
-0 @I269@ INDI
-1 NAME Marvin Charles /Joenks/
-2 GIVN Marvin Charles
-2 SURN Joenks
-1 BIRT
-2 DATE 24 Nov 1968
-0 @I400@ INDI
-1 NAME Alfred Alex /Schultz/
-2 GIVN Alfred Alex
-2 SURN Schultz
-1 SEX M
-0 @I141@ INDI
-1 NAME Margeurite /Batcheler/
-2 GIVN Margeurite
-2 SURN Batcheler
-1 BIRT
-2 DATE Feb 1937
-1 OCCU Homemaker
-0 @I21@ INDI
-1 NAME Levi Mark /Scipark/
-2 GIVN Levi Mark
-2 SURN Scipark
-1 BIRT
-2 DATE 4 Mar 1983
-0 @I140@ INDI
-1 NAME Carolyn /Batcheler/
-2 GIVN Carolyn
-2 SURN Batcheler
-1 BIRT
-2 DATE Jun 1935
-0 @I20@ INDI
-1 NAME Jess Edward /Scipark/
-2 GIVN Jess Edward
-2 SURN Scipark
-1 BIRT
-2 DATE 3 Nov 1979
-0 @I189@ INDI
-1 NAME Cathryn /Fowler/
-2 GIVN Cathryn
-2 SURN Fowler
-1 SEX F
-0 @I397@ INDI
-1 NAME Lena /Westphal/
-2 GIVN Lena
-2 SURN Westphal
-1 SEX F
-0 @I392@ INDI
-1 NAME Bob /Syndergaard/
-2 GIVN Bob
-2 SURN Syndergaard
-1 SEX M
-0 @I393@ INDI
-1 NAME Bernie /Strueffert/
-2 GIVN Bernie
-2 SURN Strueffert
-1 SEX F
-0 @I173@ INDI
-1 NAME Gary D /Zinn/
-2 GIVN Gary D
-2 SURN Zinn
-1 SEX M
-1 BIRT
-2 DATE 6 Oct 1943
-0 @I175@ INDI
-1 NAME Robert /Bedinger/
-2 GIVN Robert
-2 SURN Bedinger
-1 SEX M
-0 @I161@ INDI
-1 NAME Theodore Rhinehold /Kosta/
-2 GIVN Theodore Rhinehold
-2 SURN Kosta
-1 SEX M
-1 BIRT
-2 DATE 5 May 1911
-1 OCCU Farmer
-0 @I183@ INDI
-1 NAME Dwight Allen /Chatterton/
-2 GIVN Dwight Allen
-2 SURN Chatterton
-1 SEX M
-1 BIRT
-2 DATE 29 Nov 1913
-2 PLAC , Des Moines, IA, USA
-1 GRAD
-2 DATE May 1931
-2 PLAC Peterson HS, Peterson, IA, USA
-1 DEAT
-2 DATE 21 Nov 1982
-1 OCCU Flight Engineer for Lockheed Aircraft, Teacher & helped deliver planes to many foreign countries.
-1 FACT Ralph attended Iowa State College in Ames, Iowa for a short while.
-1 FACT Dwight loved flying and eventually earned his commercial pilot's license.
-0 @I402@ INDI
-1 NAME Burris /Patrick/
-2 GIVN Burris
-2 SURN Patrick
-1 SEX M
-0 @I403@ INDI
-1 NAME Alice //
-2 GIVN Alice
-1 SEX F
-0 @I159@ INDI
-1 NAME Keith /Culwell/
-2 GIVN Keith
-2 SURN Culwell
-1 BIRT
-2 DATE 22 Feb 1912
-1 DEAT
-2 DATE 27 Mar 1989
-0 @I323@ INDI
-1 NAME John Harold III /Blower/
-2 GIVN John Harold III
-2 SURN Blower
-1 SEX M
-1 BIRT
-2 DATE 15 Feb 1962
-0 @I72@ INDI
-1 NAME Connie Lee /Lane/
-2 GIVN Connie Lee
-2 SURN Lane
-1 SEX F
-1 BIRT
-2 DATE 19 Mar 1951
-1 OCCU Homemaker
-0 @I132@ INDI
-1 NAME Charles Donald /Hughes/
-2 GIVN Charles Donald
-2 SURN Hughes
-1 SEX M
-1 BIRT
-2 DATE 4 Feb 1958
-2 PLAC Cresco Hosp. Cresco, IA, USA
-1 DEAT
-2 DATE 11 Oct 1987
-2 PLAC , Lime Springs, IA, USA
-1 OCCU Feed Truck Driver.
-0 @I127@ INDI
-1 NAME Bruce Andrew /Finney/
-2 GIVN Bruce Andrew
-2 SURN Finney
-1 SEX M
-1 BIRT
-2 DATE 25 Jun 1959
-2 PLAC , Toronto, Canada
-1 OCCU Detective for the Orlando Police Department in Orlando, FL.
-1 FACT Barbara is attending a Nurses Traing School.
-0 @I319@ INDI
-1 NAME Celene Marie /Minguet/
-2 GIVN Celene Marie
-2 SURN Minguet
-1 BIRT
-2 DATE 28 Mar 1985
-0 @I320@ INDI
-1 NAME Nicole Ann /Minguet/
-2 GIVN Nicole Ann
-2 SURN Minguet
-1 BIRT
-2 DATE 23 Jun 1987
-0 @I321@ INDI
-1 NAME Christopher Marc /Minguet/
-2 GIVN Christopher Marc
-2 SURN Minguet
-1 BIRT
-2 DATE 8 Jan 1990
+1 OCCU Groceryman, Cookie & Candy Salesman.
+1 FACT Active members of the Presbyterian Church in Lake Park, IA.  Donald is a Deacon in the church.
+1 FACT Donald served in the US Navy as shore patrol during World War II, achieving a rank of Boatmans Mate 3rd class.
+1 FACT Donald is an active member of the American Legion & Betty is in the auxillary.
+1 FACT Betty loves to sew & knit, they both like to travel.
+1 FAMS @F24@
+1 FAMC @F23@
 0 @I71@ INDI
 1 NAME Betty Joyce /Arneson/
 2 GIVN Betty Joyce
 2 SURN Arneson
+1 REFN CustomGenCode:ACAA1
 1 SEX F
 1 BIRT
 2 DATE 10 Sep 1929
@@ -2771,459 +778,418 @@
 1 FACT Donald served in the US Navy as shore patrol during World War II, achieving a rank of Boatmans Mate 3rd class.
 1 FACT Donald is an active member of the American Legion & Betty is in the auxillary.
 1 FACT Betty loves to sew & knit, they both like to travel.
-0 @I131@ INDI
-1 NAME Stephen Wendell /Hughes/
-2 GIVN Stephen Wendell
-2 SURN Hughes
-1 SEX M
-1 BIRT
-2 DATE 24 Oct 1929
-2 PLAC , Lime Springs, IA, USA
-1 OCCU A mechanic for International Harvester, a Rural Mail Carrier & a Farm Bureau Insurance Salesman.
-0 @I336@ INDI
-1 NAME Steven Charles /Sanders/
-2 GIVN Steven Charles
-2 SURN Sanders
-1 SEX M
-1 BIRT
-2 DATE 15 Apr 1952
-0 @I340@ INDI
-1 NAME Julia Kay /Sanders/
-2 GIVN Julia Kay
-2 SURN Sanders
-1 NAME Julie?
-2 TYPE aka
-2 GIVN Julie?
+1 FAMS @F24@
+1 FAMC @F127@
+0 @I72@ INDI
+1 NAME Connie Lee /Lane/
+2 GIVN Connie Lee
+2 SURN Lane
+1 REFN CustomGenCode:ACAAA
 1 SEX F
 1 BIRT
-2 DATE 14 Oct 1955
+2 DATE 19 Mar 1951
 1 OCCU Homemaker
-0 @I123@ INDI
-1 NAME Barbara Jean /Finney/
-2 GIVN Barbara Jean
-2 SURN Finney
+1 FAMS @F25@
+1 FAMC @F24@
+0 @I73@ INDI
+1 NAME Mark William /Robinson/
+2 GIVN Mark William
+2 SURN Robinson
+1 REFN CustomGenCode:ACAAA1
+1 SEX M
+1 BIRT
+2 DATE 4 May 1951
+1 FAMS @F25@
+0 @I74@ INDI
+1 NAME Erica Sue /Robinson/
+2 GIVN Erica Sue
+2 SURN Robinson
+1 REFN CustomGenCode:ACAAAA
+1 BIRT
+2 DATE 2 Apr 1977
+2 PLAC , Price, UT, USA
+1 FAMC @F25@
+0 @I75@ INDI
+1 NAME Danny Dean /Lane/
+2 GIVN Danny Dean
+2 SURN Lane
+1 REFN CustomGenCode:ACAAB
+1 SEX M
+1 BIRT
+2 DATE 31 Jan 1953
+1 FAMS @F26@
+1 FAMS @F27@
+1 FAMC @F24@
+0 @I76@ INDI
+1 NAME Debbie Ann /Edwards/
+2 GIVN Debbie Ann
+2 SURN Edwards
+1 REFN CustomGenCode:ACAAB1
 1 SEX F
 1 BIRT
-2 DATE 18 Sep 1956
-2 PLAC , Toronto, Canada
+2 DATE 2 Dec 1954
+1 FAMS @F26@
+0 @I77@ INDI
+1 NAME Ryan Joseph /Lane/
+2 GIVN Ryan Joseph
+2 SURN Lane
+1 REFN CustomGenCode:ACAAB1A
+1 BIRT
+2 DATE 25 Oct 1978
+1 FAMC @F26@
+0 @I78@ INDI
+1 NAME Ross Douglas /Lane/
+2 GIVN Ross Douglas
+2 SURN Lane
+1 REFN CustomGenCode:ACAAB1B
+1 BIRT
+2 DATE 28 Mar 1980
+1 FAMC @F26@
+0 @I79@ INDI
+1 NAME Myra /Day/
+2 GIVN Myra
+2 SURN Day
+1 REFN CustomGenCode:ACAAB2
+1 SEX F
+1 BIRT
+2 DATE 7 Feb 1949
 1 OCCU Homemaker
-0 @I119@ INDI
-1 NAME Brenda Renee /Klinefelter/
-2 GIVN Brenda Renee
-2 SURN Klinefelter
-1 BIRT
-2 DATE 30 Jan 1971
-2 PLAC Spencer Municipal Hosp. Spencer, IA, USA
-1 BAPM
-2 DATE Feb 1971
-2 PLAC Congregational Ch. Peterson, IA, USA
-1 CONF
-2 DATE Apr 1982
-2 PLAC Congregational Church, Peterson, IA, USA
-1 GRAD
-2 DATE May 1986
-2 PLAC Sioux Valley HS, Linn Grove, IA, USA
-1 OCCU Homemaker. She also works with computers.
-1 FACT They both attended college at Augustana; Brenda from 1986 to 1991 majoring in History & Kevin from 1986 to 1991 as a computer programer analist.
-1 FACT They belong to the Lutheran Church.
-1 FACT They enjoy their computers, music & reading.  They raise hamsters.
-1 FACT * Kevin was adopted by Keeneys.
-0 @I55@ INDI
-1 NAME Shane Robert /Anderson/
-2 GIVN Shane Robert
-2 SURN Anderson
-1 SEX M
-1 BIRT
-2 DATE 20 Aug 1960
-0 @I114@ INDI
-1 NAME Blair Rolland /Klinefelter/
-2 GIVN Blair Rolland
-2 SURN Klinefelter
-1 SEX M
-1 BIRT
-2 DATE 11 Jul 1960
-2 PLAC Spencer Municipal Hosp. Spencer, IA, USA
-1 BAPM
-2 DATE Aug 1960
-2 PLAC Congregational Ch. Peterson, IA, USA
-1 CONF
-2 DATE Apr 1972
-2 PLAC Congregational Church, Peterson, IA, USA
-1 GRAD
-2 DATE May 1978
-2 PLAC Sioux Valley HS, Linn Grove, IA, USA
-1 OCCU He works in the Radiology Dept. at the Iowa City University Hospital.
-1 FACT They both attended the University at Iowa City, IA; Blair from 1978 to 1983 in Computer science & Economics & Mary from 1978 to 1982 in Teaching.
-1 FACT Blair belongs to the Congregational Church & Mary is active in the Catholic Church.
-1 FACT Blair likes sports & music.  They both enjoy woodworking.
-1 FACT * They were married early in Peoria due to her Father having a severe stroke.  Later they had a second wedding in the Catholic Church in Iowa City, IA.
-0 @I113@ INDI
-1 NAME Bradley Ray /Klinefelter/
-2 GIVN Bradley Ray
-2 SURN Klinefelter
-1 BIRT
-2 DATE 29 Jul 1957
-2 PLAC Spencer Municipal Hosp. Spencer, IA, USA
-1 BAPM
-2 DATE Aug 1957
-2 PLAC Congregational Ch. Peterson, IA, USA
-1 CONF
-2 DATE Apr 1968
-2 PLAC Congregational Church, Peterson, IA, USA
-1 GRAD
-2 DATE May 1976
-2 PLAC Sioux Valley HS, Linn Grove, IA, USA
-1 OCCU Turkey Farm Manager.  Works for Wells Blue Bunny in LeMars, IA
-1 FACT Bradley attended the Radio School in Davenport, IA for 9 months to become a Disc Jockey.
-1 FACT He is a member of the Congregational Church in Peterson, IA.
-1 FACT Brad spent 4 years in the Marine Corp, achie4ving a rank of E3.
-1 FACT He enjoys any kind of auto racing & music concerts.
-0 @I325@ INDI
-1 NAME Jonathan William /Blower/
-2 GIVN Jonathan William
-2 SURN Blower
-1 BIRT
-2 DATE 30 Nov 1984
-0 @I335@ INDI
-1 NAME Charles Cap /Sanders/
-2 GIVN Charles Cap
-2 SURN Sanders
-1 SEX M
-1 BIRT
-2 DATE 31 Mar 1931
-0 @I326@ INDI
-1 NAME Elliot Michael /Blower/
-2 GIVN Elliot Michael
-2 SURN Blower
-1 BIRT
-2 DATE 29 Feb 1992
-0 @I372@ INDI
-1 NAME Viola /Fry/
-2 GIVN Viola
-2 SURN Fry
-1 SEX F
-0 @I327@ INDI
-1 NAME Amanda Marie /Blower/
-2 GIVN Amanda Marie
-2 SURN Blower
-1 BIRT
-2 DATE 15 Jul 1993
-0 @I297@ INDI
-1 NAME Terry Lee /Webster/
-2 GIVN Terry Lee
-2 SURN Webster
-1 SEX M
-1 BIRT
-2 DATE 4 Apr 1958
-2 PLAC , Spencer, IA, USA
-1 BAPM
-2 DATE Aug 1958
-2 PLAC Congregational Ch. Spencer, IA, USA
-1 GRAD
-2 DATE Jun 1976
-2 PLAC Spencer HS, Spencer, IA, USA
-0 @I302@ INDI
-1 NAME Calvin Dean /Webster/
-2 GIVN Calvin Dean
-2 SURN Webster
-1 BIRT
-2 DATE 20 Mar 1959
-0 @I324@ INDI
-1 NAME Andrew Ellison /Blower/
-2 GIVN Andrew Ellison
-2 SURN Blower
-1 BIRT
-2 DATE 17 Sep 1983
-0 @I122@ INDI
-1 NAME Raymond R /Finney/
-2 GIVN Raymond R
-2 SURN Finney
-1 SEX M
-1 BIRT
-2 DATE 28 Jul 1931
-0 @I370@ INDI
-1 NAME Henry /Berg/
-2 GIVN Henry
-2 SURN Berg
-1 SEX M
-0 @I295@ INDI
-1 NAME Stanley Edward /Webster/
-2 GIVN Stanley Edward
-2 SURN Webster
-1 BIRT
-2 DATE 10 Feb 1957
-2 PLAC , Spencer, IA, USA
-1 BAPM
-2 DATE Aug 1958
-2 PLAC Congregational Ch. Spencer, IA, USA
-1 GRAD
-2 DATE Jun 1975
-2 PLAC Spencer HS, Spencer, IA, USA
-0 @I371@ INDI
-1 NAME Willmar Linden /Arneson/
-2 GIVN Willmar Linden
-2 SURN Arneson
-1 SEX M
-0 @I139@ INDI
-1 NAME Kathryn /Kusick/
-2 GIVN Kathryn
-2 SURN Kusick
-1 SEX F
-1 BIRT
-2 DATE 18 Feb 1914
-1 DEAT
-2 DATE 8 Jan 1995
-1 OCCU Homemaker
-0 @I374@ INDI
-1 NAME Maryann /Denning/
-2 GIVN Maryann
-2 SURN Denning
-1 SEX F
+1 FACT Myra's child from a previous marriage.
+1 FAMS @F27@
+1 FAMS @F148@
 0 @I80@ INDI
 1 NAME Jason Robert /Day/
 2 GIVN Jason Robert
 2 SURN Day
+1 REFN CustomGenCode:ACAAB2a
 1 BIRT
 2 DATE 30 Aug 1972
-0 @I105@ INDI
-1 NAME Cheryl Rae /Lane/
-2 GIVN Cheryl Rae
+0 @I81@ INDI
+1 NAME Annette Louise /Lane/
+2 GIVN Annette Louise
 2 SURN Lane
+1 REFN CustomGenCode:ACAAC
 1 SEX F
 1 BIRT
-2 DATE 31 Dec 1960
+2 DATE 10 Dec 1955
 1 OCCU Homemaker
-0 @I342@ INDI
-1 NAME Chad Avery /Broussand/
-2 GIVN Chad Avery
-2 SURN Broussand
-1 BIRT
-2 DATE 18 Sep 1988
-0 @I373@ INDI
-1 NAME David C /Klinefelter/
-2 GIVN David C
-2 SURN Klinefelter
+1 FACT 0
+1 FAMS @F28@
+1 FAMC @F24@
+0 @I82@ INDI
+1 NAME Terry Dean /Bergendahl/
+2 GIVN Terry Dean
+2 SURN Bergendahl
+1 REFN CustomGenCode:ACAAC1
 1 SEX M
-0 @I250@ INDI
-1 NAME Nicole Lynn /Joenks/
-2 GIVN Nicole Lynn
-2 SURN Joenks
 1 BIRT
-2 DATE 23 Jun 1986
-0 @I406@ INDI
-1 NAME Fred Augustus /Lane/
-2 GIVN Fred Augustus
+2 DATE 18 Mar 1955
+1 FACT 0
+1 FAMS @F28@
+0 @I83@ INDI
+1 NAME Michael Dean /Bergendahl/
+2 GIVN Michael Dean
+2 SURN Bergendahl
+1 REFN CustomGenCode:ACAACA
+1 BIRT
+2 DATE 21 Aug 1975
+1 FAMC @F28@
+0 @I84@ INDI
+1 NAME Toni Lynn /Bergendahl/
+2 GIVN Toni Lynn
+2 SURN Bergendahl
+1 REFN CustomGenCode:ACAACB
+1 BIRT
+2 DATE 10 Apr 1977
+1 FAMC @F28@
+0 @I85@ INDI
+1 NAME Cory Allen /Bergendahl/
+2 GIVN Cory Allen
+2 SURN Bergendahl
+1 REFN CustomGenCode:ACAACC
+1 BIRT
+2 DATE 27 Jun 1978
+1 FAMC @F28@
+0 @I86@ INDI
+1 NAME Jean Elizabeth /Lane/
+2 GIVN Jean Elizabeth
 2 SURN Lane
-1 SEX M
-0 @I100@ INDI
-1 NAME Penny Ann /Lane/
-2 GIVN Penny Ann
-2 SURN Lane
+1 REFN CustomGenCode:ACAAD
 1 SEX F
 1 BIRT
-2 DATE 1 May 1956
+2 DATE 19 Mar 1959
 1 OCCU Homemaker
-0 @I341@ INDI
-1 NAME Robert Joseph /Broussand/
-2 GIVN Robert Joseph
-2 SURN Broussand
+1 FAMS @F29@
+1 FAMC @F24@
+0 @I87@ INDI
+1 NAME Russell Warren /Mesner/
+2 GIVN Russell Warren
+2 SURN Mesner
+1 REFN CustomGenCode:ACAAD1
 1 SEX M
 1 BIRT
-2 DATE 11 May 1944
-0 @I96@ INDI
-1 NAME Terry Lee /Lane/
-2 GIVN Terry Lee
-2 SURN Lane
-1 SEX M
+2 DATE 26 Nov 1955
+1 FAMS @F29@
+0 @I88@ INDI
+1 NAME Amy Elizabeth /Mesner/
+2 GIVN Amy Elizabeth
+2 SURN Mesner
+1 REFN CustomGenCode:ACAADA
 1 BIRT
-2 DATE 19 Aug 1953
-1 FACT Mary Ann's child from a previous marriage
-0 @I249@ INDI
-1 NAME Bonnie Lee /Joenks/
-2 GIVN Bonnie Lee
-2 SURN Joenks
+2 DATE 19 Sep 1979
+1 FAMC @F29@
+0 @I89@ INDI
+1 NAME Nisa Nicole /Mesner/
+2 GIVN Nisa Nicole
+2 SURN Mesner
+1 REFN CustomGenCode:ACAADB
 1 BIRT
-2 DATE 8 Oct 1982
-0 @I387@ INDI
-1 NAME James Everett /Thompson/
-2 GIVN James Everett
-2 SURN Thompson
-1 SEX M
+2 DATE 7 Nov 1981
+1 FAMC @F29@
 0 @I90@ INDI
 1 NAME Sally Jo /Lane/
 2 GIVN Sally Jo
 2 SURN Lane
+1 REFN CustomGenCode:ACAAE
 1 BIRT
 2 DATE 25 Jul 1964
 2 PLAC , Rapid City, SD, USA
 1 DEAT
 2 DATE Aug 1964
 2 PLAC National Cem. Rapid City, SD, USA
-0 @I86@ INDI
-1 NAME Jean Elizabeth /Lane/
-2 GIVN Jean Elizabeth
-2 SURN Lane
-1 SEX F
-1 BIRT
-2 DATE 19 Mar 1959
-1 OCCU Homemaker
-0 @I81@ INDI
-1 NAME Annette Louise /Lane/
-2 GIVN Annette Louise
-2 SURN Lane
-1 SEX F
-1 BIRT
-2 DATE 10 Dec 1955
-1 OCCU Homemaker
-1 FACT 0
-0 @I75@ INDI
-1 NAME Danny Dean /Lane/
-2 GIVN Danny Dean
-2 SURN Lane
-1 SEX M
-1 BIRT
-2 DATE 31 Jan 1953
+1 FAMC @F24@
 0 @I91@ INDI
 1 NAME Shelley Kay /Lane/
 2 GIVN Shelley Kay
 2 SURN Lane
+1 REFN CustomGenCode:ACAAF
 1 SEX F
 1 BIRT
 2 DATE 2 Jun 1969
-0 @I304@ INDI
-1 NAME Linda //
-2 GIVN Linda
+1 FAMS @F30@
+1 FAMC @F24@
+0 @I92@ INDI
+1 NAME Troy /Solberg/
+2 GIVN Troy
+2 SURN Solberg
+1 REFN CustomGenCode:ACAAF1
+1 SEX M
 1 BIRT
-2 DATE 1 Jun 1946
+2 DATE 3 Jun 1968
+1 FAMS @F30@
+0 @I93@ INDI
+1 NAME Derrick Benjamin /Solberg/
+2 GIVN Derrick Benjamin
+2 SURN Solberg
+1 REFN CustomGenCode:ACAAFA
+1 BIRT
+2 DATE 21 Dec 1989
+1 FAMC @F30@
+0 @I94@ INDI
+1 NAME Arnold Fred /Lane/
+2 GIVN Arnold Fred
+2 SURN Lane
+1 REFN CustomGenCode:ACAB
+1 SEX M
+1 BIRT
+2 DATE 26 May 1931
+1 FACT Arnold served in the US Army during the Korean conflict.
+1 FAMS @F31@
+1 FAMC @F23@
 0 @I95@ INDI
 1 NAME Veree Day /Rustan/
 2 GIVN Veree Day
 2 SURN Rustan
+1 REFN CustomGenCode:ACAB1
 1 SEX F
 1 BIRT
 2 DATE 25 Aug 1935
 1 OCCU Homemaker
 1 FACT Arnold served in the US Army during the Korean conflict.
-0 @I305@ INDI
-1 NAME Howard //
-2 GIVN Howard
-1 BIRT
-2 DATE Sep 1947
-0 @I338@ INDI
-1 NAME Abigail Faith /Sanders/
-2 GIVN Abigail Faith
-2 SURN Sanders
-1 BIRT
-2 DATE 12 Mar 1980
-0 @I339@ INDI
-1 NAME Sassy Ann /Sanders/
-2 GIVN Sassy Ann
-2 SURN Sanders
-1 BIRT
-2 DATE 2 May 1982
-0 @I247@ INDI
-1 NAME John Dallus /Vaughn/
-2 GIVN John Dallus
-2 SURN Vaughn
-1 BIRT
-2 DATE 27 Aug 1976
-0 @I248@ INDI
-1 NAME Heather Marie /Vaughn/
-2 GIVN Heather Marie
-2 SURN Vaughn
-1 BIRT
-2 DATE 17 Jul 1980
-0 @I65@ INDI
-1 NAME Catharine Anne /Batcheler/
-2 GIVN Catharine Anne
-2 SURN Batcheler
-1 BIRT
-2 DATE 28 Apr 1975
-0 @I63@ INDI
-1 NAME Thomas Edward /Batcheler/
-2 GIVN Thomas Edward
-2 SURN Batcheler
-1 BIRT
-2 DATE 21 Feb 1971
-0 @I263@ INDI
-1 NAME Rebecca Sue /Cooper/
-2 GIVN Rebecca Sue
-2 SURN Cooper
-1 BIRT
-2 DATE 4 May 1962
-1 OCCU Homemaker
-0 @I230@ INDI
-1 NAME Nathaniel Matthew /Fogleman/
-2 GIVN Nathaniel Matthew
-2 SURN Fogleman
-1 BIRT
-2 DATE 15 May 1996
-0 @I214@ INDI
-1 NAME Diane Marie /Winterboer/
-2 GIVN Diane Marie
-2 SURN Winterboer
-1 BIRT
-2 DATE 1 Dec 1953
-1 OCCU Homemaker
-0 @I62@ INDI
-1 NAME Patricia Lee /Higgins/
-2 GIVN Patricia Lee
-2 SURN Higgins
-1 SEX F
-1 BIRT
-2 DATE 8 Mar 1942
-1 OCCU Homemaker
-0 @I229@ INDI
-1 NAME Jason Matthew /Fogleman/
-2 GIVN Jason Matthew
-2 SURN Fogleman
+1 FAMS @F31@
+0 @I96@ INDI
+1 NAME Terry Lee /Lane/
+2 GIVN Terry Lee
+2 SURN Lane
+1 REFN CustomGenCode:ACABA
 1 SEX M
 1 BIRT
-2 DATE Nov 1978
-0 @I69@ INDI
-1 NAME Ingermarie {Mary} /Berg/
-2 GIVN Ingermarie {Mary}
-2 SURN Berg
+2 DATE 19 Aug 1953
+1 FACT Mary Ann's child from a previous marriage
+1 FAMS @F32@
+1 FAMC @F31@
+0 @I97@ INDI
+1 NAME Mary Ann /Gothier/
+2 GIVN Mary Ann
+2 SURN Gothier
+1 REFN CustomGenCode:ACABA1
 1 SEX F
 1 BIRT
-2 DATE 29 Jul 1902
-2 PLAC Berg Home, Peterson, IA, USA
-1 OCCU Homemaker, worked as a clerk in Lee Gilbert's grocery store & managed the Variety store for Les Templer, both in Peterson, IA.
-0 @I210@ INDI
-1 NAME Gloria Louise /Winterboer/
-2 GIVN Gloria Louise
-2 SURN Winterboer
+2 DATE 17 Nov 1954
+1 OCCU Homemaker
+1 FACT Mary Ann's child from a previous marriage
+1 FAMS @F32@
+1 FAMS @F149@
+0 @I98@ INDI
+1 NAME Clifford /McMurray/
+2 GIVN Clifford
+2 SURN McMurray
+1 REFN CustomGenCode:ACABAa
+1 BIRT
+2 DATE 31 Jul 1977
+0 @I99@ INDI
+1 NAME Patrick Lee /Lane/
+2 GIVN Patrick Lee
+2 SURN Lane
+1 REFN CustomGenCode:ACABAB
+1 BIRT
+2 DATE 9 Dec 1988
+1 FAMC @F32@
+0 @I100@ INDI
+1 NAME Penny Ann /Lane/
+2 GIVN Penny Ann
+2 SURN Lane
+1 REFN CustomGenCode:ACABB
 1 SEX F
 1 BIRT
-2 DATE 17 Dec 1952
+2 DATE 1 May 1956
 1 OCCU Homemaker
-0 @I25@ INDI
-1 NAME Thomas Gene /Myeskie/
-2 GIVN Thomas Gene
-2 SURN Myeskie
+1 FAMS @F33@
+1 FAMC @F31@
+0 @I101@ INDI
+1 NAME Dennis Ray /Baschke/
+2 GIVN Dennis Ray
+2 SURN Baschke
+1 REFN CustomGenCode:ACABB1
+1 SEX M
 1 BIRT
-2 DATE 15 Sep 1967
-0 @I235@ INDI
-1 NAME Shannon Jay /Batcheler/
-2 GIVN Shannon Jay
-2 SURN Batcheler
+2 DATE 24 Nov 1952
+1 FAMS @F33@
+0 @I102@ INDI
+1 NAME Tina Marie /Lane/
+2 GIVN Tina Marie
+2 SURN Lane
+1 REFN CustomGenCode:ACABBA
 1 BIRT
-2 DATE 5 Oct 1978
-0 @I265@ INDI
-1 NAME Angela Marie /Hagedorn/
-2 GIVN Angela Marie
-2 SURN Hagedorn
+2 DATE 4 Dec 1978
+1 FAMC @F33@
+0 @I103@ INDI
+1 NAME Tara Anne /Lane/
+2 GIVN Tara Anne
+2 SURN Lane
+1 REFN CustomGenCode:ACABBB
 1 BIRT
-2 DATE 30 Jun 1968
+2 DATE 10 Sep 1981
+1 FAMC @F33@
+0 @I104@ INDI
+1 NAME Tyler James /Lane/
+2 GIVN Tyler James
+2 SURN Lane
+1 REFN CustomGenCode:ACABBC
+1 BIRT
+2 DATE 11 Jul 1986
+1 FAMC @F33@
+0 @I105@ INDI
+1 NAME Cheryl Rae /Lane/
+2 GIVN Cheryl Rae
+2 SURN Lane
+1 REFN CustomGenCode:ACABC
+1 SEX F
+1 BIRT
+2 DATE 31 Dec 1960
 1 OCCU Homemaker
-0 @I142@ INDI
-1 NAME Rick /Ahalman/
-2 GIVN Rick
-2 SURN Ahalman
+1 FAMS @F34@
+1 FAMC @F31@
+0 @I106@ INDI
+1 NAME Clyde Kevin /Ihrke/
+2 GIVN Clyde Kevin
+2 SURN Ihrke
+1 REFN CustomGenCode:ACABC1
+1 SEX M
+1 BIRT
+2 DATE 18 Dec 1958
+1 FAMS @F34@
+0 @I107@ INDI
+1 NAME Jillian Cae /Ihrke/
+2 GIVN Jillian Cae
+2 SURN Ihrke
+1 REFN CustomGenCode:ACABCA
+1 BIRT
+2 DATE 27 Oct 1984
+1 FAMC @F34@
+0 @I108@ INDI
+1 NAME Alison Mae /Ihrke/
+2 GIVN Alison Mae
+2 SURN Ihrke
+1 REFN CustomGenCode:ACABCB
+1 BIRT
+2 DATE 31 Aug 1987
+1 FAMC @F34@
+0 @I109@ INDI
+1 NAME Estella Mae /Lane/
+2 GIVN Estella Mae
+2 SURN Lane
+1 REFN CustomGenCode:ACB
+1 SEX F
+1 BIRT
+2 DATE 2 Nov 1906
+2 PLAC Lane Home, Peterson, IA, USA
+1 GRAD
+2 DATE May 1923
+2 PLAC Peterson HS, Peterson, IA, USA
+1 DEAT
+2 DATE 14 Apr 1987
+2 PLAC Oakland Cem. Peterson, IA, USA
+1 OCCU Homemaker & worked as bookkeeper for Clarence Batcheler, her uncle, who was the Ford Dealer in Peterson, IA.
+1 FACT They were both active in the Congregational Church in Peterson, IA.
+1 FACT Rolland was an active member of the Masons & Estelle belonged to the "Our Afternoon Out" (O.A.O.) for many years.
+1 FACT Rolland Enjoyed his fishing & hunting.  Estelle did a lot of sewing, knitting & other hand work.
+1 FAMS @F35@
+1 FAMC @F22@
+0 @I110@ INDI
+1 NAME Rolland David /Klinefelter/
+2 GIVN Rolland David
+2 SURN Klinefelter
+1 REFN CustomGenCode:ACB1
+1 SEX M
+1 BIRT
+2 DATE 18 Feb 1900
+2 PLAC Klinefelter Home, Dwight, IL, USA
+1 DEAT
+2 DATE 30 Sep 1986
+2 PLAC Oakland Cem. Peterson, IA, USA
+1 OCCU Farmer & Owner/Operator of a cornsheller for many years.
+1 FACT They were both active in the Congregational Church in Peterson, IA.
+1 FACT Rolland was an active member of the Masons & Estelle belonged to the "Our Afternoon Out" (O.A.O.) for many years.
+1 FACT Rolland Enjoyed his fishing & hunting.  Estelle did a lot of sewing, knitting & other hand work.
+1 FAMS @F35@
+1 FAMC @F128@
+0 @I111@ INDI
+1 NAME Robert Ray /Klinefelter/
+2 GIVN Robert Ray
+2 SURN Klinefelter
+1 REFN CustomGenCode:ACBA
+1 SEX M
+1 BIRT
+2 DATE 7 Jul 1928
+2 PLAC Klinefelter Home, O'Brien Co. IA, USA
+1 GRAD
+2 DATE May 1946
+2 PLAC Peterson HS, Peterson, IA, USA
+1 OCCU Owner/Operator custom corn shelling. He assembled new farm machinery & repaired the old for the Peterson, IA, John Deere dealer.  He drove truck for Merle Wetherell.  He was a part time Theater Projectionist.
+1 FACT Robert attended the DeForest Training School of Electronics to become a TV repairman.
+1 FACT They have both been active in the Congregational Church in Peterson, IA, USA.  They have both held many positions & been on many borards in the church.
+1 FACT Bob was in the 460th Headquarters Battalion, serving as a forward ovserver for heavy artillery for 2 years in Germany.  He achieved a rank of Corporal.
+1 FACT Bob belonged to the Masons, was active in the American Legion & was a Charter member of the Peterson Lions Club.
+1 FACT He likes to fish, paint, refinish good old furniture & bowl.
+1 FACT Robert picked up a very rare flesh eating virus in 1995.  He was in Iowa City hospital for many months & recovered.
+1 FAMS @F36@
+1 FAMC @F35@
 0 @I112@ INDI
 1 NAME Gwennevere Mae /Olson/
 2 GIVN Gwennevere Mae
 2 SURN Olson
+1 REFN CustomGenCode:ACBA1
 1 SEX F
 1 BIRT
 2 DATE 12 Feb 1936
@@ -3245,155 +1211,161 @@
 1 FACT He likes to fish, paint, refinish good old furniture & bowl.
 1 FACT Robert picked up a very rare flesh eating virus in 1995.  He was in Iowa City hospital for many months & recovered.
 1 FACT Confirmation date should NOT be before birth date for Olson, Gwennevere Mae. Birth date: 1936 Feb 12, Confirmation date: 1048
-0 @I51@ INDI
-1 NAME Terri Rae /Anderson/
-2 GIVN Terri Rae
-2 SURN Anderson
-1 SEX F
-1 BIRT
-2 DATE 9 Jan 1959
-2 PLAC , Yankton, SD, USA
-1 OCCU Homemaker
-0 @I110@ INDI
-1 NAME Rolland David /Klinefelter/
-2 GIVN Rolland David
+1 FAMS @F36@
+1 FAMC @F129@
+0 @I113@ INDI
+1 NAME Bradley Ray /Klinefelter/
+2 GIVN Bradley Ray
 2 SURN Klinefelter
-1 SEX M
+1 REFN CustomGenCode:ACBAA
 1 BIRT
-2 DATE 18 Feb 1900
-2 PLAC Klinefelter Home, Dwight, IL, USA
-1 DEAT
-2 DATE 30 Sep 1986
-2 PLAC Oakland Cem. Peterson, IA, USA
-1 OCCU Farmer & Owner/Operator of a cornsheller for many years.
-1 FACT They were both active in the Congregational Church in Peterson, IA.
-1 FACT Rolland was an active member of the Masons & Estelle belonged to the "Our Afternoon Out" (O.A.O.) for many years.
-1 FACT Rolland Enjoyed his fishing & hunting.  Estelle did a lot of sewing, knitting & other hand work.
-0 @I41@ INDI
-1 NAME Jamalie Lou /Anderson/
-2 GIVN Jamalie Lou
-2 SURN Anderson
-1 SEX F
-1 BIRT
-2 DATE 26 Feb 1959
-1 OCCU Homemaker
-0 @I45@ INDI
-1 NAME Kristin Jayne /Anderson/
-2 GIVN Kristin Jayne
-2 SURN Anderson
-1 SEX F
-1 BIRT
-2 DATE 2 May 1968
-1 OCCU Homemaker
-0 @I33@ INDI
-1 NAME Vicki Jo /Anderson/
-2 GIVN Vicki Jo
-2 SURN Anderson
-1 SEX F
-1 BIRT
-2 DATE 31 Dec 1952
-1 OCCU Homemaker
-0 @I37@ INDI
-1 NAME Cameron Rae /Anderson/
-2 GIVN Cameron Rae
-2 SURN Anderson
-1 NAME Carmeron?
-2 TYPE aka
-2 GIVN Carmeron?
-1 SEX F
-1 BIRT
-2 DATE 7 Sep 1955
-1 OCCU Homemaker
-0 @I245@ INDI
-1 NAME Julie Ann /Black/
-2 GIVN Julie Ann
-2 SURN Black
-1 SEX F
-1 BIRT
-2 DATE 22 Mar 1960
-1 OCCU Homemaker
-0 @I246@ INDI
-1 NAME Catherine N /Nelson/
-2 GIVN Catherine N
-2 SURN Nelson
-1 SEX F
-1 BIRT
-2 DATE 16 Sep 1957
-1 OCCU Homemaker
-1 FACT * Catherine's children from a previous marriage.
-0 @I386@ INDI
-1 NAME Ethel Verne /Ashby/
-2 GIVN Ethel Verne
-2 SURN Ashby
-1 SEX F
-0 @I70@ INDI
-1 NAME Donald Arthur /Lane/
-2 GIVN Donald Arthur
-2 SURN Lane
-1 SEX M
-1 BIRT
-2 DATE 25 Oct 1926
-2 PLAC Lane Home, Clay Co. IA, USA
+2 DATE 29 Jul 1957
+2 PLAC Spencer Municipal Hosp. Spencer, IA, USA
 1 BAPM
-2 DATE Nov 1926
-2 PLAC Lutheran Church, Royal, IA, USA
+2 DATE Aug 1957
+2 PLAC Congregational Ch. Peterson, IA, USA
 1 CONF
-2 DATE May 1940
+2 DATE Apr 1968
 2 PLAC Congregational Church, Peterson, IA, USA
 1 GRAD
-2 DATE May 1944
-2 PLAC Peterson HS, Peterson, IA, USA
-1 OCCU Groceryman, Cookie & Candy Salesman.
-1 FACT Active members of the Presbyterian Church in Lake Park, IA.  Donald is a Deacon in the church.
-1 FACT Donald served in the US Navy as shore patrol during World War II, achieving a rank of Boatmans Mate 3rd class.
-1 FACT Donald is an active member of the American Legion & Betty is in the auxillary.
-1 FACT Betty loves to sew & knit, they both like to travel.
-0 @I50@ INDI
-1 NAME Olive Logene /Wightman/
-2 GIVN Olive Logene
-2 SURN Wightman
+2 DATE May 1976
+2 PLAC Sioux Valley HS, Linn Grove, IA, USA
+1 OCCU Turkey Farm Manager.  Works for Wells Blue Bunny in LeMars, IA
+1 FACT Bradley attended the Radio School in Davenport, IA for 9 months to become a Disc Jockey.
+1 FACT He is a member of the Congregational Church in Peterson, IA.
+1 FACT Brad spent 4 years in the Marine Corp, achie4ving a rank of E3.
+1 FACT He enjoys any kind of auto racing & music concerts.
+1 FAMC @F36@
+0 @I114@ INDI
+1 NAME Blair Rolland /Klinefelter/
+2 GIVN Blair Rolland
+2 SURN Klinefelter
+1 REFN CustomGenCode:ACBAB
+1 SEX M
+1 BIRT
+2 DATE 11 Jul 1960
+2 PLAC Spencer Municipal Hosp. Spencer, IA, USA
+1 BAPM
+2 DATE Aug 1960
+2 PLAC Congregational Ch. Peterson, IA, USA
+1 CONF
+2 DATE Apr 1972
+2 PLAC Congregational Church, Peterson, IA, USA
+1 GRAD
+2 DATE May 1978
+2 PLAC Sioux Valley HS, Linn Grove, IA, USA
+1 OCCU He works in the Radiology Dept. at the Iowa City University Hospital.
+1 FACT They both attended the University at Iowa City, IA; Blair from 1978 to 1983 in Computer science & Economics & Mary from 1978 to 1982 in Teaching.
+1 FACT Blair belongs to the Congregational Church & Mary is active in the Catholic Church.
+1 FACT Blair likes sports & music.  They both enjoy woodworking.
+1 FACT * They were married early in Peoria due to her Father having a severe stroke.  Later they had a second wedding in the Catholic Church in Iowa City, IA.
+1 FAMS @F37@
+1 FAMC @F36@
+0 @I115@ INDI
+1 NAME Mary Jo /Zachringer/
+2 GIVN Mary Jo
+2 SURN Zachringer
+1 REFN CustomGenCode:ACBAB1
 1 SEX F
 1 BIRT
-2 DATE 30 Apr 1935
-1 DEAT
-2 DATE 14 Feb 1997
-1 OCCU Homemaker
-0 @I94@ INDI
-1 NAME Arnold Fred /Lane/
-2 GIVN Arnold Fred
-2 SURN Lane
-1 SEX M
+2 DATE 14 Apr 1960
+1 BAPM
+2 DATE May 1960
+2 PLAC Catholic Church, Fallund, IL, USA
+1 GRAD
+2 DATE May 1978
+2 PLAC Fallund HS, Fallund, IL, USA
+1 OCCU Homemaker.  Mary works in the eye clinic at the Iowa City University Hospital.
+1 FACT They both attended the University at Iowa City, IA; Blair from 1978 to 1983 in Computer science & Economics & Mary from 1978 to 1982 in Teaching.
+1 FACT Blair belongs to the Congregational Church & Mary is active in the Catholic Church.
+1 FACT Blair likes sports & music.  They both enjoy woodworking.
+1 FACT * They were married early in Peoria due to her Father having a severe stroke.  Later they had a second wedding in the Catholic Church in Iowa City, IA.
+1 FAMS @F37@
+0 @I116@ INDI
+1 NAME Jennifer Noel /Klinefelter/
+2 GIVN Jennifer Noel
+2 SURN Klinefelter
+1 REFN CustomGenCode:ACBABA
 1 BIRT
-2 DATE 26 May 1931
-1 FACT Arnold served in the US Army during the Korean conflict.
-0 @I32@ INDI
-1 NAME Barbara Jayne /Barger/
-2 GIVN Barbara Jayne
-2 SURN Barger
-1 SEX F
+2 DATE 16 Sep 1984
+2 PLAC Iowa City Hosp. Iowa City, IA, USA
+1 BAPM
+2 DATE 1984
+2 PLAC Catholic Church, Iowa City, IA, USA
+1 CONF
+2 DATE 1981
+2 PLAC Catholic Church, Iowa City, IA, USA
+1 FACT Confirmation date should NOT be before birth date for Klinefelter, Jennifer Noel. Birth date: 1984 Sep 16, Confirmation date: 1981
+1 FAMC @F37@
+0 @I117@ INDI
+1 NAME Lindsay Michelle /Klinefelter/
+2 GIVN Lindsay Michelle
+2 SURN Klinefelter
+1 REFN CustomGenCode:ACBABB
 1 BIRT
-2 DATE 5 Mar 1931
-1 OCCU Homemaker
-0 @I30@ INDI
-1 NAME Clarence Edward /Anderson/
-2 GIVN Clarence Edward
-2 SURN Anderson
-1 SEX M
+2 DATE 9 Sep 1986
+2 PLAC Iowa City Hosp. Iowa City, IA, USA
+1 BAPM
+2 DATE 1986
+2 PLAC Catholic Church, Iowa City, IA, USA
+1 CONF
+2 DATE 1993
+2 PLAC Catholic Church, Iowa City, IA, USA
+1 FAMC @F37@
+0 @I118@ INDI
+1 NAME Julia Marie /Klinefelter/
+2 GIVN Julia Marie
+2 SURN Klinefelter
+1 REFN CustomGenCode:ACBABC
 1 BIRT
-2 DATE 5 Sep 1907
-1 DEAT
-2 DATE 11 Nov 1988
-0 @I252@ INDI
-1 NAME Larry H /VanDaalen/
-2 GIVN Larry H
-2 SURN VanDaalen
-1 SEX M
+2 DATE 17 Jul 1992
+2 PLAC Iowa City Hosp. Iowa City, IA, USA
+1 BAPM
+2 PLAC Catholic Church, Iowa City, IA, USA
+1 CONF
+2 PLAC Catholic Church, Iowa City, IA, USA
+1 FAMC @F37@
+0 @I119@ INDI
+1 NAME Brenda Renee /Klinefelter/
+2 GIVN Brenda Renee
+2 SURN Klinefelter
+1 REFN CustomGenCode:ACBAC
 1 BIRT
-2 DATE 12 Mar 1961
+2 DATE 30 Jan 1971
+2 PLAC Spencer Municipal Hosp. Spencer, IA, USA
+1 BAPM
+2 DATE Feb 1971
+2 PLAC Congregational Ch. Peterson, IA, USA
+1 CONF
+2 DATE Apr 1982
+2 PLAC Congregational Church, Peterson, IA, USA
+1 GRAD
+2 DATE May 1986
+2 PLAC Sioux Valley HS, Linn Grove, IA, USA
+1 OCCU Homemaker. She also works with computers.
+1 FACT They both attended college at Augustana; Brenda from 1986 to 1991 majoring in History & Kevin from 1986 to 1991 as a computer programer analist.
+1 FACT They belong to the Lutheran Church.
+1 FACT They enjoy their computers, music & reading.  They raise hamsters.
+1 FACT * Kevin was adopted by Keeneys.
+1 FAMS @F38@
+1 FAMC @F36@
+0 @I120@ INDI
+1 NAME Kevin /Keeney/
+2 GIVN Kevin
+2 SURN Keeney
+1 REFN CustomGenCode:ACBAC1
+1 OCCU He is a Computer Programmer Analist.
+1 FACT They both attended college at Augustana; Brenda from 1986 to 1991 majoring in History & Kevin from 1986 to 1991 as a computer programer analist.
+1 FACT They belong to the Lutheran Church.
+1 FACT They enjoy their computers, music & reading.  They raise hamsters.
+1 FACT * Kevin was adopted by Keeneys.
+1 FAMS @F38@
+1 FAMC @F130@
 0 @I121@ INDI
 1 NAME Joyce Elaine /Klinefelter/
 2 GIVN Joyce Elaine
 2 SURN Klinefelter
+1 REFN CustomGenCode:ACBB
 1 SEX F
 1 BIRT
 2 DATE 10 Feb 1930
@@ -3408,6 +1380,92 @@
 2 DATE May 1947
 2 PLAC Peterson HS, Peterson, IA, USA
 1 OCCU Homemaker and a Teletype Operator for Alcoa in Toronto, Canada. She has also been a clerk in a Department store in Ottowa, Canada.
+1 FAMS @F39@
+1 FAMC @F35@
+0 @I122@ INDI
+1 NAME Raymond R /Finney/
+2 GIVN Raymond R
+2 SURN Finney
+1 REFN CustomGenCode:ACBB1
+1 SEX M
+1 BIRT
+2 DATE 28 Jul 1931
+1 FAMS @F39@
+0 @I123@ INDI
+1 NAME Barbara Jean /Finney/
+2 GIVN Barbara Jean
+2 SURN Finney
+1 REFN CustomGenCode:ACBBA
+1 SEX F
+1 BIRT
+2 DATE 18 Sep 1956
+2 PLAC , Toronto, Canada
+1 OCCU Homemaker
+1 FAMS @F40@
+1 FAMC @F39@
+0 @I124@ INDI
+1 NAME Robert /Richard/
+2 GIVN Robert
+2 SURN Richard
+1 REFN CustomGenCode:ACBBA1
+1 SEX M
+1 BIRT
+2 DATE 4 Feb 1954
+1 OCCU Prepares bids & contracts for a construction company in Montreal, Canada
+1 FAMS @F40@
+1 FAMC @F131@
+0 @I125@ INDI
+1 NAME Ryan Bruce /Richard/
+2 GIVN Ryan Bruce
+2 SURN Richard
+1 REFN CustomGenCode:ACBBAA
+1 BIRT
+2 DATE 28 Jun 1985
+2 PLAC , Montreal, Canada
+1 FAMC @F40@
+0 @I126@ INDI
+1 NAME Chanelle Marie Suzanne /Richard/
+2 GIVN Chanelle Marie Suzanne
+2 SURN Richard
+1 REFN CustomGenCode:ACBBAB
+1 BIRT
+2 DATE 31 Aug 1988
+2 PLAC , Montreal, Canada
+1 FAMC @F40@
+0 @I127@ INDI
+1 NAME Bruce Andrew /Finney/
+2 GIVN Bruce Andrew
+2 SURN Finney
+1 REFN CustomGenCode:ACBBB
+1 SEX M
+1 BIRT
+2 DATE 25 Jun 1959
+2 PLAC , Toronto, Canada
+1 OCCU Detective for the Orlando Police Department in Orlando, FL.
+1 FACT Barbara is attending a Nurses Traing School.
+1 FAMS @F41@
+1 FAMC @F39@
+0 @I128@ INDI
+1 NAME Barbara /Baker/
+2 GIVN Barbara
+2 SURN Baker
+1 REFN CustomGenCode:ACBBB1
+1 SEX F
+1 BIRT
+2 DATE 21 Nov 1959
+2 PLAC , Toronto, Canada
+1 OCCU Homemaker
+1 FACT Barbara is attending a Nurses Traing School.
+1 FAMS @F41@
+0 @I129@ INDI
+1 NAME Samuel Matthew /Finney/
+2 GIVN Samuel Matthew
+2 SURN Finney
+1 REFN CustomGenCode:ACBBBA
+1 BIRT
+2 DATE 6 Nov 1985
+2 PLAC , Toronto, Canada
+1 FAMC @F41@
 0 @I130@ INDI
 1 NAME Lois Estella /Klinefelter/
 2 GIVN Lois Estella
@@ -3415,6 +1473,7 @@
 1 NAME Estelle?
 2 TYPE aka
 2 GIVN Estelle?
+1 REFN CustomGenCode:ACBC
 1 SEX F
 1 BIRT
 2 DATE 28 Jul 1931
@@ -3429,24 +1488,2897 @@
 2 DATE 1948
 2 PLAC Peterson HS, Peterson, IA, USA
 1 OCCU Homemaker
-0 @I111@ INDI
-1 NAME Robert Ray /Klinefelter/
-2 GIVN Robert Ray
-2 SURN Klinefelter
+1 FAMS @F42@
+1 FAMC @F35@
+0 @I131@ INDI
+1 NAME Stephen Wendell /Hughes/
+2 GIVN Stephen Wendell
+2 SURN Hughes
+1 REFN CustomGenCode:ACBC1
 1 SEX M
 1 BIRT
-2 DATE 7 Jul 1928
-2 PLAC Klinefelter Home, O'Brien Co. IA, USA
+2 DATE 24 Oct 1929
+2 PLAC , Lime Springs, IA, USA
+1 OCCU A mechanic for International Harvester, a Rural Mail Carrier & a Farm Bureau Insurance Salesman.
+1 FAMS @F42@
+0 @I132@ INDI
+1 NAME Charles Donald /Hughes/
+2 GIVN Charles Donald
+2 SURN Hughes
+1 REFN CustomGenCode:ACBCA
+1 SEX M
+1 BIRT
+2 DATE 4 Feb 1958
+2 PLAC Cresco Hosp. Cresco, IA, USA
+1 DEAT
+2 DATE 11 Oct 1987
+2 PLAC , Lime Springs, IA, USA
+1 OCCU Feed Truck Driver.
+1 FAMS @F43@
+1 FAMC @F42@
+0 @I133@ INDI
+1 NAME Susan /Marhoul/
+2 GIVN Susan
+2 SURN Marhoul
+1 REFN CustomGenCode:ACBCA1
+1 SEX F
+1 BIRT
+2 DATE 26 Jun 1961
+1 OCCU Homemaker & Department Store Clerk.
+1 FAMS @F43@
+0 @I134@ INDI
+1 NAME Jessica Sue /Hughes/
+2 GIVN Jessica Sue
+2 SURN Hughes
+1 REFN CustomGenCode:ACBCAA
+1 BIRT
+2 DATE 24 Feb 1984
+2 PLAC , Cresco, IA, USA
+1 FAMC @F43@
+0 @I135@ INDI
+1 NAME Stephen William /Hughes/
+2 GIVN Stephen William
+2 SURN Hughes
+1 REFN CustomGenCode:ACBCAB
+1 BIRT
+2 DATE 16 Aug 1985
+2 PLAC , Cresco, IA, USA
+1 FAMC @F43@
+0 @I136@ INDI
+1 NAME Louis Arnold /Batcheler/
+2 GIVN Louis Arnold
+2 SURN Batcheler
+1 REFN CustomGenCode:AD
+1 SEX M
+1 BIRT
+2 DATE 23 May 1878
+2 PLAC Batcheler Home, Central City, IA, USA
+1 DEAT
+2 DATE 4 May 1949
+1 OCCU Farmer
+1 FAMS @F44@
+1 FAMS @F57@
+1 FAMC @F0@
+0 @I137@ INDI
+1 NAME Nellie Madge /Woolston/
+2 GIVN Nellie Madge
+2 SURN Woolston
+1 REFN CustomGenCode:AD1
+1 SEX F
+1 BIRT
+2 DATE 28 May 1878
+1 DEAT
+2 DATE 23 Jan 1921
+1 OCCU Homemaker
+1 FAMS @F44@
+1 FAMC @F132@
+0 @I138@ INDI
+1 NAME Ray Charles /Batcheler/
+2 GIVN Ray Charles
+2 SURN Batcheler
+1 REFN CustomGenCode:AD1A
+1 SEX M
+1 BIRT
+2 DATE 28 Dec 1902
+1 DEAT
+2 DATE 16 Sep 1958
+1 FAMS @F45@
+1 FAMC @F44@
+0 @I139@ INDI
+1 NAME Kathryn /Kusick/
+2 GIVN Kathryn
+2 SURN Kusick
+1 REFN CustomGenCode:AD1A1
+1 SEX F
+1 BIRT
+2 DATE 18 Feb 1914
+1 DEAT
+2 DATE 8 Jan 1995
+1 OCCU Homemaker
+1 FAMS @F45@
+0 @I140@ INDI
+1 NAME Carolyn /Batcheler/
+2 GIVN Carolyn
+2 SURN Batcheler
+1 REFN CustomGenCode:AD1AA
+1 BIRT
+2 DATE Jun 1935
+1 FAMC @F45@
+0 @I141@ INDI
+1 NAME Margeurite /Batcheler/
+2 GIVN Margeurite
+2 SURN Batcheler
+1 REFN CustomGenCode:AD1AB
+1 BIRT
+2 DATE Feb 1937
+1 OCCU Homemaker
+1 FAMS @F46@
+1 FAMC @F45@
+0 @I142@ INDI
+1 NAME Rick /Ahalman/
+2 GIVN Rick
+2 SURN Ahalman
+1 REFN CustomGenCode:AD1AB1
+1 FAMS @F46@
+0 @I143@ INDI
+1 NAME Jennie Eugene /Batcheler/
+2 GIVN Jennie Eugene
+2 SURN Batcheler
+1 NAME Eugena?
+2 TYPE aka
+2 GIVN Eugena?
+1 REFN CustomGenCode:AD1B
+1 SEX F
+1 BIRT
+2 DATE 15 Sep 1904
+1 DEAT
+2 DATE 19 Apr 1993
+1 OCCU Homemaker
+1 FAMS @F47@
+1 FAMC @F44@
+0 @I144@ INDI
+1 NAME Dwight Irvin /Bailey/
+2 GIVN Dwight Irvin
+2 SURN Bailey
+1 REFN CustomGenCode:AD1B1
+1 SEX M
+1 BIRT
+2 DATE 25 Nov 1899
+1 DEAT
+2 DATE 28 May 1990
+1 FAMS @F47@
+0 @I145@ INDI
+1 NAME Cecil Eugene /Bailey/
+2 GIVN Cecil Eugene
+2 SURN Bailey
+1 REFN CustomGenCode:AD1BA
+1 SEX M
+1 BIRT
+2 DATE 23 Feb 1926
+1 FACT * Patricia's daughter from a previous marriage.
+1 FAMS @F48@
+1 FAMC @F47@
+0 @I146@ INDI
+1 NAME Patricia /Iverson/
+2 GIVN Patricia
+2 SURN Iverson
+1 REFN CustomGenCode:AD1BA1
+1 SEX F
+1 BIRT
+2 DATE 17 Dec 1934
+1 OCCU Homemaker
+1 FACT * Patricia's daughter from a previous marriage.
+1 FAMS @F48@
+1 FAMS @F150@
+0 @I147@ INDI
+1 NAME Donna Rae /Thorson/
+2 GIVN Donna Rae
+2 SURN Thorson
+1 REFN CustomGenCode:AD1BAa
+1 BIRT
+2 DATE 5 Jul 1953
+0 @I148@ INDI
+1 NAME Richard Eugene /Bailey/
+2 GIVN Richard Eugene
+2 SURN Bailey
+1 REFN CustomGenCode:AD1BAB
+1 BIRT
+2 DATE 9 Sep 1956
+1 FAMC @F48@
+0 @I149@ INDI
+1 NAME Michael Dean /Bailey/
+2 GIVN Michael Dean
+2 SURN Bailey
+1 REFN CustomGenCode:AD1BAC
+1 BIRT
+2 DATE 30 Jul 1958
+1 FAMC @F48@
+0 @I150@ INDI
+1 NAME William Martin /Bailey/
+2 GIVN William Martin
+2 SURN Bailey
+1 REFN CustomGenCode:AD1BAD
+1 BIRT
+2 DATE 21 May 1963
+1 DEAT
+2 DATE 14 May 1964
+1 FAMC @F48@
+0 @I151@ INDI
+1 NAME Lynn Annette /Bailey/
+2 GIVN Lynn Annette
+2 SURN Bailey
+1 REFN CustomGenCode:AD1BAE
+1 BIRT
+2 DATE 13 Jul 1965
+1 FAMC @F48@
+0 @I152@ INDI
+1 NAME Barbara June /Bailey/
+2 GIVN Barbara June
+2 SURN Bailey
+1 REFN CustomGenCode:AD1BB
+1 BIRT
+2 DATE 2 Nov 1927
+1 DEAT
+2 DATE 19 Mar 1928
+1 FAMC @F47@
+0 @I153@ INDI
+1 NAME James Dean /Bailey/
+2 GIVN James Dean
+2 SURN Bailey
+1 REFN CustomGenCode:AD1BC
+1 SEX M
+1 BIRT
+2 DATE 7 Feb 1934
+1 FACT Jeanette's son from a previous mariage.
+1 FAMS @F49@
+1 FAMC @F47@
+0 @I154@ INDI
+1 NAME Janette /Leader/
+2 GIVN Janette
+2 SURN Leader
+1 REFN CustomGenCode:AD1BC1
+1 SEX F
+1 BIRT
+2 DATE 7 Aug 1942
+1 OCCU Homemaker
+1 FACT Jeanette's son from a previous mariage.
+1 FAMS @F49@
+0 @I155@ INDI
+1 NAME Mark Dean /Bailey/
+2 GIVN Mark Dean
+2 SURN Bailey
+1 REFN CustomGenCode:AD1BCA
+1 BIRT
+2 DATE 16 Dec 1966
+1 FAMC @F49@
+0 @I156@ INDI
+1 NAME Michelle Ann /Bailey/
+2 GIVN Michelle Ann
+2 SURN Bailey
+1 REFN CustomGenCode:AD1BCB
+1 BIRT
+2 DATE 14 Jan 1969
+1 FAMC @F49@
+0 @I157@ INDI
+1 NAME Edith Lucile /Batcheler/
+2 GIVN Edith Lucile
+2 SURN Batcheler
+1 REFN CustomGenCode:AD1C
+1 BIRT
+2 DATE 2 Apr 1906
+1 DEAT
+2 DATE 12 Jul 1930
+1 FAMC @F44@
+0 @I158@ INDI
+1 NAME Lila Alice /Batcheler/
+2 GIVN Lila Alice
+2 SURN Batcheler
+1 REFN CustomGenCode:AD1D
+1 BIRT
+2 DATE 29 Sep 1911
+1 DEAT
+2 DATE 26 Feb 1955
+1 OCCU Homemaker
+1 FAMS @F50@
+1 FAMC @F44@
+0 @I159@ INDI
+1 NAME Keith /Culwell/
+2 GIVN Keith
+2 SURN Culwell
+1 REFN CustomGenCode:AD1D1
+1 BIRT
+2 DATE 22 Feb 1912
+1 DEAT
+2 DATE 27 Mar 1989
+1 FAMS @F50@
+0 @I160@ INDI
+1 NAME Lucy Mae /Batcheler/
+2 GIVN Lucy Mae
+2 SURN Batcheler
+1 REFN CustomGenCode:AD1E
+1 SEX F
+1 BIRT
+2 DATE 19 Oct 1914
+1 OCCU Homemaker
+1 FAMS @F51@
+1 FAMC @F44@
+0 @I161@ INDI
+1 NAME Theodore Rhinehold /Kosta/
+2 GIVN Theodore Rhinehold
+2 SURN Kosta
+1 REFN CustomGenCode:AD1E1
+1 SEX M
+1 BIRT
+2 DATE 5 May 1911
+1 OCCU Farmer
+1 FAMS @F51@
+0 @I162@ INDI
+1 NAME Mary Jo /Kosta/
+2 GIVN Mary Jo
+2 SURN Kosta
+1 REFN CustomGenCode:AD1EA
+1 SEX F
+1 BIRT
+2 DATE 11 May 1943
+1 OCCU Homemaker
+1 FAMS @F52@
+1 FAMC @F51@
+0 @I163@ INDI
+1 NAME Thomas John /Hegel/
+2 GIVN Thomas John
+2 SURN Hegel
+1 REFN CustomGenCode:AD1EA1
+1 SEX M
+1 BIRT
+2 DATE 12 Oct 1941
+1 FAMS @F52@
+0 @I164@ INDI
+1 NAME Roxanne Marie /Hegel/
+2 GIVN Roxanne Marie
+2 SURN Hegel
+1 REFN CustomGenCode:AD1EAA
+1 SEX F
+1 BIRT
+2 DATE 31 Oct 1963
+1 OCCU Homemaker
+1 FAMS @F53@
+1 FAMC @F52@
+0 @I165@ INDI
+1 NAME Jeffery /Madsen/
+2 GIVN Jeffery
+2 SURN Madsen
+1 REFN CustomGenCode:AD1EAA1
+1 SEX M
+1 BIRT
+2 DATE 1963
+1 FAMS @F53@
+0 @I166@ INDI
+1 NAME Amanda Rose /Madsen/
+2 GIVN Amanda Rose
+2 SURN Madsen
+1 REFN CustomGenCode:AD1EAAA
+1 BIRT
+2 DATE 22 Jan 1987
+1 FAMC @F53@
+0 @I167@ INDI
+1 NAME Nicholas Dean /Madsen/
+2 GIVN Nicholas Dean
+2 SURN Madsen
+1 REFN CustomGenCode:AD1EAAB
+1 BIRT
+2 DATE 18 May 1991
+1 FAMC @F53@
+0 @I168@ INDI
+1 NAME Ronald Thomas /Hegel/
+2 GIVN Ronald Thomas
+2 SURN Hegel
+1 REFN CustomGenCode:AD1EAB
+1 SEX M
+1 BIRT
+2 DATE 30 Jun 1965
+1 FAMS @F54@
+1 FAMC @F52@
+0 @I169@ INDI
+1 NAME Renee /Sands/
+2 GIVN Renee
+2 SURN Sands
+1 REFN CustomGenCode:AD1EAB1
+1 SEX F
+1 BIRT
+2 DATE 23 Nov 1966
+1 OCCU Homemaker
+1 FAMS @F54@
+0 @I170@ INDI
+1 NAME Christopher John /Hegel/
+2 GIVN Christopher John
+2 SURN Hegel
+1 REFN CustomGenCode:AD1EABA
+1 BIRT
+2 DATE 24 Jun 1991
+1 FAMC @F54@
+0 @I171@ INDI
+1 NAME Jonathan /Hegel/
+2 GIVN Jonathan
+2 SURN Hegel
+1 REFN CustomGenCode:AD1EABB
+1 BIRT
+2 DATE 13 Oct 1994
+1 FAMC @F54@
+0 @I172@ INDI
+1 NAME Patricia Lee /Kosta/
+2 GIVN Patricia Lee
+2 SURN Kosta
+1 REFN CustomGenCode:AD1EB
+1 SEX F
+1 BIRT
+2 DATE 1 Feb 1946
+1 OCCU Homemaker
+1 FAMS @F55@
+1 FAMS @F56@
+1 FAMC @F51@
+0 @I173@ INDI
+1 NAME Gary D /Zinn/
+2 GIVN Gary D
+2 SURN Zinn
+1 REFN CustomGenCode:AD1EB1
+1 SEX M
+1 BIRT
+2 DATE 6 Oct 1943
+1 FAMS @F55@
+0 @I174@ INDI
+1 NAME Damon Matthew /Zinn/
+2 GIVN Damon Matthew
+2 SURN Zinn
+1 REFN CustomGenCode:AD1EB1A
+1 BIRT
+2 DATE 23 Oct 1964
+1 FAMC @F55@
+0 @I175@ INDI
+1 NAME Robert /Bedinger/
+2 GIVN Robert
+2 SURN Bedinger
+1 REFN CustomGenCode:AD1EB2
+1 SEX M
+1 FAMS @F56@
+0 @I176@ INDI
+1 NAME Nettie /Porter/
+2 GIVN Nettie
+2 SURN Porter
+1 REFN CustomGenCode:AD2
+1 SEX F
+1 BIRT
+2 DATE 11 Jun 1887
+1 DEAT
+2 DATE 15 Nov 1979
+1 OCCU Homemaker
+1 FAMS @F57@
+0 @I177@ INDI
+1 NAME Everett Ellis /Batcheler/
+2 GIVN Everett Ellis
+2 SURN Batcheler
+1 REFN CustomGenCode:AE
+1 BIRT
+2 DATE 27 Oct 1879
+2 PLAC Batcheler Home, Jones Co. IA, USA
+1 DEAT
+2 DATE 8 Dec 1943
+1 FACT Mabel was a member of the Maple Grove Church of God, north of Peterson, IA.
+1 FAMS @F58@
+1 FAMC @F0@
+0 @I178@ INDI
+1 NAME Mabel Greutrud /Webster/
+2 GIVN Mabel Greutrud
+2 SURN Webster
+1 REFN CustomGenCode:AE1
+1 BIRT
+2 DATE 24 Jan 1892
+2 PLAC Webster Home, Buena Vista Co. IA, USA
 1 GRAD
-2 DATE May 1946
 2 PLAC Peterson HS, Peterson, IA, USA
-1 OCCU Owner/Operator custom corn shelling. He assembled new farm machinery & repaired the old for the Peterson, IA, John Deere dealer.  He drove truck for Merle Wetherell.  He was a part time Theater Projectionist.
-1 FACT Robert attended the DeForest Training School of Electronics to become a TV repairman.
-1 FACT They have both been active in the Congregational Church in Peterson, IA, USA.  They have both held many positions & been on many borards in the church.
-1 FACT Bob was in the 460th Headquarters Battalion, serving as a forward ovserver for heavy artillery for 2 years in Germany.  He achieved a rank of Corporal.
-1 FACT Bob belonged to the Masons, was active in the American Legion & was a Charter member of the Peterson Lions Club.
-1 FACT He likes to fish, paint, refinish good old furniture & bowl.
-1 FACT Robert picked up a very rare flesh eating virus in 1995.  He was in Iowa City hospital for many months & recovered.
+1 DEAT
+2 DATE 7 May 1956
+1 OCCU Homemaker
+1 FACT Mabel was a member of the Maple Grove Church of God, north of Peterson, IA.
+1 FAMS @F58@
+1 FAMC @F133@
+0 @I179@ INDI
+1 NAME Clarence Edwin /Batcheler/
+2 GIVN Clarence Edwin
+2 SURN Batcheler
+1 REFN CustomGenCode:AF
+1 SEX M
+1 BIRT
+2 DATE 12 Sep 1881
+2 PLAC Batcheler Home, Peterson, IA, USA
+1 DEAT
+2 DATE 10 Aug 1942
+1 OCCU Owner & Operator of Batcheler Auto Co.
+1 FACT They were active members of the Congregational church in Peterson where he was Sunday School teacher for about 25 years.
+1 FAMS @F59@
+1 FAMS @F60@
+1 FAMC @F0@
+0 @I180@ INDI
+1 NAME Florence /Shinkle/
+2 GIVN Florence
+2 SURN Shinkle
+1 REFN CustomGenCode:AF1
+1 SEX F
+1 DEAT
+2 DATE 28 Mar 1911
+1 OCCU Homemaker
+1 FACT They were active members of the Congregational church in Peterson where he was Sunday School teacher for about 25 years.
+1 FAMS @F59@
+0 @I181@ INDI
+1 NAME Minnie /Schweikhardt/
+2 GIVN Minnie
+2 SURN Schweikhardt
+1 REFN CustomGenCode:AF2
+1 SEX F
+1 BIRT
+2 DATE 30 Nov 1894
+2 PLAC , NJ, USA
+1 DEAT
+2 DATE 20 Jun 1982
+1 OCCU Homemaker
+1 FACT They were active members of the Congregational church in Peterson where he was Sunday School teacher for about 25 years.
+1 FAMS @F60@
+0 @I182@ INDI
+1 NAME June Alice /Batcheler/
+2 GIVN June Alice
+2 SURN Batcheler
+1 REFN CustomGenCode:AF2A
+1 SEX F
+1 BIRT
+2 DATE 6 Nov 1916
+2 PLAC Batcheler Home, Peterson, IA, USA
+1 GRAD
+2 PLAC Peterson HS, Peterson, IA, USA
+1 OCCU Homemaker
+1 FACT Ralph attended Iowa State College in Ames, Iowa for a short while.
+1 FACT Dwight loved flying and eventually earned his commercial pilot's license.
+1 FAMS @F61@
+1 FAMC @F60@
+0 @I183@ INDI
+1 NAME Dwight Allen /Chatterton/
+2 GIVN Dwight Allen
+2 SURN Chatterton
+1 REFN CustomGenCode:AF2A1
+1 SEX M
+1 BIRT
+2 DATE 29 Nov 1913
+2 PLAC , Des Moines, IA, USA
+1 GRAD
+2 DATE May 1931
+2 PLAC Peterson HS, Peterson, IA, USA
+1 DEAT
+2 DATE 21 Nov 1982
+1 OCCU Flight Engineer for Lockheed Aircraft, Teacher & helped deliver planes to many foreign countries.
+1 FACT Ralph attended Iowa State College in Ames, Iowa for a short while.
+1 FACT Dwight loved flying and eventually earned his commercial pilot's license.
+1 FAMS @F61@
+1 FAMC @F134@
+0 @I184@ INDI
+1 NAME Michael Jon /Chatterton/
+2 GIVN Michael Jon
+2 SURN Chatterton
+1 REFN CustomGenCode:AF2AA
+1 SEX M
+1 BIRT
+2 DATE 8 Oct 1943
+1 FAMS @F62@
+1 FAMC @F61@
+0 @I185@ INDI
+1 NAME Lauri Jean /Smith/
+2 GIVN Lauri Jean
+2 SURN Smith
+1 REFN CustomGenCode:AF2AA1
+1 SEX F
+1 BIRT
+2 DATE 28 Jan 1950
+1 OCCU Homemaker
+1 FAMS @F62@
+0 @I186@ INDI
+1 NAME Larin Liana /Chatterton/
+2 GIVN Larin Liana
+2 SURN Chatterton
+1 REFN CustomGenCode:AF2AAA
+1 BIRT
+2 DATE 15 Apr 1973
+1 FAMC @F62@
+0 @I187@ INDI
+1 NAME Brian Allen /Chatterton/
+2 GIVN Brian Allen
+2 SURN Chatterton
+1 REFN CustomGenCode:AF2AAB
+1 BIRT
+2 DATE 1 Jun 1980
+1 FAMC @F62@
+0 @I188@ INDI
+1 NAME Mark Kevin /Chatterton/
+2 GIVN Mark Kevin
+2 SURN Chatterton
+1 REFN CustomGenCode:AF2AB
+1 SEX M
+1 BIRT
+2 DATE 26 Apr 1947
+1 FAMS @F63@
+1 FAMS @F64@
+1 FAMC @F61@
+0 @I189@ INDI
+1 NAME Cathryn /Fowler/
+2 GIVN Cathryn
+2 SURN Fowler
+1 REFN CustomGenCode:AF2AB1
+1 SEX F
+1 FAMS @F63@
+0 @I190@ INDI
+1 NAME Juanita /Hale/
+2 GIVN Juanita
+2 SURN Hale
+1 REFN CustomGenCode:AF2AB2
+1 SEX F
+1 BIRT
+2 DATE 14 Nov 1949
+1 OCCU Homemaker
+1 FAMS @F64@
+0 @I191@ INDI
+1 NAME Shawna Marie /Chatterton/
+2 GIVN Shawna Marie
+2 SURN Chatterton
+1 REFN CustomGenCode:AF2AB2A
+1 BIRT
+2 DATE 30 Nov 1971
+1 FAMC @F64@
+0 @I192@ INDI
+1 NAME Annalise Amber /Chatterton/
+2 GIVN Annalise Amber
+2 SURN Chatterton
+1 REFN CustomGenCode:AF2AB2B
+1 BIRT
+2 DATE 18 Apr 1974
+1 FAMC @F64@
+0 @I193@ INDI
+1 NAME Sheridan Jean /Chatterton/
+2 GIVN Sheridan Jean
+2 SURN Chatterton
+1 REFN CustomGenCode:AF2AB2C
+1 BIRT
+2 DATE 24 Apr 1982
+1 FAMC @F64@
+0 @I194@ INDI
+1 NAME Nathan Hilton /Batcheler/
+2 GIVN Nathan Hilton
+2 SURN Batcheler
+1 REFN CustomGenCode:AG
+1 SEX M
+1 BIRT
+2 DATE 30 Aug 1884
+2 PLAC Batcheler Home, Peterson, IA, USA
+1 DEAT
+2 DATE Jul 1958
+1 OCCU Methodist Minister near Lake Park, IA from 1928 to 1932.
+1 FAMS @F65@
+1 FAMS @F82@
+1 FAMC @F0@
+0 @I195@ INDI
+1 NAME Clare Mae /Dearing/
+2 GIVN Clare Mae
+2 SURN Dearing
+1 REFN CustomGenCode:AG1
+1 SEX F
+1 BIRT
+2 DATE 7 Jan 1906
+1 DEAT
+2 DATE Sep 1944
+1 OCCU Homemaker
+1 FAMS @F65@
+0 @I196@ INDI
+1 NAME Alliene Virgina /Batcheler/
+2 GIVN Alliene Virgina
+2 SURN Batcheler
+1 REFN CustomGenCode:AG1A
+1 SEX F
+1 BIRT
+2 DATE 18 Apr 1924
+2 PLAC Batcheler Home, Ledyard, IA, USA
+1 BAPM
+2 DATE Jul 1924
+2 PLAC Methodist Parsonage, Ledyard, IA, USA
+1 CONF
+2 DATE Aug 1937
+2 PLAC Maple Grove Church of God, Peterson, IA, USA
+1 GRAD
+2 DATE 23 May 1941
+2 PLAC Peterson HS, Peterson, IA, USA
+1 OCCU Homemaker. She was Registrar of Goodman Memorial Theater, School of Dramatic Art with the Art Institute of Chicago & a Real Estate broker in North Carolina.
+1 FACT Alliene attended College at Northwestern Chicago Campus.  Charles attended Bryandt & Stratton Business College earning a 1 year Certificate.
+1 FACT They have both been active in the Methodist church. Alliene has been active in the United Methodist Womens Society.
+1 FACT Charles served in the US Army Air Corps as an Administrative Sergeant in the European Theater achieving a rank of Sargeant.
+1 FACT Alliene was a member of Epsilon Eta Phi, a Business & Professional Womens Sorority. She is a member of the West Jefferson Womens Club in NC & the Blue Ridge Writers Club. Charles is past President Jeffersons Rotary & Paul Harris Fellow.
+1 FACT Alliene is a professional Grandmother.  She is an ameture writter.  Charles was active in the Chicago Suburban Veterans Chorus. He also sang in Methodist Church choirs.
+1 FACT Identical twins.
+1 FAMS @F66@
+1 FAMC @F65@
+0 @I197@ INDI
+1 NAME Charles Franklin /Stierwalt/
+2 GIVN Charles Franklin
+2 SURN Stierwalt
+1 REFN CustomGenCode:AG1A1
+1 SEX M
+1 BIRT
+2 DATE 27 Sep 1915
+2 PLAC Washington Co. Hosp. Washington, IA, USA
+1 BAPM
+2 DATE Oct 1915
+2 PLAC First Methodist, Washington, IA, USA
+1 GRAD
+2 DATE Jan 1934
+2 PLAC North HS, Des Moines, IA, USA
+1 OCCU Department of Defense Administrator, Real Estate Broker in North Carolina.
+1 FACT Alliene attended College at Northwestern Chicago Campus.  Charles attended Bryandt & Stratton Business College earning a 1 year Certificate.
+1 FACT They have both been active in the Methodist church. Alliene has been active in the United Methodist Womens Society.
+1 FACT Charles served in the US Army Air Corps as an Administrative Sergeant in the European Theater achieving a rank of Sargeant.
+1 FACT Alliene was a member of Epsilon Eta Phi, a Business & Professional Womens Sorority. She is a member of the West Jefferson Womens Club in NC & the Blue Ridge Writers Club. Charles is past President Jeffersons Rotary & Paul Harris Fellow.
+1 FACT Alliene is a professional Grandmother.  She is an ameture writter.  Charles was active in the Chicago Suburban Veterans Chorus. He also sang in Methodist Church choirs.
+1 FACT Identical twins.
+1 FAMS @F66@
+1 FAMC @F135@
+0 @I198@ INDI
+1 NAME Carolyn June /Stierwalt/
+2 GIVN Carolyn June
+2 SURN Stierwalt
+1 REFN CustomGenCode:AG1AA
+1 SEX F
+1 BIRT
+2 DATE 24 Oct 1957
+2 PLAC Hinsdale Sanitorium, Hinsdale, IL. USA
+1 BAPM
+2 DATE May 1958
+2 PLAC First Methodist, Downers Grove, IL, USA
+1 GRAD
+2 DATE May 1976
+2 PLAC Beaver Creek HS, West Jefferson, NC, USA
+1 OCCU Homemaker.  Religious Program Specialist in the US Navy.
+1 FAMS @F67@
+1 FAMC @F66@
+0 @I199@ INDI
+1 NAME James Everett /Thompson/ Jr
+2 GIVN James Everett
+2 SURN Thompson
+1 REFN CustomGenCode:AG1AA1
+1 SEX M
+1 BIRT
+2 DATE 25 Sep 1964
+1 FAMS @F67@
+1 FAMC @F136@
+0 @I200@ INDI
+1 NAME Victoria Lynn /Thompson/
+2 GIVN Victoria Lynn
+2 SURN Thompson
+1 REFN CustomGenCode:AG1AAA
+1 BIRT
+2 DATE 23 May 1989
+1 FAMC @F67@
+0 @I201@ INDI
+1 NAME Rebekah Lee /Thompson/
+2 GIVN Rebekah Lee
+2 SURN Thompson
+1 REFN CustomGenCode:AG1AAB
+1 BIRT
+2 DATE 24 Dec 1992
+1 FAMC @F67@
+0 @I202@ INDI
+1 NAME Amanda June /Thompson/
+2 GIVN Amanda June
+2 SURN Thompson
+1 REFN CustomGenCode:AG1AAC
+1 BIRT
+2 DATE 15 Feb 1994
+1 FAMC @F67@
+0 @I203@ INDI
+1 NAME Gerald Hilton /Stierwalt/
+2 GIVN Gerald Hilton
+2 SURN Stierwalt
+1 REFN CustomGenCode:AG1AB
+1 SEX M
+1 BIRT
+2 DATE 31 Oct 1961
+2 PLAC Melbourne Hosp. Melbourne, FL, USA
+1 BAPM
+2 DATE Apr 1962
+2 PLAC Methodist Church, Indianalantic, FL, USA
+1 CONF
+2 DATE 1975
+2 PLAC Bethany Methodist, West Jefferson, NC,USA
+1 GRAD
+2 DATE May 1981
+2 PLAC Beaver Creek HS, West Jefferson, NC, USA
+1 OCCU Assistant Chief of Engineering in City Center Mariott Hotel, Charlotte, NC.
+1 FAMS @F68@
+1 FAMC @F66@
+0 @I204@ INDI
+1 NAME Carol Ann /Bowen/
+2 GIVN Carol Ann
+2 SURN Bowen
+1 REFN CustomGenCode:AG1AB1
+1 SEX F
+1 BIRT
+2 DATE 8 Sep 1961
+1 OCCU Homemaker
+1 FAMS @F68@
+0 @I205@ INDI
+1 NAME Christopher Thompson /Stierwalt/
+2 GIVN Christopher Thompson
+2 SURN Stierwalt
+1 NAME Thomas?
+2 TYPE aka
+2 GIVN Thomas?
+1 REFN CustomGenCode:AG1ABA
+1 BIRT
+2 DATE 3 Dec 1984
+1 FAMC @F68@
+0 @I206@ INDI
+1 NAME Harold Franklin /Stierwalt/
+2 GIVN Harold Franklin
+2 SURN Stierwalt
+1 REFN CustomGenCode:AG1AC
+1 BIRT
+2 DATE 31 Oct 1961
+2 PLAC Melbourne Hosp. Melbourne, FL, USA
+1 BAPM
+2 DATE Apr 1962
+2 PLAC Methodist Church, Indianalantic, FL, USA
+1 CONF
+2 DATE 1975
+2 PLAC Bethany Methodist, West Jefferson, NC,USA
+1 GRAD
+2 DATE May 1980
+2 PLAC Beaver Creek HS, West Jefferson, NC, USA
+1 OCCU Retail Shoe Store Manager.
+1 FAMS @F69@
+1 FAMC @F66@
+0 @I207@ INDI
+1 NAME Polly Alemeda /Robinson/
+2 GIVN Polly Alemeda
+2 SURN Robinson
+1 REFN CustomGenCode:AG1AC1
+1 BIRT
+2 DATE 13 Nov 1966
+1 OCCU & Secretarial Bookkeeper for Lowes Hardware Corp. office in North Wilksboro, NC.
+1 FAMS @F69@
+0 @I208@ INDI
+1 NAME Phyllis Mae /Batcheler/
+2 GIVN Phyllis Mae
+2 SURN Batcheler
+1 REFN CustomGenCode:AG1B
+1 SEX F
+1 BIRT
+2 DATE 3 Dec 1927
+1 OCCU Homemaker
+1 FAMS @F70@
+1 FAMS @F73@
+1 FAMC @F65@
+0 @I209@ INDI
+1 NAME Warner George /Winterboer/
+2 GIVN Warner George
+2 SURN Winterboer
+1 REFN CustomGenCode:AG1B1
+1 SEX M
+1 FAMS @F70@
+0 @I210@ INDI
+1 NAME Gloria Louise /Winterboer/
+2 GIVN Gloria Louise
+2 SURN Winterboer
+1 REFN CustomGenCode:AG1B1A
+1 SEX F
+1 BIRT
+2 DATE 17 Dec 1952
+1 OCCU Homemaker
+1 FAMS @F71@
+1 FAMC @F70@
+0 @I211@ INDI
+1 NAME Jack /Taylor/
+2 GIVN Jack
+2 SURN Taylor
+1 REFN CustomGenCode:AG1B1A1
+1 SEX M
+1 FAMS @F71@
+0 @I212@ INDI
+1 NAME Aaron James /Taylor/
+2 GIVN Aaron James
+2 SURN Taylor
+1 REFN CustomGenCode:AG1B1AA
+1 BIRT
+2 DATE 28 Sep 1976
+1 FAMC @F71@
+0 @I213@ INDI
+1 NAME Amy Joy /Taylor/
+2 GIVN Amy Joy
+2 SURN Taylor
+1 REFN CustomGenCode:AG1B1AB
+1 BIRT
+2 DATE 19 Dec 1978
+1 FAMC @F71@
+0 @I214@ INDI
+1 NAME Diane Marie /Winterboer/
+2 GIVN Diane Marie
+2 SURN Winterboer
+1 REFN CustomGenCode:AG1B1B
+1 BIRT
+2 DATE 1 Dec 1953
+1 OCCU Homemaker
+1 FAMS @F72@
+1 FAMC @F70@
+0 @I215@ INDI
+1 NAME Ralph /Ferguson/
+2 GIVN Ralph
+2 SURN Ferguson
+1 REFN CustomGenCode:AG1B1B1
+1 FAMS @F72@
+0 @I216@ INDI
+1 NAME Muncie Upton /Kittleman/
+2 GIVN Muncie Upton
+2 SURN Kittleman
+1 REFN CustomGenCode:AG1B2
+1 SEX M
+1 BIRT
+2 DATE 13 Mar 1931
+1 FAMS @F73@
+0 @I217@ INDI
+1 NAME Wesley Wittmore /Batcheler/
+2 GIVN Wesley Wittmore
+2 SURN Batcheler
+1 REFN CustomGenCode:AG1C
+1 SEX M
+1 BIRT
+2 DATE 13 Sep 1929
+1 FAMS @F74@
+1 FAMC @F65@
+0 @I218@ INDI
+1 NAME Jessie Bethina /Reed/
+2 GIVN Jessie Bethina
+2 SURN Reed
+1 REFN CustomGenCode:AG1C1
+1 SEX F
+1 BIRT
+2 DATE 24 Oct 1931
+1 OCCU Homemaker
+1 FAMS @F74@
+0 @I219@ INDI
+1 NAME Kathy Lou /Batcheler/
+2 GIVN Kathy Lou
+2 SURN Batcheler
+1 REFN CustomGenCode:AG1CA
+1 SEX F
+1 BIRT
+2 DATE 25 Jul 1951
+1 OCCU Homemaker
+1 FAMS @F75@
+1 FAMC @F74@
+0 @I220@ INDI
+1 NAME Samuel /Edmonds/
+2 GIVN Samuel
+2 SURN Edmonds
+1 REFN CustomGenCode:AG1CA1
+1 SEX M
+1 FAMS @F75@
+0 @I221@ INDI
+1 NAME Nathan Dale /Edmonds/
+2 GIVN Nathan Dale
+2 SURN Edmonds
+1 REFN CustomGenCode:AG1CAA
+1 BIRT
+2 DATE 5 Oct 1978
+1 FAMC @F75@
+0 @I222@ INDI
+1 NAME Thomas Wesley /Edmonds/
+2 GIVN Thomas Wesley
+2 SURN Edmonds
+1 REFN CustomGenCode:AG1CAB
+1 BIRT
+2 DATE 11 Sep 1980
+1 FAMC @F75@
+0 @I223@ INDI
+1 NAME Karen Faye - /Batcheler/
+2 GIVN Karen Faye -
+2 SURN Batcheler
+1 REFN CustomGenCode:AG1CB
+1 SEX F
+1 BIRT
+2 DATE 26 Jul 1954
+1 OCCU Homemaker
+1 FAMS @F76@
+1 FAMS @F77@
+1 FAMS @F78@
+1 FAMC @F74@
+0 @I224@ INDI
+1 NAME Dan Joseph /Karleskint/
+2 GIVN Dan Joseph
+2 SURN Karleskint
+1 REFN CustomGenCode:AG1CB1
+1 SEX M
+1 FAMS @F76@
+0 @I225@ INDI
+1 NAME Angie /Karleskint/
+2 GIVN Angie
+2 SURN Karleskint
+1 REFN CustomGenCode:AG1CB1A
+1 BIRT
+2 DATE 15 May 1971
+1 FAMC @F76@
+0 @I226@ INDI
+1 NAME Richard /Carpenter/
+2 GIVN Richard
+2 SURN Carpenter
+1 REFN CustomGenCode:AG1CB2
+1 SEX M
+1 FAMS @F77@
+0 @I227@ INDI
+1 NAME George Michael /Anderson/
+2 GIVN George Michael
+2 SURN Anderson
+1 REFN CustomGenCode:AG1CB3
+1 SEX M
+1 BIRT
+2 DATE 21 Feb 1947
+1 FAMS @F78@
+0 @I228@ INDI
+1 NAME Andrea Jade /Anderson/
+2 GIVN Andrea Jade
+2 SURN Anderson
+1 REFN CustomGenCode:AG1CB3A
+1 SEX F
+1 BIRT
+2 DATE 21 Nov 1979
+1 OCCU Homemaker
+1 FAMS @F79@
+1 FAMC @F78@
+0 @I229@ INDI
+1 NAME Jason Matthew /Fogleman/
+2 GIVN Jason Matthew
+2 SURN Fogleman
+1 REFN CustomGenCode:AG1CB3A1
+1 SEX M
+1 BIRT
+2 DATE Nov 1978
+1 FAMS @F79@
+0 @I230@ INDI
+1 NAME Nathaniel Matthew /Fogleman/
+2 GIVN Nathaniel Matthew
+2 SURN Fogleman
+1 REFN CustomGenCode:AG1CB3AA
+1 BIRT
+2 DATE 15 May 1996
+1 FAMC @F79@
+0 @I231@ INDI
+1 NAME Christopher William /Anderson/
+2 GIVN Christopher William
+2 SURN Anderson
+1 REFN CustomGenCode:AG1CB3B
+1 BIRT
+2 DATE 12 Dec 1981
+1 FAMC @F78@
+0 @I232@ INDI
+1 NAME Melanie Elizabeth /Anderson/
+2 GIVN Melanie Elizabeth
+2 SURN Anderson
+1 REFN CustomGenCode:AG1CB3C
+1 BIRT
+2 DATE 16 Aug 1987
+1 FAMC @F78@
+0 @I233@ INDI
+1 NAME Dennis J /Batcheler/
+2 GIVN Dennis J
+2 SURN Batcheler
+1 REFN CustomGenCode:AG1CC
+1 SEX M
+1 BIRT
+2 DATE 15 Jul 1958
+1 FAMS @F80@
+1 FAMS @F81@
+1 FAMC @F74@
+0 @I234@ INDI
+1 NAME Cheryl Ann /Parsons/
+2 GIVN Cheryl Ann
+2 SURN Parsons
+1 REFN CustomGenCode:AG1CC1
+1 SEX F
+1 OCCU Homemaker
+1 FAMS @F80@
+0 @I235@ INDI
+1 NAME Shannon Jay /Batcheler/
+2 GIVN Shannon Jay
+2 SURN Batcheler
+1 REFN CustomGenCode:AG1CC1A
+1 BIRT
+2 DATE 5 Oct 1978
+1 FAMC @F80@
+0 @I236@ INDI
+1 NAME Sammy Lou /Rinker/
+2 GIVN Sammy Lou
+2 SURN Rinker
+1 REFN CustomGenCode:AG1CC2
+1 SEX F
+1 BIRT
+2 DATE 30 Dec 1955
+1 OCCU Homemaker
+1 FAMS @F81@
+0 @I237@ INDI
+1 NAME Maggie May /Flint/
+2 GIVN Maggie May
+2 SURN Flint
+1 REFN CustomGenCode:AG2
+1 SEX F
+1 DEAT
+2 DATE Aug 1965
+1 OCCU Homemaker
+1 FAMS @F82@
+0 @I238@ INDI
+1 NAME Cora Belle /Batcheler/
+2 GIVN Cora Belle
+2 SURN Batcheler
+1 REFN CustomGenCode:AH
+1 SEX F
+1 BIRT
+2 DATE 17 Jun 1889
+2 PLAC Batcheler Home, Peterson, IA, USA
+1 DEAT
+2 DATE 10 Nov 1947
+1 OCCU Homemaker
+1 FAMS @F83@
+1 FAMC @F0@
+0 @I239@ INDI
+1 NAME Charles /Joenks/
+2 GIVN Charles
+2 SURN Joenks
+1 REFN CustomGenCode:AH1
+1 SEX M
+1 BIRT
+2 DATE 13 Apr 1886
+1 DEAT
+2 DATE 17 Jul 1970
+1 FAMS @F83@
+0 @I240@ INDI
+1 NAME Kenneth Clarence /Joenks/
+2 GIVN Kenneth Clarence
+2 SURN Joenks
+1 REFN CustomGenCode:AHA
+1 SEX M
+1 BIRT
+2 DATE 21 Mar 1911
+1 DEAT
+2 DATE 14 Jul 1989
+1 FAMS @F84@
+1 FAMC @F83@
+0 @I241@ INDI
+1 NAME Hila Dorothea /Plagman/
+2 GIVN Hila Dorothea
+2 SURN Plagman
+1 REFN CustomGenCode:AHA1
+1 SEX F
+1 BIRT
+2 DATE 5 Sep 1916
+1 OCCU Homemaker
+1 FAMS @F84@
+0 @I242@ INDI
+1 NAME Ronnie Eugene /Joenks/
+2 GIVN Ronnie Eugene
+2 SURN Joenks
+1 REFN CustomGenCode:AHAA
+1 SEX M
+1 BIRT
+2 DATE 23 Nov 1940
+1 FAMS @F85@
+1 FAMC @F84@
+0 @I243@ INDI
+1 NAME Barbara Lee /Williams/
+2 GIVN Barbara Lee
+2 SURN Williams
+1 REFN CustomGenCode:AHAA1
+1 SEX F
+1 BIRT
+2 DATE 30 Mar 1942
+1 OCCU Homemaker
+1 FAMS @F85@
+0 @I244@ INDI
+1 NAME Neil Alan /Joenks/
+2 GIVN Neil Alan
+2 SURN Joenks
+1 REFN CustomGenCode:AHAAA
+1 SEX M
+1 BIRT
+2 DATE 17 Apr 1960
+1 FAMS @F86@
+1 FAMS @F87@
+1 FAMC @F85@
+0 @I245@ INDI
+1 NAME Julie Ann /Black/
+2 GIVN Julie Ann
+2 SURN Black
+1 REFN CustomGenCode:AHAAA1
+1 SEX F
+1 BIRT
+2 DATE 22 Mar 1960
+1 OCCU Homemaker
+1 FAMS @F86@
+0 @I246@ INDI
+1 NAME Catherine N /Nelson/
+2 GIVN Catherine N
+2 SURN Nelson
+1 REFN CustomGenCode:AHAAA2
+1 SEX F
+1 BIRT
+2 DATE 16 Sep 1957
+1 OCCU Homemaker
+1 FACT * Catherine's children from a previous marriage.
+1 FAMS @F87@
+1 FAMS @F151@
+0 @I247@ INDI
+1 NAME John Dallus /Vaughn/
+2 GIVN John Dallus
+2 SURN Vaughn
+1 REFN CustomGenCode:AHAAA2a
+1 BIRT
+2 DATE 27 Aug 1976
+0 @I248@ INDI
+1 NAME Heather Marie /Vaughn/
+2 GIVN Heather Marie
+2 SURN Vaughn
+1 REFN CustomGenCode:AHAAA2b
+1 BIRT
+2 DATE 17 Jul 1980
+0 @I249@ INDI
+1 NAME Bonnie Lee /Joenks/
+2 GIVN Bonnie Lee
+2 SURN Joenks
+1 REFN CustomGenCode:AHAAA2C
+1 BIRT
+2 DATE 8 Oct 1982
+1 FAMC @F87@
+0 @I250@ INDI
+1 NAME Nicole Lynn /Joenks/
+2 GIVN Nicole Lynn
+2 SURN Joenks
+1 REFN CustomGenCode:AHAAA2D
+1 BIRT
+2 DATE 23 Jun 1986
+1 FAMC @F87@
+0 @I251@ INDI
+1 NAME Shannon Kay /Joenks/
+2 GIVN Shannon Kay
+2 SURN Joenks
+1 REFN CustomGenCode:AHAAB
+1 SEX F
+1 BIRT
+2 DATE 9 Dec 1961
+1 OCCU Homemaker
+1 FAMS @F88@
+1 FAMC @F85@
+0 @I252@ INDI
+1 NAME Larry H /VanDaalen/
+2 GIVN Larry H
+2 SURN VanDaalen
+1 REFN CustomGenCode:AHAAB1
+1 SEX M
+1 BIRT
+2 DATE 12 Mar 1961
+1 FAMS @F88@
+0 @I253@ INDI
+1 NAME Amanda Kay /VanDaalen/
+2 GIVN Amanda Kay
+2 SURN VanDaalen
+1 REFN CustomGenCode:AHAABA
+1 BIRT
+2 DATE 24 Sep 1988
+1 FAMC @F88@
+0 @I254@ INDI
+1 NAME Jason Alan /VanDaalen/
+2 GIVN Jason Alan
+2 SURN VanDaalen
+1 NAME Allan?
+2 TYPE aka
+2 GIVN Allan?
+1 REFN CustomGenCode:AHAABB
+1 BIRT
+2 DATE 2 Apr 1990
+1 FAMC @F88@
+0 @I255@ INDI
+1 NAME Crystal Lee /VanDaalen/
+2 GIVN Crystal Lee
+2 SURN VanDaalen
+1 REFN CustomGenCode:AHAABC
+1 BIRT
+2 DATE 9 Apr 1993
+1 FAMC @F88@
+0 @I256@ INDI
+1 NAME Scott William /VanDaalen/
+2 GIVN Scott William
+2 SURN VanDaalen
+1 REFN CustomGenCode:AHAABD
+1 BIRT
+2 DATE 14 Jul 1995
+1 FAMC @F88@
+0 @I257@ INDI
+1 NAME James Ward /Joenks/
+2 GIVN James Ward
+2 SURN Joenks
+1 REFN CustomGenCode:AHAAC
+1 BIRT
+2 DATE 9 Jul 1963
+1 FAMS @F89@
+1 FAMS @F90@
+1 FAMC @F85@
+0 @I258@ INDI
+1 NAME Leslie M /Gilbertson/
+2 GIVN Leslie M
+2 SURN Gilbertson
+1 REFN CustomGenCode:AHAAC1
+1 BIRT
+2 DATE 13 Dec 1965
+1 OCCU Homemaker
+1 FAMS @F89@
+0 @I259@ INDI
+1 NAME Jeanna /Larson/
+2 GIVN Jeanna
+2 SURN Larson
+1 REFN CustomGenCode:AHAAC2
+1 OCCU Homemaker
+1 FAMS @F90@
+0 @I260@ INDI
+1 NAME Judy Jo /Joenks/
+2 GIVN Judy Jo
+2 SURN Joenks
+1 REFN CustomGenCode:AHAB
+1 SEX F
+1 BIRT
+2 DATE 6 Jul 1946
+1 OCCU Homemaker
+1 FAMS @F91@
+1 FAMC @F84@
+0 @I261@ INDI
+1 NAME Ronny Jon /Langholz/
+2 GIVN Ronny Jon
+2 SURN Langholz
+1 REFN CustomGenCode:AHAB1
+1 SEX M
+1 BIRT
+2 DATE 18 Jun 1945
+1 FAMS @F91@
+0 @I262@ INDI
+1 NAME Kelly Joe /Langholz/
+2 GIVN Kelly Joe
+2 SURN Langholz
+1 NAME Kelley?
+2 TYPE aka
+2 GIVN Kelley?
+1 REFN CustomGenCode:AHABA
+1 BIRT
+2 DATE 15 Apr 1967
+1 FAMS @F92@
+1 FAMC @F91@
+0 @I263@ INDI
+1 NAME Rebecca Sue /Cooper/
+2 GIVN Rebecca Sue
+2 SURN Cooper
+1 REFN CustomGenCode:AHABA1
+1 BIRT
+2 DATE 4 May 1962
+1 OCCU Homemaker
+1 FAMS @F92@
+0 @I264@ INDI
+1 NAME Kent Daniel /Langholz/
+2 GIVN Kent Daniel
+2 SURN Langholz
+1 REFN CustomGenCode:AHABB
+1 BIRT
+2 DATE 20 Aug 1968
+1 FAMS @F93@
+1 FAMC @F91@
+0 @I265@ INDI
+1 NAME Angela Marie /Hagedorn/
+2 GIVN Angela Marie
+2 SURN Hagedorn
+1 REFN CustomGenCode:AHABB1
+1 BIRT
+2 DATE 30 Jun 1968
+1 OCCU Homemaker
+1 FAMS @F93@
+0 @I266@ INDI
+1 NAME Melvin Charles /Joenks/
+2 GIVN Melvin Charles
+2 SURN Joenks
+1 REFN CustomGenCode:AHB
+1 SEX M
+1 BIRT
+2 DATE 17 Jan 1920
+1 FAMS @F94@
+1 FAMC @F83@
+0 @I267@ INDI
+1 NAME Marilyn Joan /Paine/
+2 GIVN Marilyn Joan
+2 SURN Paine
+1 NAME Marlyn?
+2 TYPE aka
+2 GIVN Marlyn?
+1 REFN CustomGenCode:AHB1
+1 SEX F
+1 BIRT
+2 DATE 16 Jun 1932
+1 DEAT
+2 DATE 29 Mar 1987
+1 OCCU Homemaker
+1 FAMS @F94@
+0 @I268@ INDI
+1 NAME Melva Joy /Joenks/
+2 GIVN Melva Joy
+2 SURN Joenks
+1 REFN CustomGenCode:AHBA
+1 BIRT
+2 DATE 24 Nov 1967
+1 DEAT
+2 DATE 24 Nov 1967
+1 FAMC @F94@
+0 @I269@ INDI
+1 NAME Marvin Charles /Joenks/
+2 GIVN Marvin Charles
+2 SURN Joenks
+1 REFN CustomGenCode:AHBB
+1 BIRT
+2 DATE 24 Nov 1968
+1 FAMC @F94@
+0 @I270@ INDI
+1 NAME Mark Samuel /Joenks/
+2 GIVN Mark Samuel
+2 SURN Joenks
+1 REFN CustomGenCode:AHBC
+1 BIRT
+2 DATE 10 May 1972
+1 FAMC @F94@
+0 @I271@ INDI
+1 NAME Clara Mae /Batcheler/
+2 GIVN Clara Mae
+2 SURN Batcheler
+1 REFN CustomGenCode:AI
+1 SEX F
+1 BIRT
+2 DATE 17 Jun 1889
+2 PLAC Batcheler Home, Peterson, IA, USA
+1 DEAT
+2 DATE 21 Aug 1971
+2 PLAC Oakland Cem. Peterson, IA, USA
+1 OCCU Homemaker
+1 FACT They were active in the Maple Church of Christ, in Sutherland, where he held offices for 61 years.
+1 FACT Clarence served in the US Army during WWI.  He joined the American Legion in 1919 and served as Chaplain of Post #10 in Peterson for 50 years. He was Adjutant for 2 years & Chaplain for 2 years in district #9.
+1 FACT He served on the Selective Service Board for 11 Years, was Scout Master for 8 years and a Youth Camp volunteer for 23 years.
+1 FAMS @F95@
+1 FAMC @F0@
+0 @I272@ INDI
+1 NAME Clarence Edward /Webster/
+2 GIVN Clarence Edward
+2 SURN Webster
+1 REFN CustomGenCode:AI1
+1 SEX M
+1 BIRT
+2 DATE 29 May 1894
+1 DEAT
+2 DATE 23 Jun 1980
+2 PLAC Oakland Cem. Peterson, IA, USA
+1 OCCU Farmer.  He worked for the Neighbors Telephone Co. for 18 years (9 as President).  He was township assessor for 8 years, county supervisor for 9 years & county adjuster  for 2 years.
+1 FACT They were active in the Maple Church of Christ, in Sutherland, where he held offices for 61 years.
+1 FACT Clarence served in the US Army during WWI.  He joined the American Legion in 1919 and served as Chaplain of Post #10 in Peterson for 50 years. He was Adjutant for 2 years & Chaplain for 2 years in district #9.
+1 FACT He served on the Selective Service Board for 11 Years, was Scout Master for 8 years and a Youth Camp volunteer for 23 years.
+1 FAMS @F95@
+0 @I273@ INDI
+1 NAME Dorothy Etta /Webster/
+2 GIVN Dorothy Etta
+2 SURN Webster
+1 REFN CustomGenCode:AIA
+1 SEX F
+1 BIRT
+2 DATE 9 Aug 1922
+1 GRAD
+2 DATE 23 May 1941
+2 PLAC Peterson HS, Peterson, IA, USA
+1 DEAT
+2 DATE 16 Apr 1985
+1 OCCU Homemaker
+1 FAMS @F96@
+1 FAMC @F95@
+0 @I274@ INDI
+1 NAME Everett Casper /Winterboer/
+2 GIVN Everett Casper
+2 SURN Winterboer
+1 NAME Kasper?
+2 TYPE aka
+2 GIVN Kasper?
+1 REFN CustomGenCode:AIA1
+1 SEX M
+1 BIRT
+2 DATE 15 Dec 1924
+1 FAMS @F96@
+0 @I275@ INDI
+1 NAME Wanda Jean /Winterboer/
+2 GIVN Wanda Jean
+2 SURN Winterboer
+1 REFN CustomGenCode:AIAA
+1 BIRT
+2 DATE 16 Dec 1952
+1 OCCU Homemaker
+1 FAMS @F97@
+1 FAMC @F96@
+0 @I276@ INDI
+1 NAME Bill /Williams/
+2 GIVN Bill
+2 SURN Williams
+1 REFN CustomGenCode:AIAA1
+1 FAMS @F97@
+0 @I277@ INDI
+1 NAME JoAnn Kay /Winterboer/
+2 GIVN JoAnn Kay
+2 SURN Winterboer
+1 REFN CustomGenCode:AIAB
+1 SEX F
+1 BIRT
+2 DATE 12 Mar 1954
+2 PLAC , Spencer, IA, USA
+1 BAPM
+2 DATE 1980
+2 PLAC United Methodist Church, Peterson, IA, USA
+1 CONF
+2 DATE 1969
+2 PLAC United Methodist, Peterson, IA, USA
+1 GRAD
+2 DATE May 1972
+2 PLAC Sioux Valley HS, Linn Grove, IA, USA
+1 OCCU Homemaker, Bank Loan Secretary, Real Estate Agent & Life Insurance Agent.
+1 FACT JoAnn attended Iowa Lakes Community College studing both Business & Realty.
+1 FACT JoAnn is a member of United Methodist in Peterson.  She was Sunday School Supt for many years, is Parish Treasurer & is active in Esther Circle.  Paul is a member of Trinity Lutheran Church in Linn Grove.
+1 FACT JoAnn has been a City Council member for 6 yrs. She organized a Bike-A-Thon & worked with both the Heart Association Fund Drive & the Booster Club. Paul is active in the Little Sioux Country Club, the men's Jaycees (past President) & a C.R.U.
+2 CONC member.
+1 FACT They both enjoy watching their daughter participate in sport events. They like shopping, canoeing, swimming & reading.  Paul enjoys his golf.
+1 FACT Paul played an active role in bringing Cable TV to Peterson. He is also active in raising funds for the C.R.U. ambulance.
+1 FAMS @F98@
+1 FAMC @F96@
+0 @I278@ INDI
+1 NAME Paul Brainard /Anderson/
+2 GIVN Paul Brainard
+2 SURN Anderson
+1 REFN CustomGenCode:AIAB1
+1 SEX M
+1 BIRT
+2 DATE 4 Jun 1954
+2 PLAC Spencer Municipal Hosp. Spencer, IA, USA
+1 BAPM
+2 DATE 1954
+2 PLAC Trinity Lutheran Church Linn Grove, IA, USA
+1 CONF
+2 DATE 1969
+2 PLAC Trinity Lutheran Church Linn Grove, IA, USA
+1 GRAD
+2 DATE May 1972
+2 PLAC Sioux Valley HS, Linn Grove, IA, USA
+1 FACT JoAnn attended Iowa Lakes Community College studing both Business & Realty.
+1 FACT JoAnn is a member of United Methodist in Peterson.  She was Sunday School Supt for many years, is Parish Treasurer & is active in Esther Circle.  Paul is a member of Trinity Lutheran Church in Linn Grove.
+1 FACT JoAnn has been a City Council member for 6 yrs. She organized a Bike-A-Thon & worked with both the Heart Association Fund Drive & the Booster Club. Paul is active in the Little Sioux Country Club, the men's Jaycees (past President) & a C.R.U.
+2 CONC member.
+1 FACT They both enjoy watching their daughter participate in sport events. They like shopping, canoeing, swimming & reading.  Paul enjoys his golf.
+1 FACT Paul played an active role in bringing Cable TV to Peterson. He is also active in raising funds for the C.R.U. ambulance.
+1 FAMS @F98@
+1 FAMC @F137@
+0 @I279@ INDI
+1 NAME Venus Renee /Anderson/
+2 GIVN Venus Renee
+2 SURN Anderson
+1 REFN CustomGenCode:AIABA
+1 BIRT
+2 DATE 29 Apr 1976
+2 PLAC , Spencer, IA, USA
+1 BAPM
+2 DATE 1980
+2 PLAC United Methodist Church, Peterson, IA, USA
+1 CONF
+2 DATE 1988
+2 PLAC United Methodist, Peterson, IA, USA
+1 GRAD
+2 DATE Jun 1993
+2 PLAC Sioux Central HS, Sioux Rapids, IA, USA
+1 OCCU College Student
+1 FACT Venus is in her sophomore year at the University of South Dakota in Vermillion, majoring in the Medical field.
+1 FACT She is a member of the United Methodist in Peterson.
+1 FACT She enjoys softball, basketball, golf, volleyball, swimming & playing the piano.
+1 FAMC @F98@
+0 @I280@ INDI
+1 NAME Rena Lela /Anderson/
+2 GIVN Rena Lela
+2 SURN Anderson
+1 REFN CustomGenCode:AIABB
+1 BIRT
+2 DATE 7 May 1980
+2 PLAC Sioux Valley MemorialHosp. Cherokee, IA, USA
+1 BAPM
+2 DATE 1980
+2 PLAC United Methodist Church, Peterson, IA, USA
+1 CONF
+2 DATE 1995
+2 PLAC United Methodist, Peterson, IA, USA
+1 OCCU High School Student
+1 FACT Rena is a member of the United Methodist in Peterson.
+1 FACT Rena plays basketball & volleyball, likes swimming, golfing & reading and enjoys playing the piano, clarinet & saxaphone.
+1 FAMC @F98@
+0 @I281@ INDI
+1 NAME Jonathon Everett /Winterboer/
+2 GIVN Jonathon Everett
+2 SURN Winterboer
+1 NAME Jonathan?
+2 TYPE aka
+2 GIVN Jonathan?
+1 REFN CustomGenCode:AIAC
+1 SEX M
+1 BIRT
+2 DATE 15 Aug 1955
+1 GRAD
+2 PLAC Sioux Valley HS, Linn Grove, IA, USA
+1 OCCU Heavy equipment operator.
+1 FAMS @F99@
+1 FAMC @F96@
+0 @I282@ INDI
+1 NAME Cheryl Lynn /Clark/
+2 GIVN Cheryl Lynn
+2 SURN Clark
+1 REFN CustomGenCode:AIAC1
+1 SEX F
+1 BIRT
+2 DATE 24 May 1959
+1 GRAD
+2 PLAC Sutherland HS, Sutherland, IA, USA
+1 OCCU Homemaker
+1 FAMS @F99@
+1 FAMC @F138@
+0 @I283@ INDI
+1 NAME Leigh Jonathan /Winterboer/
+2 GIVN Leigh Jonathan
+2 SURN Winterboer
+1 NAME Jonathon?
+2 TYPE aka
+2 GIVN Jonathon?
+1 REFN CustomGenCode:AIACA
+1 BIRT
+2 DATE 16 Dec 1983
+1 FAMC @F99@
+0 @I284@ INDI
+1 NAME Donna Mae /Winterboer/
+2 GIVN Donna Mae
+2 SURN Winterboer
+1 REFN CustomGenCode:AIAD
+1 SEX F
+1 BIRT
+2 DATE 26 Jan 1958
+2 PLAC , Spencer, IA, USA
+1 BAPM
+2 DATE 4 Aug 1968
+2 PLAC Maple Grove Church, Sutherland, IA, USA
+1 GRAD
+2 DATE May 1977
+2 PLAC Sioux Valley HS, Linn Grove, IA, USA
+1 FACT Sacred Heart Catholic
+1 FACT Hunting, Fishing & Camping.
+1 FAMS @F100@
+1 FAMC @F96@
+0 @I285@ INDI
+1 NAME Joseph /Schneider/
+2 GIVN Joseph
+2 SURN Schneider
+1 REFN CustomGenCode:AIAD1
+1 SEX M
+1 BIRT
+2 DATE 14 Jan 1957
+2 PLAC , Emmetsburg, IA, USA
+1 BAPM
+2 DATE 24 Jan 1957
+2 PLAC Sacred Heart Catholic, Emmetsburg, IA,USA
+1 CONF
+2 DATE May 1966
+2 PLAC Sacred Heart Catholic, Graetinger, IA,USA
+1 GRAD
+2 DATE May 1975
+2 PLAC Ruthven HS, Ruthven, IA, USA
+1 FACT Sacred Heart Catholic
+1 FACT Hunting, Fishing & Camping.
+1 FAMS @F100@
+0 @I286@ INDI
+1 NAME Fallon Ann /Schneider/
+2 GIVN Fallon Ann
+2 SURN Schneider
+1 REFN CustomGenCode:AIADA
+1 BIRT
+2 DATE 17 Jun 1982
+2 PLAC , Spencer, IA, USA
+1 BAPM
+2 DATE 22 Aug 1982
+2 PLAC Sacred Heart Catholic, Ruthven, IA, USA
+1 CONF
+2 DATE 25 May 1989
+2 PLAC Sacred Heart Catholic, Ruthven, IA, USA
+1 FACT Sacred Heart Catholic
+1 FACT Basketball, Volleyball & drawing.
+1 FAMC @F100@
+0 @I287@ INDI
+1 NAME Jacob James /Schneider/
+2 GIVN Jacob James
+2 SURN Schneider
+1 REFN CustomGenCode:AIADB
+1 BIRT
+2 DATE 20 Aug 1985
+2 PLAC , Spencer, IA, USA
+1 BAPM
+2 DATE 11 Mar 1990
+2 PLAC Sacred Heart Catholic, Ruthven, IA, USA
+1 CONF
+2 DATE 22 May 1994
+2 PLAC Sacred Heart Catholic, Ruthven, IA, USA
+1 FACT Sacred Heart Catholic
+1 FACT Wrestling, fishing & hunting.
+1 FAMC @F100@
+0 @I288@ INDI
+1 NAME Suzanne Marie /Winterboer/
+2 GIVN Suzanne Marie
+2 SURN Winterboer
+1 REFN CustomGenCode:AIAE
+1 SEX F
+1 BIRT
+2 DATE 10 Sep 1959
+2 PLAC , Iowa City, IA, USA
+1 BAPM
+2 PLAC United Methodist Church, Peterson, IA, USA
+1 CONF
+2 PLAC United Methodist, Peterson, IA, USA
+1 GRAD
+2 DATE May 1978
+2 PLAC Sioux Valley HS, Linn Grove, IA, USA
+1 OCCU BSI - Laborer
+1 FACT United Methodist
+1 FACT Cow & Denim Day Collector.
+1 FAMS @F101@
+1 FAMC @F96@
+0 @I289@ INDI
+1 NAME Phillip Eugene /Syndergaard/
+2 GIVN Phillip Eugene
+2 SURN Syndergaard
+1 REFN CustomGenCode:AIAE1
+1 SEX M
+1 BIRT
+2 DATE 21 Jun 1955
+1 FACT United Methodist
+1 FACT Cow & Denim Day Collector.
+1 FAMS @F101@
+1 FAMS @F152@
+1 FAMC @F139@
+0 @I290@ INDI
+1 NAME Shawn Robert /Syndergaard/
+2 GIVN Shawn Robert
+2 SURN Syndergaard
+1 REFN CustomGenCode:AIAEA
+1 BIRT
+2 DATE 16 Jan 1982
+2 PLAC , Cherokee, IA, USA
+1 BAPM
+2 PLAC United Methodist Church, Peterson, IA, USA
+1 CONF
+2 DATE 23 Apr 1995
+2 PLAC Methodist Church, Sutherland, IA, USA
+1 FACT United Methodist
+1 FACT Collecting Basketball Cards & playing football.
+1 FAMC @F101@
+0 @I291@ INDI
+1 NAME Allison Ann /Syndergaard/
+2 GIVN Allison Ann
+2 SURN Syndergaard
+1 REFN CustomGenCode:AIAEB
+1 BIRT
+2 DATE 15 Apr 1985
+2 PLAC , Cherokee, IA, USA
+1 BAPM
+2 PLAC United Methodist Church, Peterson, IA, USA
+1 FACT United Methodist
+1 FACT Collects Carousels
+1 FAMC @F101@
+0 @I292@ INDI
+1 NAME Fern Leone /Webster/
+2 GIVN Fern Leone
+2 SURN Webster
+1 REFN CustomGenCode:AIB
+1 BIRT
+2 DATE 29 Jul 1925
+2 PLAC Webster Home, Peterson, IA, USA
+1 BAPM
+2 PLAC Maple Grove Church, Sutherland, IA, USA
+1 OCCU Maiden Lady
+1 FACT Maple Grove Church of God, Sutherland, IA.
+1 FACT Fern belongs to Ladies Aide, American Legion Auxiliary, Cenior Citizens & the Peterson Civic Club.
+1 FAMC @F95@
+0 @I293@ INDI
+1 NAME Wendell Elywin /Webster/
+2 GIVN Wendell Elywin
+2 SURN Webster
+1 REFN CustomGenCode:AIC
+1 SEX M
+1 BIRT
+2 DATE 19 May 1929
+2 PLAC Webster Home, Peterson, IA, USA
+1 BAPM
+2 DATE Jul 1938
+2 PLAC Waterman Creek, Peterson, IA, USA
+1 GRAD
+2 DATE May 1948
+2 PLAC Peterson HS, Peterson, IA, USA
+1 FACT Wendell attended Buena Vista College in Storm Lake, IA. for two years.
+1 FACT They attended the Church of God at Maple Grove west of Royal, IA.
+1 FACT He served in the US Army from 13 Sep 1951 to Sep 1953.
+1 FACT Wendell belonged to the 4-H & FFA.  He is now a member of the American Legion.
+1 FAMS @F102@
+1 FAMS @F105@
+1 FAMC @F95@
+0 @I294@ INDI
+1 NAME Diane Aledia /Muckler/
+2 GIVN Diane Aledia
+2 SURN Muckler
+1 REFN CustomGenCode:AIC1
+1 SEX F
+1 BIRT
+2 DATE 13 Feb 1937
+1 OCCU Homemaker
+1 FACT Wendell attended Buena Vista College in Storm Lake, IA. for two years.
+1 FACT They attended the Church of God at Maple Grove west of Royal, IA.
+1 FACT He served in the US Army from 13 Sep 1951 to Sep 1953.
+1 FACT Wendell belonged to the 4-H & FFA.  He is now a member of the American Legion.
+1 FAMS @F102@
+0 @I295@ INDI
+1 NAME Stanley Edward /Webster/
+2 GIVN Stanley Edward
+2 SURN Webster
+1 REFN CustomGenCode:AIC1A
+1 BIRT
+2 DATE 10 Feb 1957
+2 PLAC , Spencer, IA, USA
+1 BAPM
+2 DATE Aug 1958
+2 PLAC Congregational Ch. Spencer, IA, USA
+1 GRAD
+2 DATE Jun 1975
+2 PLAC Spencer HS, Spencer, IA, USA
+1 FAMS @F103@
+1 FAMC @F102@
+0 @I296@ INDI
+1 NAME Bonnie /Larson/
+2 GIVN Bonnie
+2 SURN Larson
+1 REFN CustomGenCode:AIC1A1
+1 FAMS @F103@
+0 @I297@ INDI
+1 NAME Terry Lee /Webster/
+2 GIVN Terry Lee
+2 SURN Webster
+1 REFN CustomGenCode:AIC1B
+1 SEX M
+1 BIRT
+2 DATE 4 Apr 1958
+2 PLAC , Spencer, IA, USA
+1 BAPM
+2 DATE Aug 1958
+2 PLAC Congregational Ch. Spencer, IA, USA
+1 GRAD
+2 DATE Jun 1976
+2 PLAC Spencer HS, Spencer, IA, USA
+1 FAMS @F104@
+1 FAMC @F102@
+0 @I298@ INDI
+1 NAME Glennda /Larsen/
+2 GIVN Glennda
+2 SURN Larsen
+1 NAME Glenda?
+2 TYPE aka
+2 GIVN Glenda?
+1 NAME Larson,?
+2 TYPE aka
+2 GIVN Larson,?
+1 REFN CustomGenCode:AIC1B1
+1 SEX F
+1 OCCU Homemaker
+1 FAMS @F104@
+0 @I299@ INDI
+1 NAME Melissa Sue /Webster/
+2 GIVN Melissa Sue
+2 SURN Webster
+1 REFN CustomGenCode:AIC1BA
+1 BIRT
+2 DATE 11 May 1980
+1 DEAT
+2 DATE 11 May 1980
+1 FAMC @F104@
+0 @I300@ INDI
+1 NAME James Wendell /Webster/
+2 GIVN James Wendell
+2 SURN Webster
+1 REFN CustomGenCode:AIC1BB
+1 FAMC @F104@
+0 @I301@ INDI
+1 NAME Benjimine /Webster/
+2 GIVN Benjimine
+2 SURN Webster
+1 REFN CustomGenCode:AIC1BC
+1 FAMC @F104@
+0 @I302@ INDI
+1 NAME Calvin Dean /Webster/
+2 GIVN Calvin Dean
+2 SURN Webster
+1 REFN CustomGenCode:AIC1C
+1 BIRT
+2 DATE 20 Mar 1959
+1 FAMC @F102@
+0 @I303@ INDI
+1 NAME Mary /Jakopac/
+2 GIVN Mary
+2 SURN Jakopac
+1 REFN CustomGenCode:AIC2
+1 SEX F
+1 BIRT
+2 DATE 24 Jun 1924
+2 PLAC , Sykesville, PA, USA
+1 OCCU Homemaker
+1 FACT Wendell attended Buena Vista College in Storm Lake, IA. for two years.
+1 FACT He served in the US Army from 13 Sep 1951 to Sep 1953.
+1 FACT Wendell belonged to the 4-H & FFA.  He is now a member of the American Legion.
+1 FACT * Mary's children from a previous marriage.
+1 FAMS @F105@
+1 FAMS @F153@
+1 FAMC @F140@
+0 @I304@ INDI
+1 NAME Linda //
+2 GIVN Linda
+1 REFN CustomGenCode:AIC2a
+1 BIRT
+2 DATE 1 Jun 1946
+0 @I305@ INDI
+1 NAME Howard //
+2 GIVN Howard
+1 REFN CustomGenCode:AIC2b
+1 BIRT
+2 DATE Sep 1947
+0 @I306@ INDI
+1 NAME Florence Ella /Batcheler/
+2 GIVN Florence Ella
+2 SURN Batcheler
+1 REFN CustomGenCode:AJ
+1 SEX F
+1 BIRT
+2 DATE 12 Apr 1892
+2 PLAC Batcheler Home, Peterson, IA, USA
+1 DEAT
+2 DATE 26 Feb 1974
+1 OCCU Homemaker
+1 FAMS @F106@
+1 FAMC @F0@
+0 @I307@ INDI
+1 NAME Benjamin Harrison /Lewis/
+2 GIVN Benjamin Harrison
+2 SURN Lewis
+1 REFN CustomGenCode:AJ1
+1 SEX M
+1 BIRT
+2 DATE 15 Jun 1889
+1 DEAT
+2 DATE 20 Nov 1941
+1 FAMS @F106@
+0 @I308@ INDI
+1 NAME Beulah Eugenia /Lewis/
+2 GIVN Beulah Eugenia
+2 SURN Lewis
+1 REFN CustomGenCode:AJA
+1 SEX F
+1 BIRT
+2 DATE 22 Dec 1910
+2 PLAC Lewis Home, Peterson, IA, USA
+1 DEAT
+2 DATE 19 Jul 1990
+1 OCCU Homemaker
+1 FAMS @F107@
+1 FAMC @F106@
+0 @I309@ INDI
+1 NAME Ellison Leslie /Lynn/
+2 GIVN Ellison Leslie
+2 SURN Lynn
+1 REFN CustomGenCode:AJA1
+1 SEX M
+1 BIRT
+2 DATE 16 Sep 1906
+2 PLAC , SD, USA
+1 DEAT
+2 DATE 8 Sep 1949
+1 FAMS @F107@
+0 @I310@ INDI
+1 NAME Robert Ellison /Lynn/
+2 GIVN Robert Ellison
+2 SURN Lynn
+1 REFN CustomGenCode:AJAA
+1 SEX M
+1 BIRT
+2 DATE 19 Jul 1934
+1 FAMS @F108@
+1 FAMC @F107@
+0 @I311@ INDI
+1 NAME Ann Lyn /Rykken/
+2 GIVN Ann Lyn
+2 SURN Rykken
+1 REFN CustomGenCode:AJAA1
+1 SEX F
+1 BIRT
+2 DATE 14 Jun 1938
+1 OCCU Homemaker
+1 FAMS @F108@
+0 @I312@ INDI
+1 NAME Roberta Sue /Lynn/
+2 GIVN Roberta Sue
+2 SURN Lynn
+1 REFN CustomGenCode:AJAAA
+1 SEX F
+1 BIRT
+2 DATE 5 Aug 1958
+1 OCCU Homemaker
+1 FAMS @F109@
+1 FAMC @F108@
+0 @I313@ INDI
+1 NAME Mark Allen /Niver/
+2 GIVN Mark Allen
+2 SURN Niver
+1 REFN CustomGenCode:AJAAA1
+1 SEX M
+1 FAMS @F109@
+0 @I314@ INDI
+1 NAME Grant Allan /Niver/
+2 GIVN Grant Allan
+2 SURN Niver
+1 REFN CustomGenCode:AJAAAA
+1 BIRT
+2 DATE 25 Jun 1989
+1 FAMC @F109@
+0 @I315@ INDI
+1 NAME Blake Mathew /Niver/
+2 GIVN Blake Mathew
+2 SURN Niver
+1 REFN CustomGenCode:AJAAAB
+1 BIRT
+2 DATE 24 Aug 1992
+1 FAMC @F109@
+0 @I316@ INDI
+1 NAME Bryce Robert /Niver/
+2 GIVN Bryce Robert
+2 SURN Niver
+1 REFN CustomGenCode:AJAAAC
+1 BIRT
+2 DATE 9 Aug 1995
+1 FAMC @F109@
+0 @I317@ INDI
+1 NAME Barbara Kay /Lynn/
+2 GIVN Barbara Kay
+2 SURN Lynn
+1 REFN CustomGenCode:AJAAB
+1 SEX F
+1 BIRT
+2 DATE 21 Jun 1960
+1 OCCU Homemaker
+1 FAMS @F110@
+1 FAMC @F108@
+0 @I318@ INDI
+1 NAME Marc Jacques /Minguet/
+2 GIVN Marc Jacques
+2 SURN Minguet
+1 REFN CustomGenCode:AJAAB1
+1 SEX M
+1 BIRT
+2 DATE 11 Jan 1958
+1 FAMS @F110@
+0 @I319@ INDI
+1 NAME Celene Marie /Minguet/
+2 GIVN Celene Marie
+2 SURN Minguet
+1 REFN CustomGenCode:AJAABA
+1 BIRT
+2 DATE 28 Mar 1985
+1 FAMC @F110@
+0 @I320@ INDI
+1 NAME Nicole Ann /Minguet/
+2 GIVN Nicole Ann
+2 SURN Minguet
+1 REFN CustomGenCode:AJAABB
+1 BIRT
+2 DATE 23 Jun 1987
+1 FAMC @F110@
+0 @I321@ INDI
+1 NAME Christopher Marc /Minguet/
+2 GIVN Christopher Marc
+2 SURN Minguet
+1 REFN CustomGenCode:AJAABC
+1 BIRT
+2 DATE 8 Jan 1990
+1 FAMC @F110@
+0 @I322@ INDI
+1 NAME Deborah Ann /Lynn/
+2 GIVN Deborah Ann
+2 SURN Lynn
+1 REFN CustomGenCode:AJAAC
+1 SEX F
+1 BIRT
+2 DATE 1 Feb 1962
+1 OCCU Homemaker
+1 FAMS @F111@
+1 FAMC @F108@
+0 @I323@ INDI
+1 NAME John Harold Iii /Blower/
+2 GIVN John Harold Iii
+2 SURN Blower
+1 REFN CustomGenCode:AJAAC1
+1 SEX M
+1 BIRT
+2 DATE 15 Feb 1962
+1 FAMS @F111@
+0 @I324@ INDI
+1 NAME Andrew Ellison /Blower/
+2 GIVN Andrew Ellison
+2 SURN Blower
+1 REFN CustomGenCode:AJAACA
+1 BIRT
+2 DATE 17 Sep 1983
+1 FAMC @F111@
+0 @I325@ INDI
+1 NAME Jonathan William /Blower/
+2 GIVN Jonathan William
+2 SURN Blower
+1 REFN CustomGenCode:AJAACB
+1 BIRT
+2 DATE 30 Nov 1984
+1 FAMC @F111@
+0 @I326@ INDI
+1 NAME Elliot Michael /Blower/
+2 GIVN Elliot Michael
+2 SURN Blower
+1 REFN CustomGenCode:AJAACC
+1 BIRT
+2 DATE 29 Feb 1992
+1 FAMC @F111@
+0 @I327@ INDI
+1 NAME Amanda Marie /Blower/
+2 GIVN Amanda Marie
+2 SURN Blower
+1 REFN CustomGenCode:AJAACD
+1 BIRT
+2 DATE 15 Jul 1993
+1 FAMC @F111@
+0 @I328@ INDI
+1 NAME James Leslie /Lynn/
+2 GIVN James Leslie
+2 SURN Lynn
+1 REFN CustomGenCode:AJAB
+1 SEX M
+1 BIRT
+2 DATE 22 Mar 1946
+1 FAMS @F112@
+1 FAMC @F107@
+0 @I329@ INDI
+1 NAME Linda Lee /Zobel/
+2 GIVN Linda Lee
+2 SURN Zobel
+1 REFN CustomGenCode:AJAB1
+1 SEX F
+1 BIRT
+2 DATE 5 Sep 1947
+1 OCCU Homemaker
+1 FAMS @F112@
+0 @I330@ INDI
+1 NAME Jason Michael /Lynn/
+2 GIVN Jason Michael
+2 SURN Lynn
+1 REFN CustomGenCode:AJABA
+1 BIRT
+2 DATE 14 Apr 1973
+1 FAMC @F112@
+0 @I331@ INDI
+1 NAME Shauna Elizabeth /Lynn/
+2 GIVN Shauna Elizabeth
+2 SURN Lynn
+1 REFN CustomGenCode:AJABB
+1 BIRT
+2 DATE 15 Oct 1975
+1 FAMC @F112@
+0 @I332@ INDI
+1 NAME LaVon Roene /Lewis/
+2 GIVN LaVon Roene
+2 SURN Lewis
+1 REFN CustomGenCode:AJB
+1 SEX F
+1 BIRT
+2 DATE 29 Dec 1912
+1 OCCU Homemaker
+1 FAMS @F113@
+1 FAMS @F117@
+1 FAMC @F106@
+0 @I333@ INDI
+1 NAME Stanley Charles /Mohn/
+2 GIVN Stanley Charles
+2 SURN Mohn
+1 REFN CustomGenCode:AJB1
+1 SEX M
+1 BIRT
+2 DATE 10 Apr 1912
+1 FAMS @F113@
+0 @I334@ INDI
+1 NAME Shirley Ann /Mohn/
+2 GIVN Shirley Ann
+2 SURN Mohn
+1 REFN CustomGenCode:AJB1A
+1 SEX F
+1 BIRT
+2 DATE 24 Dec 1932
+1 OCCU Homemaker
+1 FAMS @F114@
+1 FAMC @F113@
+0 @I335@ INDI
+1 NAME Charles Cap /Sanders/
+2 GIVN Charles Cap
+2 SURN Sanders
+1 REFN CustomGenCode:AJB1A1
+1 SEX M
+1 BIRT
+2 DATE 31 Mar 1931
+1 FAMS @F114@
+0 @I336@ INDI
+1 NAME Steven Charles /Sanders/
+2 GIVN Steven Charles
+2 SURN Sanders
+1 REFN CustomGenCode:AJB1AA
+1 SEX M
+1 BIRT
+2 DATE 15 Apr 1952
+1 FAMS @F115@
+1 FAMC @F114@
+0 @I337@ INDI
+1 NAME Deborah Erdine /Schoefer/
+2 GIVN Deborah Erdine
+2 SURN Schoefer
+1 REFN CustomGenCode:AJB1AA1
+1 SEX F
+1 BIRT
+2 DATE 2 Dec 1953
+1 OCCU Homemaker
+1 FAMS @F115@
+0 @I338@ INDI
+1 NAME Abigail Faith /Sanders/
+2 GIVN Abigail Faith
+2 SURN Sanders
+1 REFN CustomGenCode:AJB1AAA
+1 BIRT
+2 DATE 12 Mar 1980
+1 FAMC @F115@
+0 @I339@ INDI
+1 NAME Sassy Ann /Sanders/
+2 GIVN Sassy Ann
+2 SURN Sanders
+1 REFN CustomGenCode:AJB1AAB
+1 BIRT
+2 DATE 2 May 1982
+1 FAMC @F115@
+0 @I340@ INDI
+1 NAME Julia Kay /Sanders/
+2 GIVN Julia Kay
+2 SURN Sanders
+1 NAME Julie?
+2 TYPE aka
+2 GIVN Julie?
+1 REFN CustomGenCode:AJB1AB
+1 SEX F
+1 BIRT
+2 DATE 14 Oct 1955
+1 OCCU Homemaker
+1 FAMS @F116@
+1 FAMC @F114@
+0 @I341@ INDI
+1 NAME Robert Joseph /Broussand/
+2 GIVN Robert Joseph
+2 SURN Broussand
+1 REFN CustomGenCode:AJB1AB1
+1 SEX M
+1 BIRT
+2 DATE 11 May 1944
+1 FAMS @F116@
+0 @I342@ INDI
+1 NAME Chad Avery /Broussand/
+2 GIVN Chad Avery
+2 SURN Broussand
+1 REFN CustomGenCode:AJB1ABA
+1 BIRT
+2 DATE 18 Sep 1988
+1 FAMC @F116@
+0 @I343@ INDI
+1 NAME Iver /Simeo/
+2 GIVN Iver
+2 SURN Simeo
+1 REFN CustomGenCode:AJB2
+1 SEX M
+1 BIRT
+2 DATE 11 Jan 1902
+1 FAMS @F117@
+0 @I344@ INDI
+1 NAME Josephine Frances /Batcheler/
+2 GIVN Josephine Frances
+2 SURN Batcheler
+1 REFN CustomGenCode:AK
+1 SEX F
+1 BIRT
+2 DATE 10 Dec 1894
+2 PLAC Batcheler Home, Peterson, IA, USA
+1 DEAT
+2 DATE 3 Aug 1982
+2 PLAC Oakland Cem. Peterson, IA, USA
+1 OCCU Homemaker
+1 FACT They were both very active members of the Congregational Church in  Peterson, IA,  Josie taught Sunday School for about 25 years.  Olin was Sunday School superintendant for several years & was on the church board several times.
+1 FACT Josie was active in Womens Fellowship for 60 years.
+1 FACT Olin was a motorcycle enthusiast, built & drove a race car and was a Ham radio operator.
+1 FAMS @F118@
+1 FAMC @F0@
+0 @I345@ INDI
+1 NAME Clarence Olin /Anderson/
+2 GIVN Clarence Olin
+2 SURN Anderson
+1 REFN CustomGenCode:AK1
+1 SEX M
+1 BIRT
+2 DATE 1 May 1892
+2 PLAC Anderson Home, Wood Co. WV, USA
+1 DEAT
+2 DATE 13 Aug 1959
+2 PLAC Oakland Cem. Peterson, IA, USA
+1 OCCU Auto Mechanic at Batcheler's Ford Garage for 30+ years.  He then farmed northwest of Peterson for 16 years.
+1 FACT They were both very active members of the Congregational Church in  Peterson, IA,  Josie taught Sunday School for about 25 years.  Olin was Sunday School superintendant for several years & was on the church board several times.
+1 FACT Josie was active in Womens Fellowship for 60 years.
+1 FACT Olin was a motorcycle enthusiast, built & drove a race car and was a Ham radio operator.
+1 FAMS @F118@
+0 @I346@ INDI
+1 NAME Duane Olin /Anderson/
+2 GIVN Duane Olin
+2 SURN Anderson
+1 REFN CustomGenCode:AKA
+1 SEX M
+1 BIRT
+2 DATE 18 Dec 1927
+2 PLAC Anderson Home, Peterson, IA, USA
+1 GRAD
+2 DATE May 1945
+2 PLAC Peterson HS, Peterson, IA, USA
+1 OCCU Farmer
+1 FACT They are both very active members of the Congregational church in Peterson, IA
+1 FACT Duane served in the US Navy from Jan 1946 until Dec 1947.
+1 FACT Duane has been a member of the Lions Club in Peterson for 25 years.
+1 FACT Fishing & traveling are their favorite pastimes.
+1 FAMS @F119@
+1 FAMC @F118@
+0 @I347@ INDI
+1 NAME Phyllis Jean /Struve/
+2 GIVN Phyllis Jean
+2 SURN Struve
+1 REFN CustomGenCode:AKA1
+1 SEX F
+1 BIRT
+2 DATE 6 May 1933
+2 PLAC Struve Home, Paullina, IA, USA
+1 GRAD
+2 DATE May 1951
+2 PLAC Hartley HS, Hartley, IA, USA
+1 OCCU Homemaker
+1 FACT They are both very active members of the Congregational church in Peterson, IA
+1 FACT Duane served in the US Navy from Jan 1946 until Dec 1947.
+1 FACT Duane has been a member of the Lions Club in Peterson for 25 years.
+1 FACT Fishing & traveling are their favorite pastimes.
+1 FAMS @F119@
+1 FAMC @F141@
+0 @I348@ INDI
+1 NAME Cheryl Jean /Anderson/
+2 GIVN Cheryl Jean
+2 SURN Anderson
+1 REFN CustomGenCode:AKAA
+1 SEX F
+1 BIRT
+2 DATE 3 Jul 1952
+2 PLAC Sioux Valley MemorialHosp. Cherokee, IA, USA
+1 GRAD
+2 PLAC Sioux Valley HS, Linn Grove, IA, USA
+1 OCCU Homemaker & Cosmetologist
+1 FAMS @F120@
+1 FAMC @F119@
+0 @I349@ INDI
+1 NAME Gregory Lee /Brown/
+2 GIVN Gregory Lee
+2 SURN Brown
+1 REFN CustomGenCode:AKAA1
+1 SEX M
+1 BIRT
+2 DATE 1 Feb 1951
+2 PLAC Floyd Valley Hosp. LeMars, IA, USA
+1 GRAD
+2 PLAC Washington HS, Cherokee, IA, USA
+1 FAMS @F120@
+1 FAMC @F142@
+0 @I350@ INDI
+1 NAME Ryan Lee /Brown/
+2 GIVN Ryan Lee
+2 SURN Brown
+1 REFN CustomGenCode:AKAAA
+1 BIRT
+2 DATE 29 Jul 1973
+2 PLAC Sioux Valley MemorialHosp. Cherokee, IA, USA
+1 OCCU Student
+1 FAMC @F120@
+0 @I351@ INDI
+1 NAME Shawn D /Brown/
+2 GIVN Shawn D
+2 SURN Brown
+1 REFN CustomGenCode:AKAAB
+1 BIRT
+2 DATE 28 Mar 1975
+2 PLAC Sioux Valley MemorialHosp. Cherokee, IA, USA
+1 DEAT
+2 DATE 28 Mar 1975
+2 PLAC Oakland Cem. Peterson, IA, USA
+1 FACT Died in infancy.
+1 FAMC @F120@
+0 @I352@ INDI
+1 NAME Shane Michael /Brown/
+2 GIVN Shane Michael
+2 SURN Brown
+1 REFN CustomGenCode:AKAAC
+1 BIRT
+2 DATE 14 Sep 1976
+2 PLAC Sioux Valley MemorialHosp. Cherokee, IA, USA
+1 OCCU Student
+1 FAMC @F120@
+0 @I353@ INDI
+1 NAME Ricky Duane /Anderson/
+2 GIVN Ricky Duane
+2 SURN Anderson
+1 REFN CustomGenCode:AKAB
+1 SEX M
+1 BIRT
+2 DATE 27 Apr 1954
+2 PLAC Sioux Valley MemorialHosp. Cherokee, IA, USA
+1 BAPM
+2 PLAC Congregational Ch. Peterson, IA, USA
+1 GRAD
+2 DATE May 1973
+2 PLAC Sioux Valley HS, Linn Grove, IA, USA
+1 OCCU Farmer
+1 FACT Deb earned her B.A. degree in Applied Art-Interior Design from Iowa State University in Ames, IA. in 1975.
+1 FACT They are both very active in the Congregational church in Peterson.  They both sing in the choir & Deb is Organist.
+1 FACT They are members of Clay County Pork producer & Porkttes.  Rick in active in the Lions club.
+1 FACT They both enjoy traveling fishing & snow mobiling.  Deb enjoys sewing & decorating cakes.
+1 FAMS @F121@
+1 FAMC @F119@
+0 @I354@ INDI
+1 NAME Debra Sue /Schultz/
+2 GIVN Debra Sue
+2 SURN Schultz
+1 REFN CustomGenCode:AKAB1
+1 SEX F
+1 BIRT
+2 DATE 21 Feb 1953
+2 PLAC Holy Family Hosp. Estherville, IA, USA
+1 GRAD
+2 DATE May 1971
+2 PLAC Algona HS, Algona, IA, USA
+1 OCCU Homemaker
+1 FACT Deb earned her B.A. degree in Applied Art-Interior Design from Iowa State University in Ames, IA. in 1975.
+1 FACT They are both very active in the Congregational church in Peterson.  They both sing in the choir & Deb is Organist.
+1 FACT They are members of Clay County Pork producer & Porkttes.  Rick in active in the Lions club.
+1 FACT They both enjoy traveling fishing & snow mobiling.  Deb enjoys sewing & decorating cakes.
+1 FAMS @F121@
+1 FAMC @F143@
+0 @I355@ INDI
+1 NAME Tait Duane /Anderson/
+2 GIVN Tait Duane
+2 SURN Anderson
+1 REFN CustomGenCode:AKABA
+1 BIRT
+2 DATE 26 Jan 1978
+2 PLAC Sioux Valley MemorialHosp. Cherokee, IA, USA
+1 BAPM
+2 PLAC Congregational Ch. Peterson, IA, USA
+1 OCCU Student
+1 FAMC @F121@
+0 @I356@ INDI
+1 NAME Gage Alex /Anderson/
+2 GIVN Gage Alex
+2 SURN Anderson
+1 REFN CustomGenCode:AKABB
+1 BIRT
+2 DATE 11 Jan 1981
+2 PLAC Sioux Valley MemorialHosp. Cherokee, IA, USA
+1 BAPM
+2 PLAC Congregational Ch. Peterson, IA, USA
+1 FAMC @F121@
+0 @I357@ INDI
+1 NAME Bryn Jesse /Anderson/
+2 GIVN Bryn Jesse
+2 SURN Anderson
+1 REFN CustomGenCode:AKABC
+1 BIRT
+2 DATE 19 Dec 1986
+2 PLAC Sioux Valley MemorialHosp. Cherokee, IA, USA
+1 BAPM
+2 PLAC Congregational Ch. Peterson, IA, USA
+1 FAMC @F121@
+0 @I358@ INDI
+1 NAME Bree Ann /Anderson/
+2 GIVN Bree Ann
+2 SURN Anderson
+1 REFN CustomGenCode:AKABD
+1 BIRT
+2 DATE 3 Aug 1989
+2 PLAC Sioux Valley MemorialHosp. Cherokee, IA, USA
+1 BAPM
+2 PLAC Congregational Ch. Peterson, IA, USA
+1 FAMC @F121@
+0 @I359@ INDI
+1 NAME Jon Olin /Anderson/
+2 GIVN Jon Olin
+2 SURN Anderson
+1 REFN CustomGenCode:AKAC
+1 SEX M
+1 BIRT
+2 DATE 20 Oct 1958
+2 PLAC Sioux Valley MemorialHosp. Cherokee, IA, USA
+1 GRAD
+2 DATE May 1977
+2 PLAC Sioux Valley HS, Linn Grove, IA, USA
+1 OCCU Farmer
+1 FAMS @F122@
+1 FAMC @F119@
+0 @I360@ INDI
+1 NAME Janet Fae /Patrick/
+2 GIVN Janet Fae
+2 SURN Patrick
+1 REFN CustomGenCode:AKAC1
+1 SEX F
+1 BIRT
+2 DATE 23 Jan 1960
+2 PLAC Sioux Rapids Hosp, Sioux Rapids, IA, USA
+1 GRAD
+2 DATE May 1979
+2 PLAC Sioux Valley HS, Linn Grove, IA, USA
+1 OCCU Homemaker
+1 FAMS @F122@
+1 FAMC @F144@
+0 @I361@ INDI
+1 NAME Amanda Jo /Anderson/
+2 GIVN Amanda Jo
+2 SURN Anderson
+1 REFN CustomGenCode:AKACA
+1 BIRT
+2 DATE 16 Jun 1982
+1 GRAD
+2 DATE 14 May 2000
+2 PLAC Sioux Central HS, Sioux Rapids, IA, USA
+1 FAMC @F122@
+0 @I362@ INDI
+1 NAME Travis Jon /Anderson/
+2 GIVN Travis Jon
+2 SURN Anderson
+1 REFN CustomGenCode:AKACB
+1 BIRT
+2 DATE 24 Nov 1984
+1 FAMC @F122@
+0 @I363@ INDI
+1 NAME Joseph Daniel /Batcheler/
+2 GIVN Joseph Daniel
+2 SURN Batcheler
+1 REFN CustomGenCode:AL
+1 BIRT
+2 DATE 10 Dec 1894
+2 PLAC Batcheler Home, Royal, IA, USA
+1 DEAT
+2 DATE 5 Mar 1974
+1 OCCU Farmer
+1 FACT Joseph served in the US Army in England & France during World War I from July 26 1918 until June 2 1919.
+1 FACT Joe said of his family:  His mother's maiden name was Carpenter, his aunt married a Mason, he married a Shoemaker & his father was a Batcheler with 12 children.
+1 FAMS @F123@
+1 FAMC @F0@
+0 @I364@ INDI
+1 NAME Louise Emma /Schumacher/
+2 GIVN Louise Emma
+2 SURN Schumacher
+1 REFN CustomGenCode:AL1
+1 BIRT
+2 DATE 12 Oct 1899
+2 PLAC Schumacher Home, Peterson, IA, USA
+1 DEAT
+2 DATE 19 Feb 1989
+1 OCCU Homemaker
+1 FACT Joseph served in the US Army in England & France during World War I from July 26 1918 until June 2 1919.
+1 FACT Joe said of his family:  His mother's maiden name was Carpenter, his aunt married a Mason, he married a Shoemaker & his father was a Batcheler with 12 children.
+1 FAMS @F123@
+0 @I365@ INDI
+1 NAME Joseph /French/
+2 GIVN Joseph
+2 SURN French
+1 REFN CustomGenCode:AB1sf
+1 SEX M
+1 FAMS @F124@
+0 @I366@ INDI
+1 NAME Victoreen //
+2 GIVN Victoreen
+1 REFN CustomGenCode:AB1sm
+1 SEX F
+1 FAMS @F124@
+0 @I367@ INDI
+1 NAME George /Lane/
+2 GIVN George
+2 SURN Lane
+1 REFN CustomGenCode:AC1sf
+1 SEX M
+1 FAMS @F125@
+0 @I368@ INDI
+1 NAME Elnor /Doyl/
+2 GIVN Elnor
+2 SURN Doyl
+1 REFN CustomGenCode:AC1sm
+1 SEX F
+1 FAMS @F125@
+0 @I369@ INDI
+1 NAME Henry /Berg/
+2 GIVN Henry
+2 SURN Berg
+1 REFN CustomGenCode:ACA1sf
+1 SEX M
+1 FAMS @F126@
+0 @I370@ INDI
+1 NAME Willmar Linden /Arneson/
+2 GIVN Willmar Linden
+2 SURN Arneson
+1 REFN CustomGenCode:ACAA1sf
+1 SEX M
+1 FAMS @F127@
+0 @I371@ INDI
+1 NAME Viola /Fry/
+2 GIVN Viola
+2 SURN Fry
+1 REFN CustomGenCode:ACAA1sm
+1 SEX F
+1 FAMS @F127@
+0 @I372@ INDI
+1 NAME David C /Klinefelter/
+2 GIVN David C
+2 SURN Klinefelter
+1 REFN CustomGenCode:ACB1sf
+1 SEX M
+1 FAMS @F128@
+0 @I373@ INDI
+1 NAME Maryann /Denning/
+2 GIVN Maryann
+2 SURN Denning
+1 REFN CustomGenCode:ACB1sm
+1 SEX F
+1 FAMS @F128@
+0 @I374@ INDI
+1 NAME Arthur E /Olson/
+2 GIVN Arthur E
+2 SURN Olson
+1 REFN CustomGenCode:ACBA1sf
+1 SEX M
+1 FAMS @F129@
+0 @I375@ INDI
+1 NAME Stella Mae /Lawson/
+2 GIVN Stella Mae
+2 SURN Lawson
+1 REFN CustomGenCode:ACBA1sm
+1 SEX F
+1 FAMS @F129@
+0 @I376@ INDI
+1 NAME Ronald /Keeney/
+2 GIVN Ronald
+2 SURN Keeney
+1 REFN CustomGenCode:ACBAC1sf
+1 SEX M
+1 FAMS @F130@
+0 @I377@ INDI
+1 NAME Carol /Kinney/
+2 GIVN Carol
+2 SURN Kinney
+1 REFN CustomGenCode:ACBAC1sm
+1 SEX F
+1 FAMS @F130@
+0 @I378@ INDI
+1 NAME Matthews /Richard/
+2 GIVN Matthews
+2 SURN Richard
+1 REFN CustomGenCode:ACBBA1sf
+1 SEX M
+1 FAMS @F131@
+0 @I379@ INDI
+1 NAME Ralph /Woolston/
+2 GIVN Ralph
+2 SURN Woolston
+1 REFN CustomGenCode:AD1sf
+1 SEX M
+1 FAMS @F132@
+0 @I380@ INDI
+1 NAME Sylvia /Harris/
+2 GIVN Sylvia
+2 SURN Harris
+1 REFN CustomGenCode:AD1sm
+1 SEX F
+1 FAMS @F132@
+0 @I381@ INDI
+1 NAME Herman Edward /Webster/
+2 GIVN Herman Edward
+2 SURN Webster
+1 REFN CustomGenCode:AE1sf
+1 SEX M
+1 FAMS @F133@
+0 @I382@ INDI
+1 NAME Minnie Etta /Murfin/
+2 GIVN Minnie Etta
+2 SURN Murfin
+1 REFN CustomGenCode:AE1sm
+1 SEX F
+1 FAMS @F133@
+0 @I383@ INDI
+1 NAME Ralph Ray /Chatterton/
+2 GIVN Ralph Ray
+2 SURN Chatterton
+1 REFN CustomGenCode:AF2A1sf
+1 SEX M
+1 FAMS @F134@
+0 @I384@ INDI
+1 NAME Matilda /VanScoy/
+2 GIVN Matilda
+2 SURN VanScoy
+1 REFN CustomGenCode:AF2A1sm
+1 SEX F
+1 FAMS @F134@
+0 @I385@ INDI
+1 NAME Ethel Verne /Ashby/
+2 GIVN Ethel Verne
+2 SURN Ashby
+1 REFN CustomGenCode:AG1A1sm
+1 SEX F
+1 FAMS @F135@
+0 @I386@ INDI
+1 NAME James Everett /Thompson/
+2 GIVN James Everett
+2 SURN Thompson
+1 REFN CustomGenCode:AG1AA1sf
+1 SEX M
+1 FAMS @F136@
+0 @I387@ INDI
+1 NAME Doyle Brainard /Anderson/
+2 GIVN Doyle Brainard
+2 SURN Anderson
+1 REFN CustomGenCode:AIAB1sf
+1 SEX M
+1 FAMS @F137@
+0 @I388@ INDI
+1 NAME Lela /Struve/
+2 GIVN Lela
+2 SURN Struve
+1 REFN CustomGenCode:AIAB1sm
+1 SEX F
+1 FAMS @F137@
+0 @I389@ INDI
+1 NAME Vern /Clark/
+2 GIVN Vern
+2 SURN Clark
+1 REFN CustomGenCode:AIAC1sf
+1 SEX M
+1 FAMS @F138@
+0 @I390@ INDI
+1 NAME Fern //
+2 GIVN Fern
+1 REFN CustomGenCode:AIAC1sm
+1 SEX F
+1 FAMS @F138@
+0 @I391@ INDI
+1 NAME Bob /Syndergaard/
+2 GIVN Bob
+2 SURN Syndergaard
+1 REFN CustomGenCode:AIAE1sf
+1 SEX M
+1 FAMS @F139@
+0 @I392@ INDI
+1 NAME Bernie /Strueffert/
+2 GIVN Bernie
+2 SURN Strueffert
+1 REFN CustomGenCode:AIAE1sm
+1 SEX F
+1 FAMS @F139@
+0 @I393@ INDI
+1 NAME Eva Jaco /Pac/
+2 GIVN Eva Jaco
+2 SURN Pac
+1 REFN CustomGenCode:AIC2sm
+1 SEX F
+1 FAMS @F140@
+0 @I394@ INDI
+1 NAME Leo /Struve/
+2 GIVN Leo
+2 SURN Struve
+1 REFN CustomGenCode:AKA1sf
+1 SEX M
+1 FAMS @F141@
+0 @I395@ INDI
+1 NAME Lena /Westphal/
+2 GIVN Lena
+2 SURN Westphal
+1 REFN CustomGenCode:AKA1sm
+1 SEX F
+1 FAMS @F141@
+0 @I396@ INDI
+1 NAME Ralph Clifford /Brown/
+2 GIVN Ralph Clifford
+2 SURN Brown
+1 REFN CustomGenCode:AKAA1sf
+1 SEX M
+1 FAMS @F142@
+0 @I397@ INDI
+1 NAME Arlene Maxine /Kracht/
+2 GIVN Arlene Maxine
+2 SURN Kracht
+1 REFN CustomGenCode:AKAA1sm
+1 SEX F
+1 FAMS @F142@
+0 @I398@ INDI
+1 NAME Alfred Alex /Schultz/
+2 GIVN Alfred Alex
+2 SURN Schultz
+1 REFN CustomGenCode:AKAB1sf
+1 SEX M
+1 FAMS @F143@
+0 @I399@ INDI
+1 NAME Doris Mae /Blanchard/
+2 GIVN Doris Mae
+2 SURN Blanchard
+1 REFN CustomGenCode:AKAB1sm
+1 SEX F
+1 FAMS @F143@
+0 @I400@ INDI
+1 NAME Burris /Patrick/
+2 GIVN Burris
+2 SURN Patrick
+1 REFN CustomGenCode:AKAC1sf
+1 SEX M
+1 FAMS @F144@
+0 @I401@ INDI
+1 NAME Alice //
+2 GIVN Alice
+1 REFN CustomGenCode:AKAC1sm
+1 SEX F
+1 FAMS @F144@
+0 @I402@ INDI
+1 NAME Kenneth Lee /Murray/
+2 GIVN Kenneth Lee
+2 SURN Murray
+1 REFN CustomGenCode:AABauf
+1 SEX M
+1 FAMS @F145@
+0 @I403@ INDI
+1 NAME Fred Augustus /Lane/
+2 GIVN Fred Augustus
+2 SURN Lane
+1 REFN CustomGenCode:ACAAuf
+1 SEX M
+1 FAMS @F147@
+0 @I404@ INDI
+1 NAME Susan Marie /Winterboer/
+2 GIVN Susan Marie
+2 SURN Winterboer
+1 REFN CustomGenCode:AIAEAum
+1 SEX F
+1 FAMS @F152@
 0 @F0@ FAM
 1 HUSB @I0@
 1 WIFE @I1@
@@ -4380,194 +5312,103 @@
 2 DATE 12 Oct 1920
 0 @F124@ FAM
 1 HUSB @I365@
-1 CHIL @I1@
-1 MARR
-2 DATE 2 Mar 1871
-2 PLAC , Anslow, IA, USA
-1 NOTE * Two sets of twins.
-0 @F125@ FAM
-1 HUSB @I366@
-1 WIFE @I367@
+1 WIFE @I366@
 1 CHIL @I28@
-1 MARR
-2 DATE 8 Mar 1905
-2 PLAC , Volga, SD, USA
-0 @F126@ FAM
-1 HUSB @I368@
-1 WIFE @I369@
+0 @F125@ FAM
+1 HUSB @I367@
+1 WIFE @I368@
 1 CHIL @I67@
-1 MARR
-2 DATE 24 Nov 1898
-2 PLAC , Royal, IA, USA
+0 @F126@ FAM
+1 HUSB @I369@
+1 CHIL @I69@
 0 @F127@ FAM
 1 HUSB @I370@
-1 CHIL @I69@
-1 MARR
-2 DATE 25 Dec 1923
-2 PLAC , Royal, IA, USA
-0 @F128@ FAM
-1 HUSB @I371@
-1 WIFE @I372@
+1 WIFE @I371@
 1 CHIL @I71@
-1 MARR
-2 DATE 8 Jun 1947
-2 PLAC Arneson Home, Spirit Lake, IA, USA
-0 @F129@ FAM
-1 HUSB @I373@
-1 WIFE @I374@
+0 @F128@ FAM
+1 HUSB @I372@
+1 WIFE @I373@
 1 CHIL @I110@
-1 MARR
-2 DATE 16 Sep 1924
-2 PLAC Justice of Peace, Sioux City, IA, USA
-0 @F130@ FAM
-1 HUSB @I375@
-1 WIFE @I376@
+0 @F129@ FAM
+1 HUSB @I374@
+1 WIFE @I375@
 1 CHIL @I112@
-1 MARR
-2 DATE 27 Oct 1956
-2 PLAC Christian Church, Spencer, IA, USA
-0 @F131@ FAM
-1 HUSB @I377@
-1 WIFE @I378@
+0 @F130@ FAM
+1 HUSB @I376@
+1 WIFE @I377@
 1 CHIL @I120@
-1 MARR
-2 DATE 20 Aug 1994
-2 PLAC Augastana Lutheran Church,
-1 NOTE * Kevin was adopted by Keeneys.
+0 @F131@ FAM
+1 HUSB @I378@
+1 CHIL @I124@
 0 @F132@ FAM
 1 HUSB @I379@
-1 CHIL @I124@
-1 MARR
-2 DATE 31 May 1980
-0 @F133@ FAM
-1 HUSB @I380@
-1 WIFE @I381@
+1 WIFE @I380@
 1 CHIL @I137@
-1 MARR
-2 DATE 27 Feb 1901
-0 @F134@ FAM
-1 HUSB @I382@
-1 WIFE @I383@
+0 @F133@ FAM
+1 HUSB @I381@
+1 WIFE @I382@
 1 CHIL @I178@
-1 MARR
-2 DATE 11 Mar 1923
-0 @F135@ FAM
-1 HUSB @I384@
-1 WIFE @I385@
+0 @F134@ FAM
+1 HUSB @I383@
+1 WIFE @I384@
 1 CHIL @I183@
-1 MARR
-2 DATE 27 May 1940
-2 PLAC , Peterson, IA, USA
-0 @F136@ FAM
-1 WIFE @I386@
+0 @F135@ FAM
+1 WIFE @I385@
 1 CHIL @I197@
-1 MARR
-2 DATE 23 Aug 1952
-2 PLAC Maple Grove Church of God, Peterson, IA, USA
-1 NOTE Identical twins.
+0 @F136@ FAM
+1 HUSB @I386@
+1 CHIL @I199@
 0 @F137@ FAM
 1 HUSB @I387@
-1 CHIL @I199@
-1 MARR
-2 DATE 2 May 1987
-2 PLAC Mayport Naval Station Chapel, Mayport, FL. USA
-0 @F138@ FAM
-1 HUSB @I382@
-1 WIFE @I383@
-1 CHIL @I272@
-1 MARR
-2 DATE 9 Mar 1921
-0 @F139@ FAM
-1 HUSB @I388@
-1 WIFE @I389@
+1 WIFE @I388@
 1 CHIL @I278@
-1 MARR
-2 DATE 5 Jul 1974
-2 PLAC Maple Grove Church of Christ, Sutherland,IA,USA
-0 @F140@ FAM
-1 HUSB @I390@
-1 WIFE @I391@
+0 @F138@ FAM
+1 HUSB @I389@
+1 WIFE @I390@
 1 CHIL @I282@
-1 MARR
-2 DATE 30 Jan 1982
-0 @F141@ FAM
-1 HUSB @I392@
-1 WIFE @I393@
+0 @F139@ FAM
+1 HUSB @I391@
+1 WIFE @I392@
 1 CHIL @I289@
-1 MARR
-2 DATE 25 Nov 1978
-2 PLAC United Methodist Church, Peterson, IA, USA
-1 DIV
-2 DATE 17 Feb 1992
-2 PLAC O'Brien County Courthouse
-0 @F142@ FAM
-1 WIFE @I394@
+0 @F140@ FAM
+1 WIFE @I393@
 1 CHIL @I303@
-1 MARR
-2 DATE 24 May 1969
-2 PLAC , Jackson, MN, USA
-1 NOTE * Mary's children from a previous marriage.
-0 @F143@ FAM
-1 HUSB @I395@
-1 CHIL @I343@
-1 MARR
-2 DATE 28 Sep 1957
-0 @F144@ FAM
+0 @F141@ FAM
+1 HUSB @I394@
+1 WIFE @I395@
+1 CHIL @I347@
+0 @F142@ FAM
 1 HUSB @I396@
 1 WIFE @I397@
-1 CHIL @I347@
-1 MARR
-2 DATE 26 Aug 1951
-2 PLAC Methodist Church, Hartley, IA, USA
-0 @F145@ FAM
+1 CHIL @I349@
+0 @F143@ FAM
 1 HUSB @I398@
 1 WIFE @I399@
-1 CHIL @I349@
-1 MARR
-2 DATE 4 Jun 1971
-0 @F146@ FAM
+1 CHIL @I354@
+0 @F144@ FAM
 1 HUSB @I400@
 1 WIFE @I401@
-1 CHIL @I354@
-1 MARR
-2 DATE 31 Jul 1976
-2 PLAC Congregational Church, Peterson, IA, USA
-0 @F147@ FAM
-1 HUSB @I402@
-1 WIFE @I403@
 1 CHIL @I360@
-1 MARR
-2 DATE 29 Aug 1981
-2 PLAC Congregational Church, Peterson, IA, USA
-0 @F148@ FAM
-1 HUSB @I404@
+0 @F145@ FAM
+1 HUSB @I402@
 1 WIFE @I7@
 1 CHIL @I8@
-1 MARR
-2 DATE 10 Aug 1968
-1 NOTE * Herbert's children from a previous marriage.
-1 NOTE Technically unrelated child: Majeski, Richard
-1 NOTE Technically unrelated child: Majeski, Francis Jerome
-1 NOTE Technically unrelated child: Majeski, Glen Travis
-1 NOTE Technically unrelated child: Majeski, Beatrice Jane
-1 NOTE Technically unrelated child: Majeski, Mathew Shawn
-1 NOTE Technically unrelated child: Majeski, Michael Patrick
-0 @F149@ FAM
-1 HUSB @I405@
-1 CHIL @I26@
-0 @F150@ FAM
-1 HUSB @I406@
+0 @F146@ FAM
+1 HUSB @I9@
+0 @F147@ FAM
+1 HUSB @I403@
 1 WIFE @I69@
-1 CHIL @I72@
-1 CHIL @I75@
-1 CHIL @I81@
-1 CHIL @I86@
-1 CHIL @I90@
-1 CHIL @I91@
-1 MARR
-2 DATE 8 Jun 1947
-2 PLAC Arneson Home, Spirit Lake, IA, USA
+0 @F148@ FAM
+1 WIFE @I79@
+0 @F149@ FAM
+1 WIFE @I97@
+0 @F150@ FAM
+1 WIFE @I146@
 0 @F151@ FAM
+1 WIFE @I246@
+0 @F152@ FAM
 1 HUSB @I289@
-1 WIFE @I407@
+1 WIFE @I404@
+0 @F153@ FAM
+1 WIFE @I303@
 0 TRLR

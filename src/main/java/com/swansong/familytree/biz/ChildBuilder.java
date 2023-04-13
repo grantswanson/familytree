@@ -17,8 +17,11 @@ public class ChildBuilder {
         // for each marriage
         for (Marriage marriage : MarriageMap.getMarriagesCollection()) {
             Row row = marriage.getSourceRow();
-            if (marriage.getSource() == MarriageSource.SpousesParents) {  // TODO reconsider this...
-                // don't add children (they are already there) just one person (the spouse)
+            if (marriage.getSource() == MarriageSource.SpousesParents ||
+                    marriage.getSource() == MarriageSource.Parents) {
+                // don't add children they will be added earlier
+                // for Parents, it will be when processing parents row as the main person
+                // for Spouse's parent, the spouse will be added as a child when creating the spouse's parents
                 continue;
             }
             List<Name> chidrensNames = extractChildrensNames(row);
@@ -123,6 +126,7 @@ public class ChildBuilder {
         }
     }
 
+    @SuppressWarnings("BooleanMethodIsAlwaysInverted")
     private static boolean parentsMatch(Row row, Person expectedPerson) {
         if (expectedPerson == null) {
             return false;

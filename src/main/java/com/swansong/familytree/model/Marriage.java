@@ -115,7 +115,7 @@ public class Marriage {
         children[childNum - 1] = child;
         if (child != null) {
             if (child.getParentsMarriage() != null && child.getParentsMarriage().getId() != id) {
-                System.out.println("Warning: overwriting child in marriage. child:" + child.toShortString() +
+                System.out.println("Warning: addChild() causing child to be associated with a different marriage. child:" + child.toShortString() +
                         "\n   old:" + child.getParentsMarriage().toFormattedString() +
                         "\n   new:" + this.toFormattedString());
             }

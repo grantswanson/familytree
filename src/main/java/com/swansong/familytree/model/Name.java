@@ -350,6 +350,9 @@ public class Name {
 
     @SuppressWarnings("BooleanMethodIsAlwaysInverted")
     public static boolean isEqual(String n1, String n2) {
+        if (n1 == null || n2 == null) {
+            return false;
+        }
         return isEqual(parseFullName(n1), parseFullName(n2));
     }
 

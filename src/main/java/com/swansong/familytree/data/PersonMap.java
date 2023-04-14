@@ -3,6 +3,7 @@ package com.swansong.familytree.data;
 import com.swansong.familytree.model.Name;
 import com.swansong.familytree.model.NameKey;
 import com.swansong.familytree.model.Person;
+import com.swansong.familytree.model.Source;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -62,6 +63,33 @@ public class PersonMap {
             person = individualMapByName.get(nameKey.toString());
         }
         return person;
+    }
+
+    public static long getCount(Source source) {
+        return individualMapByGenCode.values().stream()
+                .filter(person -> person.getSources().contains(source))
+                .count();
+    }
+
+    public static void printIndividualMap(Source source) {
+        Comparator<Map.Entry<String, Person>> valueComparator = Comparator
+                .comparing((Map.Entry<String, Person> e) -> e.getValue().getSourceRow().getNumber())
+                .thenComparing(e -> e.getValue().getGenCode());
+
+        Map<String, Person> sortedPersonMap = individualMapByGenCode.entrySet()
+                .stream()
+                .filter(entry -> entry.getValue().getSources().contains(source))
+                .sorted(valueComparator)
+                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e1, LinkedHashMap::new));
+
+        System.out.println("\nPeople...");
+        for (Map.Entry<String, Person> entry : sortedPersonMap.entrySet()) {
+            Person person = entry.getValue();
+            System.out.println(person.toFormattedString());
+        }
+
+        System.out.println("Total Count=" + (individualMapByGenCode.size()));
+
     }
 
     public static void printIndividualMap() {

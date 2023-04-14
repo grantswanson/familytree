@@ -4,15 +4,17 @@ public enum Source {
     Main,
     Spouse,
     Parents,
-    SpousesParents;
+    SpousesParents,
+    Children;
 
     @Override
     public String toString() {
         return switch (this) {
-            case Main -> "Main";
-            case Spouse -> "Spouse";
-            case Parents -> "Parents";
-            case SpousesParents -> "SpousesParents";
+            case Main -> "M";
+            case Spouse -> "S";
+            case Parents -> "P";
+            case SpousesParents -> "sp";
+            case Children -> "C";
         };
     }
 }

@@ -8,6 +8,7 @@ import lombok.ToString;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Data
 public class Marriage {
@@ -37,7 +38,18 @@ public class Marriage {
     private Person spouse1;
     @ToString.Exclude
     private Person spouse2;
-    private Source source;
+    private List<Source> sources = new ArrayList<>();
+
+    public void addSource(Source s) {
+        sources.add(s);
+    }
+
+    @ToString.Include
+    public String sourcesToString() {
+        return sources.stream()
+                .map(Source::toString)
+                .collect(Collectors.joining());
+    }
 
     private String marriageDate = "";
     private String marriagePlace = "";
@@ -121,7 +133,7 @@ public class Marriage {
             }
             child.setParentsMarriage(this);
         }
-        if (source == Source.SpousesParents) {
+        if (sources.contains(Source.SpousesParents)) {
             if (child == null) {
                 throw new RuntimeException("Spouse parents exist, but spouse does not. Probably a data mistake. Marriage ln#" + sourceRow.getNumber());
             }
@@ -220,8 +232,8 @@ public class Marriage {
     }
 
     public String toFormattedString() {
-        String str = String.format("#%-2d M%2s ",
-                getSourceRow().getNumber(), getId());
+        String str = String.format("#%-2d %2s ",
+                getSourceRow().getNumber(), sourcesToString());
         Person person = getHusband();
         if (person != null) {
             str += " " + person.toShortString();
@@ -230,6 +242,8 @@ public class Marriage {
         person = getWife();
         if (person != null) {
             str += " " + person.toShortString();
+        } else {
+            str += " unknown spouse                ";
         }
         str += childrenToString();
         return str;

@@ -11,13 +11,18 @@ import java.util.ArrayList;
 public class PersonBuilder {
 
     public static void buildMainPersonAndSpouse(ArrayList<Row> csvData) {
+        int mainPeopleCount = 0;
+        int spouseCount = 0;
+
         // build all the primary people
         for (Row row : csvData) {
             BuildPersonResult buildMainPersonResult = buildMainPerson(row);
             Person mainPerson = buildMainPersonResult.getPerson();
+            mainPeopleCount = buildMainPersonResult.isNew() ? mainPeopleCount + 1 : mainPeopleCount;
 
             BuildPersonResult buildSpouseResult = SpouseBuilder.buildSpouse(row);
             Person spouse = buildSpouseResult.getPerson();
+            spouseCount = buildSpouseResult.isNew() ? spouseCount + 1 : spouseCount;
 
 
             if (!buildMainPersonResult.isNew() && !buildSpouseResult.isNew()) {
@@ -31,11 +36,25 @@ public class PersonBuilder {
                 MarriageBuilder.addRowDetails(marriage, row);
                 MarriageMap.addMarriage(marriage);
             }
-
         }
+        verifyCounts(Source.Main, mainPeopleCount);
+        verifyCounts(Source.Spouse, spouseCount);
+
     }
 
-    private static void verifyCounts(int rowCount) {
+    private static void verifyCounts(Source source, int rowCount) {
+        long personMapCount = PersonMap.getCount(source);
+        if (rowCount != personMapCount) {
+            PersonMap.printIndividualMap(source);
+
+            //System.out.println(
+            throw new RuntimeException(
+                    "Count verification failed. source:" + source + "rowCount:" + rowCount +
+                            " personMapCount:" + personMapCount);
+        }
+        System.out.println(
+                "Count verification PASSSED. source:" + source + "rowCount:" + rowCount +
+                        " personMapCount:" + personMapCount);
 
     }
 
@@ -143,7 +162,7 @@ public class PersonBuilder {
         Person person = buildBasicPerson(name);
         person.setSourceRow(row);
         person.setGenCode(GenCode.buildSelfCode(row.getGenCode()));
-
+        person.addSource(Source.Main);
         person.setDob(row.getDob());
         person.setPob(row.getPob());
         person.setBaptismDate(row.getBaptismDate());

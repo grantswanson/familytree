@@ -13,7 +13,7 @@ public class MarriageBuilder {
         Marriage marriage = new Marriage();
         marriage.setSpouse1(mainPerson);
         marriage.setSpouse2(spouse);
-        marriage.setSource(source);
+        marriage.addSource(source);
         marriage.setSourceRow(row);
         if (mainPerson != null) {
             mainPerson.addMarriage(marriage);

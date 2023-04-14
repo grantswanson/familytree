@@ -17,8 +17,8 @@ public class ChildBuilder {
         // for each marriage
         for (Marriage marriage : MarriageMap.getMarriagesCollection()) {
             Row row = marriage.getSourceRow();
-            if (marriage.getSource() == Source.SpousesParents ||
-                    marriage.getSource() == Source.Parents) {
+            if (marriage.getSources().contains(Source.SpousesParents) ||
+                    marriage.getSources().contains(Source.Parents)) {
                 // don't add children they will be added earlier
                 // for Parents, it will be when processing parents row as the main person
                 // for Spouse's parent, the spouse will be added as a child when creating the spouse's parents

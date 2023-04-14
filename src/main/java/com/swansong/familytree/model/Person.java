@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 @Data
 public class Person {
@@ -32,6 +33,7 @@ public class Person {
         return name.toFullName();
     }
 
+    private List<Source> sources = new ArrayList<>();
     private String gender = "";
 
     private Person father;
@@ -102,6 +104,17 @@ public class Person {
         return str;
     }
 
+    public void addSource(Source s) {
+        sources.add(s);
+    }
+
+    @ToString.Include
+    public String sourcesToString() {
+        return sources.stream()
+                .map(Source::toString)
+                .collect(Collectors.joining());
+    }
+
     public void setSpousesGender(boolean isMale) {
         for (Map.Entry<String, Person> entry : spouses.entrySet()) {
             Person spouse = entry.getValue();
@@ -164,16 +177,16 @@ public class Person {
     }
 
     public String toShortString() {
-        return String.format("#%d %-5s%s %-1s %-30.30s",
-                sourceRow.getNumber(), genCode, (hasChildRelatedNotes() ? "*" : ""), gender,
+        return String.format("#%d %-8s%s %-2s %-30.30s",
+                sourceRow.getNumber(), genCode, (hasChildRelatedNotes() ? "*" : ""), sourcesToString(),
                 name.toFullName());
     }
 
     public String toFormattedString() {
-        String str = String.format("#%-2d %-7s %1s %-30.30s",
+        String str = String.format("#%-2d %-7s %2s %-30.30s",
                 getSourceRow().getNumber(),
                 getGenCode(),
-                getGender(),
+                sourcesToString(),
                 getName().toFullName()
         );
 

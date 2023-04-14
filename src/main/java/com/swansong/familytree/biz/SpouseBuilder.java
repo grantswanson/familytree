@@ -4,6 +4,7 @@ import com.swansong.familytree.csv.Row;
 import com.swansong.familytree.data.PersonMap;
 import com.swansong.familytree.model.GenCode;
 import com.swansong.familytree.model.Person;
+import com.swansong.familytree.model.Source;
 
 public class SpouseBuilder {
     public static Person findSpouse(Row row) {
@@ -36,6 +37,7 @@ public class SpouseBuilder {
         Person person = PersonBuilder.buildBasicPerson(name);
         person.setSourceRow(row);
         person.setGenCode(GenCode.buildSpousesCode(row.getGenCode()));
+        person.addSource(Source.Spouse);
 
         person.setDob(row.getSpouseDob());
         person.setPob(row.getSpousePob());

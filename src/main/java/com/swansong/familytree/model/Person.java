@@ -184,13 +184,13 @@ public class Person {
     }
 
     public String toShortString() {
-        return String.format("#%2d %-8s %-3s %-30.30s",
+        return String.format("#%2d %-8s %-4s %-30.30s",
                 sourceRow.getNumber(), genCode, sourcesToString(),
                 name.toFullName());
     }
 
     public String toFormattedString() {
-        String str = String.format("#%-2d %-7s %3s %-30.30s",
+        String str = String.format("#%-2d %-7s %-4s %-30.30s",
                 getSourceRow().getNumber(),
                 getGenCode(),
                 sourcesToString(),

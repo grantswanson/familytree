@@ -111,14 +111,14 @@ public class Person {
     @ToString.Include
     public String sourcesToString() {
         String s = sources.stream()
-                .filter(source -> !source.equals(Source.Children))
+                .filter(source -> !source.equals(Source.Parents))
                 .map(Source::toString)
                 .collect(Collectors.joining());
-        long childCount = sources.stream()
-                .filter(source -> source.equals(Source.Children))
+        long parentsCount = sources.stream()
+                .filter(source -> source.equals(Source.Parents))
                 .count();
-        if (childCount > 0) {
-            s += Source.Children.toString() + childCount;
+        if (parentsCount > 0) {
+            s += Source.Parents.toString() + parentsCount;
         }
         return s;
     }

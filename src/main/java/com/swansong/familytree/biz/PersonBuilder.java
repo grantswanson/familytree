@@ -13,6 +13,7 @@ public class PersonBuilder {
     public static void buildMainPersonAndSpouse(ArrayList<Row> csvData) {
         int mainPeopleCount = 0;
         int spouseCount = 0;
+        int nonFirstMarriages = 0;
 
         // build all the primary people
         for (Row row : csvData) {
@@ -36,7 +37,11 @@ public class PersonBuilder {
                 MarriageBuilder.addRowDetails(marriage, row);
                 MarriageMap.addMarriage(marriage);
             }
+            if (GenCode.isEndingWithNumber(row.getGenCode()) && !row.getGenCode().endsWith("1")) {
+                nonFirstMarriages++;
+            }
         }
+        verifyCounts(Source.Main, csvData.size() - nonFirstMarriages);
         verifyCounts(Source.Main, mainPeopleCount);
         verifyCounts(Source.Spouse, spouseCount);
 
@@ -49,11 +54,11 @@ public class PersonBuilder {
 
             //System.out.println(
             throw new RuntimeException(
-                    "Count verification failed. source:" + source + "rowCount:" + rowCount +
+                    "Count verification failed. source:" + source + " rowCount:" + rowCount +
                             " personMapCount:" + personMapCount);
         }
         System.out.println(
-                "Count verification PASSSED. source:" + source + "rowCount:" + rowCount +
+                "Count verification PASSSED. source:" + source + " rowCount:" + rowCount +
                         " personMapCount:" + personMapCount);
 
     }

@@ -24,7 +24,7 @@ public class PersonMerger {
             person.getName().mergeInName(altName);
             s += "\n   Name of new person: " + person.getName().toFullName();
 //            System.out.println(s);
-            person.addSource(isChildMerge ? Source.Child : Source.Children);
+            person.addSource(isChildMerge ? Source.Child : Source.Parents);
             return true;
         } else if (person.getName().startsWith(altName)) {
             String s = "Merged names that start with the other. (also handles initials)  ln#:" + rowNum + " Source:" + altNameSource +
@@ -33,7 +33,7 @@ public class PersonMerger {
             person.getName().mergeStartsWith(altName);
             s += "\n  final merged name: '" + person.getName().toFullName() + "' " + person.getGenCode();
 //            System.out.println(s);
-            person.addSource(isChildMerge ? Source.Child : Source.Children);
+            person.addSource(isChildMerge ? Source.Child : Source.Parents);
             return true;
         } else if (Name.areNamesPossiblyMisspelled(altName, person.getName())) {
             String s = "Merged similar names ln#:" + rowNum + " Source:" + altNameSource +
@@ -42,7 +42,7 @@ public class PersonMerger {
             person.getName().mergeInMisspelledName(altName);
             s += "\n  final merged name: '" + person.getName().toFullName() + "' " + person.getGenCode();
 //            System.out.println(s);
-            person.addSource(isChildMerge ? Source.Child : Source.Children);
+            person.addSource(isChildMerge ? Source.Child : Source.Parents);
             return true;
 
         } else {

@@ -15,8 +15,8 @@ public enum Source {
             case Spouse -> "S";
             case Parents -> "P";
             case SpousesParents -> "sp";
-            case Children -> "C";
-            case Child -> "c";
+            case Children -> "C"; // Has Children
+            case Child -> "c"; // child of someone
         };
     }
 }

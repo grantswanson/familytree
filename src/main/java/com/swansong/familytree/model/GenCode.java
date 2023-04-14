@@ -107,7 +107,7 @@ public class GenCode {
         }
     }
 
-    private static boolean isEndingWithNumber(String s) {
+    public static boolean isEndingWithNumber(String s) {
         return (s != null && !s.isEmpty() &&
                 Character.isDigit(s.charAt(s.length() - 1)));
     }

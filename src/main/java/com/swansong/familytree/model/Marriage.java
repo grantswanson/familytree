@@ -46,9 +46,17 @@ public class Marriage {
 
     @ToString.Include
     public String sourcesToString() {
-        return sources.stream()
+        String s = sources.stream()
+                .filter(source -> !source.equals(Source.Children))
                 .map(Source::toString)
                 .collect(Collectors.joining());
+        long childCount = sources.stream()
+                .filter(source -> source.equals(Source.Children))
+                .count();
+        if (childCount > 0) {
+            s += Source.Children.toString() + childCount;
+        }
+        return s;
     }
 
     private String marriageDate = "";
@@ -232,7 +240,7 @@ public class Marriage {
     }
 
     public String toFormattedString() {
-        String str = String.format("#%-2d %2s ",
+        String str = String.format("#%-2d %4s ",
                 getSourceRow().getNumber(), sourcesToString());
         Person person = getHusband();
         if (person != null) {

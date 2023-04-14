@@ -24,13 +24,14 @@ public class MarriageMerger {
             Marriage marriage = MarriageBuilder.buildMarriage(husband, wife, row, source);
             if (source == Source.SpousesParents) {
                 marriage.addChild(child, 1);
+                marriage.addSource(Source.SpousesParents);
             }
             MarriageMap.addMarriage(marriage);
 
             if (husband != null && wife != null) {
                 System.out.println("Warn: Expected marriage to already be there. People exist. Built new one: ln#" + row.getNumber() +
-                        "\n husband:" + (husband != null ? husband.toFormattedString() : "none") + // TODO look at this. Always true.
-                        "\n    wife:" + (wife != null ? wife.toFormattedString() : "none") +
+                        "\n husband:" + husband.toFormattedString() + // TODO look at this. Always true.
+                        "\n    wife:" + wife.toFormattedString() +
                         " source:" + source +
                         "\n newMarriage:" + marriage.toFormattedString());
             }

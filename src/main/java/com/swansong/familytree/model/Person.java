@@ -110,11 +110,18 @@ public class Person {
 
     @ToString.Include
     public String sourcesToString() {
-        return sources.stream()
+        String s = sources.stream()
+                .filter(source -> !source.equals(Source.Children))
                 .map(Source::toString)
                 .collect(Collectors.joining());
+        long childCount = sources.stream()
+                .filter(source -> source.equals(Source.Children))
+                .count();
+        if (childCount > 0) {
+            s += Source.Children.toString() + childCount;
+        }
+        return s;
     }
-
     public void setSpousesGender(boolean isMale) {
         for (Map.Entry<String, Person> entry : spouses.entrySet()) {
             Person spouse = entry.getValue();
@@ -177,13 +184,13 @@ public class Person {
     }
 
     public String toShortString() {
-        return String.format("#%d %-8s%s %-2s %-30.30s",
-                sourceRow.getNumber(), genCode, (hasChildRelatedNotes() ? "*" : ""), sourcesToString(),
+        return String.format("#%2d %-8s %-3s %-30.30s",
+                sourceRow.getNumber(), genCode, sourcesToString(),
                 name.toFullName());
     }
 
     public String toFormattedString() {
-        String str = String.format("#%-2d %-7s %2s %-30.30s",
+        String str = String.format("#%-2d %-7s %3s %-30.30s",
                 getSourceRow().getNumber(),
                 getGenCode(),
                 sourcesToString(),

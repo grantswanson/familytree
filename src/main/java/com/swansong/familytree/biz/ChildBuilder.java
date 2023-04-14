@@ -100,6 +100,7 @@ public class ChildBuilder {
                     expectedPerson.setFather(marriage.getHusband());
                     expectedPerson.setMother(marriage.getWife());
                     marriage.addChild(expectedPerson, i + 1);
+                    marriage.addSource(Source.Children);
                 }
 
             } else {

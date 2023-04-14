@@ -39,6 +39,7 @@ public class SpousesParentsBuilder {
             Marriage marriage = MarriageBuilder.buildMarriage(spousesFather, spousesMother,
                     row, Source.SpousesParents);
             marriage.addChild(spouse, 1);
+            marriage.addSource(Source.SpousesParents);
             MarriageMap.addMarriage(marriage);
 
         }
@@ -77,6 +78,8 @@ public class SpousesParentsBuilder {
         Person person = PersonBuilder.buildBasicPerson(name);
         // add more here
         person.setSourceRow(row);
+        person.addSource(Source.SpousesParents);
+
         person.setGenderToMale(isMale);
         if (isMale) {
             person.setGenCode(GenCode.buildSpousesFatherCode(row.getGenCode()));

@@ -5,7 +5,8 @@ public enum Source {
     Spouse,
     Parents,
     SpousesParents,
-    Children;
+    Children, // Has Children
+    Child; // child of someone
 
     @Override
     public String toString() {
@@ -15,6 +16,7 @@ public enum Source {
             case Parents -> "P";
             case SpousesParents -> "sp";
             case Children -> "C";
+            case Child -> "c";
         };
     }
 }

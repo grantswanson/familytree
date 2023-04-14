@@ -48,6 +48,8 @@ public class FamilyTreeETLApplication {
 
             String outputFile = inputFile.replace(".csv", ".ged");
             writeOutputFile(outputFile, individuals, families);
+
+            // TODO reset marriage and person maps, or have separate instances
         }
 
 

@@ -37,7 +37,7 @@ public class Marriage {
     private Person spouse1;
     @ToString.Exclude
     private Person spouse2;
-    private MarriageSource source;
+    private Source source;
 
     private String marriageDate = "";
     private String marriagePlace = "";
@@ -121,7 +121,7 @@ public class Marriage {
             }
             child.setParentsMarriage(this);
         }
-        if (source == MarriageSource.SpousesParents) {
+        if (source == Source.SpousesParents) {
             if (child == null) {
                 throw new RuntimeException("Spouse parents exist, but spouse does not. Probably a data mistake. Marriage ln#" + sourceRow.getNumber());
             }

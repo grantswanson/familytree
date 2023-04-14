@@ -3,12 +3,12 @@ package com.swansong.familytree.biz;
 import com.swansong.familytree.csv.Row;
 import com.swansong.familytree.data.MarriageMap;
 import com.swansong.familytree.model.Marriage;
-import com.swansong.familytree.model.MarriageSource;
 import com.swansong.familytree.model.Person;
+import com.swansong.familytree.model.Source;
 
 public class MarriageMerger {
 
-    public static void verifyExistingMarriage(Person husband, Person wife, MarriageSource source, Person child, Row row) {
+    public static void verifyExistingMarriage(Person husband, Person wife, Source source, Person child, Row row) {
         //if the marriage exists, just use it
         Marriage existingMarriage = MarriageMap.findMarriage(husband, wife);
         if (existingMarriage != null) {
@@ -22,7 +22,7 @@ public class MarriageMerger {
 
         } else {
             Marriage marriage = MarriageBuilder.buildMarriage(husband, wife, row, source);
-            if (source == MarriageSource.SpousesParents) {
+            if (source == Source.SpousesParents) {
                 marriage.addChild(child, 1);
             }
             MarriageMap.addMarriage(marriage);

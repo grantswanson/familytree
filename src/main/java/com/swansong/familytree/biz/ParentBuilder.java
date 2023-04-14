@@ -51,10 +51,10 @@ public class ParentBuilder {
             if (father != null || mother != null) {
                 if ((foundFather || father == null) && (foundMother || mother == null)) { // existing people
                     MarriageMerger.verifyExistingMarriage(father, mother,
-                            MarriageSource.Parents, null, row);
+                            Source.Parents, null, row);
 
                 } else { // new people, so must be new marriage
-                    Marriage marriage = MarriageBuilder.buildMarriage(father, mother, row, MarriageSource.Parents);
+                    Marriage marriage = MarriageBuilder.buildMarriage(father, mother, row, Source.Parents);
                     MarriageMap.addMarriage(marriage);
 
                     // if unrelated child, then add child to marriage (they won't get added to the marriage later)

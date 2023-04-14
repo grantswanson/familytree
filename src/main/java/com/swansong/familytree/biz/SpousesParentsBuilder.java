@@ -34,10 +34,10 @@ public class SpousesParentsBuilder {
 
         if (foundFather && foundMother) {// existing people
             MarriageMerger.verifyExistingMarriage(spousesFather, spousesMother,
-                    MarriageSource.SpousesParents, spouse, row);
+                    Source.SpousesParents, spouse, row);
         } else if (spousesMother != null || spousesFather != null) {
             Marriage marriage = MarriageBuilder.buildMarriage(spousesFather, spousesMother,
-                    row, MarriageSource.SpousesParents);
+                    row, Source.SpousesParents);
             marriage.addChild(spouse, 1);
             MarriageMap.addMarriage(marriage);
 

@@ -22,17 +22,21 @@ public class PersonBuilder {
 
             if (!buildMainPersonResult.isNew() && !buildSpouseResult.isNew()) {
                 MarriageMerger.verifyExistingMarriage(mainPerson, spouse,
-                        MarriageSource.MainAndSpouse, null, row);
+                        Source.Spouse, null, row);
             } else if (spouse != null || ChildBuilder.extractChildrensNames(row).size() > 0) { // add a marriage if there are children
                 if (spouse == null) {
                     System.out.println("Warn: building marriage for main person with no spouse. ln#" + row.getNumber());
                 }
-                Marriage marriage = MarriageBuilder.buildMarriage(mainPerson, spouse, row, MarriageSource.MainAndSpouse);
+                Marriage marriage = MarriageBuilder.buildMarriage(mainPerson, spouse, row, Source.Spouse);
                 MarriageBuilder.addRowDetails(marriage, row);
                 MarriageMap.addMarriage(marriage);
             }
 
         }
+    }
+
+    private static void verifyCounts(int rowCount) {
+
     }
 
     public static Person findMainPerson(Row row) {

@@ -2,13 +2,13 @@ package com.swansong.familytree.biz;
 
 import com.swansong.familytree.csv.Row;
 import com.swansong.familytree.model.Marriage;
-import com.swansong.familytree.model.MarriageSource;
 import com.swansong.familytree.model.Person;
+import com.swansong.familytree.model.Source;
 
 
 public class MarriageBuilder {
 
-    public static Marriage buildMarriage(Person mainPerson, Person spouse, Row row, MarriageSource source) {
+    public static Marriage buildMarriage(Person mainPerson, Person spouse, Row row, Source source) {
 
         Marriage marriage = new Marriage();
         marriage.setSpouse1(mainPerson);

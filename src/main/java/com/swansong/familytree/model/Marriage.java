@@ -59,6 +59,31 @@ public class Marriage {
         return s;
     }
 
+    public void verifyKids() {
+        int kidCount = getChildrenList().size();
+
+        if (sources.contains(Source.SpousesParents) && kidCount == 1) {
+            return; // success
+        }
+        long parentCount = sources.stream().filter(source -> source.equals(Source.Parents)).count();
+        long fatherCount = getHusband().getSources().stream().filter(source -> source.equals(Source.Parents)).count();
+        long motherCount = getWife() != null ?
+                getWife().getSources().stream().filter(source -> source.equals(Source.Parents)).count() :
+                -1;
+
+        if (parentCount != kidCount ||
+                (fatherCount != kidCount &&
+                        motherCount != kidCount)) {
+            throw new RuntimeException("#Kids not correct somewhere... " +
+                    "\n # kids   :" + kidCount +
+                    "\n parentCnt:" + parentCount +
+                    "\n fatherCnt:" + fatherCount +
+                    "\n motherCnt:" + motherCount +
+                    "\n marriage:" + this
+            );
+        }
+    }
+
     private String marriageDate = "";
     private String marriagePlace = "";
 

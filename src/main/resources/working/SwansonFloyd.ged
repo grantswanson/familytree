@@ -661,6 +661,7 @@
 1 REFN CustomGenCode:SBCAAA
 1 BIRT
 2 DATE 13 Jul 1985
+1 FAMC @F20@
 0 @I67@ INDI
 1 NAME Debra Lynn /Gould/
 2 GIVN Debra Lynn
@@ -685,6 +686,7 @@
 1 REFN CustomGenCode:SBCABA
 1 BIRT
 2 DATE 10 Mar 1988
+1 FAMC @F21@
 0 @I70@ INDI
 1 NAME Samantha /Clouten/
 2 GIVN Samantha
@@ -692,6 +694,7 @@
 1 REFN CustomGenCode:SBCABB
 1 BIRT
 2 DATE 19 Oct 1990
+1 FAMC @F21@
 0 @I71@ INDI
 1 NAME Terry Howard /Gould/
 2 GIVN Terry Howard
@@ -1402,9 +1405,12 @@
 0 @F20@ FAM
 1 HUSB @I65@
 1 WIFE @I64@
+1 CHIL @I66@
 0 @F21@ FAM
 1 HUSB @I68@
 1 WIFE @I67@
+1 CHIL @I69@
+1 CHIL @I70@
 0 @F22@ FAM
 1 HUSB @I72@
 1 WIFE @I73@

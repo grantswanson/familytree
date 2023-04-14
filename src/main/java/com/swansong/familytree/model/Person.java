@@ -108,6 +108,12 @@ public class Person {
         sources.add(s);
     }
 
+    public void removeSource(Source s) {
+        if (!sources.remove(s)) {
+            throw new RuntimeException("Failed to remove Source when it should have been on there. source:" + s);
+        }
+    }
+
     @ToString.Include
     public String sourcesToString() {
         String s = sources.stream()

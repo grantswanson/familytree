@@ -61,8 +61,9 @@ public class MarriageMap {
         for (Marriage marriage : marriages) {
 
             String str = marriage.toFormattedString();
-
             System.out.println(str);
+            marriage.verifyKids();
+
         }
         System.out.println("Marriage Count:" + marriages.size());
 

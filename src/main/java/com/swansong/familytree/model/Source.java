@@ -4,8 +4,8 @@ public enum Source {
     Main,
     Spouse,
     Parents,
+    ParentsOfChildWithMultipleMarriages,
     SpousesParents,
-    Children, // Has Children
     Child; // child of someone
 
     @Override
@@ -14,9 +14,9 @@ public enum Source {
             case Main -> "M";
             case Spouse -> "S";
             case Parents -> "P";
+            case ParentsOfChildWithMultipleMarriages -> "p";
             case SpousesParents -> "sp";
-            case Children -> "C"; // Has Children
-            case Child -> "c"; // child of someone
+            case Child -> "C"; // child of someone
         };
     }
 }

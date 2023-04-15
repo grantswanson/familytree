@@ -13,7 +13,7 @@ public class PersonBuilder {
     public static void buildMainPersonAndSpouse(ArrayList<Row> csvData) {
         int mainPeopleCount = 0;
         int spouseCount = 0;
-        int nonFirstMarriages = 0;
+//        int nonFirstMarriages = 0;
 
         // build all the primary people
         for (Row row : csvData) {
@@ -37,9 +37,9 @@ public class PersonBuilder {
                 MarriageBuilder.addRowDetails(marriage, row);
                 MarriageMap.addMarriage(marriage);
             }
-            if (GenCode.isEndingWithNumber(row.getGenCode()) && !row.getGenCode().endsWith("1")) {
-                nonFirstMarriages++;
-            }
+//            if (GenCode.isEndingWithNumber(row.getGenCode()) && !row.getGenCode().endsWith("1")) {
+//                nonFirstMarriages++;
+//            }
         }
         //verifyCounts(Source.Main, csvData.size() - nonFirstMarriages);
         verifyCounts(Source.Main, mainPeopleCount);
@@ -77,18 +77,19 @@ public class PersonBuilder {
             if (!parentsMatch(row, existingPerson)) {
                 existingPerson = null;
             }
-            if (existingPerson != null) {
-                System.out.println("Warn: ln#" + row.getNumber() + " name:" + row.getName() +
-                        "\n       found BY NAME:" + existingPerson.getName().toFullName() +
-                        "\n  expectedGenCode:" + GenCode.buildSelfCode(row.getGenCode()) +
-                        "\n    foundGenCode :" + existingPerson.getGenCode()
-                );
-            } else {
+//            if (existingPerson != null) {
+//                // comment out because parents match.
+//                System.out.println("Warn: ln#" + row.getNumber() + " name:" + row.getName() +
+//                        "\n       found BY NAME:" + existingPerson.getName().toFullName() +
+//                        "\n  expectedGenCode:" + GenCode.buildSelfCode(row.getGenCode()) +
+//                        "\n    foundGenCode :" + existingPerson.getGenCode()
+//                );
+//            } else {
 //                System.out.println("Warn: ln#" + row.getNumber() + " name:" + row.getName() +
 //                        "\n       NOT found BY NAME." +
 //                        "\n  expectedGenCode:" + GenCode.buildSelfCode(row.getGenCode())
 //                );
-            }
+//            }
         }
 
         if (existingPerson == null) {
@@ -116,13 +117,14 @@ public class PersonBuilder {
         String thisMother = row.getMother();
         String thisSpousesFather = row.getSpouseFather();
         String thisSpousesMother = row.getSpouseMother();
-        if ((foundFather == null || foundFather.isEmpty()) && (foundMother == null || foundMother.isEmpty())) {
-            System.out.println("Found person's parents = null");
-            return true;
-        } else if ((thisFather == null || thisFather.isEmpty()) && (thisMother == null || thisMother.isEmpty())) {
-            System.out.println("This person's parents = null");
-            return true;
-        } else if (!Name.isEqual(thisFather, foundFather) &&
+//        if ((foundFather == null || foundFather.isEmpty()) && (foundMother == null || foundMother.isEmpty())) {
+//            System.out.println("Found person's parents = null");
+//            return true;
+//        } else if ((thisFather == null || thisFather.isEmpty()) && (thisMother == null || thisMother.isEmpty())) {
+//            System.out.println("This person's parents = null");
+//            return true;
+//        } else
+        if (!Name.isEqual(thisFather, foundFather) &&
                 !Name.isEqual(thisFather, foundSpousesFather) &&
                 !Name.isEqual(thisSpousesFather, foundFather) &&
                 !Name.isEqual(thisSpousesFather, foundSpousesFather) &&
@@ -145,16 +147,16 @@ public class PersonBuilder {
             );
             return false;
         } else {
-            System.out.println("Info: ln#" + row.getNumber() + " Parents DO match! " +
-                    "\n thisFather:" + thisFather +
-                    "\n foundFather:" + foundFather +
-                    "\n thisSpousesFather:" + thisSpousesFather +
-                    "\n foundSpousesFather:" + foundSpousesFather +
-
-                    "\n thisMother:" + thisMother +
-                    "\n foundMother:" + foundMother +
-                    "\n thisSpousesMother:" + thisSpousesMother +
-                    "\n foundSpousesMother:" + foundSpousesMother);
+//            System.out.println("Info: ln#" + row.getNumber() + " Parents DO match! " +
+//                    "\n thisFather:" + thisFather +
+//                    "\n foundFather:" + foundFather +
+//                    "\n thisSpousesFather:" + thisSpousesFather +
+//                    "\n foundSpousesFather:" + foundSpousesFather +
+//
+//                    "\n thisMother:" + thisMother +
+//                    "\n foundMother:" + foundMother +
+//                    "\n thisSpousesMother:" + thisSpousesMother +
+//                    "\n foundSpousesMother:" + foundSpousesMother);
             return true;
         }
     }

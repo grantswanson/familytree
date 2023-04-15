@@ -76,6 +76,7 @@ public class Marriage {
         if (parentCount != kidCount ||
                 (fatherCount != kidCount && motherCount != kidCount)) {
             List<String> ignoreList = List.of(
+                    "MAGA1E2", // ignore ln#455 Johnson, Jodie it is correct
                     "MABABC", //ignore ln#121 Kracht, Kelly Sue. She is correct.
                     "MAGA2a",//ignore ln#459 Saathoff, Rita Mae. She is correct (I think).
                     "MABCFE1",//ignore ln#199 Anliker, Jeff. He is correct

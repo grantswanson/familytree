@@ -15,7 +15,7 @@ public class ParentBuilder {
             boolean foundMother = false;
 
             Person father = null, mother = null;
-            if (row.getFather() != null && !row.getFather().isBlank() && !Name.isOnlySurname(row.getFather())) {
+            if (row.getFather() != null && !row.getFather().isBlank()) {
                 Name fathersName = Name.parseFullName(row.getFather());
                 father = findParent(fathersName, row, true);
                 if (father == null) {
@@ -33,7 +33,7 @@ public class ParentBuilder {
                 }
             }
 
-            if (row.getMother() != null && !row.getMother().isBlank()) { // for mother allow only surname && !Name.isOnlySurname(row.getMother())) {
+            if (row.getMother() != null && !row.getMother().isBlank()) {
                 Name mothersName = Name.parseFullName(row.getMother());
                 mother = findParent(mothersName, row, false);
                 if (mother == null) {
@@ -89,7 +89,7 @@ public class ParentBuilder {
                 success = PersonMerger.merge(expectedParent, parentsName, row.getNumber(), fatherMotherStr + "  merge parent2", false);
             }
         }
-        if (!success) {
+        if (!success) {// && parentsName.hasSurnameAndOtherNames()) {
             expectedParent = PersonMap.getPersonByNameKey(parentsName.toNameKey());
             if (expectedParent != null) {
                 success = PersonMerger.merge(expectedParent, parentsName, row.getNumber(), fatherMotherStr + "  merge parent2", false);

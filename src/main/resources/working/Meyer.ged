@@ -2586,6 +2586,7 @@
 1 OCCU Receptionist, Doctor's Office
 1 FAMS @F60@
 1 FAMS @F61@
+1 FAMS @F475@
 1 FAMC @F56@
 0 @I170@ INDI
 1 NAME Donald Harvey /Johnson/
@@ -3018,7 +3019,7 @@
 1 FACT Rodney enlisted in the US Air Force and served for 10 months in Viet Nam.
 1 FACT *Terry Allen is Marcella's son from a previous marriage.
 1 FAMS @F69@
-1 FAMS @F475@
+1 FAMS @F476@
 1 FAMC @F331@
 0 @I203@ INDI
 1 NAME Terry Allen /Woltman/
@@ -3029,7 +3030,7 @@
 2 DATE 10 Dec 1975
 2 PLAC Sioux Valley Memorial Hosp. Cherokee, IA, USA
 1 OCCU Student
-1 FAMC @F475@
+1 FAMC @F476@
 0 @I204@ INDI
 1 NAME Hillary Kathleen /Brown/
 2 GIVN Hillary Kathleen
@@ -3332,8 +3333,8 @@
 1 FACT Jim is a member of the Sons of the American Legion.  He is also an active volunteer with the Peterson Community Response Unit. He is actively involved in the Naval Reserves since Jan 1989.
 1 FACT * Sandra's children from a previous marriages.
 1 FAMS @F75@
-1 FAMS @F476@
 1 FAMS @F477@
+1 FAMS @F478@
 1 FAMC @F337@
 0 @I226@ INDI
 1 NAME Jamie Lee /Peters/
@@ -3343,7 +3344,7 @@
 1 BIRT
 2 DATE 18 Sep 1986
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA. USA
-1 FAMC @F476@
+1 FAMC @F477@
 0 @I227@ INDI
 1 NAME Sierra Kaylee Raeann {Kracht} /Lane/
 2 GIVN Sierra Kaylee Raeann {Kracht}
@@ -3352,7 +3353,7 @@
 1 BIRT
 2 DATE 12 Apr 1993
 1 FACT * Sierra Kaylee  Raeanne Lane was officially adopted by James D. Kracht in 1995.  She now goes by Kracht.
-1 FAMC @F477@
+1 FAMC @F478@
 0 @I228@ INDI
 1 NAME Rebecca Sue /Kracht/
 2 GIVN Rebecca Sue
@@ -3947,7 +3948,7 @@
 1 OCCU Teacher & Coach
 1 FACT * Jeff's Children from a previous marriage
 1 FAMS @F87@
-1 FAMS @F478@
+1 FAMS @F479@
 0 @I275@ INDI
 1 NAME Bruce /Anliker/
 2 GIVN Bruce
@@ -4133,7 +4134,7 @@
 1 OCCU Homemaker, Receptionist
 1 FACT * Susan's daughters from previous marriage.
 1 FAMS @F91@
-1 FAMS @F479@
+1 FAMS @F480@
 1 FAMC @F351@
 0 @I289@ INDI
 1 NAME Stephanie /Kelly/
@@ -4146,7 +4147,7 @@
 2 PLAC , Sioux City, IA, USA
 1 OCCU Receptionist
 1 FAMS @F92@
-1 FAMC @F479@
+1 FAMC @F480@
 0 @I290@ INDI
 1 NAME Alyannah Alette /Kelly/
 2 GIVN Alyannah Alette
@@ -4242,7 +4243,7 @@
 1 GRAD
 2 DATE 1949
 2 PLAC Peterson HS, Peterson, IA, USA
-1 OCCU Service Station Owner/Operater
+1 OCCU Service Station Owner/Operator
 1 FACT Jan and Bob were both active in the Congregational Church in Peterson, IA.
 1 FACT Jan & Bob were both active in the American Legion as well as the Shrine.
 1 FACT They both enjoyed participating in Shrine activities and parades, especially in the summer time.
@@ -4273,7 +4274,7 @@
 1 OCCU Electrician
 1 FACT * Robert's children from a previous marriage.
 1 FAMS @F95@
-1 FAMS @F480@
+1 FAMS @F481@
 1 FAMC @F353@
 0 @I301@ INDI
 1 NAME Rhonda Sue /Rushton/
@@ -4284,7 +4285,7 @@
 2 DATE 3 Sep 1977
 2 PLAC , Lake City, IA, USA
 1 OCCU Student
-1 FAMC @F480@
+1 FAMC @F481@
 0 @I302@ INDI
 1 NAME Ronald Robert /Rushton/ Jr
 2 GIVN Ronald Robert
@@ -4320,6 +4321,7 @@
 1 BIRT
 2 DATE 25 Aug 1994
 2 PLAC Buena Vista Co. Hosp. Storm Lake, IA, USA
+1 FAMC @F95@
 0 @I306@ INDI
 1 NAME Barbara Ann /Hoover/
 2 GIVN Barbara Ann
@@ -4809,6 +4811,7 @@
 1 BIRT
 2 DATE 31 Jul 2000
 2 PLAC Mercy Hosp. Iowa City, IA, USA
+1 FAMC @F105@
 0 @I347@ INDI
 1 NAME Atlas Nelson /Kolpin/
 2 GIVN Atlas Nelson
@@ -4817,6 +4820,7 @@
 1 BIRT
 2 DATE 31 Jul 2000
 2 PLAC Mercy Hosp. Iowa City, IA, USA
+1 FAMC @F105@
 0 @I348@ INDI
 1 NAME Ryan Russell /Kolpin/
 2 GIVN Ryan Russell
@@ -5059,7 +5063,7 @@
 1 OCCU Homemaker, Teacher, N.H. Mgr.
 1 FACT * Jane's son from a previous marriage.
 1 FAMS @F112@
-1 FAMS @F481@
+1 FAMS @F482@
 1 FAMC @F366@
 0 @I370@ INDI
 1 NAME Peter Covey /Schafroth/
@@ -5070,6 +5074,7 @@
 2 DATE 7 Mar 1955
 2 PLAC , Decorah, IA, USA
 1 OCCU Financial Advisor
+1 FAMC @F482@
 0 @I371@ INDI
 1 NAME Emmett Kirk /Mohror/
 2 GIVN Emmett Kirk
@@ -5821,7 +5826,7 @@
 1 SEX M
 1 FACT * John's daughter from a previous marriage.
 1 FAMS @F128@
-1 FAMS @F482@
+1 FAMS @F483@
 0 @I421@ INDI
 1 NAME Bailey Nicole /Baize/
 2 GIVN Bailey Nicole
@@ -5830,7 +5835,7 @@
 1 BIRT
 2 DATE 14 Nov 1997
 2 PLAC St. Joseph Hosp. Bloomington, IL. USA
-1 FAMC @F482@
+1 FAMC @F483@
 0 @I422@ INDI
 1 NAME Jane Lizabeth /Baize/
 2 GIVN Jane Lizabeth
@@ -5874,7 +5879,7 @@
 1 FACT Dean earned his first BS Degree in from Rockford College, Rockford, IL. in 1994.  JoAnne has earned both her B.S. & M.S degrees in Math.
 1 FACT * JoAnne's daughter from a previous marriage.
 1 FAMS @F129@
-1 FAMS @F483@
+1 FAMS @F484@
 1 FAMC @F379@
 0 @I426@ INDI
 1 NAME Amanda Mae /Parke/
@@ -5885,7 +5890,7 @@
 2 DATE 26 Apr 1983
 2 PLAC , Rockford, IL, USA
 1 OCCU Student
-1 FAMC @F483@
+1 FAMC @F484@
 0 @I427@ INDI
 1 NAME Donovan LeRoy /Meyer/
 2 GIVN Donovan LeRoy
@@ -5989,7 +5994,7 @@
 1 FACT After his divorce Don moved back to Peterson, IA. where he started his own business in home repair, auto repair, tire & battery sales.  He & his father bought & rebuilt a 5,500 sq. ft. building in Peterson, IA.
 1 FACT * Linda's children from a previous marriage.
 1 FAMS @F131@
-1 FAMS @F484@
+1 FAMS @F485@
 1 FAMC @F381@
 0 @I432@ INDI
 1 NAME Loren Jay /Wingert/ Jr
@@ -6000,7 +6005,7 @@
 2 DATE 15 Sep 1969
 2 PLAC Battle Creek Hosp. Battle Creek, IA, USA
 1 OCCU Installs & Repairs Air Conditioners
-1 FAMC @F484@
+1 FAMC @F485@
 0 @I433@ INDI
 1 NAME Troy Lee /Wingert/
 2 GIVN Troy Lee
@@ -6253,7 +6258,7 @@
 1 FACT Sue has maintained a Colonial-era home in Massachusetts, thus learning carpentry, plumbing, painting and demolishing techniques.
 1 FACT * David's children from a previous marriage
 1 FAMS @F136@
-1 FAMS @F485@
+1 FAMS @F486@
 1 FAMC @F386@
 0 @I449@ INDI
 1 NAME Eric Michael /Richardson/
@@ -6262,7 +6267,7 @@
 1 REFN CustomGenCode:MADABA2a
 1 BIRT
 2 DATE 22 Sep 1983
-1 FAMC @F485@
+1 FAMC @F486@
 0 @I450@ INDI
 1 NAME Brian David /Richardson/
 2 GIVN Brian David
@@ -7711,7 +7716,6 @@
 2 PLAC , Carpio, ND, USA
 1 OCCU Homemaker
 1 FAMS @F173@
-1 FAMS @F486@
 1 FAMC @F163@
 0 @I569@ INDI
 1 NAME /Tarrant/
@@ -8032,6 +8036,7 @@
 2 GIVN Corey
 2 SURN Meyer
 1 REFN CustomGenCode:MAGA1BAB
+1 FAMC @F182@
 0 @I600@ INDI
 1 NAME Todd Matthew /Meyer/
 2 GIVN Todd Matthew
@@ -8187,8 +8192,9 @@
 2 SURN Johnson
 1 REFN CustomGenCode:MAGA1E2
 1 SEX M
-1 FACT Cal Johnson's daughter from a previous marriage.
+1 FACT Jodie is Cal Johnson's daughter from a previous marriage.
 1 FAMS @F187@
+1 FAMS @F487@
 0 @I615@ INDI
 1 NAME Jodie /Johnson/
 2 GIVN Jodie
@@ -8238,7 +8244,7 @@
 1 FACT Ethelyn traveled in 26 states while her first husband was in the service.  She went to Hawaii in 1992 with her sisterand a cruise through the Panama Canal with Ronald in 1992.
 1 FACT Ethelyn's children from a previous marriage.
 1 FAMS @F188@
-1 FAMS @F487@
+1 FAMS @F488@
 1 FAMC @F413@
 0 @I619@ INDI
 1 NAME Rita Mae /Saathoff/
@@ -8256,7 +8262,7 @@
 2 DATE May 1964
 2 PLAC Alta HS, Alta, IA, USA
 1 FAMS @F189@
-1 FAMC @F487@
+1 FAMC @F488@
 0 @I620@ INDI
 1 NAME Roger Allen /Peters/
 2 GIVN Roger Allen
@@ -9289,7 +9295,6 @@
 1 SEX F
 1 OCCU Homemaker
 1 FAMS @F221@
-1 FAMS @F488@
 1 FAMC @F219@
 0 @I719@ INDI
 1 NAME /Neilson/
@@ -9332,7 +9337,6 @@
 1 SEX F
 1 OCCU Homemaker
 1 FAMS @F222@
-1 FAMS @F489@
 1 FAMC @F219@
 0 @I724@ INDI
 1 NAME /Albrecht/
@@ -9449,7 +9453,6 @@
 1 SEX F
 1 OCCU Homemaker
 1 FAMS @F226@
-1 FAMS @F490@
 1 FAMC @F224@
 0 @I737@ INDI
 1 NAME /Liljengren/
@@ -13896,75 +13899,87 @@
 1 SEX F
 1 FAMS @F474@
 0 @I1260@ INDI
+1 NAME /Rosenberg/
+2 SURN Rosenberg
+1 REFN CustomGenCode:MABABC2Auf
+1 SEX M
+1 FAMS @F475@
+0 @I1261@ INDI
 1 NAME Randy /Woltman/
 2 GIVN Randy
 2 SURN Woltman
 1 REFN CustomGenCode:MABCCBauf
 1 SEX M
-1 FAMS @F475@
-0 @I1261@ INDI
+1 FAMS @F476@
+0 @I1262@ INDI
 1 NAME Ronald James /Peters/
 2 GIVN Ronald James
 2 SURN Peters
 1 REFN CustomGenCode:MABCDA2auf
 1 SEX M
-1 FAMS @F476@
-0 @I1262@ INDI
+1 FAMS @F477@
+0 @I1263@ INDI
 1 NAME Joseph Jay /Lane/
 2 GIVN Joseph Jay
 2 SURN Lane
 1 REFN CustomGenCode:MABCDA2buf
 1 SEX M
-1 FAMS @F477@
-0 @I1263@ INDI
+1 FAMS @F478@
+0 @I1264@ INDI
 1 NAME Dan Ross /Kelly/
 2 GIVN Dan Ross
 2 SURN Kelly
 1 REFN CustomGenCode:MABCGCauf
 1 SEX M
-1 FAMS @F479@
-0 @I1264@ INDI
+1 FAMS @F480@
+0 @I1265@ INDI
 1 NAME Charlene Kay /Jacob/
 2 GIVN Charlene Kay
 2 SURN Jacob
 1 REFN CustomGenCode:MABCIAaum
 1 SEX F
-1 FAMS @F480@
-0 @I1265@ INDI
+1 FAMS @F481@
+0 @I1266@ INDI
+1 NAME /Schafroth/
+2 SURN Schafroth
+1 REFN CustomGenCode:MABHAauf
+1 SEX M
+1 FAMS @F482@
+0 @I1267@ INDI
 1 NAME Amy Lynn /Schultz/
 2 GIVN Amy Lynn
 2 SURN Schultz
 1 REFN CustomGenCode:MADAAC1Baum
 1 SEX F
-1 FAMS @F482@
-0 @I1266@ INDI
+1 FAMS @F483@
+0 @I1268@ INDI
 1 NAME Daniel Lee /Parke/
 2 GIVN Daniel Lee
 2 SURN Parke
 1 REFN CustomGenCode:MADAAC2auf
 1 SEX M
-1 FAMS @F483@
-0 @I1267@ INDI
+1 FAMS @F484@
+0 @I1269@ INDI
 1 NAME Loren Jay /Wingert/ Sr
 2 GIVN Loren Jay
 2 SURN Wingert
 1 REFN CustomGenCode:MADAAD2auf
 1 SEX M
-1 FAMS @F484@
-0 @I1268@ INDI
+1 FAMS @F485@
+0 @I1270@ INDI
 1 NAME Christine /McBride/
 2 GIVN Christine
 2 SURN McBride
 1 REFN CustomGenCode:MADABA2aum
 1 SEX F
-1 FAMS @F485@
-0 @I1269@ INDI
+1 FAMS @F486@
+0 @I1271@ INDI
 1 NAME Clayton Ellsworth /Saathoff/
 2 GIVN Clayton Ellsworth
 2 SURN Saathoff
 1 REFN CustomGenCode:MAGA2auf
 1 SEX M
-1 FAMS @F487@
+1 FAMS @F488@
 0 @F0@ FAM
 1 HUSB @I0@
 1 WIFE @I1@
@@ -14450,7 +14465,7 @@
 1 DIV
 2 DATE 26 Feb 1987
 0 @F61@ FAM
-1 HUSB @I169@
+1 WIFE @I169@
 1 CHIL @I172@
 1 CHIL @I173@
 0 @F62@ FAM
@@ -14715,7 +14730,7 @@
 1 NOTE Technically unrelated child: Kelly, Stephanie
 1 NOTE Technically unrelated child: Kelly, Brooke Liane
 0 @F92@ FAM
-1 HUSB @I289@
+1 WIFE @I289@
 1 NOTE Technically unrelated child: Kelly, Alyannah Alette
 0 @F93@ FAM
 1 HUSB @I292@
@@ -14734,6 +14749,7 @@
 1 WIFE @I299@
 1 CHIL @I303@
 1 CHIL @I304@
+1 CHIL @I305@
 1 MARR
 2 DATE 25 Nov 1989
 2 PLAC Congregational Church, Peterson, IA, USA
@@ -14817,6 +14833,8 @@
 1 WIFE @I343@
 1 CHIL @I344@
 1 CHIL @I345@
+1 CHIL @I346@
+1 CHIL @I347@
 1 MARR
 2 DATE 26 Nov 1988
 2 PLAC Congregational Church, Peterson, IA, USA
@@ -15416,6 +15434,7 @@
 1 HUSB @I596@
 1 WIFE @I597@
 1 CHIL @I598@
+1 CHIL @I599@
 1 MARR
 2 DATE 25 Aug 1990
 2 PLAC Presbyterian Church, Alta, IA, USA
@@ -15453,7 +15472,7 @@
 0 @F187@ FAM
 1 HUSB @I614@
 1 WIFE @I612@
-1 NOTE Cal Johnson's daughter from a previous marriage.
+1 NOTE Jodie is Cal Johnson's daughter from a previous marriage.
 1 NOTE Technically unrelated child: Johnson, Jodie
 0 @F188@ FAM
 1 HUSB @I591@
@@ -16866,57 +16885,53 @@
 1 CHIL @I869@
 0 @F475@ FAM
 1 HUSB @I1260@
-1 WIFE @I202@
-1 CHIL @I203@
+1 WIFE @I169@
 0 @F476@ FAM
 1 HUSB @I1261@
-1 WIFE @I225@
-1 CHIL @I226@
+1 WIFE @I202@
+1 CHIL @I203@
 0 @F477@ FAM
 1 HUSB @I1262@
 1 WIFE @I225@
-1 CHIL @I227@
+1 CHIL @I226@
 0 @F478@ FAM
-1 HUSB @I274@
-0 @F479@ FAM
 1 HUSB @I1263@
+1 WIFE @I225@
+1 CHIL @I227@
+0 @F479@ FAM
+1 HUSB @I274@
+0 @F480@ FAM
+1 HUSB @I1264@
 1 WIFE @I288@
 1 CHIL @I289@
-1 NOTE Technically unrelated child: Kelly, Alyannah Alette
-0 @F480@ FAM
-1 HUSB @I300@
-1 WIFE @I1264@
-1 CHIL @I301@
 0 @F481@ FAM
-1 WIFE @I369@
-0 @F482@ FAM
-1 HUSB @I420@
+1 HUSB @I300@
 1 WIFE @I1265@
-1 CHIL @I421@
-0 @F483@ FAM
+1 CHIL @I301@
+0 @F482@ FAM
 1 HUSB @I1266@
+1 WIFE @I369@
+1 CHIL @I370@
+0 @F483@ FAM
+1 HUSB @I420@
+1 WIFE @I1267@
+1 CHIL @I421@
+0 @F484@ FAM
+1 HUSB @I1268@
 1 WIFE @I425@
 1 CHIL @I426@
-0 @F484@ FAM
-1 HUSB @I1267@
+0 @F485@ FAM
+1 HUSB @I1269@
 1 WIFE @I431@
 1 CHIL @I432@
-0 @F485@ FAM
-1 HUSB @I448@
-1 WIFE @I1268@
-1 CHIL @I449@
 0 @F486@ FAM
-1 WIFE @I568@
+1 HUSB @I448@
+1 WIFE @I1270@
+1 CHIL @I449@
 0 @F487@ FAM
-1 HUSB @I1269@
+1 HUSB @I614@
+0 @F488@ FAM
+1 HUSB @I1271@
 1 WIFE @I618@
 1 CHIL @I619@
-1 NOTE Technically unrelated child: Peters, Russell Allen
-1 NOTE Technically unrelated child: Peters, Rachel Ann
-0 @F488@ FAM
-1 WIFE @I718@
-0 @F489@ FAM
-1 WIFE @I723@
-0 @F490@ FAM
-1 WIFE @I736@
 0 TRLR

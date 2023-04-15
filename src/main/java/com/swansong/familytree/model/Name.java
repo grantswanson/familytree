@@ -325,7 +325,7 @@ public class Name {
                 suffix.isBlank();
     }
 
-    private boolean isOnlySurName() {
+    public boolean isOnlySurName() {
         return surName != null && !surName.isBlank() &&
                 firstNames.isBlank() &&
                 nickName.isBlank() &&
@@ -333,14 +333,27 @@ public class Name {
                 suffix.isBlank();
     }
 
+
+    @SuppressWarnings("unused")
+    public boolean hasSurnameAndOtherNames() {
+        return hasSurname() && !isOnlySurName();
+
+    }
+
     public static boolean isOnlySurname(String name) {
         Name name1 = Name.parseFullName(name);
         return name1.isOnlySurName();
     }
 
+
+    public boolean hasSurname() {
+        return surName != null && !surName.isBlank();
+
+    }
+
     public static boolean hasSurname(String name) {
         Name name1 = Name.parseFullName(name);
-        return name1.surName != null && !name1.surName.isBlank();
+        return name1.hasSurname();
 
     }
 

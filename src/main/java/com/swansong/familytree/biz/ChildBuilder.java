@@ -82,13 +82,14 @@ public class ChildBuilder {
             if (!parentsMatch(row, expectedPerson)) {
                 expectedPerson = null;
             }
-            if (expectedPerson != null) {
-                System.out.println("Warn: ln#" + row.getNumber() + " Child #" + i + " " + childsName.toFullName() +
-                        "\n       found BY NAME:" + expectedPerson.getName().toFullName() +
-                        "\n  expectedGenCode:" + expectedCode +
-                        "\n    foundGenCode :" + expectedPerson.getGenCode()
-                );
-            }
+//            if (expectedPerson != null) {
+//                // comment out because parent match
+//                System.out.println("Warn: ln#" + row.getNumber() + " Child #" + i + " " + childsName.toFullName() +
+//                        "\n       found BY NAME:" + expectedPerson.getName().toFullName() +
+//                        "\n  expectedGenCode:" + expectedCode +
+//                        "\n    foundGenCode :" + expectedPerson.getGenCode()
+//                );
+//            }
         }
 
         if (expectedPerson != null) {

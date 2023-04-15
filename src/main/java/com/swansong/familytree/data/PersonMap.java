@@ -40,8 +40,10 @@ public class PersonMap {
 
     private static void validateNameKey(NameKey nameKey) {
         String rawName = nameKey.toString();
-        if (Name.isOnlySurname(rawName) || !Name.hasSurname(rawName)) {
-            System.out.println("Warn: Looking for someone without both a first and a last name. name:" + rawName);
+        if (Name.isOnlySurname(rawName)) {
+            System.out.println("Warn: Looking for someone that only has a last name. name:" + rawName);
+        } else if (!Name.hasSurname(rawName)) {
+            System.out.println("Warn: Looking for someone that does not have a last name. name:" + rawName);
         }
     }
 

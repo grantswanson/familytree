@@ -99,8 +99,9 @@ public class ParentBuilder {
         if (success) {
             expectedParent.setGenderToMale(isFather);
             expectedParent.setSpousesGender(!isFather);
-            if (GenCode.isEndingWithNumber(row.getGenCode()) && !row.getGenCode().endsWith("1")) {
-                expectedParent.addSource(Source.ParentsOfChildWithMultipleMarriages);
+            if ((GenCode.isEndingWithNumber(row.getGenCode()) && !row.getGenCode().endsWith("1")) ||
+                    GenCode.isUnrelated(row.getGenCode())) {
+                expectedParent.addSource(Source.ParentsOfUnRelatedChildren);
                 expectedParent.removeSource(Source.Parents);
 
             }

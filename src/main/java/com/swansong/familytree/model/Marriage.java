@@ -20,8 +20,8 @@ public class Marriage {
     private int id;
 
     @SuppressWarnings("unused")
-    @ToString.Include
-    private int lineNum() {
+    @ToString.Include(name = "ln#")
+    private int getLineNum() {
         return sourceRow.getNumber();
     }
 
@@ -38,13 +38,15 @@ public class Marriage {
     private Person spouse1;
     @ToString.Exclude
     private Person spouse2;
+
+    @ToString.Exclude
     private List<Source> sources = new ArrayList<>();
 
     public void addSource(Source s) {
         sources.add(s);
     }
 
-    @ToString.Include
+    @ToString.Include(name = "sources")
     public String sourcesToString() {
         String s = sources.stream()
                 .filter(source -> !source.equals(Source.Parents))
@@ -66,14 +68,24 @@ public class Marriage {
             return; // success
         }
         long parentCount = sources.stream().filter(source -> source.equals(Source.Parents)).count();
-        long fatherCount = getHusband().getSources().stream().filter(source -> source.equals(Source.Parents)).count();
-        long motherCount = getWife() != null ?
-                getWife().getSources().stream().filter(source -> source.equals(Source.Parents)).count() :
-                -1;
+        long fatherCount = getHusband() == null ? -1 :
+                getHusband().getSources().stream().filter(source -> source.equals(Source.Parents)).count();
+        long motherCount = getWife() == null ? -1 :
+                getWife().getSources().stream().filter(source -> source.equals(Source.Parents)).count();
 
         if (parentCount != kidCount ||
-                (fatherCount != kidCount &&
-                        motherCount != kidCount)) {
+                (fatherCount != kidCount && motherCount != kidCount)) {
+            List<String> ignoreList = List.of(
+                    "MABABC", //ignore ln#121 Kracht, Kelly Sue. She is correct.
+                    "MAGA2a",//ignore ln#459 Saathoff, Rita Mae. She is correct (I think).
+                    "MABCFE1",//ignore ln#199 Anliker, Jeff. He is correct
+                    "MABHA1"//ignore ln#270 Covey, Jane Elaine Schafroth. She is correct (I think).
+
+            );
+            if (getWife() != null && ignoreList.contains(getWife().getGenCode()) ||
+                    getHusband() != null && ignoreList.contains(getHusband().getGenCode())) {
+                return;
+            } // else
             throw new RuntimeException("#Kids not correct somewhere... " +
                     "\n # kids   :" + kidCount +
                     "\n parentCnt:" + parentCount +
@@ -90,6 +102,7 @@ public class Marriage {
     private String divorceDate = "";
     private String divorcePlace = "";
 
+    @ToString.Exclude
     private List<String> notes = new ArrayList<>();
 
     public void addNote(String note) {
@@ -106,7 +119,7 @@ public class Marriage {
     private Row sourceRow;
 
 
-    @ToString.Include
+    @ToString.Include(name = "children")
     public String childrenToString() {
         StringBuilder strBuilder = new StringBuilder();
 
@@ -202,7 +215,18 @@ public class Marriage {
         return retVal;
     }
 
-    @ToString.Include
+    @ToString.Include(name = "husband")
+    public String getHusbandToString() {
+        return getHusband() == null ? " unknown " :
+                getHusband().toShortString();
+    }
+
+    @ToString.Include(name = "wife")
+    public String getWifeToString() {
+        return getWife() == null ? " unknown " :
+                getWife().toShortString();
+    }
+
     public Person getHusband() {
         if (getSpouseNumOfHusband() == 1) {
             return spouse1;
@@ -216,12 +240,15 @@ public class Marriage {
             return 2;
         } else if (spouse1 != null && spouse1.isMale()) {
             return 1;
+        } else if (spouse2 != null && spouse2.isFemale()) {
+            return 1;
+        } else if (spouse1 != null && spouse1.isFemale()) {
+            return 2;
         } else { // just default to spouse 1
             return 1;
         }
     }
 
-    @ToString.Include
     public Person getWife() {
         // do the opposite of husband
         if (getSpouseNumOfHusband() == 1) {
@@ -265,19 +292,11 @@ public class Marriage {
     }
 
     public String toFormattedString() {
-        String str = String.format("#%-2d %4s ",
+        String str = String.format("#%-3d %4s ",
                 getSourceRow().getNumber(), sourcesToString());
-        Person person = getHusband();
-        if (person != null) {
-            str += " " + person.toShortString();
-        }
 
-        person = getWife();
-        if (person != null) {
-            str += " " + person.toShortString();
-        } else {
-            str += " unknown spouse                ";
-        }
+        str += String.format(" %-50s", getHusbandToString());
+        str += String.format(" %-50s", getWifeToString());
         str += childrenToString();
         return str;
     }

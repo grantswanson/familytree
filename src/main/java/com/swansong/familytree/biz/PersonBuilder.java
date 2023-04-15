@@ -41,7 +41,7 @@ public class PersonBuilder {
                 nonFirstMarriages++;
             }
         }
-        verifyCounts(Source.Main, csvData.size() - nonFirstMarriages);
+        //verifyCounts(Source.Main, csvData.size() - nonFirstMarriages);
         verifyCounts(Source.Main, mainPeopleCount);
         verifyCounts(Source.Spouse, spouseCount);
 

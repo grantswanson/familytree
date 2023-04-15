@@ -4,7 +4,7 @@ public enum Source {
     Main,
     Spouse,
     Parents,
-    ParentsOfChildWithMultipleMarriages,
+    ParentsOfUnRelatedChildren,
     SpousesParents,
     Child; // child of someone
 
@@ -14,7 +14,7 @@ public enum Source {
             case Main -> "M";
             case Spouse -> "S";
             case Parents -> "P";
-            case ParentsOfChildWithMultipleMarriages -> "p";
+            case ParentsOfUnRelatedChildren -> "p";
             case SpousesParents -> "sp";
             case Child -> "C"; // child of someone
         };

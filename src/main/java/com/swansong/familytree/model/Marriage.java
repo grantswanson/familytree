@@ -83,8 +83,9 @@ public class Marriage {
                     "MABHA1"//ignore ln#270 Covey, Jane Elaine Schafroth. She is correct (I think).
 
             );
-            if (getWife() != null && ignoreList.contains(getWife().getGenCode()) ||
-                    getHusband() != null && ignoreList.contains(getHusband().getGenCode())) {
+            if (getWife() == null || getHusband() == null || // it often gets messed up when a parent is missing... often it is kids from other marriages
+                    ignoreList.contains(getWife().getGenCode()) ||
+                    ignoreList.contains(getHusband().getGenCode())) {
                 return;
             } // else
             throw new RuntimeException("#Kids not correct somewhere... " +

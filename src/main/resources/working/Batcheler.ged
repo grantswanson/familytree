@@ -129,6 +129,7 @@
 2 PLAC Wheaton Home, Jamestown, ND, USA
 1 OCCU Homemaker
 1 FACT * Sarah's children from a previous marriage & adopted by Melvin Batcheler.  ** Foster daughter.
+1 FACT Batcheler, Mary Koeing is possibly child #4 from a different marriage.
 1 FAMS @F3@
 1 FAMS @F145@
 0 @I8@ INDI
@@ -281,10 +282,11 @@
 1 BIRT
 2 DATE 15 Sep 1967
 0 @I26@ INDI
-1 NAME Mary Koeing /Koeing/
-2 GIVN Mary Koeing
+1 NAME Mary /Koeing/
+2 GIVN Mary
 2 SURN Koeing
 1 REFN CustomGenCode:AABd
+1 FAMC @F147@
 0 @I27@ INDI
 1 NAME Martin Gilbert /Batcheler/
 2 GIVN Martin Gilbert
@@ -728,7 +730,6 @@
 2 PLAC Berg Home, Peterson, IA, USA
 1 OCCU Homemaker, worked as a clerk in Lee Gilbert's grocery store & managed the Variety store for Les Templer, both in Peterson, IA.
 1 FAMS @F23@
-1 FAMS @F147@
 1 FAMC @F126@
 0 @I70@ INDI
 1 NAME Donald Arthur /Lane/
@@ -1037,6 +1038,7 @@
 1 REFN CustomGenCode:ACABAa
 1 BIRT
 2 DATE 31 Jul 1977
+1 FAMC @F149@
 0 @I99@ INDI
 1 NAME Patrick Lee /Lane/
 2 GIVN Patrick Lee
@@ -1677,6 +1679,7 @@
 1 REFN CustomGenCode:AD1BAa
 1 BIRT
 2 DATE 5 Jul 1953
+1 FAMC @F150@
 0 @I148@ INDI
 1 NAME Richard Eugene /Bailey/
 2 GIVN Richard Eugene
@@ -2720,6 +2723,7 @@
 1 REFN CustomGenCode:AHAAA2a
 1 BIRT
 2 DATE 27 Aug 1976
+1 FAMC @F151@
 0 @I248@ INDI
 1 NAME Heather Marie /Vaughn/
 2 GIVN Heather Marie
@@ -3251,7 +3255,6 @@
 1 FACT United Methodist
 1 FACT Cow & Denim Day Collector.
 1 FAMS @F101@
-1 FAMS @F152@
 1 FAMC @F139@
 0 @I290@ INDI
 1 NAME Shawn Robert /Syndergaard/
@@ -3430,7 +3433,7 @@
 1 FACT Wendell belonged to the 4-H & FFA.  He is now a member of the American Legion.
 1 FACT * Mary's children from a previous marriage.
 1 FAMS @F105@
-1 FAMS @F153@
+1 FAMS @F152@
 1 FAMC @F140@
 0 @I304@ INDI
 1 NAME Linda //
@@ -4366,19 +4369,29 @@
 1 SEX M
 1 FAMS @F145@
 0 @I403@ INDI
-1 NAME Fred Augustus /Lane/
-2 GIVN Fred Augustus
-2 SURN Lane
-1 REFN CustomGenCode:ACAAuf
+1 NAME /Foster Child/
+2 SURN Foster Child
+1 REFN CustomGenCode:AABduf
 1 SEX M
 1 FAMS @F147@
 0 @I404@ INDI
-1 NAME Susan Marie /Winterboer/
-2 GIVN Susan Marie
-2 SURN Winterboer
-1 REFN CustomGenCode:AIAEAum
-1 SEX F
-1 FAMS @F152@
+1 NAME /McMurray/
+2 SURN McMurray
+1 REFN CustomGenCode:ACABAauf
+1 SEX M
+1 FAMS @F149@
+0 @I405@ INDI
+1 NAME /Thorson/
+2 SURN Thorson
+1 REFN CustomGenCode:AD1BAauf
+1 SEX M
+1 FAMS @F150@
+0 @I406@ INDI
+1 NAME /Vaughn/
+2 SURN Vaughn
+1 REFN CustomGenCode:AHAAA2auf
+1 SEX M
+1 FAMS @F151@
 0 @F0@ FAM
 1 HUSB @I0@
 1 WIFE @I1@
@@ -4421,7 +4434,6 @@
 1 NOTE Technically unrelated child: Batcheler, Patricia Ann Murray
 1 NOTE Technically unrelated child: Batcheler, Beatrice Evelyn Murray
 1 NOTE Technically unrelated child: Batcheler, Lenore Lee Murray
-1 NOTE Technically unrelated child: Koeing, Mary Koeing
 0 @F4@ FAM
 1 HUSB @I9@
 1 WIFE @I8@
@@ -5397,18 +5409,21 @@
 1 HUSB @I9@
 0 @F147@ FAM
 1 HUSB @I403@
-1 WIFE @I69@
+1 CHIL @I26@
 0 @F148@ FAM
 1 WIFE @I79@
 0 @F149@ FAM
+1 HUSB @I404@
 1 WIFE @I97@
+1 CHIL @I98@
 0 @F150@ FAM
+1 HUSB @I405@
 1 WIFE @I146@
+1 CHIL @I147@
 0 @F151@ FAM
+1 HUSB @I406@
 1 WIFE @I246@
+1 CHIL @I247@
 0 @F152@ FAM
-1 HUSB @I289@
-1 WIFE @I404@
-0 @F153@ FAM
 1 WIFE @I303@
 0 TRLR

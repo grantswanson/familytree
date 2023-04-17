@@ -645,6 +645,7 @@
 1 SEX F
 1 BIRT
 2 DATE 20 Apr 1952
+1 OCCU Homemaker
 1 FAMS @F20@
 1 FAMC @F19@
 0 @I65@ INDI
@@ -653,7 +654,10 @@
 2 SURN Lawrence
 1 REFN CustomGenCode:SBCAA1
 1 SEX M
+1 BIRT
+2 DATE 16 Dec 1947
 1 FAMS @F20@
+1 FAMC @F39@
 0 @I66@ INDI
 1 NAME Nicholas /Lawrence/
 2 GIVN Nicholas
@@ -670,6 +674,7 @@
 1 SEX F
 1 BIRT
 2 DATE 25 Jul 1953
+1 OCCU Homemaker
 1 FAMS @F21@
 1 FAMC @F19@
 0 @I68@ INDI
@@ -678,6 +683,9 @@
 2 SURN Clouten
 1 REFN CustomGenCode:SBCAB1
 1 SEX M
+1 BIRT
+2 DATE 8 Aug 1956
+2 PLAC Australia
 1 FAMS @F21@
 0 @I69@ INDI
 1 NAME Christopher /Clouten/
@@ -858,7 +866,7 @@
 2 PLAC Cedar Cem. Larrabee, IA, USA
 1 OCCU Homemaker
 1 FAMS @F26@
-1 FAMC @F39@
+1 FAMC @F40@
 0 @I89@ INDI
 1 NAME Ellen /Swanson/
 2 GIVN Ellen
@@ -909,7 +917,7 @@
 2 DATE 26 Nov 1912
 1 OCCU Homemaker
 1 FAMS @F28@
-1 FAMC @F40@
+1 FAMC @F41@
 0 @I94@ INDI
 1 NAME Chester Loyal William /Swanson/
 2 GIVN Chester Loyal William
@@ -949,8 +957,8 @@
 1 OCCU Homemaker
 1 FACT *Keeva Rachel is Catherine's daughter from a previous marriage.
 1 FAMS @F31@
-1 FAMS @F44@
-1 FAMC @F41@
+1 FAMS @F45@
+1 FAMC @F42@
 0 @I98@ INDI
 1 NAME Keeva Rachel /Stanberry/
 2 GIVN Keeva Rachel
@@ -959,7 +967,7 @@
 1 BIRT
 2 DATE 27 Mar 1974
 2 PLAC Mercy Hosp. Miami, FL, USA
-1 FAMC @F44@
+1 FAMC @F45@
 0 @I99@ INDI
 1 NAME Roger Chris /Swanson/
 2 GIVN Roger Chris
@@ -1011,7 +1019,7 @@
 1 FACT Roger enjoys animals, helping coach wrestling and traveling.  Carol enjoys ballroom dancing, sewing and crafts.
 1 FACT Roger and Carol have been honored as Paul Harris Fellows for their work in Youth Exchange. Roger was named to the athletic Hall of Fame of John Jay H. S. Wappingers & of Peekskill H.S. for his achievements & work in wrestling.
 1 FAMS @F32@
-1 FAMC @F42@
+1 FAMC @F43@
 0 @I101@ INDI
 1 NAME Loren Christian /Swanson/
 2 GIVN Loren Christian
@@ -1090,13 +1098,15 @@
 2 PLAC Danville, PA, USA
 1 OCCU Homemaker
 1 FAMS @F34@
-1 FAMC @F43@
+1 FAMC @F44@
 0 @I107@ INDI
 1 NAME Clifford /Swanson/
 2 GIVN Clifford
 2 SURN Swanson
 1 REFN CustomGenCode:SFD
 1 SEX M
+1 BIRT
+2 DATE 4 Feb 1924
 1 OCCU Language Professer
 1 FAMS @F35@
 1 FAMC @F26@
@@ -1111,6 +1121,8 @@
 2 GIVN Curtis
 2 SURN Swanson
 1 REFN CustomGenCode:SFDA
+1 BIRT
+2 DATE 2 Oct 1915
 1 FAMS @F36@
 1 FAMC @F35@
 0 @I110@ INDI
@@ -1132,6 +1144,8 @@
 2 NICK Kathy
 1 REFN CustomGenCode:SFDC
 1 SEX F
+1 BIRT
+2 DATE 22 Dec 1948
 1 OCCU Homemaker
 1 FAMS @F37@
 1 FAMC @F35@
@@ -1146,6 +1160,8 @@
 2 SURN Swanson
 1 REFN CustomGenCode:SFE
 1 SEX F
+1 BIRT
+2 DATE 9 Feb 1913
 1 FAMS @F38@
 1 FAMC @F26@
 0 @I115@ INDI
@@ -1168,82 +1184,89 @@
 1 REFN CustomGenCode:SFEB
 1 FAMC @F38@
 0 @I118@ INDI
+1 NAME Albert Earle /Lawrence/ Sr
+2 GIVN Albert Earle
+2 SURN Lawrence
+1 REFN CustomGenCode:SBCAA1sf
+1 SEX M
+1 FAMS @F39@
+0 @I119@ INDI
 1 NAME Sven /Persson/
 2 GIVN Sven
 2 SURN Persson
 1 REFN CustomGenCode:SF1sf
 1 SEX M
-1 FAMS @F39@
-0 @I119@ INDI
+1 FAMS @F40@
+0 @I120@ INDI
 1 NAME Katarina /Svensdotter/
 2 GIVN Katarina
 2 SURN Svensdotter
 1 REFN CustomGenCode:SF1sm
 1 SEX F
-1 FAMS @F39@
-0 @I120@ INDI
+1 FAMS @F40@
+0 @I121@ INDI
 1 NAME Christian /Locker/
 2 GIVN Christian
 2 SURN Locker
 1 REFN CustomGenCode:SFC1sf
 1 SEX M
-1 FAMS @F40@
-0 @I121@ INDI
+1 FAMS @F41@
+0 @I122@ INDI
 1 NAME Anna Heeren /Wuehke/
 2 GIVN Anna Heeren
 2 SURN Wuehke
 1 REFN CustomGenCode:SFC1sm
 1 SEX F
-1 FAMS @F40@
-0 @I122@ INDI
+1 FAMS @F41@
+0 @I123@ INDI
 1 NAME William Collins /Pichler/
 2 GIVN William Collins
 2 SURN Pichler
 1 REFN CustomGenCode:SFCA3sf
 1 SEX M
-1 FAMS @F41@
-0 @I123@ INDI
+1 FAMS @F42@
+0 @I124@ INDI
 1 NAME Ada Inez /Miller/
 2 GIVN Ada Inez
 2 SURN Miller
 1 REFN CustomGenCode:SFCA3sm
 1 SEX F
-1 FAMS @F41@
-0 @I124@ INDI
+1 FAMS @F42@
+0 @I125@ INDI
 1 NAME Donovan Burdette /Meyer/
 2 GIVN Donovan Burdette
 2 SURN Meyer
 1 REFN CustomGenCode:SFCB1sf
 1 SEX M
-1 FAMS @F42@
-0 @I125@ INDI
+1 FAMS @F43@
+0 @I126@ INDI
 1 NAME Doris /Smith/
 2 GIVN Doris
 2 SURN Smith
 1 REFN CustomGenCode:SFCB1sm
 1 SEX F
-1 FAMS @F42@
-0 @I126@ INDI
+1 FAMS @F43@
+0 @I127@ INDI
 1 NAME Stanley Joseph /Pasczkowski/
 2 GIVN Stanley Joseph
 2 SURN Pasczkowski
 1 REFN CustomGenCode:SFCD2sf
 1 SEX M
-1 FAMS @F43@
-0 @I127@ INDI
+1 FAMS @F44@
+0 @I128@ INDI
 1 NAME Margaret Louise /Moroz/
 2 GIVN Margaret Louise
 2 SURN Moroz
 1 REFN CustomGenCode:SFCD2sm
 1 SEX F
-1 FAMS @F43@
-0 @I128@ INDI
+1 FAMS @F44@
+0 @I129@ INDI
 1 NAME Kim Walker /Stanberry/
 2 GIVN Kim Walker
 2 SURN Stanberry
 1 REFN CustomGenCode:SFCA3auf
 1 SEX M
-1 FAMS @F44@
+1 FAMS @F45@
 0 @F0@ FAM
 1 HUSB @I0@
 1 WIFE @I1@
@@ -1406,11 +1429,15 @@
 1 HUSB @I65@
 1 WIFE @I64@
 1 CHIL @I66@
+1 MARR
+2 DATE 18 Jun 1977
 0 @F21@ FAM
 1 HUSB @I68@
 1 WIFE @I67@
 1 CHIL @I69@
 1 CHIL @I70@
+1 MARR
+2 DATE 6 Aug 1983
 0 @F22@ FAM
 1 HUSB @I72@
 1 WIFE @I73@
@@ -1499,26 +1526,29 @@
 1 CHIL @I117@
 0 @F39@ FAM
 1 HUSB @I118@
-1 WIFE @I119@
-1 CHIL @I88@
+1 CHIL @I65@
 0 @F40@ FAM
-1 HUSB @I120@
-1 WIFE @I121@
-1 CHIL @I93@
+1 HUSB @I119@
+1 WIFE @I120@
+1 CHIL @I88@
 0 @F41@ FAM
-1 HUSB @I122@
-1 WIFE @I123@
-1 CHIL @I97@
+1 HUSB @I121@
+1 WIFE @I122@
+1 CHIL @I93@
 0 @F42@ FAM
-1 HUSB @I124@
-1 WIFE @I125@
-1 CHIL @I100@
+1 HUSB @I123@
+1 WIFE @I124@
+1 CHIL @I97@
 0 @F43@ FAM
-1 HUSB @I126@
-1 WIFE @I127@
-1 CHIL @I106@
+1 HUSB @I125@
+1 WIFE @I126@
+1 CHIL @I100@
 0 @F44@ FAM
-1 HUSB @I128@
+1 HUSB @I127@
+1 WIFE @I128@
+1 CHIL @I106@
+0 @F45@ FAM
+1 HUSB @I129@
 1 WIFE @I97@
 1 CHIL @I98@
 0 TRLR

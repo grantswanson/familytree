@@ -1,134 +1,436 @@
 0 HEAD
-1 SOUR MyGenealogyProgram
-2 VERS 1.0
-2 NAME My Genealogy Program
-2 CORP My Corporation
-3 ADDR 1234 Main Street
-4 CONT Anytown, USA 12345
-1 DEST AnotherGenealogyProgram
-1 DATE 1 JAN 2022
-2 TIME 12:00:00
-1 FILE myGedcomFile.ged
-1 GEDC
-2 VERS 5.5.1
-2 FORM LINEAGE-LINKED
+1 FILE Locker.ged
 1 CHAR UTF-8
+1 LANG English
+1 DATE 20 APR 2023
+1 GEDC
+2 VERS 5.5.5
+2 FORM LINEAGE-LINKED
+1 SOUR SwansongCustomJavaProgram
+2 VERS 1.0
+1 NOTE Donovan Burdette /Meyer/ compiled the information up until his death in 2001. In 2023, Donovan's grandson, Grant Matthew /Swanson/ converted the records from a custom database using Microsoft Works to a GEDCOM file.
 1 SUBM @U1@
 0 @U1@ SUBM
-1 NAME Reldon Poulson
-0 @I41@ INDI
-1 NAME Keeva Rachel /Stanberry/
-2 GIVN Keeva Rachel
-2 SURN Stanberry
-1 BIRT
-2 DATE 27 Mar 1974
-2 PLAC Mercy Hosp. Miami, FL, USA
-0 @I95@ INDI
-1 NAME Rory Michelle /Locker/
-2 GIVN Rory Michelle
+1 NAME Grant Matthew /Swanson/
+0 @S1@ SOUR
+1 TITL Information compiled by Donovan Burdette /Meyer/
+1 NOTE Author: Donovan Burdette /Meyer/
+2 CONT Information compiled by Donovan Burdette /Meyer/ up until his death in 2001.
+0 @S2@ SOUR
+1 TITL GEDCOM conversion by Grant Matthew /Swanson/
+1 NOTE Author: Grant Matthew /Swanson/
+2 CONT In 2023, Donovan's grandson, Grant Matthew /Swanson/ converted the records from a custom database using Microsoft Works to a GEDCOM file.
+0 @I0@ INDI
+1 NAME Johann Simon /Locker/
+2 GIVN Johann Simon
 2 SURN Locker
+1 REFN CustomGenCode:LA
+1 SEX M
+1 FAMS @F0@
+0 @I1@ INDI
+1 NAME Elizabeth Margaretha /Taut/
+2 GIVN Elizabeth Margaretha
+2 SURN Taut
+1 REFN CustomGenCode:LA1
+1 SEX F
+1 OCCU Homemaker
+1 FAMS @F0@
+0 @I2@ INDI
+1 NAME Johann Adam /Locker/
+2 GIVN Johann Adam
+2 SURN Locker
+1 REFN CustomGenCode:LAA
+1 SEX M
 1 BIRT
-2 DATE 27 Dec 1968
-2 PLAC Excelsior, MN, USA
-0 @I110@ INDI
-1 NAME Edward /Rapp/
-2 GIVN Edward
-2 SURN Rapp
-1 BIRT
-2 DATE 1863
+2 DATE 22 Dec 1759
+2 PLAC , Germany
 1 DEAT
-2 DATE 1940
-0 @I96@ INDI
-1 NAME Ryan Christopher /Locker/
-2 GIVN Ryan Christopher
-2 SURN Locker
-1 BIRT
-2 DATE 27 Dec 1968
-2 PLAC Excelsior, MN, USA
-0 @I93@ INDI
-1 NAME Mark Brady /Locker/
-2 GIVN Mark Brady
-2 SURN Locker
-1 BIRT
-2 DATE 27 Apr 1963
-2 PLAC Pittsburgh, PA, USA
-0 @I94@ INDI
-1 NAME Shann Jeffries /Locker/
-2 GIVN Shann Jeffries
-2 SURN Locker
-1 BIRT
-2 DATE 24 Mar 1966
-2 PLAC Sarasota, FL, USA
-0 @I66@ INDI
-1 NAME Bradley Glen /Locker/
-2 GIVN Bradley Glen
-2 SURN Locker
-1 BIRT
-2 DATE 26 Oct 1959
-2 PLAC Spencer, IA, USA
-0 @I68@ INDI
-1 NAME Steven Lee /Locker/
-2 GIVN Steven Lee
-2 SURN Locker
-1 BIRT
-2 DATE 31 Jul 1963
-2 PLAC Spencer, IA, USA
-1 CONF
-2 DATE May 1979
-0 @I50@ INDI
-1 NAME Ella Marie /Dammann/
-2 GIVN Ella Marie
-2 SURN Dammann
+2 DATE 6 Nov 1840
+2 PLAC Germany
+1 FAMS @F1@
+1 FAMS @F57@
+1 FAMC @F0@
+0 @I3@ INDI
+1 NAME Susanne Margaretha /Rosch/
+2 GIVN Susanne Margaretha
+2 SURN Rosch
+1 REFN CustomGenCode:LAA1
 1 SEX F
 1 BIRT
-2 DATE 24 Nov 1896
-2 PLAC Little Rock, IA, USA
+2 DATE 28 Mar 1767
+2 PLAC , Germany
+1 DEAT
+2 DATE 26 Mar 1852
+2 PLAC Germany
 1 OCCU Homemaker
-0 @I138@ INDI
-1 NAME Martin Henry /Dammann/
-2 GIVN Martin Henry
-2 SURN Dammann
+1 FAMS @F1@
+1 FAMC @F44@
+0 @I4@ INDI
+1 NAME Christiebe Dorothee /Locker/
+2 GIVN Christiebe Dorothee
+2 SURN Locker
+1 NAME Christliebe?
+2 TYPE aka
+2 GIVN Christliebe?
+1 REFN CustomGenCode:LAAA
+1 SEX F
+1 BIRT
+2 DATE 7 Jul 1805
+1 DEAT
+2 DATE 25 Mar 1849
+1 OCCU Homemaker
+1 FAMS @F2@
+1 FAMC @F1@
+0 @I5@ INDI
+1 NAME Johann Georg /Locker/
+2 GIVN Johann Georg
+2 SURN Locker
+1 REFN CustomGenCode:LAAA1
 1 SEX M
+1 BIRT
+2 DATE 13 Apr 1793
+1 DEAT
+2 DATE 2 Feb 1836
+1 FACT Locker, Christian is possibly child #2 from a different marriage.
+1 FAMS @F2@
+1 FAMC @F45@
+0 @I6@ INDI
+1 NAME Johann Georg Heinrich Michael /Locker/
+2 GIVN Johann Georg Heinrich Michael
+2 SURN Locker
+1 NAME Hienrich?
+2 TYPE aka
+2 GIVN Hienrich?
+1 REFN CustomGenCode:LAAAA
+1 SEX M
+1 BIRT
+2 DATE 4 Feb 1832
+1 DEAT
+2 DATE 23 Nov 1919
+1 FAMS @F3@
+1 FAMC @F2@
+0 @I7@ INDI
+1 NAME Johanne Christiane Henriette /Wockel/
+2 GIVN Johanne Christiane Henriette
+2 SURN Wockel
+1 REFN CustomGenCode:LAAAA1
+1 SEX F
+1 BIRT
+2 DATE 30 Nov 1836
+1 DEAT
+2 DATE 10 Jun 1907
+1 OCCU Homemaker
+1 FAMS @F3@
+1 FAMC @F46@
+0 @I8@ INDI
+1 NAME Karoline Emma Anna /Locker/
+2 GIVN Karoline Emma Anna
+2 SURN Locker
+1 REFN CustomGenCode:LAAAAA
+1 SEX F
+1 BIRT
+2 DATE 26 Mar 1868
+1 DEAT
+2 DATE 24 Oct 1952
+1 OCCU Homemaker
+1 FAMS @F4@
+1 FAMC @F3@
+0 @I9@ INDI
+1 NAME Otto Paul /Schon/
+2 GIVN Otto Paul
+2 SURN Schon
+1 REFN CustomGenCode:LAAAAA1
+1 SEX M
+1 BIRT
+2 DATE 4 Oct 1860
+1 DEAT
+2 DATE 7 Jul 1937
+1 FAMS @F4@
+1 FAMC @F47@
+0 @I10@ INDI
+1 NAME Martha /Locker/
+2 GIVN Martha
+2 SURN Locker
+1 REFN CustomGenCode:LAAAAAA
+1 OCCU Homemaker
+1 FAMS @F5@
+1 FAMC @F4@
+0 @I11@ INDI
+1 NAME /Manthel/
+2 SURN Manthel
+1 REFN CustomGenCode:LAAAAAA1
+1 FAMS @F5@
+0 @I12@ INDI
+1 NAME Max /Locker/
+2 GIVN Max
+2 SURN Locker
+1 REFN CustomGenCode:LAAAAAB
+1 FAMC @F4@
+0 @I13@ INDI
+1 NAME Willi /Locker/
+2 GIVN Willi
+2 SURN Locker
+1 REFN CustomGenCode:LAAAAAC
+1 FAMC @F4@
+0 @I14@ INDI
+1 NAME Paul Fritz /Locker/
+2 GIVN Paul Fritz
+2 SURN Locker
+1 REFN CustomGenCode:LAAAAAD
+1 BIRT
+2 DATE 13 Sep 1900
+1 FAMC @F4@
+0 @I15@ INDI
+1 NAME Kutt /Locker/
+2 GIVN Kutt
+2 SURN Locker
+1 REFN CustomGenCode:LAAAAAE
+1 FAMC @F4@
+0 @I16@ INDI
+1 NAME Hulda /Locker/
+2 GIVN Hulda
+2 SURN Locker
+1 REFN CustomGenCode:LAAAAB
+1 OCCU Homemaker
+1 FAMS @F6@
+1 FAMC @F3@
+0 @I17@ INDI
+1 NAME /Wendler/
+2 SURN Wendler
+1 REFN CustomGenCode:LAAAAB1
+1 FAMS @F6@
+0 @I18@ INDI
+1 NAME Auguste /Locker/
+2 GIVN Auguste
+2 SURN Locker
+1 REFN CustomGenCode:LAAAAC
+1 FAMS @F7@
+1 FAMC @F3@
+0 @I19@ INDI
+1 NAME /Albertie/
+2 SURN Albertie
+1 REFN CustomGenCode:LAAAAC1
+1 FAMS @F7@
+0 @I20@ INDI
+1 NAME Minna /Locker/
+2 GIVN Minna
+2 SURN Locker
+1 REFN CustomGenCode:LAAAAD
+1 OCCU Homemaker
+1 FAMS @F8@
+1 FAMC @F3@
+0 @I21@ INDI
+1 NAME /Schulz/
+2 SURN Schulz
+1 REFN CustomGenCode:LAAAAD1
+1 FAMS @F8@
+0 @I22@ INDI
+1 NAME Frieda /Locker/
+2 GIVN Frieda
+2 SURN Locker
+1 REFN CustomGenCode:LAAAAE
+1 OCCU Homemaker
+1 FAMS @F9@
+1 FAMC @F3@
+0 @I23@ INDI
+1 NAME /Hickethier/
+2 SURN Hickethier
+1 REFN CustomGenCode:LAAAAE1
+1 FAMS @F9@
+0 @I24@ INDI
+1 NAME Herman /Locker/
+2 GIVN Herman
+2 SURN Locker
+1 REFN CustomGenCode:LAAAAF
+1 SEX M
+1 BIRT
+2 DATE 25 Mar 1856
+1 DEAT
+2 DATE 2 May 1929
+1 FAMS @F10@
+1 FAMS @F56@
+1 FAMC @F3@
+0 @I25@ INDI
+1 NAME Frauke /Frazen/
+2 GIVN Frauke
+2 SURN Frazen
+1 REFN CustomGenCode:LAAAAF1
+1 SEX F
+1 FAMS @F10@
+0 @I26@ INDI
+1 NAME Werner /Locker/
+2 GIVN Werner
+2 SURN Locker
+1 REFN CustomGenCode:LAAAAFA
+1 FAMC @F10@
+0 @I27@ INDI
+1 NAME Waither /Locker/
+2 GIVN Waither
+2 SURN Locker
+1 REFN CustomGenCode:LAAAAFB
+1 FAMC @F10@
+0 @I28@ INDI
+1 NAME Alwine /Locker/
+2 GIVN Alwine
+2 SURN Locker
+1 REFN CustomGenCode:LAAAAG
+1 FAMC @F3@
+0 @I29@ INDI
+1 NAME Christian J /Locker/
+2 GIVN Christian J
+2 SURN Locker
+1 REFN CustomGenCode:LAAB
+1 SEX M
+1 BIRT
+2 DATE 3 Nov 1839
+2 PLAC Weisenfeld, Germany
+1 DEAT
+2 DATE 19 Mar 1909
+1 FAMS @F11@
+0 @I30@ INDI
+1 NAME Johanna /Ulitzsich/
+2 GIVN Johanna
+2 SURN Ulitzsich
+1 NAME Ulitzsen?
+2 TYPE aka
+2 GIVN Ulitzsen?
+1 REFN CustomGenCode:LAAB1
+1 SEX F
+1 BIRT
+2 DATE 8 Aug 1831
+1 DEAT
+2 DATE Jun 1915
+1 OCCU Homemaker
+1 FAMS @F11@
+0 @I31@ INDI
+1 NAME Herman Christian /Locker/
+2 GIVN Herman Christian
+2 SURN Locker
+1 REFN CustomGenCode:LAABA
+1 SEX M
+1 BIRT
+2 DATE 25 Mar 1856
+1 DEAT
+2 DATE 2 May 1929
+1 FAMS @F12@
+1 FAMC @F11@
+0 @I32@ INDI
+1 NAME Frauke /Franzen/
+2 GIVN Frauke
+2 SURN Franzen
+1 REFN CustomGenCode:LAABA1
+1 SEX F
+1 BIRT
+2 DATE 7 Feb 1861
+1 DEAT
+2 DATE 28 Feb 1917
+1 OCCU Homemaker
+1 FAMS @F12@
+1 FAMC @F48@
+0 @I33@ INDI
+1 NAME Johann Christian Heinrich /Locker/
+2 GIVN Johann Christian Heinrich
+2 SURN Locker
+1 REFN CustomGenCode:LAABAA
+1 SEX M
+1 BIRT
+2 DATE 22 Aug 1884
+2 PLAC , Flanagan, IL, USA
+1 DEAT
+2 DATE 17 Mar 1973
+1 FAMS @F13@
+1 FAMS @F21@
+1 FAMC @F12@
 0 @I34@ INDI
 1 NAME Wuehke Anna /Heeren/
 2 GIVN Wuehke Anna
 2 SURN Heeren
+1 REFN CustomGenCode:LAABAA1
 1 SEX F
 1 BIRT
 2 DATE 18 Aug 1883
 1 DEAT
 2 DATE 25 Jun 1913
 1 OCCU Homemaker
-0 @I21@ INDI
-1 NAME /Schulz/
-2 SURN Schulz
+1 FAMS @F13@
+0 @I35@ INDI
+1 NAME Viola Christina Frances /Locker/
+2 GIVN Viola Christina Frances
+2 SURN Locker
+1 NAME Francis?
+2 TYPE aka
+2 GIVN Francis?
+1 REFN CustomGenCode:LAABAA1A
+1 SEX F
+1 BIRT
+2 DATE 24 Nov 1912
+1 OCCU Homemaker
+1 FAMS @F14@
+1 FAMC @F13@
 0 @I36@ INDI
 1 NAME Carl Loyal William /Swanson/
 2 GIVN Carl Loyal William
 2 SURN Swanson
+1 REFN CustomGenCode:LAABAA1A1
 1 SEX M
 1 DEAT
 2 DATE 5 Feb 1961
 2 PLAC Fishkill Rural Cem. Fishkill, NY, USA
 1 OCCU Agronomist
-0 @I92@ INDI
-1 NAME Judith Lynn /Swalve/
-2 GIVN Judith Lynn
-2 SURN Swalve
+1 FAMS @F14@
+1 FAMC @F49@
+0 @I37@ INDI
+1 NAME Chester Loyal William /Swanson/
+2 GIVN Chester Loyal William
+2 SURN Swanson
+1 REFN CustomGenCode:LAABAA1AA
+1 SEX M
+1 BIRT
+2 DATE 31 Aug 1942
+2 PLAC Ft. Devina, Ayer, MA, USA
+1 FAMS @F15@
+1 FAMS @F16@
+1 FAMS @F17@
+1 FAMC @F14@
+0 @I38@ INDI
+1 NAME Jacquelyn //
+2 GIVN Jacquelyn
+1 REFN CustomGenCode:LAABAA1AA1
+1 SEX F
+1 FAMS @F15@
+0 @I39@ INDI
+1 NAME Barbara //
+2 GIVN Barbara
+1 REFN CustomGenCode:LAABAA1AA2
+1 SEX F
+1 FAMS @F16@
+0 @I40@ INDI
+1 NAME Catherine Lucille /Pichler/
+2 GIVN Catherine Lucille
+2 SURN Pichler
+1 REFN CustomGenCode:LAABAA1AA3
 1 SEX F
 1 BIRT
-2 DATE 7 Mar 1940
-2 PLAC George, IA, USA
-1 OCCU Homemaker
-1 FACT * Twins
-0 @I139@ INDI
-1 NAME Henerika //
-2 GIVN Henerika
-1 SEX F
+2 DATE 5 Jul 1949
+2 PLAC Riverside, CA, USA
+1 FACT * Catherine's daughter from a previous marriage.
+1 FAMS @F17@
+1 FAMS @F58@
+1 FAMC @F50@
+0 @I41@ INDI
+1 NAME Keeva Rachel /Stanberry/
+2 GIVN Keeva Rachel
+2 SURN Stanberry
+1 REFN CustomGenCode:LAABAA1AA3a
+1 BIRT
+2 DATE 27 Mar 1974
+2 PLAC Mercy Hosp. Miami, FL, USA
+1 FAMC @F58@
 0 @I42@ INDI
 1 NAME Roger Chris /Swanson/
 2 GIVN Roger Chris
 2 SURN Swanson
+1 REFN CustomGenCode:LAABAA1AB
 1 SEX M
 1 BIRT
 2 DATE 25 May 1945
@@ -147,26 +449,13 @@
 1 FACT Roger is active in Westchester AVMA and Rotary International Youth Exchange.  Carol is active in the Women of the ELCA as editor of the Synodical newsletter.
 1 FACT Roger enjoys animals, helping coach wrestling and traveling.  Carol enjoys ballroom dancing, sewing and crafts.
 1 FACT Roger and Carol have been honored as Paul Harris Fellows for their work in Youth Exchange. Roger was named to the athletic Hall of Fame of John Jay H. S. Wappingers & of Peekskill H.S. for his achievements & work in wrestling.
-0 @I46@ INDI
-1 NAME Leanna Christine /Swanson/
-2 GIVN Leanna Christine
-2 SURN Swanson
-1 BIRT
-2 DATE 7 Jul 1948
-1 DEAT
-2 DATE 16 Jul 1948
-2 PLAC Fishkill Rural Cem. Fishkill, NY, USA
-0 @I47@ INDI
-1 NAME Robert Paul /Swanson/
-2 GIVN Robert Paul
-2 SURN Swanson
-1 BIRT
-2 DATE 16 Sep 1950
-2 PLAC Yale University Hosp. New Haven, CN, USA
+1 FAMS @F18@
+1 FAMC @F14@
 0 @I43@ INDI
 1 NAME Carol Anne /Meyer/
 2 GIVN Carol Anne
 2 SURN Meyer
+1 REFN CustomGenCode:LAABAA1AB1
 1 SEX F
 1 BIRT
 2 DATE 4 Nov 1945
@@ -187,66 +476,13 @@
 1 FACT Roger is active in Westchester AVMA and Rotary International Youth Exchange.  Carol is active in the Women of the ELCA as editor of the Synodical newsletter.
 1 FACT Roger enjoys animals, helping coach wrestling and traveling.  Carol enjoys ballroom dancing, sewing and crafts.
 1 FACT Roger and Carol have been honored as Paul Harris Fellows for their work in Youth Exchange. Roger was named to the athletic Hall of Fame of John Jay H. S. Wappingers & of Peekskill H.S. for his achievements & work in wrestling.
-0 @I37@ INDI
-1 NAME Chester Loyal William /Swanson/
-2 GIVN Chester Loyal William
-2 SURN Swanson
-1 SEX M
-1 BIRT
-2 DATE 31 Aug 1942
-2 PLAC Ft. Devina, Ayer, MA, USA
-0 @I89@ INDI
-1 NAME Dana Marie /Locker/
-2 GIVN Dana Marie
-2 SURN Locker
-1 BIRT
-2 DATE 8 Apr 1967
-2 PLAC Framingham, MA, USA
-0 @I122@ INDI
-1 NAME Catharina Margaretha /Spindler/
-2 GIVN Catharina Margaretha
-2 SURN Spindler
-1 SEX F
-0 @I90@ INDI
-1 NAME John Henry /Locker/ Jr
-2 GIVN John Henry
-2 SURN Locker
-1 BIRT
-2 DATE 24 May 1968
-2 PLAC Framingham, MA, USA
-0 @I88@ INDI
-1 NAME Kirsten Elizabeth /Locker/
-2 GIVN Kirsten Elizabeth
-2 SURN Locker
-1 BIRT
-2 DATE 18 Nov 1965
-2 PLAC Framingham, MA, USA
-0 @I19@ INDI
-1 NAME /Albertie/
-2 SURN Albertie
-0 @I45@ INDI
-1 NAME Grant Matthew /Swanson/
-2 GIVN Grant Matthew
-2 SURN Swanson
-1 BIRT
-2 DATE 21 Mar 1971
-2 PLAC Bethesda Naval Hosp. Bethesda, MD, USA
-1 BAPM
-2 PLAC A Lutheran, Gathersburg, MD, USA
-1 CONF
-2 PLAC Grace Lutheran, Yorktown Heights, NY, USA
-1 GRAD
-2 DATE 1989
-2 PLAC Peekskill HS, Peekskill, NY, USA
-1 OCCU College Student
-1 FACT Grant is now studing Computer Science at the University of Wisconsin in Madison.
-1 FACT Grant belongs to Grace Lutheran Church in Yorktown Heights, NY.
-1 FACT Grant enjoys mountain biking, juggling and racquetball.  He wrestled for five years in High School.
-1 FACT He has traveled many parts of the world including Europe, Japan, India and China.  He spent a year in Turkey as a Rotary International Exchange student.
+1 FAMS @F18@
+1 FAMC @F51@
 0 @I44@ INDI
 1 NAME Loren Christian /Swanson/
 2 GIVN Loren Christian
 2 SURN Swanson
+1 REFN CustomGenCode:LAABAA1ABA
 1 BIRT
 2 DATE 30 Nov 1969
 2 PLAC Bethesda Naval Hosp. Bethesda, MD, USA
@@ -263,453 +499,337 @@
 1 FACT N/A
 1 FACT Loren likes traveling, computers, drawing , woodworking, and kite flying.
 1 FACT He lived in the Philippines for one year as a Rotary Exchange student.
-0 @I140@ INDI
-1 NAME Matthias /Ruohoniemi/
-2 GIVN Matthias
-2 SURN Ruohoniemi
-1 SEX M
-0 @I5@ INDI
-1 NAME Johann Georg /Locker/
-2 GIVN Johann Georg
-2 SURN Locker
-1 SEX M
+1 FAMC @F18@
+0 @I45@ INDI
+1 NAME Grant Matthew /Swanson/
+2 GIVN Grant Matthew
+2 SURN Swanson
+1 REFN CustomGenCode:LAABAA1ABB
 1 BIRT
-2 DATE 13 Apr 1793
-1 DEAT
-2 DATE 2 Feb 1836
-0 @I87@ INDI
-1 NAME Joanne Bernadette /Salamida/
-2 GIVN Joanne Bernadette
-2 SURN Salamida
-1 SEX F
+2 DATE 21 Mar 1971
+2 PLAC Bethesda Naval Hosp. Bethesda, MD, USA
+1 BAPM
+2 PLAC A Lutheran, Gathersburg, MD, USA
+1 CONF
+2 PLAC Grace Lutheran, Yorktown Heights, NY, USA
+1 GRAD
+2 DATE 1989
+2 PLAC Peekskill HS, Peekskill, NY, USA
+1 OCCU College Student
+1 FACT Grant is now studing Computer Science at the University of Wisconsin in Madison.
+1 FACT Grant belongs to Grace Lutheran Church in Yorktown Heights, NY.
+1 FACT Grant enjoys mountain biking, juggling and racquetball.  He wrestled for five years in High School.
+1 FACT He has traveled many parts of the world including Europe, Japan, India and China.  He spent a year in Turkey as a Rotary International Exchange student.
+1 FAMC @F18@
+0 @I46@ INDI
+1 NAME Leanna Christine /Swanson/
+2 GIVN Leanna Christine
+2 SURN Swanson
+1 REFN CustomGenCode:LAABAA1AC
 1 BIRT
-2 DATE 1 Jan 1941
-2 PLAC Albany, NY, USA
+2 DATE 7 Jul 1948
 1 DEAT
-2 DATE 1977
+2 DATE 16 Jul 1948
+2 PLAC Fishkill Rural Cem. Fishkill, NY, USA
+1 FAMC @F14@
+0 @I47@ INDI
+1 NAME Robert Paul /Swanson/
+2 GIVN Robert Paul
+2 SURN Swanson
+1 REFN CustomGenCode:LAABAA1AD
+1 BIRT
+2 DATE 16 Sep 1950
+2 PLAC Yale University Hosp. New Haven, CN, USA
+1 FAMS @F19@
+1 FAMS @F20@
+1 FAMC @F14@
+0 @I48@ INDI
+1 NAME Mary Therese /Kalin/
+2 GIVN Mary Therese
+2 SURN Kalin
+1 REFN CustomGenCode:LAABAA1AD1
+1 BIRT
+2 DATE 1 Oct 1948
+2 PLAC Chicago, IL, USA
 1 OCCU Homemaker
-0 @I121@ INDI
-1 NAME Johann Nicol /Locker/
-2 GIVN Johann Nicol
-2 SURN Locker
-1 SEX M
-0 @I129@ INDI
-1 NAME Tjode /Tammen/
-2 GIVN Tjode
-2 SURN Tammen
+1 FAMS @F19@
+0 @I49@ INDI
+1 NAME Cynthia Marie Louise /Pasczkowski/
+2 GIVN Cynthia Marie Louise
+2 SURN Pasczkowski
+1 REFN CustomGenCode:LAABAA1AD2
+1 BIRT
+2 DATE 30 Nov 1953
+2 PLAC Danville, PA, USA
+1 OCCU Homemaker
+1 FAMS @F20@
+1 FAMC @F52@
+0 @I50@ INDI
+1 NAME Ella Marie /Dammann/
+2 GIVN Ella Marie
+2 SURN Dammann
+1 REFN CustomGenCode:LAABAA2
 1 SEX F
-0 @I119@ INDI
-1 NAME Johann Christoph /Rosch/
-2 GIVN Johann Christoph
-2 SURN Rosch
-1 SEX M
+1 BIRT
+2 DATE 24 Nov 1896
+2 PLAC Little Rock, IA, USA
+1 OCCU Homemaker
+1 FAMS @F21@
+1 FAMC @F53@
 0 @I51@ INDI
 1 NAME Elvira Myrtle /Locker/
 2 GIVN Elvira Myrtle
 2 SURN Locker
+1 REFN CustomGenCode:LAABAA2A
 1 SEX F
 1 BIRT
 2 DATE 9 Jan 1922
 2 PLAC George, IA, USA
 1 OCCU Homemaker
-0 @I120@ INDI
-1 NAME Eva Margaretha /Otto/
-2 GIVN Eva Margaretha
-2 SURN Otto
+1 FAMS @F22@
+1 FAMC @F21@
+0 @I52@ INDI
+1 NAME Louis Duane /Vogel/
+2 GIVN Louis Duane
+2 SURN Vogel
+1 REFN CustomGenCode:LAABAA2A1
+1 SEX M
+1 BIRT
+2 DATE 5 Jun 1917
+2 PLAC Manchester, MI, USA
+1 FAMS @F22@
+0 @I53@ INDI
+1 NAME Virginia Louise /Vogel/
+2 GIVN Virginia Louise
+2 SURN Vogel
+1 REFN CustomGenCode:LAABAA2AA
+1 BIRT
+2 DATE 19 May 1951
+2 PLAC Ann Arbor, MI, USA
+1 OCCU Homemaker
+1 FAMC @F22@
+0 @I54@ INDI
+1 NAME Valorie Lee /Vogel/
+2 GIVN Valorie Lee
+2 SURN Vogel
+1 NAME Valerie?
+2 TYPE aka
+2 GIVN Valerie?
+1 REFN CustomGenCode:LAABAA2AB
 1 SEX F
+1 BIRT
+2 DATE 24 Apr 1953
+2 PLAC Ann Arbor, MI, USA
+1 OCCU Homemaker
+1 FAMS @F23@
+1 FAMC @F22@
+0 @I55@ INDI
+1 NAME Robert /Van Patten/
+2 GIVN Robert
+2 SURN Van Patten
+1 REFN CustomGenCode:LAABAA2AB1
+1 SEX M
+1 FAMS @F23@
+0 @I56@ INDI
+1 NAME Katlyn /Van Patten/
+2 GIVN Katlyn
+2 SURN Van Patten
+1 REFN CustomGenCode:LAABAA2ABA
+1 FAMC @F23@
+0 @I57@ INDI
+1 NAME Sue Ellyn /Vogel/
+2 GIVN Sue Ellyn
+2 SURN Vogel
+1 REFN CustomGenCode:LAABAA2AC
+1 BIRT
+2 DATE 20 Mar 1955
+2 PLAC Ann Arbor, MI, USA
+1 OCCU Homemaker
+1 FAMC @F22@
 0 @I58@ INDI
 1 NAME Leora Marie /Locker/
 2 GIVN Leora Marie
 2 SURN Locker
+1 REFN CustomGenCode:LAABAA2B
 1 SEX F
 1 BIRT
 2 DATE 20 Feb 1928
 2 PLAC George, IA, USA
 1 OCCU Homemaker
 1 FACT * Triplets who lived less than one day.
-0 @I128@ INDI
-1 NAME Jann Lammert /Franzen/
-2 GIVN Jann Lammert
-2 SURN Franzen
-1 SEX M
-0 @I107@ INDI
-1 NAME Katherine /Franzen/
-2 GIVN Katherine
-2 SURN Franzen
-0 @I7@ INDI
-1 NAME Johanne Christiane Henriette /Wockel/
-2 GIVN Johanne Christiane Henriette
-2 SURN Wockel
-1 SEX F
-1 BIRT
-2 DATE 30 Nov 1836
-1 DEAT
-2 DATE 10 Jun 1907
-1 OCCU Homemaker
-0 @I15@ INDI
-1 NAME Kutt /Locker/
-2 GIVN Kutt
-2 SURN Locker
-0 @I52@ INDI
-1 NAME Louis Duane /Vogel/
-2 GIVN Louis Duane
-2 SURN Vogel
-1 SEX M
-1 BIRT
-2 DATE 5 Jun 1917
-2 PLAC Manchester, MI, USA
-0 @I17@ INDI
-1 NAME /Wendler/
-2 SURN Wendler
-0 @I143@ INDI
-1 NAME Kim Walker /Stanberry/
-2 GIVN Kim Walker
-2 SURN Stanberry
-1 SEX M
-0 @I16@ INDI
-1 NAME Hulda /Locker/
-2 GIVN Hulda
-2 SURN Locker
-1 OCCU Homemaker
-0 @I18@ INDI
-1 NAME Auguste /Locker/
-2 GIVN Auguste
-2 SURN Locker
-0 @I8@ INDI
-1 NAME Karoline Emma Anna /Locker/
-2 GIVN Karoline Emma Anna
-2 SURN Locker
-1 SEX F
-1 BIRT
-2 DATE 26 Mar 1868
-1 DEAT
-2 DATE 24 Oct 1952
-1 OCCU Homemaker
-0 @I14@ INDI
-1 NAME Paul Fritz /Locker/
-2 GIVN Paul Fritz
-2 SURN Locker
-1 BIRT
-2 DATE 13 Sep 1900
-0 @I24@ INDI
-1 NAME Herman /Locker/
-2 GIVN Herman
-2 SURN Locker
-1 SEX M
-1 BIRT
-2 DATE 25 Mar 1856
-1 DEAT
-2 DATE 2 May 1929
-0 @I53@ INDI
-1 NAME Virginia Louise /Vogel/
-2 GIVN Virginia Louise
-2 SURN Vogel
-1 BIRT
-2 DATE 19 May 1951
-2 PLAC Ann Arbor, MI, USA
-1 OCCU Homemaker
-0 @I13@ INDI
-1 NAME Willi /Locker/
-2 GIVN Willi
-2 SURN Locker
-0 @I28@ INDI
-1 NAME Alwine /Locker/
-2 GIVN Alwine
-2 SURN Locker
-0 @I54@ INDI
-1 NAME Valorie Lee /Vogel/
-2 GIVN Valorie Lee
-2 SURN Vogel
-1 NAME Valerie /Vogel/
-2 GIVN Valerie
-2 SURN Vogel
-1 SEX F
-1 BIRT
-2 DATE 24 Apr 1953
-2 PLAC Ann Arbor, MI, USA
-1 OCCU Homemaker
-0 @I12@ INDI
-1 NAME Max /Locker/
-2 GIVN Max
-2 SURN Locker
-0 @I20@ INDI
-1 NAME Minna /Locker/
-2 GIVN Minna
-2 SURN Locker
-1 OCCU Homemaker
-0 @I57@ INDI
-1 NAME Sue Ellyn /Vogel/
-2 GIVN Sue Ellyn
-2 SURN Vogel
-1 BIRT
-2 DATE 20 Mar 1955
-2 PLAC Ann Arbor, MI, USA
-1 OCCU Homemaker
-0 @I10@ INDI
-1 NAME Martha /Locker/
-2 GIVN Martha
-2 SURN Locker
-1 OCCU Homemaker
-0 @I22@ INDI
-1 NAME Frieda /Locker/
-2 GIVN Frieda
-2 SURN Locker
-1 OCCU Homemaker
-0 @I1@ INDI
-1 NAME Elizabeth Margaretha /Taut/
-2 GIVN Elizabeth Margaretha
-2 SURN Taut
-1 SEX F
-1 OCCU Homemaker
-0 @I35@ INDI
-1 NAME Viola Christina Frances /Locker/
-2 GIVN Viola Christina Frances
-2 SURN Locker
-1 NAME Francis /Locker/
-2 GIVN Francis
-2 SURN Locker
-1 SEX F
-1 BIRT
-2 DATE 24 Nov 1912
-1 OCCU Homemaker
-0 @I125@ INDI
-1 NAME Johann /Schon/
-2 GIVN Johann
-2 SURN Schon
-1 SEX M
-0 @I134@ INDI
-1 NAME Donovan Burdette /Meyer/
-2 GIVN Donovan Burdette
-2 SURN Meyer
-1 SEX M
-0 @I135@ INDI
-1 NAME Doris /Smith/
-2 GIVN Doris
-2 SURN Smith
-1 SEX F
-0 @I3@ INDI
-1 NAME Susanne Margaretha /Rosch/
-2 GIVN Susanne Margaretha
-2 SURN Rosch
-1 SEX F
-1 BIRT
-2 DATE 28 Mar 1767
-2 PLAC , Germany
-1 DEAT
-2 DATE 26 Mar 1852
-2 PLAC Germany
-1 OCCU Homemaker
-0 @I99@ INDI
-1 NAME Anna /Rantschman/
-2 GIVN Anna
-2 SURN Rantschman
-1 OCCU Homemaker
-0 @I9@ INDI
-1 NAME Otto Paul /Schon/
-2 GIVN Otto Paul
-2 SURN Schon
-1 SEX M
-1 BIRT
-2 DATE 4 Oct 1860
-1 DEAT
-2 DATE 7 Jul 1937
-0 @I2@ INDI
-1 NAME Johann Adam /Locker/
-2 GIVN Johann Adam
-2 SURN Locker
-1 SEX M
-1 BIRT
-2 DATE 22 Dec 1759
-2 PLAC , Germany
-1 GRAD
-2 PLAC Christiebe Dorothee [Locker]
-1 DEAT
-2 DATE 6 Nov 1840
-2 PLAC Germany
+1 FAMS @F24@
+1 FAMC @F21@
 0 @I59@ INDI
 1 NAME Peter Glen /Duin/
 2 GIVN Peter Glen
 2 SURN Duin
+1 REFN CustomGenCode:LAABAA2B1
 1 SEX M
 1 BIRT
 2 DATE 7 Mar 1925
 2 PLAC George, IA, USA
 1 OCCU Farm Manager
 1 FACT * Triplets who lived less than one day.
-0 @I40@ INDI
-1 NAME Catherine Lucille /Pichler/
-2 GIVN Catherine Lucille
-2 SURN Pichler
-1 SEX F
-1 BIRT
-2 DATE 5 Jul 1949
-2 PLAC Riverside, CA, USA
-1 FACT * Catherine's daughter from a previous marriage.
-0 @I142@ INDI
-1 NAME Johanna /Ulitzsen/
-2 GIVN Johanna
-2 SURN Ulitzsen
-1 SEX F
-0 @I0@ INDI
-1 NAME Johann Simon /Locker/
-2 GIVN Johann Simon
-2 SURN Locker
-1 SEX M
-0 @I29@ INDI
-1 NAME Christian J /Locker/
-2 GIVN Christian J
-2 SURN Locker
-1 SEX M
-1 BIRT
-2 DATE 3 Nov 1839
-2 PLAC Weisenfeld, Germany
-1 DEAT
-2 DATE 19 Mar 1909
-0 @I4@ INDI
-1 NAME Christiebe Dorothee /Locker/
-2 GIVN Christiebe Dorothee
-2 SURN Locker
-1 SEX F
-1 BIRT
-2 DATE 7 Jul 1805
-1 DEAT
-2 DATE 25 Mar 1849
-1 OCCU Homemaker
-0 @I61@ INDI
-1 NAME Dwight David /Locker/
-2 GIVN Dwight David
-2 SURN Locker
-1 BIRT
-2 DATE 13 Aug 1953
-2 PLAC Storm Lake, IA, USA
-1 DEAT
-2 DATE 13 Aug 1953
-0 @I62@ INDI
-1 NAME Lori Jean /Locker/
-2 GIVN Lori Jean
-2 SURN Locker
-1 BIRT
-2 DATE 13 Aug 1953
-2 PLAC Storm Lake, IA, USA
-1 DEAT
-2 DATE 13 Aug 1953
-0 @I126@ INDI
-1 NAME Johanna Marie /Filkow/
-2 GIVN Johanna Marie
-2 SURN Filkow
-1 SEX F
-0 @I63@ INDI
-1 NAME Douglas Dean /Locker/
-2 GIVN Douglas Dean
-2 SURN Locker
-1 BIRT
-2 DATE 9 Feb 1955
-2 PLAC Storm Lake, IA, USA
-0 @I65@ INDI
-1 NAME Lorene Marie /Locker/
-2 GIVN Lorene Marie
-2 SURN Locker
-1 BIRT
-2 DATE 8 Apr 1956
-2 PLAC Spencer, IA, USA
-0 @I39@ INDI
-1 NAME Barbara //
-2 GIVN Barbara
-1 SEX F
-0 @I38@ INDI
-1 NAME Jacquelyn //
-2 GIVN Jacquelyn
-1 SEX F
-0 @I103@ INDI
-1 NAME Belva Marie /Schoenrock/
-2 GIVN Belva Marie
-2 SURN Schoenrock
-1 SEX F
-1 BIRT
-2 DATE 19 Aug 1943
-2 PLAC Ames, IA, USA
-1 OCCU Homemaker
+1 FAMS @F24@
 0 @I60@ INDI
 1 NAME Paul Chris /Locker/
 2 GIVN Paul Chris
 2 SURN Locker
+1 REFN CustomGenCode:LAABAA2BA
 1 BIRT
 2 DATE 13 Aug 1953
 2 PLAC Storm Lake, IA, USA
 1 DEAT
 2 DATE 13 Aug 1953
-0 @I118@ INDI
-1 NAME Ferdinand C /Dekok/
-2 GIVN Ferdinand C
-2 SURN Dekok
+1 FAMC @F24@
+0 @I61@ INDI
+1 NAME Dwight David /Locker/
+2 GIVN Dwight David
+2 SURN Locker
+1 REFN CustomGenCode:LAABAA2BB
 1 BIRT
-2 DATE 1918
+2 DATE 13 Aug 1953
+2 PLAC Storm Lake, IA, USA
 1 DEAT
-2 DATE 1973
-0 @I132@ INDI
-1 NAME William Collins /Pichler/
-2 GIVN William Collins
-2 SURN Pichler
-1 SEX M
-0 @I32@ INDI
-1 NAME Frauke /Franzen/
-2 GIVN Frauke
-2 SURN Franzen
-1 SEX F
+2 DATE 13 Aug 1953
+1 FAMC @F24@
+0 @I62@ INDI
+1 NAME Lori Jean /Locker/
+2 GIVN Lori Jean
+2 SURN Locker
+1 REFN CustomGenCode:LAABAA2BC
 1 BIRT
-2 DATE 7 Feb 1861
+2 DATE 13 Aug 1953
+2 PLAC Storm Lake, IA, USA
 1 DEAT
-2 DATE 28 Feb 1917
+2 DATE 13 Aug 1953
+1 FAMC @F24@
+0 @I63@ INDI
+1 NAME Douglas Dean /Locker/
+2 GIVN Douglas Dean
+2 SURN Locker
+1 REFN CustomGenCode:LAABAA2BD
+1 BIRT
+2 DATE 9 Feb 1955
+2 PLAC Storm Lake, IA, USA
+1 FAMS @F25@
+1 FAMC @F24@
+0 @I64@ INDI
+1 NAME Ann /Hill/
+2 GIVN Ann
+2 SURN Hill
+1 REFN CustomGenCode:LAABAA2BD1
 1 OCCU Homemaker
-0 @I113@ INDI
-1 NAME Chris J /Locker/
-2 GIVN Chris J
+1 FAMS @F25@
+0 @I65@ INDI
+1 NAME Lorene Marie /Locker/
+2 GIVN Lorene Marie
 2 SURN Locker
-1 SEX M
+1 REFN CustomGenCode:LAABAA2BE
 1 BIRT
-2 DATE 30 Sep 1859
-1 DEAT
-2 DATE 26 Apr 1935
-0 @I56@ INDI
-1 NAME Katlyn /Van Patten/
-2 GIVN Katlyn
-2 SURN Van Patten
-0 @I116@ INDI
-1 NAME Rosalyn Emily /Urlaub/
-2 GIVN Rosalyn Emily
-2 SURN Urlaub
-1 BIRT
-2 DATE 23 Jan 1928
-1 DEAT
-2 DATE 2 Dec 1928
-0 @I33@ INDI
-1 NAME Johann Christian Heinrich /Locker/
-2 GIVN Johann Christian Heinrich
+2 DATE 8 Apr 1956
+2 PLAC Spencer, IA, USA
+1 FAMC @F24@
+0 @I66@ INDI
+1 NAME Bradley Glen /Locker/
+2 GIVN Bradley Glen
 2 SURN Locker
-1 SEX M
+1 REFN CustomGenCode:LAABAA2BF
 1 BIRT
-2 DATE 22 Aug 1884
-2 PLAC , Flanagan, IL, USA
-1 DEAT
-2 DATE 17 Mar 1973
+2 DATE 26 Oct 1959
+2 PLAC Spencer, IA, USA
+1 FAMS @F26@
+1 FAMC @F24@
+0 @I67@ INDI
+1 NAME Laura /Martensen/
+2 GIVN Laura
+2 SURN Martensen
+1 REFN CustomGenCode:LAABAA2BF1
+1 FAMS @F26@
+0 @I68@ INDI
+1 NAME Steven Lee /Locker/
+2 GIVN Steven Lee
+2 SURN Locker
+1 REFN CustomGenCode:LAABAA2BG
+1 BIRT
+2 DATE 31 Jul 1963
+2 PLAC Spencer, IA, USA
+1 CONF
+2 DATE May 1979
+1 FAMC @F24@
 0 @I69@ INDI
 1 NAME Tjode Julia Emma /Locker/
 2 GIVN Tjode Julia Emma
 2 SURN Locker
+1 REFN CustomGenCode:LAABAB
 1 SEX F
 1 BIRT
 2 DATE 28 Jan 1887
 2 PLAC Flanagan, IL, USA
 1 OCCU Homemaker
-0 @I133@ INDI
-1 NAME Ada Ine Inez /Miller/
-2 GIVN Ada Ine Inez
-2 SURN Miller
+1 FAMS @F27@
+1 FAMC @F12@
+0 @I70@ INDI
+1 NAME Fred Thomas /Heeren/
+2 GIVN Fred Thomas
+2 SURN Heeren
+1 REFN CustomGenCode:LAABAB1
+1 SEX M
+1 BIRT
+2 DATE 31 Oct 1878
+2 PLAC Flanagan, IL, USA
+1 DEAT
+2 DATE 30 Dec 1958
+1 FAMS @F27@
+0 @I71@ INDI
+1 NAME Marcelia /Heeren/
+2 GIVN Marcelia
+2 SURN Heeren
+1 REFN CustomGenCode:LAABABA
 1 SEX F
+1 BIRT
+2 DATE 26 Nov 1914
+1 OCCU Homemaker
+1 FAMS @F28@
+1 FAMC @F27@
+0 @I72@ INDI
+1 NAME Orval /Stiegman/
+2 GIVN Orval
+2 SURN Stiegman
+1 REFN CustomGenCode:LAABABA1
+1 SEX M
+1 FAMS @F28@
+0 @I73@ INDI
+1 NAME Mark /Stiegman/
+2 GIVN Mark
+2 SURN Stiegman
+1 REFN CustomGenCode:LAABABAA
+1 BIRT
+2 DATE 1953
+2 PLAC , CA, USA
+1 FAMC @F28@
+0 @I74@ INDI
+1 NAME Debbie /Stiegman/
+2 GIVN Debbie
+2 SURN Stiegman
+1 REFN CustomGenCode:LAABABAB
+1 BIRT
+2 DATE 1955
+2 PLAC , CA, USA
+1 FAMC @F28@
+0 @I75@ INDI
+1 NAME Leona Eleanor /Heeren/
+2 GIVN Leona Eleanor
+2 SURN Heeren
+1 REFN CustomGenCode:LAABABB
+1 BIRT
+2 DATE 7 Oct 1918
+1 FAMC @F27@
 0 @I76@ INDI
 1 NAME John Lambert Herman /Locker/
 2 GIVN John Lambert Herman
 2 SURN Locker
+1 REFN CustomGenCode:LAABAC
 1 SEX M
 1 BIRT
 2 DATE 15 May 1890
@@ -717,10 +837,81 @@
 1 DEAT
 2 DATE 14 Sep 1978
 2 PLAC Armstrong Grove Cem. Armstrong, IA, USA
+1 FAMS @F29@
+1 FAMC @F12@
+0 @I77@ INDI
+1 NAME Eleanor Angeline Malinda /Monson/
+2 GIVN Eleanor Angeline Malinda
+2 SURN Monson
+1 REFN CustomGenCode:LAABAC1
+1 SEX F
+1 BIRT
+2 DATE 14 Feb 1896
+2 PLAC Armstrong, IA, USA
+1 OCCU Homemaker
+1 FAMS @F29@
+0 @I78@ INDI
+1 NAME Elaine Lorvina Ione /Locker/
+2 GIVN Elaine Lorvina Ione
+2 SURN Locker
+1 REFN CustomGenCode:LAABACA
+1 SEX F
+1 BIRT
+2 DATE 31 Oct 1920
+2 PLAC Armstrong, IA, USA
+1 OCCU Homemaker
+1 FAMS @F30@
+1 FAMC @F29@
+0 @I79@ INDI
+1 NAME Duane A /Liebrenz/
+2 GIVN Duane A
+2 SURN Liebrenz
+1 REFN CustomGenCode:LAABACA1
+1 SEX M
+1 BIRT
+2 DATE 17 Sep 1924
+1 FAMS @F30@
+0 @I80@ INDI
+1 NAME Luann /Liebrenz/
+2 GIVN Luann
+2 SURN Liebrenz
+1 REFN CustomGenCode:LAABACAA
+1 BIRT
+2 DATE 21 Jan 1956
+2 PLAC Chicago, IL, USA
+1 FAMC @F30@
+0 @I81@ INDI
+1 NAME Mark Locker /Liebrenz/
+2 GIVN Mark Locker
+2 SURN Liebrenz
+1 REFN CustomGenCode:LAABACBB
+1 BIRT
+2 DATE 28 Jul 1957
+2 PLAC LaGrange, IL, USA
+1 FAMC @F30@
+0 @I82@ INDI
+1 NAME Ellen Carol /Liebrenz/
+2 GIVN Ellen Carol
+2 SURN Liebrenz
+1 REFN CustomGenCode:LAABACBC
+1 BIRT
+2 DATE 4 Dec 1958
+2 PLAC LaGrange, IL, USA
+1 FAMC @F30@
+0 @I83@ INDI
+1 NAME Grant Dale /Liebrenz/
+2 GIVN Grant Dale
+2 SURN Liebrenz
+1 REFN CustomGenCode:LAABACBD
+1 BIRT
+2 DATE 7 Mar 1961
+2 PLAC LaGrange, IL, USA
+1 FAMC @F30@
 0 @I84@ INDI
-1 NAME Henry William Alexander /Henry William Alexander/
+1 NAME Henry William Alexander /Locker/
 2 GIVN Henry William Alexander
-2 SURN Henry William Alexander
+2 SURN Locker
+1 REFN CustomGenCode:LAABAD
 1 SEX M
 1 BIRT
 2 DATE 26 Jun 1895
@@ -732,27 +923,27 @@
 1 FACT They were active members of the Immanuel Lutheran Church.
 1 FACT Henery served in WWI
 1 FACT He was a charter member of the George Jack Sauter America Legion Post.
-0 @I97@ INDI
-1 NAME Hannah /Locker/
-2 GIVN Hannah
-2 SURN Locker
+1 FAMS @F31@
+1 FAMC @F12@
+0 @I85@ INDI
+1 NAME Northa /Awtry/
+2 GIVN Northa
+2 SURN Awtry
+1 REFN CustomGenCode:LAABAD1
 1 SEX F
 1 BIRT
-2 DATE 1940
-2 PLAC George, IA, USA
-0 @I91@ INDI
-1 NAME Robert Awtry /Locker/
-2 GIVN Robert Awtry
-2 SURN Locker
-1 SEX M
-1 BIRT
-2 DATE 15 Mar 1938
-2 PLAC George, IA, USA
-1 FACT * Twins
+2 DATE 28 Jan 1910
+2 PLAC Pella, IA, USA
+1 OCCU Homemaker
+1 FACT They were active members of the Immanuel Lutheran Church.
+1 FACT Henery served in WWI
+1 FACT He was a charter member of the George Jack Sauter America Legion Post.
+1 FAMS @F31@
 0 @I86@ INDI
 1 NAME John Henry /Locker/ Sr
 2 GIVN John Henry
 2 SURN Locker
+1 REFN CustomGenCode:LAABADA
 1 SEX M
 1 BIRT
 2 DATE 15 Dec 1935
@@ -762,340 +953,491 @@
 2 PLAC George HS, George, IA, USA
 1 DEAT
 2 DATE 8 Dec 1981
-0 @I74@ INDI
-1 NAME Debbie /Stiegman/
-2 GIVN Debbie
-2 SURN Stiegman
+1 FAMS @F32@
+1 FAMC @F31@
+0 @I87@ INDI
+1 NAME Joanne Bernadette /Salamida/
+2 GIVN Joanne Bernadette
+2 SURN Salamida
+1 REFN CustomGenCode:LAABADA1
+1 SEX F
 1 BIRT
-2 DATE 1955
-2 PLAC , CA, USA
-0 @I115@ INDI
-1 NAME Leopold K Rev /Urlaub/
-2 GIVN Leopold K Rev
-2 SURN Urlaub
-1 SEX M
-1 BIRT
-2 DATE 28 Apr 1891
+2 DATE 1 Jan 1941
+2 PLAC Albany, NY, USA
 1 DEAT
-2 DATE 7 May 1954
-0 @I73@ INDI
-1 NAME Mark /Stiegman/
-2 GIVN Mark
-2 SURN Stiegman
-1 BIRT
-2 DATE 1953
-2 PLAC , CA, USA
-0 @I85@ INDI
-1 NAME Northa /Awtry/
-2 GIVN Northa
-2 SURN Awtry
-1 SEX F
-1 BIRT
-2 DATE 28 Jan 1910
-2 PLAC Pella, IA, USA
+2 DATE 1977
 1 OCCU Homemaker
-1 FACT They were active members of the Immanuel Lutheran Church.
-1 FACT Henery served in WWI
-1 FACT He was a charter member of the George Jack Sauter America Legion Post.
-0 @I26@ INDI
-1 NAME Werner /Locker/
-2 GIVN Werner
+1 FAMS @F32@
+0 @I88@ INDI
+1 NAME Kirsten Elizabeth /Locker/
+2 GIVN Kirsten Elizabeth
 2 SURN Locker
-0 @I67@ INDI
-1 NAME Laura /Martensen/
-2 GIVN Laura
-2 SURN Martensen
-0 @I72@ INDI
-1 NAME Orval /Stiegman/
-2 GIVN Orval
-2 SURN Stiegman
-1 SEX M
-0 @I78@ INDI
-1 NAME Elaine Lorvina Ione /Locker/
-2 GIVN Elaine Lorvina Ione
-2 SURN Locker
-1 SEX F
+1 REFN CustomGenCode:LAABADAA
 1 BIRT
-2 DATE 31 Oct 1920
-2 PLAC Armstrong, IA, USA
-1 OCCU Homemaker
-0 @I27@ INDI
-1 NAME Waither /Locker/
-2 GIVN Waither
+2 DATE 18 Nov 1965
+2 PLAC Framingham, MA, USA
+1 FAMC @F32@
+0 @I89@ INDI
+1 NAME Dana Marie /Locker/
+2 GIVN Dana Marie
 2 SURN Locker
-0 @I144@ INDI
-1 NAME Henry William Alexander /Locker/
-2 GIVN Henry William Alexander
-2 SURN Locker
-1 SEX M
-0 @I25@ INDI
-1 NAME Frauke /Frazen/
-2 GIVN Frauke
-2 SURN Frazen
-1 SEX F
-0 @I82@ INDI
-1 NAME Ellen Carol /Liebrenz/
-2 GIVN Ellen Carol
-2 SURN Liebrenz
+1 REFN CustomGenCode:LAABADAB
 1 BIRT
-2 DATE 4 Dec 1958
-2 PLAC LaGrange, IL, USA
-0 @I6@ INDI
-1 NAME Johann Georg Heinrich Michael /Locker/
-2 GIVN Johann Georg Heinrich Michael
+2 DATE 8 Apr 1967
+2 PLAC Framingham, MA, USA
+1 FAMC @F32@
+0 @I90@ INDI
+1 NAME John Henry /Locker/ Jr
+2 GIVN John Henry
 2 SURN Locker
-1 NAME Hienrich /Locker/
-2 GIVN Hienrich
+1 REFN CustomGenCode:LAABADAC
+1 BIRT
+2 DATE 24 May 1968
+2 PLAC Framingham, MA, USA
+1 FAMC @F32@
+0 @I91@ INDI
+1 NAME Robert Awtry /Locker/
+2 GIVN Robert Awtry
 2 SURN Locker
+1 REFN CustomGenCode:LAABADB
 1 SEX M
 1 BIRT
-2 DATE 4 Feb 1832
-1 DEAT
-2 DATE 23 Nov 1919
-0 @I81@ INDI
-1 NAME Mark Locker /Liebrenz/
-2 GIVN Mark Locker
-2 SURN Liebrenz
-1 BIRT
-2 DATE 28 Jul 1957
-2 PLAC LaGrange, IL, USA
-0 @I83@ INDI
-1 NAME Grant Dale /Liebrenz/
-2 GIVN Grant Dale
-2 SURN Liebrenz
-1 BIRT
-2 DATE 7 Mar 1961
-2 PLAC LaGrange, IL, USA
-0 @I114@ INDI
-1 NAME Anna /Rustmann/
-2 GIVN Anna
-2 SURN Rustmann
+2 DATE 15 Mar 1938
+2 PLAC George, IA, USA
+1 FACT * Twins
+1 FAMS @F33@
+1 FAMC @F31@
+0 @I92@ INDI
+1 NAME Judith Lynn /Swalve/
+2 GIVN Judith Lynn
+2 SURN Swalve
+1 REFN CustomGenCode:LAABADB1
 1 SEX F
 1 BIRT
-2 DATE 17 May 1878
-1 DEAT
-2 DATE 8 May 1959
-0 @I101@ INDI
-1 NAME Billie Jane /Locker/
-2 GIVN Billie Jane
-2 SURN Locker
+2 DATE 7 Mar 1940
+2 PLAC George, IA, USA
 1 OCCU Homemaker
-1 FACT Billie earned a BA Degree from St. Olaf College in Northfield & a MA from Mankato State University in Mankato, MN.
-0 @I105@ INDI
-1 NAME Joel Timothy /Locker/
-2 GIVN Joel Timothy
+1 FACT * Twins
+1 FAMS @F33@
+0 @I93@ INDI
+1 NAME Mark Brady /Locker/
+2 GIVN Mark Brady
 2 SURN Locker
+1 REFN CustomGenCode:LAABADBA
 1 BIRT
-2 DATE 5 Jan 1974
-2 PLAC Grand Marais, MN, USA
-0 @I104@ INDI
-1 NAME David Lambert /Locker/
-2 GIVN David Lambert
+2 DATE 27 Apr 1963
+2 PLAC Pittsburgh, PA, USA
+1 FAMC @F33@
+0 @I94@ INDI
+1 NAME Shann Jeffries /Locker/
+2 GIVN Shann Jeffries
 2 SURN Locker
+1 REFN CustomGenCode:LAABADBB
 1 BIRT
-2 DATE 13 Mar 1972
-2 PLAC Suffern, NY, USA
-0 @I131@ INDI
-1 NAME Kirstin /Swanson/
-2 GIVN Kirstin
-2 SURN Swanson
-1 SEX F
-0 @I77@ INDI
-1 NAME Eleanor Angeline Malinda /Monson/
-2 GIVN Eleanor Angeline Malinda
-2 SURN Monson
-1 SEX F
-1 BIRT
-2 DATE 14 Feb 1896
-2 PLAC Armstrong, IA, USA
-1 OCCU Homemaker
-0 @I102@ INDI
-1 NAME John P /Ruohoniemi/
-2 GIVN John P
-2 SURN Ruohoniemi
-1 FACT Billie earned a BA Degree from St. Olaf College in Northfield & a MA from Mankato State University in Mankato, MN.
-0 @I123@ INDI
-1 NAME Johann Adam Gottlieb /Wekel/
-2 GIVN Johann Adam Gottlieb
-2 SURN Wekel
-1 SEX M
-0 @I141@ INDI
-1 NAME Christliebe /Locker/ Dorothee
-2 GIVN Christliebe
+2 DATE 24 Mar 1966
+2 PLAC Sarasota, FL, USA
+1 FAMC @F33@
+0 @I95@ INDI
+1 NAME Rory Michelle /Locker/
+2 GIVN Rory Michelle
 2 SURN Locker
-1 SEX F
-0 @I124@ INDI
-1 NAME Johanne Marie Friederike /Schmidt/
-2 GIVN Johanne Marie Friederike
-2 SURN Schmidt
-1 SEX F
-0 @I30@ INDI
-1 NAME Johanna /Ulitzsich/
-2 GIVN Johanna
-2 SURN Ulitzsich
-1 SEX F
+1 REFN CustomGenCode:LAABADBC
 1 BIRT
-2 DATE 8 Aug 1831
-1 DEAT
-2 DATE Jun 1915
-1 OCCU Homemaker
-0 @I48@ INDI
-1 NAME Mary Therese /Kalin/
-2 GIVN Mary Therese
-2 SURN Kalin
-1 BIRT
-2 DATE 1 Oct 1948
-2 PLAC Chicago, IL, USA
-1 OCCU Homemaker
-0 @I127@ INDI
-1 NAME /Ulitzsich/
-2 SURN Ulitzsich
-1 SEX M
-0 @I117@ INDI
-1 NAME Lucille /Locker/
-2 GIVN Lucille
+2 DATE 27 Dec 1968
+2 PLAC Excelsior, MN, USA
+1 FAMC @F33@
+0 @I96@ INDI
+1 NAME Ryan Christopher /Locker/
+2 GIVN Ryan Christopher
 2 SURN Locker
+1 REFN CustomGenCode:LAABADBD
 1 BIRT
-2 DATE 1910
-0 @I75@ INDI
-1 NAME Leona Eleanor /Heeren/
-2 GIVN Leona Eleanor
-2 SURN Heeren
-1 BIRT
-2 DATE 7 Oct 1918
-0 @I71@ INDI
-1 NAME Marcelia /Heeren/
-2 GIVN Marcelia
-2 SURN Heeren
-1 SEX F
-1 BIRT
-2 DATE 26 Nov 1914
-1 OCCU Homemaker
-0 @I49@ INDI
-1 NAME Cynthia Marie Louise /Pasczkowski/
-2 GIVN Cynthia Marie Louise
-2 SURN Pasczkowski
-1 BIRT
-2 DATE 30 Nov 1953
-2 PLAC Danville, PA, USA
-1 OCCU Homemaker
-0 @I106@ INDI
-1 NAME Henry Hermann /Locker/
-2 GIVN Henry Hermann
+2 DATE 27 Dec 1968
+2 PLAC Excelsior, MN, USA
+1 FAMC @F33@
+0 @I97@ INDI
+1 NAME Hannah /Locker/
+2 GIVN Hannah
 2 SURN Locker
+1 REFN CustomGenCode:LAABADC
 1 BIRT
-2 DATE 31 Aug 1861
-0 @I80@ INDI
-1 NAME Luann /Liebrenz/
-2 GIVN Luann
-2 SURN Liebrenz
-1 BIRT
-2 DATE 21 Jan 1956
-2 PLAC Chicago, IL, USA
+2 DATE 1940
+2 PLAC George, IA, USA
+1 FAMC @F31@
 0 @I98@ INDI
 1 NAME Christian J Jr /Locker/
 2 GIVN Christian J Jr
 2 SURN Locker
+1 REFN CustomGenCode:LAABB
 1 BIRT
 2 DATE 30 Sep 1858
-0 @I109@ INDI
-1 NAME Caroline [Rapp} /Locker/
-2 GIVN Caroline [Rapp}
-2 SURN Locker
-1 BIRT
-2 DATE 1866
-1 DEAT
-2 DATE 1929
+1 FAMS @F34@
+1 FAMC @F11@
+0 @I99@ INDI
+1 NAME Anna /Rantschman/
+2 GIVN Anna
+2 SURN Rantschman
+1 REFN CustomGenCode:LAABB1
 1 OCCU Homemaker
-0 @I108@ INDI
-1 NAME Alexander /Locker/
-2 GIVN Alexander
-2 SURN Locker
-0 @I112@ INDI
-1 NAME Arend /Jansen/
-2 GIVN Arend
-2 SURN Jansen
-1 BIRT
-2 DATE 1871
-1 DEAT
-2 DATE 1961
-0 @I137@ INDI
-1 NAME Margaret Louise /Moroz/
-2 GIVN Margaret Louise
-2 SURN Moroz
-1 SEX F
-0 @I31@ INDI
-1 NAME Herman Christian /Locker/
-2 GIVN Herman Christian
-2 SURN Locker
-1 SEX M
-1 BIRT
-2 DATE 25 Mar 1856
-1 DEAT
-2 DATE 2 May 1929
-0 @I136@ INDI
-1 NAME Stanley Joseph /Pasczkowski/
-2 GIVN Stanley Joseph
-2 SURN Pasczkowski
-1 SEX M
-0 @I70@ INDI
-1 NAME Fred Thomas /Heeren/
-2 GIVN Fred Thomas
-2 SURN Heeren
-1 SEX M
-1 BIRT
-2 DATE 31 Oct 1878
-2 PLAC Flanagan, IL, USA
-1 DEAT
-2 DATE 30 Dec 1958
-0 @I11@ INDI
-1 NAME /Manthel/
-2 SURN Manthel
-0 @I23@ INDI
-1 NAME /Hickethier/
-2 SURN Hickethier
-0 @I79@ INDI
-1 NAME Duane A /Liebrenz/
-2 GIVN Duane A
-2 SURN Liebrenz
-1 SEX M
-1 BIRT
-2 DATE 17 Sep 1924
-0 @I130@ INDI
-1 NAME William /Swanson/
-2 GIVN William
-2 SURN Swanson
-1 SEX M
-0 @I55@ INDI
-1 NAME Robert /Van Patten/
-2 GIVN Robert
-2 SURN Van Patten
-1 SEX M
+1 FAMS @F34@
 0 @I100@ INDI
 1 NAME Lambert Harlan /Locker/
 2 GIVN Lambert Harlan
 2 SURN Locker
+1 REFN CustomGenCode:LAABBCB
 1 SEX M
 1 BIRT
 2 DATE 29 Oct 1927
 2 PLAC Armstrong, IA, USA
 1 OCCU Minister
 1 FACT * Adopted
+1 FAMS @F35@
+1 FAMS @F37@
+1 FAMC @F29@
+0 @I101@ INDI
+1 NAME Billie Jane /Locker/
+2 GIVN Billie Jane
+2 SURN Locker
+1 REFN CustomGenCode:LAABBCB1a
+1 OCCU Homemaker
+1 FACT Billie earned a BA Degree from St. Olaf College in Northfield & a MA from Mankato State University in Mankato, MN.
+1 FAMS @F36@
+0 @I102@ INDI
+1 NAME John P /Ruohoniemi/
+2 GIVN John P
+2 SURN Ruohoniemi
+1 REFN CustomGenCode:LAABBCB1a1
+1 FACT Billie earned a BA Degree from St. Olaf College in Northfield & a MA from Mankato State University in Mankato, MN.
+1 FAMS @F36@
+1 FAMC @F54@
+0 @I103@ INDI
+1 NAME Belva Marie /Schoenrock/
+2 GIVN Belva Marie
+2 SURN Schoenrock
+1 REFN CustomGenCode:LAABBCB2
+1 SEX F
+1 BIRT
+2 DATE 19 Aug 1943
+2 PLAC Ames, IA, USA
+1 OCCU Homemaker
+1 FAMS @F37@
+0 @I104@ INDI
+1 NAME David Lambert /Locker/
+2 GIVN David Lambert
+2 SURN Locker
+1 REFN CustomGenCode:LAABBCB2A
+1 BIRT
+2 DATE 13 Mar 1972
+2 PLAC Suffern, NY, USA
+1 FAMC @F37@
+0 @I105@ INDI
+1 NAME Joel Timothy /Locker/
+2 GIVN Joel Timothy
+2 SURN Locker
+1 REFN CustomGenCode:LAABBCB2B
+1 BIRT
+2 DATE 5 Jan 1974
+2 PLAC Grand Marais, MN, USA
+1 FAMC @F37@
+0 @I106@ INDI
+1 NAME Henry Hermann /Locker/
+2 GIVN Henry Hermann
+2 SURN Locker
+1 REFN CustomGenCode:LAABC
+1 BIRT
+2 DATE 31 Aug 1861
+1 FAMS @F38@
+1 FAMC @F11@
+0 @I107@ INDI
+1 NAME Katherine /Franzen/
+2 GIVN Katherine
+2 SURN Franzen
+1 REFN CustomGenCode:LAABC1
+1 FAMS @F38@
+0 @I108@ INDI
+1 NAME Alexander /Locker/
+2 GIVN Alexander
+2 SURN Locker
+1 REFN CustomGenCode:LAABD
+1 FAMC @F11@
+0 @I109@ INDI
+1 NAME Caroline [Rapp} /Locker/
+2 GIVN Caroline [Rapp}
+2 SURN Locker
+1 REFN CustomGenCode:LAABE
+1 BIRT
+2 DATE 1866
+1 DEAT
+2 DATE 1929
+1 OCCU Homemaker
+1 FAMS @F39@
+1 FAMC @F11@
+0 @I110@ INDI
+1 NAME Edward /Rapp/
+2 GIVN Edward
+2 SURN Rapp
+1 REFN CustomGenCode:LAABE1
+1 BIRT
+2 DATE 1863
+1 DEAT
+2 DATE 1940
+1 FAMS @F39@
 0 @I111@ INDI
 1 NAME Mary /Locker/
 2 GIVN Mary
 2 SURN Locker
+1 REFN CustomGenCode:LAABF
 1 BIRT
 2 DATE 1869
 1 DEAT
 2 DATE 1941
 2 PLAC Windtown Cem.
 1 OCCU Homemaker
-0 @I64@ INDI
-1 NAME Ann /Hill/
-2 GIVN Ann
-2 SURN Hill
-1 OCCU Homemaker
+1 FAMS @F40@
+1 FAMC @F11@
+0 @I112@ INDI
+1 NAME Arend /Jansen/
+2 GIVN Arend
+2 SURN Jansen
+1 REFN CustomGenCode:LAABF1
+1 BIRT
+2 DATE 1871
+1 DEAT
+2 DATE 1961
+1 FAMS @F40@
+0 @I113@ INDI
+1 NAME Chris J /Locker/
+2 GIVN Chris J
+2 SURN Locker
+1 REFN CustomGenCode:LAACA
+1 SEX M
+1 BIRT
+2 DATE 30 Sep 1859
+1 DEAT
+2 DATE 26 Apr 1935
+1 FAMS @F41@
+0 @I114@ INDI
+1 NAME Anna /Rustmann/
+2 GIVN Anna
+2 SURN Rustmann
+1 REFN CustomGenCode:LAACA1
+1 SEX F
+1 BIRT
+2 DATE 17 May 1878
+1 DEAT
+2 DATE 8 May 1959
+1 FAMS @F41@
+0 @I115@ INDI
+1 NAME Hannah2 /Locker/
+2 GIVN Hannah2
+2 SURN Locker
+1 REFN CustomGenCode:LAACAA
+1 SEX F
+1 BIRT
+2 DATE 1 Aug 1900
+1 DEAT
+2 DATE 13 Jan 1952
+1 FAMS @F42@
+1 FAMC @F41@
+0 @I116@ INDI
+1 NAME Leopold K Rev /Urlaub/
+2 GIVN Leopold K Rev
+2 SURN Urlaub
+1 REFN CustomGenCode:LAACAA1
+1 SEX M
+1 BIRT
+2 DATE 28 Apr 1891
+1 DEAT
+2 DATE 7 May 1954
+1 FAMS @F42@
+0 @I117@ INDI
+1 NAME Rosalyn Emily /Urlaub/
+2 GIVN Rosalyn Emily
+2 SURN Urlaub
+1 REFN CustomGenCode:LAACAAA
+1 BIRT
+2 DATE 23 Jan 1928
+1 DEAT
+2 DATE 2 Dec 1928
+1 FAMC @F42@
+0 @I118@ INDI
+1 NAME Lucille /Locker/
+2 GIVN Lucille
+2 SURN Locker
+1 REFN CustomGenCode:LAACAB
+1 BIRT
+2 DATE 1910
+1 FAMS @F43@
+1 FAMC @F41@
+0 @I119@ INDI
+1 NAME Ferdinand C /Dekok/
+2 GIVN Ferdinand C
+2 SURN Dekok
+1 REFN CustomGenCode:LAACAB1
+1 BIRT
+2 DATE 1918
+1 DEAT
+2 DATE 1973
+1 FAMS @F43@
+0 @I120@ INDI
+1 NAME Johann Christoph /Rosch/
+2 GIVN Johann Christoph
+2 SURN Rosch
+1 REFN CustomGenCode:LAA1sf
+1 SEX M
+1 FAMS @F44@
+0 @I121@ INDI
+1 NAME Eva Margaretha /Otto/
+2 GIVN Eva Margaretha
+2 SURN Otto
+1 REFN CustomGenCode:LAA1sm
+1 SEX F
+1 FAMS @F44@
+0 @I122@ INDI
+1 NAME Johann Nicol /Locker/
+2 GIVN Johann Nicol
+2 SURN Locker
+1 REFN CustomGenCode:LAAA1sf
+1 SEX M
+1 FAMS @F45@
+0 @I123@ INDI
+1 NAME Catharina Margaretha /Spindler/
+2 GIVN Catharina Margaretha
+2 SURN Spindler
+1 REFN CustomGenCode:LAAA1sm
+1 SEX F
+1 FAMS @F45@
+0 @I124@ INDI
+1 NAME Johann Adam Gottlieb /Wekel/
+2 GIVN Johann Adam Gottlieb
+2 SURN Wekel
+1 REFN CustomGenCode:LAAAA1sf
+1 SEX M
+1 FAMS @F46@
+0 @I125@ INDI
+1 NAME Johanne Marie Friederike /Schmidt/
+2 GIVN Johanne Marie Friederike
+2 SURN Schmidt
+1 REFN CustomGenCode:LAAAA1sm
+1 SEX F
+1 FAMS @F46@
+0 @I126@ INDI
+1 NAME Johann /Schon/
+2 GIVN Johann
+2 SURN Schon
+1 REFN CustomGenCode:LAAAAA1sf
+1 SEX M
+1 FAMS @F47@
+0 @I127@ INDI
+1 NAME Johanna Marie /Filkow/
+2 GIVN Johanna Marie
+2 SURN Filkow
+1 REFN CustomGenCode:LAAAAA1sm
+1 SEX F
+1 FAMS @F47@
+0 @I128@ INDI
+1 NAME Jann Lammert /Franzen/
+2 GIVN Jann Lammert
+2 SURN Franzen
+1 REFN CustomGenCode:LAABA1sf
+1 SEX M
+1 FAMS @F48@
+0 @I129@ INDI
+1 NAME Tjode /Tammen/
+2 GIVN Tjode
+2 SURN Tammen
+1 REFN CustomGenCode:LAABA1sm
+1 SEX F
+1 FAMS @F48@
+0 @I130@ INDI
+1 NAME William /Swanson/
+2 GIVN William
+2 SURN Swanson
+1 REFN CustomGenCode:LAABAA1A1sf
+1 SEX M
+1 FAMS @F49@
+0 @I131@ INDI
+1 NAME Kirstin /Swanson/
+2 GIVN Kirstin
+2 SURN Swanson
+1 REFN CustomGenCode:LAABAA1A1sm
+1 SEX F
+1 FAMS @F49@
+0 @I132@ INDI
+1 NAME William Collins /Pichler/
+2 GIVN William Collins
+2 SURN Pichler
+1 REFN CustomGenCode:LAABAA1AA3sf
+1 SEX M
+1 FAMS @F50@
+0 @I133@ INDI
+1 NAME Ada Ine Inez /Miller/
+2 GIVN Ada Ine Inez
+2 SURN Miller
+1 REFN CustomGenCode:LAABAA1AA3sm
+1 SEX F
+1 FAMS @F50@
+0 @I134@ INDI
+1 NAME Donovan Burdette /Meyer/
+2 GIVN Donovan Burdette
+2 SURN Meyer
+1 REFN CustomGenCode:LAABAA1AB1sf
+1 SEX M
+1 FAMS @F51@
+0 @I135@ INDI
+1 NAME Doris /Smith/
+2 GIVN Doris
+2 SURN Smith
+1 REFN CustomGenCode:LAABAA1AB1sm
+1 SEX F
+1 FAMS @F51@
+0 @I136@ INDI
+1 NAME Stanley Joseph /Pasczkowski/
+2 GIVN Stanley Joseph
+2 SURN Pasczkowski
+1 REFN CustomGenCode:LAABAA1AD2sf
+1 SEX M
+1 FAMS @F52@
+0 @I137@ INDI
+1 NAME Margaret Louise /Moroz/
+2 GIVN Margaret Louise
+2 SURN Moroz
+1 REFN CustomGenCode:LAABAA1AD2sm
+1 SEX F
+1 FAMS @F52@
+0 @I138@ INDI
+1 NAME Martin Henry /Dammann/
+2 GIVN Martin Henry
+2 SURN Dammann
+1 REFN CustomGenCode:LAABAA2sf
+1 SEX M
+1 FAMS @F53@
+0 @I139@ INDI
+1 NAME Henerika //
+2 GIVN Henerika
+1 REFN CustomGenCode:LAABAA2sm
+1 SEX F
+1 FAMS @F53@
+0 @I140@ INDI
+1 NAME Matthias /Ruohoniemi/
+2 GIVN Matthias
+2 SURN Ruohoniemi
+1 REFN CustomGenCode:LAABBCB1a1sf
+1 SEX M
+1 FAMS @F54@
+0 @I141@ INDI
+1 NAME /Locker/
+2 SURN Locker
+1 REFN CustomGenCode:LAuf
+1 SEX M
+1 FAMS @F55@
+0 @I142@ INDI
+1 NAME Kim Walker /Stanberry/
+2 GIVN Kim Walker
+2 SURN Stanberry
+1 REFN CustomGenCode:LAABAA1AA3auf
+1 SEX M
+1 FAMS @F58@
 0 @F0@ FAM
 1 HUSB @I0@
 1 WIFE @I1@
@@ -1276,6 +1618,7 @@
 1 HUSB @I79@
 1 WIFE @I78@
 1 CHIL @I80@
+1 CHIL @I81@
 1 CHIL @I82@
 1 CHIL @I83@
 0 @F31@ FAM
@@ -1329,116 +1672,68 @@
 0 @F41@ FAM
 1 HUSB @I113@
 1 WIFE @I114@
-1 CHIL @I97@
-1 CHIL @I117@
+1 CHIL @I115@
+1 CHIL @I118@
 1 MARR
 2 DATE 1899
 0 @F42@ FAM
-1 HUSB @I115@
-1 WIFE @I97@
-1 CHIL @I116@
+1 HUSB @I116@
+1 WIFE @I115@
+1 CHIL @I117@
 0 @F43@ FAM
-1 HUSB @I117@
-1 WIFE @I118@
+1 HUSB @I118@
+1 WIFE @I119@
 0 @F44@ FAM
-1 HUSB @I119@
-1 WIFE @I120@
+1 HUSB @I120@
+1 WIFE @I121@
 1 CHIL @I3@
-1 MARR
-2 DATE 9 Feb 1786
-2 PLAC Germany
 0 @F45@ FAM
-1 HUSB @I121@
-1 WIFE @I122@
+1 HUSB @I122@
+1 WIFE @I123@
 1 CHIL @I5@
-1 MARR
-2 DATE 20 Nov 1825
 0 @F46@ FAM
-1 HUSB @I123@
-1 WIFE @I124@
+1 HUSB @I124@
+1 WIFE @I125@
 1 CHIL @I7@
-1 MARR
-2 DATE 10 Feb 1859
 0 @F47@ FAM
-1 HUSB @I125@
-1 WIFE @I126@
+1 HUSB @I126@
+1 WIFE @I127@
 1 CHIL @I9@
-1 MARR
-2 DATE 21 Oct 1889
 0 @F48@ FAM
-1 HUSB @I127@
-1 CHIL @I30@
-1 MARR
-2 DATE 27 Mar 1854
-0 @F49@ FAM
 1 HUSB @I128@
 1 WIFE @I129@
 1 CHIL @I32@
-0 @F50@ FAM
+0 @F49@ FAM
 1 HUSB @I130@
 1 WIFE @I131@
 1 CHIL @I36@
-0 @F51@ FAM
+0 @F50@ FAM
 1 HUSB @I132@
 1 WIFE @I133@
 1 CHIL @I40@
-1 MARR
-2 DATE 24 Aug 1991
-2 PLAC Loretto Chapel, Santa Fe, NM, USA
-1 NOTE * Catherine's daughter from a previous marriage.
-0 @F52@ FAM
+0 @F51@ FAM
 1 HUSB @I134@
 1 WIFE @I135@
 1 CHIL @I43@
-1 MARR
-2 DATE 27 Aug 1967
-2 PLAC Lutheran Student Center, Ames, IA, USA
-0 @F53@ FAM
+0 @F52@ FAM
 1 HUSB @I136@
 1 WIFE @I137@
 1 CHIL @I49@
-1 MARR
-2 DATE 20 Nov 1982
-2 PLAC St. Stevens Catholic, Shamokin, PA, USA
-0 @F54@ FAM
+0 @F53@ FAM
 1 HUSB @I138@
 1 WIFE @I139@
 1 CHIL @I50@
-1 MARR
-2 DATE 9 Jan 1920
-0 @F55@ FAM
+0 @F54@ FAM
 1 HUSB @I140@
 1 CHIL @I102@
+0 @F55@ FAM
+1 HUSB @I141@
 0 @F56@ FAM
-1 HUSB @I5@
-1 WIFE @I141@
-1 CHIL @I8@
-1 CHIL @I16@
-1 CHIL @I18@
-1 CHIL @I20@
-1 CHIL @I22@
-1 CHIL @I24@
-1 CHIL @I28@
-1 MARR
-2 DATE 10 Feb 1859
-1 NOTE Marriage date should NOT be after death date for Locker, Johann Georg. Death date: 1836 Feb 2, Marriage date: 1859 Feb 10
+1 HUSB @I24@
 0 @F57@ FAM
-1 HUSB @I29@
-1 WIFE @I142@
-1 CHIL @I33@
-1 CHIL @I69@
-1 CHIL @I76@
-1 CHIL @I84@
+1 HUSB @I2@
 0 @F58@ FAM
-1 HUSB @I143@
+1 HUSB @I142@
 1 WIFE @I40@
 1 CHIL @I41@
-0 @F59@ FAM
-1 HUSB @I144@
-1 WIFE @I85@
-1 CHIL @I88@
-1 CHIL @I89@
-1 CHIL @I90@
-1 MARR
-2 DATE 19 Sep 1964
 0 TRLR

@@ -57,12 +57,12 @@ public class FamilyTreeETLApplication {
 
     private static void verifyCounts(String inputFile) {
         int count = PersonMap.count();
-        int expectedCount = 129;
+        int expectedCount = 130;
         if (count != expectedCount && inputFile.endsWith("SwansonFloyd.csv")) {
             throw new RuntimeException("individual map size is not " + expectedCount + " for SwansonFloyd.csv. size:" + count);
         }
         count = MarriageMap.count();
-        expectedCount = 45;
+        expectedCount = 46;
         if (count != expectedCount && inputFile.endsWith("SwansonFloyd.csv")) {
             throw new RuntimeException("Marriage map size is not " + expectedCount + " for SwansonFloyd.csv. size:" + count);
         }

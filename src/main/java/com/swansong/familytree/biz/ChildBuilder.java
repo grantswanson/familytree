@@ -114,7 +114,7 @@ public class ChildBuilder {
             }
 
             parent.addProcessingNote(
-                    childsName.toFullName() + " is possibly child #" + (i + 1) + " from a different marriage.");
+                    childsName.toFullName() + " is possibly child #" + (i + 1) + " and was accidentally not added or is from a different marriage.");
 //            System.out.println("ln#" + row.getNumber() + " Child #" + i + " " + childsName.toNameKey() +
 //                    " NOT found by GenCode, AltGenCode, or Name. " +
 //                    (childsName.isAsteriskPresent() ? "\n childsName has asterisk." : "") +

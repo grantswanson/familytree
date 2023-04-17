@@ -50,7 +50,7 @@ public class Name {
             throw new IllegalArgumentException("Unexpected lastName, firstName format: It is names.length:" + names.length + " str:'" + str + "'");
         } else if (names.length == 1) {
             // the str= has no commas or only a trailing one...
-            if (!str.trim().endsWith(",")) {
+            if (!str.trim().endsWith(",") && !str.isBlank()) {
                 System.out.println("Unexpected lastName, firstName format. There should be at least 1 comma. name:'" + str + "'");
                 if (str.equals("Homemaker")) {
                     throw new RuntimeException("Unexpected Name:" + str);
@@ -169,7 +169,9 @@ public class Name {
             // if not JR/SR, then print warning
             if (!n1.suffix.equalsIgnoreCase("Jr") && !n2.suffix.equalsIgnoreCase("Sr") ||
                     !n2.suffix.equalsIgnoreCase("Jr") && !n1.suffix.equalsIgnoreCase("Sr")) {
-                System.out.println("Warning: The two names match in everything but the suffix. Name1:" + n1 + " Name2:" + n2);
+                System.out.println("Warning: The two names match in everything but the suffix. " +
+                        "\n Name1:" + n1.toFullName() + n1 +
+                        "\n Name2:" + n2.toFullName() + n2);
             }
             allowed = false;
         }

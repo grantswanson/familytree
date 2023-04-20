@@ -1170,10 +1170,10 @@
 1 FACT Francis belongs to several farm organizations.
 1 FACT He likes to hunt & fish.
 1 FACT * William's children from a previous marriage.
-1 FACT Mord, Jeanette Marie [Wickander] is possibly child #1 from a different marriage.
-1 FACT Mord, Thomeas Carl is possibly child #2 from a different marriage.
-1 FACT Mord, David Francis is possibly child #3 from a different marriage.
-1 FACT Mord, Steven Lee is possibly child #4 from a different marriage.
+1 FACT Mord, Jeanette Marie [Wickander] is possibly child #1 and was accidentally not added or is from a different marriage.
+1 FACT Mord, Thomeas Carl is possibly child #2 and was accidentally not added or is from a different marriage.
+1 FACT Mord, David Francis is possibly child #3 and was accidentally not added or is from a different marriage.
+1 FACT Mord, Steven Lee is possibly child #4 and was accidentally not added or is from a different marriage.
 1 FAMS @F24@
 1 FAMC @F294@
 0 @I69@ INDI
@@ -8774,8 +8774,8 @@
 1 FAMS @F204@
 1 FAMC @F423@
 0 @I668@ INDI
-1 NAME Patricia Lynn2 /Meyer/
-2 GIVN Patricia Lynn2
+1 NAME Patricia Lynn /Meyer/
+2 GIVN Patricia Lynn
 2 SURN Meyer
 1 REFN CustomGenCode:MAGEA
 1 SEX F

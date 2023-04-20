@@ -144,4 +144,16 @@ public class StringUtils {
         }
         return result.toArray(new String[0]);
     }
+
+    public static boolean isEndingWithNumber(String s) {
+        return (s != null && !s.isEmpty() &&
+                Character.isDigit(s.charAt(s.length() - 1)));
+    }
+
+    public static String removeLastNumber(String s) {
+        if (isEndingWithNumber(s)) {
+            return s.substring(0, s.length() - 1);
+        }
+        return s;
+    }
 }

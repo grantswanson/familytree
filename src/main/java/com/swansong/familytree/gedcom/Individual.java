@@ -16,6 +16,7 @@ import java.util.Set;
 public class Individual {
     private int id;
     private String givenName;
+
     private String surName;
 
     private String nickName;

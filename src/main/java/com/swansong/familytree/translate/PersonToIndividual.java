@@ -3,6 +3,7 @@ package com.swansong.familytree.translate;
 import com.swansong.familytree.gedcom.Individual;
 import com.swansong.familytree.model.Person;
 import com.swansong.familytree.utils.DateUtils;
+import com.swansong.familytree.utils.StringUtils;
 
 public class PersonToIndividual {
     public static Individual convertPersonToIndividual(Person person) {
@@ -10,7 +11,8 @@ public class PersonToIndividual {
         Individual individual = new Individual();
         individual.setId(person.getId());
         if (person.getName() != null) {
-            individual.setGivenName(person.getName().getFirstNames());
+
+            individual.setGivenName(removeLastNumber(person.getName().getFirstNames()));
             individual.setSurName(person.getName().getSurName());
             individual.setNickName(person.getName().getNickName());
             individual.setSuffix(person.getName().getSuffix());
@@ -47,5 +49,12 @@ public class PersonToIndividual {
         return individual;
     }
 
+    private static String removeLastNumber(String givenName) {
+        String s = StringUtils.removeLastNumber(givenName);
+        if (!s.equals(givenName)) {
+            System.out.println("Changing name from:" + givenName + " to:" + s);
+        }
+        return s;
+    }
 
 }

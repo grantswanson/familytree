@@ -4,6 +4,7 @@ import com.swansong.familytree.csv.Row;
 import com.swansong.familytree.data.MarriageMap;
 import com.swansong.familytree.data.PersonMap;
 import com.swansong.familytree.model.*;
+import com.swansong.familytree.utils.StringUtils;
 
 import java.util.ArrayList;
 
@@ -99,7 +100,7 @@ public class ParentBuilder {
         if (success) {
             expectedParent.setGenderToMale(isFather);
             expectedParent.setSpousesGender(!isFather);
-            if ((GenCode.isEndingWithNumber(row.getGenCode()) && !row.getGenCode().endsWith("1")) ||
+            if ((StringUtils.isEndingWithNumber(row.getGenCode()) && !row.getGenCode().endsWith("1")) ||
                     GenCode.isUnrelated(row.getGenCode())) {
                 expectedParent.addSource(Source.ParentsOfUnRelatedChildren);
                 expectedParent.removeSource(Source.Parents);

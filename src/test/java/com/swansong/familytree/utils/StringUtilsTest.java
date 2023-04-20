@@ -44,4 +44,15 @@ public class StringUtilsTest {
     public void toNameCaseTest(String input, String expected) {
         assertEquals(expected, StringUtils.toNameCase(input));
     }
+
+    @ParameterizedTest
+    @CsvSource({
+            "test, test",
+            "test0, test",
+            "test3, test",
+            "test345, test34"
+    })
+    void testRemoveLastNumber(String input, String expected) {
+        assertEquals(expected, StringUtils.removeLastNumber(input));
+    }
 }

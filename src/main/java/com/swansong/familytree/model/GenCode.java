@@ -1,6 +1,7 @@
 package com.swansong.familytree.model;
 
 import com.swansong.familytree.biz.ChildBuilder;
+import com.swansong.familytree.utils.StringUtils;
 
 public class GenCode {
     private static final String SPOUSES_MOTHER_CODE = "sm";
@@ -14,7 +15,7 @@ public class GenCode {
 
     public static String buildSelfCode(String genCode) {
         // remove numbers (multiple marriages),
-        return removeLastNumber(genCode);
+        return StringUtils.removeLastNumber(genCode);
     }
 
     public static String buildSpousesFatherCode(String genCode) {
@@ -33,14 +34,14 @@ public class GenCode {
         // remove the number and char to indicate current generation.
         // remove the number to remove multiple marriages
         // e.g. SA2A1 becomes SA, SAA1 becomes SA
-        return removeLastNumber(removeLastChar(removeLastNumber(genCode)));
+        return StringUtils.removeLastNumber(removeLastChar(StringUtils.removeLastNumber(genCode)));
     }
 
     public static String buildParent2Code(String genCode) {
         // remove the number and char to indicate current generation.
         // add a number if there is not already one there
         // e.g. SA2A1 becomes SA2, SAA1 becomes SA1
-        return addLastNumber(removeLastChar(removeLastNumber(genCode)));
+        return addLastNumber(removeLastChar(StringUtils.removeLastNumber(genCode)));
     }
 
     public static String buildUnrelatedMothersCode(String genCode) {
@@ -87,7 +88,7 @@ public class GenCode {
      * @return Base 1. Not base 0
      */
     public static int getChildNumber(String genCode) {
-        int i = getLastLetterValue(removeLastNumber(genCode));
+        int i = getLastLetterValue(StringUtils.removeLastNumber(genCode));
         ChildBuilder.verifyChildNumber(i);
         return i;
     }
@@ -107,22 +108,10 @@ public class GenCode {
         }
     }
 
-    public static boolean isEndingWithNumber(String s) {
-        return (s != null && !s.isEmpty() &&
-                Character.isDigit(s.charAt(s.length() - 1)));
-    }
-
-    private static String removeLastNumber(String s) {
-        if (isEndingWithNumber(s)) {
-            return s.substring(0, s.length() - 1);
-        }
-        return s;
-    }
-
 
     private static String addLastNumber(String s) {
         if (s != null && !s.isEmpty() &&
-                !isEndingWithNumber(s)) {
+                !StringUtils.isEndingWithNumber(s)) {
             return s + "1";
         }
         return s;
@@ -134,9 +123,9 @@ public class GenCode {
     public static String buildAltCode(String code) {
         if (code == null || code.isBlank()) {
             return code;
-        } else if (isEndingWithNumber(code)) {
+        } else if (StringUtils.isEndingWithNumber(code)) {
             if (code.endsWith("1")) {
-                return removeLastNumber(code);
+                return StringUtils.removeLastNumber(code);
             } else {
                 return code; // ends with 2 or 3 or other n#
             }

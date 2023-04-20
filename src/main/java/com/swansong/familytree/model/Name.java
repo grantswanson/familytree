@@ -170,8 +170,8 @@ public class Name {
             if (!n1.suffix.equalsIgnoreCase("Jr") && !n2.suffix.equalsIgnoreCase("Sr") ||
                     !n2.suffix.equalsIgnoreCase("Jr") && !n1.suffix.equalsIgnoreCase("Sr")) {
                 System.out.println("Warning: The two names match in everything but the suffix. " +
-                        "\n Name1:" + n1.toFullName() + n1 +
-                        "\n Name2:" + n2.toFullName() + n2);
+                        "\n Name1:" + n1.toFullName() + " " + n1 +
+                        "\n Name2:" + n2.toFullName() + " " + n2);
             }
             allowed = false;
         }

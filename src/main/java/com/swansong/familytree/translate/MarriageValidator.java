@@ -116,7 +116,8 @@ public class MarriageValidator {
                     "HAABF1A1",
                     "MA1AAB",
                     "MA1IAA1C",
-                    "HAABD2D2"
+                    "HAABD2D2",
+                    "DAHa1"
 
             );
             if (marriage.getWife() == null || marriage.getHusband() == null || // it often gets messed up when a parent is missing... often it is kids from other marriages

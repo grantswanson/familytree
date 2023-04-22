@@ -1,0 +1,1229 @@
+0 HEAD
+1 FILE Dammann.ged
+1 CHAR UTF-8
+1 LANG English
+1 DATE 20 APR 2023
+1 GEDC
+2 VERS 5.5.5
+2 FORM LINEAGE-LINKED
+1 SOUR SwansongCustomJavaProgram
+2 VERS 1.0
+1 NOTE Donovan Burdette /Meyer/ compiled the information up until his death in 2001. In 2023, Donovan's grandson, Grant Matthew /Swanson/ converted the records from a custom database using Microsoft Works to a GEDCOM file.
+1 SUBM @U1@
+0 @U1@ SUBM
+1 NAME Grant Matthew /Swanson/
+0 @S1@ SOUR
+1 TITL Information compiled by Donovan Burdette /Meyer/
+1 NOTE Author: Donovan Burdette /Meyer/
+2 CONT Information compiled by Donovan Burdette /Meyer/ up until his death in 2001.
+0 @S2@ SOUR
+1 TITL GEDCOM conversion by Grant Matthew /Swanson/
+1 NOTE Author: Grant Matthew /Swanson/
+2 CONT In 2023, Donovan's grandson, Grant Matthew /Swanson/ converted the records from a custom database using Microsoft Works to a GEDCOM file.
+0 @I0@ INDI
+1 NAME Martin Henry /Dammann/
+2 GIVN Martin Henry
+2 SURN Dammann
+1 REFN CustomGenCode:DA
+1 SEX M
+1 FAMS @F0@
+0 @I1@ INDI
+1 NAME Henereka /Hindt/
+2 GIVN Henereka
+2 SURN Hindt
+1 REFN CustomGenCode:DA1
+1 SEX F
+1 OCCU Homemaker
+1 FAMS @F0@
+0 @I2@ INDI
+1 NAME Bertha /Dammann/
+2 GIVN Bertha
+2 SURN Dammann
+1 REFN CustomGenCode:DAA
+1 FAMS @F1@
+1 FAMC @F0@
+0 @I3@ INDI
+1 NAME Henry /Landwche/
+2 GIVN Henry
+2 SURN Landwche
+1 REFN CustomGenCode:DAA1
+1 FAMS @F1@
+0 @I4@ INDI
+1 NAME Nora /Dammann/
+2 GIVN Nora
+2 SURN Dammann
+1 REFN CustomGenCode:DAB
+1 SEX F
+1 FACT * Twins
+1 FAMS @F2@
+1 FAMC @F0@
+0 @I5@ INDI
+1 NAME Henry /Leins/
+2 GIVN Henry
+2 SURN Leins
+1 REFN CustomGenCode:DAB1
+1 SEX M
+1 OCCU Homemaker
+1 FACT * Twins
+1 FAMS @F2@
+1 FAMC @F30@
+0 @I6@ INDI
+1 NAME Vera /Leins/
+2 GIVN Vera
+2 SURN Leins
+1 REFN CustomGenCode:DABA
+1 SEX F
+1 BIRT
+2 DATE 8 Apr 1906
+1 FAMS @F3@
+1 FAMC @F2@
+0 @I7@ INDI
+1 NAME Albert /Michael/
+2 GIVN Albert
+2 SURN Michael
+1 NAME Micheel,?
+2 TYPE aka
+2 GIVN Micheel,?
+1 REFN CustomGenCode:DABA1
+1 SEX M
+1 FAMS @F3@
+0 @I8@ INDI
+1 NAME Alvera /Michael/
+2 GIVN Alvera
+2 SURN Michael
+1 REFN CustomGenCode:DABAA
+1 SEX F
+1 BIRT
+2 DATE 23 Oct 1930
+1 OCCU Homemaker
+1 FAMS @F4@
+1 FAMC @F3@
+0 @I9@ INDI
+1 NAME Mathew /Olson/
+2 GIVN Mathew
+2 SURN Olson
+1 REFN CustomGenCode:DABAA1
+1 SEX M
+1 FAMS @F4@
+0 @I10@ INDI
+1 NAME Michael /Olson/
+2 GIVN Michael
+2 SURN Olson
+1 REFN CustomGenCode:DABAAA
+1 BIRT
+2 DATE 22 Aug 1951
+1 FAMC @F4@
+0 @I11@ INDI
+1 NAME Myron /Olson/
+2 GIVN Myron
+2 SURN Olson
+1 REFN CustomGenCode:DABAAB
+1 BIRT
+2 DATE 1 Nov 1953
+1 FAMC @F4@
+0 @I12@ INDI
+1 NAME Barbara /Olson/
+2 GIVN Barbara
+2 SURN Olson
+1 REFN CustomGenCode:DABAAC
+1 BIRT
+2 DATE 16 Jul 1962
+1 FAMC @F4@
+0 @I13@ INDI
+1 NAME Melva /Leins/
+2 GIVN Melva
+2 SURN Leins
+1 REFN CustomGenCode:DABB
+1 BIRT
+2 DATE 14 Nov 1908
+1 FAMC @F2@
+0 @I14@ INDI
+1 NAME Marvin /Leins/
+2 GIVN Marvin
+2 SURN Leins
+1 REFN CustomGenCode:DABC
+1 SEX M
+1 BIRT
+2 DATE 14 Nov 1908
+1 FAMS @F5@
+1 FAMS @F37@
+1 FAMC @F2@
+0 @I15@ INDI
+1 NAME Marie /Schoeneman/
+2 GIVN Marie
+2 SURN Schoeneman
+1 REFN CustomGenCode:DABC1
+1 SEX F
+1 OCCU Homemaker
+1 FAMS @F5@
+0 @I16@ INDI
+1 NAME Marilyn /Leins/
+2 GIVN Marilyn
+2 SURN Leins
+1 REFN CustomGenCode:DABCA
+1 SEX F
+1 BIRT
+2 DATE 31 Oct 1933
+1 OCCU Homemaker
+1 FAMS @F6@
+1 FAMC @F5@
+0 @I17@ INDI
+1 NAME Robert /Moberg/
+2 GIVN Robert
+2 SURN Moberg
+1 REFN CustomGenCode:DABCA1
+1 SEX M
+1 FAMS @F6@
+0 @I18@ INDI
+1 NAME Carlene /Moberg/
+2 GIVN Carlene
+2 SURN Moberg
+1 REFN CustomGenCode:DABCAA
+1 BIRT
+2 DATE 15 May 1957
+1 FAMC @F6@
+0 @I19@ INDI
+1 NAME Darvin /Moberg/
+2 GIVN Darvin
+2 SURN Moberg
+1 REFN CustomGenCode:DABCAB
+1 BIRT
+2 DATE 30 Dec 1958
+1 FAMC @F6@
+0 @I20@ INDI
+1 NAME David /Moberg/
+2 GIVN David
+2 SURN Moberg
+1 REFN CustomGenCode:DABCAC
+1 BIRT
+2 DATE 10 Apr 1961
+1 FAMC @F6@
+0 @I21@ INDI
+1 NAME Delores /Leins/
+2 GIVN Delores
+2 SURN Leins
+1 REFN CustomGenCode:DABCB
+1 SEX F
+1 BIRT
+2 DATE 23 Jul 1936
+1 OCCU Homemaker
+1 FAMS @F7@
+1 FAMC @F5@
+0 @I22@ INDI
+1 NAME Vergil /Benz/
+2 GIVN Vergil
+2 SURN Benz
+1 REFN CustomGenCode:DABCB1
+1 SEX M
+1 FAMS @F7@
+0 @I23@ INDI
+1 NAME Marietta /Benz/
+2 GIVN Marietta
+2 SURN Benz
+1 REFN CustomGenCode:DABCBA
+1 BIRT
+2 DATE 8 Nov 1955
+1 FAMC @F7@
+0 @I24@ INDI
+1 NAME Lynette /Benz/
+2 GIVN Lynette
+2 SURN Benz
+1 REFN CustomGenCode:DABCBB
+1 BIRT
+2 DATE 1 Jan 1958
+1 FAMC @F7@
+0 @I25@ INDI
+1 NAME Delora Mae /Benz/
+2 GIVN Delora Mae
+2 SURN Benz
+1 REFN CustomGenCode:DABCBC
+1 BIRT
+2 DATE 3 Dec 1960
+1 FAMC @F7@
+0 @I26@ INDI
+1 NAME Lyle /Leins/
+2 GIVN Lyle
+2 SURN Leins
+1 REFN CustomGenCode:DABCC
+1 SEX M
+1 BIRT
+2 DATE 11 May 1941
+1 FAMS @F8@
+1 FAMC @F5@
+0 @I27@ INDI
+1 NAME Judy /Gackstetter/
+2 GIVN Judy
+2 SURN Gackstetter
+1 REFN CustomGenCode:DABCC1
+1 SEX F
+1 OCCU Homemaker
+1 FAMS @F8@
+0 @I28@ INDI
+1 NAME Thimothy /Leins/
+2 GIVN Thimothy
+2 SURN Leins
+1 REFN CustomGenCode:DABCCA
+1 BIRT
+2 DATE 28 Nov 1961
+1 FAMC @F8@
+0 @I29@ INDI
+1 NAME Clifford /Leins/
+2 GIVN Clifford
+2 SURN Leins
+1 REFN CustomGenCode:DABCD
+1 BIRT
+2 DATE 29 May 1943
+1 FAMC @F5@
+0 @I30@ INDI
+1 NAME Gilbert /Dammann/
+2 GIVN Gilbert
+2 SURN Dammann
+1 REFN CustomGenCode:DAC
+1 FAMS @F9@
+1 FAMC @F0@
+0 @I31@ INDI
+1 NAME Mary /Conradi/
+2 GIVN Mary
+2 SURN Conradi
+1 REFN CustomGenCode:DAC1
+1 FAMS @F9@
+0 @I32@ INDI
+1 NAME Louisa /Dammann/
+2 GIVN Louisa
+2 SURN Dammann
+1 NAME Louise?
+2 TYPE aka
+2 GIVN Louise?
+1 REFN CustomGenCode:DAD
+1 OCCU Homemaker
+1 FAMS @F10@
+1 FAMC @F0@
+0 @I33@ INDI
+1 NAME William /Meyers/
+2 GIVN William
+2 SURN Meyers
+1 REFN CustomGenCode:DAD1
+1 FAMS @F10@
+0 @I34@ INDI
+1 NAME Albert /Dammann/
+2 GIVN Albert
+2 SURN Dammann
+1 REFN CustomGenCode:DAE
+1 FAMS @F11@
+1 FAMC @F0@
+0 @I35@ INDI
+1 NAME Bertha /Denekas/
+2 GIVN Bertha
+2 SURN Denekas
+1 REFN CustomGenCode:DAE1
+1 OCCU Homemaker
+1 FAMS @F11@
+0 @I36@ INDI
+1 NAME Carl /Dammann/
+2 GIVN Carl
+2 SURN Dammann
+1 REFN CustomGenCode:DAF
+1 FAMS @F12@
+1 FAMC @F0@
+0 @I37@ INDI
+1 NAME Elsie /Thiese/
+2 GIVN Elsie
+2 SURN Thiese
+1 REFN CustomGenCode:DAF1
+1 OCCU Homemaker
+1 FAMS @F12@
+0 @I38@ INDI
+1 NAME William /Dammann/
+2 GIVN William
+2 SURN Dammann
+1 REFN CustomGenCode:DAG
+1 FAMS @F13@
+1 FAMC @F0@
+0 @I39@ INDI
+1 NAME Anna /Jutting/
+2 GIVN Anna
+2 SURN Jutting
+1 REFN CustomGenCode:DAG1
+1 OCCU Homemaker
+1 FAMS @F13@
+0 @I40@ INDI
+1 NAME Ella Marie /Dammann/
+2 GIVN Ella Marie
+2 SURN Dammann
+1 REFN CustomGenCode:DAH
+1 SEX F
+1 BIRT
+2 DATE 24 Nov 1886
+2 PLAC , Little Rock, IA, USA
+1 OCCU Homemaker
+1 FACT * Chris Locker's child from a previous marriage.
+1 FAMS @F14@
+1 FAMC @F0@
+0 @I41@ INDI
+1 NAME Johann Christian Henrich /Locker/
+2 GIVN Johann Christian Henrich
+2 SURN Locker
+1 REFN CustomGenCode:DAH1
+1 SEX M
+1 BIRT
+2 DATE 22 Aug 1884
+2 PLAC , Flanagan, IA, USA
+1 DEAT
+2 DATE 17 Mar 1973
+1 FACT * Chris Locker's child from a previous marriage.
+1 FACT Locker, Viola Christina Frances [Swanson] is possibly child #1 and was accidentally not added or is from a different marriage.
+1 FAMS @F14@
+1 FAMC @F31@
+0 @I42@ INDI
+1 NAME Viola Christina Frances /Locker/
+2 GIVN Viola Christina Frances
+2 SURN Locker
+1 NAME Francis?
+2 TYPE aka
+2 GIVN Francis?
+1 REFN CustomGenCode:DAHa
+1 SEX F
+1 BIRT
+2 DATE 26 Nov 1912
+1 OCCU Homemaker
+1 FAMS @F15@
+1 FAMC @F38@
+0 @I43@ INDI
+1 NAME Carl Loyal William /Swanson/
+2 GIVN Carl Loyal William
+2 SURN Swanson
+1 REFN CustomGenCode:DAHa1
+1 SEX M
+1 BIRT
+2 DATE 3 Apr 1910
+2 PLAC Swanson home, Buena Vista Co. IA, USA
+1 DEAT
+2 DATE 5 Feb 1971
+2 PLAC Fishkill Rural Cem. Fishkill, NY, USA
+1 OCCU Agronomist
+1 FACT Swanson, Leanna is possibly child #3 and was accidentally not added or is from a different marriage.
+1 FACT Swanson, Robert is possibly child #4 and was accidentally not added or is from a different marriage.
+1 FAMS @F15@
+1 FAMS @F40@
+1 FAMC @F32@
+0 @I44@ INDI
+1 NAME Chester Loyal William /Swanson/
+2 GIVN Chester Loyal William
+2 SURN Swanson
+1 REFN CustomGenCode:DAHaa
+1 SEX M
+1 BIRT
+2 DATE 31 Aug 1942
+2 PLAC Ft. Devina, Ayer, MA, USA
+1 FAMS @F16@
+1 FAMS @F17@
+1 FAMS @F18@
+0 @I45@ INDI
+1 NAME Barbara //
+2 GIVN Barbara
+1 REFN CustomGenCode:DAHaa1
+1 SEX F
+1 OCCU Homemaker
+1 FAMS @F16@
+0 @I46@ INDI
+1 NAME Jacquelyn //
+2 GIVN Jacquelyn
+1 REFN CustomGenCode:DAHaa2
+1 SEX F
+1 OCCU Homemaker
+1 FAMS @F17@
+0 @I47@ INDI
+1 NAME Catherine Lucille /Pichler/
+2 GIVN Catherine Lucille
+2 SURN Pichler
+1 REFN CustomGenCode:DAHaa3
+1 SEX F
+1 BIRT
+2 DATE 5 Jul 1949
+2 PLAC Riverside, CA, USA
+1 OCCU Homemaker
+1 FACT * Catherine's daughter from a previous marriage.
+1 FAMS @F18@
+1 FAMS @F39@
+1 FAMC @F33@
+0 @I48@ INDI
+1 NAME Keeva Rachel /Stanberry/
+2 GIVN Keeva Rachel
+2 SURN Stanberry
+1 REFN CustomGenCode:DAHaa3a
+1 BIRT
+2 DATE 27 Mar 1974
+2 PLAC Mercy Hosp. Miami, FL, USA
+1 FAMC @F39@
+0 @I49@ INDI
+1 NAME Sarah Viola /Swanson/
+2 GIVN Sarah Viola
+2 SURN Swanson
+1 REFN CustomGenCode:DAHaa3b
+0 @I50@ INDI
+1 NAME Courtney Elizabeth /Swanson/
+2 GIVN Courtney Elizabeth
+2 SURN Swanson
+1 REFN CustomGenCode:DAHaa3c
+0 @I51@ INDI
+1 NAME Roger Chris /Swanson/
+2 GIVN Roger Chris
+2 SURN Swanson
+1 REFN CustomGenCode:DAHab
+1 SEX M
+1 BIRT
+2 DATE 25 May 1945
+2 PLAC Gardener General Hosp. Chicago, IL, USA
+1 BAPM
+2 DATE 1945
+2 PLAC Lutheran Church, Chicago, IL, USA
+1 CONF
+2 PLAC Grace Lutheran, Hinsdale, IL, USA
+1 GRAD
+2 PLAC Wappingers Central, Wappingers Falls, NY
+1 OCCU Veterinarian
+1 FACT Roger earned a Doctor of Veterinary Medicine from Iowa State University at Ames, IA.  Carol earned a BS degree in Home Economics from Iowa State and a two year Associates degree from the School of Fine Arts in New York City.
+1 FACT Both Roger and Carol are now active in Grace Lutheran in Yorktown, NY. Carol served as President & Sectretary of Grace Congregation Council and is now active in Synod Work.
+1 FACT Roger served in the Public Health Service for 2 years at National Institute of Health at Poolesville and Bethesda, MD. Earned a rank of Captain.
+1 FACT Roger is active in Westchester AVMA and Rotary International Youth Exchange.  Carol is active in the Women of the ELCA as editor of the Synodical newsletter.
+1 FACT Roger enjoys animals, helping coach wrestling and traveling.  Carol enjoys ballroom dancing, sewing and crafts.
+1 FACT Roger and Carol have been honored as Paul Harris Fellows for their work in Youth Exchange. Roger was named to the athletic Hall of Fame of John Jay H. S. Wappingers & of Peekskill H.S. for his achievements & work in wrestling.
+1 FAMS @F19@
+0 @I52@ INDI
+1 NAME Carol Anne /Meyer/
+2 GIVN Carol Anne
+2 SURN Meyer
+1 REFN CustomGenCode:DAHab1
+1 SEX F
+1 BIRT
+2 DATE 4 Nov 1945
+2 PLAC Four Gables Horsforth, Yorkshire, England
+1 BAPM
+2 DATE 1945
+2 PLAC St. Margarets, Horsforth, England
+1 CONF
+2 DATE 1959
+2 PLAC Grace Lutheran, Champaign, IL, USA
+1 GRAD
+2 DATE 1962
+2 PLAC Ames High School, Ames, IA, USA
+1 OCCU Homemaker & Exchange Student Mother
+1 FACT Roger earned a Doctor of Veterinary Medicine from Iowa State University at Ames, IA.  Carol earned a BS degree in Home Economics from Iowa State and a two year Associates degree from the School of Fine Arts in New York City.
+1 FACT Both Roger and Carol are now active in Grace Lutheran in Yorktown, NY. Carol served as President & Sectretary of Grace Congregation Council and is now active in Synod Work.
+1 FACT Roger served in the Public Health Service for 2 years at National Institute of Health at Poolesville and Bethesda, MD. Earned a rank of Captain.
+1 FACT Roger is active in Westchester AVMA and Rotary International Youth Exchange.  Carol is active in the Women of the ELCA as editor of the Synodical newsletter.
+1 FACT Roger enjoys animals, helping coach wrestling and traveling.  Carol enjoys ballroom dancing, sewing and crafts.
+1 FACT Roger and Carol have been honored as Paul Harris Fellows for their work in Youth Exchange. Roger was named to the athletic Hall of Fame of John Jay H. S. Wappingers & of Peekskill H.S. for his achievements & work in wrestling.
+1 FAMS @F19@
+1 FAMC @F34@
+0 @I53@ INDI
+1 NAME Loren Christian /Swanson/
+2 GIVN Loren Christian
+2 SURN Swanson
+1 REFN CustomGenCode:DAHaba
+1 BIRT
+2 DATE 30 Nov 1969
+2 PLAC Bethesda Naval Hosp. Bethesda, MD, USA
+1 BAPM
+2 PLAC A Lutheran, Gathersburg, MD, USA
+1 CONF
+2 DATE 1988
+2 PLAC Grace Lutheran, Yorktown Heights, NY, USA
+1 GRAD
+2 PLAC Peekskill HS, Peekskill, NY, USA
+1 OCCU Architectural/Computer Systems Analyist at Composite Technoligies in Ames, IA (started 4/93)
+1 FACT Loren graduated with a Bachlors of Architecture from Iowa State in 8/93.
+1 FACT Loren belongs to Grace Lutheran Church in Yorktown Heights, NY.
+1 FACT N/A
+1 FACT Loren likes traveling, computers, drawing , woodworking, and kite flying.  He wrestled all four years in high school.
+1 FACT He lived in the Philippines for one year as a Rotary Exchange student.
+0 @I54@ INDI
+1 NAME Grant Matthew /Swanson/
+2 GIVN Grant Matthew
+2 SURN Swanson
+1 REFN CustomGenCode:DAHabb
+1 BIRT
+2 DATE 21 Mar 1971
+2 PLAC Bethesda Naval Hosp. Bethesda, MD, USA
+1 OCCU College Student
+1 FACT Grant graduated from Peekskill, NY. High School in 1989.  He is now studing Computer Science at the University of Wisconsin in Madison.
+1 FACT He was Baptized in Gathersburg, MD.  He attended and was confirmed at Grace Lutheran in Yorktown Heights, NY.
+1 FACT Grant enjoys mountain biking, juggling and racquetball.  He wrestled for five years in School.
+1 FACT He has traveled many parts of the world including Europe, Japan, India and China.  He spent a year in Turkey as a Rotary International Exchange student.
+0 @I55@ INDI
+1 NAME Leanna Christine /Swanson/
+2 GIVN Leanna Christine
+2 SURN Swanson
+1 REFN CustomGenCode:DAHabc
+1 BIRT
+2 DATE 7 Jul 1948
+1 DEAT
+2 DATE 16 Jul 1948
+2 PLAC Fishkill Rural Cem. Fishkill, NY, USA
+1 FAMC @F40@
+0 @I56@ INDI
+1 NAME Robert Paul /Swanson/
+2 GIVN Robert Paul
+2 SURN Swanson
+1 REFN CustomGenCode:DAHabd
+1 BIRT
+2 DATE 16 Sep 1950
+2 PLAC Yale University Hosp. New Haven, CT, USA
+1 FAMS @F20@
+1 FAMS @F21@
+0 @I57@ INDI
+1 NAME Mary Therese /Kalin/
+2 GIVN Mary Therese
+2 SURN Kalin
+1 REFN CustomGenCode:DAHabd1
+1 BIRT
+2 DATE 1 Oct 1948
+2 PLAC Chicago, IL, USA
+1 OCCU Homemaker
+1 FAMS @F20@
+0 @I58@ INDI
+1 NAME Cynthia Marie Louise /Pasczkowski/
+2 GIVN Cynthia Marie Louise
+2 SURN Pasczkowski
+1 REFN CustomGenCode:DAHabd2
+1 BIRT
+2 DATE 30 Nov 1953
+2 PLAC Danville, PA, USA
+1 OCCU Homemaker
+1 FAMS @F21@
+1 FAMC @F35@
+0 @I59@ INDI
+1 NAME Elvira Myrtle /Locker/
+2 GIVN Elvira Myrtle
+2 SURN Locker
+1 REFN CustomGenCode:DAHB
+1 SEX F
+1 OCCU Homemaker
+1 FAMS @F22@
+1 FAMC @F14@
+0 @I60@ INDI
+1 NAME Lou /Vogel/
+2 GIVN Lou
+2 SURN Vogel
+1 REFN CustomGenCode:DAHB1
+1 SEX M
+1 FAMS @F22@
+0 @I61@ INDI
+1 NAME Virginia /Vogel/
+2 GIVN Virginia
+2 SURN Vogel
+1 REFN CustomGenCode:DAHBA
+1 OCCU University Professer
+1 FAMC @F22@
+0 @I62@ INDI
+1 NAME Valerie /Vogel/
+2 GIVN Valerie
+2 SURN Vogel
+1 REFN CustomGenCode:DAHBB
+1 SEX F
+1 FAMS @F23@
+1 FAMC @F22@
+0 @I63@ INDI
+1 NAME Robert /Van Patten/
+2 GIVN Robert
+2 SURN Van Patten
+1 REFN CustomGenCode:DAHBB1
+1 SEX M
+1 FAMS @F23@
+0 @I64@ INDI
+1 NAME 1St /Van Patten/
+2 GIVN 1St
+2 SURN Van Patten
+1 REFN CustomGenCode:DAHBBA
+1 FAMC @F23@
+0 @I65@ INDI
+1 NAME Christopher /Van Patten/
+2 GIVN Christopher
+2 SURN Van Patten
+1 REFN CustomGenCode:DAHBBB
+1 FAMC @F23@
+0 @I66@ INDI
+1 NAME 3Rd /Van Patten/
+2 GIVN 3Rd
+2 SURN Van Patten
+1 REFN CustomGenCode:DAHBBC
+1 FAMC @F23@
+0 @I67@ INDI
+1 NAME Sue Ellyn /Vogel/
+2 GIVN Sue Ellyn
+2 SURN Vogel
+1 REFN CustomGenCode:DAHBC
+1 FAMC @F22@
+0 @I68@ INDI
+1 NAME Leora Maria /Locker/
+2 GIVN Leora Maria
+2 SURN Locker
+1 NAME Marie?
+2 TYPE aka
+2 GIVN Marie?
+1 REFN CustomGenCode:DAHC
+1 SEX F
+1 BIRT
+2 DATE 7 Mar 1928
+2 PLAC , George, IA, USA
+1 BAPM
+2 DATE 25 Mar 1928
+1 CONF
+2 DATE 28 Jul 1946
+2 PLAC , George, IA, USA
+1 GRAD
+2 DATE May 1945
+2 PLAC George HS, George, IA, USA
+1 FACT * Triplets
+1 FAMS @F24@
+1 FAMC @F14@
+0 @I69@ INDI
+1 NAME Peter Glen /Duin/
+2 GIVN Peter Glen
+2 SURN Duin
+1 REFN CustomGenCode:DAHC1
+1 SEX M
+1 BIRT
+2 DATE 7 Mar 1925
+2 PLAC , George, IA, USA
+1 BAPM
+2 DATE 20 May 1951
+2 PLAC Nain Lutheran Church, Newell, IA, USA
+1 CONF
+2 DATE 20 May 1951
+2 PLAC Nain Lutheran Church, Newell, IA, USA
+1 GRAD
+2 DATE May 1943
+2 PLAC George HS, George, IA, USA
+1 FACT * Triplets
+1 FAMS @F24@
+1 FAMC @F36@
+0 @I70@ INDI
+1 NAME Dwight David /Duin/
+2 GIVN Dwight David
+2 SURN Duin
+1 REFN CustomGenCode:DAHCA
+1 FAMC @F24@
+0 @I71@ INDI
+1 NAME Lori Jean /Duin/
+2 GIVN Lori Jean
+2 SURN Duin
+1 REFN CustomGenCode:DAHCB
+1 FAMC @F24@
+0 @I72@ INDI
+1 NAME Paul Chris /Duin/
+2 GIVN Paul Chris
+2 SURN Duin
+1 REFN CustomGenCode:DAHCC
+1 FAMC @F24@
+0 @I73@ INDI
+1 NAME Douglas Dean /Duin/
+2 GIVN Douglas Dean
+2 SURN Duin
+1 REFN CustomGenCode:DAHCD
+1 SEX M
+1 BIRT
+2 DATE 9 Feb 1955
+2 PLAC , Storm Lake, IA, USA
+1 BAPM
+2 DATE 9 Apr 1955
+2 PLAC Vogel Home,
+1 CONF
+2 DATE 17 May 1970
+2 PLAC Our Saviours Lutheran Church, Humboldt, IA, USA
+1 OCCU Lutheran Minister
+1 FAMS @F25@
+1 FAMC @F24@
+0 @I74@ INDI
+1 NAME Ann /Hill/
+2 GIVN Ann
+2 SURN Hill
+1 REFN CustomGenCode:DAHCD1
+1 SEX F
+1 BIRT
+2 DATE 17 Sep 1955
+1 FAMS @F25@
+0 @I75@ INDI
+1 NAME Erica /Duin/
+2 GIVN Erica
+2 SURN Duin
+1 REFN CustomGenCode:DAHCDA
+1 FAMC @F25@
+0 @I76@ INDI
+1 NAME Seth /Duin/
+2 GIVN Seth
+2 SURN Duin
+1 REFN CustomGenCode:DAHCDB
+1 FAMC @F25@
+0 @I77@ INDI
+1 NAME Lorene Marie /Duin/
+2 GIVN Lorene Marie
+2 SURN Duin
+1 REFN CustomGenCode:DAHCE
+1 BIRT
+2 DATE 8 Apr 1956
+2 PLAC , Spencer, IA, USA
+1 BAPM
+2 DATE 8 Jul 1956
+1 CONF
+2 PLAC Our Saviours Lutheran Church, Humboldt, IA, USA
+1 GRAD
+2 DATE 1974
+2 PLAC Humboldt HS, Humboldt, IA, USA
+1 FAMC @F24@
+0 @I78@ INDI
+1 NAME Bradley Glenn /Duin/
+2 GIVN Bradley Glenn
+2 SURN Duin
+1 REFN CustomGenCode:DAHCF
+1 SEX M
+1 BIRT
+2 DATE 26 Oct 1959
+2 PLAC , Spencer, IA, USA
+1 BAPM
+2 DATE 8 Jan 1960
+1 CONF
+2 DATE 1 Jun 1975
+2 PLAC Our Saviours Lutheran Church, Humboldt, IA, USA
+1 GRAD
+2 DATE May 1978
+2 PLAC Humboldt HS, Humboldt, IA, USA
+1 FAMS @F26@
+1 FAMC @F24@
+0 @I79@ INDI
+1 NAME Laura //
+2 GIVN Laura
+1 REFN CustomGenCode:DAHCF1
+1 SEX F
+1 OCCU Homemaker
+1 FAMS @F26@
+0 @I80@ INDI
+1 NAME Lindsey /Duin/
+2 GIVN Lindsey
+2 SURN Duin
+1 REFN CustomGenCode:DAHCFA
+1 FAMC @F26@
+0 @I81@ INDI
+1 NAME Grant /Duin/
+2 GIVN Grant
+2 SURN Duin
+1 REFN CustomGenCode:DAHCFB
+1 FAMC @F26@
+0 @I82@ INDI
+1 NAME Reese /Duin/
+2 GIVN Reese
+2 SURN Duin
+1 REFN CustomGenCode:DAHCFC
+1 FAMC @F26@
+0 @I83@ INDI
+1 NAME Steven Lee /Duin/
+2 GIVN Steven Lee
+2 SURN Duin
+1 REFN CustomGenCode:DAHCG
+1 SEX M
+1 BIRT
+2 DATE 31 Jul 1963
+2 PLAC , Spencer, IA, USA
+1 BAPM
+2 DATE 25 Aug 1963
+1 CONF
+2 PLAC Our Saviours Lutheran Church, Humboldt, IA, USA
+1 FAMS @F27@
+1 FAMC @F24@
+0 @I84@ INDI
+1 NAME Melissa //
+2 GIVN Melissa
+1 NAME Malissa?
+2 TYPE aka
+2 GIVN Malissa?
+1 REFN CustomGenCode:DAHCG1
+1 SEX F
+1 FAMS @F27@
+0 @I85@ INDI
+1 NAME Alyson /Duin/
+2 GIVN Alyson
+2 SURN Duin
+1 REFN CustomGenCode:DAHCGA
+1 FAMC @F27@
+0 @I86@ INDI
+1 NAME BRayton /Duin/
+2 GIVN BRayton
+2 SURN Duin
+1 REFN CustomGenCode:DAHCGB
+1 FAMC @F27@
+0 @I87@ INDI
+1 NAME Harry /Dammann/
+2 GIVN Harry
+2 SURN Dammann
+1 REFN CustomGenCode:DAI
+1 FAMS @F28@
+1 FAMC @F0@
+0 @I88@ INDI
+1 NAME Marie /Habbinga/
+2 GIVN Marie
+2 SURN Habbinga
+1 REFN CustomGenCode:DAI1
+1 OCCU Homemaker
+1 FAMS @F28@
+0 @I89@ INDI
+1 NAME Clarence /Dammann/
+2 GIVN Clarence
+2 SURN Dammann
+1 REFN CustomGenCode:DAJ
+1 FAMS @F29@
+1 FAMC @F0@
+0 @I90@ INDI
+1 NAME Carrie /Jutting/
+2 GIVN Carrie
+2 SURN Jutting
+1 REFN CustomGenCode:DAJ1
+1 OCCU Homemaker
+1 FAMS @F29@
+0 @I91@ INDI
+1 NAME Max /Leins/
+2 GIVN Max
+2 SURN Leins
+1 REFN CustomGenCode:DAB1sf
+1 SEX M
+1 FAMS @F30@
+0 @I92@ INDI
+1 NAME Minnie //
+2 GIVN Minnie
+1 REFN CustomGenCode:DAB1sm
+1 SEX F
+1 FAMS @F30@
+0 @I93@ INDI
+1 NAME Herman Christian /Locker/
+2 GIVN Herman Christian
+2 SURN Locker
+1 REFN CustomGenCode:DAH1sf
+1 SEX M
+1 FAMS @F31@
+0 @I94@ INDI
+1 NAME Frauke /Franzen/
+2 GIVN Frauke
+2 SURN Franzen
+1 REFN CustomGenCode:DAH1sm
+1 SEX F
+1 FAMS @F31@
+0 @I95@ INDI
+1 NAME William /Swanson/
+2 GIVN William
+2 SURN Swanson
+1 REFN CustomGenCode:DAHa1sf
+1 SEX M
+1 FAMS @F32@
+0 @I96@ INDI
+1 NAME Kerstin /Swanson/
+2 GIVN Kerstin
+2 SURN Swanson
+1 REFN CustomGenCode:DAHa1sm
+1 SEX F
+1 FAMS @F32@
+0 @I97@ INDI
+1 NAME William Collins /Pichler/
+2 GIVN William Collins
+2 SURN Pichler
+1 REFN CustomGenCode:DAHaa3sf
+1 SEX M
+1 FAMS @F33@
+0 @I98@ INDI
+1 NAME Ada Ine Inez /Miller/
+2 GIVN Ada Ine Inez
+2 SURN Miller
+1 REFN CustomGenCode:DAHaa3sm
+1 SEX F
+1 FAMS @F33@
+0 @I99@ INDI
+1 NAME Donovan Burdette /Meyer/
+2 GIVN Donovan Burdette
+2 SURN Meyer
+1 REFN CustomGenCode:DAHab1sf
+1 SEX M
+1 FAMS @F34@
+0 @I100@ INDI
+1 NAME Doris /Smith/
+2 GIVN Doris
+2 SURN Smith
+1 REFN CustomGenCode:DAHab1sm
+1 SEX F
+1 FAMS @F34@
+0 @I101@ INDI
+1 NAME Stanley Joseph /Pasczkowski/
+2 GIVN Stanley Joseph
+2 SURN Pasczkowski
+1 REFN CustomGenCode:DAHabd2sf
+1 SEX M
+1 FAMS @F35@
+0 @I102@ INDI
+1 NAME Margaret Louise /Moroz/
+2 GIVN Margaret Louise
+2 SURN Moroz
+1 REFN CustomGenCode:DAHabd2sm
+1 SEX F
+1 FAMS @F35@
+0 @I103@ INDI
+1 NAME Peter Fred /Duin/
+2 GIVN Peter Fred
+2 SURN Duin
+1 REFN CustomGenCode:DAHC1sf
+1 SEX M
+1 FAMS @F36@
+0 @I104@ INDI
+1 NAME Anna /Schrick/
+2 GIVN Anna
+2 SURN Schrick
+1 REFN CustomGenCode:DAHC1sm
+1 SEX F
+1 FAMS @F36@
+0 @I105@ INDI
+1 NAME Christian /Locker/
+2 GIVN Christian
+2 SURN Locker
+1 REFN CustomGenCode:DAHauf
+1 SEX M
+1 FAMS @F38@
+0 @I106@ INDI
+1 NAME Anna Heeren /Wuehke/
+2 GIVN Anna Heeren
+2 SURN Wuehke
+1 REFN CustomGenCode:DAHaum
+1 SEX F
+1 FAMS @F38@
+0 @I107@ INDI
+1 NAME Kim Walker /Stanberry/
+2 GIVN Kim Walker
+2 SURN Stanberry
+1 REFN CustomGenCode:DAHaa3auf
+1 SEX M
+1 FAMS @F39@
+0 @I108@ INDI
+1 NAME Viola Christina Francis /Locker/
+2 GIVN Viola Christina Francis
+2 SURN Locker
+1 REFN CustomGenCode:DAHabcum
+1 SEX F
+1 FAMS @F40@
+0 @F0@ FAM
+1 HUSB @I0@
+1 WIFE @I1@
+1 CHIL @I2@
+1 CHIL @I4@
+1 CHIL @I30@
+1 CHIL @I32@
+1 CHIL @I34@
+1 CHIL @I36@
+1 CHIL @I38@
+1 CHIL @I40@
+1 CHIL @I87@
+1 CHIL @I89@
+0 @F1@ FAM
+1 HUSB @I2@
+1 WIFE @I3@
+0 @F2@ FAM
+1 HUSB @I5@
+1 WIFE @I4@
+1 CHIL @I6@
+1 CHIL @I13@
+1 CHIL @I14@
+1 MARR
+2 DATE 17 Feb 1903
+1 NOTE * Twins
+0 @F3@ FAM
+1 HUSB @I7@
+1 WIFE @I6@
+1 CHIL @I8@
+1 MARR
+2 DATE 16 Jan 1929
+0 @F4@ FAM
+1 HUSB @I9@
+1 WIFE @I8@
+1 CHIL @I10@
+1 CHIL @I11@
+1 CHIL @I12@
+1 MARR
+2 DATE 10 Dec 1950
+0 @F5@ FAM
+1 HUSB @I14@
+1 WIFE @I15@
+1 CHIL @I16@
+1 CHIL @I21@
+1 CHIL @I26@
+1 CHIL @I29@
+1 MARR
+2 DATE 17 Feb 1933
+0 @F6@ FAM
+1 HUSB @I17@
+1 WIFE @I16@
+1 CHIL @I18@
+1 CHIL @I19@
+1 CHIL @I20@
+0 @F7@ FAM
+1 HUSB @I22@
+1 WIFE @I21@
+1 CHIL @I23@
+1 CHIL @I24@
+1 CHIL @I25@
+1 MARR
+2 DATE 24 Apr 1955
+0 @F8@ FAM
+1 HUSB @I26@
+1 WIFE @I27@
+1 CHIL @I28@
+1 MARR
+2 DATE 20 Jun 1959
+0 @F9@ FAM
+1 HUSB @I30@
+1 WIFE @I31@
+0 @F10@ FAM
+1 HUSB @I32@
+1 WIFE @I33@
+0 @F11@ FAM
+1 HUSB @I34@
+1 WIFE @I35@
+0 @F12@ FAM
+1 HUSB @I36@
+1 WIFE @I37@
+0 @F13@ FAM
+1 HUSB @I38@
+1 WIFE @I39@
+0 @F14@ FAM
+1 HUSB @I41@
+1 WIFE @I40@
+1 CHIL @I59@
+1 CHIL @I68@
+1 MARR
+2 DATE 8 Jan 1920
+1 NOTE * Chris Locker's child from a previous marriage.
+0 @F15@ FAM
+1 HUSB @I43@
+1 WIFE @I42@
+1 NOTE Technically unrelated child: Swanson, Chester Loyal William
+1 NOTE Technically unrelated child: Swanson, Roger Chris
+0 @F16@ FAM
+1 HUSB @I44@
+1 WIFE @I45@
+0 @F17@ FAM
+1 HUSB @I44@
+1 WIFE @I46@
+0 @F18@ FAM
+1 HUSB @I44@
+1 WIFE @I47@
+1 MARR
+2 DATE 24 Aug 1991
+2 PLAC Loretto Chapel, Santa Fe, NM, USA
+1 NOTE * Catherine's daughter from a previous marriage.
+1 NOTE Technically unrelated child: Stanberry, Keeva Rachel
+1 NOTE Technically unrelated child: Swanson, Sarah Viola
+1 NOTE Technically unrelated child: Swanson, Courtney Elizabeth
+0 @F19@ FAM
+1 HUSB @I51@
+1 WIFE @I52@
+1 MARR
+2 DATE 27 Aug 1967
+2 PLAC Lutheran Student Center, Ames, IA, USA
+1 NOTE Technically unrelated child: Swanson, Loren Christian
+1 NOTE Technically unrelated child: Swanson, Grant Matthew
+0 @F20@ FAM
+1 HUSB @I56@
+1 WIFE @I57@
+0 @F21@ FAM
+1 HUSB @I56@
+1 WIFE @I58@
+1 MARR
+2 DATE 20 Nov 1982
+2 PLAC St. Stevens Catholic, Shamokin, PA, USA
+0 @F22@ FAM
+1 HUSB @I60@
+1 WIFE @I59@
+1 CHIL @I61@
+1 CHIL @I62@
+1 CHIL @I67@
+0 @F23@ FAM
+1 HUSB @I63@
+1 WIFE @I62@
+1 CHIL @I64@
+1 CHIL @I65@
+1 CHIL @I66@
+0 @F24@ FAM
+1 HUSB @I69@
+1 WIFE @I68@
+1 CHIL @I70@
+1 CHIL @I71@
+1 CHIL @I72@
+1 CHIL @I73@
+1 CHIL @I77@
+1 CHIL @I78@
+1 CHIL @I83@
+1 MARR
+2 DATE 29 Jun 1951
+2 PLAC Immanuel Lutheran Church, George, IA, USA
+1 NOTE * Triplets
+0 @F25@ FAM
+1 HUSB @I73@
+1 WIFE @I74@
+1 CHIL @I75@
+1 CHIL @I76@
+1 MARR
+2 DATE 6 Aug 1977
+2 PLAC Lutheran Church, Ellsworth, IA, USA
+0 @F26@ FAM
+1 HUSB @I78@
+1 WIFE @I79@
+1 CHIL @I80@
+1 CHIL @I81@
+1 CHIL @I82@
+0 @F27@ FAM
+1 HUSB @I83@
+1 WIFE @I84@
+1 CHIL @I85@
+1 CHIL @I86@
+0 @F28@ FAM
+1 HUSB @I87@
+1 WIFE @I88@
+0 @F29@ FAM
+1 HUSB @I89@
+1 WIFE @I90@
+0 @F30@ FAM
+1 HUSB @I91@
+1 WIFE @I92@
+1 CHIL @I5@
+0 @F31@ FAM
+1 HUSB @I93@
+1 WIFE @I94@
+1 CHIL @I41@
+0 @F32@ FAM
+1 HUSB @I95@
+1 WIFE @I96@
+1 CHIL @I43@
+0 @F33@ FAM
+1 HUSB @I97@
+1 WIFE @I98@
+1 CHIL @I47@
+0 @F34@ FAM
+1 HUSB @I99@
+1 WIFE @I100@
+1 CHIL @I52@
+0 @F35@ FAM
+1 HUSB @I101@
+1 WIFE @I102@
+1 CHIL @I58@
+0 @F36@ FAM
+1 HUSB @I103@
+1 WIFE @I104@
+1 CHIL @I69@
+0 @F37@ FAM
+1 HUSB @I14@
+0 @F38@ FAM
+1 HUSB @I105@
+1 WIFE @I106@
+1 CHIL @I42@
+0 @F39@ FAM
+1 HUSB @I107@
+1 WIFE @I47@
+1 CHIL @I48@
+0 @F40@ FAM
+1 HUSB @I43@
+1 WIFE @I108@
+1 CHIL @I55@
+0 TRLR

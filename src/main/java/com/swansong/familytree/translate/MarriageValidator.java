@@ -2,6 +2,7 @@ package com.swansong.familytree.translate;
 
 import com.swansong.familytree.model.Marriage;
 import com.swansong.familytree.model.Person;
+import com.swansong.familytree.model.Source;
 import com.swansong.familytree.utils.DateUtils;
 
 import java.util.ArrayList;
@@ -90,5 +91,44 @@ public class MarriageValidator {
             }
         }
 
+    }
+
+    public static void verifyKids(Marriage marriage) {
+        int kidCount = marriage.getChildrenList().size();
+
+        if (marriage.getSources().contains(Source.SpousesParents) && kidCount == 1) {
+            return; // success
+        }
+        long parentCount = marriage.getSources().stream().filter(source -> source.equals(Source.Parents)).count();
+        long fatherCount = marriage.getHusband() == null ? -1 :
+                marriage.getHusband().getSources().stream().filter(source -> source.equals(Source.Parents)).count();
+        long motherCount = marriage.getWife() == null ? -1 :
+                marriage.getWife().getSources().stream().filter(source -> source.equals(Source.Parents)).count();
+
+        if (parentCount != kidCount ||
+                (fatherCount != kidCount && motherCount != kidCount)) {
+            List<String> ignoreList = List.of(
+                    "MAGA1E2", // ignore ln#455 Johnson, Jodie it is correct
+                    "MABABC", //ignore ln#121 Kracht, Kelly Sue. She is correct.
+                    "MAGA2a",//ignore ln#459 Saathoff, Rita Mae. She is correct (I think).
+                    "MABCFE1",//ignore ln#199 Anliker, Jeff. He is correct
+                    "MABHA1",//ignore ln#270 Covey, Jane Elaine Schafroth. She is correct (I think).
+                    "HAABF1A1",
+                    "MA1AAB"
+
+            );
+            if (marriage.getWife() == null || marriage.getHusband() == null || // it often gets messed up when a parent is missing... often it is kids from other marriages
+                    ignoreList.contains(marriage.getWife().getGenCode()) ||
+                    ignoreList.contains(marriage.getHusband().getGenCode())) {
+                return;
+            } // else
+            throw new RuntimeException("#Kids not correct somewhere... " +
+                    "\n # kids   :" + kidCount +
+                    "\n parentCnt:" + parentCount +
+                    "\n fatherCnt:" + fatherCount +
+                    "\n motherCnt:" + motherCount +
+                    "\n marriage:" + marriage
+            );
+        }
     }
 }

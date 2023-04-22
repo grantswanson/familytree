@@ -2,6 +2,7 @@ package com.swansong.familytree.data;
 
 import com.swansong.familytree.model.Marriage;
 import com.swansong.familytree.model.Person;
+import com.swansong.familytree.translate.MarriageValidator;
 import com.swansong.familytree.utils.StringUtils;
 import lombok.Data;
 
@@ -62,7 +63,7 @@ public class MarriageMap {
 
             String str = marriage.toFormattedString();
             System.out.println(str);
-            marriage.verifyKids();
+            MarriageValidator.verifyKids(marriage);
 
         }
         System.out.println("Marriage Count:" + marriages.size());

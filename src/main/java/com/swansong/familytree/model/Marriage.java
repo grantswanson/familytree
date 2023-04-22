@@ -61,44 +61,6 @@ public class Marriage {
         return s;
     }
 
-    public void verifyKids() {
-        int kidCount = getChildrenList().size();
-
-        if (sources.contains(Source.SpousesParents) && kidCount == 1) {
-            return; // success
-        }
-        long parentCount = sources.stream().filter(source -> source.equals(Source.Parents)).count();
-        long fatherCount = getHusband() == null ? -1 :
-                getHusband().getSources().stream().filter(source -> source.equals(Source.Parents)).count();
-        long motherCount = getWife() == null ? -1 :
-                getWife().getSources().stream().filter(source -> source.equals(Source.Parents)).count();
-
-        if (parentCount != kidCount ||
-                (fatherCount != kidCount && motherCount != kidCount)) {
-            List<String> ignoreList = List.of(
-                    "MAGA1E2", // ignore ln#455 Johnson, Jodie it is correct
-                    "MABABC", //ignore ln#121 Kracht, Kelly Sue. She is correct.
-                    "MAGA2a",//ignore ln#459 Saathoff, Rita Mae. She is correct (I think).
-                    "MABCFE1",//ignore ln#199 Anliker, Jeff. He is correct
-                    "MABHA1",//ignore ln#270 Covey, Jane Elaine Schafroth. She is correct (I think).
-                    "HAABF1A1",
-                    "MA1AAB"
-
-            );
-            if (getWife() == null || getHusband() == null || // it often gets messed up when a parent is missing... often it is kids from other marriages
-                    ignoreList.contains(getWife().getGenCode()) ||
-                    ignoreList.contains(getHusband().getGenCode())) {
-                return;
-            } // else
-            throw new RuntimeException("#Kids not correct somewhere... " +
-                    "\n # kids   :" + kidCount +
-                    "\n parentCnt:" + parentCount +
-                    "\n fatherCnt:" + fatherCount +
-                    "\n motherCnt:" + motherCount +
-                    "\n marriage:" + this
-            );
-        }
-    }
 
     private String marriageDate = "";
     private String marriagePlace = "";

@@ -114,7 +114,9 @@ public class MarriageValidator {
                     "MABCFE1",//ignore ln#199 Anliker, Jeff. He is correct
                     "MABHA1",//ignore ln#270 Covey, Jane Elaine Schafroth. She is correct (I think).
                     "HAABF1A1",
-                    "MA1AAB"
+                    "MA1AAB",
+                    "MA1IAA1C",
+                    "HAABD2D2"
 
             );
             if (marriage.getWife() == null || marriage.getHusband() == null || // it often gets messed up when a parent is missing... often it is kids from other marriages

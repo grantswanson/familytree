@@ -18,7 +18,7 @@ public class Name {
 
     private static final int MAX_DIFF_FOR_SIMILARITY = 2;
     private static final Set<String> COMMON_SUFFIXES = new HashSet<>(Set.of(
-            "Sr", "Jr", "Iii"));
+            "Sr", "Jr", "Ii", "Iii"));
     private String firstNames = "";
     private String surName = "";
     private String suffix = "";

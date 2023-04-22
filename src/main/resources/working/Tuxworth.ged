@@ -1,0 +1,3138 @@
+0 HEAD
+1 FILE Tuxworth.ged
+1 CHAR UTF-8
+1 LANG English
+1 DATE 20 APR 2023
+1 GEDC
+2 VERS 5.5.5
+2 FORM LINEAGE-LINKED
+1 SOUR SwansongCustomJavaProgram
+2 VERS 1.0
+1 NOTE Donovan Burdette /Meyer/ compiled the information up until his death in 2001. In 2023, Donovan's grandson, Grant Matthew /Swanson/ converted the records from a custom database using Microsoft Works to a GEDCOM file.
+1 SUBM @U1@
+0 @U1@ SUBM
+1 NAME Grant Matthew /Swanson/
+0 @S1@ SOUR
+1 TITL Information compiled by Donovan Burdette /Meyer/
+1 NOTE Author: Donovan Burdette /Meyer/
+2 CONT Information compiled by Donovan Burdette /Meyer/ up until his death in 2001.
+0 @S2@ SOUR
+1 TITL GEDCOM conversion by Grant Matthew /Swanson/
+1 NOTE Author: Grant Matthew /Swanson/
+2 CONT In 2023, Donovan's grandson, Grant Matthew /Swanson/ converted the records from a custom database using Microsoft Works to a GEDCOM file.
+0 @I0@ INDI
+1 NAME William /Tuxworth/ I
+2 GIVN William
+2 SURN Tuxworth
+1 REFN CustomGenCode:TA
+1 SEX M
+1 FAMS @F0@
+0 @I1@ INDI
+1 NAME Elizabeth //
+2 GIVN Elizabeth
+1 REFN CustomGenCode:TA1
+1 SEX F
+1 FAMS @F0@
+0 @I2@ INDI
+1 NAME William /Tuxworth/ Ii
+2 GIVN William
+2 SURN Tuxworth
+1 REFN CustomGenCode:TAA
+1 SEX M
+1 BAPM
+2 DATE 3 Oct 1780
+2 PLAC Burgh le Marsh, Lincolnshire, Eng.
+1 OCCU Labourer
+1 FACT Tuxford, William, Sr changed his name from Tuxworth to Tuxford
+1 FAMS @F1@
+1 FAMC @F0@
+0 @I3@ INDI
+1 NAME Mary /Green/
+2 GIVN Mary
+2 SURN Green
+1 REFN CustomGenCode:TAA1
+1 SEX F
+1 OCCU Homemaker
+1 FACT Tuxford, William, Sr changed his name from Tuxworth to Tuxford
+1 FAMS @F1@
+0 @I4@ INDI
+1 NAME William /Tuxford/ Sr
+2 GIVN William
+2 SURN Tuxford
+1 NAME Tuxworth?
+2 TYPE aka
+2 GIVN Tuxworth?
+1 REFN CustomGenCode:TAAA
+1 SEX M
+1 BIRT
+2 DATE 1810
+2 PLAC Croft, Lincolnshire, Eng.
+1 BAPM
+2 DATE 2 Dec 1810
+2 PLAC Croft, Lincolnshire, Eng.
+1 OCCU Baker
+1 FAMS @F2@
+1 FAMC @F1@
+0 @I5@ INDI
+1 NAME Charlotte /Savage/
+2 GIVN Charlotte
+2 SURN Savage
+1 REFN CustomGenCode:TAAA1
+1 SEX F
+1 OCCU Homemaker
+1 FAMS @F2@
+1 FAMC @F53@
+0 @I6@ INDI
+1 NAME John /Tuxford/
+2 GIVN John
+2 SURN Tuxford
+1 REFN CustomGenCode:TAAAA
+1 SEX M
+1 BIRT
+2 DATE 8 Dec 1833
+2 PLAC Lincoln, Lincolnshire, Eng.
+1 BAPM
+2 DATE 1 Jan 1834
+2 PLAC St. Swithin's, Lincoln, Lincolnshire,Eng.
+1 OCCU Joiner
+1 FAMS @F3@
+1 FAMC @F2@
+0 @I7@ INDI
+1 NAME Jane //
+2 GIVN Jane
+1 REFN CustomGenCode:TAAAA1
+1 SEX F
+1 OCCU Homemaker
+1 FAMS @F3@
+0 @I8@ INDI
+1 NAME George William /Tuxford/
+2 GIVN George William
+2 SURN Tuxford
+1 REFN CustomGenCode:TAAAAA
+1 BIRT
+2 DATE 19 Jan 1857
+2 PLAC Lincoln, Lincolnshire, Eng.
+1 BAPM
+2 DATE 15 Feb 1857
+2 PLAC St. Swithin's, Lincoln, Lincolnshire,Eng.
+1 FAMC @F3@
+0 @I9@ INDI
+1 NAME Annie Lovridge /Tuxford/
+2 GIVN Annie Lovridge
+2 SURN Tuxford
+1 REFN CustomGenCode:TAAAAB
+1 BIRT
+2 DATE 21 Apr 1859
+2 PLAC Lincoln, Lincolnshire, Eng.
+1 BAPM
+2 DATE 15 May 1859
+2 PLAC St. Swithin's, Lincoln, Lincolnshire,Eng.
+1 FAMC @F3@
+0 @I10@ INDI
+1 NAME Sarah Jane /Tuxford/
+2 GIVN Sarah Jane
+2 SURN Tuxford
+1 REFN CustomGenCode:TAAAAC
+1 BIRT
+2 DATE 1 Jul 1861
+2 PLAC Lincoln, Lincolnshire, Eng.
+1 BAPM
+2 DATE 18 Aug 1861
+2 PLAC St. Swithin's, Lincoln, Lincolnshire,Eng.
+1 FAMC @F3@
+0 @I11@ INDI
+1 NAME Susan /Tuxford/
+2 GIVN Susan
+2 SURN Tuxford
+1 REFN CustomGenCode:TAAAAD
+1 BIRT
+2 DATE 30 Nov 1863
+2 PLAC Lincoln, Lincolnshire, Eng.
+1 BAPM
+2 DATE 19 Dec 1863
+2 PLAC St. Swithin's, Lincoln, Lincolnshire,Eng.
+1 FAMC @F3@
+0 @I12@ INDI
+1 NAME Harriet /Tuxford/
+2 GIVN Harriet
+2 SURN Tuxford
+1 REFN CustomGenCode:TAAAAE
+1 SEX F
+1 BIRT
+2 DATE 26 Dec 1865
+2 PLAC Lincoln, Lincolnshire, Eng.
+1 BAPM
+2 DATE 14 Jan 1866
+2 PLAC St. Swithin's, Lincoln, Lincolnshire,Eng.
+1 DEAT
+2 DATE 22 Sep 1933
+2 PLAC Moorthorpe Cem. Moorthorpe, Yorks, Eng.
+1 OCCU Homemaker
+1 FAMS @F4@
+1 FAMC @F3@
+0 @I13@ INDI
+1 NAME William /Carter/ Sr
+2 GIVN William
+2 SURN Carter
+1 REFN CustomGenCode:TAAAAE1
+1 SEX M
+1 BIRT
+2 DATE 1868
+2 PLAC Shirebrook/Warsop, Notts, England
+1 DEAT
+2 DATE 6 Apr 1934
+1 OCCU Coal Miner
+1 FAMS @F4@
+0 @I14@ INDI
+1 NAME William /Carter/ Jr
+2 GIVN William
+2 SURN Carter
+1 REFN CustomGenCode:TAAAAEA
+1 SEX M
+1 OCCU Co-op Manager at Moorthorpe
+1 FAMS @F5@
+1 FAMC @F4@
+0 @I15@ INDI
+1 NAME Kate /Ward/
+2 GIVN Kate
+2 SURN Ward
+1 REFN CustomGenCode:TAAAAEA1
+1 SEX F
+1 OCCU Homemaker
+1 FAMS @F5@
+0 @I16@ INDI
+1 NAME Harold /Carter/
+2 GIVN Harold
+2 SURN Carter
+1 REFN CustomGenCode:TAAAAEAA
+1 FAMC @F5@
+0 @I17@ INDI
+1 NAME Edith /Carter/
+2 GIVN Edith
+2 SURN Carter
+1 REFN CustomGenCode:TAAAAEB
+1 OCCU Homemaker & employed in drapery department at Moorthorpe Co-op
+1 FAMS @F6@
+1 FAMC @F4@
+0 @I18@ INDI
+1 NAME Bert /Gadd/
+2 GIVN Bert
+2 SURN Gadd
+1 REFN CustomGenCode:TAAAAEB1
+1 FAMS @F6@
+0 @I19@ INDI
+1 NAME Ada /Carter/
+2 GIVN Ada
+2 SURN Carter
+1 REFN CustomGenCode:TAAAAEC
+1 SEX F
+1 BIRT
+2 DATE 19 Jul 1893
+2 PLAC Shirebrook, Warsop, Nottingham, Eng.
+1 DEAT
+2 DATE 31 Jul 1945
+2 PLAC Moorthorpe Cem. Moorthorpe, Yorks, Eng.
+1 OCCU Homemaker
+1 FACT * Twins
+1 FAMS @F7@
+1 FAMC @F4@
+0 @I20@ INDI
+1 NAME Charles Thomas /Smith/
+2 GIVN Charles Thomas
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAEC1
+1 SEX M
+1 BIRT
+2 DATE 3 May 1893
+2 PLAC , Oxford, Oxfordshire, Eng.
+1 DEAT
+2 DATE 27 Sep 1960
+2 PLAC Moorthorpe Cem. Moorthorpe, Yorks. Eng.
+1 OCCU Foreman for rail laying at Frickley Colliery in South Elmsall
+1 FACT * Twins
+1 FAMS @F7@
+1 FAMC @F54@
+0 @I21@ INDI
+1 NAME Gladys /Smith/
+2 GIVN Gladys
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECA
+1 SEX F
+1 BIRT
+2 DATE 20 Jun 1915
+2 PLAC Smith Home, South Elmsall, Yorkshire,Eng.
+1 BAPM
+2 PLAC Primitive Methodist, South Elmsall, Eng.
+1 DEAT
+2 DATE 10 Dec 1972
+2 PLAC Horsforth Cem. Horsforth, Yorkshire, Eng.
+1 OCCU Homemaker, Salvation Army
+1 FACT They were both very active in Salvation Army work.
+1 FAMS @F8@
+1 FAMC @F7@
+0 @I22@ INDI
+1 NAME Arthur /Robinson/
+2 GIVN Arthur
+2 SURN Robinson
+1 REFN CustomGenCode:TAAAAECA1
+1 SEX M
+1 BIRT
+2 DATE 13 Aug 1907
+2 PLAC , South Elmsall, Yorkshire, Eng.
+1 DEAT
+2 DATE 1 Dec 1980
+2 PLAC Horsforth Cem. Horsforth, Yorkshire, Eng.
+1 OCCU Grave Digger, Farm Hand
+1 FACT They were both very active in Salvation Army work.
+1 FAMS @F8@
+0 @I23@ INDI
+1 NAME John William /Robinson/
+2 GIVN John William
+2 SURN Robinson
+1 REFN CustomGenCode:TAAAAECAA
+1 SEX M
+1 BIRT
+2 DATE 26 Jun 1943
+2 PLAC , Horsforth, Yorkshire, Eng.
+1 OCCU Apartment Caretaker for elderly persons.
+1 FAMS @F9@
+1 FAMC @F8@
+0 @I24@ INDI
+1 NAME Hazel Cherry /Collie/
+2 GIVN Hazel Cherry
+2 SURN Collie
+1 REFN CustomGenCode:TAAAAECAA1
+1 SEX F
+1 BIRT
+2 DATE 12 May 1950
+2 PLAC , Leeds, Yorkshire, Eng.
+1 OCCU Homemaker
+1 FAMS @F9@
+1 FAMC @F55@
+0 @I25@ INDI
+1 NAME Emma Louise /Robinson/
+2 GIVN Emma Louise
+2 SURN Robinson
+1 REFN CustomGenCode:TAAAAECAAA
+1 BIRT
+2 DATE 27 Jul 1986
+2 PLAC , Leeds, Yorkshire, Eng.
+1 OCCU Student
+1 FAMC @F9@
+0 @I26@ INDI
+1 NAME Benjamin John /Robinson/
+2 GIVN Benjamin John
+2 SURN Robinson
+1 REFN CustomGenCode:TAAAAECAAB
+1 BIRT
+2 DATE 16 May 1988
+2 PLAC , Leeds, Yorkshire, Eng.
+1 OCCU Student
+1 FAMC @F9@
+0 @I27@ INDI
+1 NAME Walter /Smith/
+2 GIVN Walter
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECB
+1 BIRT
+2 DATE 20 Jun 1915
+2 PLAC , South Elmsall, Yorkshire, Eng.
+1 DEAT
+2 DATE 20 Jun 1915
+2 PLAC Moorthorpe Cem. Moorthorpe, Yorks, Eng.
+1 FAMC @F7@
+0 @I28@ INDI
+1 NAME Stanley /Smith/
+2 GIVN Stanley
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECC
+1 SEX M
+1 BIRT
+2 DATE 4 May 1920
+2 PLAC Smith Home, South Elmsall, Yorkshire,Eng.
+1 BAPM
+2 PLAC Primitive Methodist, South Elmsall, Eng.
+1 DEAT
+2 DATE 19 Mar 1997
+2 PLAC Red House Cem. Doncaster, Yorkshire, Eng.
+1 OCCU Cable Splicer at Frickley & Brodsworth Collieries.  Railway Station Master at Hornsea.
+1 FACT Stanley attended Broad Lane Junior School in South Elmsall.
+1 FAMS @F10@
+1 FAMC @F7@
+0 @I29@ INDI
+1 NAME Gladys Maisie /Cobb/
+2 GIVN Gladys Maisie
+2 SURN Cobb
+1 REFN CustomGenCode:TAAAAECC1
+1 SEX F
+1 BIRT
+2 DATE 11 Jan 1920
+2 PLAC , Adwick Le Street, Yorks, Eng.
+1 OCCU Homemaker, Bar Maid
+1 FACT Stanley attended Broad Lane Junior School in South Elmsall.
+1 FAMS @F10@
+1 FAMC @F56@
+0 @I30@ INDI
+1 NAME Anthony Frederick Thomas /Smith/
+2 GIVN Anthony Frederick Thomas
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECCA
+1 SEX M
+1 BIRT
+2 DATE 29 Aug 1950
+2 PLAC Westfield Hotel, South Elmsall,Yorks.Eng.
+1 BAPM
+2 PLAC St. Laurence Ch. Adwick-le-Street, Eng.
+1 CONF
+2 DATE 13 Mar 1989
+2 PLAC All Saints Ch. Woodlands, Doncaster, Eng.
+1 GRAD
+2 DATE Jun 1968
+2 PLAC Don Valley HS, Doncaster, Yorks, Eng.
+1 OCCU Primary School Teacher
+1 FAMS @F11@
+1 FAMS @F12@
+1 FAMC @F10@
+0 @I31@ INDI
+1 NAME Avis /Rutherford/
+2 GIVN Avis
+2 SURN Rutherford
+1 REFN CustomGenCode:TAAAAECCA1
+1 SEX F
+1 BIRT
+2 DATE 12 Jul 1954
+2 PLAC , Doncaster, Yorkshire, Eng.
+1 OCCU Homemaker, Post Office Clerk
+1 FAMS @F11@
+1 FAMC @F57@
+0 @I32@ INDI
+1 NAME Caroline /Smith/
+2 GIVN Caroline
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECCA1A
+1 BIRT
+2 DATE 22 May 1979
+2 PLAC , Doncaster, Yorkshire, Eng.
+1 BAPM
+2 DATE 1985
+2 PLAC St. Laurence Ch. Adwick-le-Street, Eng.
+1 GRAD
+2 DATE Jun 1995
+2 PLAC Ridgewood School, Scawsby, Yorks. Eng.
+1 OCCU Student
+1 FACT Caroline is a member of the Church of England
+1 FACT She belongs to the Venture Scouts.
+1 FACT She likes watching the Sheffield Football Club.
+1 FAMC @F11@
+0 @I33@ INDI
+1 NAME Daniel James /Smith/
+2 GIVN Daniel James
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECCA1B
+1 BIRT
+2 DATE 7 Dec 1984
+2 PLAC , Doncaster, Yorkshire, Eng.
+1 BAPM
+2 DATE 1985
+2 PLAC St. Laurence Ch. Adwick-le-Street, Eng.
+1 OCCU Student
+1 FACT Daniel attended Tapton Mount school for the blind at Sheffield, England until 1995.  He changed to St. Vincent's School for the blind in Liverpool in 1995. He was taught by David Winchester, uncle to Carol (Seddon) Smith.
+1 FACT He likes to ride horses and is learning to play the piano. He enjoys old cars & trains.
+1 FACT Daniel was born blind, a genetic defect called Norre's Disease.
+1 FAMC @F11@
+0 @I34@ INDI
+1 NAME Sandra /Dixon/
+2 GIVN Sandra
+2 SURN Dixon
+1 REFN CustomGenCode:TAAAAECCA2
+1 SEX F
+1 BIRT
+2 DATE 5 Apr 1954
+2 PLAC , Blaydon-on-Tyne, Newcastle,Eng.
+1 OCCU Homemaker, District Nurse
+1 FACT Anthony earned a Teaching Certificate at Durham University from 1968 to 1971.  He earned his Batchelor of Arts Degree at the Open University from 1978 to 1981.
+1 FACT Anthony is a member of the church choir & is training to be a Lay Reader.
+1 FACT Tony likes railway modelling & watching football.  Sandra enjoys Cross-stitch Picture making & watching Crime Thrillers.
+1 FAMS @F12@
+1 FAMC @F58@
+0 @I35@ INDI
+1 NAME Megan /Smith/
+2 GIVN Megan
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECCA2A
+1 BIRT
+2 DATE 7 Sep 1993
+2 PLAC Doncaster Royal Infirmary, Doncaster,Eng.
+1 BAPM
+2 DATE 13 Mar 1994
+2 PLAC All Saints Ch. Woodlands, Doncaster, Eng.
+1 FAMC @F12@
+0 @I36@ INDI
+1 NAME Elsie /Smith/
+2 GIVN Elsie
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECD
+1 SEX F
+1 BIRT
+2 DATE 22 Feb 1922
+2 PLAC Smith Home, South Elmsall, Yorks. Eng.
+1 BAPM
+2 PLAC Primitive Methodist, South Elmsall, Eng.
+1 GRAD
+2 DATE Apr 1938
+1 OCCU Homemaker.  School Meals Service.  Shop Assistant.  Holiday Seasonal Help.
+1 FACT Elsie attended Hemsworth Grammer School.
+1 FACT They belong to the Methodist Church.
+1 FACT Elsie is a member of the "Beetle" Club.
+1 FACT Elsie enjoys Knitting & Crocheting.  Bill made a lot of wooden childrens toys & took up Tapestry late in life.
+1 FAMS @F13@
+1 FAMC @F7@
+0 @I37@ INDI
+1 NAME John William /Cope/
+2 GIVN John William
+2 SURN Cope
+1 REFN CustomGenCode:TAAAAECD1
+1 SEX M
+1 BIRT
+2 DATE 16 Feb 1915
+2 PLAC Cope Home, Edlington, Yorkshire, Eng.
+1 BAPM
+2 DATE 1915
+1 GRAD
+2 DATE Dec 1929
+2 PLAC Broadlane Grammer, So. Elmsall, England
+1 OCCU Coal Miner
+1 FACT Elsie attended Hemsworth Grammer School.
+1 FACT They belong to the Methodist Church.
+1 FACT Elsie is a member of the "Beetle" Club.
+1 FACT Elsie enjoys Knitting & Crocheting.  Bill made a lot of wooden childrens toys & took up Tapestry late in life.
+1 FAMS @F13@
+1 FAMC @F59@
+0 @I38@ INDI
+1 NAME William /Cope/
+2 GIVN William
+2 SURN Cope
+1 REFN CustomGenCode:TAAAAECDA
+1 SEX M
+1 BIRT
+2 DATE 3 Dec 1945
+2 PLAC , South Elmsall, Yorkshire, Eng.
+1 BAPM
+2 DATE Jan 1946
+2 PLAC Primitive Methodist, South Elmsall, Eng.
+1 OCCU Computer Consultant
+1 FAMS @F14@
+1 FAMS @F15@
+1 FAMS @F59@
+1 FAMC @F13@
+0 @I39@ INDI
+1 NAME Elaine /Norris/
+2 GIVN Elaine
+2 SURN Norris
+1 REFN CustomGenCode:TAAAAECDA1
+1 SEX F
+1 BIRT
+2 DATE 15 Mar 1946
+2 PLAC , Edgeware, London, Eng.
+1 OCCU Computer Programmer
+1 FAMS @F14@
+1 FAMC @F60@
+0 @I40@ INDI
+1 NAME Alexander William /Cope/
+2 GIVN Alexander William
+2 SURN Cope
+1 REFN CustomGenCode:TAAAAECDA1A
+1 BIRT
+2 DATE 20 Mar 1971
+2 PLAC , Convey Island, Essex, Eng.
+1 OCCU Student
+1 FAMC @F14@
+0 @I41@ INDI
+1 NAME Simon Christopher /Cope/
+2 GIVN Simon Christopher
+2 SURN Cope
+1 REFN CustomGenCode:TAAAAECDA1B
+1 BIRT
+2 DATE 7 May 1974
+2 PLAC , Convey Island, Essex, Eng.
+1 OCCU Student
+1 FAMC @F14@
+0 @I42@ INDI
+1 NAME Diana /Steed/
+2 GIVN Diana
+2 SURN Steed
+1 REFN CustomGenCode:TAAAAECDA2
+1 SEX F
+1 BIRT
+2 PLAC , Southend, Essex, Eng.
+1 OCCU Homemaker, Secretary
+1 FACT Bill & Diana emmigrated to Canada in 1994 to live near Diana,s daughter, Debra & her husband Gerrard.
+1 FACT * Diana's children from a previous marriage.
+1 FAMS @F15@
+1 FAMS @F90@
+1 FAMC @F61@
+0 @I43@ INDI
+1 NAME Fiona /Spaul/
+2 GIVN Fiona
+2 SURN Spaul
+1 REFN CustomGenCode:TAAAAECDA2a
+1 OCCU Homemaker
+1 FAMC @F90@
+0 @I44@ INDI
+1 NAME Debra Jane /Spaul/
+2 GIVN Debra Jane
+2 SURN Spaul
+1 REFN CustomGenCode:TAAAAECDA2b
+1 OCCU Homemaker
+1 FAMS @F16@
+0 @I45@ INDI
+1 NAME Gerrard /Toms/
+2 GIVN Gerrard
+2 SURN Toms
+1 REFN CustomGenCode:TAAAAECDA2b1
+1 FAMS @F16@
+0 @I46@ INDI
+1 NAME Susan Ann /Cope/
+2 GIVN Susan Ann
+2 SURN Cope
+1 REFN CustomGenCode:TAAAAECDB
+1 SEX F
+1 BIRT
+2 DATE 3 Feb 1956
+2 PLAC Smith Home, South Elmsall, Yorks. Eng.
+1 BAPM
+2 DATE 1956
+2 PLAC Primitive Methodist, South Elmsall, Eng.
+1 CONF
+2 DATE 1968
+2 PLAC Primitive Methodist, South Elmsall, Eng.
+1 GRAD
+2 DATE Jul 1973
+2 PLAC Don Valley HS, Doncaster, Yorks. Eng.
+1 OCCU Homemaker. Bank Clerk, Kitchen Assistant at Warde Ardvin Hosp. 1986 & 1987, worked in a Christmas Hamper packing factory for 3 months in 1987 & as a kitchen assistant at Mellwood House for the elderly.
+1 FACT Sue completed 5 "O" levels.  John completed Class I & II, went to night school earning a RSA I in typing & a Mechanical Technician Certificate.
+1 FACT Sue went to church until Joanne was born in 1979.  She helped with Sunday School, the Youth Club & sang in the choir, winning many trophies.
+1 FACT John belongs to the St. John's Ambulance Brigade.  Played both the side & base drums in the band.  He is active in the Royal Antidiluvian Order of Buffaloes (RAOB).
+1 FACT Sue helps out at school in cookery classes & became a governor for the local school cake decorating.  John enjoys driving, gardening & aircraft spotting.  They both help with the Rugby Club.
+1 FACT They have visited Florida, Granbia, Malta, Izbia, Canaries & Baliesica.
+1 FACT * Lived only about 6 months.
+1 FAMS @F17@
+1 FAMC @F13@
+0 @I47@ INDI
+1 NAME John /Pennock/
+2 GIVN John
+2 SURN Pennock
+1 REFN CustomGenCode:TAAAAECDB1
+1 SEX M
+1 BIRT
+2 DATE 4 Jun 1954
+2 PLAC Pontefract Hosp. Pontefract, Yorks. Eng.
+1 BAPM
+2 DATE 1954
+1 GRAD
+2 DATE Jun 1970
+2 PLAC Don Valley HS, Doncaster, Yorks. Eng.
+1 OCCU Coal Mining Fitter
+1 FACT Sue completed 5 "O" levels.  John completed Class I & II, went to night school earning a RSA I in typing & a Mechanical Technician Certificate.
+1 FACT Sue went to church until Joanne was born in 1979.  She helped with Sunday School, the Youth Club & sang in the choir, winning many trophies.
+1 FACT John belongs to the St. John's Ambulance Brigade.  Played both the side & base drums in the band.  He is active in the Royal Antidiluvian Order of Buffaloes (RAOB).
+1 FACT Sue helps out at school in cookery classes & became a governor for the local school cake decorating.  John enjoys driving, gardening & aircraft spotting.  They both help with the Rugby Club.
+1 FACT They have visited Florida, Granbia, Malta, Izbia, Canaries & Baliesica.
+1 FACT * Lived only about 6 months.
+1 FAMS @F17@
+1 FAMC @F62@
+0 @I48@ INDI
+1 NAME Joanne /Pennock/
+2 GIVN Joanne
+2 SURN Pennock
+1 REFN CustomGenCode:TAAAAECDBA
+1 BIRT
+2 DATE 13 Mar 1979
+2 PLAC Pontefract Maternity, Pontefract, Eng.
+1 BAPM
+2 DATE Aug 1979
+2 PLAC Primitive Methodist, South Elmsall, Eng.
+1 DEAT
+2 DATE 23 Sep 1979
+2 PLAC South Elmsall, Yorkshire, Eng.
+1 FAMC @F17@
+0 @I49@ INDI
+1 NAME David John /Pennock/
+2 GIVN David John
+2 SURN Pennock
+1 REFN CustomGenCode:TAAAAECDBB
+1 BIRT
+2 DATE 15 Jul 1980
+2 PLAC Pontefract Maternity, Pontefract, Eng.
+1 BAPM
+2 DATE 19 Oct 1980
+2 PLAC Primitive Methodist, South Elmsall, Eng.
+1 OCCU Student
+1 FACT David is active in the Hemsworth (RUFC) Rugby Club.
+1 FACT David is interested in airplanes, cars & collecting pictures.
+1 FAMC @F17@
+0 @I50@ INDI
+1 NAME Catherine /Pennock/
+2 GIVN Catherine
+2 SURN Pennock
+1 REFN CustomGenCode:TAAAAECDBC
+1 BIRT
+2 DATE 29 Dec 1982
+2 PLAC Pontefract Maternity, Pontefract, Eng.
+1 BAPM
+2 DATE 24 Apr 1983
+2 PLAC Primitive Methodist, South Elmsall, Eng.
+1 OCCU Student
+1 FAMC @F17@
+0 @I51@ INDI
+1 NAME Ida May /Smith/
+2 GIVN Ida May
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECE
+1 SEX F
+1 BIRT
+2 DATE 27 Jun 1924
+2 PLAC , South Elmsall, Yorkshire, Eng.
+1 OCCU Homemaker
+1 FAMS @F18@
+1 FAMC @F7@
+0 @I52@ INDI
+1 NAME Walter Henry /Tibble/
+2 GIVN Walter Henry
+2 SURN Tibble
+1 REFN CustomGenCode:TAAAAECE1
+1 SEX M
+1 BIRT
+2 DATE 12 Jun 1915
+2 PLAC , South Hiendley, Yorkshire, Eng.
+1 OCCU Miner
+1 FAMS @F18@
+1 FAMC @F63@
+0 @I53@ INDI
+1 NAME Walter /Tibble/
+2 GIVN Walter
+2 SURN Tibble
+1 REFN CustomGenCode:TAAAAECEA
+1 BIRT
+2 DATE 2 May 1944
+2 PLAC , South Elmsall, Yorkshire, Eng.
+1 DEAT
+2 DATE 2 May 1944
+2 PLAC South Elmsall, Yorkshire, Eng.
+1 OCCU Lived only a few hours
+1 FAMC @F18@
+0 @I54@ INDI
+1 NAME Eric /Tibble/
+2 GIVN Eric
+2 SURN Tibble
+1 REFN CustomGenCode:TAAAAECEB
+1 SEX M
+1 BIRT
+2 DATE 3 Dec 1946
+2 PLAC , Moorthorpe, Yorkshire, Eng.
+1 OCCU Deputy Headmaster-Middle School
+1 FAMS @F19@
+1 FAMC @F18@
+0 @I55@ INDI
+1 NAME Christine /Bedwell/
+2 GIVN Christine
+2 SURN Bedwell
+1 REFN CustomGenCode:TAAAAECEB1
+1 SEX F
+1 BIRT
+2 DATE 7 Jul 1950
+2 PLAC , Chalfont St. Giles, Bucks.Eng.
+1 OCCU Homemaker, Teacher
+1 FAMS @F19@
+1 FAMC @F64@
+0 @I56@ INDI
+1 NAME Richard William /Tibble/
+2 GIVN Richard William
+2 SURN Tibble
+1 REFN CustomGenCode:TAAAAECEBA
+1 BIRT
+2 DATE 12 Mar 1977
+2 PLAC , Wordsley, Worcestershire, Eng.
+1 OCCU Student
+1 FAMC @F19@
+0 @I57@ INDI
+1 NAME Emma Jane /Tibble/
+2 GIVN Emma Jane
+2 SURN Tibble
+1 REFN CustomGenCode:TAAAAECEBB
+1 BIRT
+2 DATE 1 Sep 1978
+2 PLAC , Oxford, Oxfordshire, Eng.
+1 OCCU Student
+1 FAMC @F19@
+0 @I58@ INDI
+1 NAME Eunice /Tibble/
+2 GIVN Eunice
+2 SURN Tibble
+1 REFN CustomGenCode:TAAAAECEC
+1 SEX F
+1 BIRT
+2 DATE 3 Apr 1949
+2 PLAC , Moorthorpe, Yorkshire, Eng.
+1 OCCU Homemaker
+1 FACT * Twins
+1 FAMS @F20@
+1 FAMS @F22@
+1 FAMC @F18@
+0 @I59@ INDI
+1 NAME Trevor /Haigh/
+2 GIVN Trevor
+2 SURN Haigh
+1 REFN CustomGenCode:TAAAAECEC1
+1 SEX M
+1 BIRT
+2 DATE 19 Jan 1952
+2 PLAC , Cragg Vale, W. Yorkshire, Eng.
+1 OCCU Policeman
+1 FACT * Twins
+1 FAMS @F20@
+1 FAMC @F65@
+0 @I60@ INDI
+1 NAME Julie Marie /Haigh/
+2 GIVN Julie Marie
+2 SURN Haigh
+1 REFN CustomGenCode:TAAAAECEC1A
+1 SEX F
+1 BIRT
+2 DATE 2 Jul 1976
+2 PLAC , Halifax, Yorkshire, Eng.
+1 OCCU Student
+1 FAMS @F21@
+1 FAMC @F20@
+0 @I61@ INDI
+1 NAME Peter /McNif/
+2 GIVN Peter
+2 SURN McNif
+1 REFN CustomGenCode:TAAAAECEC1A1
+1 SEX M
+1 FAMS @F21@
+0 @I62@ INDI
+1 NAME Scott /McNif/
+2 GIVN Scott
+2 SURN McNif
+1 REFN CustomGenCode:TAAAAECEC1AA
+1 BIRT
+2 DATE 14 May 1997
+1 FAMC @F21@
+0 @I63@ INDI
+1 NAME Catherine Jane /Haigh/
+2 GIVN Catherine Jane
+2 SURN Haigh
+1 REFN CustomGenCode:TAAAAECEC1B
+1 BIRT
+2 DATE 2 Jul 1976
+2 PLAC , Halifax, Yorkshire, Eng.
+1 OCCU Student
+1 FAMC @F20@
+0 @I64@ INDI
+1 NAME Leslie /Burdett/
+2 GIVN Leslie
+2 SURN Burdett
+1 REFN CustomGenCode:TAAAAECEC2
+1 SEX M
+1 FAMS @F22@
+0 @I65@ INDI
+1 NAME Irene /Tibble/
+2 GIVN Irene
+2 SURN Tibble
+1 REFN CustomGenCode:TAAAAECED
+1 SEX F
+1 BIRT
+2 DATE 14 Mar 1958
+2 PLAC , Wakefield, Yorkshire, Eng.
+1 OCCU Homemaker, Office Clerk
+1 FAMS @F23@
+1 FAMS @F24@
+1 FAMC @F18@
+0 @I66@ INDI
+1 NAME David /Cartwright/
+2 GIVN David
+2 SURN Cartwright
+1 REFN CustomGenCode:TAAAAECED1
+1 SEX M
+1 BIRT
+2 DATE 28 May 1956
+2 PLAC , South Elmsall, Yorkshire, Eng.
+1 OCCU Secondary School Teacher
+1 FAMS @F23@
+1 FAMC @F66@
+0 @I67@ INDI
+1 NAME Steven /Leng/
+2 GIVN Steven
+2 SURN Leng
+1 REFN CustomGenCode:TAAAAECED2
+1 SEX M
+1 BIRT
+2 DATE 19 Aug 1961
+2 PLAC , Doncaster, Yorkshire, Eng.
+1 OCCU Auto Parts Supervisor
+1 FAMS @F24@
+1 FAMC @F67@
+0 @I68@ INDI
+1 NAME Rachel Helen /Leng/
+2 GIVN Rachel Helen
+2 SURN Leng
+1 REFN CustomGenCode:TAAAAECED2A
+1 BIRT
+2 DATE 8 Jan 1992
+1 FAMC @F24@
+0 @I69@ INDI
+1 NAME Rebecca Louise /Leng/
+2 GIVN Rebecca Louise
+2 SURN Leng
+1 REFN CustomGenCode:TAAAAECED2B
+1 BIRT
+2 DATE 22 Sep 1996
+1 FAMC @F24@
+0 @I70@ INDI
+1 NAME Doris /Smith/
+2 GIVN Doris
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECF
+1 SEX F
+1 BIRT
+2 DATE 1 Jul 1926
+2 PLAC Smith Home, South Elmsall, Yorkshire,Eng.
+1 BAPM
+2 DATE 1926
+2 PLAC Primative Methodist, South Elmsall, Eng.
+1 CONF
+2 DATE 1945
+2 PLAC Trinity Lutheran, Linn Grove, IA, USA
+1 GRAD
+2 DATE 1942
+2 PLAC Hemsworth Grammer Sc. Hemsworth, Eng.
+1 OCCU Homemaker.  She had several part time jobs while the family was young.  She was Serior Clerk in Accounts Recievables for CF Industries for 12 years.
+1 FACT Doris completed Secondary school in England with distinctions in French & Domestic Science.  Donovan earned a Bachelors degree in Agriculture from Iowa State College in Ames, IA.
+1 FACT Both have belonged to Lutheran Churches in Iowa, Minnesota & Illinois all of their married Life.  In 1995 they moved back to Peterson where the have joined and become active in the local Congregational Church.
+1 FACT Doris was an Officers Cook in the British Royal Navy during WWII.  Donovan was in the Ninth Air Force as a Glider Mechanic, for 3 years, serving in the European Theater during WWII, achieving the rank of Corporal.
+1 FACT Doris has been active in Toastmistress, the Parent Teahers Association & several church groups.  Donovan belonged to Toastmasters in the late 1950's, the Experimental Aircraft Association in the 1980's & is now the treasurer of the Peterson
+2 CONC Lions Club.
+1 FACT Doris does a little art work, enjoys cooking, sewing & visiting the grand children. Donovan has enjoyed photography since high school. He earned a Pilots license in & owned a share in a 172 for 14yrs. He bought a computer in '84 & does Family
+2 CONC Histories.
+1 FACT Doris went back to England for six weeks to visit her family in 1970.  We both went back for a months visit in 1989 & 1991. In 1995 we went back to celebrate our 50th wedding anniversary.
+1 FAMS @F25@
+1 FAMC @F7@
+0 @I71@ INDI
+1 NAME Donovan Burdette /Meyer/
+2 GIVN Donovan Burdette
+2 SURN Meyer
+1 REFN CustomGenCode:TAAAAECF1
+1 SEX M
+1 BIRT
+2 DATE 28 Feb 1923
+2 PLAC Meyer Home, Linn Grove, Clay Co. IA, USA
+1 BAPM
+2 DATE 8 Apr 1923
+2 PLAC Trinity Lutheran, Linn Grove, IA, USA
+1 CONF
+2 DATE May 1937
+2 PLAC Trinity Lutheran, Linn Grove, IA, USA
+1 GRAD
+2 DATE May 1941
+2 PLAC Peterson HS, Peterson, IA, USA
+1 OCCU He was a farmer for 6 yrs, a Farm Manager for Doanes for 9 yrs, a Service Representative & Salesman for VW for 11 yrs & Shipping Manager for Keats Mfg. for 12 yrs.
+1 FACT Doris completed Secondary school in England with distinctions in French & Domestic Science.  Donovan earned a Bachelors degree in Agriculture from Iowa State College in Ames, IA.
+1 FACT Both have belonged to Lutheran Churches in Iowa, Minnesota & Illinois all of their married Life.  In 1995 they moved back to Peterson where the have joined and become active in the local Congregational Church.
+1 FACT Doris was an Officers Cook in the British Royal Navy during WWII.  Donovan was in the Ninth Air Force as a Glider Mechanic, for 3 years, serving in the European Theater during WWII, achieving the rank of Corporal.
+1 FACT Doris has been active in Toastmistress, the Parent Teahers Association & several church groups.  Donovan belonged to Toastmasters in the late 1950's, the Experimental Aircraft Association in the 1980's & is now the treasurer of the Peterson
+2 CONC Lions Club.
+1 FACT Doris does a little art work, enjoys cooking, sewing & visiting the grand children. Donovan has enjoyed photography since high school. He earned a Pilots license in & owned a share in a 172 for 14yrs. He bought a computer in '84 & does Family
+2 CONC Histories.
+1 FACT Doris went back to England for six weeks to visit her family in 1970.  We both went back for a months visit in 1989 & 1991. In 1995 we went back to celebrate our 50th wedding anniversary.
+1 FAMS @F25@
+1 FAMC @F68@
+0 @I72@ INDI
+1 NAME Carol Anne /Meyer/
+2 GIVN Carol Anne
+2 SURN Meyer
+1 REFN CustomGenCode:TAAAAECFA
+1 SEX F
+1 BIRT
+2 DATE 4 Nov 1945
+2 PLAC Four Gables, Horsforth, Yorkshire, Eng.
+1 OCCU Exchange Student Mother
+1 FAMS @F26@
+1 FAMC @F25@
+0 @I73@ INDI
+1 NAME Roger Chris /Swanson/
+2 GIVN Roger Chris
+2 SURN Swanson
+1 REFN CustomGenCode:TAAAAECFA1
+1 SEX M
+1 BIRT
+2 DATE 25 May 1945
+2 PLAC , Chicago, IL, USA
+1 OCCU Veterinarian
+1 FAMS @F26@
+1 FAMC @F69@
+0 @I74@ INDI
+1 NAME Loren Christian /Swanson/
+2 GIVN Loren Christian
+2 SURN Swanson
+1 REFN CustomGenCode:TAAAAECFAA
+1 BIRT
+2 DATE 30 Nov 1969
+2 PLAC Bethesda Naval Hosp. Bethesda, MD, USA
+1 BAPM
+2 PLAC A Lutheran, Gathersburg, MD, USA
+1 CONF
+2 PLAC Grace Lutheran, Yorktown Heights, NY, USA
+1 GRAD
+2 DATE Jun 1988
+2 PLAC Peekskill HS, Peekskill, NY, USA
+1 OCCU Architectural/Computer Systems Analyist at Composite Technoligies in Ames, IA (started 4/93)
+1 FACT Loren graduated with a Bachlors of Architecture from Iowa State in 8/93.
+1 FACT Loren belongs to Grace Lutheran Church in Yorktown Heights, NY.
+1 FACT N/A
+1 FACT Loren likes traveling, computers, drawing , woodworking, and kite flying.
+1 FACT He lived in the Philippines for one year as a Rotary Exchange student.
+1 FAMC @F26@
+0 @I75@ INDI
+1 NAME Grant Matthew /Swanson/
+2 GIVN Grant Matthew
+2 SURN Swanson
+1 REFN CustomGenCode:TAAAAECFAB
+1 BIRT
+2 DATE 21 Mar 1971
+2 PLAC Bethesda Naval Hosp. Bethesda, MD, USA
+1 BAPM
+2 PLAC A Lutheran, Gathersburg, MD, USA
+1 CONF
+2 PLAC Grace Lutheran, Yorktown Heights, NY, USA
+1 GRAD
+2 DATE Jun 1989
+2 PLAC Peekskill HS, Peekskill, NY, USA
+1 OCCU College Student
+1 FACT Grant is now studing Computer Science at the University of Wisconsin in Madison.
+1 FACT Grant belongs to Grace Lutheran Church in Yorktown Heights, NY.
+1 FACT Grant enjoys mountain biking, juggling and racquetball.  He wrestled for five years in High School.
+1 FACT He has traveled many parts of the world including Europe, Japan, India and China.  He spent a year in Turkey as a Rotary International Exchange student.
+1 FAMC @F26@
+0 @I76@ INDI
+1 NAME Duane Gordon /Meyer/
+2 GIVN Duane Gordon
+2 SURN Meyer
+1 REFN CustomGenCode:TAAAAECFB
+1 BIRT
+2 DATE 21 Oct 1949
+2 PLAC Mary Greely Hosp. Ames, IA, USA
+1 BAPM
+2 DATE 1949
+2 PLAC Grace Lutheran, Ames, IA, USA
+1 CONF
+2 DATE 19 May 1963
+2 PLAC Grace Lutheran, Ames, IA, USA
+1 GRAD
+2 DATE Jun 1967
+2 PLAC Ames HS, Ames, IA, USA
+1 OCCU Mechanical Engineer
+1 FACT Duane graduated from Ames, IA, High School.  He earned a Batchelors Degree in Physics from Iowa State University & a second degree in Mechanical Engineering from the University of Chicago, IL.
+1 FACT He was Baptized and Confirmed in Grace Lutheran church in Ames, IA.
+1 FACT N/A
+1 FACT He builds & sponsers dirt track race cars.
+1 FAMC @F25@
+0 @I77@ INDI
+1 NAME Dean Charles /Meyer/
+2 GIVN Dean Charles
+2 SURN Meyer
+1 REFN CustomGenCode:TAAAAECFC
+1 SEX M
+1 BIRT
+2 DATE 24 Jan 1953
+2 PLAC Spencer Hosp. Spencer, IA, USA
+1 BAPM
+2 DATE 1953
+2 PLAC Trinity Lutheran, Linn Grove, IA, USA
+1 GRAD
+2 DATE May 1970
+2 PLAC Libertyville HS, Libertyville, IL. USA
+1 OCCU Auto Mechanic
+1 FACT Dean has attended, part time, to the College of Lake Co., the University of IL in DeKalb and completed his Bachelor's degree at the University in Rockford, IL. in 1994.
+1 FACT N/A
+1 FACT He builds his own telescopes to study the planets & near stars.  He enjoys working with his computer.
+1 FAMS @F27@
+1 FAMS @F28@
+1 FAMC @F25@
+0 @I78@ INDI
+1 NAME Linda Mary /Schmidt/
+2 GIVN Linda Mary
+2 SURN Schmidt
+1 REFN CustomGenCode:TAAAAECFC1
+1 SEX F
+1 BIRT
+2 DATE 10 Jul 1961
+2 PLAC , Evanston, IL, USA
+1 OCCU Homemaker, Accounting Clerk
+1 FACT Dean has attended, part time, to the College of Lake Co., the University of IL in DeKalb and completed his Bachelor's degree at the University in Rockford, IL. in 1994.
+1 FACT N/A
+1 FACT He builds his own telescopes to study the planets & near stars.  He enjoys working with his computer.
+1 FAMS @F27@
+1 FAMC @F70@
+0 @I79@ INDI
+1 NAME Daniel Aaron /Meyer/
+2 GIVN Daniel Aaron
+2 SURN Meyer
+1 REFN CustomGenCode:TAAAAECFC1A
+1 BIRT
+2 DATE 23 Sep 1976
+2 PLAC , Highland Park, IL, USA
+1 OCCU Student
+1 FAMC @F27@
+0 @I80@ INDI
+1 NAME Caryn Elizabeth /Meyer/
+2 GIVN Caryn Elizabeth
+2 SURN Meyer
+1 REFN CustomGenCode:TAAAAECFC1B
+1 BIRT
+2 DATE 7 May 1981
+2 PLAC , Highland Park, IL, USA
+1 OCCU Student
+1 FAMC @F27@
+0 @I81@ INDI
+1 NAME JoAnne /Ross/
+2 GIVN JoAnne
+2 SURN Ross
+1 REFN CustomGenCode:TAAAAECFC2
+1 SEX F
+1 BIRT
+2 DATE 14 Nov 1954
+2 PLAC Monmouth Hosp. Monmouth, IL, USA
+1 OCCU Homemaker, Teacher
+1 FACT Dean has attended the College of Lake Co. IL,  The University of Illinois in DeKalb and earned his Bachelors degree from the University in Rockford, IL.
+1 FACT Dean builds his own telescopes to study the planets & near stars.  He enjoys working with his computer.
+1 FACT * JoAnne's daughter.
+1 FAMS @F28@
+1 FAMS @F91@
+1 FAMC @F71@
+0 @I82@ INDI
+1 NAME Amanda Mae /Parke/
+2 GIVN Amanda Mae
+2 SURN Parke
+1 REFN CustomGenCode:TAAAAECFC2a
+1 BIRT
+2 DATE 26 Apr 1983
+2 PLAC , Rockford, IL, USA
+1 OCCU Student
+1 FACT * Daniel died of bone cancer.
+1 FAMC @F91@
+0 @I83@ INDI
+1 NAME Donovan LeRoy /Meyer/
+2 GIVN Donovan LeRoy
+2 SURN Meyer
+1 REFN CustomGenCode:TAAAAECFD
+1 SEX M
+1 BIRT
+2 DATE 3 Apr 1956
+2 PLAC Immanuel Hosp. Mankato, MN, USA
+1 BAPM
+2 PLAC Grace Lutheran, Mankato, MN, USA
+1 CONF
+2 PLAC Elk Creek Lutheran, Elk Mound, WI. USA
+1 GRAD
+2 DATE Jun 1975
+2 PLAC Libertyville HS, Libertyville, IL. USA
+1 OCCU Auto Mechanic, Surge Serv. Rep. Self employed as Donovan's Workshop since 1996.
+1 FACT Donovan earned a certificate from Westco Technical School of Drafting in 1993. Peggy earned a certificate in Secretarial Science from Spencer Tech.
+1 FACT Since his divorce Donovan has become an active member of the First Congregational Church in Peterson.
+1 FACT Donovan was in the US Air Force as a Weapons Mechanic.
+1 FACT Since 1997 Don joined the Peterson Lions Club, the local Fire Dept & Commercial Club. Peggy was Active in the Knapp/Lucas PTA. She started the Gifted and Talented Program incorporating Drama. She organized the Daisy and Brownie Girl Scout
+2 CONC Troops.
+1 FACT Donovan was charter member and instructor of the Knapp Karate Club. Donovan and Peggy enjoyed motorcycling.
+1 FACT After his divorce Don moved back to Peterson, IA. where he started his own business in home repair, auto repair, tire & battery sales.  He & his father bought & rebuilt a 5,500 sq. ft. building in Peterson, IA.
+1 FAMS @F29@
+1 FAMC @F25@
+0 @I84@ INDI
+1 NAME Peggy Lynn /Yoder/
+2 GIVN Peggy Lynn
+2 SURN Yoder
+1 REFN CustomGenCode:TAAAAECFD1
+1 SEX F
+1 BIRT
+2 DATE 12 Jan 1958
+2 PLAC Menomonie Hosp, Menomonie, WI, USA
+1 BAPM
+2 PLAC Elk Creek Lutheran, Elk Mound, WI. USA
+1 CONF
+2 PLAC Elk Creek Lutheran, Elk Mound, WI. USA
+1 GRAD
+2 DATE 1976
+2 PLAC Menomonie HS, Menomie, WI, USA
+1 OCCU Homemaker, Head teller, Bookkeeper, Proof Machine Operator & Day Care Provider.
+1 FACT Donovan earned a certificate from Westco Technical School of Drafting in 1993. Peggy earned a certificate in Secretarial Science from Spencer Tech.
+1 FACT Since his divorce Donovan has become an active member of the First Congregational Church in Peterson.
+1 FACT Donovan was in the US Air Force as a Weapons Mechanic.
+1 FACT Since 1997 Don joined the Peterson Lions Club, the local Fire Dept & Commercial Club. Peggy was Active in the Knapp/Lucas PTA. She started the Gifted and Talented Program incorporating Drama. She organized the Daisy and Brownie Girl Scout
+2 CONC Troops.
+1 FACT Donovan was charter member and instructor of the Knapp Karate Club. Donovan and Peggy enjoyed motorcycling.
+1 FACT After his divorce Don moved back to Peterson, IA. where he started his own business in home repair, auto repair, tire & battery sales.  He & his father bought & rebuilt a 5,500 sq. ft. building in Peterson, IA.
+1 FAMS @F29@
+1 FAMC @F72@
+0 @I85@ INDI
+1 NAME Christina Lynn /Meyer/
+2 GIVN Christina Lynn
+2 SURN Meyer
+1 REFN CustomGenCode:TAAAAECFDA
+1 BIRT
+2 DATE 22 Sep 1984
+2 PLAC , Menomonie, WI, USA
+1 BAPM
+2 PLAC Elk Creek Lutheran, Elk Mound, WI. USA
+1 OCCU Student
+1 FACT Christina was Baptized at the Big Elk Creek Lutheran church near Elk Mound, WI.
+1 FAMC @F29@
+0 @I86@ INDI
+1 NAME Danielle Lizabeth /Meyer/
+2 GIVN Danielle Lizabeth
+2 SURN Meyer
+1 REFN CustomGenCode:TAAAAECFDB
+1 BIRT
+2 DATE 6 Jul 1987
+2 PLAC , Menomonie, WI, USA
+1 BAPM
+2 PLAC Elk Creek Lutheran, Elk Mound, WI. USA
+1 FACT Danielle was Baptized at the Big Elk Creek Lutheran church near Elk Mound, WI.
+1 FAMC @F29@
+0 @I87@ INDI
+1 NAME Andrea Kay /Meyer/
+2 GIVN Andrea Kay
+2 SURN Meyer
+1 REFN CustomGenCode:TAAAAECFE
+1 SEX F
+1 BIRT
+2 DATE 25 Aug 1959
+2 PLAC Burnham Hosp. Champaign, IL, USA
+1 BAPM
+2 PLAC Grace Lutheran, Champaign, IL. USA
+1 GRAD
+2 DATE Jun 1978
+2 PLAC Libertyville HS, Libertyville, IL. USA
+1 OCCU Homemaker, Police & Fire Dispatcher & Real Estate Sales
+1 FACT She atended Iowa State University one year.
+1 FACT Andrea & Rick are both active in the Lutheran Church in Grayslake, IL.
+1 FACT Richard was in the US Narine Corps during the Viet Nam Conflict.
+1 FAMS @F30@
+1 FAMC @F25@
+0 @I88@ INDI
+1 NAME Richard Martin /Mohrmann/
+2 GIVN Richard Martin
+2 SURN Mohrmann
+1 REFN CustomGenCode:TAAAAECFE1
+1 SEX M
+1 BIRT
+2 DATE 14 Jul 1948
+2 PLAC , Waukegan, IL, USA
+1 OCCU Electronics Technician
+1 FACT She atended Iowa State University one year.
+1 FACT Andrea & Rick are both active in the Lutheran Church in Grayslake, IL.
+1 FACT Richard was in the US Narine Corps during the Viet Nam Conflict.
+1 FAMS @F30@
+1 FAMC @F73@
+0 @I89@ INDI
+1 NAME Sarah Lynne /Mohrmann/
+2 GIVN Sarah Lynne
+2 SURN Mohrmann
+1 REFN CustomGenCode:TAAAAECFEA
+1 BIRT
+2 DATE 6 Aug 1985
+2 PLAC , Newport Beach, CA, USA
+1 FAMC @F30@
+0 @I90@ INDI
+1 NAME Karl Aric /Mohrmann/
+2 GIVN Karl Aric
+2 SURN Mohrmann
+1 REFN CustomGenCode:MADAAEB
+1 BIRT
+2 DATE 7 Dec 1988
+2 PLAC , Anaheim, CA, USA
+1 BAPM
+2 DATE 29 Jan 1989
+2 PLAC Grace Lutheran Church, Libertyville, IL, USA
+1 FACT Karl is an active member of the Boy Scouts
+1 FACT He loves to swim, is very good & has picked up many medals & trophies.
+1 FAMC @F30@
+0 @I91@ INDI
+1 NAME Derek Emerson /Mohrmann/
+2 GIVN Derek Emerson
+2 SURN Mohrmann
+1 REFN CustomGenCode:TAAAAECFEC
+1 BIRT
+2 DATE 26 Oct 1992
+2 PLAC Condell Hosp. Libertyville, IL, USA
+1 FAMC @F30@
+0 @I92@ INDI
+1 NAME Douglas Karl /Meyer/
+2 GIVN Douglas Karl
+2 SURN Meyer
+1 REFN CustomGenCode:TAAAAECFF
+1 BIRT
+2 DATE 18 May 1963
+2 PLAC Mary Greely Hosp. Ames, IA, USA
+1 BAPM
+2 PLAC Grace Lutheran, Ames, IA. USA
+1 GRAD
+2 DATE Jun 1981
+2 PLAC Libertyville HS, Libertyville, IL. USA
+1 OCCU Electronics Technician
+1 FACT Douglas has attended Iowa State University in Ames, IA, for 3 years & the University in Corvallis, OR for 2 years.
+1 FACT N/A
+1 FACT He has spent six years rebuilding a Camero.  He enjoys rebuilding & reprogramming computers.
+1 FAMC @F25@
+0 @I93@ INDI
+1 NAME Hilda /Smith/
+2 GIVN Hilda
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECG
+1 BIRT
+2 DATE 31 Jan 1928
+2 PLAC Smith Home, South Elmsall, Yorkshire,Eng.
+1 OCCU Homemaker, Police Clerk
+1 FAMS @F31@
+1 FAMC @F7@
+0 @I94@ INDI
+1 NAME Bernard /Ogley/
+2 GIVN Bernard
+2 SURN Ogley
+1 REFN CustomGenCode:TAAAAECG1
+1 BIRT
+2 DATE 5 Dec 1921
+2 PLAC , South Elmsall, Yorkshire, Eng.
+1 OCCU Office Manager at Coal Board
+1 FAMS @F31@
+1 FAMC @F74@
+0 @I95@ INDI
+1 NAME Alec /Smith/
+2 GIVN Alec
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECH
+1 SEX M
+1 BIRT
+2 DATE 19 Jun 1929
+2 PLAC Smith Home, South Elmsall, Yorkshire,Eng.
+1 DEAT
+2 DATE 24 Nov 1988
+2 PLAC Hunslet Cem. Leeds, Yorkshire, Eng.
+1 OCCU Security Guard
+1 FAMS @F32@
+1 FAMC @F7@
+0 @I96@ INDI
+1 NAME Doreen /Wallis/
+2 GIVN Doreen
+2 SURN Wallis
+1 REFN CustomGenCode:TAAAAECH1
+1 SEX F
+1 BIRT
+2 DATE 3 Aug 1936
+2 PLAC , Hull, Yorkshire, Eng.
+1 OCCU Homemaker, Machinist
+1 FAMS @F32@
+1 FAMC @F75@
+0 @I97@ INDI
+1 NAME Stephen Paul /Smith/
+2 GIVN Stephen Paul
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECHA
+1 SEX M
+1 BIRT
+2 DATE 19 Jan 1958
+2 PLAC , Horsforth, Yorkshire, Eng.
+1 OCCU Medic, Royal Air Force
+1 FACT Stephen served as a medic in the British Royal Air Force.
+1 FAMS @F33@
+1 FAMC @F32@
+0 @I98@ INDI
+1 NAME Anne Gwenda /Butterfield/
+2 GIVN Anne Gwenda
+2 SURN Butterfield
+1 REFN CustomGenCode:TAAAAECHA1
+1 SEX F
+1 BIRT
+2 DATE 31 Mar 1958
+2 PLAC Christ Church, Hamshire, Eng.
+1 OCCU Homemaker, RAF Medic
+1 FACT Stephen served as a medic in the British Royal Air Force.
+1 FAMS @F33@
+1 FAMC @F76@
+0 @I99@ INDI
+1 NAME Kristopher James /Smith/
+2 GIVN Kristopher James
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECHAA
+1 BIRT
+2 DATE 1 Mar 1983
+2 PLAC , Munchen-Gladbach, Ger.
+1 OCCU Student
+1 FAMC @F33@
+0 @I100@ INDI
+1 NAME Benjamin Thomas /Smith/
+2 GIVN Benjamin Thomas
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECHAB
+1 BIRT
+2 DATE 3 Sep 1987
+2 PLAC , Wildenrath, Ger.
+1 FAMC @F33@
+0 @I101@ INDI
+1 NAME Alan /Smith/
+2 GIVN Alan
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECHB
+1 SEX M
+1 BIRT
+2 DATE 30 Apr 1959
+2 PLAC , Leeds, Yorkshire, Eng.
+1 OCCU Electrical Cable Jointer
+1 FAMS @F34@
+1 FAMC @F32@
+0 @I102@ INDI
+1 NAME Jean Denise /Nutton/
+2 GIVN Jean Denise
+2 SURN Nutton
+1 REFN CustomGenCode:TAAAAECHB1
+1 SEX F
+1 BIRT
+2 DATE 23 Apr 1959
+2 PLAC , Leeds, Yorkshire, Eng.
+1 OCCU Homemaker, Secretary
+1 FAMS @F34@
+1 FAMC @F77@
+0 @I103@ INDI
+1 NAME Angela Dawn /Smith/
+2 GIVN Angela Dawn
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECHBA
+1 BIRT
+2 DATE 13 Feb 1981
+2 PLAC , Leeds, Yorkshire, Eng.
+1 OCCU Student
+1 FAMC @F34@
+0 @I104@ INDI
+1 NAME Steven Mark /Smith/
+2 GIVN Steven Mark
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECHBB
+1 BIRT
+2 DATE 30 May 1982
+2 PLAC , Leeds, Yorkshire, Eng.
+1 OCCU Student
+1 FAMC @F34@
+0 @I105@ INDI
+1 NAME Jamie Robert /Smith/
+2 GIVN Jamie Robert
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECHBC
+1 BIRT
+2 DATE 13 Oct 1988
+2 PLAC , Leeds, Yorkshire, Eng.
+1 FAMC @F34@
+0 @I106@ INDI
+1 NAME Michael /Smith/
+2 GIVN Michael
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECHC
+1 SEX M
+1 BIRT
+2 DATE 9 Jul 1960
+2 PLAC , Leeds, Yorkshire, Eng.
+1 OCCU Assistant Shop Mgr.
+1 FAMS @F35@
+1 FAMC @F32@
+0 @I107@ INDI
+1 NAME Michelle /Lidster/
+2 GIVN Michelle
+2 SURN Lidster
+1 REFN CustomGenCode:TAAAAECHC1
+1 SEX F
+1 BIRT
+2 DATE 27 Dec 1962
+2 PLAC , Leeds, Yorkshire, Eng.
+1 OCCU Homemaker
+1 FAMS @F35@
+1 FAMC @F78@
+0 @I108@ INDI
+1 NAME Matthew /Smith/
+2 GIVN Matthew
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECHCA
+1 BIRT
+2 DATE 6 Jan 1986
+2 PLAC , Leeds, Yorkshire, Eng.
+1 FAMC @F35@
+0 @I109@ INDI
+1 NAME Rebecca /Smith/
+2 GIVN Rebecca
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECHCB
+1 BIRT
+2 DATE 4 Sep 1993
+2 PLAC , Leeds, Yorkshire, Eng.
+1 FAMC @F35@
+0 @I110@ INDI
+1 NAME Andrew /Smith/
+2 GIVN Andrew
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECHD
+1 BIRT
+2 DATE 29 Feb 1964
+2 PLAC , Leeds, Yorkshire, Eng.
+1 OCCU Truck Mechanic/Driver
+1 FAMC @F32@
+0 @I111@ INDI
+1 NAME Christopher /Smith/
+2 GIVN Christopher
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECHE
+1 BIRT
+2 DATE 10 Aug 1966
+2 PLAC , Leeds, Yorkshire, Eng.
+1 OCCU Clerk, Youth Worker
+1 FAMC @F32@
+0 @I112@ INDI
+1 NAME Edwin /Smith/
+2 GIVN Edwin
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECI
+1 SEX M
+1 BIRT
+2 DATE 12 Oct 1930
+2 PLAC Smith Home, South Elmsall, Yorkshire,Eng.
+1 OCCU Eddie worked for the Automobile Association, as an accounts clerk for Sanderson's wallpaper and then as a Newspaper Proof Reader for the Yorkshire Post.
+1 FACT Eddie & especially Margaret have both been active in the Roman Catholic Church.  Margaret has been a secretary in the church for many years.  She has taken many church groups to visit Lourdes in France.
+1 FACT Eddie served in the Kings Own Yorkshire Light Infantry & then with the Territorial Army.
+1 FAMS @F36@
+1 FAMC @F7@
+0 @I113@ INDI
+1 NAME Margaret /Murray/
+2 GIVN Margaret
+2 SURN Murray
+1 REFN CustomGenCode:TAAAAECI1
+1 SEX F
+1 BIRT
+2 DATE 27 May 1935
+2 PLAC , Leeds, Yorkshire, Eng.
+1 OCCU Homemaker.  She also worked for the Automobile Association where she met Eddie.
+1 FACT Eddie & especially Margaret have both been active in the Roman Catholic Church.  Margaret has been a secretary in the church for many years.  She has taken many church groups to visit Lourdes in France.
+1 FACT Eddie served in the Kings Own Yorkshire Light Infantry & then with the Territorial Army.
+1 FAMS @F36@
+1 FAMC @F79@
+0 @I114@ INDI
+1 NAME David Charles /Smith/
+2 GIVN David Charles
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECIA
+1 SEX M
+1 BIRT
+2 DATE 15 May 1957
+2 PLAC , Leeds, Yorkshire, Eng.
+1 CONF
+2 DATE 7 Jun 1964
+2 PLAC Sacred Heart Catholic, Leeds, Yorks, Eng.
+1 OCCU Pharmacist, David & Carol owned & operated their own Pharmacutical shop in Armthorpe Nr. Doncaster.
+1 FACT David earned a Bachelors Degree in Pharmacy, with Honours, from Bradford University in Bradford, registered MRPharmS.
+1 FACT David & Carol are both active members in the Roman Catholic Church.
+1 FAMS @F37@
+1 FAMC @F36@
+0 @I115@ INDI
+1 NAME Carol /Seddon/
+2 GIVN Carol
+2 SURN Seddon
+1 REFN CustomGenCode:TAAAAECIA1
+1 SEX F
+1 BIRT
+2 DATE 31 Dec 1957
+2 PLAC , Liverpool, Lancashire, Eng.
+1 OCCU Homemaker, Pharmacist
+1 FACT David earned a Bachelors Degree in Pharmacy, with Honours, from Bradford University in Bradford, registered MRPharmS.
+1 FACT David & Carol are both active members in the Roman Catholic Church.
+1 FAMS @F37@
+1 FAMC @F80@
+0 @I116@ INDI
+1 NAME Fay Christine /Smith/
+2 GIVN Fay Christine
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECIAA
+1 BIRT
+2 DATE 14 Nov 1985
+2 PLAC , Keighley, Yorkshire, Eng.
+1 BAPM
+2 DATE 9 Feb 1986
+2 PLAC St. Anne's Keighley, Yorks. Eng.
+1 FAMC @F37@
+0 @I117@ INDI
+1 NAME Zoe Jane /Smith/
+2 GIVN Zoe Jane
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECIAB
+1 BIRT
+2 DATE 26 Sep 1989
+2 PLAC , Doncaster, Yorkshire, Eng.
+1 BAPM
+2 PLAC Christ the King, Rossington, Yorks, Eng.
+1 FAMC @F37@
+0 @I118@ INDI
+1 NAME Natalie Claire /Smith/
+2 GIVN Natalie Claire
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECIAC
+1 BIRT
+2 DATE 29 Dec 1991
+2 PLAC , Doncaster, Yorkshire, Eng.
+1 BAPM
+2 PLAC Holy Family, RAF Finningley,Doncaster,Eng
+1 FAMC @F37@
+0 @I119@ INDI
+1 NAME Kathryn Mary /Smith/
+2 GIVN Kathryn Mary
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECIB
+1 SEX F
+1 BIRT
+2 DATE 5 May 1958
+2 PLAC , Leeds, Yorkshire, Eng.
+1 OCCU Homemaker, Office Clerk for Bradford & Bingley Building Society & Housing officer at Bradford Council.
+1 FAMS @F38@
+1 FAMC @F36@
+0 @I120@ INDI
+1 NAME Paul Anthony /Gavan/
+2 GIVN Paul Anthony
+2 SURN Gavan
+1 REFN CustomGenCode:TAAAAECIB1
+1 SEX M
+1 BIRT
+2 DATE 2 Sep 1958
+2 PLAC , Leeds, Yorkshire, Eng.
+1 OCCU Quantity Surveyor
+1 FAMS @F38@
+1 FAMC @F81@
+0 @I121@ INDI
+1 NAME Martin Paul /Gavan/
+2 GIVN Martin Paul
+2 SURN Gavan
+1 REFN CustomGenCode:TAAAAECIBA
+1 BIRT
+2 DATE 2 Feb 1978
+2 PLAC St. Mary's Hosp. Manchester, Lancs. Eng.
+1 OCCU Student
+1 FACT Martin was Baptized in the Catholic Faith.
+1 FACT Martin is active in the Boy Scouts.
+1 FACT Martin likes to read & work with his computer.
+1 FACT He as been to Lourdes in France and to the Isle of Man.
+1 FAMC @F38@
+0 @I122@ INDI
+1 NAME Pauline Theresa /Gavan/
+2 GIVN Pauline Theresa
+2 SURN Gavan
+1 REFN CustomGenCode:TAAAAECIBB
+1 BIRT
+2 DATE 4 Apr 1980
+2 PLAC St. Mary's Hosp. Manchester, Lancs. Eng.
+1 OCCU Student
+1 FACT Baptized in the Catholic Faith
+1 FACT Pauline loves to ride and care for riding horses.  So far she has won several rosettes.
+1 FAMC @F38@
+0 @I123@ INDI
+1 NAME Margaret Anne /Smith/
+2 GIVN Margaret Anne
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECIC
+1 SEX F
+1 BIRT
+2 DATE 13 Oct 1960
+2 PLAC , Leeds, Yorkshire, Eng.
+1 OCCU Employed as a Computer Programmer for Home Office ('82-"87), Northwest Water ('87-"91) & Director of Village Software Engineering Ltd ('93-"97). She also lectures on Computer Programming.
+1 FAMS @F39@
+1 FAMC @F36@
+0 @I124@ INDI
+1 NAME Neil Crimond /Macaskill/
+2 GIVN Neil Crimond
+2 SURN Macaskill
+1 REFN CustomGenCode:TAAAAECIC1
+1 SEX M
+1 BIRT
+2 DATE 11 Apr 1959
+2 PLAC , Bristol, Avonshire, Eng.
+1 OCCU Computer Programmer
+1 FAMS @F39@
+1 FAMC @F82@
+0 @I125@ INDI
+1 NAME Anne Helen /Macaskill/
+2 GIVN Anne Helen
+2 SURN Macaskill
+1 REFN CustomGenCode:TAAAAECICA
+1 BIRT
+2 DATE 9 Sep 1991
+2 PLAC , Warrington, Cheshire, Eng.
+1 FAMC @F39@
+0 @I126@ INDI
+1 NAME Ian Peter /Smith/
+2 GIVN Ian Peter
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECID
+1 SEX M
+1 BIRT
+2 DATE 29 Mar 1965
+2 PLAC , Leeds, Yorkshire, Eng.
+1 OCCU Administrator for Bradford Council.
+1 FACT * Barbara's daughter
+1 FAMS @F40@
+1 FAMC @F36@
+0 @I127@ INDI
+1 NAME Barbara Anna /Pasierowska/
+2 GIVN Barbara Anna
+2 SURN Pasierowska
+1 REFN CustomGenCode:TAAAAECID1
+1 SEX F
+1 BIRT
+2 DATE 26 Apr 1960
+2 PLAC , Leeds, Yorkshire, Eng.
+1 OCCU Homemaker, Clerk, Nurse
+1 FACT * Barbara's daughter
+1 FAMS @F40@
+1 FAMS @F92@
+1 FAMC @F83@
+0 @I128@ INDI
+1 NAME Rachael Lindsay /Pasierowska/
+2 GIVN Rachael Lindsay
+2 SURN Pasierowska
+1 REFN CustomGenCode:TAAAAECIDa
+1 BIRT
+2 DATE 19 Jan 1987
+2 PLAC , Wandsworth, London, Eng.
+1 FAMC @F92@
+0 @I129@ INDI
+1 NAME Michael James /Pasierowska-smith/
+2 GIVN Michael James
+2 SURN Pasierowska-smith
+1 REFN CustomGenCode:TAAAAECIDB
+1 BIRT
+2 DATE 18 Sep 1989
+2 PLAC , Leeds, Yorkshire, Eng.
+1 FAMC @F40@
+0 @I130@ INDI
+1 NAME Granville /Smith/
+2 GIVN Granville
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECJ
+1 BIRT
+2 DATE 9 Jun 1932
+2 PLAC Smith Home, South Elmsall, Yorkshire,Eng.
+1 OCCU Book Binder
+1 FACT Gran does a lot of cane weaving around trays & other craft work.
+1 FACT Gran contracted polio when he was a child, which left him quite handicapped in both his legs & arms.
+1 FAMS @F41@
+1 FAMC @F7@
+0 @I131@ INDI
+1 NAME Enid /Flower/
+2 GIVN Enid
+2 SURN Flower
+1 REFN CustomGenCode:TAAAAECJ1
+1 BIRT
+2 DATE 12 Jul 1937
+2 PLAC , Castleford, Yorkshire, Eng.
+1 OCCU Homemaker
+1 FACT Gran does a lot of cane weaving around trays & other craft work.
+1 FACT Gran contracted polio when he was a child, which left him quite handicapped in both his legs & arms.
+1 FAMS @F41@
+1 FAMC @F84@
+0 @I132@ INDI
+1 NAME Margaret /Smith/
+2 GIVN Margaret
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECK
+1 SEX F
+1 BIRT
+2 DATE 18 Mar 1937
+2 PLAC Smith Home, South Elmsall, Yorkshire,Eng.
+1 BAPM
+2 PLAC Primative Methodist, South Elmsall, Eng.
+1 GRAD
+2 PLAC Hemsworth Grammer Sc. Hemsworth, Eng.
+1 OCCU Homemaker
+1 FACT Margaret completed Grammar School at Hemsworth.  Derek completed Secondary School at Horsforth.
+1 FACT Margaret was baptized again a Jehovah's Witness as an adult.  She has since been active as a Jehovah's Witness.  Derek was baptized in the Catholic Faith in Horsforth.
+1 FACT Derek served two years in the British Catering Corps. in Egypt during the Suez Crisis, achieving a rank of Corporal.
+1 FACT Margaret belonged to the St. John's Ambulance Brigade as a nursing cadet.
+1 FACT Margaret enjoyes reading.  Derek enjoyed his motor car and his garden.
+1 FACT Margaret has enjoyed traveling to America, Europe, Russia & Egypt since 1981.
+1 FAMS @F42@
+1 FAMC @F7@
+0 @I133@ INDI
+1 NAME Derek /Joyce/
+2 GIVN Derek
+2 SURN Joyce
+1 REFN CustomGenCode:TAAAAECK1
+1 SEX M
+1 BIRT
+2 DATE 4 Mar 1933
+2 PLAC High Terrace Hosp. Leeds, Yorkshire, Eng.
+1 DEAT
+2 DATE 24 Sep 1980
+2 PLAC Cremated
+1 OCCU Painter & Decorator
+1 FACT Margaret completed Grammar School at Hemsworth.  Derek completed Secondary School at Horsforth.
+1 FACT Margaret was baptized again a Jehovah's Witness as an adult.  She has since been active as a Jehovah's Witness.  Derek was baptized in the Catholic Faith in Horsforth.
+1 FACT Derek served two years in the British Catering Corps. in Egypt during the Suez Crisis, achieving a rank of Corporal.
+1 FACT Margaret belonged to the St. John's Ambulance Brigade as a nursing cadet.
+1 FACT Margaret enjoyes reading.  Derek enjoyed his motor car and his garden.
+1 FACT Margaret has enjoyed traveling to America, Europe, Russia & Egypt since 1981.
+1 FAMS @F42@
+1 FAMC @F85@
+0 @I134@ INDI
+1 NAME Lynn /Joyce/
+2 GIVN Lynn
+2 SURN Joyce
+1 REFN CustomGenCode:TAAAAECKA
+1 BIRT
+2 DATE 7 Mar 1955
+2 PLAC Four Gables, Horsforth, Yorkshire, Eng.
+1 BAPM
+2 PLAC St. Margarets, Horsforth, Yorks. Eng.
+1 GRAD
+2 PLAC Benton Park Grammer, Rawdon, Yorks. Eng.
+1 OCCU Auxiliary Nurse
+1 FAMS @F43@
+1 FAMS @F44@
+1 FAMC @F42@
+0 @I135@ INDI
+1 NAME Dennis Rayson /Nichol/
+2 GIVN Dennis Rayson
+2 SURN Nichol
+1 REFN CustomGenCode:TAAAAECKA1
+1 DEAT
+2 DATE 15 May 1986
+2 PLAC Cremated
+1 OCCU Factory Laborer
+1 FAMS @F43@
+0 @I136@ INDI
+1 NAME Patrick /Hughes/
+2 GIVN Patrick
+2 SURN Hughes
+1 REFN CustomGenCode:TAAAAECKA2
+1 OCCU Sculptor
+1 FACT Lynn attended college two years at Harrogate.
+1 FACT She is active as a Jehovah's Witness.
+1 FAMS @F44@
+0 @I137@ INDI
+1 NAME Janet /Joyce/
+2 GIVN Janet
+2 SURN Joyce
+1 REFN CustomGenCode:TAAAAECKB
+1 BIRT
+2 DATE 5 Jul 1956
+2 PLAC Four Gables, Horsforth, Yorkshire, Eng.
+1 BAPM
+2 PLAC St. Margaret's Horsforth, Yorks. Eng.
+1 GRAD
+2 PLAC Benton Park Grammer, Rawdon, Yorks. Eng.
+1 OCCU Hygiene Technician & Shop Assistant.
+1 FACT She was baptized a Jehovah's Witness as an adult & is now an active member.
+1 FACT She likes to read.
+1 FAMC @F42@
+0 @I138@ INDI
+1 NAME Karen /Joyce/
+2 GIVN Karen
+2 SURN Joyce
+1 REFN CustomGenCode:TAAAAECKC
+1 SEX F
+1 BIRT
+2 DATE 13 Aug 1963
+2 PLAC Four Gables, Horsforth, Yorkshire, Eng.
+1 BAPM
+2 PLAC St. James Church, Horsforth, Yorks. Eng.
+1 GRAD
+2 PLAC Horsforth Comprehensive, Yorks. Eng.
+1 OCCU Homemaker & Secretary
+1 FACT Karen completed Comprehensive School at Horsforth.  She completed two years Business Studies, earning a certificate.  Paul completed both a BSC & a PHD from Sheffield University.
+1 FACT Karen was baptized at St. James church in Horsforth.  Paul was baptized in the Catholic Faith.
+1 FACT Karen likes her Sports.  Paul is a Morris Dancer.
+1 FAMS @F45@
+1 FAMC @F42@
+0 @I139@ INDI
+1 NAME Paul James /Walke/
+2 GIVN Paul James
+2 SURN Walke
+1 REFN CustomGenCode:TAAAAECKC1
+1 SEX M
+1 BIRT
+2 DATE 24 Jan 1963
+2 PLAC , Plymouth, Devon, Eng.
+1 OCCU University Student
+1 FACT Karen completed Comprehensive School at Horsforth.  She completed two years Business Studies, earning a certificate.  Paul completed both a BSC & a PHD from Sheffield University.
+1 FACT Karen was baptized at St. James church in Horsforth.  Paul was baptized in the Catholic Faith.
+1 FACT Karen likes her Sports.  Paul is a Morris Dancer.
+1 FAMS @F45@
+1 FAMC @F86@
+0 @I140@ INDI
+1 NAME Samuel James /Walke/
+2 GIVN Samuel James
+2 SURN Walke
+1 REFN CustomGenCode:TAAAAECKCA
+1 BIRT
+2 DATE 18 Jun 1990
+2 PLAC Netheredge Hospital, Sheffield, Eng.
+1 FAMC @F45@
+0 @I141@ INDI
+1 NAME Eleanor /Walke/
+2 GIVN Eleanor
+2 SURN Walke
+1 REFN CustomGenCode:TAAAAECKCB
+1 BIRT
+2 DATE 1 Feb 1995
+2 PLAC Netheredge Hospital, Sheffield, Eng.
+1 FAMC @F45@
+0 @I142@ INDI
+1 NAME Anne Margaret /Joyce/
+2 GIVN Anne Margaret
+2 SURN Joyce
+1 REFN CustomGenCode:TAAAAECKD
+1 SEX F
+1 BIRT
+2 DATE 2 Jun 1967
+2 PLAC Four Gables, Horsforth, Yorkshire, Eng.
+1 GRAD
+2 PLAC Benton Park Grammer, Rawdon, Yorks, Eng.
+1 OCCU Homemaker & Waitress
+1 FACT Anne was baptized a Jehovah's Witness as an adult & is now an active member.
+1 FACT Anne & Ian have both completed the First Aid course at Leeds with the Red Cross.
+1 FAMS @F46@
+1 FAMC @F42@
+0 @I143@ INDI
+1 NAME Ian David /Walker/
+2 GIVN Ian David
+2 SURN Walker
+1 REFN CustomGenCode:TAAAAECKD1
+1 SEX M
+1 BIRT
+2 DATE 30 Nov 1959
+2 PLAC , Wallasey, Cheshire, Eng,
+1 OCCU Office Clerk, Student
+1 FACT Anne was baptized a Jehovah's Witness as an adult & is now an active member.
+1 FACT Anne & Ian have both completed the First Aid course at Leeds with the Red Cross.
+1 FAMS @F46@
+1 FAMC @F87@
+0 @I144@ INDI
+1 NAME Callum David /Walker/
+2 GIVN Callum David
+2 SURN Walker
+1 REFN CustomGenCode:TAAAAECKDA
+1 BIRT
+2 DATE 18 May 1990
+2 PLAC Doncaster Royal Hosp. Yorkshire, Eng.
+1 FAMC @F46@
+0 @I145@ INDI
+1 NAME John Derek /Joyce/
+2 GIVN John Derek
+2 SURN Joyce
+1 REFN CustomGenCode:TAAAAECKE
+1 BIRT
+2 DATE 14 Dec 1971
+2 PLAC High Terrace Hosp. Leeds, Yorkshire, Eng.
+1 GRAD
+2 PLAC Benton Park Grammer, Rawdon, Yorks, Eng.
+1 OCCU University Student
+1 FACT John attended Leeds Art College for two Years in Leeds.
+1 FAMC @F42@
+0 @I146@ INDI
+1 NAME Lara Frances /Joyce/
+2 GIVN Lara Frances
+2 SURN Joyce
+1 REFN CustomGenCode:TAAAAECKF
+1 BIRT
+2 DATE 27 Jan 1983
+2 PLAC High Terrace Hosp. Leeds, Yorkshire, Eng.
+1 OCCU Student
+1 FAMC @F42@
+0 @I147@ INDI
+1 NAME George /Carter/
+2 GIVN George
+2 SURN Carter
+1 REFN CustomGenCode:TAAAAED
+1 FAMS @F47@
+1 FAMC @F4@
+0 @I148@ INDI
+1 NAME Clara /Nicholson/
+2 GIVN Clara
+2 SURN Nicholson
+1 REFN CustomGenCode:TAAAAED1
+1 OCCU Homemaker
+1 FAMS @F47@
+0 @I149@ INDI
+1 NAME Cyril /Carter/
+2 GIVN Cyril
+2 SURN Carter
+1 REFN CustomGenCode:TAAAAEE
+1 SEX M
+1 OCCU Chemical Analyst at Frickley Colliery in S. Elmsall.
+1 FAMS @F48@
+1 FAMC @F4@
+0 @I150@ INDI
+1 NAME Mary /Barraclough/
+2 GIVN Mary
+2 SURN Barraclough
+1 REFN CustomGenCode:TAAAAEE1
+1 SEX F
+1 OCCU Homemaker
+1 FAMS @F48@
+0 @I151@ INDI
+1 NAME Wendy /Carter/
+2 GIVN Wendy
+2 SURN Carter
+1 REFN CustomGenCode:TAAAAEEA
+1 OCCU Homemaker
+1 FAMS @F49@
+1 FAMC @F48@
+0 @I152@ INDI
+1 NAME Philip /Bull/
+2 GIVN Philip
+2 SURN Bull
+1 REFN CustomGenCode:TAAAAEEA1
+1 FAMS @F49@
+0 @I153@ INDI
+1 NAME Leonard /Carter/
+2 GIVN Leonard
+2 SURN Carter
+1 REFN CustomGenCode:TAAAAEF
+1 SEX M
+1 OCCU Teacher
+1 FAMS @F50@
+1 FAMC @F4@
+0 @I154@ INDI
+1 NAME Mary /Harvey/
+2 GIVN Mary
+2 SURN Harvey
+1 REFN CustomGenCode:TAAAAEF1
+1 SEX F
+1 OCCU Homemaker
+1 FAMS @F50@
+0 @I155@ INDI
+1 NAME Shirley /Carter/
+2 GIVN Shirley
+2 SURN Carter
+1 REFN CustomGenCode:TAAAAEFA
+1 OCCU Hotel Owner/Operater
+1 FACT Tony & Agnes immigrated to Spain
+1 FAMS @F51@
+1 FAMC @F50@
+0 @I156@ INDI
+1 NAME Agnes /Rudd/
+2 GIVN Agnes
+2 SURN Rudd
+1 REFN CustomGenCode:TAAAAEFA1
+1 BIRT
+2 DATE 20 May 1938
+2 PLAC , Ackworth, Yorkshire, Eng.
+1 OCCU Homemaker
+1 FACT Tony & Agnes immigrated to Spain
+1 FACT , Anthony Mark is possibly child #1 and was accidentally not added or is from a different marriage.
+1 FACT , Joanne is possibly child #2 and was accidentally not added or is from a different marriage.
+1 FAMS @F51@
+1 FAMC @F88@
+0 @I157@ INDI
+1 NAME John /Carter/
+2 GIVN John
+2 SURN Carter
+1 REFN CustomGenCode:TAAAAEFB
+1 FAMC @F50@
+0 @I158@ INDI
+1 NAME George Savage /Tuxford/
+2 GIVN George Savage
+2 SURN Tuxford
+1 REFN CustomGenCode:TAAAB
+1 SEX M
+1 BAPM
+2 DATE 17 May 1835
+2 PLAC St. Swithin's, Lincoln, Lincolnshire,Eng.
+1 OCCU Engine Fitter
+1 FAMS @F52@
+1 FAMC @F2@
+0 @I159@ INDI
+1 NAME Jane //
+2 GIVN Jane
+1 REFN CustomGenCode:TAAAB1
+1 SEX F
+1 OCCU Homemaker
+1 FAMS @F52@
+0 @I160@ INDI
+1 NAME William /Tuxford/ Jr
+2 GIVN William
+2 SURN Tuxford
+1 REFN CustomGenCode:TAAABA
+1 BAPM
+2 PLAC St. Swithin's, Lincoln, Lincolnshire,Eng.
+1 FAMC @F52@
+0 @I161@ INDI
+1 NAME Ann /Tuxworth/
+2 GIVN Ann
+2 SURN Tuxworth
+1 REFN CustomGenCode:TAB
+1 BAPM
+2 DATE 26 Dec 1787
+2 PLAC Burgh le Marsh, Lincolnshire, Eng.
+1 FAMC @F0@
+0 @I162@ INDI
+1 NAME George /Savage/
+2 GIVN George
+2 SURN Savage
+1 REFN CustomGenCode:TAAA1sf
+1 SEX M
+1 FAMS @F53@
+0 @I163@ INDI
+1 NAME Martha /Yeddell/
+2 GIVN Martha
+2 SURN Yeddell
+1 REFN CustomGenCode:TAAA1sm
+1 SEX F
+1 FAMS @F53@
+0 @I164@ INDI
+1 NAME Thomas /Smith/
+2 GIVN Thomas
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAEC1sf
+1 SEX M
+1 FAMS @F54@
+0 @I165@ INDI
+1 NAME Martha /Wyatt/
+2 GIVN Martha
+2 SURN Wyatt
+1 REFN CustomGenCode:TAAAAEC1sm
+1 SEX F
+1 FAMS @F54@
+0 @I166@ INDI
+1 NAME Ernest Peter /Collie/
+2 GIVN Ernest Peter
+2 SURN Collie
+1 REFN CustomGenCode:TAAAAECAA1sf
+1 SEX M
+1 FAMS @F55@
+0 @I167@ INDI
+1 NAME Kate Elizabeth /Burrell/
+2 GIVN Kate Elizabeth
+2 SURN Burrell
+1 REFN CustomGenCode:TAAAAECAA1sm
+1 SEX F
+1 FAMS @F55@
+0 @I168@ INDI
+1 NAME Thomas William /Cobb/
+2 GIVN Thomas William
+2 SURN Cobb
+1 REFN CustomGenCode:TAAAAECC1sf
+1 SEX M
+1 FAMS @F56@
+0 @I169@ INDI
+1 NAME Elizabeth Hannah /Wigfield/
+2 GIVN Elizabeth Hannah
+2 SURN Wigfield
+1 REFN CustomGenCode:TAAAAECC1sm
+1 SEX F
+1 FAMS @F56@
+0 @I170@ INDI
+1 NAME Horace /Rutherford/
+2 GIVN Horace
+2 SURN Rutherford
+1 REFN CustomGenCode:TAAAAECCA1sf
+1 SEX M
+1 FAMS @F57@
+0 @I171@ INDI
+1 NAME Florence May /Colley/
+2 GIVN Florence May
+2 SURN Colley
+1 REFN CustomGenCode:TAAAAECCA1sm
+1 SEX F
+1 FAMS @F57@
+0 @I172@ INDI
+1 NAME Joseph /Dixon/
+2 GIVN Joseph
+2 SURN Dixon
+1 REFN CustomGenCode:TAAAAECCA2sf
+1 SEX M
+1 FAMS @F58@
+0 @I173@ INDI
+1 NAME Doreen /Ferry/
+2 GIVN Doreen
+2 SURN Ferry
+1 REFN CustomGenCode:TAAAAECCA2sm
+1 SEX F
+1 FAMS @F58@
+0 @I174@ INDI
+1 NAME Martha Elizabeth /Deakes/
+2 GIVN Martha Elizabeth
+2 SURN Deakes
+1 REFN CustomGenCode:TAAAAECD1sm
+1 SEX F
+1 FAMS @F59@
+0 @I175@ INDI
+1 NAME Stanley /Norris/
+2 GIVN Stanley
+2 SURN Norris
+1 REFN CustomGenCode:TAAAAECDA1sf
+1 SEX M
+1 FAMS @F60@
+0 @I176@ INDI
+1 NAME Faye /Dunkerley/
+2 GIVN Faye
+2 SURN Dunkerley
+1 REFN CustomGenCode:TAAAAECDA1sm
+1 SEX F
+1 FAMS @F60@
+0 @I177@ INDI
+1 NAME Cyril /Steed/
+2 GIVN Cyril
+2 SURN Steed
+1 REFN CustomGenCode:TAAAAECDA2sf
+1 SEX M
+1 FAMS @F61@
+0 @I178@ INDI
+1 NAME May //
+2 GIVN May
+1 REFN CustomGenCode:TAAAAECDA2sm
+1 SEX F
+1 FAMS @F61@
+0 @I179@ INDI
+1 NAME Roger /Pennock/
+2 GIVN Roger
+2 SURN Pennock
+1 REFN CustomGenCode:TAAAAECDB1sf
+1 SEX M
+1 FAMS @F62@
+0 @I180@ INDI
+1 NAME Lily /Fenton/
+2 GIVN Lily
+2 SURN Fenton
+1 REFN CustomGenCode:TAAAAECDB1sm
+1 SEX F
+1 FAMS @F62@
+0 @I181@ INDI
+1 NAME George Frederick /Tibble/
+2 GIVN George Frederick
+2 SURN Tibble
+1 REFN CustomGenCode:TAAAAECE1sf
+1 SEX M
+1 FAMS @F63@
+0 @I182@ INDI
+1 NAME Mary Jane /Wass/
+2 GIVN Mary Jane
+2 SURN Wass
+1 REFN CustomGenCode:TAAAAECE1sm
+1 SEX F
+1 FAMS @F63@
+0 @I183@ INDI
+1 NAME Harold /Bedwell/
+2 GIVN Harold
+2 SURN Bedwell
+1 REFN CustomGenCode:TAAAAECEB1sf
+1 SEX M
+1 FAMS @F64@
+0 @I184@ INDI
+1 NAME Molly //
+2 GIVN Molly
+1 REFN CustomGenCode:TAAAAECEB1sm
+1 SEX F
+1 FAMS @F64@
+0 @I185@ INDI
+1 NAME Hubert /Haigh/
+2 GIVN Hubert
+2 SURN Haigh
+1 REFN CustomGenCode:TAAAAECEC1sf
+1 SEX M
+1 FAMS @F65@
+0 @I186@ INDI
+1 NAME Annie /Clifford/
+2 GIVN Annie
+2 SURN Clifford
+1 REFN CustomGenCode:TAAAAECEC1sm
+1 SEX F
+1 FAMS @F65@
+0 @I187@ INDI
+1 NAME Eric /Cartwright/
+2 GIVN Eric
+2 SURN Cartwright
+1 REFN CustomGenCode:TAAAAECED1sf
+1 SEX M
+1 FAMS @F66@
+0 @I188@ INDI
+1 NAME Evelyn /Tyrell/
+2 GIVN Evelyn
+2 SURN Tyrell
+1 REFN CustomGenCode:TAAAAECED1sm
+1 SEX F
+1 FAMS @F66@
+0 @I189@ INDI
+1 NAME Roy /Leng/
+2 GIVN Roy
+2 SURN Leng
+1 REFN CustomGenCode:TAAAAECED2sf
+1 SEX M
+1 FAMS @F67@
+0 @I190@ INDI
+1 NAME Margaret Mary /Hodgson/
+2 GIVN Margaret Mary
+2 SURN Hodgson
+1 REFN CustomGenCode:TAAAAECED2sm
+1 SEX F
+1 FAMS @F67@
+0 @I191@ INDI
+1 NAME LeRoy Clarence /Meyer/
+2 GIVN LeRoy Clarence
+2 SURN Meyer
+1 REFN CustomGenCode:TAAAAECF1sf
+1 SEX M
+1 FAMS @F68@
+0 @I192@ INDI
+1 NAME Beda Rosalia /Knudson/
+2 GIVN Beda Rosalia
+2 SURN Knudson
+1 REFN CustomGenCode:TAAAAECF1sm
+1 SEX F
+1 FAMS @F68@
+0 @I193@ INDI
+1 NAME Carl Loyal William /Swanson/
+2 GIVN Carl Loyal William
+2 SURN Swanson
+1 REFN CustomGenCode:TAAAAECFA1sf
+1 SEX M
+1 FAMS @F69@
+0 @I194@ INDI
+1 NAME Viola Christina Francis /Locker/
+2 GIVN Viola Christina Francis
+2 SURN Locker
+1 REFN CustomGenCode:TAAAAECFA1sm
+1 SEX F
+1 FAMS @F69@
+0 @I195@ INDI
+1 NAME John Irving /Schmidt/
+2 GIVN John Irving
+2 SURN Schmidt
+1 REFN CustomGenCode:TAAAAECFC1sf
+1 SEX M
+1 FAMS @F70@
+0 @I196@ INDI
+1 NAME Ruth Lee /Anderson/
+2 GIVN Ruth Lee
+2 SURN Anderson
+1 REFN CustomGenCode:TAAAAECFC1sm
+1 SEX F
+1 FAMS @F70@
+0 @I197@ INDI
+1 NAME William Verne /Ross/
+2 GIVN William Verne
+2 SURN Ross
+1 REFN CustomGenCode:TAAAAECFC2sf
+1 SEX M
+1 FAMS @F71@
+0 @I198@ INDI
+1 NAME Mary Eloise /Brinkley/
+2 GIVN Mary Eloise
+2 SURN Brinkley
+1 REFN CustomGenCode:TAAAAECFC2sm
+1 SEX F
+1 FAMS @F71@
+0 @I199@ INDI
+1 NAME Clayton LeRoy /Yoder/
+2 GIVN Clayton LeRoy
+2 SURN Yoder
+1 REFN CustomGenCode:TAAAAECFD1sf
+1 SEX M
+1 FAMS @F72@
+0 @I200@ INDI
+1 NAME Evelyn Lorraine /Drury/
+2 GIVN Evelyn Lorraine
+2 SURN Drury
+1 REFN CustomGenCode:TAAAAECFD1sm
+1 SEX F
+1 FAMS @F72@
+0 @I201@ INDI
+1 NAME Richard Leo /Mohrmann/
+2 GIVN Richard Leo
+2 SURN Mohrmann
+1 REFN CustomGenCode:TAAAAECFE1sf
+1 SEX M
+1 FAMS @F73@
+0 @I202@ INDI
+1 NAME Barbara Gail /Dinger/
+2 GIVN Barbara Gail
+2 SURN Dinger
+1 REFN CustomGenCode:TAAAAECFE1sm
+1 SEX F
+1 FAMS @F73@
+0 @I203@ INDI
+1 NAME William Herbert /Ogley/
+2 GIVN William Herbert
+2 SURN Ogley
+1 REFN CustomGenCode:TAAAAECG1sf
+1 SEX M
+1 FAMS @F74@
+0 @I204@ INDI
+1 NAME Caroline /Imms/
+2 GIVN Caroline
+2 SURN Imms
+1 REFN CustomGenCode:TAAAAECG1sm
+1 SEX F
+1 FAMS @F74@
+0 @I205@ INDI
+1 NAME Clarence Thornton /Wallis/
+2 GIVN Clarence Thornton
+2 SURN Wallis
+1 REFN CustomGenCode:TAAAAECH1sf
+1 SEX M
+1 FAMS @F75@
+0 @I206@ INDI
+1 NAME Marjorie /Blenkin/
+2 GIVN Marjorie
+2 SURN Blenkin
+1 REFN CustomGenCode:TAAAAECH1sm
+1 SEX F
+1 FAMS @F75@
+0 @I207@ INDI
+1 NAME Eric Charles /Butterfield/
+2 GIVN Eric Charles
+2 SURN Butterfield
+1 REFN CustomGenCode:TAAAAECHA1sf
+1 SEX M
+1 FAMS @F76@
+0 @I208@ INDI
+1 NAME Gwendoline Florence /Whiting/
+2 GIVN Gwendoline Florence
+2 SURN Whiting
+1 REFN CustomGenCode:TAAAAECHA1sm
+1 SEX F
+1 FAMS @F76@
+0 @I209@ INDI
+1 NAME Fred /Nutton/
+2 GIVN Fred
+2 SURN Nutton
+1 REFN CustomGenCode:TAAAAECHB1sf
+1 SEX M
+1 FAMS @F77@
+0 @I210@ INDI
+1 NAME Ivy /Poulter/
+2 GIVN Ivy
+2 SURN Poulter
+1 REFN CustomGenCode:TAAAAECHB1sm
+1 SEX F
+1 FAMS @F77@
+0 @I211@ INDI
+1 NAME George /Lidster/
+2 GIVN George
+2 SURN Lidster
+1 REFN CustomGenCode:TAAAAECHC1sf
+1 SEX M
+1 FAMS @F78@
+0 @I212@ INDI
+1 NAME Audrey /Ward/
+2 GIVN Audrey
+2 SURN Ward
+1 REFN CustomGenCode:TAAAAECHC1sm
+1 SEX F
+1 FAMS @F78@
+0 @I213@ INDI
+1 NAME George /Murray/
+2 GIVN George
+2 SURN Murray
+1 REFN CustomGenCode:TAAAAECI1sf
+1 SEX M
+1 FAMS @F79@
+0 @I214@ INDI
+1 NAME Annie Maria /Leadbeater/
+2 GIVN Annie Maria
+2 SURN Leadbeater
+1 REFN CustomGenCode:TAAAAECI1sm
+1 SEX F
+1 FAMS @F79@
+0 @I215@ INDI
+1 NAME George Roland /Seddon/
+2 GIVN George Roland
+2 SURN Seddon
+1 REFN CustomGenCode:TAAAAECIA1sf
+1 SEX M
+1 FAMS @F80@
+0 @I216@ INDI
+1 NAME Patricia /Winchester/
+2 GIVN Patricia
+2 SURN Winchester
+1 REFN CustomGenCode:TAAAAECIA1sm
+1 SEX F
+1 FAMS @F80@
+0 @I217@ INDI
+1 NAME Patrick /Gavan/
+2 GIVN Patrick
+2 SURN Gavan
+1 REFN CustomGenCode:TAAAAECIB1sf
+1 SEX M
+1 FAMS @F81@
+0 @I218@ INDI
+1 NAME Mary /Delcolli/
+2 GIVN Mary
+2 SURN Delcolli
+1 REFN CustomGenCode:TAAAAECIB1sm
+1 SEX F
+1 FAMS @F81@
+0 @I219@ INDI
+1 NAME Donald Ian /Macaskill/
+2 GIVN Donald Ian
+2 SURN Macaskill
+1 REFN CustomGenCode:TAAAAECIC1sf
+1 SEX M
+1 FAMS @F82@
+0 @I220@ INDI
+1 NAME Marian Florence /Smith/
+2 GIVN Marian Florence
+2 SURN Smith
+1 REFN CustomGenCode:TAAAAECIC1sm
+1 SEX F
+1 FAMS @F82@
+0 @I221@ INDI
+1 NAME Henryk /Pasierowski/
+2 GIVN Henryk
+2 SURN Pasierowski
+1 REFN CustomGenCode:TAAAAECID1sf
+1 SEX M
+1 FAMS @F83@
+0 @I222@ INDI
+1 NAME Emilia /Gabrys/
+2 GIVN Emilia
+2 SURN Gabrys
+1 REFN CustomGenCode:TAAAAECID1sm
+1 SEX F
+1 FAMS @F83@
+0 @I223@ INDI
+1 NAME Albert Edward /Flower/
+2 GIVN Albert Edward
+2 SURN Flower
+1 REFN CustomGenCode:TAAAAECJ1sf
+1 SEX M
+1 FAMS @F84@
+0 @I224@ INDI
+1 NAME Florence /Muscroft/
+2 GIVN Florence
+2 SURN Muscroft
+1 REFN CustomGenCode:TAAAAECJ1sm
+1 SEX F
+1 FAMS @F84@
+0 @I225@ INDI
+1 NAME John /Joyce/
+2 GIVN John
+2 SURN Joyce
+1 REFN CustomGenCode:TAAAAECK1sf
+1 SEX M
+1 FAMS @F85@
+0 @I226@ INDI
+1 NAME Doris /Yeadon/
+2 GIVN Doris
+2 SURN Yeadon
+1 REFN CustomGenCode:TAAAAECK1sm
+1 SEX F
+1 FAMS @F85@
+0 @I227@ INDI
+1 NAME Peter George Dennis /Walke/
+2 GIVN Peter George Dennis
+2 SURN Walke
+1 REFN CustomGenCode:TAAAAECKC1sf
+1 SEX M
+1 FAMS @F86@
+0 @I228@ INDI
+1 NAME Jacqueline Therese /Bryning/
+2 GIVN Jacqueline Therese
+2 SURN Bryning
+1 REFN CustomGenCode:TAAAAECKC1sm
+1 SEX F
+1 FAMS @F86@
+0 @I229@ INDI
+1 NAME John /Walker/
+2 GIVN John
+2 SURN Walker
+1 REFN CustomGenCode:TAAAAECKD1sf
+1 SEX M
+1 FAMS @F87@
+0 @I230@ INDI
+1 NAME Margaret Ruth /Alderson/
+2 GIVN Margaret Ruth
+2 SURN Alderson
+1 REFN CustomGenCode:TAAAAECKD1sm
+1 SEX F
+1 FAMS @F87@
+0 @I231@ INDI
+1 NAME Michael /Rudd/
+2 GIVN Michael
+2 SURN Rudd
+1 REFN CustomGenCode:TAAAAEFA1sf
+1 SEX M
+1 FAMS @F88@
+0 @I232@ INDI
+1 NAME /Tuxworth/
+2 SURN Tuxworth
+1 REFN CustomGenCode:TAuf
+1 SEX M
+1 FAMS @F89@
+0 @I233@ INDI
+1 NAME /Spaul/
+2 SURN Spaul
+1 REFN CustomGenCode:TAAAAECDA2auf
+1 SEX M
+1 FAMS @F90@
+0 @I234@ INDI
+1 NAME Daniel Lee /Parke/
+2 GIVN Daniel Lee
+2 SURN Parke
+1 REFN CustomGenCode:TAAAAECFC2auf
+1 SEX M
+1 FAMS @F91@
+0 @I235@ INDI
+1 NAME Christian /Cleveland-peck/
+2 GIVN Christian
+2 SURN Cleveland-peck
+1 REFN CustomGenCode:TAAAAECIDauf
+1 SEX M
+1 FAMS @F92@
+0 @F0@ FAM
+1 HUSB @I0@
+1 WIFE @I1@
+1 CHIL @I2@
+1 CHIL @I161@
+0 @F1@ FAM
+1 HUSB @I2@
+1 WIFE @I3@
+1 CHIL @I4@
+1 MARR
+2 DATE 28 Apr 1806
+2 PLAC Burgh le Marsh, Lincolnchire, Eng.
+1 NOTE Tuxford, William, Sr changed his name from Tuxworth to Tuxford
+0 @F2@ FAM
+1 HUSB @I4@
+1 WIFE @I5@
+1 CHIL @I6@
+1 CHIL @I158@
+1 MARR
+2 DATE 23 Apr 1833
+2 PLAC St. Swithin's, Lincoln, Lincolnshire, Eng.
+0 @F3@ FAM
+1 HUSB @I6@
+1 WIFE @I7@
+1 CHIL @I8@
+1 CHIL @I9@
+1 CHIL @I10@
+1 CHIL @I11@
+1 CHIL @I12@
+0 @F4@ FAM
+1 HUSB @I13@
+1 WIFE @I12@
+1 CHIL @I14@
+1 CHIL @I17@
+1 CHIL @I19@
+1 CHIL @I147@
+1 CHIL @I149@
+1 CHIL @I153@
+0 @F5@ FAM
+1 HUSB @I14@
+1 WIFE @I15@
+1 CHIL @I16@
+0 @F6@ FAM
+1 HUSB @I17@
+1 WIFE @I18@
+0 @F7@ FAM
+1 HUSB @I20@
+1 WIFE @I19@
+1 CHIL @I21@
+1 CHIL @I27@
+1 CHIL @I28@
+1 CHIL @I36@
+1 CHIL @I51@
+1 CHIL @I70@
+1 CHIL @I93@
+1 CHIL @I95@
+1 CHIL @I112@
+1 CHIL @I130@
+1 CHIL @I132@
+1 MARR
+2 DATE 22 Apr 1915
+1 NOTE * Twins
+0 @F8@ FAM
+1 HUSB @I22@
+1 WIFE @I21@
+1 CHIL @I23@
+1 MARR
+2 DATE 6 Jun 1942
+0 @F9@ FAM
+1 HUSB @I23@
+1 WIFE @I24@
+1 CHIL @I25@
+1 CHIL @I26@
+1 MARR
+2 DATE 2 Mar 1985
+0 @F10@ FAM
+1 HUSB @I28@
+1 WIFE @I29@
+1 CHIL @I30@
+1 MARR
+2 DATE 1 Dec 1948
+2 PLAC St. Laurence Ch, Adwick-le-Street, Yorks, Eng.
+0 @F11@ FAM
+1 HUSB @I30@
+1 WIFE @I31@
+1 CHIL @I32@
+1 CHIL @I33@
+1 MARR
+2 DATE 4 Aug 1973
+2 PLAC Pentecostal Church, Doncaster, Yorks, Eng.
+1 DIV
+2 DATE 8 Dec 1987
+2 PLAC Doncaster, Yorks, Eng.
+0 @F12@ FAM
+1 HUSB @I30@
+1 WIFE @I34@
+1 CHIL @I35@
+1 MARR
+2 DATE 21 Jul 1991
+2 PLAC United Reformed Ch. Hallgate, Yorks. Eng.
+0 @F13@ FAM
+1 HUSB @I37@
+1 WIFE @I36@
+1 CHIL @I38@
+1 CHIL @I46@
+1 MARR
+2 DATE 23 May 1942
+2 PLAC Primitive Methodist, South Elmsall, Yorks. Eng.
+0 @F14@ FAM
+1 HUSB @I38@
+1 WIFE @I39@
+1 CHIL @I40@
+1 CHIL @I41@
+1 MARR
+2 DATE 19 Oct 1968
+2 PLAC , Convey Island, Essex, Eng.
+1 DIV
+2 DATE 1979
+0 @F15@ FAM
+1 HUSB @I38@
+1 WIFE @I42@
+1 MARR
+2 DATE 22 Sep 1984
+1 NOTE * Diana's children from a previous marriage.
+1 NOTE Technically unrelated child: Spaul, Fiona
+1 NOTE Technically unrelated child: Spaul, Debra Jane
+0 @F16@ FAM
+1 HUSB @I44@
+1 WIFE @I45@
+0 @F17@ FAM
+1 HUSB @I47@
+1 WIFE @I46@
+1 CHIL @I48@
+1 CHIL @I49@
+1 CHIL @I50@
+1 MARR
+2 DATE 1 Mar 1975
+2 PLAC Primitive Methodist, South Elmsall, Yorks. Eng.
+1 NOTE * Lived only about 6 months.
+0 @F18@ FAM
+1 HUSB @I52@
+1 WIFE @I51@
+1 CHIL @I53@
+1 CHIL @I54@
+1 CHIL @I58@
+1 CHIL @I65@
+1 MARR
+2 DATE 29 Apr 1944
+0 @F19@ FAM
+1 HUSB @I54@
+1 WIFE @I55@
+1 CHIL @I56@
+1 CHIL @I57@
+1 MARR
+2 DATE 19 Aug 1972
+0 @F20@ FAM
+1 HUSB @I59@
+1 WIFE @I58@
+1 CHIL @I60@
+1 CHIL @I63@
+1 MARR
+2 DATE 26 Jan 1974
+1 DIV
+2 DATE 1993
+1 NOTE * Twins
+0 @F21@ FAM
+1 HUSB @I61@
+1 WIFE @I60@
+1 CHIL @I62@
+0 @F22@ FAM
+1 HUSB @I64@
+1 WIFE @I58@
+0 @F23@ FAM
+1 HUSB @I66@
+1 WIFE @I65@
+1 MARR
+2 DATE 4 Aug 1979
+1 DIV
+2 DATE Aug 1984
+0 @F24@ FAM
+1 HUSB @I67@
+1 WIFE @I65@
+1 CHIL @I68@
+1 CHIL @I69@
+1 MARR
+2 DATE 17 Mar 1990
+0 @F25@ FAM
+1 HUSB @I71@
+1 WIFE @I70@
+1 CHIL @I72@
+1 CHIL @I76@
+1 CHIL @I77@
+1 CHIL @I83@
+1 CHIL @I87@
+1 CHIL @I92@
+1 MARR
+2 DATE 20 Apr 1945
+2 PLAC St. Margaret's, Horsforth, Yorkshire, Eng.
+0 @F26@ FAM
+1 HUSB @I73@
+1 WIFE @I72@
+1 CHIL @I74@
+1 CHIL @I75@
+1 MARR
+2 DATE 27 Sep 1967
+2 PLAC Lutheran Student Center, Ames, IA, USA
+0 @F27@ FAM
+1 HUSB @I77@
+1 WIFE @I78@
+1 CHIL @I79@
+1 CHIL @I80@
+1 MARR
+2 DATE 22 May 1976
+2 PLAC Catholic Church, Highland Park, IL, USA
+1 DIV
+2 DATE 26 Jun 1983
+0 @F28@ FAM
+1 HUSB @I77@
+1 WIFE @I81@
+1 MARR
+2 DATE 29 Mar 1991
+2 PLAC Court Street Methodist Ch. Rockford, IL, USA
+1 NOTE * JoAnne's daughter.
+1 NOTE Technically unrelated child: Parke, Amanda Mae
+0 @F29@ FAM
+1 HUSB @I83@
+1 WIFE @I84@
+1 CHIL @I85@
+1 CHIL @I86@
+1 MARR
+2 DATE 7 Jun 1980
+2 PLAC Elk Creek Lutheran Church, Elk Mound, WI, USA
+1 DIV
+2 DATE 2 Oct 1996
+2 PLAC Menomonie, WI, USA
+0 @F30@ FAM
+1 HUSB @I88@
+1 WIFE @I87@
+1 CHIL @I89@
+1 CHIL @I90@
+1 CHIL @I91@
+1 MARR
+2 DATE 14 Jun 1980
+2 PLAC Grace Lutheran Ch, Libertyville, IL, USA
+0 @F31@ FAM
+1 HUSB @I93@
+1 WIFE @I94@
+1 MARR
+2 DATE 14 Jun 1956
+0 @F32@ FAM
+1 HUSB @I95@
+1 WIFE @I96@
+1 CHIL @I97@
+1 CHIL @I101@
+1 CHIL @I106@
+1 CHIL @I110@
+1 CHIL @I111@
+1 MARR
+2 DATE 9 Mar 1957
+0 @F33@ FAM
+1 HUSB @I97@
+1 WIFE @I98@
+1 CHIL @I99@
+1 CHIL @I100@
+1 MARR
+2 DATE 1 Sep 1982
+0 @F34@ FAM
+1 HUSB @I101@
+1 WIFE @I102@
+1 CHIL @I103@
+1 CHIL @I104@
+1 CHIL @I105@
+1 MARR
+2 DATE 19 Aug 1978
+0 @F35@ FAM
+1 HUSB @I106@
+1 WIFE @I107@
+1 CHIL @I108@
+1 CHIL @I109@
+1 MARR
+2 DATE 10 Nov 1984
+0 @F36@ FAM
+1 HUSB @I112@
+1 WIFE @I113@
+1 CHIL @I114@
+1 CHIL @I119@
+1 CHIL @I123@
+1 CHIL @I126@
+1 MARR
+2 DATE 23 Jun 1956
+2 PLAC St. Margaret's, Horsforth, Yorkshire, Eng.
+0 @F37@ FAM
+1 HUSB @I114@
+1 WIFE @I115@
+1 CHIL @I116@
+1 CHIL @I117@
+1 CHIL @I118@
+1 MARR
+2 DATE 1 Nov 1980
+2 PLAC Holy Trinity Church, Wavertree,         , Eng.
+0 @F38@ FAM
+1 HUSB @I120@
+1 WIFE @I119@
+1 CHIL @I121@
+1 CHIL @I122@
+1 MARR
+2 DATE 6 May 1978
+2 PLAC , Manchester, Eng.
+1 DIV
+2 DATE 1988
+0 @F39@ FAM
+1 HUSB @I124@
+1 WIFE @I123@
+1 CHIL @I125@
+1 MARR
+2 DATE 14 Sep 1985
+2 PLAC Our Lady of Lourdes, Leeds, Yorks, Eng.
+0 @F40@ FAM
+1 HUSB @I126@
+1 WIFE @I127@
+1 CHIL @I129@
+1 NOTE * Barbara's daughter
+1 NOTE Technically unrelated child: Pasierowska, Rachael Lindsay
+0 @F41@ FAM
+1 HUSB @I130@
+1 WIFE @I131@
+1 MARR
+2 DATE 28 Jan 1978
+0 @F42@ FAM
+1 HUSB @I133@
+1 WIFE @I132@
+1 CHIL @I134@
+1 CHIL @I137@
+1 CHIL @I138@
+1 CHIL @I142@
+1 CHIL @I145@
+1 CHIL @I146@
+1 MARR
+2 DATE 25 Sep 1954
+2 PLAC Registry Office, Guiseley, Yorkshire, Eng.
+0 @F43@ FAM
+1 HUSB @I134@
+1 WIFE @I135@
+1 MARR
+2 DATE 6 Mar 1976
+2 PLAC Registry Office, Guiseley, Yorkshire, Eng.
+0 @F44@ FAM
+1 HUSB @I134@
+1 WIFE @I136@
+1 MARR
+2 DATE 23 Sep 1988
+0 @F45@ FAM
+1 HUSB @I139@
+1 WIFE @I138@
+1 CHIL @I140@
+1 CHIL @I141@
+1 MARR
+2 DATE 29 Mar 1986
+2 PLAC Registry Office, Leeds, Yorks. Eng.
+0 @F46@ FAM
+1 HUSB @I143@
+1 WIFE @I142@
+1 CHIL @I144@
+1 MARR
+2 DATE 30 Jan 1988
+2 PLAC Kingdom Hall, Bramley, nr. Leeds, Eng.
+0 @F47@ FAM
+1 HUSB @I147@
+1 WIFE @I148@
+0 @F48@ FAM
+1 HUSB @I149@
+1 WIFE @I150@
+1 CHIL @I151@
+0 @F49@ FAM
+1 HUSB @I151@
+1 WIFE @I152@
+0 @F50@ FAM
+1 HUSB @I153@
+1 WIFE @I154@
+1 CHIL @I155@
+1 CHIL @I157@
+0 @F51@ FAM
+1 HUSB @I155@
+1 WIFE @I156@
+1 MARR
+2 DATE 20 Dec 1959
+0 @F52@ FAM
+1 HUSB @I158@
+1 WIFE @I159@
+1 CHIL @I160@
+0 @F53@ FAM
+1 HUSB @I162@
+1 WIFE @I163@
+1 CHIL @I5@
+0 @F54@ FAM
+1 HUSB @I164@
+1 WIFE @I165@
+1 CHIL @I20@
+0 @F55@ FAM
+1 HUSB @I166@
+1 WIFE @I167@
+1 CHIL @I24@
+0 @F56@ FAM
+1 HUSB @I168@
+1 WIFE @I169@
+1 CHIL @I29@
+0 @F57@ FAM
+1 HUSB @I170@
+1 WIFE @I171@
+1 CHIL @I31@
+0 @F58@ FAM
+1 HUSB @I172@
+1 WIFE @I173@
+1 CHIL @I34@
+0 @F59@ FAM
+1 HUSB @I38@
+1 WIFE @I174@
+1 CHIL @I37@
+0 @F60@ FAM
+1 HUSB @I175@
+1 WIFE @I176@
+1 CHIL @I39@
+0 @F61@ FAM
+1 HUSB @I177@
+1 WIFE @I178@
+1 CHIL @I42@
+0 @F62@ FAM
+1 HUSB @I179@
+1 WIFE @I180@
+1 CHIL @I47@
+0 @F63@ FAM
+1 HUSB @I181@
+1 WIFE @I182@
+1 CHIL @I52@
+0 @F64@ FAM
+1 HUSB @I183@
+1 WIFE @I184@
+1 CHIL @I55@
+0 @F65@ FAM
+1 HUSB @I185@
+1 WIFE @I186@
+1 CHIL @I59@
+0 @F66@ FAM
+1 HUSB @I187@
+1 WIFE @I188@
+1 CHIL @I66@
+0 @F67@ FAM
+1 HUSB @I189@
+1 WIFE @I190@
+1 CHIL @I67@
+0 @F68@ FAM
+1 HUSB @I191@
+1 WIFE @I192@
+1 CHIL @I71@
+0 @F69@ FAM
+1 HUSB @I193@
+1 WIFE @I194@
+1 CHIL @I73@
+0 @F70@ FAM
+1 HUSB @I195@
+1 WIFE @I196@
+1 CHIL @I78@
+0 @F71@ FAM
+1 HUSB @I197@
+1 WIFE @I198@
+1 CHIL @I81@
+0 @F72@ FAM
+1 HUSB @I199@
+1 WIFE @I200@
+1 CHIL @I84@
+0 @F73@ FAM
+1 HUSB @I201@
+1 WIFE @I202@
+1 CHIL @I88@
+0 @F74@ FAM
+1 HUSB @I203@
+1 WIFE @I204@
+1 CHIL @I94@
+0 @F75@ FAM
+1 HUSB @I205@
+1 WIFE @I206@
+1 CHIL @I96@
+0 @F76@ FAM
+1 HUSB @I207@
+1 WIFE @I208@
+1 CHIL @I98@
+0 @F77@ FAM
+1 HUSB @I209@
+1 WIFE @I210@
+1 CHIL @I102@
+0 @F78@ FAM
+1 HUSB @I211@
+1 WIFE @I212@
+1 CHIL @I107@
+0 @F79@ FAM
+1 HUSB @I213@
+1 WIFE @I214@
+1 CHIL @I113@
+0 @F80@ FAM
+1 HUSB @I215@
+1 WIFE @I216@
+1 CHIL @I115@
+0 @F81@ FAM
+1 HUSB @I217@
+1 WIFE @I218@
+1 CHIL @I120@
+0 @F82@ FAM
+1 HUSB @I219@
+1 WIFE @I220@
+1 CHIL @I124@
+0 @F83@ FAM
+1 HUSB @I221@
+1 WIFE @I222@
+1 CHIL @I127@
+0 @F84@ FAM
+1 HUSB @I223@
+1 WIFE @I224@
+1 CHIL @I131@
+0 @F85@ FAM
+1 HUSB @I225@
+1 WIFE @I226@
+1 CHIL @I133@
+0 @F86@ FAM
+1 HUSB @I227@
+1 WIFE @I228@
+1 CHIL @I139@
+0 @F87@ FAM
+1 HUSB @I229@
+1 WIFE @I230@
+1 CHIL @I143@
+0 @F88@ FAM
+1 HUSB @I231@
+1 CHIL @I156@
+0 @F89@ FAM
+1 HUSB @I232@
+0 @F90@ FAM
+1 HUSB @I233@
+1 WIFE @I42@
+1 CHIL @I43@
+0 @F91@ FAM
+1 HUSB @I234@
+1 WIFE @I81@
+1 CHIL @I82@
+0 @F92@ FAM
+1 HUSB @I235@
+1 WIFE @I127@
+1 CHIL @I128@
+0 TRLR

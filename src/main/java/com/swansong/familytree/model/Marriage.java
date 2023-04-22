@@ -80,7 +80,9 @@ public class Marriage {
                     "MABABC", //ignore ln#121 Kracht, Kelly Sue. She is correct.
                     "MAGA2a",//ignore ln#459 Saathoff, Rita Mae. She is correct (I think).
                     "MABCFE1",//ignore ln#199 Anliker, Jeff. He is correct
-                    "MABHA1"//ignore ln#270 Covey, Jane Elaine Schafroth. She is correct (I think).
+                    "MABHA1",//ignore ln#270 Covey, Jane Elaine Schafroth. She is correct (I think).
+                    "HAABF1A1",
+                    "MA1AAB"
 
             );
             if (getWife() == null || getHusband() == null || // it often gets messed up when a parent is missing... often it is kids from other marriages

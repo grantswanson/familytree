@@ -113,8 +113,9 @@ public class Name {
         } else if (!suffix.equalsIgnoreCase(n2.suffix)) {
             if (!suffix.equalsIgnoreCase("Jr") && !n2.suffix.equalsIgnoreCase("Sr") ||
                     !n2.suffix.equalsIgnoreCase("Jr") && !suffix.equalsIgnoreCase("Sr")) {
-                System.out.println("Warning: The two names match the first and last names, but NOT the suffix. Name1:"
-                        + this + " Name2:" + n2);
+                System.out.println("Warning: The two names match the first and last names, but NOT the suffix. " +
+                        "\n Name1:" + this +
+                        "\n Name2:" + n2);
             }
             return false;
         } else {

@@ -108,7 +108,7 @@ public class Marriage {
 
     private static String formattedChildString(Person child) {
         return String.format("#%d %s %s", child.getSourceRow().getNumber(), child.getGenCode(),
-                child.getName().getFirstNames() + ", ");
+                child.getName().getFirstNames() + " " + child.getName().getSurName() + " " + child.getName().getSuffix() + ", ");
     }
 
     public List<Person> getChildrenList() {

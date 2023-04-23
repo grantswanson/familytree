@@ -60,7 +60,8 @@ public class PersonMap {
     public static Person getPersonByGenCodeOrRawName(String genCode, String rawName) {
         Person person = individualMapByGenCode.get(genCode);
         if (person == null && rawName != null && !rawName.isBlank() &&
-                !Name.isOnlySurname(rawName) && Name.hasSurname(rawName)) {
+                !Name.isOnlySurname(rawName) && (Name.hasSurname(rawName)
+                || genCode.equals("PACA1sm"))) { // Kersti="PACA1sm" HACK because a Kersti married her cousin
             NameKey nameKey = Name.parseFullName(rawName).toNameKey();
             person = individualMapByName.get(nameKey.toString());
         }

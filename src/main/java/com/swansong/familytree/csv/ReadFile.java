@@ -53,7 +53,7 @@ public class ReadFile {
                     .number(i)
                     .updateDate(values[0])
                     .name(values[1])
-                    .genCode(values[2])
+                    .genCode(values[2].replaceAll(" ", ""))
                     .dob(values[3])
                     .pob(values[4])
                     .baptismDate(values[5])
